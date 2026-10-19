@@ -48,10 +48,12 @@
 | 公共 Common | skill | [toponym-triangulation](../.claude/skills/toponym-triangulation/SKILL.md) | 地名交叉定位 / place triangulation |
 | 公共 Common | skill | [biogeo-identification](../.claude/skills/biogeo-identification/SKILL.md) | 生物鑑定與分佈 / taxa and ranges |
 | 公共 Common | skill | [hypothesis-adjudication](../.claude/skills/hypothesis-adjudication/SKILL.md) | 證據分級、合計、定級 / grading, tally, verdict |
+| 公共 Common | skill | [description-first-matching](../.claude/skills/description-first-matching/SKILL.md) | 方法 G：全球前提、描述優先、真實世界庫、排名 / Method G: global, description-first, ranked |
 | 山海經 SHJ | agent | [shj-lead](../.claude/agents/shj-lead.md) | 子項目主持 / sub-project lead |
 | 山海經 SHJ | agent | [shj-route-reconstructor](../.claude/agents/shj-route-reconstructor.md) | 山經路線與水系 / itineraries and rivers |
 | 山海經 SHJ | skill | [shj-itinerary-reconstruction](../.claude/skills/shj-itinerary-reconstruction/SKILL.md) | S2–S4 |
 | 山海經 SHJ | skill | [shj-hypothesis-case](../.claude/skills/shj-hypothesis-case/SKILL.md) | S0–S9 卷宗 / dossiers |
+| 山海經 SHJ | skill | [shj-global-locate](../.claude/skills/shj-global-locate/SKILL.md) | 方法 G 定位與動物地圖 / Method G locate and animal map |
 
 ## 4. 抽取紀錄：從子項目到公共層 / Extraction record: sub-project → common layer
 

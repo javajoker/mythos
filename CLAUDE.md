@@ -21,13 +21,15 @@ Mythos tests ancient texts, myths and legends as possible records of real observ
 - `reference/<corpus>/`: sources, `data/entries.jsonl`, `text/*.md` (no interpretation)
 - `projects/<corpus>/`: spec, checklist, tasks, data model, `data/derived/`, `hypotheses/H-*/dossier.md`, `findings/F-*`
 - `tools/<corpus>/`: standard-library Python scripts; run from the repo root with `python3 -I`
-- `.claude/agents`, `.claude/skills`: common layer (textual-critic, geo-triangulator, naturalist, adjudicator, devils-advocate; source-ingest, witness-collation, toponym-triangulation, biogeo-identification, hypothesis-adjudication) plus Shanhaijing layer (shj-lead, shj-route-reconstructor; shj-itinerary-reconstruction, shj-hypothesis-case)
+- `.claude/agents`, `.claude/skills`: common layer (textual-critic, geo-triangulator, naturalist, adjudicator, devils-advocate; source-ingest, witness-collation, toponym-triangulation, biogeo-identification, hypothesis-adjudication, description-first-matching) plus Shanhaijing layer (shj-lead, shj-route-reconstructor; shj-itinerary-reconstruction, shj-hypothesis-case, shj-global-locate)
 
 ## Commands
 ```bash
 python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/extract_routes.py
 python3 -I tools/shj/chain_fit.py --section 西次三經 --anchor 昆侖之丘 --lat <lat> --lon <lon>
 python3 -I tools/shj/cn_numerals.py   # self-test
+python3 -I tools/shj/creatures.py && python3 -I tools/shj/animal_map.py   # Method G animal map
+python3 -I tools/shj/geo_match.py --target <regex> --entries <IDs> --pairs   # Method G place ranking
 ```
 
 ## Languages
