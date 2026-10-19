@@ -30,6 +30,7 @@ python3 -I tools/shj/chain_fit.py --section 西次三經 --anchor 昆侖之丘 -
 python3 -I tools/shj/cn_numerals.py   # self-test
 python3 -I tools/shj/creatures.py && python3 -I tools/shj/animal_map.py   # Method G animal map
 python3 -I tools/shj/geo_match.py --target <regex> --entries <IDs> --pairs   # Method G place ranking
+python3 -I tools/shj/region_match.py   # Method G whole-book global map (all sections vs 31 regions)
 ```
 
 ## Languages

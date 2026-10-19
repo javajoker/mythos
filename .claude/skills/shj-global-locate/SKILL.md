@@ -13,6 +13,12 @@ python3 -I tools/shj/creatures.py && python3 -I tools/shj/animal_map.py
 ```
 讀 `projects/shanhaijing/data/derived/animal-map.md`，了解相關篇段的動物投票。/ Read the animal map for the relevant sections.
 
+## 1b. 全書對照 / Whole-book mapping
+```bash
+python3 -I tools/shj/region_match.py
+```
+讀 `global-map.md`（每篇對 31 個地區的排名與證據）與 `peoples-map.md`。要問「某篇在哪裡」時，先看這裡；要問具體地點（例如崑崙）時，再用下面的地點層級比對。/ Read the whole-book map first for "where is section X"; use the locus-level match below for a specific place.
+
 ## 2. 確定主語段落 / Fix the subject passages
 - 用名稱的所有寫法搜尋（例如 崑崙|昆侖|崐崘），**逐段判斷**該地是不是主語。/ Search all spellings and decide passage by passage whether the place is the subject.
 - 同一描述塊中不再重複地名的相鄰段落，要明確列入（例如海內西經的四隅出水、開明諸段）。/ Add adjacent paragraphs of the same description block explicitly.

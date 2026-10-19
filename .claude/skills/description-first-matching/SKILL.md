@@ -21,10 +21,14 @@ description: Corpus-agnostic "Method G" for locating places and identifying crea
 5. **穩健性 / Robustness**：(a) 自然／人工特徵分組；(b) 逐一移除特徵（jackknife），報告領先者出現頻率；(c) 同一水系的複合候選（標為事後分析）。/ Natural vs built groups; drop-one jackknife with leader frequency; same-river composites (post-hoc).
 6. **結論 / Conclusion**：以排名與領先差距定級（G-強／中／弱），並寫出下一步要先登記的新預測。/ Grade by ranking and margin; pre-register the next predictions.
 
+## 地區層級 / Region level
+整部文本的對照用地區（覆蓋全部大陸）而不是單點；未知值以基準率期望計分（w·(2p − 1)），避免資料詳略造成的偏差；描述性族名只在作主語時計分。/ For whole-text mapping use regions covering every continent; score unknowns at base-rate expectation; count descriptive ethnonyms only as subjects.
+
 ## 必報的偏差 / Biases to report every time
 - 庫的組成偏差：某水系的候選越多，複合候選的最高分越容易偏高。/ Knowledge-base composition: more loci on one river system inflate its best composite.
 - 未知值在複合中會抵消矛盾。/ Unknowns cancel contradictions inside composites.
 - 單一高權重特徵（例如只有一兩處為 T 的性質）可能左右排名，見 jackknife。/ A single rare, heavy feature can decide the ranking; see the jackknife.
+- 資料詳略：較熟悉的地區有較少未知值。/ Documentation density: better-known regions have fewer unknowns.
 
 ## 山海經實作 / Shanhaijing implementation
 `tools/shj/cues.py`、`creatures.py`、`animal_map.py`、`geo_match.py`；資料 `projects/shanhaijing/data/world/`；範例 `projects/shanhaijing/hypotheses/H-0006/`。

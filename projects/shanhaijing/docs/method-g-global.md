@@ -75,7 +75,22 @@ N_known counts candidates with a definite T/F value for t, N_true those with T. 
 | `projects/shanhaijing/data/world/loci.jsonl` | 全球候選地點：座標、地區代碼、地理性質 T/F/?、來源 / global candidate loci: coordinates, region codes, properties T/F/?, sources |
 | `projects/shanhaijing/data/world/README.md` | 標籤定義、地區代碼、距離門檻 / tag definitions, region codes, distance thresholds |
 
-## 6. 與方法 A 的關係 / Relation to Method A
+## 6. G4：全書全球對照 / G4: whole-book global mapping
+
+| 項目 / Item | 內容 / Content |
+|---|---|
+| 單位 / Units | 18 卷的每一篇（山經 26 篇＋海經、大荒經、海內經 13 卷）＋具名地點（崑崙、流沙、赤水、黑水、弱水、西王母、湯谷扶桑、蓬萊、不周）/ every section plus key named places |
+| 候選 / Candidates | 31 個地區，覆蓋全部有人居住的大陸（`data/world/regions.jsonl`）/ 31 regions covering every inhabited continent |
+| 特徵 / Features | 礦產、植物、地形、習俗（`region-properties.jsonl`，共 36 項）＋動物地圖中被接受的比對 / minerals, plants, terrain, customs (36) plus accepted animal matches |
+| 未知值 / Unknowns | 以基準率期望計分：w·(2p − 1)，p = 該性質為 T 的已知地區比例。這樣資料較詳的地區不會因此得利 / scored at base-rate expectation so better-documented regions gain nothing |
+| 習俗線索 / Custom cues | 描述性族名（羽民、黑齒、毛民……）只在該族為主語時計分，作為方位參照時不計 / descriptive ethnonyms count only when that people is the subject |
+| 只計出現 / Presence only | 文本沒提到不算證據 / silence is never evidence |
+| 輸出 / Outputs | `global-map.md`（全部排名、每單位的假設候選與證據、jackknife、方位參考）、`global-map.svg`、`peoples-map.md` |
+| 工具 / Tool | `python3 -I tools/shj/region_match.py` |
+
+曾試過「均勻隨機特徵的虛無基準」並放棄：它會讓許多性質被標為 F 的地區（如西伯利亞），在特徵對其只是未知時反而得分。/ A uniform random-feature null baseline was tried and rejected: it rewarded regions marked absent for many properties when a section's features were merely unknown for them.
+
+## 7. 與方法 A 的關係 / Relation to Method A
 
 方法 A 先在書內建立結構（水系、里程），再找真實世界；方法 G 先從真實世界的動物與地理出發，再到書中找證據。兩者的結論若一致，可信度提高；若不一致，兩個結論都保留，並在報告中說明差異的原因。
 Method A builds structure inside the book first (rivers, distances) and then looks to the world; Method G starts from real animals and geography and then searches the book. Agreement raises confidence; disagreement is kept and explained in the report.
