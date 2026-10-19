@@ -34,7 +34,7 @@ The Mythos "product" has three parts: a method (entity-graph cross-validation), 
 - **R4 Knowledge graph**: every entity and relation of the whole book, with a coverage audit at zero unexplained misses. ✅
 - **R5 World base and candidates**: worldwide regions, waters, animals and cultures; multiple candidates per entity. ✅
 - **R6 Cross-validation**: joint solution with confidence, tiers and alternatives; deterministic. ✅
-- **R7 Deliverable**: per-book, per-paragraph mapping with a completeness check. ✅ (draft v2)
+- **R7 Deliverable**: per-book, per-paragraph mapping with a completeness check. ✅ (draft v3)
 - **R8 Agents and skills**: common layer plus the Shanhaijing lead and runbook. ✅
 
 ### 3.2 Should have (P1)
@@ -77,7 +77,7 @@ The Mythos "product" has three parts: a method (entity-graph cross-validation), 
 | M3 | World base, candidates, cross-validation | ✅ |
 | M4 | Deliverable draft v1 | ✅ (withdrawn after review) |
 | M5 | Base balance, sensitivity, red team → draft v2 | ✅ |
-| M5b | Spatial relations, reading rules, rival-configuration tests → draft v3 | todo |
+| M5b | Spatial relations, reading rules, rival-configuration tests → draft v3 | ✅ |
 | M6 | A second corpus on the common layer | todo |
 
 ## 7. Risks

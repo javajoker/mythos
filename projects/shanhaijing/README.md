@@ -5,7 +5,7 @@
 
 ## 交付 / Deliverable
 
-**[初稿 v2 / draft v2](deliverables/draft-v2/README.md)**：全書 869 段、4,004 次實體提及逐條對照（[逐段](deliverables/draft-v2/book/)、[全部實體](deliverables/draft-v2/entities.md)、[完整性檢查 PASS](deliverables/draft-v2/coverage.md)）。
+**[初稿 v3 / draft v3](deliverables/draft-v3/README.md)**：全書 869 段、4,004 次實體提及逐條對照（[逐段](deliverables/draft-v3/book/)、[全部實體](deliverables/draft-v3/entities.md)、[完整性檢查 PASS](deliverables/draft-v3/coverage.md)）。
 Item-by-item mapping of all 869 paragraphs and 4,004 entity mentions.
 
 ## 文檔 / Documents
@@ -25,14 +25,15 @@ Item-by-item mapping of all 869 paragraphs and 4,004 entity mentions.
 ## 目前狀態 / Current state (2026-10-19)
 
 - ✅ 文本層：三個見證本、869 段、明成化本為序的工作文本、2,021 處異文的首輪分類 / text layer
-- ✅ 知識圖譜：1,941 個實體、2,725 條關係；覆蓋檢查 0 / 0 / knowledge graph with a passing coverage audit
-- ✅ 全球候選（支流已平衡）與交叉驗證：已對應 973 個（高 1、中 34、低 171、暫定 767）/ mapped 973 on the balanced base
+- ✅ 知識圖譜：1,943 個實體、2,741 條關係；覆蓋檢查 0 / 0 / knowledge graph with a passing coverage audit
+- ✅ 全球候選與交叉驗證：已對應 999 個（高 2、中 24、低 131、暫定 842）/ mapped 999
 - ✅ 紅隊審查 R1（[red-team.md](docs/red-team.md)）：庫的偏差、抽取錯誤、權重敏感度、誘餌 / red-team review R1
-- ✅ 初稿 v2（取代 v1）/ draft v2 (supersedes v1)
-- ⏳ 下一步：補抽空間關係（T-E06）；新的解讀規則等待決定（T-X05）/ next: spatial relations (T-E06); new reading rules pending a decision (T-X05)
+- ✅ 解讀規則 R1–R7、空間句式、新候選、篇段掃描與假說檢驗；紅隊審查 R2 / reading rules, spatial clauses, new candidates, section scan and hypothesis tests; review R2
+- ✅ 初稿 v3（取代 v2）/ draft v3 (supersedes v2)
+- ⏳ 下一步：同名誤併（T-E05）、R1 的約束（T-X09）、更細的地點（T-C10）、求解器收斂（T-X03）/ next: homonyms, an R1 constraint, finer places, convergence
 
-**主要結果 / Main results**：v1 的「河 = 黃河」「山經在黃河、渭河流域」已撤回（真實世界庫只為中國河流列出支流）。平衡後，河流的對應全部暫定；可引用的（可信度 ≥ 0.3 且 16 個權重變體中 ≥ 14 個不變）只有 19 個，多為描述特別的動物，加上毛民 → 阿伊努與中國境內少數山。詳見 [draft v2](deliverables/draft-v2/README.md)。
-v1's 河 = Yellow River and Yellow/Wei-basin results are withdrawn (base bias). After balancing, all rivers are tentative; 19 mappings are cite-able (≥ 0.3 and robust in ≥ 14/16 weight variants), mostly distinctive creatures, plus 毛民 → Ainu and a few mountains in China.
+**主要結果 / Main results**：使用者的「西次一、二、三經 = 哈拉帕、蘇美、埃及」在目前的證據下不被支持（完整重解 −40.8，低於中國、北美誘餌與衣索比亞組態）；崑崙之丘一段本身與埃及相容。可引用的對應 20 個，多為描述特別的動物，加上毛民 → 阿伊努與中國境內少數山；河流多為暫定。詳見 [draft v3](deliverables/draft-v3/README.md) 與 [hypotheses](deliverables/draft-v3/hypotheses.md)。
+The Harappa–Sumer–Egypt reading of the West sections is not supported (−40.8 in a full re-solve); the Kunlun paragraph alone is compatible with Egypt. 20 mappings are cite-able; rivers are mostly tentative.
 
 ## 重現 / Reproduce
 
@@ -41,8 +42,9 @@ python3 -I tools/shj/fetch_sources.py   # 只在需要重新下載見證本時 /
 python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/align_witness.py
 python3 -I tools/shj/classify_variants.py && python3 -I tools/shj/extract_routes.py
 python3 -I tools/shj/kg_extract.py && python3 -I tools/shj/kg_candidates.py
-python3 -I tools/shj/kg_crossval.py     # 約 11 分鐘 / about 11 minutes
-python3 -I tools/shj/kg_sensitivity.py  # 權重敏感度，約 30 分鐘 / weight sensitivity, about 30 minutes
+python3 -I tools/shj/kg_crossval.py     # 約 17 分鐘 / about 17 minutes
+python3 -I tools/shj/kg_sections.py     # 篇段掃描與假說，約 1.5 小時 / section scan and hypotheses, about 1.5 hours
+python3 -I tools/shj/kg_sensitivity.py  # 權重敏感度，約 50 分鐘 / weight sensitivity, about 50 minutes
 python3 -I tools/shj/kg_deliver.py
 ```
 

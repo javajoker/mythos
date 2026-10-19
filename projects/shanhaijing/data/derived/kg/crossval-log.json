@@ -1,16 +1,16 @@
 {
- "factors": 1377,
+ "factors": 1390,
  "variables": 1434,
- "best_energy": 846.1,
+ "best_energy": 897.4,
  "chain_energies": [
-  824.8,
-  824.5,
-  819.5,
-  832.1,
-  822.6,
-  846.1
+  889.6,
+  897.4,
+  866.9,
+  880.9,
+  869.6,
+  883.2
  ],
- "consensus_energy": 846.1,
+ "consensus_energy": 897.4,
  "samples": 30,
  "restarts": 12,
  "drop": 0.2,
@@ -28,6 +28,12 @@
   "next_miss": -0.3,
   "bearing_scale": 1.0,
   "creature_scale": 1.0,
-  "uniq": 2.0
+  "uniq": 2.0,
+  "map_view": 1.0,
+  "flow_rev": 1.5,
+  "front_east": 1.0,
+  "near_hit": 0.3,
+  "near_adj": 0.1,
+  "near_miss": -0.2
  }
 }

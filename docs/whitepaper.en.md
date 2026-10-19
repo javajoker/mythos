@@ -33,12 +33,13 @@ Distances and bearings are kept only as a small-weight reference; the relations 
 - **World data are open**: river networks, species ranges and archaeological cultures can be encoded as a real-world base.
 - **AI agents** can carry out exhaustive extraction and checking under a strict protocol, and every step can be written as a deterministic script.
 
-## 4. First results (Shanhaijing draft v2)
+## 4. First results (Shanhaijing draft v3)
 
-- **Nothing missed**: all 869 paragraphs and 4,004 entity mentions are mapped or explained ([deliverable](../projects/shanhaijing/deliverables/draft-v2/README.md)).
-- **A clear result can come from a biased base.** Draft v1 placed the Mountain Classics in the Yellow and Wei basins and mapped 河 to the Yellow River. The red team found that only Chinese rivers had tributaries listed in the world base. After listing tributaries worldwide by one rule, every river mapping became tentative, and v1's headline results were withdrawn ([review](../projects/shanhaijing/docs/red-team.md)).
-- **What survives**: 19 mappings are confident and robust to weight changes, mostly distinctive creatures, plus 毛民 → Ainu and a few mountains in China. River topology alone fits many real river systems about equally well.
-- **The common digital text is not the original**: it silently relocates paragraphs following modern editors; collation against the 1470 edition flags each one ([F-0001](../projects/shanhaijing/findings/F-0001-base-text-modern-relocations.md)).
+- **Nothing missed**: all 869 paragraphs and 4,004 entity mentions are mapped or explained ([deliverable](../projects/shanhaijing/deliverables/draft-v3/README.md)).
+- **A clear result can come from a biased base.** Draft v1's "Yellow River" result depended on only Chinese rivers having tributaries listed, and was withdrawn after review ([red team](../projects/shanhaijing/docs/red-team.md)).
+- **Readings are tested, not adopted.** The initiator's reading rules (waters are water bodies, mountains are outlooks, time depth, map view, orientation) apply to every candidate. A proposed reading (the West sections as Harappa, Sumer and Egypt) is held as a configuration and compared with rivals: it scores below China, a North America decoy and an Ethiopia rival, while its Kunlun paragraph alone is compatible with Egypt.
+- **What survives**: 20 mappings are confident and robust, mostly distinctive creatures, plus 毛民 → Ainu and a few mountains in China.
+- **The common digital text is not the original** ([F-0001](../projects/shanhaijing/findings/F-0001-base-text-modern-relocations.md)).
 
 ## 5. Scope and roadmap
 

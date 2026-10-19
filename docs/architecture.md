@@ -31,7 +31,7 @@
 | 0 語料與校勘 / Corpus and collation | `textual-critic` | — | `source-ingest`, `witness-collation` | `fetch_sources`, `ingest`, `collate`, `align_witness`, `classify_variants`, `extract_routes` |
 | 1–2 實體、性質、關係 / Entities, properties, relations | `entity-extractor` | `textual-critic` | `entity-graph-extraction` | `kg_extract`（`cues`）|
 | 3 真實世界候選 / Candidates | `world-candidate-scout` | — | `world-candidate-generation` | `kg_candidates`（`kg_common`）|
-| 4 交叉驗證 / Cross-validation | `cross-validator` | `devils-advocate` | `graph-cross-validation` | `kg_crossval`, `kg_sensitivity` |
+| 4 交叉驗證 / Cross-validation | `cross-validator` | `devils-advocate` | `graph-cross-validation` | `kg_crossval`, `kg_sensitivity`, `kg_sections` |
 | 5 交付 / Deliverable | `shj-lead` | `devils-advocate` | `shj-entity-mapping` | `kg_deliver` |
 | 全程協調 / Orchestration | `shj-lead` | 全部 / all | `shj-entity-mapping` | — |
 
@@ -74,6 +74,7 @@ Entity-graph cross-validation replaced the two earlier methods; their files are 
 | `loci.jsonl`, `data/geo/anchors-*.jsonl`, `animal-map.*`, `creatures.jsonl`, `global-map.*`, `peoples-map.md`, `river-graph.*` | 資料 / data | 同上 / same |
 | `hypotheses/H-0001…H-0006`、`reports/draft-v0.1.md`、`reports/draft-v1.0-global.md`、`findings/F-0003`、`F-0004`、`docs/method-g-global.md` | 文檔與交付 / docs and deliverables | 由 `deliverables/draft-v2/` 取代 / superseded |
 | `deliverables/draft-v1/` | 交付 / deliverable | 紅隊審查 R1 撤回其主要結論，由 draft-v2 取代 / withdrawn by review R1, superseded by draft-v2 |
+| `deliverables/draft-v2/` | 交付 / deliverable | 由採用解讀規則 R1–R7 的 draft-v3 取代 / superseded by draft-v3 (reading rules R1–R7) |
 | agents `adjudicator`, `geo-triangulator`, `naturalist`, `shj-route-reconstructor`；skills `hypothesis-adjudication`, `toponym-triangulation`, `biogeo-identification`, `description-first-matching`, `shj-hypothesis-case`, `shj-itinerary-reconstruction`, `shj-global-locate` | 代理與技能 / agents and skills | 由新的公共層取代 / replaced by the new common layer |
 
 ## 6. 新語料接入 / Adding a corpus

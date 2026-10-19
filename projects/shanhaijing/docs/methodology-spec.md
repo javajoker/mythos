@@ -19,7 +19,7 @@
 | 4 交叉驗證 / cross-validation | `tools/shj/kg_crossval.py`（約 6 分鐘 / ~6 min） | `kg/mapping.jsonl`, `kg/crossval-log.json` |
 | 4b 敏感度 / sensitivity | `tools/shj/kg_sensitivity.py` | `kg/sensitivity/sensitivity.md`, `robustness.jsonl` |
 | 4c 篇段與假說檢驗 / section and hypothesis tests | `tools/shj/kg_sections.py` | `kg/sections/sections.md`, `scan.jsonl`, `section-best.json` |
-| 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v2/` |
+| 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v3/` |
 
 ## 2. 實體 / Entities（步驟 1）
 
@@ -109,12 +109,13 @@
 
 ## 6. 交付 / Deliverable（步驟 5）
 
-`deliverables/draft-vN/`（目前 / current: `draft-v2`；每個對應附「權重變體 k/16」/ each mapping shows its weight robustness）：
+`deliverables/draft-vN/`（目前 / current: `draft-v3`；每個對應附「權重變體 k/16」/ each mapping shows its weight robustness）：
 - `README.md`：方法摘要、結果摘要、可信度分佈、限制。/ summary, results, confidence, limits.
 - `book/NN-書名.md`：**逐段對照**：每一段的原文、其中每個實體、對應的真實世界實體、可信度與理由。869 段一段不漏。/ **per-paragraph mapping** for all 869 paragraphs.
 - `entities.md`：全部實體的總表（依類型），含描述、性質、關係數、對應與可信度。/ the full entity catalogue.
 - `mapping-waters.md`、`mapping-mountains.md`（依篇）、`mapping-creatures.md`、`mapping-peoples.md`、`mapping-plants-minerals.md`：各類對應表。/ tables by type.
 - `world-map.svg`：全球圖。/ world map.
+- `hypotheses.md`：篇段掃描與聯合假說（`kg/sections/sections.md` 的複本）/ section scan and joint hypotheses.
 - `coverage.md`：交付完整性檢查：段落數、提及數與寫入的列數必須相等（PASS），否則 `kg_deliver.py` 失敗。/ completeness check: paragraphs and mentions written must equal those in the text, or the tool fails.
 - `summary.json`：統計。/ counts.
 

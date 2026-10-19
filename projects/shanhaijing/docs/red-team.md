@@ -53,3 +53,22 @@ The two headline results of draft v1 (河 = Yellow River; the Mountain Classics'
 
 ### 6. 交付的改變 / Changes to the deliverable
 v2：撤回 v1 的兩個主要結論；每個對應附權重穩健度；地圖加上海岸線，暫定項目以虛線顯示。/ v2 withdraws v1's headline results, shows weight robustness per mapping, and draws coastlines with tentative items dashed.
+
+---
+
+## R2：解讀規則與初稿 v3 / Review of the reading rules and draft v3（2026-10-20）
+
+**結論 / Verdict**：使用者的「西次一、二、三經 = 哈拉帕、蘇美、埃及」在目前的證據下**不被支持**（完整重解 −40.8，低於衣索比亞對立組態與北美誘餌）；崑崙之丘一段本身與埃及相容。v3 可以交付，附下列待辦。
+The user's Harappa–Sumer–Egypt reading is **not supported** (−40.8 in a full re-solve, below the Ethiopia rival and a North America decoy); the Kunlun paragraph itself is compatible with Egypt. v3 may ship with the items below.
+
+| # | 檢查 / Check | 發現 / Finding | 處理 / Action |
+|---|---|---|---|
+| 1 | 對稱 / symmetry | 新規則與新候選都在全世界加入：古河道與乾河谷分佈於非洲、阿拉伯、黎凡特、美索不達米亞、印度、塔里木、澳洲；古運河含中國的鴻溝；地區分割依「河谷文明」規則 / rules and candidates added worldwide | 通過 / pass |
+| 2 | 起點偏差 / start bias | 局部擬合與從頭重解的排序一致（中國 > 北美誘餌 > 衣索比亞 > 使用者）/ local re-fits and full re-solves agree | 通過 / pass |
+| 3 | 方位慣例 / orientation | 前 = 南時，使用者組態 −51.2，與前 = 東（−51.5）幾乎相同：結論不取決於慣例 / the verdict does not depend on the convention | 通過 / pass |
+| 4 | 同名誤併 / merged homonyms | 崑崙之丘的「弱水」與西次四經勞山的「弱水」被併為一個實體；同樣情況可能還有 / two different 弱水 merged | T-E05 |
+| 5 | 規則副作用 / side effect of R1 | 「河」被對到大西洋（0.30，10/16）：許多水注入「河」，最容易被承接眾河的大洋吻合。R1 需要約束：書中有「出焉」（有一端在山）的水，不宜對到大洋 / an ocean absorbs a hub | T-X09 |
+| 6 | 解析度 / resolution | 「黑水之前」（尼羅河東岸）與「流沙之濱」需要比地區更細的地點 / finer places needed | T-C10 |
+| 7 | 收斂 / convergence | 固定中國的完整重解（912.6）高於自由解（897.4）：求解器未找到全域最佳 / the free solve misses a better configuration | T-X03 |
+| 8 | 庫的殘餘偏差 / residual base bias | 500 km 以下的河，中國 7 條，其他地區最多 3 條；河源總數北美 26、歐洲 22、中國 21、埃及 5（含乾河谷與運河）/ short rivers still China-heavy | 記錄；T-C03b |
+| 9 | 權重敏感度 / weights | 高與中級別的對應在各權重變體中至少 73% 不變 / ≥ 73% of high+medium mappings unchanged | 通過 / pass |

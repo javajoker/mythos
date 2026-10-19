@@ -54,6 +54,21 @@ def configurations(sec_nodes):
     return cfgs
 
 
+FULL = {"user": "user: ", "china": "rival: 西首 CHN, 西二 CHN, 西三 CHN", "ethiopia": "rival: 西首 IDS, 西二 MES, 西三 EAF",
+        "decoy-nam": "decoy: "}   # configurations also re-solved from scratch (annealing, all chains) to rule out start bias
+
+
+def run_full(key, fix):
+    d = RUNS / f"full-{key}"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "fix.json").write_text(json.dumps(fix, ensure_ascii=False))
+    if not (d / "crossval-log.json").exists():
+        r = subprocess.run([sys.executable, "-I", str(ROOT / "tools/shj/kg_crossval.py"), "--fix", str(d / "fix.json"),
+                            "--out", str(d)], capture_output=True, text=True)
+        (d / "log.txt").write_text(r.stderr)
+    return key, json.loads((d / "crossval-log.json").read_text())
+
+
 def run(name, cfg_list, sets):
     d = RUNS / name
     d.mkdir(parents=True, exist_ok=True)
@@ -94,6 +109,11 @@ def main():
         for name, rc in ex.map(lambda t: run(*t), tasks):
             print(f"{name}: {'ok' if rc == 0 else 'FAILED'}", file=sys.stderr)
     rows = [r for t in tasks for r in jl(RUNS / t[0] / "scan.jsonl")]
+    cfg_fix = {c["name"]: c["fix"] for cl in by_sets.values() for c in cl}
+    full_jobs = [(k, cfg_fix[next(n for n in cfg_fix if n.startswith(p))]) for k, p in FULL.items()]
+    with ThreadPoolExecutor(min(jobs, len(full_jobs))) as ex:
+        full = dict(ex.map(lambda t: run_full(*t), full_jobs))
+    free_full = json.loads((KG / "crossval-log.json").read_text())
     with (OUT / "scan.jsonl").open("w") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
@@ -131,6 +151,15 @@ def main():
         L.append(f"| {name} | {r['n_fixed']} | {r['energy'] - free:+.1f} | {r['violated']} ({r['violated_score']}) | "
                  f"{(k.get('WAT:河') or '—').split(':')[-1]} | {(k.get('WAT:赤') or '—').split(':')[-1]} | "
                  f"{(k.get('WAT:黑') or '—').split(':')[-1]} | {(k.get('MTN:昆侖之丘') or '—').split(':')[-1]} |")
+    L += ["", "### 完整重解 / Full re-solves", "",
+          "從頭模擬退火（6 條鏈，固定實體不動），排除「從基準出發」造成的偏差。/ Annealing from scratch with the held "
+          "entities fixed, to rule out a bias from starting at the baseline.", "",
+          "| 組態 / configuration | 最佳總分 / best energy | 相對自由解 / vs free | 各鏈 / chains |", "|---|---|---|---|",
+          f"| free (nothing held) | {free_full['best_energy']} | 0 | {free_full['chain_energies']} |"]
+    for k, lg in sorted(full.items(), key=lambda kv: -kv[1]["best_energy"]):
+        L.append(f"| {FULL[k].rstrip(': ')} ({k}) | {lg['best_energy']} | {lg['best_energy'] - free_full['best_energy']:+.1f} | "
+                 f"{lg['chain_energies']} |")
+    (OUT / "full-resolves.json").write_text(json.dumps({"free": free_full, **full}, ensure_ascii=False, indent=1))
     u = cfg[[n for n in cfg if n.startswith("user: ")][0]]
     L += ["", "## 3. 使用者假說最嚴重的違反 / Worst relations broken by the user's configuration", "",
           "| 關係 | 甲 → 乙 | 對應 | 條目 | 分數 |", "|---|---|---|---|---|"]
