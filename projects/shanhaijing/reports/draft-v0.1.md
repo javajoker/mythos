@@ -1,4 +1,4 @@
-# 《山海經》真實世界解讀・初稿 v0.1 / Shanhaijing Real-World Interpretation — Draft v0.1
+# 《山海經》真實世界解讀・初稿 v0.2 / Shanhaijing Real-World Interpretation — Draft v0.2
 
 > 2026-10-19 ・ 草稿：異文人工審查已依項目發起人決定取消，採用草稿讀法政策（source-assessment §4.4）。所有結論都可由倉庫中的腳本與卷宗重現。
 > Draft: human variant review was cancelled by the initiator's decision; the draft-reading policy applies. Every conclusion is reproducible from the scripts and dossiers in this repository.
@@ -129,3 +129,35 @@ The Mountain-Classic records most likely formed between the Warring States and t
 | H-0003 | 西次三經・崑崙 | 青藏高原東北緣、青海湖一帶 / NE Tibetan Plateau, Qinghai Lake | **L1** |
 | H-0004 | 海內諸經 / 海內 books | 秦至西漢知識範圍：大夏月氏至朝鮮、倭、海南 / Qin–Han horizon | **L2** |
 | H-0005 | 大荒經 | 地平線曆法框架，北半球中緯度 / horizon calendar, northern mid-latitudes | **L1** |
+
+## 10. 方法 G（全球、描述優先）的初步結果 / First results of Method G (global, description-first)
+
+> v0.2 新增（2026-10-19）。項目發起人設定：全書以整個地球為範圍；只看描述、不看名稱；距離只是參考；先從真實動物與地理出發，再到書中找證據。規格見 [method-g-global.md](../docs/method-g-global.md)。
+> Added in v0.2. The initiator's premises: the whole Earth; descriptions only; distances only a reference; real animals and geography first, then evidence in the book.
+
+### 10.1 動物地圖 / Animal map — [animal-map.md](../data/derived/animal-map.md)
+119 個生物描述中，39 個以描述（名稱遮蔽）比對到真實動物（覆蓋率 ≥ 0.5）。最明確的幾例 / clearest cases：
+
+| 書中描述 / Description | 真實動物 / Real animal | 分佈 / Range |
+|---|---|---|
+| 「狀如豚而白毛，毛大如笄而黑端」（`SHJ-02-1-008`）| 豪豬 / porcupine | 舊大陸 / Old World |
+| 「狀如羊而四角」「如鹿而四角」（`SHJ-02-3-008` 等 4 處）| 四角羚 / four-horned antelope | 印度、喜馬拉雅 / India, Himalaya |
+| 「其狀如䱱魚，四足，其音如嬰兒」（`SHJ-03-3-002`）| 大鯢 / giant salamander | 東亞 / East Asia |
+| 「狀如雞，五采而文」（`SHJ-01-3-003`）| 孔雀、雉類 / peafowl, pheasants | 南亞、東亞、中非 / South & East Asia, Central Africa |
+| 「魚身而鳥翼」（`SHJ-02-3-006` 等）| 飛魚 / flying fish | 各溫暖海域 / warm seas |
+| 「狀如禺而文臂……善投」（`SHJ-02-3-001`）| 狒狒 / baboon | 非洲、阿拉伯 / Africa, Arabia |
+
+全書投票：印度 > 喜馬拉雅 > 中國 > 東南亞 > 西非、中非、東非。注意：動物庫的物種組成會影響投票（例如印度特有種較多）。
+Whole-book vote: India > Himalaya > China > SE Asia > West, Central and East Africa. Caveat: the species chosen for the base influence the vote.
+
+### 10.2 崑崙在哪裡？/ Where is Kunlun? — [H-0006](../hypotheses/H-0006/dossier.md)
+
+| 讀法 / Reading | 結果 / Result |
+|---|---|
+| 單一地點（27 處全球候選）/ single place | 安那托利亞中部 0.59、**吉薩 0.13**、墨西哥中部 0.10；領先不穩（G-弱至中）|
+| 只看自然描述 / natural description only | 魯文佐里（月亮山，尼羅河源）0.96 > 興都庫什 0.44 |
+| 只看人工描述 / built description only | 安那托利亞 2.60 > **吉薩 1.61**；吉薩是唯一「面向東方的人面獸身巨像」|
+| 同一水系複合（事後）/ same-river composite (post-hoc) | **尼羅河：吉薩 ＋ 月亮山 6.51**；非尼羅河最佳為印度河 0.73 |
+
+**回答「崑崙可能在埃及嗎？」/ Answer**：在方法 G 下，**可能，但尚未證實**。埃及獨有「東向的人面獸身守衛」這一描述；若崑崙是「同一條大河上的聖所與源頭雪山」，尼羅河組合大幅領先。但這一組合是事後提出的，而且庫中尼羅河候選較多。必須通過庫平衡檢驗（N5）與相鄰地名檢驗（N6）之後，才能升級。方法 A 的結論（H-0001：R；H-0003：青海湖 L1）保留並列，因為兩種方法回答的是不同的問題。
+Under Method G, **possibly, not yet proven**. Egypt alone matches the east-facing human-faced feline guardian, and a Nile composite leads by a wide margin, but that composite is post-hoc and the base has more Nile loci. It must pass the balanced-base test (N5) and the neighbouring-names test (N6) before being upgraded. Method A's conclusions stay alongside, since the two methods answer different questions.

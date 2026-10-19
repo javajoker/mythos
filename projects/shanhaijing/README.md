@@ -14,7 +14,7 @@
 | [docs/data-model.md](docs/data-model.md) | 資料結構 / data schemas |
 | [docs/source-assessment.md](docs/source-assessment.md) | 三個見證本的評估與已知問題 / the three witnesses and known issues |
 | [hypotheses/](hypotheses/README.md) | 假說登記冊與卷宗 / hypothesis registry and dossiers |
-| [reports/draft-v0.1.md](reports/draft-v0.1.md) | **初稿 v0.1 綜合解讀 / draft v0.1 synthesis** |
+| [reports/draft-v0.1.md](reports/draft-v0.1.md) | **初稿 v0.2 綜合解讀（含方法 G）/ draft v0.2 synthesis (incl. Method G)** |
 | [findings/](findings/) | 已發佈的發現 / published findings |
 | [data/derived/](data/derived/) | 衍生資料（可由腳本重新產生）/ derived data (regenerable) |
 
@@ -28,7 +28,8 @@
 - ✅ 明成化本為序的工作文本（T-004）；8 個移段塊登記為 X3-001–008（T-104）/ Chenghua-order working text; 8 relocation blocks registered as X3-001–008
 - ⏳ 異文分類首輪：1,604 / 2,021 筆自動分類，417 筆待審（T-102）/ variant classification first pass: 1,604 of 2,021 auto-classified, 417 to review
 - ✅ **初稿 v0.1 真實世界解讀 / Draft v0.1 real-world interpretation → [reports/draft-v0.1.md](reports/draft-v0.1.md)**：山經核心＝黃河中下游與漢水、岷江（H-0002，L2）；崑崙＝青海湖一帶（H-0003，L1）；海內諸經＝秦至西漢知識範圍（H-0004，L2）；大荒經＝地平線曆法框架（H-0005，L1）
-- ⬜ 下一步 / next：T-105、T-620、T-630、T-640、T-650–652、T-703（見 [tasks](docs/tasks.md)）
+- ✅ **方法 G（全球、描述優先）/ Method G**：動物地圖（39 個描述比對到真實動物）；[H-0006](hypotheses/H-0006/dossier.md) 崑崙：單一地點 G-弱至中（安那托利亞／吉薩／墨西哥），尼羅河複合（吉薩＋月亮山）為候選 / animal map; Kunlun: single place weak–moderate, Nile composite a candidate
+- ⬜ 下一步 / next：T-660–T-663（方法 G）、T-105、T-620、T-630、T-640、T-650–652、T-703（見 [tasks](docs/tasks.md)）
 
 ## 重現 / Reproduce
 
@@ -46,6 +47,10 @@ python3 -I tools/shj/extract_routes.py
 
 ```bash
 python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.py
+```
+
+```bash
+python3 -I tools/shj/creatures.py && python3 -I tools/shj/animal_map.py
 ```
 
 ```bash

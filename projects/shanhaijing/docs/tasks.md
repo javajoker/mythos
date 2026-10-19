@@ -66,6 +66,19 @@
 | T-702 | 對 T-611 的每個候選做多通道擬合 / multi-channel fits for each T-611 candidate | H-0003 | ✅ |
 | T-704 | H-0002 山經核心河網卷宗；H-0004 海內知識範圍；H-0005 大荒經曆法框架 / dossiers H-0002, H-0004, H-0005 | `shj-lead` | ✅ |
 | T-705 | 初稿 v0.1 綜合報告 / draft v0.1 synthesis report (`reports/draft-v0.1.md`) | `shj-lead` | ✅ |
+
+## 方法 G / Method G
+| ID | 任務 / Task | 負責 / Owner | 狀態 |
+|---|---|---|---|
+| T-G01 | 方法 G 規格、框架 §10 / Method G spec and framework §10 | `shj-lead` | ✅ |
+| T-G02 | 世界知識庫：94 種動物、27 處候選（跑分前提交）/ world base: 94 animals, 27 loci (committed before scoring) | `naturalist`, `geo-triangulator` | ✅ |
+| T-G03 | 描述線索詞彙、生物抽取、動物地圖 / cue lexicon, creature extraction, animal map | `tools/shj/cues.py`, `creatures.py`, `animal_map.py` | ✅ |
+| T-G04 | 描述優先地點比對（含 jackknife、同水系複合）/ place matcher with jackknife and composites | `tools/shj/geo_match.py` | ✅ |
+| T-G05 | H-0006 崑崙全球比對 / H-0006 Kunlun global match | `shj-lead` | ✅ |
+| T-660 | N5：補齊各大水系候選（每系 ≥ 4 處，含古代紀念建築），重跑 H-0006 / balance the base and rerun | `geo-triangulator` | ⬜ |
+| T-661 | N6：流沙、赤水、黑水、弱水、西王母之山分別做方法 G 比對 / match the neighbouring names separately | `shj-lead` | ⬜ |
+| T-662 | N7：開明諸段與西王母描述的動物投票 / animal vote for the 開明 block and 西王母 | `naturalist` | ⬜ |
+| T-663 | 擴充動物庫（目前偏重南亞特有種），並補海經、大荒經的生物描述句式 / extend the animal base and the Sea/Wilderness creature formats | `naturalist` | ⬜ |
 | T-703 | 引入地形、水系、GBIF、古氣候資料適配器 / DEM, river, GBIF, palaeoclimate adapters | `tools/` | ⬜ |
 | T-801 | H-0001b 登記與檢驗 / register and test H-0001b | `shj-lead` | ⬜ |
 
