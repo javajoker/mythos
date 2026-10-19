@@ -1,73 +1,45 @@
-# 方法 G 世界知識庫 / Method G World Knowledge Base
+# 真實世界候選庫 / Real-World Candidate Base
 
-> 草稿 v0.1。所有值依各條目 `source` 所列的標準參考（多為 Wikipedia 條目）填寫，**在跑分之前寫入**。修改必須在提交訊息中說明原因。
-> Draft v0.1. Values follow the standard references in each record's `source` (mostly Wikipedia articles) and were **written before any scoring**. Any change must be explained in its commit message.
+> 草稿 v2.0。每筆資料都附來源（多為 Wikipedia 條目），**在跑分程式之前提交**；之後的修改必須在提交訊息中說明原因。覆蓋全部有人居住的大陸。
+> Draft v2.0. Every record cites its sources, and the base was **committed before the scoring code**; later changes must be explained in the commit message. Covers every inhabited continent.
 
-## 1. 地區代碼 / Region codes（古代分佈 / ancient ranges）
-
-| 代碼 | 地區 / Region | 代碼 | 地區 / Region |
-|---|---|---|---|
-| NAF | 北非（含埃及、馬格里布、撒哈拉）/ North Africa | IND | 印度次大陸 / Indian subcontinent |
-| EAF | 東非、非洲之角（含衣索比亞）/ East Africa, Horn | HIM | 喜馬拉雅南坡 / southern Himalaya |
-| CAF | 中非、大湖區 / Central Africa, Great Lakes | TIB | 青藏高原 / Tibetan Plateau |
-| WAF | 西非 / West Africa | TAR | 塔里木、崑崙山西段、帕米爾 / Tarim, West Kunlun, Pamir |
-| SAF | 南部非洲 / Southern Africa | CAS | 中亞（阿姆河、錫爾河、興都庫什北）/ Central Asia |
-| MDG | 馬達加斯加 / Madagascar | MON | 蒙古、阿爾泰 / Mongolia, Altai |
-| LEV | 黎凡特、西奈 / Levant, Sinai | SIB | 西伯利亞 / Siberia |
-| ARB | 阿拉伯半島 / Arabia | CHN | 中國北部與中部 / northern & central China |
-| MES | 美索不達米亞、扎格羅斯 / Mesopotamia, Zagros | SCN | 華南 / southern China |
-| IRN | 伊朗高原、裏海南岸 / Iranian plateau, south Caspian | KOR | 朝鮮、滿洲 / Korea, Manchuria |
-| CAU | 高加索、亞美尼亞高原 / Caucasus, Armenian Highlands | JPN | 日本 / Japan |
-| ANA | 安那托利亞 / Anatolia | SEA | 東南亞 / Southeast Asia |
-| MED | 地中海歐洲 / Mediterranean Europe | AUS | 澳洲、新幾內亞 / Australia, New Guinea |
-| EUR | 溫帶歐洲 / temperate Europe | NAM | 北美 / North America |
-| ARC | 北極、冰島 / Arctic, Iceland | MAM | 中美洲 / Mesoamerica |
-| | | SAM | 南美 / South America |
-
-海域 / Seas：`S_MED` 地中海、`S_RED` 紅海、`S_IND` 印度洋、`S_PAC` 太平洋、`S_ATL` 大西洋、`S_ARC` 北冰洋。
-
-## 2. 動物特徵標籤 / Animal feature tags
-
-與 `tools/shj/cues.py` 的書中線索共用同一套詞彙。/ Shared vocabulary with the text cues in `tools/shj/cues.py`.
-
-- 體型參照 / body analogy：`body_cattle` `body_horse` `body_sheep` `body_pig` `body_dog` `body_fox` `body_wildcat` `body_ape` `body_deer` `body_rat` `body_bigcat` `body_bear` `body_snake` `body_fish` `body_fowl` `body_duck` `body_owl` `body_crow` `body_crane` `body_turtle` `body_human` `body_bee` `body_bird` `body_hare`
-- 部件 / parts：`wings` `horn_one` `horns_two` `horns_four` `heads_many` `tails_many` `eye_one` `legs_four` `legs_six` `leg_one` `human_face` `long_tail` `long_arms` `mane` `tusks` `scales` `long_shaggy_hair` `quills` `elongated_four_legged` `humps` `long_neck` `trunk` `shell`
-- 顏色 / colour：`striped` `spotted` `five_colours` `body_white` `body_black` `body_red` `blue_green` `head_white` `beak_red` `tail_red`
-- 聲音 / sound：`sound_baby` `sound_dog` `sound_cattle` `sound_human` `sound_drum` `self_named_call` `vocal`
-- 習性 / behaviour：`flies_night` `glides` `nocturnal` `dormancy` `on_land` `throws` `bipedal_gait` `man_eater` `burrow` `sea_migration` `climber` `fast_runner`
-- 棲地 / habitat：`aquatic` `marine`
-
-## 3. 地點性質標籤與門檻 / Locus property tags and thresholds
-
-| 標籤 / Tag | 為 T 的條件 / True when |
-|---|---|
-| `great_peak` | 主峰 ≥ 4000 m，或為方圓 1000 km 內最高峰 / summit ≥ 4000 m or the highest within 1000 km |
-| `snow_cap` | 有終年積雪或冰川 / permanent snow or glaciers |
-| `river_source_major` | 150 km 內有長度 > 1000 km 的河流發源 / a river > 1000 km rises within 150 km |
-| `rivers_multi_dir` | 300 km 內有 ≥ 3 條（各 > 300 km）向不同方向流出的河 / ≥ 3 rivers (> 300 km) rise within 300 km and flow in different directions |
-| `desert_edge` | 300 km 內有沙海或沙丘區 / a sand sea or dune field within 300 km |
-| `sea_north` | 600 km 內、北方（方位 315°–45°）有海 / a sea within 600 km to the north |
-| `fire_ground` | 600 km 內有活火山、熔岩湖或長年燃燒的天然氣火 / an active volcano, lava lake or perpetual gas fire within 600 km |
-| `encircling_water` | 湖、河、沼澤環繞或緊鄰山腳（< 50 km）/ a lake, river or marsh rings it or lies at its foot |
-| `human_feline_colossus` | 200 km 內有公元前 500 年以前的人面貓科（或人面獸身）巨型雕像 / a pre-500 BCE monumental human-faced feline (or human-faced beast) sculpture within 200 km |
-| `east_facing_colossus` | 上述雕像面向東方 / that sculpture faces east |
-| `built_complex` | 100 km 內有公元前 500 年以前、有城牆或門的大型建築群 / a pre-500 BCE monumental complex with walls or gates within 100 km |
-| `cave_dwelling` | 300 km 內有古代穴居傳統 / an ancient cave-dwelling tradition within 300 km |
-| `sacred_mountain` | 當地古代文獻或傳統視之為神的居所 / documented ancient local tradition of a gods' abode |
-| `gems_jade` | 300 km 內有古代著名的玉或寶石產地 / a famous ancient jade or gemstone source within 300 km |
-
-值：`true` / `false` / `null`（未知或無法判定）。/ Values: true / false / null (unknown or undecidable).
-
-## 4. 全球地區性質（整書比對用）/ Region properties (whole-book mapping)
-
-`regions.jsonl` 列出 31 個地區（覆蓋全部有人居住的大陸）及其中心座標；`region-properties.jsonl` 每行一個性質，列出為 T 的地區與明確為 F 的地區，其餘視為未知。性質分四組：
-`regions.jsonl` lists 31 regions covering every inhabited continent with centroids; `region-properties.jsonl` gives, per property, the regions where it is true and those where it is clearly false (others unknown). Four groups:
-
-| 組 / Group | 性質 / Properties | 判定依據 / Basis |
+| 檔案 / File | 筆數 / Records | 用途 / Used for |
 |---|---|---|
-| 礦產 mineral | gold, silver, copper, iron, tin, jade, cinnabar, realgar, azurite_malachite, salt | 古代已知或可見的產地 / deposits known or visible in antiquity |
-| 植物 plant | bamboo, citrus, mulberry, lacquer, pine, cypress, palm, jujube, peach_plum, millet, rice | 原生分佈或公元前的栽培 / native range or pre-CE cultivation |
-| 地形 terrain | snow_peaks, sand_desert, barren, volcanic_fire, hot_springs, salt_lakes, sea_coast | 地區內存在 / present in the region |
-| 習俗 custom | tattoo, black_teeth, ear_ornaments, feather_dress, hairy_people, pygmy_people, dark_skin, cave_dwelling | 古代或早期文獻記載的習俗與人群 / customs and peoples attested in antiquity or early records |
+| `regions.jsonl` | 31 | 山與地的候選；中心座標；相鄰地區（對稱）/ candidates for mountains and land features; centroids; symmetric adjacency |
+| `region-properties.jsonl` | 36 | 地區的礦產、植物、地形、習俗：為 T 的地區、為 F 的地區，其餘未知 / region properties: true regions, false regions, rest unknown |
+| `animals.jsonl` | 116 | 生物的候選：描述標籤、古代分佈 / creature candidates: tags and ancient ranges |
+| `waters.jsonl` | 135 | 水的候選：84 條河（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、24 湖、23 海、4 個沙漠終點 / water candidates |
+| `cultures.jsonl` | 47 | 國族的候選：地區、中心點、習俗與食物標籤 / polity/people candidates |
 
-地區層級的判定比地點層級粗。不確定時一律留作未知（不列入 T 或 F）。/ Region-level calls are coarser than locus-level; anything uncertain is left unknown.
+## 1. 地區代碼 / Region codes
+
+| 代碼 | 地區 | 代碼 | 地區 |
+|---|---|---|---|
+| NAF | 北非（埃及、馬格里布、撒哈拉）| IND | 印度次大陸 |
+| EAF | 東非、非洲之角 | HIM | 喜馬拉雅南坡 |
+| CAF | 中非、大湖區 | TIB | 青藏高原 |
+| WAF | 西非 | TAR | 塔里木、西崑崙、帕米爾 |
+| SAF | 南部非洲 | CAS | 中亞（阿姆河、錫爾河）|
+| MDG | 馬達加斯加 | MON | 蒙古、阿爾泰 |
+| LEV | 黎凡特、西奈 | SIB | 西伯利亞 |
+| ARB | 阿拉伯半島 | CHN | 中國北部與中部 |
+| MES | 美索不達米亞、扎格羅斯 | SCN | 華南 |
+| IRN | 伊朗高原、裏海南岸 | KOR | 朝鮮、滿洲 |
+| CAU | 高加索、亞美尼亞高原 | JPN | 日本 |
+| ANA | 安那托利亞 | SEA | 東南亞 |
+| MED | 地中海歐洲 | AUS | 澳洲、新幾內亞、大洋洲 |
+| EUR | 溫帶歐洲 | NAM | 北美 |
+| ARC | 北極、冰島 | MAM | 中美洲 |
+| | | SAM | 南美 |
+
+動物分佈另有海域代碼：`S_MED` `S_RED` `S_IND` `S_PAC` `S_ATL` `S_ARC`。/ Animal ranges also use sea codes.
+
+## 2. 標籤詞彙 / Tag vocabulary
+- 動物：體型參照（`body_*`）、部件、顏色、聲音、習性、棲地；與書中線索（`tools/shj/cues.py`）共用。/ Animals share the text-cue vocabulary.
+- 地區性質：礦產 gold, silver, copper, iron, tin, jade, cinnabar, realgar, azurite_malachite, salt；植物 bamboo, citrus, mulberry, lacquer, pine, cypress, palm, jujube, peach_plum, millet, rice；地形 snow_peaks, sand_desert, barren, volcanic_fire, hot_springs, salt_lakes, sea_coast；習俗 tattoo, black_teeth, ear_ornaments, feather_dress, hairy_people, pygmy_people, dark_skin, cave_dwelling。
+- 人群：上列習俗，加上 rice, millet, agriculture, fishing, seafaring, hunting, nomadic_herding, horse, fishskin_clothing, meat_diet。/ Cultures: customs plus diet and livelihood.
+- 水：`type`（river／lake／sea／desert）、`flow_dir`（八方位，河源到河口的總方向）、`mouth`（河口所入的水體 ID）、`basin`（流域地區）、`endorheic`、`ends_in_desert`。
+
+## 3. 判定原則 / Principles
+- 只記古代已存在或可見的情況（例如古代動物分佈、公元前的栽培、古代記載的習俗）。/ Only conditions existing or visible in antiquity.
+- 不確定的一律不填（地區性質）或不列（人群標籤），計分時以基準率期望處理。/ Uncertain values are left out and scored at base-rate expectation.

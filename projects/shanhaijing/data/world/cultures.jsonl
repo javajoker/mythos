@@ -1,0 +1,47 @@
+{"id": "huaxia", "name": "Zhou–Han Huaxia (central plains)", "region": "CHN", "pt": [35.0, 112.0], "tags": ["millet", "agriculture", "rice"], "source": "Wikipedia: Huaxia; Zhou dynasty agriculture"}
+{"id": "yue", "name": "Baiyue (Yue peoples)", "region": "SCN", "pt": [25.0, 114.0], "tags": ["tattoo", "rice", "fishing", "seafaring"], "source": "Wikipedia: Baiyue"}
+{"id": "li_hainan", "name": "Li people of Hainan (Dan'er)", "region": "SCN", "pt": [19.2, 109.7], "tags": ["tattoo", "ear_ornaments", "rice"], "source": "Wikipedia: Hlai people; Dan'er Commandery"}
+{"id": "ba_shu", "name": "Ba and Shu", "region": "CHN", "pt": [30.0, 105.0], "tags": ["rice", "millet", "agriculture"], "source": "Wikipedia: Ba (state); Shu (state)"}
+{"id": "dian", "name": "Dian culture", "region": "SCN", "pt": [24.8, 102.7], "tags": ["rice", "agriculture"], "source": "Wikipedia: Dian Kingdom"}
+{"id": "wa_yayoi", "name": "Wa (Yayoi Japan)", "region": "JPN", "pt": [34.0, 133.0], "tags": ["tattoo", "rice", "fishing", "seafaring"], "source": "Wikipedia: Wa (Japan); Records of the Three Kingdoms (Wa)"}
+{"id": "ainu", "name": "Ainu / Emishi", "region": "JPN", "pt": [43.0, 143.0], "tags": ["hairy_people", "fishing", "hunting", "fishskin_clothing", "tattoo"], "source": "Wikipedia: Ainu people"}
+{"id": "sushen_nanai", "name": "Sushen / Nanai (Amur hunters)", "region": "KOR", "pt": [47.0, 135.0], "tags": ["fishskin_clothing", "hunting", "fishing"], "source": "Wikipedia: Sushen; Nanai people"}
+{"id": "yemaek", "name": "Yemaek / early Korea", "region": "KOR", "pt": [39.0, 126.0], "tags": ["millet", "rice", "agriculture"], "source": "Wikipedia: Yemaek"}
+{"id": "xiongnu", "name": "Xiongnu", "region": "MON", "pt": [46.0, 103.0], "tags": ["nomadic_herding", "horse", "meat_diet"], "source": "Wikipedia: Xiongnu"}
+{"id": "saka_scythian", "name": "Saka / Scythians", "region": "CAS", "pt": [45.0, 70.0], "tags": ["nomadic_herding", "horse", "meat_diet", "tattoo"], "source": "Wikipedia: Saka; Pazyryk culture"}
+{"id": "tocharian", "name": "Tocharians (Tarim)", "region": "TAR", "pt": [41.0, 84.0], "tags": ["agriculture", "millet", "herding"], "source": "Wikipedia: Tocharians"}
+{"id": "qiang", "name": "Qiang", "region": "TIB", "pt": [35.0, 100.0], "tags": ["nomadic_herding", "millet"], "source": "Wikipedia: Qiang (historical people)"}
+{"id": "tibetan_plateau", "name": "Plateau herders (Tibet)", "region": "TIB", "pt": [30.0, 91.0], "tags": ["nomadic_herding"], "source": "Wikipedia: History of Tibet"}
+{"id": "bactrian_sogdian", "name": "Bactria / Sogdia", "region": "CAS", "pt": [38.0, 66.0], "tags": ["agriculture", "horse"], "source": "Wikipedia: Bactria; Sogdia"}
+{"id": "persian", "name": "Persians / Medes", "region": "IRN", "pt": [32.0, 53.0], "tags": ["agriculture", "horse"], "source": "Wikipedia: Achaemenid Empire"}
+{"id": "mesopotamian", "name": "Assyrians / Babylonians", "region": "MES", "pt": [33.0, 44.0], "tags": ["agriculture"], "source": "Wikipedia: Mesopotamia"}
+{"id": "egyptian", "name": "Ancient Egyptians", "region": "NAF", "pt": [27.0, 31.0], "tags": ["agriculture", "fishing"], "source": "Wikipedia: Ancient Egypt"}
+{"id": "nubian", "name": "Nubians / Kush", "region": "NAF", "pt": [18.0, 32.0], "tags": ["dark_skin", "agriculture", "nomadic_herding"], "source": "Wikipedia: Kingdom of Kush"}
+{"id": "aksumite", "name": "Ethiopian highlanders (D'mt, Aksum)", "region": "EAF", "pt": [14.0, 38.7], "tags": ["dark_skin", "agriculture", "millet"], "source": "Wikipedia: Dʿmt; Aksumite Empire"}
+{"id": "berber", "name": "Berbers / Libyans", "region": "NAF", "pt": [31.0, -5.0], "tags": ["tattoo", "nomadic_herding", "horse"], "source": "Wikipedia: Berbers"}
+{"id": "arab_bedouin", "name": "Arabian nomads", "region": "ARB", "pt": [24.0, 45.0], "tags": ["nomadic_herding"], "source": "Wikipedia: Bedouin"}
+{"id": "phoenician", "name": "Phoenicians", "region": "LEV", "pt": [34.0, 35.5], "tags": ["seafaring", "fishing", "agriculture"], "source": "Wikipedia: Phoenicia"}
+{"id": "hittite", "name": "Hittites / Phrygians (Anatolia)", "region": "ANA", "pt": [40.0, 34.6], "tags": ["agriculture", "cave_dwelling", "horse"], "source": "Wikipedia: Hittites; Cappadocia"}
+{"id": "greek", "name": "Greeks", "region": "MED", "pt": [38.0, 23.0], "tags": ["seafaring", "agriculture", "fishing"], "source": "Wikipedia: Ancient Greece"}
+{"id": "celtic", "name": "Celts / Picts", "region": "EUR", "pt": [48.0, 3.0], "tags": ["tattoo", "agriculture"], "source": "Wikipedia: Celts; Picts"}
+{"id": "evenki", "name": "Siberian taiga hunters", "region": "SIB", "pt": [60.0, 105.0], "tags": ["hunting", "fishing"], "source": "Wikipedia: Evenks"}
+{"id": "inuit", "name": "Arctic peoples", "region": "ARC", "pt": [68.0, -60.0], "tags": ["fishing", "hunting", "fishskin_clothing"], "source": "Wikipedia: Inuit"}
+{"id": "mbuti", "name": "Mbuti (Congo forest)", "region": "CAF", "pt": [1.5, 28.5], "tags": ["pygmy_people", "dark_skin", "hunting"], "source": "Wikipedia: Mbuti people"}
+{"id": "west_african", "name": "West African farmers", "region": "WAF", "pt": [8.0, 0.0], "tags": ["dark_skin", "agriculture", "millet", "rice"], "source": "Wikipedia: Nok culture; Oryza glaberrima"}
+{"id": "khoisan", "name": "Khoisan", "region": "SAF", "pt": [-22.0, 22.0], "tags": ["hunting"], "source": "Wikipedia: Khoisan"}
+{"id": "malagasy", "name": "Malagasy", "region": "MDG", "pt": [-19.0, 47.0], "tags": ["rice", "seafaring", "dark_skin"], "source": "Wikipedia: Malagasy people"}
+{"id": "andamanese", "name": "Andamanese", "region": "IND", "pt": [12.0, 92.7], "tags": ["pygmy_people", "dark_skin", "fishing", "hunting"], "source": "Wikipedia: Andamanese peoples"}
+{"id": "dravidian", "name": "South Indian (Tamilakam)", "region": "IND", "pt": [11.0, 78.0], "tags": ["dark_skin", "rice", "seafaring", "ear_ornaments"], "source": "Wikipedia: Sangam period"}
+{"id": "indo_aryan", "name": "North Indian (Gangetic)", "region": "IND", "pt": [26.0, 80.0], "tags": ["agriculture", "millet", "rice", "horse", "ear_ornaments"], "source": "Wikipedia: Vedic period"}
+{"id": "negrito", "name": "Negrito (Malaya, Philippines)", "region": "SEA", "pt": [15.0, 121.0], "tags": ["pygmy_people", "dark_skin", "hunting"], "source": "Wikipedia: Negrito"}
+{"id": "austronesian", "name": "Austronesian seafarers (Taiwan, Philippines, Indonesia)", "region": "SEA", "pt": [5.0, 115.0], "tags": ["tattoo", "seafaring", "ear_ornaments", "rice", "black_teeth", "fishing"], "source": "Wikipedia: Austronesian peoples; Tooth blackening"}
+{"id": "dayak", "name": "Dayak (Borneo)", "region": "SEA", "pt": [1.0, 114.0], "tags": ["tattoo", "ear_ornaments", "feather_dress", "rice"], "source": "Wikipedia: Dayak people"}
+{"id": "mon_khmer_viet", "name": "Mon-Khmer and Lac Viet (mainland SE Asia)", "region": "SEA", "pt": [14.0, 104.0], "tags": ["black_teeth", "rice", "tattoo"], "source": "Wikipedia: Đông Sơn culture; Tooth blackening"}
+{"id": "papuan", "name": "Papuans (New Guinea)", "region": "AUS", "pt": [-6.0, 145.0], "tags": ["dark_skin", "feather_dress", "pygmy_people"], "source": "Wikipedia: Papuan people"}
+{"id": "aboriginal", "name": "Aboriginal Australians", "region": "AUS", "pt": [-25.0, 134.0], "tags": ["dark_skin", "hunting"], "source": "Wikipedia: Aboriginal Australians"}
+{"id": "polynesian", "name": "Lapita / Polynesians", "region": "AUS", "pt": [-17.0, 179.0], "tags": ["tattoo", "seafaring", "fishing", "feather_dress"], "source": "Wikipedia: Lapita culture; Polynesian tattoo"}
+{"id": "olmec_maya", "name": "Olmec / Maya", "region": "MAM", "pt": [17.0, -91.0], "tags": ["feather_dress", "tattoo", "ear_ornaments", "agriculture"], "source": "Wikipedia: Olmecs; Maya civilization"}
+{"id": "andean", "name": "Andean peoples (Chavín, Paracas)", "region": "SAM", "pt": [-13.0, -72.0], "tags": ["feather_dress", "ear_ornaments", "nomadic_herding", "agriculture"], "source": "Wikipedia: Chavín culture; Orejones"}
+{"id": "amazonian", "name": "Amazonian peoples", "region": "SAM", "pt": [-3.0, -60.0], "tags": ["feather_dress", "tattoo", "ear_ornaments", "fishing"], "source": "Wikipedia: Indigenous peoples in Brazil"}
+{"id": "north_american", "name": "North American peoples (Woodland, Plains)", "region": "NAM", "pt": [40.0, -90.0], "tags": ["feather_dress", "tattoo", "hunting", "agriculture"], "source": "Wikipedia: Hopewell tradition"}
+{"id": "nw_coast", "name": "Northwest Coast peoples", "region": "NAM", "pt": [52.0, -128.0], "tags": ["fishing", "seafaring", "hunting"], "source": "Wikipedia: Indigenous peoples of the Pacific Northwest Coast"}
