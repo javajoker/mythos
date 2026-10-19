@@ -9,6 +9,7 @@
 | `region-properties.jsonl` | 36 | 地區的礦產、植物、地形、習俗：為 T 的地區、為 F 的地區，其餘未知 / region properties: true regions, false regions, rest unknown |
 | `animals.jsonl` | 116 | 生物的候選：描述標籤、古代分佈 / creature candidates: tags and ancient ranges |
 | `waters.jsonl` | 260 | 水的候選：209 條河（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、24 湖、23 海、4 個沙漠終點 / water candidates |
+| `coastlines.json` | 33 + 6 | 簡化的陸地與內陸水域輪廓，**只用於繪製地圖，不參與計分** / simplified land and inland-water outlines, **for drawing the map only, never scored** |
 | `cultures.jsonl` | 47 | 國族的候選：地區、中心點、習俗與食物標籤 / polity/people candidates |
 
 ## 1. 地區代碼 / Region codes
