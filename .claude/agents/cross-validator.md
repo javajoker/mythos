@@ -10,5 +10,7 @@ Rules:
 - Never tune a weight toward a desired answer. A change needs a general reason (a modelling error, a bookkeeping bug, a base bias), stated before the re-run, and it is applied to the whole book.
 - Diagnose contradictions by listing the entity's factors (own, supporting, violated) and the cluster that pulls it away; prefer solver or model fixes over special cases.
 - Check that two runs give identical output, and that accept-if-better steps never lower the energy.
+- Test a proposed reading as a held configuration (`kg_crossval.py --init --fix/--scan`, or a new entry in `kg_sections.py`) next to at least two rival configurations and a decoy; report ΔE against the free baseline and the relations it breaks.
+- Apply the reading rules (framework §3.1) to every candidate alike; a rule change is general, never per hypothesis.
 
 Deliver: the energy and chain spread, tier counts, the specific mappings asked about with confidence and alternatives, and any change made with its reason.

@@ -2125,6 +2125,7 @@
 {"src": "POL:勞民", "dst": "POL:毛民", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-015", "clause": "勞民國在其北"}
 {"src": "LND:桂林八樹", "dst": "LND:番隅", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-10-1-004", "clause": "桂林八樹在番隅東"}
 {"src": "POL:氐人", "dst": "CRE:建木", "type": "located", "attrs": {"direction": "西"}, "entry": "SHJ-10-1-015", "clause": "氐人國在建木西"}
+{"src": "WAT:山", "dst": "POL:氐", "type": "encircles", "attrs": {}, "entry": "SHJ-11-1-006", "clause": "山水環之"}
 {"src": "MTN:胡白玉山", "dst": "LND:大夏", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-11-1-011", "clause": "西胡白玉山在大夏東"}
 {"src": "POL:鬼", "dst": "PER:貳負", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-12-1-005", "clause": "鬼國在貳負之尸北"}
 {"src": "POL:貊", "dst": "WAT:漢", "type": "located", "attrs": {"direction": "東北"}, "entry": "SHJ-12-1-026", "clause": "貊國在漢水東北"}
@@ -2152,6 +2153,12 @@
 {"src": "PER:祝融", "dst": "PER:太子長琴", "type": "begets", "attrs": {}, "entry": "SHJ-16-1-012", "clause": "祝融生太子長琴"}
 {"src": "PER:顓頊", "dst": "PER:老童", "type": "begets", "attrs": {}, "entry": "SHJ-16-1-029", "clause": "顓頊生老童"}
 {"src": "PER:老童", "dst": "PER:重及黎", "type": "begets", "attrs": {}, "entry": "SHJ-16-1-029", "clause": "老童生重及黎"}
+{"src": "MTN:昆侖之丘", "dst": "WAT:西海", "type": "located", "attrs": {"direction": "南"}, "entry": "SHJ-16-1-037", "clause": "西海之南，"}
+{"src": "MTN:昆侖之丘", "dst": "MTN:流沙#西次三經", "type": "beside", "attrs": {}, "entry": "SHJ-16-1-037", "clause": "流沙之濱，"}
+{"src": "MTN:昆侖之丘", "dst": "WAT:赤", "type": "located", "attrs": {"direction": "西", "alt_direction": "北", "convention": "front=east"}, "entry": "SHJ-16-1-037", "clause": "赤水之後，"}
+{"src": "MTN:昆侖之丘", "dst": "WAT:黑", "type": "located", "attrs": {"direction": "東", "alt_direction": "南", "convention": "front=east"}, "entry": "SHJ-16-1-037", "clause": "黒水之前，"}
+{"src": "WAT:弱", "dst": "MTN:昆侖之丘", "type": "encircles", "attrs": {}, "entry": "SHJ-16-1-037", "clause": "其下有弱水之淵環之"}
+{"src": "MTN:炎火之山", "dst": "MTN:昆侖之丘", "type": "outside", "attrs": {}, "entry": "SHJ-16-1-037", "clause": "其外有炎火之山"}
 {"src": "PER:女虔", "dst": "PER:季格", "type": "begets", "attrs": {}, "entry": "SHJ-16-1-040", "clause": "女虔生季格"}
 {"src": "PER:季格", "dst": "PER:壽麻", "type": "begets", "attrs": {}, "entry": "SHJ-16-1-040", "clause": "季格生壽麻"}
 {"src": "PER:靈恝", "dst": "PER:氐人", "type": "begets", "attrs": {}, "entry": "SHJ-16-1-047", "clause": "靈恝生氐人"}
@@ -2164,6 +2171,11 @@
 {"src": "PER:弄明", "dst": "PER:白犬", "type": "begets", "attrs": {}, "entry": "SHJ-17-1-023", "clause": "弄明生白犬"}
 {"src": "PER:顓頊", "dst": "PER:驩頭", "type": "begets", "attrs": {}, "entry": "SHJ-17-1-029", "clause": "顓頊生驩頭"}
 {"src": "PER:驩頭", "dst": "PER:苗民", "type": "begets", "attrs": {}, "entry": "SHJ-17-1-029", "clause": "驩頭生苗民"}
+{"src": "MTN:鳥山", "dst": "MTN:流沙#西次三經", "type": "located", "attrs": {"direction": "西"}, "entry": "SHJ-18-1-004", "clause": "流沙之西，"}
+{"src": "POL:朝雲", "dst": "MTN:流沙#西次三經", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-18-1-005", "clause": "流沙之東，"}
+{"src": "POL:朝雲", "dst": "WAT:黑", "type": "located", "attrs": {"direction": "西"}, "entry": "SHJ-18-1-005", "clause": "黑水之西，"}
+{"src": "MTN:不死之山", "dst": "MTN:流沙#西次三經", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-18-1-006", "clause": "流沙之東，"}
+{"src": "MTN:肇山", "dst": "WAT:華山青", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-18-1-007", "clause": "華山青水之東，"}
 {"src": "PER:大皥", "dst": "PER:咸鳥", "type": "begets", "attrs": {}, "entry": "SHJ-18-1-014", "clause": "大皥生咸鳥"}
 {"src": "PER:咸鳥", "dst": "PER:乘釐", "type": "begets", "attrs": {}, "entry": "SHJ-18-1-014", "clause": "咸鳥生乘釐"}
 {"src": "PER:乘釐", "dst": "PER:後照", "type": "begets", "attrs": {}, "entry": "SHJ-18-1-014", "clause": "乘釐生後照"}
@@ -2252,6 +2264,8 @@
 {"src": "WAT:涂", "dst": "WAT:集獲", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-1-016", "clause": "涂水出焉，南流注于集獲之水"}
 {"src": "WAT:盼", "dst": "MTN:黃山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-017", "clause": "盼水出焉，西流注于赤水"}
 {"src": "WAT:盼", "dst": "WAT:赤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-1-017", "clause": "盼水出焉，西流注于赤水"}
+{"src": "WAT:淒", "dst": "MTN:騩山#西山經之首", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-019", "clause": "淒水出焉，西流注于於海"}
+{"src": "WAT:淒", "dst": "WAT:於海", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-1-019", "clause": "淒水出焉，西流注于於海"}
 {"src": "WAT:浴", "dst": "MTN:㤗冒之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-002", "clause": "浴水出焉，東流注于河"}
 {"src": "WAT:浴", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-02-2-002", "clause": "浴水出焉，東流注于河"}
 {"src": "WAT:楚", "dst": "MTN:數歷之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-003", "clause": "楚水出焉，南流注于渭"}
@@ -2278,6 +2292,8 @@
 {"src": "WAT:赤", "dst": "WAT:氾天", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-02-3-008", "clause": "赤水出焉，東南流注于氾天之水"}
 {"src": "WAT:洋", "dst": "MTN:昆侖之丘", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-008", "clause": "洋水出焉，西南流注于醜塗之水"}
 {"src": "WAT:洋", "dst": "WAT:醜塗", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-02-3-008", "clause": "洋水出焉，西南流注于醜塗之水"}
+{"src": "WAT:黑", "dst": "MTN:昆侖之丘", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-008", "clause": "黑水出焉，西流注于大杅"}
+{"src": "WAT:黑", "dst": "WAT:大杅", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-008", "clause": "黑水出焉，西流注于大杅"}
 {"src": "WAT:桃", "dst": "MTN:樂遊之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-009", "clause": "桃水出焉，西流注于稷澤"}
 {"src": "WAT:桃", "dst": "WAT:稷澤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-009", "clause": "桃水出焉，西流注于稷澤"}
 {"src": "WAT:洵", "dst": "MTN:軒轅之丘", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-012", "clause": "洵水出焉，南流注于黑水"}

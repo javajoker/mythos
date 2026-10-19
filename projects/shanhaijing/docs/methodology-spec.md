@@ -1,6 +1,6 @@
 # 山海經實體圖譜交叉驗證規格 / Shanhaijing Entity-Graph Cross-Validation Spec
 
-> v2.0 ・ 2026-10-19 ・ 實作 [Mythos 研究框架](../../../docs/research-framework.md)。這是本項目目前唯一的方法；舊方法（「方法 A」「方法 G」）已退役，保留在 git 歷史中。
+> v2.1 ・ 2026-10-19 ・ 實作 [Mythos 研究框架](../../../docs/research-framework.md)。這是本項目目前唯一的方法；舊方法（「方法 A」「方法 G」）已退役，保留在 git 歷史中。
 > Implements the [Mythos research framework](../../../docs/research-framework.md). This is the project's only current method; earlier methods are retired and kept in git history.
 
 ---
@@ -18,6 +18,7 @@
 | 3 真實世界候選 / candidates | `tools/shj/kg_candidates.py` | `kg/candidates.jsonl` |
 | 4 交叉驗證 / cross-validation | `tools/shj/kg_crossval.py`（約 6 分鐘 / ~6 min） | `kg/mapping.jsonl`, `kg/crossval-log.json` |
 | 4b 敏感度 / sensitivity | `tools/shj/kg_sensitivity.py` | `kg/sensitivity/sensitivity.md`, `robustness.jsonl` |
+| 4c 篇段與假說檢驗 / section and hypothesis tests | `tools/shj/kg_sections.py` | `kg/sections/sections.md`, `scan.jsonl`, `section-best.json` |
 | 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v2/` |
 
 ## 2. 實體 / Entities（步驟 1）
@@ -54,15 +55,19 @@
 | `dwells` / `rules` | PER → MTN／WAT | 「X居之」「X司之」「X處之」 | — |
 | `begets` | PER → PER／POL | 「X生Y」 | — |
 | `same_name` | MTN ↔ MTN | 不同篇的同名山 / homonyms across sections | — |
+| `located`（框架句）| 任意 → 任意 | 「X之南，Y之濱，Z之後，W之前，有…名曰S」：S 在 X 之南；前／後依解讀規則 R5（前 = 東）/ frame clauses; 前／後 per rule R5 | 方位、另一慣例 / direction, alt_direction |
+| `beside` | 任意 → 任意 | 「X之濱」 | — |
+| `encircles` | WAT → 任意 | 「其下有X之淵環之」「X環之」 | — |
+| `outside` | 任意 → 任意 | 「其外有X」 | — |
 
 ## 4. 真實世界候選 / Real-world candidates（步驟 3）
 
 | 書中類型 / Text type | 候選庫 / Candidate base | 自身分數依據 / Own-score basis |
 |---|---|---|
-| 生物 CRE | `world/animals.jsonl`（116 種，含特徵與古代分佈），外加「無」（自身分數 0.35）| 描述特徵的稀有度加權覆蓋率；鳥、魚與身體形態檢查 / rarity-weighted coverage of description tags, with bird/fish and body checks; 'none' own score 0.35 |
-| 山 MTN、地 LND | `world/regions.jsonl`（31 個地區）＋ `region-properties.jsonl` | 該山的物產、生物、地形與地區性質的吻合 / resources, creatures and terrain vs region properties |
-| 水 WAT（主要水體）| `world/waters.jsonl`（135 個全球河、湖、海、沙漠終點，含河源地區、河口、流域、流向），外加「庫中沒有」| 類型、流向、終點類型、規模（小權重）；「庫中沒有」的成本 = min(0.1 × 支流數, 1.5) / type, flow direction, destination type, size (small); 'none' costs min(0.1 × inflows, 1.5) |
-| 國族 POL | `world/cultures.jsonl`（47 個全球古代人群，含習俗、地區），外加「證據不足」| 習俗、生業的稀有度加權（只計該族作主語的句子）/ rarity-weighted customs and livelihood, subject clauses only |
+| 生物 CRE | `world/animals.jsonl`（145 種，含特徵與古代分佈；新增會說話的鳥、有爪的獸，並補齊動物較少的地區），外加「無」（自身分數 0.35）| 描述特徵的稀有度加權覆蓋率；鳥、魚與身體形態檢查 / rarity-weighted coverage of description tags, with bird/fish and body checks; 'none' own score 0.35 |
+| 山 MTN、地 LND | `world/regions.jsonl`（33 個地區：埃及與尼羅河下游 EGY、印度河流域 IDS 依「河谷文明自成一區」規則分出）＋ `region-properties.jsonl`（38 項，含「火或酷熱」「方形外觀」）| 該山的物產、生物、地形與外觀（R3、R4）/ resources, creatures, terrain and outlook |
+| 水 WAT（主要水體）| `world/waters.jsonl`（269 個河、湖、海、沙漠終點，含 9 個古水體；長條形的海有軸向與出口），**任何類型都可為候選**（R1），外加「庫中沒有」| 類型、流向、終點類型、規模（小權重）；「庫中沒有」的成本 = min(0.1 × 支流數, 1.5) / type, flow direction, destination type, size (small); 'none' costs min(0.1 × inflows, 1.5) |
+| 國族 POL | `world/cultures.jsonl`（48 個全球古代人群，含哈拉帕；習俗、地區），外加「證據不足」| 習俗、生業的稀有度加權（只計該族作主語的句子）/ rarity-weighted customs and livelihood, subject clauses only |
 | 植物 PLA、礦物 MIN | 普通名詞的詞義（`kg_common.LEXICAL`）；專名不對應 / lexical meaning of common nouns; proper names unmapped | 亦作為山的性質使用 / also used as mountain properties |
 | 神人 PER | 無（非地理實體）/ none (non-geographic) | 不對應，但保留在圖中 / not mapped, kept in the graph |
 
@@ -80,12 +85,27 @@
 | `next` | 兩山同一地區 +0.3、相鄰 +0.1、否則 −0.3（距離只是參考）/ same region, adjacent, otherwise | ≤ 0.3 |
 | `has_creature` | 動物的分佈涵蓋山的候選地區 / the animal's range covers the region | +0.5 × 覆蓋率；否則 −0.25 × 覆蓋率（海洋動物免檢）|
 | `located`、`sees` | 兩端候選中心點的方位與書中方位相差 ≤ 67.5° / bearing agrees within 67.5° | +0.2 / −0.1（`sees` ±0.1 / −0.05）|
+| `beside`、`encircles` | 兩端候選同一地區 / 相鄰 / 否 / same region, adjacent, otherwise | +0.3 / +0.1 / −0.2 |
+| `outside` | 同上 / same | +0.2 / +0.1 / −0.13 |
 
 **唯一性 / Uniqueness**：兩條書中河流對到同一條真實水體，每對扣 2.0。/ 2.0 per pair of book waters on one real water.
 
-**求解 / Solve**：模擬退火 6 條鏈 × 120 萬步（溫度 2.0 → 0.02，固定種子；一半提議由關係引導），ICM 收尾（平手保留現值），再做區塊調整：一條河設為某候選，同時重配相鄰的河、它們的源山及源山的鄰站，總分上升才接受。對應＝總分最高的鏈。樣本：6 條完整鏈＋12 次「略去 20% 關係」的重解（各 2 條鏈），共 30 個。/ Simulated annealing (6 chains × 1.2M steps, T 2.0 → 0.02, fixed seeds, half the proposals relation-guided), ICM polish, then block moves (a river with its neighbouring rivers, source mountains and their stations; kept only if E rises). Mapping = the best chain. 30 samples: 6 full chains plus 12 re-solves with 20% of relations dropped (2 chains each).
+**求解 / Solve**：模擬退火 6 條鏈 × 120 萬步（溫度 2.0 → 0.02，固定種子；一半提議由關係引導），ICM 收尾（平手保留現值），再做區塊調整（`located` 對河流以河線最近的一點計方位 / bearings to a river use the nearest point of its line）：一條河設為某候選，同時重配相鄰的河、它們的源山及源山的鄰站，總分上升才接受。對應＝總分最高的鏈。樣本：6 條完整鏈＋12 次「略去 20% 關係」的重解（各 2 條鏈），共 30 個。/ Simulated annealing (6 chains × 1.2M steps, T 2.0 → 0.02, fixed seeds, half the proposals relation-guided), ICM polish, then block moves (a river with its neighbouring rivers, source mountains and their stations; kept only if E rises). Mapping = the best chain. 30 samples: 6 full chains plus 12 re-solves with 20% of relations dropped (2 chains each).
 
 **可信度 / Confidence** = 穩定度 × (1 − e^(−邊際))；高 ≥ 0.6、中 ≥ 0.3、低 ≥ 0.1、暫定 < 0.1。每個對應都列出支持與違反的關係、樣本中的其他候選及比例；河流另報水系層級的穩定度。/ High, medium, low, tentative; every mapping lists supporting and violated relations and sample alternatives; rivers also report system-level stability.
+
+### 5.1 解讀規則的實作 / Reading rules in scoring（[framework §3.1](../../../docs/research-framework.md)）
+- R1 水只是水體：水的候選包含所有類型，類型不同 −0.3。/ any water type, −0.3 when it differs.
+- R2 時間深度：`era = palaeo` 的水體 −0.2。/ palaeo waters −0.2.
+- R3、R4 外觀與效果：性質「方形外觀」（「削成而四方」）、「火或酷熱」（「炎火」「投物輒然」）。/ properties square_cut_form, fire_or_extreme_heat.
+- R5 方位慣例：`front_east = 1`（前 = 東）；`--set front_east=0` 以另一慣例計分。/ orientation, with the other convention as a check.
+- R6 地圖讀法：`rises_at` 另一端吻合 ×0.8；`flows_into` 反向相接 +1.5；書中方向與實際方向相反時自身分數只少 0.1。/ map view.
+- 對稱：以上規則對所有候選一體適用。/ applied to every candidate alike.
+
+### 5.2 篇段與假說檢驗 / Section and hypothesis tests（`kg_sections.py`）
+- **篇段掃描**：每一篇的山全部固定在某一地區，其餘全書以 ICM 與區塊調整重新擬合，記錄總分；各篇的地區排名即全書的篇段層級地圖。/ Section scan: each section held in each region; the ranking is a section-level map of the book.
+- **聯合假說**：例如「西次一經 = 印度河流域、西次二經 = 美索不達米亞、西次三經 = 埃及，赤水 = 紅海、黑水 = 尼羅河、西海 = 地中海」，與對立組態（衣索比亞、中國、塔里木、伊朗—中亞、北美誘餌）一起計分，報告 ΔE 與被違反的關係。/ Joint configurations and their rivals, with ΔE and broken relations.
+- 限制：這是從基準出發的局部擬合，用於比較；地區層級無法分辨「尼羅河東岸或西岸」這類細節。/ A local re-fit for comparison; region resolution cannot resolve river banks.
 
 ## 6. 交付 / Deliverable（步驟 5）
 

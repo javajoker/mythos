@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from kg_common import KG, ROOT, jl, load_world  # noqa: E402
 
-DRAFT = "draft-v2"
+DRAFT = "draft-v3"
 OUT = ROOT / "projects/shanhaijing/deliverables" / (sys.argv[sys.argv.index("--version") + 1] if "--version" in sys.argv else DRAFT)
 ENTRIES = ROOT / "reference/shanhaijing/data/entries.jsonl"
 TYPE_ZH = {"MTN": "山", "WAT": "水", "LND": "地", "POL": "國族", "CRE": "生物", "PLA": "植物", "MIN": "礦物",
@@ -257,6 +257,11 @@ def main():
           f'<text x="34" y="{ly + 52}">國族：對到的古代人群 / peoples: matched ancient cultures. 海岸線僅供定位，不參與計分 / coastlines for orientation only, not scored.</text>']
     S.append("</svg>")
     (OUT / "world-map.svg").write_text("\n".join(S))
+
+    # ---- section and hypothesis tests (kg_sections.py), copied when present ------------------------------------------
+    sec_md = KG / "sections/sections.md"
+    if sec_md.exists():
+        (OUT / "hypotheses.md").write_text(sec_md.read_text())
 
     # ---- coverage of the deliverable --------------------------------------------------------------------------------
     total_mentions = sum(len([n for n in v if n in nodes]) for v in by_entry.values())

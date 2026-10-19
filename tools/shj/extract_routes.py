@@ -30,7 +30,7 @@ RE_STATION = re.compile(rf"^(?P<again>又)?(?P<dir>{DIRS})(?P<leg>(?:[^，。曰
 RE_FIRST = re.compile(r"之首.{0,12}?[，。]?其(?:首|名)曰(?P<name>[^，。；]+)|之首，?曰(?P<name2>[^，。；]+)")
 RE_LEG_PART = re.compile(rf"(?P<mode>水行|流沙|山行|陸行)?(?P<n>{NUM})里")
 RE_RIVER = re.compile(rf"(?P<river>[^，。；]{{1,8}}?之?水)出(?P<where>焉|於其[陽陰]|其[陽陰]|於其上|其上|於其下)?"
-                      rf"[，]?而?(?P<dir>{DIRS})?流注於(?P<to>[^，。；]+)")
+                      rf"[，]?而?(?P<dir>{DIRS})?流注?於(?P<to>[^，。；]+)")   # 「西流于大杅」 has no 注
 RE_CREATURE = re.compile(r"有(?P<kind>獸|鳥|魚|蛇|木|草|神|人)焉，(?P<desc>(?:(?!有[獸鳥魚蛇木草神人]焉).)*?)(?:其名曰|名曰)(?P<name>[^，。；]+)")
 RE_SUMMARY = re.compile(rf"凡(?P<what>.+?)，?(?:自|起)?(?P<span>.*?)凡(?P<n_mtn>{NUM}(?:有{NUM})?)山，(?P<li>{NUM})里")
 

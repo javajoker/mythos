@@ -33,35 +33,46 @@ def is_major(n, course):
 
 
 def water_candidates(n, waters):
+    """Reading rules R1 and R2 (methodology-spec §5.1): a book water is just a water body — 河, 水, 海, 澤 may be a river,
+    lake or sea, with a small cost when the type differs from the book's word; its course is read as a map line, so a
+    stated direction may run either way along the real water (reversed costs a little); former (palaeo) waters are
+    allowed at a small cost."""
     p = n["props"]
     sub = p.get("subtype", "river")
-    want = {"river": ("river",), "lake": ("lake", "desert"), "sea": ("sea",)}[sub]
+    book_kind = {"river": "river", "lake": "lake", "sea": "sea"}[sub]
+    by_id = {x["id"]: x for x in waters}
     out = []
     for w in waters:
-        if w["type"] not in want:
-            continue
         s, why = 0.0, []
-        if sub == "river":
-            if p.get("flow_dir") and w.get("flow_dir"):
-                d = angdiff(DIR_DEG[p["flow_dir"]], DIR_DEG[w["flow_dir"]])
-                s += 0.4 if d == 0 else 0.2 if d <= 45 else 0 if d <= 90 else -0.3
-                why.append(f"flow {p['flow_dir']}/{w['flow_dir']}")
-            # size: the number of inflows the book lists reflects how densely it surveyed a basin, not river length,
-            # so this term is kept small
-            k, L = p.get("n_inflows", 0), w.get("length_km", 0)
+        real_kind = "lake" if w["type"] == "desert" else w["type"]
+        if real_kind != book_kind:
+            s -= 0.3
+            why.append(f"type {book_kind}/{real_kind}")
+        if w.get("era") == "palaeo":
+            s -= 0.2
+            why.append("palaeo")
+        if p.get("flow_dir") and w.get("flow_dir"):
+            d = angdiff(DIR_DEG[p["flow_dir"]], DIR_DEG[w["flow_dir"]])
+            r = angdiff(DIR_DEG[p["flow_dir"]], (DIR_DEG[w["flow_dir"]] + 180) % 360)
+            fwd = 0.4 if d == 0 else 0.2 if d <= 45 else 0 if d <= 90 else -0.3
+            rev = (0.3 if r == 0 else 0.1 if r <= 45 else 0 if r <= 90 else -0.3)
+            s += max(fwd, rev)
+            why.append(f"line {p['flow_dir']}/{w['flow_dir']}" + (" reversed" if rev > fwd else ""))
+        # size: the number of inflows the book lists reflects how densely it surveyed a basin, not river length,
+        # so this term is kept small
+        k, L = p.get("n_inflows", 0), w.get("length_km", 0)
+        if real_kind == "river":
             s += (0.15 if L >= 800 else -0.1) if k >= 10 else 0.0
-            dt = p.get("dest_type")
-            real_mouth_type = None
-            if w.get("mouth"):
-                real_mouth_type = next((x["type"] for x in waters if x["id"] == w["mouth"]), None)
-            if dt and real_mouth_type:
-                if dt in ("lake", "desert"):
-                    s += 0.4 if (w.get("endorheic") or w.get("ends_in_desert")) else -0.2
-                elif dt == "sea":
-                    s += 0.3 if real_mouth_type == "sea" else -0.2
-                elif dt == "river":
-                    s += 0.3 if real_mouth_type == "river" else -0.1
-                why.append(f"dest {dt}/{real_mouth_type}")
+        dt = p.get("dest_type")
+        mt = by_id.get(w.get("mouth") or "", {}).get("type")
+        if dt and mt:
+            if dt in ("lake", "desert"):
+                s += 0.4 if (w.get("endorheic") or w.get("ends_in_desert")) else -0.2
+            elif dt == "sea":
+                s += 0.3 if mt == "sea" else -0.2
+            elif dt == "river":
+                s += 0.3 if mt == "river" else -0.1
+            why.append(f"dest {dt}/{mt}")
         out.append({"cand": f"water:{w['id']}", "own": round(s, 3), "why": why})
     out.sort(key=lambda c: (-c["own"], c["cand"]))
     # 'none' (not in the base) costs more for bigger book waters: the base holds the world's major rivers, lakes, seas

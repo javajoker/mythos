@@ -66,10 +66,11 @@ PERSONS_KNOWN = [
 ]
 PERSONS_KNOWN.sort(key=len, reverse=True)
 
-STRIP_PREFIX = re.compile(r"^(?:[又凡其是此有曰名乃至於于在之及與出入注過望臨東西南北多上下陽陰中至則見而以為自]|名曰|至于|至於)+")
+STRIP_PREFIX = re.compile(r"^(?:其外有|外有|[又凡其是此有曰名乃至於于在之及與出入注過望臨東西南北多上下陽陰中至則見而以為自]|名曰|至于|至於)+")
 STOP_MTN = {"山", "其山", "是山", "此山", "名山", "大山", "諸山", "群山", "羣山", "一山", "二山", "三山", "高山之",
             "中山", "南山經", "北山經", "西山經", "東山經", "五臧山", "下山", "上山", "之山"}
-STOP_WAT = {"水", "其水", "是水", "此水", "多水", "無水", "大水", "洪水", "之水", "水玉", "海", "海水", "其海", "流水"}
+STOP_WAT = {"水", "其水", "是水", "此水", "多水", "無水", "大水", "洪水", "之水", "水玉", "海", "海水", "其海", "流水",
+            "淵", "泉", "池", "澤"}
 STOP_POL = {"國", "其國", "是國", "此國", "天下", "郡國", "之國", "大國", "見則其國", "民", "人民", "其民", "萬民",
             "之民", "國民"}
 WATER_SUFFIX = re.compile(r"(之水|水|海|澤|淵|泉|池|湖|浦)$")
@@ -463,7 +464,45 @@ def main():
                 if dst and dst != src:
                     kg.edge(src, dst, "located", eid, m.group(0), direction=m.group(3))
                 subject = src
+            # frame clauses 「西海之南，流沙之濱，赤水之後，黒水之前，有大山，名曰崑崙之丘」 (review R1, T-E06).
+            # 前／後 follow reading rule R5: the observer faces east (toward the compilers), so 前 = east, 後 = west;
+            # the alternative convention (前 = south) is kept in alt_direction.
+            fm = re.match(r"^((?:[^，。；]{1,6}之(?:南|北|東|西|濱|後|前)，)+)", t)
+            if fm:
+                nm = re.search(r"(?:名曰|曰)([^，。；]{1,6})", t[fm.end():])
+                tsym = fold(clean(nm.group(1))) if nm else ""
+                target = next((n for n in kg.mentions[eid] if tsym and kg.nodes[n]["symbol"] and
+                               (kg.nodes[n]["symbol"] == tsym or tsym in kg.nodes[n]["variants"])), None) \
+                    or (kg.lookup(tsym) if tsym else None) or subject
+                for cm in re.finditer(r"([^，。；]{1,6})之(南|北|東|西|濱|後|前)，", fm.group(1)):
+                    xs = fold(PUNCT.sub("", cm.group(1)))        # keep the full name: 「西海」 is not 「海」
+                    if re.search(r"沙$", xs):
+                        x = kg.lookup(xs, ("LND",)) or kg.node("LND", xs, eid)
+                    elif WATER_SUFFIX.search(xs) or water_core(xs) in known_waters:
+                        x = kg.node("WAT", water_core(xs), eid)
+                    else:
+                        x = kg.ref(xs, eid, "LND")
+                    rel, clause = cm.group(2), cm.group(0)
+                    if not target or not x or x == target:
+                        continue
+                    if rel in "南北東西":
+                        kg.edge(target, x, "located", eid, clause, direction=rel)
+                    elif rel == "濱":
+                        kg.edge(target, x, "beside", eid, clause)
+                    else:
+                        kg.edge(target, x, "located", eid, clause, direction="東" if rel == "前" else "西",
+                                alt_direction="南" if rel == "前" else "北", convention="front=east")
+                if target:
+                    subject = target
+            # 「其下有弱水之淵環之」: a water encircles the subject; 「其外有炎火之山」: a place lies around it
             if subject:
+                for em in re.finditer(r"([^\s，。；、]{1,4}?水)之?[淵泉]?環之", t):
+                    w = kg.node("WAT", water_core(clean(em.group(1))), eid)
+                    kg.edge(w, subject, "encircles", eid, em.group(0))
+                for om in re.finditer(r"其外有([^，。；]{1,8}?(?:之山|山))", t):
+                    o = resolve_mtn(om.group(1), eid)
+                    if o and o != subject:
+                        kg.edge(o, subject, "outside", eid, om.group(0))
                 last_subject[e["book_no"]] = subject
         # properties of the paragraph's subject
         if subject and subject in kg.nodes and kg.nodes[subject]["symbol"]:

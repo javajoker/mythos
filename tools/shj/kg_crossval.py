@@ -39,15 +39,22 @@ CHAINS, STEPS, SUB_CHAINS, SUB_STEPS, T0, T1 = 6, 1_200_000, 2, 600_000, 2.0, 0.
 # relation weights (methodology-spec §5); `--set name=value` overrides one for a sensitivity run, `--out DIR` writes there
 WT = {"flow_hit": 2.0, "flow_near": 0.3, "flow_miss": -1.0, "rise_hit": 1.0, "rise_adj": 0.3, "rise_miss": -0.5,
       "minor_hit": 0.6, "minor_miss": -0.3, "next_same": 0.3, "next_adj": 0.1, "next_miss": -0.3,
-      "bearing_scale": 1.0, "creature_scale": 1.0, "uniq": 2.0}
+      "bearing_scale": 1.0, "creature_scale": 1.0, "uniq": 2.0,
+      # reading rules (methodology-spec §5.1): map view of waters (an end, not necessarily the source, lies at the place;
+      # a stated course may run either way), orientation 前 = east (front_east=1) or 前 = south (front_east=0),
+      # and the spatial clauses of review R1 (濱 beside, 環之 encircles, 其外有 outside)
+      "map_view": 1.0, "flow_rev": 1.5, "front_east": 1.0,
+      "near_hit": 0.3, "near_adj": 0.1, "near_miss": -0.2}
 
 
 CANDS = KG / "candidates.jsonl"
 INIT = None          # --init MAPPING: diagnostic only — polish that configuration and report its energy, then exit
+FIX = None           # --fix JSON {node: candidate}: hold these entities at the given candidates (hypothesis tests)
+SCAN = None          # --scan JSON [{"name", "fix"}...]: with --init, polish each fixed configuration in turn (one load)
 
 
 def parse_args(argv):
-    global CANDS, INIT
+    global CANDS, INIT, FIX, SCAN
     out = KG
     i = 0
     while i < len(argv):
@@ -56,6 +63,12 @@ def parse_args(argv):
             if k not in WT:
                 sys.exit(f"unknown weight {k}; known: {sorted(WT)}")
             WT[k] = float(v)
+            i += 2
+        elif argv[i] == "--scan":
+            SCAN = json.loads(Path(argv[i + 1]).read_text())
+            i += 2
+        elif argv[i] == "--fix":
+            FIX = json.loads(Path(argv[i + 1]).read_text())
             i += 2
         elif argv[i] == "--init":
             INIT = Path(argv[i + 1])
@@ -95,6 +108,12 @@ def main():
             own[nid]["none"] = NONE_OWN
         elif c.get("kind") in ("water", "animal"):
             own[nid] = {x["cand"]: x["own"] for x in c["candidates"]}
+    if FIX and not INIT:
+        for v, c in FIX.items():
+            if v in own and c in own[v]:
+                own[v] = {c: own[v][c]}      # a fixed entity keeps only its hypothesised candidate
+            elif v in own:
+                own[v] = {c: 0.0}
     var = set(own)
 
     def point(cand):
@@ -108,6 +127,11 @@ def main():
             return tuple(w.get("pt") or w.get("mouth_pt"))
         return None
 
+    def nearest_region(pt):
+        return min(regions, key=lambda r: (r["lat"] - pt[0]) ** 2 + ((r["lon"] - pt[1]) * math.cos(math.radians(pt[0]))) ** 2)["code"]
+
+    mouth_region = {w["id"]: nearest_region(w["mouth_pt"]) for w in waters if w.get("mouth_pt")}
+
     def region_of(cand):
         kind, _, key = cand.partition(":")
         if kind == "region":
@@ -116,8 +140,28 @@ def main():
             return {cul[key]["region"]}
         if kind == "water":
             w = wat[key]
-            return set(w.get("basin") or w.get("regions") or [])
+            return set(w.get("basin") or w.get("regions") or []) | ({mouth_region[key]} if key in mouth_region else set())
         return set()
+
+    def points(cand):
+        """Points of a candidate for bearings: a river is a line (source, middle, mouth), a sea or lake a point."""
+        kind, _, key = cand.partition(":")
+        if kind == "water" and wat[key].get("src") and wat[key].get("mouth_pt"):
+            (a, b), (c, d) = wat[key]["src"], wat[key]["mouth_pt"]
+            return [(a, b), ((a + c) / 2, (b + d) / 2), (c, d)]
+        p = point(cand)
+        return [p] if p else []
+
+    def f_near(hit, adj_w, miss):
+        """beside / encircles / outside: the two candidates share a region (or are adjacent)."""
+        def f(ca, cb):
+            if "none" in (ca, cb):
+                return 0.0
+            A, B = region_of(ca), region_of(cb)
+            if A & B:
+                return hit
+            return adj_w if any(b in adj.get(a, ()) for a in A for b in B) else miss
+        return f
 
     # ---- factors ---------------------------------------------------------------------------------------------------
     factors = []   # (a, b, fn(ca, cb) -> score, label, entry)
@@ -137,6 +181,8 @@ def main():
         wa, wb = wat[ca[6:]], wat[cb[6:]]
         if wa.get("mouth") == wb["id"]:
             return WT["flow_hit"]
+        if wb.get("mouth") == wa["id"] and WT["map_view"]:
+            return WT["flow_rev"]               # map view: the two connect, the book's direction is not the flow
         mouth = wat.get(wa.get("mouth") or "", {})
         if set(mouth.get("basin") or mouth.get("regions") or []) & set(wb.get("basin") or wb.get("regions") or []):
             return WT["flow_near"]
@@ -145,9 +191,16 @@ def main():
     def f_rise(cw, cm):
         if cw == "none" or cm == "none":
             return 0.0
-        src = wat[cw[6:]].get("src_region")
+        w = wat[cw[6:]]
         m = cm.partition(":")[2]
-        return WT["rise_hit"] if src == m else WT["rise_adj"] if src in adj.get(m, ()) else WT["rise_miss"]
+        src = w.get("src_region")
+        ends = {src, mouth_region.get(w["id"])} if w["type"] == "river" else set(w.get("regions") or [])
+        if src == m:
+            return WT["rise_hit"]
+        if WT["map_view"] and m in ends:
+            return WT["rise_hit"] * 0.8          # map view: the other end of the water lies at the place
+        near = ends if WT["map_view"] else {src}
+        return WT["rise_adj"] if any(e in adj.get(m, ()) for e in near if e) else WT["rise_miss"]
 
     def f_minor(cm, cb):
         if cb == "none" or cm == "none":
@@ -174,8 +227,11 @@ def main():
         def f(ca, cb):   # "A is <direction> of B": bearing from B to A
             if "none" in (ca, cb):
                 return 0.0
-            pa, pb = point(ca), point(cb)
-            if not pa or not pb or pa == pb:
+            pa, pbs = point(ca), points(cb)
+            if not pa or not pbs:
+                return 0.0
+            pb = min(pbs, key=lambda q: (q[0] - pa[0]) ** 2 + (q[1] - pa[1]) ** 2)   # nearest part of a river line
+            if pa == pb:
                 return 0.0
             return w_ok if angdiff(bearing(pb, pa), DIR_DEG[direction]) <= 67.5 else w_bad
         return f
@@ -210,7 +266,13 @@ def main():
         elif t in ("located", "sees") and a in var and b in var and x["attrs"].get("direction") in DIR_DEG:
             w_ok, w_bad = (0.2, -0.1) if t == "located" else (0.1, -0.05)
             w_ok, w_bad = w_ok * WT["bearing_scale"], w_bad * WT["bearing_scale"]
-            factors.append((a, b, make_bearing(x["attrs"]["direction"], w_ok, w_bad), t, x["entry"]))
+            d = x["attrs"]["direction"]
+            if x["attrs"].get("alt_direction") and not WT["front_east"]:
+                d = x["attrs"]["alt_direction"]          # 前／後 under the other convention (前 = south)
+            factors.append((a, b, make_bearing(d, w_ok, w_bad), t, x["entry"]))
+        elif t in ("beside", "encircles", "outside") and a in var and b in var:
+            k = 0.67 if t == "outside" else 1.0
+            factors.append((a, b, f_near(WT["near_hit"] * k, WT["near_adj"], WT["near_miss"] * k), t, x["entry"]))
     for nid, sc in own.items():
         if cands[nid].get("kind") == "animal":
             own_animal.update({k: v for k, v in sc.items() if k.startswith("animal:")})
@@ -435,16 +497,52 @@ def main():
 
     all_f = set(range(len(factors)))
     if INIT:
-        # Is a given configuration (e.g. an earlier mapping) better than what the chains find? Polish it with ICM and
-        # block moves under the current base and weights, and print its energy. Nothing is written.
+        # Diagnostic and hypothesis tests: start from a given mapping, hold the --fix (or each --scan) configuration,
+        # re-fit everything else with ICM and block moves, and report the energy and the relations the fixed
+        # entities break. The chains are not run and kg/mapping.jsonl is not written.
         prev = {m["node"]: m.get("cand") for m in jl(INIT)}
-        assign = {v: (prev.get(v) if prev.get(v) in own[v] else max(sorted(own[v]), key=lambda c: own[v][c]))
-                  for v in var_list}
-        e0 = energy(assign, all_f)
-        assign = block_moves(icm(assign, all_f, 7), all_f, random.Random(7))
-        print(f"init energy {e0:.1f}; after polish {energy(assign, all_f):.1f}", file=sys.stderr)
-        for k in ("WAT:河", "WAT:江", "WAT:渭", "MTN:昆侖之丘"):
-            print(k, prev.get(k), "->", assign.get(k), file=sys.stderr)
+        start = {v: (prev.get(v) if prev.get(v) in own[v] else max(sorted(own[v]), key=lambda c: own[v][c]))
+                 for v in var_list}
+
+        def polish(fix):
+            saved = {}
+            for v, c in fix.items():
+                if v in own:
+                    saved[v] = own[v]
+                    own[v] = {c: saved[v].get(c, 0.0)}
+            assign = dict(start)
+            assign.update({v: c for v, c in fix.items() if v in own})
+            e0 = energy(assign, all_f)
+            assign = block_moves(icm(assign, all_f, 7), all_f, random.Random(7))
+            e1 = energy(assign, all_f)
+            broken = []
+            for (a, b, fn, lab, ent) in factors:
+                if a in fix or b in fix:
+                    val = fn(assign[a], None) if b is None else fn(assign[a], assign[b])
+                    if val < 0:
+                        broken.append({"relation": lab, "a": a, "b": b, "a_cand": assign[a], "b_cand": assign.get(b),
+                                       "entry": ent, "score": round(val, 3)})
+            for v, o in saved.items():
+                own[v] = o
+            return e0, e1, assign, broken
+
+        key_nodes = ("WAT:河", "WAT:赤", "WAT:黑", "WAT:弱", "WAT:西海", "MTN:昆侖之丘")
+        if SCAN:
+            with (out_dir / "scan.jsonl").open("w") as f:
+                for cfg in SCAN:
+                    e0, e1, assign, broken = polish(cfg["fix"])
+                    f.write(json.dumps({"name": cfg["name"], "energy": round(e1, 2), "n_fixed": len(cfg["fix"]),
+                                        "violated": len(broken), "violated_score": round(sum(x["score"] for x in broken), 2),
+                                        "violated_top": sorted(broken, key=lambda x: x["score"])[:12],
+                                        "key": {k: assign.get(k) for k in key_nodes}}, ensure_ascii=False) + "\n")
+                    f.flush()
+            return
+        e0, e1, assign, broken = polish(FIX or {})
+        print(f"init energy {e0:.1f}; after polish {e1:.1f}", file=sys.stderr)
+        if out_dir != KG:
+            (out_dir / "result.json").write_text(json.dumps(
+                {"energy_init": round(e0, 2), "energy": round(e1, 2), "fixed": FIX or {}, "violated": broken,
+                 "key": {k: assign.get(k) for k in key_nodes}, "weights": WT}, ensure_ascii=False, indent=1))
         return
     best_single, final_e = solve(all_f, 7, CHAINS, STEPS, log=True)
     for r in range(RESTARTS):

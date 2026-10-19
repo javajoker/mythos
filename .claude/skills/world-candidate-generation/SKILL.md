@@ -10,6 +10,8 @@ description: Build and use a worldwide real-world base (regions with properties,
 - **先建庫，後計分**：真實世界庫在看結果之前定好；之後的修改要寫明理由並重跑全部。/ **Base before scoring**: fix the base before seeing results; later changes need a stated reason and a full re-run.
 - **庫要平衡**：每個區域、每條大河的資料密度要相近；某河列出的支流特別多，就會吸引更多對應，要在檢查時說明。/ **Balance the base**: comparable detail per region and river; a river with many listed tributaries attracts more mappings.
 - **名稱不計分**：只比描述與性質。/ **Names never score.**
+- **外觀與時間**：書中所見是外觀、是當時的樣子：山可能是沙丘、方山或高大建築；水可能是任何水體；古河道、古湖與遺跡可以作候選（需資料來源，小扣分）。新增這類候選時，**全世界同類的都要加**，不只假說所在的地區。/ **Outlook and time**: candidates include dunes, mesas, built forms, any water type, palaeo-waters and relics — added worldwide, not only where a hypothesis needs them.
+- **地區解析度**：若一個地區同時包含河谷文明與大片其他區域，依「河谷自成一區」規則分出（例：EGY、IDS）。/ Split regions where a river-valley civilisation sits inside a larger zone.
 
 ## 候選的種類 / Kinds of candidate
 | 實體 | 候選 | 自身分數 / own score |

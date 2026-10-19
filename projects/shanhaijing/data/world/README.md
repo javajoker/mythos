@@ -1,22 +1,23 @@
 # 真實世界候選庫 / Real-World Candidate Base
 
-> 草稿 v2.0。每筆資料都附來源（多為 Wikipedia 條目），**在跑分程式之前提交**；之後的修改必須在提交訊息中說明原因。覆蓋全部有人居住的大陸。
-> Draft v2.0. Every record cites its sources, and the base was **committed before the scoring code**; later changes must be explained in the commit message. Covers every inhabited continent.
+> 草稿 v2.1。每筆資料都附來源（多為 Wikipedia 條目），**在跑分程式之前提交**；之後的修改必須在提交訊息中說明原因。覆蓋全部有人居住的大陸。
+> Draft v2.1. Every record cites its sources, and the base was **committed before the scoring code**; later changes must be explained in the commit message. Covers every inhabited continent.
 
 | 檔案 / File | 筆數 / Records | 用途 / Used for |
 |---|---|---|
-| `regions.jsonl` | 31 | 山與地的候選；中心座標；相鄰地區（對稱）/ candidates for mountains and land features; centroids; symmetric adjacency |
-| `region-properties.jsonl` | 36 | 地區的礦產、植物、地形、習俗：為 T 的地區、為 F 的地區，其餘未知 / region properties: true regions, false regions, rest unknown |
-| `animals.jsonl` | 116 | 生物的候選：描述標籤、古代分佈 / creature candidates: tags and ancient ranges |
-| `waters.jsonl` | 260 | 水的候選：209 條河（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、24 湖、23 海、4 個沙漠終點 / water candidates |
+| `regions.jsonl` | 33 | 山與地的候選；中心座標；相鄰地區（對稱）/ candidates for mountains and land features; centroids; symmetric adjacency |
+| `region-properties.jsonl` | 38 | 地區的礦產、植物、地形、習俗：為 T 的地區、為 F 的地區，其餘未知 / region properties: true regions, false regions, rest unknown |
+| `animals.jsonl` | 145 | 生物的候選：描述標籤、古代分佈 / creature candidates: tags and ancient ranges |
+| `waters.jsonl` | 269 | 水的候選（任何類型皆可，見解讀規則 R1）：217 條河（含 8 條古河道）（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、25 湖（含古湖 Mega-Chad）、23 海（長條形的海有軸向與出口）、4 個沙漠終點 / water candidates |
 | `coastlines.json` | 33 + 6 | 簡化的陸地與內陸水域輪廓，**只用於繪製地圖，不參與計分** / simplified land and inland-water outlines, **for drawing the map only, never scored** |
-| `cultures.jsonl` | 47 | 國族的候選：地區、中心點、習俗與食物標籤 / polity/people candidates |
+| `cultures.jsonl` | 48 | 國族的候選：地區、中心點、習俗與食物標籤 / polity/people candidates |
 
 ## 1. 地區代碼 / Region codes
 
 | 代碼 | 地區 | 代碼 | 地區 |
 |---|---|---|---|
-| NAF | 北非（埃及、馬格里布、撒哈拉）| IND | 印度次大陸 |
+| EGY | 埃及與尼羅河下游 | IDS | 印度河流域（哈拉帕） |
+| NAF | 馬格里布與撒哈拉 | IND | 印度次大陸（恆河、德干）|
 | EAF | 東非、非洲之角 | HIM | 喜馬拉雅南坡 |
 | CAF | 中非、大湖區 | TIB | 青藏高原 |
 | WAF | 西非 | TAR | 塔里木、西崑崙、帕米爾 |
@@ -54,3 +55,14 @@ The earlier base listed tributaries only for the Yangtze, Yellow, Wei and Luo, w
 - **R2**：長度 800–2,000 公里的河，列出長度 ≥ 300 公里的直接支流，最多 2 條。/ rivers of 800–2,000 km list up to 2 direct tributaries ≥ 300 km.
 - 原有條目保留；新加支流的支流不再展開。剩餘的不平衡：黃河 5 條、渭河與洛河的二級支流只在中國有。/ Existing entries are kept; tributaries of new tributaries are not expanded. Residual imbalance: the Yellow River has 5, and second-order tributaries (of the Wei and Luo) exist only in China.
 - 雅魯藏布、幼發拉底、薩爾溫、錫爾河沒有符合門檻的支流。/ The Brahmaputra, Euphrates, Salween and Syr Darya have no tributary above the threshold.
+
+## 解讀規則帶來的更新 / Updates for the reading rules（2026-10-19）
+
+規則都是一般性的，適用於全世界；寫入之後才重新計分。/ General rules, applied worldwide, committed before re-scoring.
+
+1. **河谷文明自成一區**：一個地區若同時包含大河谷文明與大片沙漠或其他區域，就把河谷分出。北非分為 EGY（埃及與尼羅河下游）與 NAF（馬格里布、撒哈拉）；印度分為 IDS（印度河流域）與 IND（恆河、德干）。美索不達米亞與黃河已經各自成區。原有的性質、動物分佈由兩部分共同繼承；尼羅河水系與印度河水系的流域改為新區。/ **River-valley civilisations get their own region**: NAF → EGY + NAF, IND → IDS + IND; memberships inherited by both parts, the Nile and Indus systems moved to the new regions.
+2. **新性質**：`fire_or_extreme_heat`（火山或天然氣之火，或足以燒熟物品的酷熱地表；解讀規則 R4）；`square_cut_form`（方形外觀：金字塔、塔廟、平臺丘、方形墓丘，以及天然的方山與台地；R3）。/ New properties for R3 and R4.
+3. **動物**：(a) 書中描述沒有合適候選者：會說話的鳥（鸚鵡、鷯哥）、有爪的獸；(b) 動物少於 18 種的地區補上代表性的大型動物（北極、馬達加斯加、南美、澳洲、歐洲、美索不達米亞等）；另補非洲、印度常見的物種（蹄兔、獴、狞貓、耳廓狐、胡狼、瞪羚、藍牛羚、印度羚、印度野牛、瘤牛、懶熊、恆河鱷、蜜獾、角蝰）。共 29 種。/ 29 animals added by rules (a) and (b).
+4. **古水體（R2）**：Ghaggar-Hakra、Wadi Howar、Tamanrasset、Wadi al-Batin、Uzboy、吉薩的 Khufu 支流、黃河故道、塔里木下游故道、Mega-Chad 古湖；分佈於各大洲，不只假說所在的地區。/ Palaeo waters worldwide, not only in the hypothesis regions.
+5. **長條形的海**：紅海、波斯灣、加利福尼亞灣、裏海、地中海、波羅的海記錄軸向；各海記錄出口（例如紅海 → 阿拉伯海），以便地圖讀法（R6）。/ Sea axes and outlets for the map view.
+6. **人群**：哈拉帕（印度河流域）。/ Harappan culture added.

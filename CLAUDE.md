@@ -15,7 +15,7 @@ Specs: `docs/research-framework.md`, `projects/shanhaijing/docs/methodology-spec
 - **Text first**: every entity and relation carries entry IDs (e.g. `SHJ-02-3-006`) from `reference/<corpus>/data/entries.jsonl`; quotations are verbatim.
 - **No inherited conclusions**: commentary (郭注) and prior scholarship are never evidence and never used to build candidates.
 - **The world base is committed before scoring**; later changes need a stated reason and a full re-run. Never tune a weight toward a desired answer; a change needs a general reason and applies to the whole book.
-- Distances and bearings are only a small-weight reference.
+- Distances and bearings are only a small-weight reference. Read by outlook and time (framework §3.1, rules R1–R7: waters are water bodies, mountains are outlooks, palaeo-features and relics count at a cost, map view of courses, 前 = east, observer substitution), for every candidate alike. Test a reading as a held configuration against rivals (`kg_sections.py`).
 - Be direct about results, including when the evidence is insufficient or contradicts the user's own hypothesis. Never cite a tentative mapping as a finding.
 - The Shanhaijing base text contains modern paragraph relocations; follow the 1470 Chenghua (`sbck`) order (`projects/shanhaijing/docs/source-assessment.md`).
 
@@ -32,7 +32,9 @@ Specs: `docs/research-framework.md`, `projects/shanhaijing/docs/methodology-spec
 python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.py && python3 -I tools/shj/extract_routes.py   # text layer
 python3 -I tools/shj/kg_extract.py      # steps 1–2 + coverage audit
 python3 -I tools/shj/kg_candidates.py   # step 3
-python3 -I tools/shj/kg_crossval.py     # step 4 (~6 min)
+python3 -I tools/shj/kg_crossval.py     # step 4 (~15 min)
+python3 -I tools/shj/kg_sections.py     # section scan and joint hypotheses (~1 h)
+python3 -I tools/shj/kg_sensitivity.py  # weight sensitivity (~40 min)
 python3 -I tools/shj/kg_deliver.py      # step 5; fails unless complete
 python3 -I tools/shj/cn_numerals.py     # self-test
 ```

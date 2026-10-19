@@ -1,6 +1,6 @@
 # 知識圖譜覆蓋檢查 / Knowledge-graph coverage audit
 
-Paragraphs: 869 · nodes: 1941 · edges: 2725
+Paragraphs: 869 · nodes: 1943 · edges: 2741
 
 | node type | count |
 |---|---|
@@ -13,19 +13,22 @@ Paragraphs: 869 · nodes: 1941 · edges: 2725
 | PLA | 107 |
 | POL | 131 |
 | UNK | 47 |
-| WAT | 359 |
+| WAT | 361 |
 
 | edge type | count |
 |---|---|
 | begets | 55 |
+| beside | 1 |
 | described_in | 18 |
 | dwells | 20 |
-| flows_into | 251 |
+| encircles | 2 |
+| flows_into | 253 |
 | has_creature | 398 |
 | has_resource | 1087 |
-| located | 73 |
+| located | 81 |
 | next | 421 |
-| rises_at | 256 |
+| outside | 1 |
+| rises_at | 258 |
 | same_name | 29 |
 | sees | 30 |
 | sinks_at | 1 |

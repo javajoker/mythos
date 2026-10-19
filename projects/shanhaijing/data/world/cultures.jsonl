@@ -15,8 +15,8 @@
 {"id": "bactrian_sogdian", "name": "Bactria / Sogdia", "region": "CAS", "pt": [38.0, 66.0], "tags": ["agriculture", "horse"], "source": "Wikipedia: Bactria; Sogdia"}
 {"id": "persian", "name": "Persians / Medes", "region": "IRN", "pt": [32.0, 53.0], "tags": ["agriculture", "horse"], "source": "Wikipedia: Achaemenid Empire"}
 {"id": "mesopotamian", "name": "Assyrians / Babylonians", "region": "MES", "pt": [33.0, 44.0], "tags": ["agriculture"], "source": "Wikipedia: Mesopotamia"}
-{"id": "egyptian", "name": "Ancient Egyptians", "region": "NAF", "pt": [27.0, 31.0], "tags": ["agriculture", "fishing"], "source": "Wikipedia: Ancient Egypt"}
-{"id": "nubian", "name": "Nubians / Kush", "region": "NAF", "pt": [18.0, 32.0], "tags": ["dark_skin", "agriculture", "nomadic_herding"], "source": "Wikipedia: Kingdom of Kush"}
+{"id": "egyptian", "name": "Ancient Egyptians", "region": "EGY", "pt": [27.0, 31.0], "tags": ["agriculture", "fishing"], "source": "Wikipedia: Ancient Egypt"}
+{"id": "nubian", "name": "Nubians / Kush", "region": "EGY", "pt": [18.0, 32.0], "tags": ["dark_skin", "agriculture", "nomadic_herding"], "source": "Wikipedia: Kingdom of Kush"}
 {"id": "aksumite", "name": "Ethiopian highlanders (D'mt, Aksum)", "region": "EAF", "pt": [14.0, 38.7], "tags": ["dark_skin", "agriculture", "millet"], "source": "Wikipedia: Dʿmt; Aksumite Empire"}
 {"id": "berber", "name": "Berbers / Libyans", "region": "NAF", "pt": [31.0, -5.0], "tags": ["tattoo", "nomadic_herding", "horse"], "source": "Wikipedia: Berbers"}
 {"id": "arab_bedouin", "name": "Arabian nomads", "region": "ARB", "pt": [24.0, 45.0], "tags": ["nomadic_herding"], "source": "Wikipedia: Bedouin"}
@@ -45,3 +45,4 @@
 {"id": "amazonian", "name": "Amazonian peoples", "region": "SAM", "pt": [-3.0, -60.0], "tags": ["feather_dress", "tattoo", "ear_ornaments", "fishing"], "source": "Wikipedia: Indigenous peoples in Brazil"}
 {"id": "north_american", "name": "North American peoples (Woodland, Plains)", "region": "NAM", "pt": [40.0, -90.0], "tags": ["feather_dress", "tattoo", "hunting", "agriculture"], "source": "Wikipedia: Hopewell tradition"}
 {"id": "nw_coast", "name": "Northwest Coast peoples", "region": "NAM", "pt": [52.0, -128.0], "tags": ["fishing", "seafaring", "hunting"], "source": "Wikipedia: Indigenous peoples of the Pacific Northwest Coast"}
+{"id": "harappan", "name": "Harappan (Indus Valley civilisation)", "region": "IDS", "pt": [27.3, 68.1], "tags": ["agriculture", "rice", "millet", "seafaring", "ear_ornaments"], "source": "Wikipedia: Indus Valley Civilisation"}

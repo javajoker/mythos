@@ -33,7 +33,12 @@
 ```json
 {"src": "WAT:渭", "dst": "MTN:鳥鼠同穴之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "渭水出焉"}
 ```
-邊的類型見 [methodology-spec](methodology-spec.md) §3。/ Edge types in methodology-spec §3.
+邊的類型見 [methodology-spec](methodology-spec.md) §3。框架句的 `located` 另有 `alt_direction`（另一方位慣例）與 `convention`。/ Edge types in methodology-spec §3; frame-clause `located` edges also carry `alt_direction` and `convention`.
+
+### 2.6 篇段與假說檢驗 / Section and hypothesis tests（`kg/sections/`）
+- `scan.jsonl`：每個固定組態一行：`name`、`energy`、`n_fixed`、`violated`、`violated_score`、`violated_top`、`key`。/ one line per held configuration.
+- `section-best.json`：每一篇的地區排名與 ΔE。/ region ranking per section.
+- `sections.md`：報告。/ report.
 
 ### 2.3 提及 `mentions.jsonl`
 每段一行，列出該段抽出的全部實體 ID；這是逐段對照的骨架。/ One line per paragraph listing every entity extracted from it — the backbone of the per-paragraph deliverable.
@@ -45,7 +50,7 @@
 ```json
 {"node": "CRE:文鰩魚", "candidates": [{"cand": "animal:flying_fish", "own": 0.60, "why": ["body_fish", "wings", "flies_night"]}]}
 ```
-候選 ID 前綴 / candidate prefixes：`region:`（31 區）、`water:`、`culture:`、`animal:`、`plant:`、`mineral:`。
+候選 ID 前綴 / candidate prefixes：`region:`（33 區）、`water:`、`culture:`、`animal:`、`plant:`、`mineral:`。
 
 ### 2.5 對應 `mapping.jsonl`
 ```json
@@ -63,7 +68,7 @@
 | `animals.jsonl` | 真實動物：特徵標籤、古代分佈區、來源 / animals with tags, ancient ranges, sources |
 | `regions.jsonl` | 31 個地區、中心座標、相鄰地區 / 31 regions, centroids, adjacency |
 | `region-properties.jsonl` | 36 項地區性質（礦產、植物、地形、習俗）的 T／F 地區 / region properties |
-| `waters.jsonl` | 全球河湖海：類型、河源地區、河口、流域地區、流向、長度、是否內流 / rivers, lakes, seas worldwide |
+| `waters.jsonl` | 全球河湖海：類型、河源地區、河口、流域地區、流向（海為軸向）、長度、是否內流、`era`（`palaeo` 為古水體）/ rivers, lakes, seas worldwide, with `era` for former waters |
 | `cultures.jsonl` | 全球古代人群：地區、中心點、習俗與食物標籤 / ancient peoples worldwide |
 
 ## 4. 帳簿 / Ledgers

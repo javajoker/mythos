@@ -1,6 +1,6 @@
 # Mythos 研究框架：實體圖譜交叉驗證 / Research Framework: Entity-Graph Cross-Validation
 
-> v2.0 ・ 2026-10-19 ・ 適用於所有語料的公共方法。山海經的實作見 [methodology-spec.md](../projects/shanhaijing/docs/methodology-spec.md)。
+> v2.1 ・ 2026-10-19 ・ 適用於所有語料的公共方法。山海經的實作見 [methodology-spec.md](../projects/shanhaijing/docs/methodology-spec.md)。
 > The common, corpus-agnostic method. The Shanhaijing implementation is in [methodology-spec.md](../projects/shanhaijing/docs/methodology-spec.md).
 
 ---
@@ -33,6 +33,25 @@
 | P6 | **罕見度加權、矛盾扣分、未知取基準率**：罕見的吻合權重大；明確的矛盾扣分；資料未知時取基準率期望，不讓資料較詳的地區佔便宜。/ **Rarity-weighted, contradictions subtract, unknowns at base rate.** |
 | P7 | **不遺漏**：交付必須涵蓋原書每一段、每一個抽出的實體；無法對應的也要列出原因。覆蓋檢查不通過，不得交付。/ **Nothing missed**: the deliverable covers every paragraph and every extracted entity; unmapped items are listed with reasons. No delivery without a passing coverage audit. |
 | P8 | **可重現**：所有步驟是標準庫腳本，固定種子，輸出逐位元組可重現。/ **Reproducible**: standard-library scripts, fixed seeds, byte-identical outputs. |
+
+### 3.1 解讀規則 / Reading rules（2026-10-19，項目發起人採用 / adopted by the initiator）
+
+古籍的作者看到的是**外觀**，寫下的是**當時**的樣子。以下規則對**所有候選一體適用**，每一種寬容都要付一點代價，否則任何地點都能被說成吻合。
+The authors recorded what things **looked like**, **at the time**. These rules apply to **every candidate alike**, and each leniency costs a little; otherwise any place can be made to fit.
+
+| # | 規則 / Rule | 計分 / Scoring |
+|---|---|---|
+| R1 | **水只是水體**：「河」「水」「海」「澤」都可能是河、湖或海；詞與實際類型不同時小扣分。/ **A water is just a water body**: 河, 水, 海, 澤 may be a river, lake or sea; a small cost when the type differs. | 類型不同 −0.3 |
+| R2 | **時間深度**：書中所見可能是今日已消失或已成遺跡的地物（古河道、古湖、運河遺跡）；必須有一般性資料來源，並小扣分。/ **Time depth**: features may be gone or relics today (palaeo-rivers, former lakes, canal relics); a general source is required, at a small cost. | 古水體 −0.2 |
+| R3 | **山只是外觀**：「山」可能是自然山、沙丘、方山，或人工的高大建築（金字塔、塔廟、平臺丘）。/ **A mountain is an outlook**: natural peaks, dunes, mesas, or tall built forms (pyramids, ziggurats, platform mounds). | 依性質計分，例「削成而四方」= 方形外觀 |
+| R4 | **外觀與效果**：描述可依外觀或效果吻合；「投物輒然」可讀為火（火山、天然氣）或足以燒熟物品的高溫地表。/ **Appearance and effect**: 投物輒然 may be fire (volcanic or gas) or a surface hot enough to cook. | 兩種解讀的聯集作為一項性質 |
+| R5 | **方位慣例**：觀察者面向東方（面向編者的故土），所以「前」= 東、「後」= 西；另一慣例（前 = 南）保留並作為對照計分。/ **Orientation**: the observer faces east (toward the compilers' homeland), so 前 = east and 後 = west; the other convention (前 = south) is kept and scored as a check. | 兩種慣例都報告 |
+| R6 | **地圖讀法**：「X 出焉，東南流注于 Y」描述的是地圖上的一條線：一端在此、往東南延伸、與 Y 相接；不一定是源頭和流向。/ **Map view**: 「X出焉，東南流注于Y」 is a line on a map: one end here, extending southeast, joining Y; not necessarily source and flow. | 另一端吻合 ×0.8；方向相反 −0.1；反向相接 +1.5（正向 +2.0）|
+| R7 | **觀察者替代**：沒見過的動物以熟悉的動物描述（獅 → 虎）。/ **Observer substitution**: an unfamiliar animal described as a familiar one (lion → tiger). | 由描述特徵的權重處理，不另加分 |
+
+**對稱檢查 / Symmetry check**：每次使用這些規則，紅隊都要確認同樣的寬容也給了對立的候選，並比較採用前後各候選的總分。/ The red team checks that every leniency was also given to the rival candidates.
+
+**假說檢驗 / Hypothesis tests**：一個解讀（例如「西次三經 = 古埃及」）被寫成一個**固定組態**：把相關實體固定在假說的候選上，其餘全書重新擬合；與不固定的基準及對立組態比較總分，並列出被違反的關係。/ A reading becomes a **held configuration**; the rest of the book is re-fitted, and its energy is compared with the free baseline and with rival configurations, listing the relations it breaks.
 
 ## 4. 知識圖譜 / Knowledge graph
 
