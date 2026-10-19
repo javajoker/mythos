@@ -5,6 +5,13 @@ One directory `H-NNNN/` per hypothesis, holding `dossier.md` (from [TEMPLATE.md]
 
 | ID | 標題 / Title | 範圍 / Scope | 狀態 / Status | 等級 / Verdict |
 |---|---|---|---|---|
-| [H-0001](H-0001/dossier.md) | 崑崙在埃及；赤水＝紅海、黑水＝尼羅河、流沙＝撒哈拉 / Kunlun in Egypt; Red Water = Red Sea, Black Water = Nile, Flowing Sands = Sahara | 崑崙、赤水、黑水、流沙、西海的全部條目，以及西次三經 / all Kunlun, 赤水, 黑水, 流沙, 西海 entries + 西次三經 | adjudicated | **R** |
+| [H-0001](H-0001/dossier.md) | 崑崙在埃及；赤水＝紅海、黑水＝尼羅河、流沙＝撒哈拉 / Kunlun in Egypt; Red Water = Red Sea, Black Water = Nile, Flowing Sands = Sahara | 崑崙、赤水、黑水、流沙、西海的全部條目，以及西次三經 / all Kunlun, 赤水, 黑水, 流沙, 西海 entries + 西次三經 | adjudicated (r2) | **R** |
+| [H-0002](H-0002/dossier.md) | 五藏山經核心河網＝黃河中下游（含古河道）與漢水、岷江 / Mountain-Classic core = middle–lower Yellow River (incl. ancient course) with the Han and Min | 西山經之首、西次二、西次四、北次二、北次三、中山經 | adjudicated (draft) | **L2**（上限 L3）|
 
 狀態 / Status: `proposed` → `registered` → `testing` → `red-team` → `adjudicated` → `published`
+
+## 外部學說 / External theories (H-ext)
+
+| ID | 內容 / Claim | 關聯 / Related |
+|---|---|---|
+| H-ext-0001 | 山經河水下游為西漢以前經河北北流的古河道（譚其驤 1978）/ the 山經 河 lower course is the pre-Han northward course (Tan Qixiang 1978) | H-0002 §4.5 |
