@@ -10,6 +10,7 @@ One directory `H-NNNN/` per hypothesis, holding `dossier.md` (from [TEMPLATE.md]
 | [H-0003](H-0003/dossier.md) | 西次三經與崑崙之丘在青藏高原東北緣（青海湖一帶）/ 西次三經 and Kunlun on the NE Tibetan Plateau margin (Qinghai Lake) | 西次三經；崑崙相關條目 / 西次三經; Kunlun entries | adjudicated (draft) | **L1**（阿爾金–塔里木框架 L0）|
 | [H-0004](H-0004/dossier.md) | 海內四經記錄秦至西漢的地理知識範圍 / the 海內 books record the Qin–Western Han geographic horizon | 卷 10–13、18 含可核實地名的條目 / entries with checkable names in books 10–13, 18 | adjudicated (draft) | **L2** |
 | [H-0005](H-0005/dossier.md) | 大荒經的日月出入之山與四方神人是地平線曆法框架 / the 大荒經 sun mountains and directional figures form a horizon calendar | 卷 14–17 | adjudicated (draft) | **L1**（「遠方實際地理」L0）|
+| [H-0006](H-0006/dossier.md) | **方法 G**：崑崙在哪裡（全球、描述優先）/ **Method G**: where is Kunlun (global, description-first) | 崑崙為主語的 14 段＋1 分句 / 14 subject passages + 1 clause | adjudicated (draft) | 單一地點 **G-弱至中**（安那托利亞／吉薩／墨西哥）；尼羅河複合（吉薩＋月亮山）**候選**，事後分析 |
 
 狀態 / Status: `proposed` → `registered` → `testing` → `red-team` → `adjudicated` → `published`
 
