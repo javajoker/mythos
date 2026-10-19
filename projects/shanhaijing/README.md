@@ -19,7 +19,7 @@
 ## 目前狀態 / Current state (2026-10-19)
 
 - ✅ 三個見證本已入庫；869 段已編號 / 3 witnesses ingested; 869 paragraphs with IDs
-- ✅ 機器對勘：2,201 處異文已歸屬到條目 / machine collation: 2,201 variants attributed to entries
+- ✅ 機器對勘：2,026 處異文已歸屬到條目 / machine collation: 2,026 variants attributed to entries
 - ✅ 山經抽取：447 個站點、26 個篇段總數；8 段在 ±2% 內自洽（[F-0002](findings/F-0002-mountain-itinerary-consistency.md)）/ Mountain-Classic extraction: 447 stations, 26 section totals; 8 sections consistent within ±2%
 - ✅ 發現通行本含現代移段（[F-0001](findings/F-0001-base-text-modern-relocations.md)）/ found modern relocations in the base text
 - ✅ [H-0001](hypotheses/H-0001/dossier.md)「崑崙在埃及」：**R（就目前表述而言否定）**，保留 4 項任何框架都必須解釋的觀察 / "Kunlun in Egypt": **R (refuted as formulated)**, with 4 retained observations every frame must explain

@@ -47,12 +47,33 @@ def witness_sbck(book_no: int) -> str:
     return HEADER_NOISE.sub("", norm(t))
 
 
+def strip_templates(t: str, name: str) -> str:
+    """Remove every {{name|...}} including nested templates inside it."""
+    out, i, key = [], 0, "{{" + name
+    while True:
+        j = t.find(key, i)
+        if j < 0:
+            return "".join(out) + t[i:]
+        out.append(t[i:j])
+        depth, k = 0, j
+        while k < len(t):
+            if t.startswith("{{", k):
+                depth += 1; k += 2
+            elif t.startswith("}}", k):
+                depth -= 1; k += 2
+                if depth == 0:
+                    break
+            else:
+                k += 1
+        i = k
+
+
 def witness_skqs(book_no: int) -> str:
     t = (SRC / "skqs" / f"{book_no:02d}.wiki").read_text()
     t = re.sub(r"<!--.*?-->", "", t, flags=re.S)
-    t = re.sub(r"\{\{SK notes\|[^}]*\}\}", "", t)
+    t = strip_templates(t, "SK notes")
     t = re.sub(r"\{\{SK header[^}]*\}\}", "", t)
-    t = re.sub(r"\{\{SK anchor\|[^}]*\}\}", "", t)
+    t = re.sub(r"\{\{SK anchor\|([^}]*)\}\}", r"\1", t)   # anchors wrap real text (e.g. 又西六十里曰太華之山)
     t = re.sub(r"\{\{[^}]*\}\}", "", t)
     t = re.sub(r"山海經\s*(?:[巻卷][一二三四五六七八九十]+)?\s*$", "", t, flags=re.M)
     return HEADER_NOISE.sub("", norm(t))

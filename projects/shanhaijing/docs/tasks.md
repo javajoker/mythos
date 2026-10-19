@@ -16,7 +16,7 @@
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
 | T-101 | 機器對勘並把異文歸屬到條目 / machine collation, variants attributed to entries | `tools/shj/collate.py` | ✅ |
-| T-102 | 逐條分類 2,201 筆異文（異體 / 訛誤 / 實質 / 錯簡）/ classify the 2,201 variants | `textual-critic` + skill `witness-collation` | ⬜ |
+| T-102 | 逐條分類 2,026 筆異文（異體 / 訛誤 / 實質 / 錯簡）/ classify the 2,026 variants | `textual-critic` + skill `witness-collation` | ⬜ |
 | T-103 | 擴充異體字摺疊表，降低雜訊 / extend the graphic-variant fold table to reduce noise | `textual-critic` | ⬜ |
 | T-104 | 登記底本中的現代移段為錯簡假說 `X3-*`（海內西、北、東經，大荒東經，海內經）/ register modern relocations as displacement hypotheses `X3-*` | `textual-critic` | ⬜ |
 
