@@ -121,3 +121,16 @@ proposed ─▶ registered ─▶ testing ─▶ red-team ─▶ adjudicated (R/
 |---|---|
 | 原則、通道、分級、預算、等級、生命週期、紅隊 / principles, channels, grading, budget, verdicts, lifecycle, red team | 語料匯入、條目編號、文本結構抽取、專用錯誤類型、領域慣例（例如「里」、方位詞）/ corpus ingest, entry IDs, structural extraction, corpus-specific error types, domain conventions (e.g. 里, direction words) |
 | 公共 agent 與 skill（見 [architecture.md](architecture.md)）/ common agents & skills | 專用 agent 與 skill / specialised agents & skills |
+
+## 10. 前提框架與描述優先比對 / Premise frames and description-first matching
+
+**繁中**：子項目可以採用由項目發起人設定的**前提框架**（例如「全書以整個地球為範圍」），在該前提下進行比對。前提框架必須寫在卷宗開頭，結論要註明「在前提 X 下」。描述優先比對（山海經的「方法 G」，見 [method-g-global.md](../projects/shanhaijing/docs/method-g-global.md)）的通用規則：
+
+1. 先從真實世界的動物與地理性質建立特徵庫，再到文本中找吻合與矛盾。
+2. 名稱一律遮蔽，只比描述。
+3. 特徵依罕見度加權：w = log₁₀(N_known / N_true) ＋ 0.05。
+4. 吻合加分、矛盾扣分、未知不計；所有候選用同一規則排名。
+5. 距離、方位只作參考（小權重），不能單獨否定候選。
+6. 候選特徵值在跑分前寫入並附來源。
+
+**EN**: A sub-project may adopt a **premise frame** set by the project initiator (e.g. "the book covers the whole Earth") and match under it. The premise is stated at the top of the dossier and conclusions are labelled "under premise X". General rules for description-first matching (the Shanhaijing "Method G"): build the feature base from real animals and geography first, then search the text for matches and contradictions; mask all names; weight features by rarity; add for matches, subtract for contradictions, ignore unknowns, and rank all candidates under the same rules; treat distances and bearings as a small-weight reference only; write candidate values, with sources, before scoring.

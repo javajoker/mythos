@@ -8,6 +8,7 @@
 | 文件 / Doc | 內容 / Content |
 |---|---|
 | [docs/methodology-spec.md](docs/methodology-spec.md) | **研究方法規格**：S0–S9 流程、領域慣例、錯誤模型、交叉定位方法 / **Methodology spec**: S0–S9 pipeline, conventions, error model, triangulation |
+| [docs/method-g-global.md](docs/method-g-global.md) | **方法 G：描述優先的全球比對**（全球前提、名稱遮蔽、距離僅供參考）/ **Method G: description-first global matching** |
 | [docs/checklist.md](docs/checklist.md) | 卷宗關卡檢查清單 / dossier gate checklist |
 | [docs/tasks.md](docs/tasks.md) | 任務清單與狀態 / tasks and status |
 | [docs/data-model.md](docs/data-model.md) | 資料結構 / data schemas |

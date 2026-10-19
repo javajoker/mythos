@@ -5,6 +5,8 @@
 
 ---
 
+> **另見 / See also**：[方法 G：描述優先的全球比對](method-g-global.md)，由項目發起人於 2026-10-19 加入，與本規格（方法 A）並行。/ Method G, added by the initiator on 2026-10-19, runs alongside this spec (Method A).
+
 ## 0. 目的 / Purpose
 
 **繁中**：從《山海經》原文出發，不採用任何既有結論，按照可重現的流程，判斷每一條記錄最可能對應現實世界中的什麼（地點、水系、物種、天象、族群），或者判定它無法對應，並給出分級結論。

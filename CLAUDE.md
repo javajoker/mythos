@@ -10,6 +10,12 @@ Mythos tests ancient texts, myths and legends as possible records of real observ
 - Be direct about results, including refutations of the user's own hypotheses; always state the retained observations and the possible reformulations.
 - The Shanhaijing base text contains modern paragraph relocations; use the 1470 Chenghua (`sbck`) order for relative-position reasoning (`projects/shanhaijing/docs/source-assessment.md`).
 
+## Method G (description-first, global premise) — set by the initiator 2026-10-19
+- Working premise: the book covers the whole Earth. Judge by descriptions only (mask names); distances/bearings are a small-weight reference.
+- Pipeline: real-animal base → animal map (`tools/shj/creatures.py`, `animal_map.py`) → geo assumptions → in-book proof (`tools/shj/geo_match.py`) against ALL candidate loci in `projects/shanhaijing/data/world/loci.jsonl`.
+- Score = rarity-weighted matches minus contradictions; report rankings, never a single place's match count. Write locus values before scoring.
+- Spec: `projects/shanhaijing/docs/method-g-global.md`. Keep Method A results alongside; explain disagreements.
+
 ## Layout
 - `docs/`: overall docs (whitepaper and PRD in `zh-Hant`/`en` files; the other docs bilingual inline)
 - `reference/<corpus>/`: sources, `data/entries.jsonl`, `text/*.md` (no interpretation)
