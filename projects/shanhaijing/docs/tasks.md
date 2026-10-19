@@ -36,7 +36,7 @@
 |---|---|---|---|
 | T-301 | 26 段里程與篇末總數對比 / leg sums vs stated totals for 26 sections | `extract_routes.py` | ✅ |
 | T-302 | 逐段解釋每個差異（抽取錯誤 / 文本錯誤 / 未解），例如中山經首篇 937 對 6670、中次十二經「凡十萬山」/ explain each discrepancy | `shj-route-reconstructor` | ⬜ |
-| T-303 | 全書水系圖：出、注、潛關係，同名河流歸併，懸空節點檢查 / whole-book river graph: merge same-name rivers, check dangling nodes | `shj-route-reconstructor` | ⬜ |
+| T-303 | 全書水系圖：出、注、潛關係，同名河流歸併，懸空節點檢查 / whole-book river graph: merge same-name rivers, check dangling nodes | `tools/shj/river_graph.py` | ✅ |
 | T-310 | 大荒西經的相對方位網路，作為 H-0001b 的前置任務 / 大荒西經 relative network (prerequisite for H-0001b) | `geo-triangulator` | ⬜ |
 
 ## S4 相對重建 / Relative reconstruction
@@ -50,14 +50,22 @@
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
 | T-501 | 每段的指紋卡（地形、水系型態、生物、礦產、氣候）/ fingerprint card per section | `naturalist` + `geo-triangulator` | ⬜ |
-| T-610 | 用 H-0001 的觀察 O-2、O-3、O-4 做全球盲候選生成 / blind global candidates from H-0001 observations O-2–O-4 | `geo-triangulator` | ⬜ |
-| T-611 | 為西次三經生成 ≥ 3 個候選框架（必含本地框架和虛無假說）/ ≥ 3 candidate frames for 西次三經 (incl. local + null) | `geo-triangulator` | ⬜ |
+| T-610 | 用 H-0001 的觀察 O-2、O-3、O-4 做全球盲候選生成；O-4 已由 H-0003 部分處理 / blind global candidates from O-2–O-4; O-4 partly handled in H-0003 | `geo-triangulator` | ⏳ |
+| T-611 | 為西次三經生成 ≥ 3 個候選框架（必含本地框架和虛無假說）/ ≥ 3 candidate frames for 西次三經 (incl. local + null) | H-0003 | ✅ |
+| T-620 | 海外四經奇異民族與真實習俗的比對（黑齒、雕題、穿胸等）/ match 海外 strange peoples with real customs | `naturalist` | ⬜ |
+| T-630 | 核實甲骨「四方風」刻辭（合集 14294）釋文並與大荒經比對 / verify the oracle-bone four-winds inscription and compare | `textual-critic` | ⬜ |
+| T-640 | 尋找東西地平線各有 6–7 個標記山頭的觀測點 / find an observation site with 6–7 horizon markers east and west | `geo-triangulator` | ⬜ |
+| T-650 | 南山經、東山經的指紋與候選（河網連結少，需改用地形與生物通道）/ fingerprints for 南山經 and 東山經 via terrain and biota | `shj-lead` | ⬜ |
+| T-651 | 北山經之首與泑澤的定位 / place 北山經之首 and 泑澤 | `shj-route-reconstructor` | ⬜ |
+| T-652 | 西次三經西半段的定位（需篇內錨點）/ place the western half of 西次三經 (needs in-section anchors) | `shj-route-reconstructor` | ⬜ |
 
 ## S7–S8 交叉定位與裁決 / Triangulation & adjudication
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
 | T-701 | H-0001 全流程卷宗 / full H-0001 dossier | `shj-lead` | ✅ |
-| T-702 | 對 T-611 的每個候選做多通道擬合 / multi-channel fits for each T-611 candidate | `shj-lead` | ⬜ |
+| T-702 | 對 T-611 的每個候選做多通道擬合 / multi-channel fits for each T-611 candidate | H-0003 | ✅ |
+| T-704 | H-0002 山經核心河網卷宗；H-0004 海內知識範圍；H-0005 大荒經曆法框架 / dossiers H-0002, H-0004, H-0005 | `shj-lead` | ✅ |
+| T-705 | 初稿 v0.1 綜合報告 / draft v0.1 synthesis report (`reports/draft-v0.1.md`) | `shj-lead` | ✅ |
 | T-703 | 引入地形、水系、GBIF、古氣候資料適配器 / DEM, river, GBIF, palaeoclimate adapters | `tools/` | ⬜ |
 | T-801 | H-0001b 登記與檢驗 / register and test H-0001b | `shj-lead` | ⬜ |
 

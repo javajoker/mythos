@@ -13,6 +13,7 @@
 | [docs/data-model.md](docs/data-model.md) | 資料結構 / data schemas |
 | [docs/source-assessment.md](docs/source-assessment.md) | 三個見證本的評估與已知問題 / the three witnesses and known issues |
 | [hypotheses/](hypotheses/README.md) | 假說登記冊與卷宗 / hypothesis registry and dossiers |
+| [reports/draft-v0.1.md](reports/draft-v0.1.md) | **初稿 v0.1 綜合解讀 / draft v0.1 synthesis** |
 | [findings/](findings/) | 已發佈的發現 / published findings |
 | [data/derived/](data/derived/) | 衍生資料（可由腳本重新產生）/ derived data (regenerable) |
 
@@ -25,7 +26,8 @@
 - ✅ [H-0001](hypotheses/H-0001/dossier.md)「崑崙在埃及」：**R（就目前表述而言否定）**，保留 4 項任何框架都必須解釋的觀察 / "Kunlun in Egypt": **R (refuted as formulated)**, with 4 retained observations every frame must explain
 - ✅ 明成化本為序的工作文本（T-004）；8 個移段塊登記為 X3-001–008（T-104）/ Chenghua-order working text; 8 relocation blocks registered as X3-001–008
 - ⏳ 異文分類首輪：1,604 / 2,021 筆自動分類，417 筆待審（T-102）/ variant classification first pass: 1,604 of 2,021 auto-classified, 417 to review
-- ⬜ 下一步：異文人工審查（T-102）、以見證本數字重抽里程（T-105）、26 段相對重建（T-402）、盲候選生成（T-610、T-611）/ next steps
+- ✅ **初稿 v0.1 真實世界解讀 / Draft v0.1 real-world interpretation → [reports/draft-v0.1.md](reports/draft-v0.1.md)**：山經核心＝黃河中下游與漢水、岷江（H-0002，L2）；崑崙＝青海湖一帶（H-0003，L1）；海內諸經＝秦至西漢知識範圍（H-0004，L2）；大荒經＝地平線曆法框架（H-0005，L1）
+- ⬜ 下一步 / next：T-105、T-620、T-630、T-640、T-650–652、T-703（見 [tasks](docs/tasks.md)）
 
 ## 重現 / Reproduce
 
@@ -43,6 +45,10 @@ python3 -I tools/shj/extract_routes.py
 
 ```bash
 python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.py
+```
+
+```bash
+python3 -I tools/shj/river_graph.py && python3 -I tools/shj/calibrate.py --anchors projects/shanhaijing/data/geo/anchors-yellow-yangtze.jsonl --adjacent
 ```
 
 ```bash

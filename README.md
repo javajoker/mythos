@@ -4,7 +4,7 @@
 
 Mythos 是一個開放研究項目：把古籍、神話與傳說當作**可能保存了真實觀測的資料**來閱讀，用可重現、可證偽的方法，把它們放回現有的世界觀與宇宙觀中檢驗，看看它們可能記錄了什麼。
 
-第一個子項目是 **《山海經》**（[projects/shanhaijing](projects/shanhaijing/README.md)）。
+第一個子項目是 **《山海經》**（[projects/shanhaijing](projects/shanhaijing/README.md)）。初稿解讀見 [draft v0.1](projects/shanhaijing/reports/draft-v0.1.md)。
 
 ## 核心原則
 
