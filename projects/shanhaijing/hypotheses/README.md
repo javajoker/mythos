@@ -8,6 +8,7 @@ One directory `H-NNNN/` per hypothesis, holding `dossier.md` (from [TEMPLATE.md]
 | [H-0001](H-0001/dossier.md) | 崑崙在埃及；赤水＝紅海、黑水＝尼羅河、流沙＝撒哈拉 / Kunlun in Egypt; Red Water = Red Sea, Black Water = Nile, Flowing Sands = Sahara | 崑崙、赤水、黑水、流沙、西海的全部條目，以及西次三經 / all Kunlun, 赤水, 黑水, 流沙, 西海 entries + 西次三經 | adjudicated (r2) | **R** |
 | [H-0002](H-0002/dossier.md) | 五藏山經核心河網＝黃河中下游（含古河道）與漢水、岷江 / Mountain-Classic core = middle–lower Yellow River (incl. ancient course) with the Han and Min | 西山經之首、西次二、西次四、北次二、北次三、中山經 | adjudicated (draft) | **L2**（上限 L3）|
 | [H-0003](H-0003/dossier.md) | 西次三經與崑崙之丘在青藏高原東北緣（青海湖一帶）/ 西次三經 and Kunlun on the NE Tibetan Plateau margin (Qinghai Lake) | 西次三經；崑崙相關條目 / 西次三經; Kunlun entries | adjudicated (draft) | **L1**（阿爾金–塔里木框架 L0）|
+| [H-0004](H-0004/dossier.md) | 海內四經記錄秦至西漢的地理知識範圍 / the 海內 books record the Qin–Western Han geographic horizon | 卷 10–13、18 含可核實地名的條目 / entries with checkable names in books 10–13, 18 | adjudicated (draft) | **L2** |
 
 狀態 / Status: `proposed` → `registered` → `testing` → `red-team` → `adjudicated` → `published`
 
