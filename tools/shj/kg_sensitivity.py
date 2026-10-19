@@ -6,7 +6,8 @@ their candidate, by tier, and the key entities listed below.
 
   python3 -I tools/shj/kg_sensitivity.py [--jobs N]
 
-Runs go to kg/sensitivity/runs/ (not committed); the report is kg/sensitivity/sensitivity.md.
+Runs go to kg/sensitivity/runs/ (not committed); the report is kg/sensitivity/sensitivity.md, and
+kg/sensitivity/robustness.jsonl gives, per mapped entity, in how many weight variants it keeps its candidate.
 """
 import json
 import subprocess
@@ -22,6 +23,7 @@ OUT = KG / "sensitivity"
 RUNS = OUT / "runs"
 # one change at a time: roughly halve and raise each weight family
 VARIANTS = {
+    "repeat": [],                      # no change: must agree 100% (determinism check)
     "uniq×0.5": ["uniq=1.0"], "uniq×1.5": ["uniq=3.0"],
     "flow_hit×0.75": ["flow_hit=1.5"], "flow_hit×1.5": ["flow_hit=3.0"],
     "flow_miss×0.5": ["flow_miss=-0.5"], "flow_miss×1.5": ["flow_miss=-1.5"],
@@ -59,8 +61,11 @@ def main():
     mapped = {k: m for k, m in base.items() if m["status"] == "mapped"}
     tier_n = Counter(m["tier"] for m in mapped.values())
     rows, key_rows = [], defaultdict(dict)
+    kept = Counter()                       # per entity: in how many weight variants (not the repeat) it keeps its candidate
     for name in VARIANTS:
         var = {m["node"]: m for m in jl(RUNS / name / "mapping.jsonl")}
+        if name != "repeat":
+            kept.update(k for k, m in mapped.items() if var.get(k, {}).get("cand") == m["cand"])
         same = Counter(m["tier"] for k, m in mapped.items() if var.get(k, {}).get("cand") == m["cand"])
         sys_same = sum(1 for k, m in mapped.items() if m["type"] == "WAT" and var.get(k, {}).get("system") == m.get("system"))
         n_wat = sum(1 for m in mapped.values() if m["type"] == "WAT")
@@ -93,6 +98,10 @@ def main():
                  + " | ".join("=" if v == b else short(v) for v in vals)
                  + f" | {sum(v == b for v in vals)}/{len(vals)} |")
     (OUT / "sensitivity.md").write_text("\n".join(L) + "\n")
+    n_var = len(VARIANTS) - 1
+    with (OUT / "robustness.jsonl").open("w") as f:
+        for k in sorted(mapped):
+            f.write(json.dumps({"node": k, "cand": mapped[k]["cand"], "kept": kept[k], "of": n_var}, ensure_ascii=False) + "\n")
     print("\n".join(L[:len(rows) + 8]), file=sys.stderr)
 
 

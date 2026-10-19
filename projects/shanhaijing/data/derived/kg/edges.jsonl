@@ -637,7 +637,6 @@
 {"src": "MTN:鈐山", "dst": "PLA:橿", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-001", "clause": "其木多杻、橿"}
 {"src": "MTN:㤗冒之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-002", "clause": "其陽多玉"}
 {"src": "MTN:㤗冒之山", "dst": "MIN:鐵", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-002", "clause": "其陰多鐵"}
-{"src": "MTN:㤗冒之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-002", "clause": "其中多藻玉"}
 {"src": "MTN:㤗冒之山", "dst": "CRE:蛇", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-2-002", "clause": "多白蛇"}
 {"src": "MTN:數歷之山", "dst": "MIN:黃金", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-003", "clause": "其上多黃金"}
 {"src": "MTN:數歷之山", "dst": "MIN:銀", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-003", "clause": "其下多銀"}
@@ -650,7 +649,6 @@
 {"src": "MTN:高山", "dst": "PLA:椶", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-004", "clause": "其木多椶"}
 {"src": "MTN:高山", "dst": "PLA:竹", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-004", "clause": "其草多竹"}
 {"src": "MTN:高山", "dst": "MIN:磬石", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-004", "clause": "其中多磬石、青碧"}
-{"src": "MTN:高山", "dst": "MIN:青碧", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-004", "clause": "其中多磬石、青碧"}
 {"src": "MTN:女牀之山", "dst": "CRE:鸞鳥", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-2-005", "clause": "有鳥焉，其狀如翟而五采文，名曰鸞鳥，見則"}
 {"src": "MTN:女牀之山", "dst": "MIN:銅", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-005", "clause": "其陽多赤銅"}
 {"src": "MTN:女牀之山", "dst": "MIN:石涅", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-2-005", "clause": "其陰多石涅"}
@@ -728,9 +726,7 @@
 {"src": "MTN:槐江之山", "dst": "MIN:黃金", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "多藏琅玕、黃金、玉"}
 {"src": "MTN:槐江之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "多藏琅玕、黃金、玉"}
 {"src": "MTN:槐江之山", "dst": "MIN:丹粟", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "其陽多丹粟"}
-{"src": "MTN:槐江之山", "dst": "MIN:黃金", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "其陰多采黃金銀"}
 {"src": "MTN:槐江之山", "dst": "MIN:銀", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "其陰多采黃金銀"}
-{"src": "MTN:槐江之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "其中多玉"}
 {"src": "MTN:槐江之山", "dst": "PLA:木", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "其陰多榣木之有若"}
 {"src": "MTN:槐江之山", "dst": "MTN:昆侖山", "type": "sees", "attrs": {"direction": "南"}, "entry": "SHJ-02-3-007", "clause": "南望昆侖"}
 {"src": "MTN:槐江之山", "dst": "WAT:大澤", "type": "sees", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-007", "clause": "西望大澤"}
@@ -844,7 +840,6 @@
 {"src": "MTN:鳥鼠同穴之山", "dst": "CRE:虎", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "其上多白虎、白玉"}
 {"src": "MTN:鳥鼠同穴之山", "dst": "MIN:白玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "其上多白虎、白玉"}
 {"src": "MTN:鳥鼠同穴之山", "dst": "CRE:魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "其中多鰠魚"}
-{"src": "MTN:鳥鼠同穴之山", "dst": "CRE:魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "多𩶯魮之魚"}
 {"src": "MTN:崦嵫之山", "dst": "CRE:孰湖", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "有獸焉，其狀馬身而鳥翼，人面蛇尾，是好舉"}
 {"src": "MTN:崦嵫之山", "dst": "CRE:號也", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "有鳥焉，其狀如鴞而人面，蜼身犬尾，其名自"}
 {"src": "MTN:崦嵫之山", "dst": "PLA:木", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "其上多丹木"}
@@ -917,7 +912,6 @@
 {"src": "MTN:潘侯之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-014", "clause": "其陽多玉"}
 {"src": "MTN:潘侯之山", "dst": "MIN:鐵", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-014", "clause": "其陰多鐵"}
 {"src": "MTN:大咸之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-016", "clause": "其下多玉"}
-{"src": "MTN:大咸之山", "dst": "CRE:蛇", "type": "has_creature", "attrs": {}, "entry": "SHJ-03-1-016", "clause": "有蛇名曰長蛇"}
 {"src": "MTN:大咸之山", "dst": "CRE:蛇", "type": "has_creature", "attrs": {}, "entry": "SHJ-03-1-016", "clause": "有蛇名曰長蛇"}
 {"src": "MTN:敦薨之山", "dst": "PLA:椶", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-017", "clause": "其上多椶枏"}
 {"src": "MTN:敦薨之山", "dst": "PLA:枏", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-017", "clause": "其上多椶枏"}
@@ -1024,7 +1018,6 @@
 {"src": "MTN:教山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-3-009", "clause": "其上多玉而無石"}
 {"src": "MTN:教山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-3-009", "clause": "其上多玉而無石"}
 {"src": "MTN:教山", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-3-009", "clause": "其上有金玉"}
-{"src": "MTN:教山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-3-009", "clause": "其上有金玉"}
 {"src": "MTN:景山#北次三經", "dst": "CRE:酸與", "type": "has_creature", "attrs": {}, "entry": "SHJ-03-3-010", "clause": "有鳥焉，其狀如蛇，而四翼、六目、三足，名"}
 {"src": "MTN:景山#北次三經", "dst": "PLA:草", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-3-010", "clause": "其上多草、藷藇"}
 {"src": "MTN:景山#北次三經", "dst": "PLA:藷藇", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-3-010", "clause": "其上多草、藷藇"}
@@ -1142,7 +1135,6 @@
 {"src": "MTN:高氏之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-007", "clause": "其上多玉"}
 {"src": "MTN:高氏之山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-007", "clause": "其下多箴石"}
 {"src": "MTN:高氏之山", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-007", "clause": "其中多金玉"}
-{"src": "MTN:高氏之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-007", "clause": "其中多金玉"}
 {"src": "MTN:嶽山", "dst": "PLA:桑", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-008", "clause": "其上多桑"}
 {"src": "MTN:嶽山", "dst": "PLA:樗", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-008", "clause": "其下多樗"}
 {"src": "MTN:嶽山", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-1-008", "clause": "其中多金玉"}
@@ -1174,7 +1166,6 @@
 {"src": "MTN:葛山之首", "dst": "CRE:珠蟞魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-04-2-005", "clause": "其中多珠蟞魚，其狀如胏而有目，六足有珠，"}
 {"src": "MTN:葛山之首", "dst": "MIN:珠", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-2-005", "clause": "其中多珠蟞魚"}
 {"src": "MTN:葛山之首", "dst": "CRE:魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-04-2-005", "clause": "其中多珠蟞魚"}
-{"src": "MTN:葛山之首", "dst": "MIN:珠", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-2-005", "clause": "有珠"}
 {"src": "MTN:餘峩之山", "dst": "CRE:犰狳", "type": "has_creature", "attrs": {}, "entry": "SHJ-04-2-006", "clause": "有獸焉，其狀如菟而鳥喙，鴟目蛇尾，見人則"}
 {"src": "MTN:餘峩之山", "dst": "PLA:梓", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-2-006", "clause": "其上多梓枏"}
 {"src": "MTN:餘峩之山", "dst": "PLA:枏", "type": "has_resource", "attrs": {}, "entry": "SHJ-04-2-006", "clause": "其上多梓枏"}
@@ -1350,7 +1341,6 @@
 {"src": "MTN:鹿蹄之山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-4-001", "clause": "其中多泠石"}
 {"src": "MTN:扶豬之山", "dst": "CRE:䴦", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-4-002", "clause": "有獸焉，其狀如貉而人目，其名曰䴦。"}
 {"src": "MTN:扶豬之山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-4-002", "clause": "其上多礝石"}
-{"src": "MTN:扶豬之山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-4-002", "clause": "其中多瓀石"}
 {"src": "MTN:釐山", "dst": "CRE:犀渠", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-4-003", "clause": "有獸焉，其狀如牛。蒼身，其音如嬰兒，是食"}
 {"src": "MTN:釐山", "dst": "CRE:𤢺", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-4-003", "clause": "有獸焉，名曰𤢺，其狀如獳犬而有鱗，其毛如"}
 {"src": "MTN:釐山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-4-003", "clause": "其陽多玉"}
@@ -1461,7 +1451,6 @@
 {"src": "MTN:夸父之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-6-013", "clause": "其陽多玉"}
 {"src": "MTN:夸父之山", "dst": "MIN:鐵", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-6-013", "clause": "其陰多鐵"}
 {"src": "MTN:夸父之山", "dst": "CRE:馬", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-6-013", "clause": "其中多馬"}
-{"src": "MTN:夸父之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-6-013", "clause": "其中多㻒玉"}
 {"src": "MTN:陽華之山", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-6-014", "clause": "其陽多金玉"}
 {"src": "MTN:陽華之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-6-014", "clause": "其陽多金玉"}
 {"src": "MTN:陽華之山", "dst": "MIN:青雄黃", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-6-014", "clause": "其陰多青雄黃"}
@@ -1486,11 +1475,9 @@
 {"src": "MTN:大𩇵之山", "dst": "PLA:牛傷", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-7-007", "clause": "有草焉，其狀葉如榆，方莖而蒼傷，其名曰牛"}
 {"src": "MTN:大𩇵之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-7-007", "clause": "多㻬琈之玉"}
 {"src": "MTN:大𩇵之山", "dst": "CRE:麋", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-7-007", "clause": "多麋玉"}
-{"src": "MTN:大𩇵之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-7-007", "clause": "多麋玉"}
 {"src": "MTN:大𩇵之山", "dst": "CRE:龜", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-7-007", "clause": "其中多三足龜"}
 {"src": "MTN:半石之山", "dst": "PLA:嘉榮", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-7-008", "clause": "有草焉，生而秀，其高丈餘，赤葉黃華，華而"}
 {"src": "MTN:半石之山", "dst": "CRE:魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-7-008", "clause": "其中多鯩魚"}
-{"src": "MTN:半石之山", "dst": "CRE:魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-7-008", "clause": "多鰧魚"}
 {"src": "MTN:少室之山", "dst": "PLA:帝休", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-7-009", "clause": "有木焉，其名曰帝休，葉狀如楊，其枝五衢，"}
 {"src": "MTN:少室之山", "dst": "CRE:䱱魚", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-7-009", "clause": "其中多䱱魚，狀如𥂕蜼而長距，足白而對，食"}
 {"src": "MTN:少室之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-7-009", "clause": "其上多玉"}
@@ -1520,7 +1507,6 @@
 {"src": "DOC:中次七經・總述", "dst": "MTN:苦山", "type": "summarizes", "attrs": {}, "entry": "SHJ-05-7-020", "clause": "凡苦山"}
 {"src": "DOC:中次七經・總述", "dst": "MTN:休輿之山", "type": "summarizes", "attrs": {}, "entry": "SHJ-05-7-020", "clause": "自休輿之山"}
 {"src": "DOC:中次七經・總述", "dst": "MTN:大騩之山#中次七經", "type": "summarizes", "attrs": {}, "entry": "SHJ-05-7-020", "clause": "至于大騩之山"}
-{"src": "DOC:中次七經・總述", "dst": "MTN:苦山", "type": "summarizes", "attrs": {}, "entry": "SHJ-05-7-020", "clause": "苦山"}
 {"src": "MTN:景山#中次八經", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-8-001", "clause": "其上多金玉"}
 {"src": "MTN:景山#中次八經", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-8-001", "clause": "其上多金玉"}
 {"src": "MTN:景山#中次八經", "dst": "PLA:檀", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-8-001", "clause": "其木多杼、檀"}
@@ -1928,7 +1914,6 @@
 {"src": "MTN:鮮山#中次十一經", "dst": "MIN:鐵", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-035", "clause": "其陰多鐵"}
 {"src": "MTN:章山", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-036", "clause": "其陽多金"}
 {"src": "MTN:章山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-036", "clause": "其陰多美石"}
-{"src": "MTN:章山", "dst": "MIN:石", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-036", "clause": "其中多脃石"}
 {"src": "MTN:大支之山", "dst": "MIN:金", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-037", "clause": "其陽多金"}
 {"src": "MTN:大支之山", "dst": "PLA:榖", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-037", "clause": "其木多榖柞"}
 {"src": "MTN:大支之山", "dst": "PLA:柞", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-11-037", "clause": "其木多榖柞"}
@@ -2056,7 +2041,6 @@
 {"src": "MTN:柴桑之山", "dst": "CRE:麋", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-12-014", "clause": "其獸多麋鹿"}
 {"src": "MTN:柴桑之山", "dst": "CRE:鹿", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-12-014", "clause": "其獸多麋鹿"}
 {"src": "MTN:柴桑之山", "dst": "CRE:蛇", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-12-014", "clause": "多白蛇飛蛇"}
-{"src": "MTN:柴桑之山", "dst": "CRE:蛇", "type": "has_creature", "attrs": {}, "entry": "SHJ-05-12-014", "clause": "多白蛇飛蛇"}
 {"src": "MTN:榮余之山", "dst": "MIN:銅", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-12-015", "clause": "其上多銅"}
 {"src": "MTN:榮余之山", "dst": "MIN:銀", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-12-015", "clause": "其下多銀"}
 {"src": "MTN:榮余之山", "dst": "PLA:柳", "type": "has_resource", "attrs": {}, "entry": "SHJ-05-12-015", "clause": "其木多柳𦬊"}
@@ -2080,21 +2064,18 @@
 {"src": "CRE:畢方", "dst": "POL:羽民", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-007", "clause": "畢方鳥在其東"}
 {"src": "CRE:畢方", "dst": "LND:二八神", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-007", "clause": "一曰在二八神東"}
 {"src": "POL:讙頭", "dst": "CRE:畢方", "type": "located", "attrs": {"direction": "南"}, "entry": "SHJ-06-1-008", "clause": "讙頭國在其南"}
-{"src": "POL:讙頭", "dst": "CRE:畢方", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-008", "clause": "一曰在畢方東"}
 {"src": "POL:厭火", "dst": "POL:讙頭", "type": "located", "attrs": {"direction": "南"}, "entry": "SHJ-06-1-009", "clause": "厭火國在其南"}
 {"src": "POL:厭火", "dst": "POL:讙朱", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-009", "clause": "一曰在讙朱東"}
 {"src": "LND:三株樹", "dst": "POL:厭火", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-06-1-010", "clause": "三株樹在厭火北"}
 {"src": "POL:三苗", "dst": "WAT:赤", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-011", "clause": "三苗國在赤水東"}
 {"src": "POL:臷", "dst": "POL:三苗", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-012", "clause": "臷國在其東"}
 {"src": "POL:貫匈", "dst": "POL:臷", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-013", "clause": "貫匈國在其東"}
-{"src": "POL:貫匈", "dst": "POL:臷", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-013", "clause": "一曰在臷國東"}
 {"src": "POL:交脛", "dst": "POL:貫匈", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-014", "clause": "交脛國在其東"}
 {"src": "POL:交脛", "dst": "POL:穿匈", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-014", "clause": "一曰在穿匈東"}
 {"src": "POL:不死民", "dst": "POL:交脛", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-015", "clause": "不死民在其東"}
 {"src": "POL:不死民", "dst": "POL:穿匈", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-015", "clause": "一曰在穿匈國東"}
 {"src": "POL:反舌", "dst": "POL:不死民", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-016", "clause": "反舌國在其東"}
 {"src": "LND:昆侖虛", "dst": "POL:反舌", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-017", "clause": "昆侖虛在其東"}
-{"src": "LND:昆侖虛", "dst": "POL:反舌", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-017", "clause": "一曰在反舌東"}
 {"src": "POL:三首", "dst": "LND:昆侖虛", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-019", "clause": "三首國在其東"}
 {"src": "POL:三首", "dst": "PER:鑿齒", "type": "located", "attrs": {"direction": "東", "alternate": true}, "entry": "SHJ-06-1-019", "clause": "一曰在鑿齒東"}
 {"src": "POL:周饒", "dst": "POL:三首", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-06-1-020", "clause": "周饒國在其東"}
@@ -2133,7 +2114,6 @@
 {"src": "POL:君子", "dst": "PER:奢比之尸", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-005", "clause": "君子國在其北"}
 {"src": "POL:君子", "dst": "PER:肝榆之尸", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-005", "clause": "一曰在肝榆之尸北"}
 {"src": "LND:𧈫𧈫", "dst": "POL:君子", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-006", "clause": "𧈫𧈫在其北"}
-{"src": "LND:𧈫𧈫", "dst": "POL:君子", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-006", "clause": "一曰在君子國北"}
 {"src": "MTN:青丘", "dst": "LND:𧈫𧈫", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-008", "clause": "青丘國在其北"}
 {"src": "MTN:青丘", "dst": "LND:朝陽", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-008", "clause": "一曰在朝陽北"}
 {"src": "POL:黑齒", "dst": "MTN:左手指青丘", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-010", "clause": "黑齒國在其北"}
@@ -2141,11 +2121,8 @@
 {"src": "POL:雨師妾", "dst": "POL:黑齒", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-012", "clause": "雨師妾國在其北"}
 {"src": "POL:雨師妾", "dst": "LND:十日", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-012", "clause": "一曰在十日北"}
 {"src": "POL:玄股", "dst": "POL:雨師妾", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-013", "clause": "玄股之國在其北"}
-{"src": "POL:玄股", "dst": "POL:雨師妾", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-013", "clause": "一曰在雨師妾國北"}
 {"src": "POL:毛民", "dst": "POL:玄股", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-014", "clause": "毛民之國在其北"}
-{"src": "POL:毛民", "dst": "POL:玄股", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-014", "clause": "一曰在玄股北"}
 {"src": "POL:勞民", "dst": "POL:毛民", "type": "located", "attrs": {"direction": "北"}, "entry": "SHJ-09-1-015", "clause": "勞民國在其北"}
-{"src": "POL:勞民", "dst": "POL:毛民", "type": "located", "attrs": {"direction": "北", "alternate": true}, "entry": "SHJ-09-1-015", "clause": "一曰在毛民北"}
 {"src": "LND:桂林八樹", "dst": "LND:番隅", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-10-1-004", "clause": "桂林八樹在番隅東"}
 {"src": "POL:氐人", "dst": "CRE:建木", "type": "located", "attrs": {"direction": "西"}, "entry": "SHJ-10-1-015", "clause": "氐人國在建木西"}
 {"src": "MTN:胡白玉山", "dst": "LND:大夏", "type": "located", "attrs": {"direction": "東"}, "entry": "SHJ-11-1-011", "clause": "西胡白玉山在大夏東"}
@@ -2679,10 +2656,8 @@
 {"src": "WAT:南江", "dst": "MTN:高山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-011", "clause": "南江出高山"}
 {"src": "WAT:淅江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-012", "clause": "淅江出三天子，都在東，在閩西北，入海，餘暨南"}
 {"src": "WAT:淅江", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-012", "clause": "淅江出三天子，都在東，在閩西北，入海，餘暨南"}
-{"src": "WAT:淅江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-012", "clause": "淅江出三天子"}
 {"src": "WAT:廬江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-013", "clause": "廬江出三天子，都入江，彭澤西，一曰天子鄣"}
 {"src": "WAT:廬江", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-013", "clause": "廬江出三天子，都入江，彭澤西，一曰天子鄣"}
-{"src": "WAT:廬江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-013", "clause": "廬江出三天子"}
 {"src": "WAT:淮", "dst": "MTN:餘山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-014", "clause": "淮水出餘山，餘山在朝陽東，義鄉西，入海，淮浦北"}
 {"src": "WAT:淮", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-014", "clause": "淮水出餘山，餘山在朝陽東，義鄉西，入海，淮浦北"}
 {"src": "WAT:湘", "dst": "LND:舜葬東南陬", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-015", "clause": "湘水出舜葬東南陬，西環之，入洞庭下，一曰東南西澤"}

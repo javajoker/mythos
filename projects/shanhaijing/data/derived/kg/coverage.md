@@ -1,18 +1,18 @@
 # 知識圖譜覆蓋檢查 / Knowledge-graph coverage audit
 
-Paragraphs: 869 · nodes: 1941 · edges: 2750
+Paragraphs: 869 · nodes: 1941 · edges: 2725
 
 | node type | count |
 |---|---|
-| CRE | 265 |
+| CRE | 258 |
 | DOC | 43 |
 | LND | 67 |
 | MIN | 47 |
 | MTN | 692 |
-| PER | 180 |
+| PER | 190 |
 | PLA | 107 |
 | POL | 131 |
-| UNK | 50 |
+| UNK | 47 |
 | WAT | 359 |
 
 | edge type | count |
@@ -21,15 +21,15 @@ Paragraphs: 869 · nodes: 1941 · edges: 2750
 | described_in | 18 |
 | dwells | 20 |
 | flows_into | 251 |
-| has_creature | 402 |
-| has_resource | 1098 |
-| located | 80 |
+| has_creature | 398 |
+| has_resource | 1087 |
+| located | 73 |
 | next | 421 |
-| rises_at | 258 |
+| rises_at | 256 |
 | same_name | 29 |
 | sees | 30 |
 | sinks_at | 1 |
-| summarizes | 87 |
+| summarizes | 86 |
 
 ## 1. 沒有任何實體的段落 / Paragraphs with no entity: **0**
 

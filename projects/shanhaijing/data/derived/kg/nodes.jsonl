@@ -18,8 +18,6 @@
 {"id": "CRE:䳋渠", "type": "CRE", "symbol": "䳋渠", "variants": [], "mentions": ["SHJ-02-1-002"], "descriptions": [{"entry": "SHJ-02-1-002", "text": "有鳥焉，其名曰䳋渠，其狀如山雞，黑身赤足，可以已𦢊。"}], "props": {"kind": "鳥"}, "tags": ["body_black", "body_fowl", "body_red"]}
 {"id": "CRE:䴅", "type": "CRE", "symbol": "䴅", "variants": [], "mentions": ["SHJ-03-3-001"], "descriptions": [{"entry": "SHJ-03-3-001", "text": "有鳥焉，其狀如鵲，白身、赤尾、六足，其名曰䴅，是善驚，其鳴自詨。"}], "props": {"kind": "鳥"}, "tags": ["body_crow", "body_white", "legs_six", "self_named_call", "tail_red", "vocal"]}
 {"id": "CRE:䴦", "type": "CRE", "symbol": "䴦", "variants": [], "mentions": ["SHJ-05-4-002"], "descriptions": [{"entry": "SHJ-05-4-002", "text": "有獸焉，其狀如貉而人目，其名曰䴦。"}], "props": {"kind": "獸"}, "tags": []}
-{"id": "CRE:不廷胡余", "type": "CRE", "symbol": "不廷胡余", "variants": [], "mentions": ["SHJ-15-1-012"], "descriptions": [{"entry": "SHJ-15-1-012", "text": "南海渚中，有神，人面，珥兩青蛇，踐兩赤蛇，曰不廷胡余。"}], "props": {}, "tags": ["human_face", "marine"]}
-{"id": "CRE:九鳳", "type": "CRE", "symbol": "九鳳", "variants": [], "mentions": ["SHJ-17-1-014"], "descriptions": [{"entry": "SHJ-17-1-014", "text": "荒之中，有山名曰北極天櫃，海外北注焉。有神，九首人面鳥身，名曰九鳳。又有神衘蛇操蛇，其"}], "props": {}, "tags": ["body_bird", "heads_many", "human_face", "marine"]}
 {"id": "CRE:人魚", "type": "CRE", "symbol": "人魚", "variants": [], "mentions": ["SHJ-03-3-002"], "descriptions": [{"entry": "SHJ-03-3-002", "text": "其中多人魚，其狀如䱱魚，四足，其音如嬰兒，食之無癡疾"}], "props": {}, "tags": ["body_fish", "legs_four", "sound_baby", "vocal"]}
 {"id": "CRE:儵魚", "type": "CRE", "symbol": "儵魚", "variants": [], "mentions": ["SHJ-03-1-003"], "descriptions": [{"entry": "SHJ-03-1-003", "text": "其中多儵魚，其狀如鶏而赤毛，三尾六足四首，其音如鵲，食之可以已憂"}], "props": {}, "tags": ["legs_six", "tails_many", "vocal"]}
 {"id": "CRE:兕", "type": "CRE", "symbol": "兕", "variants": [], "mentions": ["SHJ-01-3-002", "SHJ-02-2-012", "SHJ-03-1-017", "SHJ-05-8-011", "SHJ-10-1-007"], "descriptions": [{"entry": "SHJ-10-1-007", "text": "兕在舜葬東，湘水南，其狀如牛，蒼黑，一角。"}], "props": {}, "tags": ["aquatic", "body_black", "body_cattle", "horn_one"]}
@@ -34,7 +32,6 @@
 {"id": "CRE:天狗", "type": "CRE", "symbol": "天狗", "variants": [], "mentions": ["SHJ-02-3-016"], "descriptions": [{"entry": "SHJ-02-3-016", "text": "有獸焉，其狀如狸而白首，名曰天狗，其音如榴榴，可以禦凶。"}], "props": {"kind": "獸"}, "tags": ["body_wildcat", "head_white", "vocal"]}
 {"id": "CRE:天馬", "type": "CRE", "symbol": "天馬", "variants": [], "mentions": ["SHJ-03-3-003"], "descriptions": [{"entry": "SHJ-03-3-003", "text": "有獸焉，其狀如白犬而黑頭，見人則飛，其名曰天馬，其鳴自訆，"}], "props": {"kind": "獸"}, "tags": ["body_dog", "self_named_call", "vocal"]}
 {"id": "CRE:夫諸", "type": "CRE", "symbol": "夫諸", "variants": [], "mentions": ["SHJ-05-3-001"], "descriptions": [{"entry": "SHJ-05-3-001", "text": "有獸焉，其狀如白鹿而四角，名曰夫諸，見則其邑大水。"}], "props": {"kind": "獸"}, "tags": ["aquatic", "body_deer", "horns_four"]}
-{"id": "CRE:奢比尸", "type": "CRE", "symbol": "奢比尸", "variants": [], "mentions": ["SHJ-14-1-028"], "descriptions": [{"entry": "SHJ-14-1-028", "text": "有神，人面、犬耳、獸身，珥兩青蛇，名曰奢比尸。"}], "props": {}, "tags": ["human_face"]}
 {"id": "CRE:如猙", "type": "CRE", "symbol": "如猙", "variants": [], "mentions": ["SHJ-02-3-015"], "descriptions": [{"entry": "SHJ-02-3-015", "text": "有獸焉，其狀如赤豹，五尾一角，其音如擊石，其名如猙。"}], "props": {"kind": "獸"}, "tags": ["body_bigcat", "horn_one", "sound_drum", "tails_many", "vocal"]}
 {"id": "CRE:妴胡", "type": "CRE", "symbol": "妴胡", "variants": [], "mentions": ["SHJ-04-3-001"], "descriptions": [{"entry": "SHJ-04-3-001", "text": "有獸焉，其狀如麋而魚目，名曰妴胡，其鳴自訆。"}], "props": {"kind": "獸"}, "tags": ["body_deer", "self_named_call", "vocal"]}
 {"id": "CRE:嬰勺", "type": "CRE", "symbol": "嬰勺", "variants": [], "mentions": ["SHJ-05-11-010"], "descriptions": [{"entry": "SHJ-05-11-010", "text": "有鳥焉，其名曰嬰勺，其狀如鵲，赤目、赤喙、白身，其尾若勺，其鳴自呼。多㸲牛，多羬羊。"}], "props": {"kind": "鳥"}, "tags": ["beak_red", "body_crow", "body_white", "self_named_call", "vocal"]}
@@ -49,10 +46,7 @@
 {"id": "CRE:峳峳", "type": "CRE", "symbol": "峳峳", "variants": [], "mentions": ["SHJ-04-2-017"], "descriptions": [{"entry": "SHJ-04-2-017", "text": "有獸焉，其狀如馬，而羊目、四角、牛尾，其音如獆狗，其名曰峳峳。見則其國多狡客。"}], "props": {"kind": "獸"}, "tags": ["body_horse", "horns_four", "vocal"]}
 {"id": "CRE:并封", "type": "CRE", "symbol": "并封", "variants": [], "mentions": ["SHJ-07-1-014"], "descriptions": [{"entry": "SHJ-07-1-014", "text": "并封在巫咸東，其狀如彘，前後皆有首，黑。"}], "props": {}, "tags": ["body_pig"]}
 {"id": "CRE:幽鴳", "type": "CRE", "symbol": "幽鴳", "variants": [], "mentions": ["SHJ-03-1-010"], "descriptions": [{"entry": "SHJ-03-1-010", "text": "有獸焉，其狀如禺而文身，善笑，見人則臥，名曰幽鴳，其鳴自呼。"}], "props": {"kind": "獸"}, "tags": ["body_ape", "self_named_call", "sound_human", "vocal"]}
-{"id": "CRE:延維", "type": "CRE", "symbol": "延維", "variants": [], "mentions": ["SHJ-18-1-020"], "descriptions": [{"entry": "SHJ-18-1-020", "text": "苖民。有神焉，人首蛇身，長如轅，左右有首，衣紫衣，冠旃冠，名曰延維，人主得而饗食之，伯"}], "props": {}, "tags": ["body_snake", "human_face"]}
 {"id": "CRE:建木", "type": "CRE", "symbol": "建木", "variants": [], "mentions": ["SHJ-10-1-014", "SHJ-10-1-015", "SHJ-18-1-012"], "descriptions": [{"entry": "SHJ-10-1-014", "text": "牛，引之有皮，若纓、黃蛇。其葉如羅，其實如欒，其木如蓲，其名曰建木。在窫窳西弱水上。"}], "props": {}, "tags": []}
-{"id": "CRE:弇茲", "type": "CRE", "symbol": "弇茲", "variants": [], "mentions": ["SHJ-16-1-028"], "descriptions": [{"entry": "SHJ-16-1-028", "text": "西海陼中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰弇茲。"}], "props": {}, "tags": ["body_bird", "human_face", "marine"]}
-{"id": "CRE:彊良", "type": "CRE", "symbol": "彊良", "variants": [], "mentions": ["SHJ-17-1-014"], "descriptions": [{"entry": "SHJ-17-1-014", "text": "面鳥身，名曰九鳳。又有神衘蛇操蛇，其狀虎首人身，四蹏長肘，名曰彊良。"}], "props": {}, "tags": ["body_bird", "body_human"]}
 {"id": "CRE:彘", "type": "CRE", "symbol": "彘", "variants": [], "mentions": ["SHJ-01-2-007", "SHJ-18-1-005"], "descriptions": [{"entry": "SHJ-01-2-007", "text": "有獸焉，其狀如虎而牛尾，其音如吠犬，其名曰彘，是食人。苕水出于其陰，北流注于具區。其中多鮆魚。"}], "props": {"kind": "獸"}, "tags": ["aquatic", "body_bigcat", "man_eater", "sound_dog", "vocal"]}
 {"id": "CRE:從從", "type": "CRE", "symbol": "從從", "variants": [], "mentions": ["SHJ-04-1-003"], "descriptions": [{"entry": "SHJ-04-1-003", "text": "有獸焉，其狀如犬，六足，其名曰從從，其鳴自詨。"}], "props": {"kind": "獸"}, "tags": ["body_dog", "legs_six", "self_named_call", "vocal"]}
 {"id": "CRE:怪神", "type": "CRE", "symbol": "怪神", "variants": [], "mentions": ["SHJ-05-12-007"], "descriptions": [{"entry": "SHJ-05-12-007", "text": "是多怪神，狀如人而載蛇，左右手操蛇"}], "props": {}, "tags": ["body_human"]}
@@ -121,7 +115,6 @@
 {"id": "CRE:瞿如", "type": "CRE", "symbol": "瞿如", "variants": [], "mentions": ["SHJ-01-3-002"], "descriptions": [{"entry": "SHJ-01-3-002", "text": "有鳥焉，其狀如鵁，而白首、三足、人面，其名曰瞿如，其鳴自號也。"}], "props": {"kind": "鳥"}, "tags": ["head_white", "human_face", "self_named_call", "vocal"]}
 {"id": "CRE:碧陽", "type": "CRE", "symbol": "碧陽", "variants": [], "mentions": ["SHJ-04-3-006"], "descriptions": [{"entry": "SHJ-04-3-006", "text": "，其草多菌蒲，其獸多麋鹿。是山也，廣員百里。其上有水出焉，名曰碧陽，其中多鱣鮪。"}], "props": {}, "tags": ["aquatic"]}
 {"id": "CRE:禺", "type": "CRE", "symbol": "禺", "variants": [], "mentions": ["SHJ-15-1-007", "SHJ-18-1-010"], "descriptions": [], "props": {}, "tags": []}
-{"id": "CRE:禺彊", "type": "CRE", "symbol": "禺彊", "variants": [], "mentions": ["SHJ-17-1-013"], "descriptions": [{"entry": "SHJ-17-1-013", "text": "子，食榖。北海之渚中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰禺彊。"}], "props": {}, "tags": ["body_bird", "human_face", "marine"]}
 {"id": "CRE:窫窳", "type": "CRE", "symbol": "窫窳", "variants": [], "mentions": ["SHJ-03-1-018"], "descriptions": [{"entry": "SHJ-03-1-018", "text": "有獸焉，其狀如牛，而赤身、人面、馬足，名曰窫窳，其音如嬰兒，是食人。"}], "props": {"kind": "獸"}, "tags": ["body_cattle", "body_red", "human_face", "man_eater", "sound_baby", "vocal"]}
 {"id": "CRE:窫窳龍首", "type": "CRE", "symbol": "窫窳龍首", "variants": [], "mentions": ["SHJ-10-1-013"], "descriptions": [{"entry": "SHJ-10-1-013", "text": "窫窳龍首，居弱水中，在狌狌之西，其狀如貙，龍首，食人。"}], "props": {}, "tags": ["aquatic", "man_eater"]}
 {"id": "CRE:窮奇", "type": "CRE", "symbol": "窮奇", "variants": [], "mentions": ["SHJ-02-4-017"], "descriptions": [{"entry": "SHJ-02-4-017", "text": "有獸焉，其狀如牛，猬毛，名曰窮奇，音如獆狗，是食人。"}], "props": {"kind": "獸"}, "tags": ["body_cattle", "man_eater", "vocal"]}
@@ -1116,6 +1109,7 @@
 {"id": "PER:一曰肝榆之尸", "type": "PER", "symbol": "一曰肝榆之尸", "variants": [], "mentions": ["SHJ-09-1-004"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:三身", "type": "PER", "symbol": "三身", "variants": [], "mentions": ["SHJ-18-1-037"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:三青鳥", "type": "PER", "symbol": "三青鳥", "variants": [], "mentions": ["SHJ-02-3-018"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:不廷胡余", "type": "PER", "symbol": "不廷胡余", "variants": [], "mentions": ["SHJ-15-1-012"], "descriptions": [{"entry": "SHJ-15-1-012", "text": "南海渚中，有神，人面，珥兩青蛇，踐兩赤蛇，曰不廷胡余。"}], "props": {}, "tags": []}
 {"id": "PER:中次七經之神", "type": "PER", "symbol": "中次七經之神", "variants": [], "mentions": ["SHJ-05-7-020"], "descriptions": [{"entry": "SHJ-05-7-020", "text": "其神狀皆人面而三首"}], "props": {}, "tags": []}
 {"id": "PER:中次九經之神", "type": "PER", "symbol": "中次九經之神", "variants": [], "mentions": ["SHJ-05-9-017"], "descriptions": [{"entry": "SHJ-05-9-017", "text": "其神狀皆馬身而龍首"}], "props": {}, "tags": []}
 {"id": "PER:中次二經之神", "type": "PER", "symbol": "中次二經之神", "variants": [], "mentions": ["SHJ-05-2-010"], "descriptions": [{"entry": "SHJ-05-2-010", "text": "其神皆人面而鳥身"}], "props": {}, "tags": []}
@@ -1125,6 +1119,7 @@
 {"id": "PER:中次十經之神", "type": "PER", "symbol": "中次十經之神", "variants": [], "mentions": ["SHJ-05-10-010"], "descriptions": [{"entry": "SHJ-05-10-010", "text": "其神狀皆龍身而人面"}], "props": {}, "tags": []}
 {"id": "PER:中次四經之神", "type": "PER", "symbol": "中次四經之神", "variants": [], "mentions": ["SHJ-05-4-010"], "descriptions": [{"entry": "SHJ-05-4-010", "text": "其神狀皆人面獸身"}], "props": {}, "tags": []}
 {"id": "PER:乘釐", "type": "PER", "symbol": "乘釐", "variants": [], "mentions": ["SHJ-18-1-014"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:九鳳", "type": "PER", "symbol": "九鳳", "variants": [], "mentions": ["SHJ-17-1-014"], "descriptions": [{"entry": "SHJ-17-1-014", "text": "荒之中，有山名曰北極天櫃，海外北注焉。有神，九首人面鳥身，名曰九鳳。又有神衘蛇"}], "props": {}, "tags": []}
 {"id": "PER:二女", "type": "PER", "symbol": "二女", "variants": [], "mentions": ["SHJ-05-12-007"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:伯夷父", "type": "PER", "symbol": "伯夷父", "variants": [], "mentions": ["SHJ-18-1-027"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:伯服", "type": "PER", "symbol": "伯服", "variants": [], "mentions": ["SHJ-15-1-024"], "descriptions": [], "props": {}, "tags": []}
@@ -1153,6 +1148,7 @@
 {"id": "PER:吴回", "type": "PER", "symbol": "吴回", "variants": [], "mentions": ["SHJ-16-1-042"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:咸鳥", "type": "PER", "symbol": "咸鳥", "variants": [], "mentions": ["SHJ-18-1-014"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:啟", "type": "PER", "symbol": "啟", "variants": [], "mentions": ["SHJ-05-9-013", "SHJ-07-1-004", "SHJ-07-1-005", "SHJ-10-1-012"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:嘘", "type": "PER", "symbol": "嘘", "variants": [], "mentions": ["SHJ-16-1-029"], "descriptions": [{"entry": "SHJ-16-1-029", "text": "樞也。吴姖天門，日月所入。有神，人面無臂，兩足反屬于頭上，名曰嘘。顓頊生老童"}], "props": {}, "tags": []}
 {"id": "PER:噎", "type": "PER", "symbol": "噎", "variants": [], "mentions": ["SHJ-16-1-029", "SHJ-18-1-038"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:噎鳴", "type": "PER", "symbol": "噎鳴", "variants": [], "mentions": ["SHJ-18-1-038"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:因因乎", "type": "PER", "symbol": "因因乎", "variants": [], "mentions": ["SHJ-15-1-013"], "descriptions": [], "props": {}, "tags": []}
@@ -1165,7 +1161,7 @@
 {"id": "PER:大人", "type": "PER", "symbol": "大人", "variants": [], "mentions": ["SHJ-17-1-004"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:大皥", "type": "PER", "symbol": "大皥", "variants": [], "mentions": ["SHJ-18-1-014"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:大行伯", "type": "PER", "symbol": "大行伯", "variants": [], "mentions": ["SHJ-12-1-003"], "descriptions": [], "props": {}, "tags": []}
-{"id": "PER:天吳", "type": "PER", "symbol": "天吳", "variants": [], "mentions": ["SHJ-09-1-007", "SHJ-14-1-021"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:天吳", "type": "PER", "symbol": "天吳", "variants": [], "mentions": ["SHJ-09-1-007", "SHJ-14-1-021"], "descriptions": [{"entry": "SHJ-14-1-021", "text": "有神人，八首人面，虎身十尾，名曰天吳。"}], "props": {}, "tags": []}
 {"id": "PER:天帝", "type": "PER", "symbol": "天帝", "variants": [], "mentions": ["SHJ-02-1-015"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:天愚", "type": "PER", "symbol": "天愚", "variants": [], "mentions": ["SHJ-05-7-005"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:太子長琴", "type": "PER", "symbol": "太子長琴", "variants": [], "mentions": ["SHJ-16-1-012"], "descriptions": [], "props": {}, "tags": []}
@@ -1173,8 +1169,10 @@
 {"id": "PER:夾窫窳之尸", "type": "PER", "symbol": "夾窫窳之尸", "variants": [], "mentions": ["SHJ-11-1-020"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:奚仲", "type": "PER", "symbol": "奚仲", "variants": [], "mentions": ["SHJ-18-1-032"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:奢比之尸", "type": "PER", "symbol": "奢比之尸", "variants": [], "mentions": ["SHJ-09-1-004"], "descriptions": [{"entry": "SHJ-09-1-004", "text": "一曰肝榆之尸，在大人北", "alternate": true}], "props": {}, "tags": []}
+{"id": "PER:奢比尸", "type": "PER", "symbol": "奢比尸", "variants": [], "mentions": ["SHJ-14-1-028"], "descriptions": [{"entry": "SHJ-14-1-028", "text": "有神，人面、犬耳、獸身，珥兩青蛇，名曰奢比尸。"}], "props": {}, "tags": []}
 {"id": "PER:女丑之尸", "type": "PER", "symbol": "女丑之尸", "variants": [], "mentions": ["SHJ-16-1-022"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:女媧", "type": "PER", "symbol": "女媧", "variants": [], "mentions": ["SHJ-16-1-003"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:女媧之腸", "type": "PER", "symbol": "女媧之腸", "variants": [], "mentions": ["SHJ-16-1-003"], "descriptions": [{"entry": "SHJ-16-1-003", "text": "有神十人，名曰女媧之腸，化為神，處"}], "props": {}, "tags": []}
 {"id": "PER:女虔", "type": "PER", "symbol": "女虔", "variants": [], "mentions": ["SHJ-16-1-040"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:女魃", "type": "PER", "symbol": "女魃", "variants": [], "mentions": ["SHJ-17-1-020"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:始均", "type": "PER", "symbol": "始均", "variants": [], "mentions": ["SHJ-16-1-011"], "descriptions": [], "props": {}, "tags": []}
@@ -1197,8 +1195,11 @@
 {"id": "PER:帝顓頊", "type": "PER", "symbol": "帝顓頊", "variants": [], "mentions": ["SHJ-08-1-019", "SHJ-13-1-016", "SHJ-14-1-001", "SHJ-17-1-001", "SHJ-18-1-005"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:帝鴻", "type": "PER", "symbol": "帝鴻", "variants": [], "mentions": ["SHJ-14-1-016"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:常羲", "type": "PER", "symbol": "常羲", "variants": [], "mentions": ["SHJ-16-1-031"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:延維", "type": "PER", "symbol": "延維", "variants": [], "mentions": ["SHJ-18-1-020"], "descriptions": [{"entry": "SHJ-18-1-020", "text": "苖民。有神焉，人首蛇身，長如轅，左右有首，衣紫衣，冠旃冠，名曰延維，人主得而饗"}], "props": {}, "tags": []}
 {"id": "PER:弄明", "type": "PER", "symbol": "弄明", "variants": [], "mentions": ["SHJ-17-1-023"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:弇茲", "type": "PER", "symbol": "弇茲", "variants": [], "mentions": ["SHJ-16-1-028"], "descriptions": [{"entry": "SHJ-16-1-028", "text": "西海陼中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰弇茲。"}], "props": {}, "tags": []}
 {"id": "PER:張弘", "type": "PER", "symbol": "張弘", "variants": [], "mentions": ["SHJ-15-1-025"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:彊良", "type": "PER", "symbol": "彊良", "variants": [], "mentions": ["SHJ-17-1-014"], "descriptions": [{"entry": "SHJ-17-1-014", "text": "面鳥身，名曰九鳳。又有神衘蛇操蛇，其狀虎首人身，四蹏長肘，名曰彊良。"}], "props": {}, "tags": []}
 {"id": "PER:役采", "type": "PER", "symbol": "役采", "variants": [], "mentions": ["SHJ-17-1-012"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:後照", "type": "PER", "symbol": "後照", "variants": [], "mentions": ["SHJ-18-1-014"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:思士", "type": "PER", "symbol": "思士", "variants": [], "mentions": ["SHJ-14-1-013"], "descriptions": [], "props": {}, "tags": []}
@@ -1245,6 +1246,7 @@
 {"id": "PER:祝融", "type": "PER", "symbol": "祝融", "variants": [], "mentions": ["SHJ-06-1-023", "SHJ-16-1-012", "SHJ-18-1-038", "SHJ-18-1-039"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:禹", "type": "PER", "symbol": "禹", "variants": [], "mentions": ["SHJ-05-3-002", "SHJ-08-1-006", "SHJ-08-1-012", "SHJ-09-1-009", "SHJ-11-1-014", "SHJ-15-1-023", "SHJ-16-1-001", "SHJ-17-1-009", "SHJ-17-1-012", "SHJ-17-1-017", "SHJ-18-1-037", "SHJ-18-1-039"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:禺京", "type": "PER", "symbol": "禺京", "variants": [], "mentions": ["SHJ-14-1-023"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:禺彊", "type": "PER", "symbol": "禺彊", "variants": [], "mentions": ["SHJ-17-1-013"], "descriptions": [{"entry": "SHJ-17-1-013", "text": "子，食榖。北海之渚中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰禺彊。"}], "props": {}, "tags": []}
 {"id": "PER:禺禺䝞", "type": "PER", "symbol": "禺禺䝞", "variants": [], "mentions": ["SHJ-14-1-023"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:禺號", "type": "PER", "symbol": "禺號", "variants": [], "mentions": ["SHJ-18-1-032"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:窫窳", "type": "PER", "symbol": "窫窳", "variants": [], "mentions": ["SHJ-03-1-018", "SHJ-10-1-013", "SHJ-10-1-014", "SHJ-11-1-002", "SHJ-11-1-020", "SHJ-12-1-002", "SHJ-18-1-013"], "descriptions": [], "props": {}, "tags": []}
@@ -1282,6 +1284,7 @@
 {"id": "PER:韋", "type": "PER", "symbol": "韋", "variants": [], "mentions": ["SHJ-16-1-004"], "descriptions": [{"entry": "SHJ-16-1-004", "text": "有人名曰石夷，來風曰韋，處西北隅以"}], "props": {}, "tags": []}
 {"id": "PER:顓頊", "type": "PER", "symbol": "顓頊", "variants": [], "mentions": ["SHJ-08-1-019", "SHJ-13-1-016", "SHJ-14-1-001", "SHJ-15-1-007", "SHJ-15-1-024", "SHJ-16-1-002", "SHJ-16-1-012", "SHJ-16-1-029", "SHJ-16-1-033", "SHJ-16-1-045", "SHJ-16-1-048", "SHJ-17-1-001", "SHJ-17-1-007", "SHJ-17-1-027", "SHJ-17-1-029", "SHJ-18-1-005"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:駱明", "type": "PER", "symbol": "駱明", "variants": [], "mentions": ["SHJ-18-1-031"], "descriptions": [], "props": {}, "tags": []}
+{"id": "PER:驕蟲", "type": "PER", "symbol": "驕蟲", "variants": [], "mentions": ["SHJ-05-6-001"], "descriptions": [{"entry": "SHJ-05-6-001", "text": "望穀城之山，無草木，無水，多沙石。有神焉，其狀如人而二首，名曰驕蟲，是為螫蟲，"}], "props": {}, "tags": []}
 {"id": "PER:驩頭", "type": "PER", "symbol": "驩頭", "variants": [], "mentions": ["SHJ-15-1-027", "SHJ-17-1-029"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:鯀", "type": "PER", "symbol": "鯀", "variants": [], "mentions": ["SHJ-15-1-027", "SHJ-17-1-005", "SHJ-18-1-031", "SHJ-18-1-037", "SHJ-18-1-039"], "descriptions": [], "props": {}, "tags": []}
 {"id": "PER:鯀復", "type": "PER", "symbol": "鯀復", "variants": [], "mentions": ["SHJ-18-1-039"], "descriptions": [], "props": {}, "tags": []}
@@ -1539,7 +1542,6 @@
 {"id": "UNK:俊壇", "type": "UNK", "symbol": "俊壇", "variants": [], "mentions": ["SHJ-15-1-014"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:去痓", "type": "UNK", "symbol": "去痓", "variants": [], "mentions": ["SHJ-15-1-011"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:吉量", "type": "UNK", "symbol": "吉量", "variants": [], "mentions": ["SHJ-12-1-004"], "descriptions": [], "props": {}, "tags": []}
-{"id": "UNK:嘘", "type": "UNK", "symbol": "嘘", "variants": [], "mentions": ["SHJ-16-1-029"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:壑市", "type": "UNK", "symbol": "壑市", "variants": [], "mentions": ["SHJ-18-1-002"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:壑明俊疾", "type": "UNK", "symbol": "壑明俊疾", "variants": [], "mentions": ["SHJ-14-1-032"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:大人之堂", "type": "UNK", "symbol": "大人之堂", "variants": [], "mentions": ["SHJ-14-1-005"], "descriptions": [], "props": {}, "tags": []}
@@ -1547,7 +1549,6 @@
 {"id": "UNK:天井", "type": "UNK", "symbol": "天井", "variants": [], "mentions": ["SHJ-05-11-004"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:天臺", "type": "UNK", "symbol": "天臺", "variants": [], "mentions": ["SHJ-15-1-029"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:女娃", "type": "UNK", "symbol": "女娃", "variants": [], "mentions": ["SHJ-03-3-022"], "descriptions": [], "props": {}, "tags": []}
-{"id": "UNK:女媧之腸", "type": "UNK", "symbol": "女媧之腸", "variants": [], "mentions": ["SHJ-16-1-003"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:女尸", "type": "UNK", "symbol": "女尸", "variants": [], "mentions": ["SHJ-05-7-003"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:孟翼之攻顓頊", "type": "UNK", "symbol": "孟翼之攻顓頊", "variants": [], "mentions": ["SHJ-16-1-033"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:孽搖頵羝", "type": "UNK", "symbol": "孽搖頵羝", "variants": [], "mentions": ["SHJ-14-1-027"], "descriptions": [], "props": {}, "tags": []}
@@ -1578,7 +1579,6 @@
 {"id": "UNK:雒棠", "type": "UNK", "symbol": "雒棠", "variants": [], "mentions": ["SHJ-07-1-021", "SHJ-07-1-022"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:靖人", "type": "UNK", "symbol": "靖人", "variants": [], "mentions": ["SHJ-14-1-006"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:鞠陵于天", "type": "UNK", "symbol": "鞠陵于天", "variants": [], "mentions": ["SHJ-14-1-022"], "descriptions": [], "props": {}, "tags": []}
-{"id": "UNK:驕蟲", "type": "UNK", "symbol": "驕蟲", "variants": [], "mentions": ["SHJ-05-6-001"], "descriptions": [], "props": {}, "tags": []}
 {"id": "UNK:黄帝女魃", "type": "UNK", "symbol": "黄帝女魃", "variants": [], "mentions": ["SHJ-17-1-020"], "descriptions": [], "props": {}, "tags": []}
 {"id": "WAT:㴬", "type": "WAT", "symbol": "㴬", "variants": [], "mentions": ["SHJ-05-6-004"], "descriptions": [{"entry": "SHJ-05-6-004", "text": "㴬水出焉，東南流注于洛"}], "props": {"n_inflows": 0, "flow_dir": "東南", "dest_type": "river", "subtype": "river"}, "tags": []}
 {"id": "WAT:㶌", "type": "WAT", "symbol": "㶌", "variants": [], "mentions": ["SHJ-03-3-008"], "descriptions": [{"entry": "SHJ-03-3-008", "text": "㶌水出焉，西北流注于泰澤"}], "props": {"n_inflows": 0, "flow_dir": "西北", "dest_type": "lake", "subtype": "river"}, "tags": []}

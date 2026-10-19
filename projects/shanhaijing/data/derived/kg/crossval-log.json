@@ -1,17 +1,33 @@
 {
- "factors": 1390,
- "variables": 1441,
- "best_energy": 846.0,
+ "factors": 1377,
+ "variables": 1434,
+ "best_energy": 846.1,
  "chain_energies": [
-  846.0,
-  836.7,
-  836.1,
-  828.1,
-  803.7,
-  831.2
+  824.8,
+  824.5,
+  819.5,
+  832.1,
+  822.6,
+  846.1
  ],
- "consensus_energy": 846.0,
+ "consensus_energy": 846.1,
  "samples": 30,
  "restarts": 12,
- "drop": 0.2
+ "drop": 0.2,
+ "weights": {
+  "flow_hit": 2.0,
+  "flow_near": 0.3,
+  "flow_miss": -1.0,
+  "rise_hit": 1.0,
+  "rise_adj": 0.3,
+  "rise_miss": -0.5,
+  "minor_hit": 0.6,
+  "minor_miss": -0.3,
+  "next_same": 0.3,
+  "next_adj": 0.1,
+  "next_miss": -0.3,
+  "bearing_scale": 1.0,
+  "creature_scale": 1.0,
+  "uniq": 2.0
+ }
 }

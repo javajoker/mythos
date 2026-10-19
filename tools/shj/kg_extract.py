@@ -137,7 +137,7 @@ def name_for(raw: str, kind: str) -> str:
 
 class KG:
     def __init__(self):
-        self.nodes, self.edges = {}, []
+        self.nodes, self.edges, self.edge_keys = {}, [], set()
         self.mentions = defaultdict(list)
         self.by_symbol = defaultdict(list)
 
@@ -185,8 +185,11 @@ class KG:
         return nid
 
     def edge(self, src, dst, etype, entry, clause="", **attrs):
-        if not src or not dst or src == dst:
+        """One relation per (src, dst, type, paragraph): a paragraph that states it twice (e.g. 「在其北…一曰在玄股北」,
+        「其陽多玉，其陰多玉」) still contributes one piece of evidence."""
+        if not src or not dst or src == dst or (src, dst, etype, entry) in self.edge_keys:
             return
+        self.edge_keys.add((src, dst, etype, entry))
         self.edges.append({"src": src, "dst": dst, "type": etype, "attrs": attrs, "entry": entry, "clause": clause})
 
 
@@ -494,6 +497,9 @@ def main():
                 kg.node("LND", sym, eid, desc=t[max(0, m.start() - 10):m.end() + 6])
             elif re.search(r"(子|人|神|臣|女|風|方|妻)$", before.rstrip("，")):
                 kg.node("PER", sym, eid, desc=t[max(0, m.start() - 10):m.end() + 6])
+            elif re.search(r"(?:有神|神焉|又有神)[^。]*$", t[:m.start()]):
+                # 「有神，人面鳥身，珥兩青蛇…名曰禺彊」: a deity described with animal parts, not a creature
+                kg.node("PER", sym, eid, desc=t[max(0, m.start() - 30):m.end() + 6])
             elif re.search(r"(獸|鳥|魚|蛇)", t[max(0, m.start() - 30):m.start()]):
                 nid = kg.node("CRE", sym, eid, desc=t[max(0, m.start() - 30):m.end() + 10])
                 kg.nodes[nid]["tags"] = sorted(set(kg.nodes[nid]["tags"]) | creature_tags(t[max(0, m.start() - 30):m.end()]))
@@ -632,7 +638,13 @@ def merge_duplicates(kg):
             if j not in seen:
                 seen.append(j)
         kg.mentions[e] = seen
-    kg.edges = [x for x in kg.edges if x["src"] != x["dst"]]
+    kept, keys = [], set()
+    for x in kg.edges:                     # merging can make two edges identical: keep one per paragraph
+        k = (x["src"], x["dst"], x["type"], x["entry"])
+        if x["src"] != x["dst"] and k not in keys:
+            keys.add(k)
+            kept.append(x)
+    kg.edges = kept
 
 
 def write(kg, entries):
