@@ -98,7 +98,7 @@ def main():
     perm_better, n_perm = 0, 5000
     for _ in range(n_perm):
         tot = []
-        for sec in {r["section"] for r in rows}:
+        for sec in sorted({r["section"] for r in rows}):
             rs = [r for r in rows if r["section"] == sec]
             pts = {id(x): x for r in rs for x in (r["_p"], r["_q"])}
             keys = list(pts); vals = [(pts[k]["lat"], pts[k]["lon"]) for k in keys]

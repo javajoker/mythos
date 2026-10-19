@@ -11,5 +11,5 @@ Two-anchor calibration — anchors `anchors-yellow-yangtze.jsonl`; 4000 Monte Ca
 | 西次四經 | 白於之山 → 涇谷之山 | 2 | 355 | 341 | 308° | 238 | 218° | 90° | 699 | 446–1074 | 671 |
 | 西次四經 | 涇谷之山 → 鳥鼠同穴之山 | 6 | 1450 | 1450 | 270° | 209 | 257° | 13° | 144 | 114–176 | 144 |
 
-- pairs: 8; mean bearing residual **56°** (no-information expectation 90°); P(mean ≤ observed | no information) = **0.0335**; permutation test (shuffle which real place goes with which station) p = **0.0124**
+- pairs: 8; mean bearing residual **56°** (no-information expectation 90°); P(mean ≤ observed | no information) = **0.0335**; permutation test (shuffle which real place goes with which station) p = **0.0130**
 - implied 里 length: median **153 m**, range 93–1360 m (plausible band 250–600 m)

@@ -77,7 +77,7 @@
 ### 4.2 GEO・方位 — **E2 (+0.5)**
 以水文角色選錨點（某支流的源頭，而不是同名的山），比較同篇兩錨點之間的文本方向與實際方向（[calibration-adjacent.md](calibration-adjacent.md)）。/ Anchors chosen by hydrological role (the source of a given tributary, not a same-named mountain).
 
-- 不重疊的相鄰錨點對（8 對）：平均方位殘差 **56°**（無資訊時期望 90°），p = 0.03；**置換檢驗 p = 0.012**，也就是「把這些實際地點配給這些站點」比隨機配對好。/ 8 non-overlapping adjacent pairs: mean residual **56°** (90° expected without information), p = 0.03; **permutation p = 0.012**.
+- 不重疊的相鄰錨點對（8 對）：平均方位殘差 **56°**（無資訊時期望 90°），p = 0.03；**置換檢驗 p = 0.013**，也就是「把這些實際地點配給這些站點」比隨機配對好。/ 8 non-overlapping adjacent pairs: mean residual **56°** (90° expected without information), p = 0.03; **permutation p = 0.013**.
 - 只用水文角色錨點（5 對）：49°，p = 0.04；置換 p = 0.03。/ Hydrological-role anchors only (5 pairs): 49°, p = 0.04; permutation p = 0.03.
 - 最佳例子 / Best cases：少山（清漳源）→ 泰戲之山（滹沱源）殘差 3°；涇谷之山（涇源）→ 鳥鼠同穴之山（渭源）13°；太華 → 嶓冢 24°。
 - 最差例子 / Worst cases：謁戾之山（沁源）→ 發鳩之山（濁漳源）121°；白於之山 → 涇谷之山 90°。
