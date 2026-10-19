@@ -96,3 +96,35 @@ def place_tags(text: str) -> set[str]:
     for m in RE_SEA_SIDE.finditer(t):
         out.add(OPPOSITE[m.group(1)])
     return out
+
+
+# Region-property cues for whole sections (Method G whole-book mapping; data/world/region-properties.jsonl).
+# Each maps a textual cue to a region property. Notes: 「玉」 -> jade is an interpretive step (玉 covers precious
+# stones generally); 「丹粟」 are cinnabar grains, so 粟 counts as millet only when not preceded by 丹.
+REGION_CUES = [
+    (r"黃金", "gold"), (r"白金|銀", "silver"), (r"赤金|銅", "copper"), (r"鐵", "iron"), (r"錫", "tin"),
+    (r"玉", "jade"), (r"丹粟|丹沙|丹砂|丹雘", "cinnabar"), (r"雄黃", "realgar"),
+    (r"青雘|青碧|空青|曾青|碧", "azurite_malachite"), (r"鹽", "salt"),
+    (r"竹|箭|篃|䈰|簜|桃枝", "bamboo"), (r"橘|櫾|柚", "citrus"), (r"桑", "mulberry"), (r"漆", "lacquer"),
+    (r"松", "pine"), (r"柏", "cypress"), (r"椶", "palm"), (r"棗", "jujube"), (r"(?<!桃枝)桃|李", "peach_plum"),
+    (r"稷|黍|(?<!丹)粟", "millet"), (r"稻|秔|稌", "rice"),
+    (r"冬夏有雪|有雪", "snow_peaks"), (r"流沙|多沙", "sand_desert"), (r"炎火|投物輒然|火山", "volcanic_fire"),
+    (r"湯水|溫水|湯谷|多湯", "hot_springs"), (r"鹽澤|鹽池|鹽水", "salt_lakes"), (r"海", "sea_coast"),
+    (r"雕題|文身|黥", "tattoo"), (r"黑齒", "black_teeth"), (r"離耳|儋耳|聶耳|聶其耳|大耳", "ear_ornaments"),
+    (r"羽民|生羽|身生羽", "feather_dress"), (r"毛民|身生毛|生毛", "hairy_people"),
+    (r"小人|焦僥|周饒|長三尺|靖人|菌人", "pygmy_people"), (r"其為人黑|黑人|為人黑", "dark_skin"),
+    (r"穴處|穴居", "cave_dwelling"),
+]
+REGION_CUES = [(re.compile(p), t) for p, t in REGION_CUES]
+RE_BARREN = re.compile(r"無草木")
+
+
+def region_cue_hits(text: str) -> dict[str, int]:
+    """Count region-property cues in a text (names masked)."""
+    t = mask_names(text)
+    out = {}
+    for rx, tag in REGION_CUES:
+        n = len(rx.findall(t))
+        if n:
+            out[tag] = out.get(tag, 0) + n
+    return out

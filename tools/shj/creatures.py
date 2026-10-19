@@ -34,18 +34,24 @@ def main():
         e = json.loads(line)
         t = e["text"]
         starts = list(RE_START.finditer(t))
+        if not starts and e["book_no"] >= 6 and "狀如" in t:
+            # Sea/Wilderness format: 「兕在舜葬東，湘水南，其狀如牛，蒼黑，一角」 — the whole entry describes one being
+            starts = [re.match(r"", t)]
         for i, m in enumerate(starts):
             s = m.end()
             nxt = starts[i + 1].start() if i + 1 < len(starts) else len(t)
             stop = RE_END.search(t, s)
             end = min(nxt, stop.start() if stop else len(t))
             seg = t[m.start():end]
-            kind = KIND.get(m.group("k1") or m.group("k3") or "", "fish" if "其中多" in m.group(0) else "unknown")
+            gd = m.groupdict() if m.re is RE_START else {}
+            kind = KIND.get(gd.get("k1") or gd.get("k3") or "", "fish" if "其中多" in m.group(0) else "unknown")
             nm = RE_NAME.search(seg)
-            name = (nm.group(1) if nm else (m.group("n2") or m.group("n4") or "")).strip()
+            name = (nm.group(1) if nm else (gd.get("n2") or gd.get("n4") or re.split(r"[，在]", seg)[0][:4])).strip()
             tags = sorted(creature_tags(seg))
             if kind == "unknown" and ("body_fish" in tags or name.endswith("魚")):
                 kind = "fish"
+            elif kind == "unknown" and m.re is not RE_START:
+                kind = "bird" if "鳥" in seg[:12] else "beast"
             if len([x for x in tags if x not in ("vocal", "aquatic", "marine")]) < 2:
                 continue
             out.append({"cid": f"{e['id']}#{i + 1}", "entry_id": e["id"], "book": e["book"], "section": e["section"],
