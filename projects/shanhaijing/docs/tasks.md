@@ -16,7 +16,7 @@
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
 | T-101 | 機器對勘並把異文歸屬到條目 / machine collation, variants attributed to entries | `tools/shj/collate.py` | ✅ |
-| T-102 | 異文分類：自動首輪已分類 1,604 / 2,021 筆（異體 870、底本偏離 681、移段 48 等），餘 417 筆待人工審查，判定寫入 `ledgers/variant-overrides.jsonl` / variant classification: first pass auto-classified 1,604 of 2,021; 417 left for review, decisions go in the overrides ledger | `tools/shj/classify_variants.py` + `textual-critic` | ⏳ |
+| T-102 | 異文分類：自動首輪已分類 1,604 / 2,021 筆。**人工審查已取消（2026-10-19，項目發起人決定）**；初稿採用「草稿讀法政策」（source-assessment §4.4），其餘 417 筆在卷宗引用時逐條處理 / variant classification: 1,604 of 2,021 auto-classified. **Human review cancelled (2026-10-19, initiator's decision)**; the draft uses the draft-reading policy (source-assessment §4.4) and handles the other 417 case by case when a dossier cites them | `tools/shj/classify_variants.py` | ✅（草稿 / draft） |
 | T-105 | 以見證本讀法（底本偏離中的 19 處數字）重新抽取山經里程，比較與篇末總數的自洽度變化 / re-extract Mountain-Classic distances with the witness readings (19 numeral base-deviations) and compare consistency with the stated totals | `shj-route-reconstructor` | ⬜ |
 | T-103 | 擴充異體字摺疊表，降低雜訊 / extend the graphic-variant fold table to reduce noise | `textual-critic` | ⬜ |
 | T-104 | 登記底本中的現代移段為錯簡假說：X3-001–008（22 條），補入文字 I-001–002 / register modern relocations as X3-001–008 (22 entries) and insertions I-001–002 | `align_witness.py` → `displacements.jsonl`；source-assessment §3.1 | ✅ |
