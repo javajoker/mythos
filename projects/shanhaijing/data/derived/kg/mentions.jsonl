@@ -1,4 +1,4 @@
-{"entry": "SHJ-01-1-001", "nodes": ["MTN:招搖之山", "MTN:經之首曰䧿山", "MTN:首曰招搖之山", "WAT:麗𪊨", "WAT:西海", "WAT:海", "PLA:祝餘", "PLA:迷穀", "CRE:狌狌", "PLA:桂", "MIN:金", "MIN:玉"]}
+{"entry": "SHJ-01-1-001", "nodes": ["MTN:招搖之山", "MTN:䧿山", "MTN:首曰招搖之山", "WAT:麗𪊨", "WAT:西海", "WAT:海", "PLA:祝餘", "PLA:迷穀", "CRE:狌狌", "PLA:桂", "MIN:金", "MIN:玉"]}
 {"entry": "SHJ-01-1-002", "nodes": ["MTN:堂庭之山", "PLA:棪", "PLA:木", "CRE:白猿", "MIN:水玉", "MIN:黃金"]}
 {"entry": "SHJ-01-1-003", "nodes": ["MTN:猨翼之山", "MIN:白玉", "CRE:虫"]}
 {"entry": "SHJ-01-1-004", "nodes": ["MTN:杻陽之山", "WAT:怪", "WAT:憲翼", "CRE:鹿蜀", "CRE:玄龜", "MIN:赤金", "MIN:白金", "CRE:龜", "CRE:旋龜"]}
@@ -41,8 +41,8 @@
 {"entry": "SHJ-01-3-013", "nodes": ["MTN:南禺之山", "MTN:禺之山", "WAT:佐", "WAT:海", "MIN:金", "MIN:玉", "CRE:鳳皇"]}
 {"entry": "SHJ-01-3-014", "nodes": ["DOC:南次三經・總述", "PER:南次三經之神", "MTN:天虞之山", "MTN:禺之山"]}
 {"entry": "SHJ-01-3-015", "nodes": ["DOC:南次三經・總述"]}
-{"entry": "SHJ-02-1-001", "nodes": ["MTN:錢來之山", "MTN:經華山", "CRE:羬羊", "PLA:松", "MIN:洗石"]}
-{"entry": "SHJ-02-1-002", "nodes": ["MTN:松果之山", "MTN:狀如山", "WAT:濩", "CRE:䳋渠", "MIN:銅", "WAT:渭"]}
+{"entry": "SHJ-02-1-001", "nodes": ["MTN:錢來之山", "MTN:華山", "CRE:羬羊", "PLA:松", "MIN:洗石"]}
+{"entry": "SHJ-02-1-002", "nodes": ["MTN:松果之山", "WAT:濩", "CRE:䳋渠", "MIN:銅", "WAT:渭"]}
 {"entry": "SHJ-02-1-003", "nodes": ["MTN:太華之山", "CRE:肥𧔥"]}
 {"entry": "SHJ-02-1-004", "nodes": ["MTN:小華之山", "PLA:荊", "PLA:杞", "CRE:牛", "MIN:磬石", "MIN:玉", "CRE:鷩"]}
 {"entry": "SHJ-02-1-005", "nodes": ["MTN:符禺之山", "WAT:符禺", "PLA:文莖", "MIN:銅", "MIN:鐵", "PLA:蔥", "WAT:渭"]}
@@ -121,7 +121,7 @@
 {"entry": "SHJ-02-4-017", "nodes": ["MTN:邽山", "WAT:濛", "WAT:洋", "CRE:窮奇", "CRE:貝"]}
 {"entry": "SHJ-02-4-018", "nodes": ["MTN:鳥鼠同穴之山", "WAT:渭", "WAT:濫", "WAT:漢", "CRE:鰠魚", "CRE:虎", "MIN:白玉", "CRE:魚", "WAT:河"]}
 {"entry": "SHJ-02-4-019", "nodes": ["MTN:崦嵫之山", "WAT:苕", "WAT:海", "CRE:孰湖", "CRE:號也", "PLA:木", "CRE:龜", "MIN:玉", "MIN:砥礪"]}
-{"entry": "SHJ-02-4-020", "nodes": ["DOC:西次四經・總述", "MTN:次四經自陰山", "MTN:崦嵫之山"]}
+{"entry": "SHJ-02-4-020", "nodes": ["DOC:西次四經・總述", "MTN:陰山#西次四經", "MTN:崦嵫之山"]}
 {"entry": "SHJ-02-4-021", "nodes": ["DOC:西次四經・總述"]}
 {"entry": "SHJ-03-1-001", "nodes": ["MTN:單狐之山", "WAT:漨", "WAT:泑", "PLA:木", "PLA:草", "MIN:茈石", "MIN:文石"]}
 {"entry": "SHJ-03-1-002", "nodes": ["MTN:求如之山", "WAT:滑", "WAT:諸毗", "CRE:水馬", "MIN:銅", "MIN:玉", "CRE:魚", "CRE:馬"]}
@@ -266,7 +266,7 @@
 {"entry": "SHJ-04-4-008", "nodes": ["MTN:太山#東次四經", "WAT:鉤", "WAT:勞", "CRE:蜚", "MIN:金", "MIN:玉", "PLA:木"]}
 {"entry": "SHJ-04-4-009", "nodes": ["DOC:東次四經・總述", "MTN:號之山", "MTN:太山#東次四經"]}
 {"entry": "SHJ-04-4-010", "nodes": ["DOC:東次四經・總述"]}
-{"entry": "SHJ-05-1-001", "nodes": ["MTN:甘棗之山", "MTN:經薄山", "PLA:籜", "CRE:㔮", "PLA:杻", "PLA:木", "WAT:共→河", "WAT:河"]}
+{"entry": "SHJ-05-1-001", "nodes": ["MTN:甘棗之山", "MTN:薄山", "PLA:籜", "CRE:㔮", "PLA:杻", "PLA:木", "WAT:共→河", "WAT:河"]}
 {"entry": "SHJ-05-1-002", "nodes": ["MTN:歷兒之山", "PLA:橿", "PLA:木"]}
 {"entry": "SHJ-05-1-003", "nodes": ["MTN:渠豬之山", "WAT:渠豬", "CRE:豪魚", "PLA:竹", "CRE:魚", "WAT:河"]}
 {"entry": "SHJ-05-1-004", "nodes": ["MTN:蔥聾之山#中山經", "MIN:白堊"]}
@@ -282,7 +282,7 @@
 {"entry": "SHJ-05-1-014", "nodes": ["MTN:陰山#中山經", "WAT:少", "MIN:礪", "MIN:石", "MIN:文石", "PLA:棠"]}
 {"entry": "SHJ-05-1-015", "nodes": ["MTN:鼓鐙之山", "PLA:榮草", "MIN:銅"]}
 {"entry": "SHJ-05-1-016", "nodes": ["DOC:中山經・總述", "MTN:薄山", "MTN:甘棗之山", "MTN:鼓鐙之山"]}
-{"entry": "SHJ-05-2-001", "nodes": ["MTN:煇諸之山", "MTN:次二經濟山", "PLA:桑", "CRE:閭麋", "CRE:鶡"]}
+{"entry": "SHJ-05-2-001", "nodes": ["MTN:煇諸之山", "MTN:濟山", "PLA:桑", "CRE:閭麋", "CRE:鶡"]}
 {"entry": "SHJ-05-2-002", "nodes": ["MTN:發視之山", "WAT:即魚", "MIN:金", "MIN:玉", "MIN:砥礪", "WAT:伊→洛"]}
 {"entry": "SHJ-05-2-003", "nodes": ["MTN:豪山", "MIN:金", "MIN:玉", "PLA:草"]}
 {"entry": "SHJ-05-2-004", "nodes": ["MTN:鮮山#中次二經", "WAT:鮮", "CRE:鳴蛇", "MIN:金", "MIN:玉", "CRE:蛇", "WAT:伊→洛"]}
@@ -292,13 +292,13 @@
 {"entry": "SHJ-05-2-008", "nodes": ["MTN:獨蘇之山"]}
 {"entry": "SHJ-05-2-009", "nodes": ["MTN:蔓渠之山", "CRE:馬腹", "MIN:金", "MIN:玉", "PLA:竹箭", "WAT:伊→洛", "WAT:洛→河"]}
 {"entry": "SHJ-05-2-010", "nodes": ["DOC:中次二經・總述", "PER:中次二經之神", "MTN:濟山", "MTN:煇諸之山", "MTN:蔓渠之山"]}
-{"entry": "SHJ-05-3-001", "nodes": ["MTN:敖岸之山", "MTN:次三經萯山", "WAT:神熏池", "PER:熏池", "CRE:夫諸", "MIN:玉", "MIN:赭", "MIN:黃金", "LND:河林"]}
+{"entry": "SHJ-05-3-001", "nodes": ["MTN:敖岸之山", "MTN:萯山", "WAT:神熏池", "PER:熏池", "CRE:夫諸", "MIN:玉", "MIN:赭", "MIN:黃金", "LND:河林"]}
 {"entry": "SHJ-05-3-002", "nodes": ["MTN:青要之山", "WAT:畛", "PER:禹", "PER:䰠武羅", "CRE:鴢", "PLA:荀草", "CRE:鳥", "LND:墠渚", "WAT:河"]}
 {"entry": "SHJ-05-3-003", "nodes": ["MTN:騩山#中次三經", "MTN:十里曰騩山", "WAT:正回", "CRE:飛魚", "PLA:棗", "MIN:玉", "CRE:魚", "WAT:河"]}
 {"entry": "SHJ-05-3-004", "nodes": ["MTN:宜蘇之山", "MIN:金", "MIN:玉", "PLA:木", "CRE:貝", "WAT:滽滽→河", "WAT:河"]}
 {"entry": "SHJ-05-3-005", "nodes": ["MTN:和山", "MTN:好居于萯山", "WAT:九", "PER:吉神泰逢", "MIN:瑤碧", "MIN:蒼玉"]}
 {"entry": "SHJ-05-3-006", "nodes": ["DOC:中次三經・總述", "MTN:萯山", "MTN:敖岸之山", "MTN:和山"]}
-{"entry": "SHJ-05-4-001", "nodes": ["MTN:鹿蹄之山", "MTN:次四經釐山", "WAT:甘", "MIN:玉", "MIN:金", "MIN:石", "WAT:洛→河"]}
+{"entry": "SHJ-05-4-001", "nodes": ["MTN:鹿蹄之山", "MTN:釐山", "WAT:甘", "MIN:玉", "MIN:金", "MIN:石", "WAT:洛→河"]}
 {"entry": "SHJ-05-4-002", "nodes": ["MTN:扶豬之山", "WAT:虢", "CRE:䴦", "MIN:石", "WAT:洛→河"]}
 {"entry": "SHJ-05-4-003", "nodes": ["MTN:釐山", "CRE:犀渠", "CRE:𤢺", "MIN:玉", "WAT:滽滽→伊", "WAT:伊→洛"]}
 {"entry": "SHJ-05-4-004", "nodes": ["MTN:箕尾之山#中次四經", "MIN:石", "MIN:玉"]}
@@ -308,7 +308,7 @@
 {"entry": "SHJ-05-4-008", "nodes": ["MTN:牡山", "MIN:文石", "PLA:竹箭", "PLA:竹", "CRE:牛", "CRE:羬羊", "CRE:鷩"]}
 {"entry": "SHJ-05-4-009", "nodes": ["MTN:讙舉之山", "WAT:玄扈", "CRE:馬", "WAT:洛→河"]}
 {"entry": "SHJ-05-4-010", "nodes": ["DOC:中次四經・總述", "PER:中次四經之神", "MTN:釐山", "MTN:鹿蹄之山", "MTN:玄扈之山"]}
-{"entry": "SHJ-05-5-001", "nodes": ["MTN:苟牀之山", "MTN:次五經薄山"]}
+{"entry": "SHJ-05-5-001", "nodes": ["MTN:苟牀之山", "MTN:薄山"]}
 {"entry": "SHJ-05-5-002", "nodes": ["MTN:首山", "PLA:榖", "PLA:柞", "MIN:玉", "PLA:槐", "CRE:鳥", "LND:机谷"]}
 {"entry": "SHJ-05-5-003", "nodes": ["MTN:縣劚之山", "MIN:文石"]}
 {"entry": "SHJ-05-5-004", "nodes": ["MTN:蔥聾之山#中次五經", "MIN:石"]}
@@ -324,9 +324,9 @@
 {"entry": "SHJ-05-5-014", "nodes": ["MTN:升山", "WAT:黃酸", "PLA:榖", "PLA:柞", "PLA:蕙", "MIN:玉", "WAT:河"]}
 {"entry": "SHJ-05-5-015", "nodes": ["MTN:陽虛之山", "MTN:虛之山", "WAT:玄扈", "MIN:金"]}
 {"entry": "SHJ-05-5-016", "nodes": ["DOC:中次五經・總述", "MTN:薄山", "MTN:苟林之山", "MTN:虛之山", "MTN:升山", "MTN:首山"]}
-{"entry": "SHJ-05-6-001", "nodes": ["MTN:平逢之山", "MTN:次六經縞羝山", "MTN:穀城之山", "MIN:沙石", "LND:伊洛", "UNK:驕蟲"]}
+{"entry": "SHJ-05-6-001", "nodes": ["MTN:平逢之山", "MTN:縞羝山", "MTN:穀城之山", "MIN:沙石", "LND:伊洛", "UNK:驕蟲"]}
 {"entry": "SHJ-05-6-002", "nodes": ["MTN:縞羝之山", "MIN:金", "MIN:玉"]}
-{"entry": "SHJ-05-6-003", "nodes": ["MTN:廆山", "MTN:狀如山", "WAT:交觴", "WAT:俞隨", "WAT:穀", "CRE:鴒䳩", "MIN:玉", "PLA:柳", "PLA:楮", "LND:雚谷", "WAT:洛→河"]}
+{"entry": "SHJ-05-6-003", "nodes": ["MTN:廆山", "WAT:交觴", "WAT:俞隨", "WAT:穀", "CRE:鴒䳩", "MIN:玉", "PLA:柳", "PLA:楮", "LND:雚谷", "WAT:洛→河"]}
 {"entry": "SHJ-05-6-004", "nodes": ["MTN:瞻諸之山", "WAT:㴬", "WAT:少", "WAT:穀", "MIN:金", "WAT:洛→河"]}
 {"entry": "SHJ-05-6-005", "nodes": ["MTN:婁涿之山", "WAT:瞻", "WAT:陂", "WAT:穀", "MIN:金", "MIN:玉", "MIN:茈石", "MIN:文石", "WAT:洛→河"]}
 {"entry": "SHJ-05-6-006", "nodes": ["MTN:白石之山", "WAT:惠", "WAT:澗", "WAT:穀", "MIN:水玉", "CRE:麋", "MIN:石", "PLA:櫨", "WAT:洛→河"]}
@@ -339,9 +339,9 @@
 {"entry": "SHJ-05-6-013", "nodes": ["MTN:夸父之山", "WAT:湖", "PER:夸父", "PLA:椶", "PLA:枏", "PLA:竹箭", "CRE:牛", "CRE:羬羊", "CRE:鷩", "MIN:玉", "MIN:鐵", "CRE:馬", "CRE:桃林", "WAT:河"]}
 {"entry": "SHJ-05-6-014", "nodes": ["MTN:陽華之山", "MTN:華之山", "WAT:楊", "WAT:門", "WAT:𦁎姑", "MIN:金", "MIN:玉", "MIN:青雄黃", "PLA:藷藇", "CRE:魚", "MIN:銅", "WAT:洛→河", "WAT:河"]}
 {"entry": "SHJ-05-6-015", "nodes": ["DOC:中次六經・總述", "MTN:縞羝山", "MTN:平逢之山", "MTN:華之山"]}
-{"entry": "SHJ-05-7-001", "nodes": ["MTN:休輿之山", "MTN:次七經苦山", "PER:帝臺", "PLA:夙條", "UNK:帝臺之棋"]}
+{"entry": "SHJ-05-7-001", "nodes": ["MTN:休輿之山", "MTN:苦山", "PER:帝臺", "PLA:夙條", "UNK:帝臺之棋"]}
 {"entry": "SHJ-05-7-002", "nodes": ["MTN:鼓鍾之山", "PER:帝臺", "PLA:焉酸", "MIN:礪", "MIN:砥"]}
-{"entry": "SHJ-05-7-003", "nodes": ["MTN:姑媱之山", "MTN:實如菟丘", "PER:帝", "UNK:女尸"]}
+{"entry": "SHJ-05-7-003", "nodes": ["MTN:姑媱之山", "PER:帝", "UNK:女尸"]}
 {"entry": "SHJ-05-7-004", "nodes": ["MTN:苦山", "CRE:山膏", "PLA:黃棘", "PLA:無條"]}
 {"entry": "SHJ-05-7-005", "nodes": ["MTN:堵山", "PER:天愚", "PLA:天楄"]}
 {"entry": "SHJ-05-7-006", "nodes": ["MTN:放皋之山", "WAT:明", "PLA:蒙木", "CRE:文文", "MIN:蒼玉", "WAT:伊→洛"]}
@@ -359,7 +359,7 @@
 {"entry": "SHJ-05-7-018", "nodes": ["MTN:敏山", "PLA:葪柏", "MIN:玉"]}
 {"entry": "SHJ-05-7-019", "nodes": ["MTN:大騩之山#中次七經", "PLA:𦵧", "MIN:鐵", "MIN:美玉", "MIN:堊"]}
 {"entry": "SHJ-05-7-020", "nodes": ["DOC:中次七經・總述", "PER:中次七經之神", "MTN:苦山", "MTN:休輿之山", "MTN:大騩之山#中次七經"]}
-{"entry": "SHJ-05-8-001", "nodes": ["MTN:景山#中次八經", "MTN:次八經荊山", "WAT:雎", "MIN:金", "MIN:玉", "PLA:檀", "MIN:丹粟", "CRE:魚", "WAT:江"]}
+{"entry": "SHJ-05-8-001", "nodes": ["MTN:景山#中次八經", "MTN:荊山", "WAT:雎", "MIN:金", "MIN:玉", "PLA:檀", "MIN:丹粟", "CRE:魚", "WAT:江"]}
 {"entry": "SHJ-05-8-002", "nodes": ["MTN:荊山", "MIN:鐵", "MIN:赤金", "CRE:犛牛", "CRE:豹", "CRE:虎", "PLA:松", "PLA:柏", "PLA:竹", "PLA:橘", "PLA:櫾", "MIN:黃金", "CRE:魚", "CRE:閭麋", "WAT:漳→河", "WAT:雎"]}
 {"entry": "SHJ-05-8-003", "nodes": ["MTN:驕山", "WAT:雎漳之淵", "PER:𧕛圍", "MIN:玉", "MIN:青雘", "PLA:松", "PLA:柏", "PLA:桃枝", "PLA:鉤端"]}
 {"entry": "SHJ-05-8-004", "nodes": ["MTN:女几之山#中次八經", "MIN:玉", "MIN:黃金", "CRE:豹", "CRE:虎", "CRE:閭麋", "CRE:麖", "CRE:翟", "CRE:鴆"]}
@@ -383,7 +383,7 @@
 {"entry": "SHJ-05-8-022", "nodes": ["MTN:師每之山", "MIN:砥礪", "MIN:青雘", "PLA:柏", "PLA:檀", "PLA:柘", "PLA:竹"]}
 {"entry": "SHJ-05-8-023", "nodes": ["MTN:琴鼓之山", "PLA:榖", "PLA:柞", "PLA:椒", "PLA:柘", "MIN:洗石", "CRE:豕", "CRE:鹿", "CRE:犀", "CRE:鴆"]}
 {"entry": "SHJ-05-8-024", "nodes": ["DOC:中次八經・總述", "PER:中次八經之神", "MTN:荊山", "MTN:景山#中次八經", "MTN:琴鼓之山", "MTN:驕山"]}
-{"entry": "SHJ-05-9-001", "nodes": ["MTN:女几之山#中次九經", "MTN:次九經岷山", "MIN:石涅", "PLA:杻", "PLA:橿", "PLA:菊", "MIN:雄黃", "CRE:虎", "CRE:豹", "WAT:洛→河"]}
+{"entry": "SHJ-05-9-001", "nodes": ["MTN:女几之山#中次九經", "MTN:岷山", "MIN:石涅", "PLA:杻", "PLA:橿", "PLA:菊", "MIN:雄黃", "CRE:虎", "CRE:豹", "WAT:洛→河"]}
 {"entry": "SHJ-05-9-002", "nodes": ["MTN:岷山", "WAT:江", "WAT:海", "CRE:龜", "CRE:鼉", "MIN:金", "MIN:玉", "PLA:梅", "PLA:棠", "CRE:犀", "CRE:象", "CRE:夔", "CRE:牛", "CRE:鷩"]}
 {"entry": "SHJ-05-9-003", "nodes": ["MTN:崍山", "WAT:江", "MIN:黃金", "CRE:麋", "CRE:麈", "PLA:檀", "PLA:柘", "PLA:韭"]}
 {"entry": "SHJ-05-9-004", "nodes": ["MTN:崌山", "WAT:江", "CRE:竊脂", "CRE:魚", "PLA:楢", "PLA:杻", "PLA:梅", "PLA:梓", "CRE:夔", "CRE:牛", "CRE:麢"]}
@@ -410,7 +410,7 @@
 {"entry": "SHJ-05-10-008", "nodes": ["MTN:涿山", "PLA:榖", "PLA:柞", "PLA:杻", "MIN:玉"]}
 {"entry": "SHJ-05-10-009", "nodes": ["MTN:丙山#中次十經", "PLA:梓", "PLA:檀", "PLA:杻"]}
 {"entry": "SHJ-05-10-010", "nodes": ["DOC:中次十經・總述", "PER:中次十經之神", "MTN:首陽山", "MTN:首山", "MTN:丙山#中次十經", "MTN:堵山", "MTN:騩山@mention"]}
-{"entry": "SHJ-05-11-001", "nodes": ["MTN:翼望之山#中次十一經", "MTN:次十一經荊山", "WAT:湍", "WAT:貺", "CRE:蛟", "PLA:松", "PLA:柏", "PLA:漆", "PLA:梓", "MIN:赤金", "WAT:濟→漢", "WAT:漢"]}
+{"entry": "SHJ-05-11-001", "nodes": ["MTN:翼望之山#中次十一經", "MTN:荊山", "WAT:湍", "WAT:貺", "CRE:蛟", "PLA:松", "PLA:柏", "PLA:漆", "PLA:梓", "MIN:赤金", "WAT:濟→漢", "WAT:漢"]}
 {"entry": "SHJ-05-11-002", "nodes": ["MTN:朝歌之山#中次十一經", "WAT:潕", "PLA:莽草", "CRE:魚", "PLA:梓", "PLA:枏", "CRE:麢", "CRE:麋", "WAT:滎"]}
 {"entry": "SHJ-05-11-003", "nodes": ["MTN:帝囷之山", "WAT:帝囷", "PER:帝", "MIN:玉", "MIN:鐵", "CRE:蛇"]}
 {"entry": "SHJ-05-11-004", "nodes": ["MTN:視山", "PLA:韭", "PLA:桑", "MIN:堊", "MIN:金", "MIN:玉", "UNK:天井"]}
@@ -459,7 +459,7 @@
 {"entry": "SHJ-05-11-047", "nodes": ["MTN:杳山", "PLA:草", "MIN:金", "MIN:玉"]}
 {"entry": "SHJ-05-11-048", "nodes": ["MTN:几山", "CRE:聞𧲂", "PLA:楢", "PLA:檀", "PLA:杻"]}
 {"entry": "SHJ-05-11-049", "nodes": ["DOC:中次十一經・總述", "PER:中次十一經之神", "MTN:荊山", "MTN:几山", "MTN:禾山", "MTN:堵山", "MTN:玉山@mention"]}
-{"entry": "SHJ-05-12-001", "nodes": ["MTN:篇遇之山", "MTN:次十二經洞庭山", "MIN:黃金"]}
+{"entry": "SHJ-05-12-001", "nodes": ["MTN:篇遇之山", "MTN:洞庭山", "MIN:黃金"]}
 {"entry": "SHJ-05-12-002", "nodes": ["MTN:雲山", "PLA:桂", "PLA:竹", "MIN:黃金", "MIN:玉"]}
 {"entry": "SHJ-05-12-003", "nodes": ["MTN:龜山", "PLA:榖", "PLA:柞", "PLA:椐", "MIN:黃金", "MIN:青雄黃", "PLA:竹"]}
 {"entry": "SHJ-05-12-004", "nodes": ["MTN:丙山#中次十二經", "PLA:竹", "MIN:黃金", "MIN:銅", "MIN:鐵"]}

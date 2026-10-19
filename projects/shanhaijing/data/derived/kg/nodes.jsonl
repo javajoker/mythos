@@ -424,7 +424,7 @@
 {"id": "MTN:㱙塗之山", "type": "MTN", "symbol": "㱙塗之山", "variants": [], "mentions": ["SHJ-15-1-022"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:䃌山", "type": "MTN", "symbol": "䃌山", "variants": [], "mentions": ["SHJ-04-2-017", "SHJ-04-2-018"], "descriptions": [], "props": {"section": "東次二經", "seq": 17}, "tags": []}
 {"id": "MTN:䖟山", "type": "MTN", "symbol": "䖟山", "variants": [], "mentions": ["SHJ-16-1-024"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:䧿山", "type": "MTN", "symbol": "䧿山", "variants": [], "mentions": ["SHJ-01-1-010"], "descriptions": [], "props": {}, "tags": []}
+{"id": "MTN:䧿山", "type": "MTN", "symbol": "䧿山", "variants": [], "mentions": ["SHJ-01-1-001", "SHJ-01-1-010"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:䰝山", "type": "MTN", "symbol": "䰝山", "variants": [], "mentions": ["SHJ-14-1-031"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:一曰南山", "type": "MTN", "symbol": "一曰南山", "variants": [], "mentions": ["SHJ-06-1-004"], "descriptions": [{"entry": "SHJ-06-1-004", "text": "一曰南山在結匈東南", "alternate": true}, {"entry": "SHJ-06-1-004", "text": "一曰在南山東", "alternate": true}], "props": {}, "tags": []}
 {"id": "MTN:一曰嗟丘", "type": "MTN", "symbol": "一曰嗟丘", "variants": [], "mentions": ["SHJ-09-1-002"], "descriptions": [], "props": {}, "tags": []}
@@ -599,7 +599,6 @@
 {"id": "MTN:宜諸之山", "type": "MTN", "symbol": "宜諸之山", "variants": [], "mentions": ["SHJ-05-8-005"], "descriptions": [], "props": {"section": "中次八經", "seq": 5}, "tags": ["azurite_malachite", "jade"]}
 {"id": "MTN:宣山", "type": "MTN", "symbol": "宣山", "variants": [], "mentions": ["SHJ-05-11-031"], "descriptions": [], "props": {"section": "中次十一經", "seq": 31}, "tags": ["mulberry"]}
 {"id": "MTN:密山", "type": "MTN", "symbol": "密山", "variants": [], "mentions": ["SHJ-05-6-008"], "descriptions": [], "props": {"section": "中次六經", "seq": 8, "barren": true}, "tags": ["iron", "jade"]}
-{"id": "MTN:實如菟丘", "type": "MTN", "symbol": "實如菟丘", "variants": [], "mentions": ["SHJ-05-7-003"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:封于太山", "type": "MTN", "symbol": "封于太山", "variants": [], "mentions": ["SHJ-05-13-001"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:小侯之山", "type": "MTN", "symbol": "小侯之山", "variants": [], "mentions": ["SHJ-03-3-016"], "descriptions": [], "props": {"section": "北次三經", "seq": 16}, "tags": []}
 {"id": "MTN:小咸之山", "type": "MTN", "symbol": "小咸之山", "variants": [], "mentions": ["SHJ-03-1-015"], "descriptions": [], "props": {"section": "北山經之首", "seq": 15, "barren": true}, "tags": ["snow_peaks"]}
@@ -620,7 +619,7 @@
 {"id": "MTN:岐山#中次八經", "type": "MTN", "symbol": "岐山", "variants": [], "mentions": ["SHJ-05-8-009"], "descriptions": [], "props": {"section": "中次八經", "seq": 9}, "tags": ["azurite_malachite", "copper", "jade"]}
 {"id": "MTN:岐山#東次三經", "type": "MTN", "symbol": "岐山", "variants": [], "mentions": ["SHJ-04-3-002"], "descriptions": [], "props": {"section": "東次三經", "seq": 2}, "tags": ["peach_plum"]}
 {"id": "MTN:岳之山", "type": "MTN", "symbol": "岳之山", "variants": [], "mentions": ["SHJ-17-1-018"], "descriptions": [], "props": {}, "tags": ["bamboo"]}
-{"id": "MTN:岷山", "type": "MTN", "symbol": "岷山", "variants": [], "mentions": ["SHJ-05-9-002", "SHJ-05-9-017"], "descriptions": [], "props": {"section": "中次九經", "seq": 2}, "tags": ["jade", "sea_coast"]}
+{"id": "MTN:岷山", "type": "MTN", "symbol": "岷山", "variants": [], "mentions": ["SHJ-05-9-002", "SHJ-05-9-001", "SHJ-05-9-017"], "descriptions": [], "props": {"section": "中次九經", "seq": 2}, "tags": ["jade", "sea_coast"]}
 {"id": "MTN:峚山", "type": "MTN", "symbol": "峚山", "variants": [], "mentions": ["SHJ-02-3-004"], "descriptions": [], "props": {"section": "西次三經", "seq": 4}, "tags": ["jade", "millet"]}
 {"id": "MTN:崆峒山", "type": "MTN", "symbol": "崆峒山", "variants": [], "mentions": ["SHJ-13-1-018"], "descriptions": [], "props": {}, "tags": ["hot_springs"]}
 {"id": "MTN:崇吾之山", "type": "MTN", "symbol": "崇吾之山", "variants": [], "mentions": ["SHJ-02-3-001", "SHJ-02-3-023"], "descriptions": [], "props": {"section": "西次三經", "seq": 1}, "tags": []}
@@ -736,17 +735,6 @@
 {"id": "MTN:樕𧑤之山", "type": "MTN", "symbol": "樕𧑤之山", "variants": [], "mentions": ["SHJ-04-1-001", "SHJ-04-1-013"], "descriptions": [], "props": {"section": "東山經之首", "seq": 1}, "tags": ["sea_coast"]}
 {"id": "MTN:橐山", "type": "MTN", "symbol": "橐山", "variants": [], "mentions": ["SHJ-05-6-011"], "descriptions": [], "props": {"section": "中次六經", "seq": 11}, "tags": ["iron", "jade"]}
 {"id": "MTN:橿谷之山", "type": "MTN", "symbol": "橿谷之山", "variants": [], "mentions": ["SHJ-05-1-009"], "descriptions": [], "props": {"section": "中山經", "seq": 9}, "tags": ["copper"]}
-{"id": "MTN:次七經苦山", "type": "MTN", "symbol": "次七經苦山", "variants": [], "mentions": ["SHJ-05-7-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次三經萯山", "type": "MTN", "symbol": "次三經萯山", "variants": [], "mentions": ["SHJ-05-3-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次九經岷山", "type": "MTN", "symbol": "次九經岷山", "variants": [], "mentions": ["SHJ-05-9-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次二經濟山", "type": "MTN", "symbol": "次二經濟山", "variants": [], "mentions": ["SHJ-05-2-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次五經薄山", "type": "MTN", "symbol": "次五經薄山", "variants": [], "mentions": ["SHJ-05-5-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次八經荊山", "type": "MTN", "symbol": "次八經荊山", "variants": [], "mentions": ["SHJ-05-8-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次六經縞羝山", "type": "MTN", "symbol": "次六經縞羝山", "variants": [], "mentions": ["SHJ-05-6-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次十一經荊山", "type": "MTN", "symbol": "次十一經荊山", "variants": [], "mentions": ["SHJ-05-11-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次十二經洞庭山", "type": "MTN", "symbol": "次十二經洞庭山", "variants": [], "mentions": ["SHJ-05-12-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次四經自陰山", "type": "MTN", "symbol": "次四經自陰山", "variants": [], "mentions": ["SHJ-02-4-020"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:次四經釐山", "type": "MTN", "symbol": "次四經釐山", "variants": [], "mentions": ["SHJ-05-4-001"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:欽山", "type": "MTN", "symbol": "欽山", "variants": [], "mentions": ["SHJ-04-4-005"], "descriptions": [], "props": {"section": "東次四經", "seq": 5}, "tags": ["jade"]}
 {"id": "MTN:武夫之丘", "type": "MTN", "symbol": "武夫之丘", "variants": [], "mentions": ["SHJ-18-1-012"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:歷兒之山", "type": "MTN", "symbol": "歷兒之山", "variants": [], "mentions": ["SHJ-05-1-002"], "descriptions": [], "props": {"section": "中山經", "seq": 2}, "tags": []}
@@ -779,7 +767,7 @@
 {"id": "MTN:泰頭之山", "type": "MTN", "symbol": "泰頭之山", "variants": [], "mentions": ["SHJ-03-3-017"], "descriptions": [], "props": {"section": "北次三經", "seq": 17}, "tags": ["bamboo", "jade"]}
 {"id": "MTN:洛西山", "type": "MTN", "symbol": "洛西山", "variants": [], "mentions": ["SHJ-13-1-030"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:洞庭之山", "type": "MTN", "symbol": "洞庭之山", "variants": [], "mentions": ["SHJ-05-12-007"], "descriptions": [], "props": {"section": "中次十二經", "seq": 7}, "tags": ["citrus", "gold", "iron", "silver"]}
-{"id": "MTN:洞庭山", "type": "MTN", "symbol": "洞庭山", "variants": [], "mentions": ["SHJ-05-12-016"], "descriptions": [], "props": {}, "tags": []}
+{"id": "MTN:洞庭山", "type": "MTN", "symbol": "洞庭山", "variants": [], "mentions": ["SHJ-05-12-001", "SHJ-05-12-016"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:洵山", "type": "MTN", "symbol": "洵山", "variants": [], "mentions": ["SHJ-01-2-013"], "descriptions": [], "props": {"section": "南次二經", "seq": 13}, "tags": ["jade"]}
 {"id": "MTN:洹山", "type": "MTN", "symbol": "洹山", "variants": [], "mentions": ["SHJ-03-2-015"], "descriptions": [], "props": {"section": "北次二經", "seq": 15}, "tags": ["jade", "mulberry", "sand_desert"]}
 {"id": "MTN:流沙#東次三經", "type": "MTN", "symbol": "流沙", "variants": [], "mentions": ["SHJ-04-3-007"], "descriptions": [], "props": {"section": "東次三經", "seq": 7, "barren": true}, "tags": ["jade", "sand_desert"]}
@@ -805,7 +793,7 @@
 {"id": "MTN:漆吳之山", "type": "MTN", "symbol": "漆吳之山", "variants": [], "mentions": ["SHJ-01-2-017", "SHJ-01-2-018"], "descriptions": [], "props": {"section": "南次二經", "seq": 17, "barren": true}, "tags": ["jade", "lacquer", "sea_coast"]}
 {"id": "MTN:潏山", "type": "MTN", "symbol": "潏山", "variants": [], "mentions": ["SHJ-14-1-008"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:潘侯之山", "type": "MTN", "symbol": "潘侯之山", "variants": [], "mentions": ["SHJ-03-1-014"], "descriptions": [], "props": {"section": "北山經之首", "seq": 14}, "tags": ["cypress", "iron", "jade", "pine"]}
-{"id": "MTN:濟山", "type": "MTN", "symbol": "濟山", "variants": [], "mentions": ["SHJ-05-2-010"], "descriptions": [], "props": {}, "tags": []}
+{"id": "MTN:濟山", "type": "MTN", "symbol": "濟山", "variants": [], "mentions": ["SHJ-05-2-001", "SHJ-05-2-010"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:灌湘之山", "type": "MTN", "symbol": "灌湘之山", "variants": [], "mentions": ["SHJ-01-3-008"], "descriptions": [], "props": {"section": "南次三經", "seq": 8}, "tags": []}
 {"id": "MTN:灌題之山", "type": "MTN", "symbol": "灌題之山", "variants": [], "mentions": ["SHJ-03-1-013"], "descriptions": [], "props": {"section": "北山經之首", "seq": 13}, "tags": ["sand_desert"]}
 {"id": "MTN:灰野之山", "type": "MTN", "symbol": "灰野之山", "variants": [], "mentions": ["SHJ-17-1-030"], "descriptions": [], "props": {}, "tags": []}
@@ -821,7 +809,6 @@
 {"id": "MTN:牛首之山", "type": "MTN", "symbol": "牛首之山", "variants": [], "mentions": ["SHJ-05-1-011"], "descriptions": [], "props": {"section": "中山經", "seq": 11}, "tags": []}
 {"id": "MTN:牡山", "type": "MTN", "symbol": "牡山", "variants": [], "mentions": ["SHJ-05-4-008"], "descriptions": [], "props": {"section": "中次四經", "seq": 8}, "tags": ["bamboo"]}
 {"id": "MTN:犲山", "type": "MTN", "symbol": "犲山", "variants": [], "mentions": ["SHJ-04-1-009"], "descriptions": [], "props": {"section": "東山經之首", "seq": 9, "barren": true}, "tags": []}
-{"id": "MTN:狀如山", "type": "MTN", "symbol": "狀如山", "variants": [], "mentions": ["SHJ-02-1-002", "SHJ-05-6-003"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:狂山", "type": "MTN", "symbol": "狂山", "variants": [], "mentions": ["SHJ-03-2-007"], "descriptions": [], "props": {"section": "北次二經", "seq": 7, "barren": true}, "tags": ["jade", "snow_peaks"]}
 {"id": "MTN:狄山", "type": "MTN", "symbol": "狄山", "variants": [], "mentions": ["SHJ-06-1-022"], "descriptions": [{"entry": "SHJ-06-1-022", "text": "一曰湯山", "alternate": true}, {"entry": "SHJ-06-1-022", "text": "一曰爰有熊、羆、文虎、蜼、豹、離朱、𩿨久、視肉、虖交", "alternate": true}], "props": {}, "tags": []}
 {"id": "MTN:狐岐之山", "type": "MTN", "symbol": "狐岐之山", "variants": [], "mentions": ["SHJ-03-2-004"], "descriptions": [], "props": {"section": "北次二經", "seq": 4, "barren": true}, "tags": ["azurite_malachite", "jade"]}
@@ -906,15 +893,12 @@
 {"id": "MTN:箕尾之山#南山經之首", "type": "MTN", "symbol": "箕尾之山", "variants": [], "mentions": ["SHJ-01-1-009", "SHJ-01-1-010"], "descriptions": [], "props": {"section": "南山經之首", "seq": 9}, "tags": ["jade", "sand_desert", "sea_coast"]}
 {"id": "MTN:管涔之山", "type": "MTN", "symbol": "管涔之山", "variants": [], "mentions": ["SHJ-03-2-001", "SHJ-03-2-017"], "descriptions": [], "props": {"section": "北次二經", "seq": 1}, "tags": ["jade"]}
 {"id": "MTN:篇遇之山", "type": "MTN", "symbol": "篇遇之山", "variants": [], "mentions": ["SHJ-05-12-001", "SHJ-05-12-016"], "descriptions": [], "props": {"section": "中次十二經", "seq": 1, "barren": true}, "tags": ["gold"]}
-{"id": "MTN:經之首曰䧿山", "type": "MTN", "symbol": "經之首曰䧿山", "variants": [], "mentions": ["SHJ-01-1-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:經華山", "type": "MTN", "symbol": "經華山", "variants": [], "mentions": ["SHJ-02-1-001"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:經薄山", "type": "MTN", "symbol": "經薄山", "variants": [], "mentions": ["SHJ-05-1-001"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:綦山", "type": "MTN", "symbol": "綦山", "variants": [], "mentions": ["SHJ-14-1-031"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:維龍之山", "type": "MTN", "symbol": "維龍之山", "variants": [], "mentions": ["SHJ-03-3-031"], "descriptions": [], "props": {"section": "北次三經", "seq": 31}, "tags": ["azurite_malachite", "iron", "jade"]}
 {"id": "MTN:綸山", "type": "MTN", "symbol": "綸山", "variants": [], "mentions": ["SHJ-05-8-006"], "descriptions": [], "props": {"section": "中次八經", "seq": 6}, "tags": ["bamboo", "citrus", "millet", "peach_plum"]}
 {"id": "MTN:緱氏之山", "type": "MTN", "symbol": "緱氏之山", "variants": [], "mentions": ["SHJ-04-2-014"], "descriptions": [], "props": {"section": "東次二經", "seq": 14, "barren": true}, "tags": ["jade"]}
 {"id": "MTN:縞羝之山", "type": "MTN", "symbol": "縞羝之山", "variants": [], "mentions": ["SHJ-05-6-002"], "descriptions": [], "props": {"section": "中次六經", "seq": 2, "barren": true}, "tags": ["jade"]}
-{"id": "MTN:縞羝山", "type": "MTN", "symbol": "縞羝山", "variants": [], "mentions": ["SHJ-05-6-015"], "descriptions": [], "props": {}, "tags": []}
+{"id": "MTN:縞羝山", "type": "MTN", "symbol": "縞羝山", "variants": [], "mentions": ["SHJ-05-6-001", "SHJ-05-6-015"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:縣劚之山", "type": "MTN", "symbol": "縣劚之山", "variants": [], "mentions": ["SHJ-05-5-003"], "descriptions": [], "props": {"section": "中次五經", "seq": 3, "barren": true}, "tags": []}
 {"id": "MTN:縣雍之山", "type": "MTN", "symbol": "縣雍之山", "variants": [], "mentions": ["SHJ-03-2-003"], "descriptions": [], "props": {"section": "北次二經", "seq": 3}, "tags": ["copper", "jade"]}
 {"id": "MTN:繁繢之山", "type": "MTN", "symbol": "繁繢之山", "variants": [], "mentions": ["SHJ-05-10-003"], "descriptions": [], "props": {"section": "中次十經", "seq": 3}, "tags": []}
@@ -942,15 +926,15 @@
 {"id": "MTN:苟林之山", "type": "MTN", "symbol": "苟林之山", "variants": [], "mentions": ["SHJ-05-5-016"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:苟牀之山", "type": "MTN", "symbol": "苟牀之山", "variants": [], "mentions": ["SHJ-05-5-001"], "descriptions": [], "props": {"section": "中次五經", "seq": 1, "barren": true}, "tags": []}
 {"id": "MTN:若山", "type": "MTN", "symbol": "若山", "variants": [], "mentions": ["SHJ-05-8-017"], "descriptions": [], "props": {"section": "中次八經", "seq": 17}, "tags": ["jade"]}
-{"id": "MTN:苦山", "type": "MTN", "symbol": "苦山", "variants": [], "mentions": ["SHJ-05-7-004", "SHJ-05-7-020"], "descriptions": [], "props": {"section": "中次七經", "seq": 4}, "tags": []}
+{"id": "MTN:苦山", "type": "MTN", "symbol": "苦山", "variants": [], "mentions": ["SHJ-05-7-004", "SHJ-05-7-001", "SHJ-05-7-020"], "descriptions": [], "props": {"section": "中次七經", "seq": 4}, "tags": []}
 {"id": "MTN:英山", "type": "MTN", "symbol": "英山", "variants": [], "mentions": ["SHJ-02-1-007"], "descriptions": [], "props": {"section": "西山經之首", "seq": 7}, "tags": ["bamboo", "copper", "iron"]}
 {"id": "MTN:英鞮之山", "type": "MTN", "symbol": "英鞮之山", "variants": [], "mentions": ["SHJ-02-4-015"], "descriptions": [], "props": {"section": "西次四經", "seq": 15}, "tags": ["jade", "lacquer"]}
-{"id": "MTN:荊山", "type": "MTN", "symbol": "荊山", "variants": [], "mentions": ["SHJ-05-8-002", "SHJ-05-8-024", "SHJ-05-11-049"], "descriptions": [], "props": {"section": "中次八經", "seq": 2}, "tags": ["bamboo", "citrus", "copper", "cypress", "gold", "iron", "pine"]}
+{"id": "MTN:荊山", "type": "MTN", "symbol": "荊山", "variants": [], "mentions": ["SHJ-05-8-002", "SHJ-05-8-001", "SHJ-05-8-024", "SHJ-05-11-001", "SHJ-05-11-049"], "descriptions": [], "props": {"section": "中次八經", "seq": 2}, "tags": ["bamboo", "citrus", "copper", "cypress", "gold", "iron", "pine"]}
 {"id": "MTN:菌山", "type": "MTN", "symbol": "菌山", "variants": [], "mentions": ["SHJ-18-1-023"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:華之山", "type": "MTN", "symbol": "華之山", "variants": [], "mentions": ["SHJ-05-6-014", "SHJ-05-6-015"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:華山", "type": "MTN", "symbol": "華山", "variants": [], "mentions": ["SHJ-02-1-020", "SHJ-18-1-007"], "descriptions": [], "props": {}, "tags": ["cypress"]}
+{"id": "MTN:華山", "type": "MTN", "symbol": "華山", "variants": [], "mentions": ["SHJ-02-1-001", "SHJ-02-1-020", "SHJ-18-1-007"], "descriptions": [], "props": {}, "tags": ["cypress"]}
 {"id": "MTN:萊山", "type": "MTN", "symbol": "萊山", "variants": [], "mentions": ["SHJ-02-2-017", "SHJ-02-2-018"], "descriptions": [], "props": {"section": "西次二經", "seq": 17}, "tags": []}
-{"id": "MTN:萯山", "type": "MTN", "symbol": "萯山", "variants": [], "mentions": ["SHJ-05-3-006"], "descriptions": [], "props": {}, "tags": []}
+{"id": "MTN:萯山", "type": "MTN", "symbol": "萯山", "variants": [], "mentions": ["SHJ-05-3-001", "SHJ-05-3-006"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:葌山", "type": "MTN", "symbol": "葌山", "variants": [], "mentions": ["SHJ-05-2-007"], "descriptions": [], "props": {"section": "中次二經", "seq": 7}, "tags": ["jade", "realgar"]}
 {"id": "MTN:葛山", "type": "MTN", "symbol": "葛山", "variants": [], "mentions": ["SHJ-05-9-015", "SHJ-04-2-004", "SHJ-04-2-005"], "descriptions": [], "props": {"section": "中次九經", "seq": 15}, "tags": ["citrus", "copper"]}
 {"id": "MTN:葛山之尾", "type": "MTN", "symbol": "葛山之尾", "variants": [], "mentions": ["SHJ-04-2-004"], "descriptions": [], "props": {"section": "東次二經", "seq": 4, "barren": true}, "tags": ["sand_desert"]}
@@ -967,7 +951,7 @@
 {"id": "MTN:蔓聯之山", "type": "MTN", "symbol": "蔓聯之山", "variants": [], "mentions": ["SHJ-03-1-011"], "descriptions": [], "props": {"section": "北山經之首", "seq": 11, "barren": true}, "tags": []}
 {"id": "MTN:蔥聾之山#中山經", "type": "MTN", "symbol": "蔥聾之山", "variants": [], "mentions": ["SHJ-05-1-004"], "descriptions": [], "props": {"section": "中山經", "seq": 4}, "tags": []}
 {"id": "MTN:蔥聾之山#中次五經", "type": "MTN", "symbol": "蔥聾之山", "variants": [], "mentions": ["SHJ-05-5-004"], "descriptions": [], "props": {"section": "中次五經", "seq": 4, "barren": true}, "tags": []}
-{"id": "MTN:薄山", "type": "MTN", "symbol": "薄山", "variants": [], "mentions": ["SHJ-05-1-016", "SHJ-05-5-016"], "descriptions": [], "props": {}, "tags": []}
+{"id": "MTN:薄山", "type": "MTN", "symbol": "薄山", "variants": [], "mentions": ["SHJ-05-1-001", "SHJ-05-1-016", "SHJ-05-5-001", "SHJ-05-5-016"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:薰吳之山", "type": "MTN", "symbol": "薰吳之山", "variants": [], "mentions": ["SHJ-02-2-011"], "descriptions": [], "props": {"section": "西次二經", "seq": 11, "barren": true}, "tags": ["jade"]}
 {"id": "MTN:藟山", "type": "MTN", "symbol": "藟山", "variants": [], "mentions": ["SHJ-04-1-002"], "descriptions": [], "props": {"section": "東山經之首", "seq": 2}, "tags": ["jade"]}
 {"id": "MTN:虎尾之山", "type": "MTN", "symbol": "虎尾之山", "variants": [], "mentions": ["SHJ-05-10-002"], "descriptions": [], "props": {"section": "中次十經", "seq": 2}, "tags": ["copper", "iron"]}
@@ -1016,7 +1000,7 @@
 {"id": "MTN:邊春之山", "type": "MTN", "symbol": "邊春之山", "variants": [], "mentions": ["SHJ-03-1-010"], "descriptions": [], "props": {"section": "北山經之首", "seq": 10}, "tags": ["peach_plum"]}
 {"id": "MTN:邽山", "type": "MTN", "symbol": "邽山", "variants": [], "mentions": ["SHJ-02-4-017"], "descriptions": [], "props": {"section": "西次四經", "seq": 17}, "tags": []}
 {"id": "MTN:重陰之山", "type": "MTN", "symbol": "重陰之山", "variants": [], "mentions": ["SHJ-15-1-014"], "descriptions": [], "props": {}, "tags": []}
-{"id": "MTN:釐山", "type": "MTN", "symbol": "釐山", "variants": [], "mentions": ["SHJ-05-4-003", "SHJ-05-4-010"], "descriptions": [], "props": {"section": "中次四經", "seq": 3}, "tags": ["jade"]}
+{"id": "MTN:釐山", "type": "MTN", "symbol": "釐山", "variants": [], "mentions": ["SHJ-05-4-003", "SHJ-05-4-001", "SHJ-05-4-010"], "descriptions": [], "props": {"section": "中次四經", "seq": 3}, "tags": ["jade"]}
 {"id": "MTN:金之山", "type": "MTN", "symbol": "金之山", "variants": [], "mentions": ["SHJ-16-1-050"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:金星之山", "type": "MTN", "symbol": "金星之山", "variants": [], "mentions": ["SHJ-05-1-007"], "descriptions": [], "props": {"section": "中山經", "seq": 7}, "tags": []}
 {"id": "MTN:金門之山", "type": "MTN", "symbol": "金門之山", "variants": [], "mentions": ["SHJ-16-1-036"], "descriptions": [], "props": {}, "tags": []}
@@ -1040,7 +1024,7 @@
 {"id": "MTN:降于巫山", "type": "MTN", "symbol": "降于巫山", "variants": [], "mentions": ["SHJ-16-1-041"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:陰山#中山經", "type": "MTN", "symbol": "陰山", "variants": [], "mentions": ["SHJ-05-1-014"], "descriptions": [], "props": {"section": "中山經", "seq": 14}, "tags": []}
 {"id": "MTN:陰山#西次三經", "type": "MTN", "symbol": "陰山", "variants": [], "mentions": ["SHJ-02-3-016"], "descriptions": [], "props": {"section": "西次三經", "seq": 16}, "tags": []}
-{"id": "MTN:陰山#西次四經", "type": "MTN", "symbol": "陰山", "variants": [], "mentions": ["SHJ-02-4-001"], "descriptions": [], "props": {"section": "西次四經", "seq": 1}, "tags": []}
+{"id": "MTN:陰山#西次四經", "type": "MTN", "symbol": "陰山", "variants": [], "mentions": ["SHJ-02-4-001", "SHJ-02-4-020"], "descriptions": [], "props": {"section": "西次四經", "seq": 1}, "tags": []}
 {"id": "MTN:陳州山", "type": "MTN", "symbol": "陳州山", "variants": [], "mentions": ["SHJ-15-1-024"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:陶唐之丘", "type": "MTN", "symbol": "陶唐之丘", "variants": [], "mentions": ["SHJ-18-1-012"], "descriptions": [], "props": {}, "tags": []}
 {"id": "MTN:陸䣀之山", "type": "MTN", "symbol": "陸䣀之山", "variants": [], "mentions": ["SHJ-05-8-007"], "descriptions": [], "props": {"section": "中次八經", "seq": 7}, "tags": ["jade"]}

@@ -851,7 +851,7 @@
 {"src": "MTN:崦嵫之山", "dst": "CRE:龜", "type": "has_creature", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "其陽多龜"}
 {"src": "MTN:崦嵫之山", "dst": "MIN:玉", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "其陰多玉"}
 {"src": "MTN:崦嵫之山", "dst": "MIN:砥礪", "type": "has_resource", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "其中多砥礪"}
-{"src": "DOC:西次四經・總述", "dst": "MTN:次四經自陰山", "type": "summarizes", "attrs": {}, "entry": "SHJ-02-4-020", "clause": "西次四經自陰山"}
+{"src": "DOC:西次四經・總述", "dst": "MTN:陰山#西次四經", "type": "summarizes", "attrs": {}, "entry": "SHJ-02-4-020", "clause": "西次四經自陰山"}
 {"src": "DOC:西次四經・總述", "dst": "MTN:崦嵫之山", "type": "summarizes", "attrs": {}, "entry": "SHJ-02-4-020", "clause": "至于崦嵫之山"}
 {"src": "MTN:單狐之山", "dst": "PLA:木", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-001", "clause": "多机木"}
 {"src": "MTN:單狐之山", "dst": "PLA:草", "type": "has_resource", "attrs": {}, "entry": "SHJ-03-1-001", "clause": "其上多華草"}

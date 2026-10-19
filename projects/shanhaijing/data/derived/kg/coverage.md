@@ -1,6 +1,6 @@
 # 知識圖譜覆蓋檢查 / Knowledge-graph coverage audit
 
-Paragraphs: 869 · nodes: 1957 · edges: 2750
+Paragraphs: 869 · nodes: 1941 · edges: 2750
 
 | node type | count |
 |---|---|
@@ -8,7 +8,7 @@ Paragraphs: 869 · nodes: 1957 · edges: 2750
 | DOC | 43 |
 | LND | 67 |
 | MIN | 47 |
-| MTN | 708 |
+| MTN | 692 |
 | PER | 180 |
 | PLA | 107 |
 | POL | 131 |
@@ -61,7 +61,7 @@ Section summaries, colophons and ritual notes; represented by DOC nodes so they 
 - `SHJ-18-1-017`
 - `SHJ-18-1-018`
 
-## 3. 名稱句式未被抽出 / Name patterns not captured: **0 unexplained**, 163 explained
+## 3. 名稱句式未被抽出 / Name patterns not captured: **0 unexplained**, 165 explained
 
 | entry | pattern | text | status |
 |---|---|---|---|
@@ -76,6 +76,7 @@ Section summaries, colophons and ritual notes; represented by DOC nodes so they 
 | `SHJ-01-3-014` | X之山／X山 | 凡一十四山 | explained: count of mountains |
 | `SHJ-01-3-015` | X之山／X山 | 右南經之山 | explained: colophon / book title |
 | `SHJ-01-3-015` | X之山／X山 | 大小凡四十山 | explained: count of mountains |
+| `SHJ-02-1-002` | X之山／X山 | 其狀如山 | explained: simile (「其狀如山雞」), not a name |
 | `SHJ-02-1-009` | X之山／X山 | 二十里曰浮山 | explained: number |
 | `SHJ-02-1-020` | X之山／X山 | 凡十九山 | explained: count of mountains |
 | `SHJ-02-1-020` | X之山／X山 | 其餘十七山 | explained: count of mountains |
@@ -103,6 +104,7 @@ Section summaries, colophons and ritual notes; represented by DOC nodes so they 
 | `SHJ-05-4-009` | X之山／X山 | 此二山 | explained: count of mountains |
 | `SHJ-05-4-010` | X之山／X山 | 凡九山 | explained: count of mountains |
 | `SHJ-05-5-016` | X之山／X山 | 凡十六山 | explained: count of mountains |
+| `SHJ-05-6-003` | X之山／X山 | 狀如山 | explained: simile (「其狀如山雞」), not a name |
 | `SHJ-05-6-015` | X之山／X山 | 凡十四山 | explained: count of mountains |
 | `SHJ-05-7-020` | X之山／X山 | 凡十有九山 | explained: count of mountains |
 | `SHJ-05-8-024` | X之山／X山 | 凡二十三山 | explained: count of mountains |

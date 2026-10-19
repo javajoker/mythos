@@ -206,7 +206,9 @@ def main():
         mtn_id[(s["section"], nm)] = f"MTN:{nm}" + (f"#{s['section']}" if len(sec_of_name[nm]) > 1 else "")
 
     def resolve_mtn(name, entry, section=None):
-        nm = clean(name)
+        if re.search(r"(?:狀|實)如", name):                 # 「其狀如山雞」「其實如菟丘」: a simile, not a mountain
+            return None
+        nm = re.sub(r"^.*經(?:之首曰)?", "", clean(name))     # 「西山經華山之首」「南山經之首曰䧿山」: the range name
         if not nm or nm in STOP_MTN or len(nm) < 2:
             return None
         if section and (section, nm) in mtn_id:
@@ -243,7 +245,7 @@ def main():
             known_waters.add(water_core(clean(m.group(1) or m.group(2))))
     station_of_entry = {s["entry_id"]: mtn_id[(s["section"], fold(s["name"]))] for s in stations}
     last_subject = {}
-    RE_MTN = re.compile(r"([^\s，。；、：「」（）]{1,6}?(?:之山|之丘(?!山)|山|丘(?!山)))")
+    RE_MTN = re.compile(r"([^\s，。；、：「」（）]{1,6}?(?:之山|之丘(?!山)|山(?!雞)|丘(?!山)))")
     RE_WAT = re.compile(r"([^\s，。；、：「」（）]{1,5}?(?:之水|水|澤|淵|泉|池))")   # seas come from the sea pattern
     RE_POL = re.compile(r"([^\s，。；、：「」（）]{1,6}?(?:之國|國))")
     RE_MIN_PEOPLE = re.compile(r"([^\s，。；、：「」（）]{1,4}?民)(?:之國|國)?")
@@ -681,6 +683,7 @@ def coverage(kg, entries):
         (r"[億萬]|^[一二三四五六七八九十百千]", "number"),
         (r"是謂|[！？]", "speech or definition, not a name"),
         (r"始為國|為之國|始作下民|潛為|所經", "narrative phrase, not a name"),
+        (r"(?:狀|實)如", "simile (「其狀如山雞」), not a name"),
     ]
     for e in entries:
         syms = [kg.nodes[n]["symbol"] for n in kg.mentions.get(e["id"], [])]
@@ -695,7 +698,7 @@ def coverage(kg, entries):
                 if why:
                     misses.append((e["id"], label, m.group(1), f"explained: {why}"))
                     continue
-                raw = clean(m.group(1))
+                raw = re.sub(r"^.*經(?:之首曰)?", "", clean(m.group(1))) if label == "X之山／X山" else clean(m.group(1))
                 core = water_core(raw) if label == "X水" else re.sub(r"之?(國|山)$", "", raw)
                 if not core or len(core) < 1:
                     continue

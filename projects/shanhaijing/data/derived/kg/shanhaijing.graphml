@@ -432,7 +432,7 @@
 <node id="MTN:㱙塗之山"><data key="type">MTN</data><data key="symbol">㱙塗之山</data><data key="mentions">SHJ-15-1-022</data></node>
 <node id="MTN:䃌山"><data key="type">MTN</data><data key="symbol">䃌山</data><data key="mentions">SHJ-04-2-017 SHJ-04-2-018</data></node>
 <node id="MTN:䖟山"><data key="type">MTN</data><data key="symbol">䖟山</data><data key="mentions">SHJ-16-1-024</data></node>
-<node id="MTN:䧿山"><data key="type">MTN</data><data key="symbol">䧿山</data><data key="mentions">SHJ-01-1-010</data></node>
+<node id="MTN:䧿山"><data key="type">MTN</data><data key="symbol">䧿山</data><data key="mentions">SHJ-01-1-001 SHJ-01-1-010</data></node>
 <node id="MTN:䰝山"><data key="type">MTN</data><data key="symbol">䰝山</data><data key="mentions">SHJ-14-1-031</data></node>
 <node id="MTN:一曰南山"><data key="type">MTN</data><data key="symbol">一曰南山</data><data key="mentions">SHJ-06-1-004</data></node>
 <node id="MTN:一曰嗟丘"><data key="type">MTN</data><data key="symbol">一曰嗟丘</data><data key="mentions">SHJ-09-1-002</data></node>
@@ -607,7 +607,6 @@
 <node id="MTN:宜諸之山"><data key="type">MTN</data><data key="symbol">宜諸之山</data><data key="mentions">SHJ-05-8-005</data></node>
 <node id="MTN:宣山"><data key="type">MTN</data><data key="symbol">宣山</data><data key="mentions">SHJ-05-11-031</data></node>
 <node id="MTN:密山"><data key="type">MTN</data><data key="symbol">密山</data><data key="mentions">SHJ-05-6-008</data></node>
-<node id="MTN:實如菟丘"><data key="type">MTN</data><data key="symbol">實如菟丘</data><data key="mentions">SHJ-05-7-003</data></node>
 <node id="MTN:封于太山"><data key="type">MTN</data><data key="symbol">封于太山</data><data key="mentions">SHJ-05-13-001</data></node>
 <node id="MTN:小侯之山"><data key="type">MTN</data><data key="symbol">小侯之山</data><data key="mentions">SHJ-03-3-016</data></node>
 <node id="MTN:小咸之山"><data key="type">MTN</data><data key="symbol">小咸之山</data><data key="mentions">SHJ-03-1-015</data></node>
@@ -628,7 +627,7 @@
 <node id="MTN:岐山#中次八經"><data key="type">MTN</data><data key="symbol">岐山</data><data key="mentions">SHJ-05-8-009</data></node>
 <node id="MTN:岐山#東次三經"><data key="type">MTN</data><data key="symbol">岐山</data><data key="mentions">SHJ-04-3-002</data></node>
 <node id="MTN:岳之山"><data key="type">MTN</data><data key="symbol">岳之山</data><data key="mentions">SHJ-17-1-018</data></node>
-<node id="MTN:岷山"><data key="type">MTN</data><data key="symbol">岷山</data><data key="mentions">SHJ-05-9-002 SHJ-05-9-017</data></node>
+<node id="MTN:岷山"><data key="type">MTN</data><data key="symbol">岷山</data><data key="mentions">SHJ-05-9-002 SHJ-05-9-001 SHJ-05-9-017</data></node>
 <node id="MTN:峚山"><data key="type">MTN</data><data key="symbol">峚山</data><data key="mentions">SHJ-02-3-004</data></node>
 <node id="MTN:崆峒山"><data key="type">MTN</data><data key="symbol">崆峒山</data><data key="mentions">SHJ-13-1-018</data></node>
 <node id="MTN:崇吾之山"><data key="type">MTN</data><data key="symbol">崇吾之山</data><data key="mentions">SHJ-02-3-001 SHJ-02-3-023</data></node>
@@ -744,17 +743,6 @@
 <node id="MTN:樕𧑤之山"><data key="type">MTN</data><data key="symbol">樕𧑤之山</data><data key="mentions">SHJ-04-1-001 SHJ-04-1-013</data></node>
 <node id="MTN:橐山"><data key="type">MTN</data><data key="symbol">橐山</data><data key="mentions">SHJ-05-6-011</data></node>
 <node id="MTN:橿谷之山"><data key="type">MTN</data><data key="symbol">橿谷之山</data><data key="mentions">SHJ-05-1-009</data></node>
-<node id="MTN:次七經苦山"><data key="type">MTN</data><data key="symbol">次七經苦山</data><data key="mentions">SHJ-05-7-001</data></node>
-<node id="MTN:次三經萯山"><data key="type">MTN</data><data key="symbol">次三經萯山</data><data key="mentions">SHJ-05-3-001</data></node>
-<node id="MTN:次九經岷山"><data key="type">MTN</data><data key="symbol">次九經岷山</data><data key="mentions">SHJ-05-9-001</data></node>
-<node id="MTN:次二經濟山"><data key="type">MTN</data><data key="symbol">次二經濟山</data><data key="mentions">SHJ-05-2-001</data></node>
-<node id="MTN:次五經薄山"><data key="type">MTN</data><data key="symbol">次五經薄山</data><data key="mentions">SHJ-05-5-001</data></node>
-<node id="MTN:次八經荊山"><data key="type">MTN</data><data key="symbol">次八經荊山</data><data key="mentions">SHJ-05-8-001</data></node>
-<node id="MTN:次六經縞羝山"><data key="type">MTN</data><data key="symbol">次六經縞羝山</data><data key="mentions">SHJ-05-6-001</data></node>
-<node id="MTN:次十一經荊山"><data key="type">MTN</data><data key="symbol">次十一經荊山</data><data key="mentions">SHJ-05-11-001</data></node>
-<node id="MTN:次十二經洞庭山"><data key="type">MTN</data><data key="symbol">次十二經洞庭山</data><data key="mentions">SHJ-05-12-001</data></node>
-<node id="MTN:次四經自陰山"><data key="type">MTN</data><data key="symbol">次四經自陰山</data><data key="mentions">SHJ-02-4-020</data></node>
-<node id="MTN:次四經釐山"><data key="type">MTN</data><data key="symbol">次四經釐山</data><data key="mentions">SHJ-05-4-001</data></node>
 <node id="MTN:欽山"><data key="type">MTN</data><data key="symbol">欽山</data><data key="mentions">SHJ-04-4-005</data></node>
 <node id="MTN:武夫之丘"><data key="type">MTN</data><data key="symbol">武夫之丘</data><data key="mentions">SHJ-18-1-012</data></node>
 <node id="MTN:歷兒之山"><data key="type">MTN</data><data key="symbol">歷兒之山</data><data key="mentions">SHJ-05-1-002</data></node>
@@ -787,7 +775,7 @@
 <node id="MTN:泰頭之山"><data key="type">MTN</data><data key="symbol">泰頭之山</data><data key="mentions">SHJ-03-3-017</data></node>
 <node id="MTN:洛西山"><data key="type">MTN</data><data key="symbol">洛西山</data><data key="mentions">SHJ-13-1-030</data></node>
 <node id="MTN:洞庭之山"><data key="type">MTN</data><data key="symbol">洞庭之山</data><data key="mentions">SHJ-05-12-007</data></node>
-<node id="MTN:洞庭山"><data key="type">MTN</data><data key="symbol">洞庭山</data><data key="mentions">SHJ-05-12-016</data></node>
+<node id="MTN:洞庭山"><data key="type">MTN</data><data key="symbol">洞庭山</data><data key="mentions">SHJ-05-12-001 SHJ-05-12-016</data></node>
 <node id="MTN:洵山"><data key="type">MTN</data><data key="symbol">洵山</data><data key="mentions">SHJ-01-2-013</data></node>
 <node id="MTN:洹山"><data key="type">MTN</data><data key="symbol">洹山</data><data key="mentions">SHJ-03-2-015</data></node>
 <node id="MTN:流沙#東次三經"><data key="type">MTN</data><data key="symbol">流沙</data><data key="mentions">SHJ-04-3-007</data></node>
@@ -813,7 +801,7 @@
 <node id="MTN:漆吳之山"><data key="type">MTN</data><data key="symbol">漆吳之山</data><data key="mentions">SHJ-01-2-017 SHJ-01-2-018</data></node>
 <node id="MTN:潏山"><data key="type">MTN</data><data key="symbol">潏山</data><data key="mentions">SHJ-14-1-008</data></node>
 <node id="MTN:潘侯之山"><data key="type">MTN</data><data key="symbol">潘侯之山</data><data key="mentions">SHJ-03-1-014</data></node>
-<node id="MTN:濟山"><data key="type">MTN</data><data key="symbol">濟山</data><data key="mentions">SHJ-05-2-010</data></node>
+<node id="MTN:濟山"><data key="type">MTN</data><data key="symbol">濟山</data><data key="mentions">SHJ-05-2-001 SHJ-05-2-010</data></node>
 <node id="MTN:灌湘之山"><data key="type">MTN</data><data key="symbol">灌湘之山</data><data key="mentions">SHJ-01-3-008</data></node>
 <node id="MTN:灌題之山"><data key="type">MTN</data><data key="symbol">灌題之山</data><data key="mentions">SHJ-03-1-013</data></node>
 <node id="MTN:灰野之山"><data key="type">MTN</data><data key="symbol">灰野之山</data><data key="mentions">SHJ-17-1-030</data></node>
@@ -829,7 +817,6 @@
 <node id="MTN:牛首之山"><data key="type">MTN</data><data key="symbol">牛首之山</data><data key="mentions">SHJ-05-1-011</data></node>
 <node id="MTN:牡山"><data key="type">MTN</data><data key="symbol">牡山</data><data key="mentions">SHJ-05-4-008</data></node>
 <node id="MTN:犲山"><data key="type">MTN</data><data key="symbol">犲山</data><data key="mentions">SHJ-04-1-009</data></node>
-<node id="MTN:狀如山"><data key="type">MTN</data><data key="symbol">狀如山</data><data key="mentions">SHJ-02-1-002 SHJ-05-6-003</data></node>
 <node id="MTN:狂山"><data key="type">MTN</data><data key="symbol">狂山</data><data key="mentions">SHJ-03-2-007</data></node>
 <node id="MTN:狄山"><data key="type">MTN</data><data key="symbol">狄山</data><data key="mentions">SHJ-06-1-022</data></node>
 <node id="MTN:狐岐之山"><data key="type">MTN</data><data key="symbol">狐岐之山</data><data key="mentions">SHJ-03-2-004</data></node>
@@ -914,15 +901,12 @@
 <node id="MTN:箕尾之山#南山經之首"><data key="type">MTN</data><data key="symbol">箕尾之山</data><data key="mentions">SHJ-01-1-009 SHJ-01-1-010</data></node>
 <node id="MTN:管涔之山"><data key="type">MTN</data><data key="symbol">管涔之山</data><data key="mentions">SHJ-03-2-001 SHJ-03-2-017</data></node>
 <node id="MTN:篇遇之山"><data key="type">MTN</data><data key="symbol">篇遇之山</data><data key="mentions">SHJ-05-12-001 SHJ-05-12-016</data></node>
-<node id="MTN:經之首曰䧿山"><data key="type">MTN</data><data key="symbol">經之首曰䧿山</data><data key="mentions">SHJ-01-1-001</data></node>
-<node id="MTN:經華山"><data key="type">MTN</data><data key="symbol">經華山</data><data key="mentions">SHJ-02-1-001</data></node>
-<node id="MTN:經薄山"><data key="type">MTN</data><data key="symbol">經薄山</data><data key="mentions">SHJ-05-1-001</data></node>
 <node id="MTN:綦山"><data key="type">MTN</data><data key="symbol">綦山</data><data key="mentions">SHJ-14-1-031</data></node>
 <node id="MTN:維龍之山"><data key="type">MTN</data><data key="symbol">維龍之山</data><data key="mentions">SHJ-03-3-031</data></node>
 <node id="MTN:綸山"><data key="type">MTN</data><data key="symbol">綸山</data><data key="mentions">SHJ-05-8-006</data></node>
 <node id="MTN:緱氏之山"><data key="type">MTN</data><data key="symbol">緱氏之山</data><data key="mentions">SHJ-04-2-014</data></node>
 <node id="MTN:縞羝之山"><data key="type">MTN</data><data key="symbol">縞羝之山</data><data key="mentions">SHJ-05-6-002</data></node>
-<node id="MTN:縞羝山"><data key="type">MTN</data><data key="symbol">縞羝山</data><data key="mentions">SHJ-05-6-015</data></node>
+<node id="MTN:縞羝山"><data key="type">MTN</data><data key="symbol">縞羝山</data><data key="mentions">SHJ-05-6-001 SHJ-05-6-015</data></node>
 <node id="MTN:縣劚之山"><data key="type">MTN</data><data key="symbol">縣劚之山</data><data key="mentions">SHJ-05-5-003</data></node>
 <node id="MTN:縣雍之山"><data key="type">MTN</data><data key="symbol">縣雍之山</data><data key="mentions">SHJ-03-2-003</data></node>
 <node id="MTN:繁繢之山"><data key="type">MTN</data><data key="symbol">繁繢之山</data><data key="mentions">SHJ-05-10-003</data></node>
@@ -950,15 +934,15 @@
 <node id="MTN:苟林之山"><data key="type">MTN</data><data key="symbol">苟林之山</data><data key="mentions">SHJ-05-5-016</data></node>
 <node id="MTN:苟牀之山"><data key="type">MTN</data><data key="symbol">苟牀之山</data><data key="mentions">SHJ-05-5-001</data></node>
 <node id="MTN:若山"><data key="type">MTN</data><data key="symbol">若山</data><data key="mentions">SHJ-05-8-017</data></node>
-<node id="MTN:苦山"><data key="type">MTN</data><data key="symbol">苦山</data><data key="mentions">SHJ-05-7-004 SHJ-05-7-020</data></node>
+<node id="MTN:苦山"><data key="type">MTN</data><data key="symbol">苦山</data><data key="mentions">SHJ-05-7-004 SHJ-05-7-001 SHJ-05-7-020</data></node>
 <node id="MTN:英山"><data key="type">MTN</data><data key="symbol">英山</data><data key="mentions">SHJ-02-1-007</data></node>
 <node id="MTN:英鞮之山"><data key="type">MTN</data><data key="symbol">英鞮之山</data><data key="mentions">SHJ-02-4-015</data></node>
-<node id="MTN:荊山"><data key="type">MTN</data><data key="symbol">荊山</data><data key="mentions">SHJ-05-8-002 SHJ-05-8-024 SHJ-05-11-049</data></node>
+<node id="MTN:荊山"><data key="type">MTN</data><data key="symbol">荊山</data><data key="mentions">SHJ-05-8-002 SHJ-05-8-001 SHJ-05-8-024 SHJ-05-11-001 SHJ-05-11-049</data></node>
 <node id="MTN:菌山"><data key="type">MTN</data><data key="symbol">菌山</data><data key="mentions">SHJ-18-1-023</data></node>
 <node id="MTN:華之山"><data key="type">MTN</data><data key="symbol">華之山</data><data key="mentions">SHJ-05-6-014 SHJ-05-6-015</data></node>
-<node id="MTN:華山"><data key="type">MTN</data><data key="symbol">華山</data><data key="mentions">SHJ-02-1-020 SHJ-18-1-007</data></node>
+<node id="MTN:華山"><data key="type">MTN</data><data key="symbol">華山</data><data key="mentions">SHJ-02-1-001 SHJ-02-1-020 SHJ-18-1-007</data></node>
 <node id="MTN:萊山"><data key="type">MTN</data><data key="symbol">萊山</data><data key="mentions">SHJ-02-2-017 SHJ-02-2-018</data></node>
-<node id="MTN:萯山"><data key="type">MTN</data><data key="symbol">萯山</data><data key="mentions">SHJ-05-3-006</data></node>
+<node id="MTN:萯山"><data key="type">MTN</data><data key="symbol">萯山</data><data key="mentions">SHJ-05-3-001 SHJ-05-3-006</data></node>
 <node id="MTN:葌山"><data key="type">MTN</data><data key="symbol">葌山</data><data key="mentions">SHJ-05-2-007</data></node>
 <node id="MTN:葛山"><data key="type">MTN</data><data key="symbol">葛山</data><data key="mentions">SHJ-05-9-015 SHJ-04-2-004 SHJ-04-2-005</data></node>
 <node id="MTN:葛山之尾"><data key="type">MTN</data><data key="symbol">葛山之尾</data><data key="mentions">SHJ-04-2-004</data></node>
@@ -975,7 +959,7 @@
 <node id="MTN:蔓聯之山"><data key="type">MTN</data><data key="symbol">蔓聯之山</data><data key="mentions">SHJ-03-1-011</data></node>
 <node id="MTN:蔥聾之山#中山經"><data key="type">MTN</data><data key="symbol">蔥聾之山</data><data key="mentions">SHJ-05-1-004</data></node>
 <node id="MTN:蔥聾之山#中次五經"><data key="type">MTN</data><data key="symbol">蔥聾之山</data><data key="mentions">SHJ-05-5-004</data></node>
-<node id="MTN:薄山"><data key="type">MTN</data><data key="symbol">薄山</data><data key="mentions">SHJ-05-1-016 SHJ-05-5-016</data></node>
+<node id="MTN:薄山"><data key="type">MTN</data><data key="symbol">薄山</data><data key="mentions">SHJ-05-1-001 SHJ-05-1-016 SHJ-05-5-001 SHJ-05-5-016</data></node>
 <node id="MTN:薰吳之山"><data key="type">MTN</data><data key="symbol">薰吳之山</data><data key="mentions">SHJ-02-2-011</data></node>
 <node id="MTN:藟山"><data key="type">MTN</data><data key="symbol">藟山</data><data key="mentions">SHJ-04-1-002</data></node>
 <node id="MTN:虎尾之山"><data key="type">MTN</data><data key="symbol">虎尾之山</data><data key="mentions">SHJ-05-10-002</data></node>
@@ -1024,7 +1008,7 @@
 <node id="MTN:邊春之山"><data key="type">MTN</data><data key="symbol">邊春之山</data><data key="mentions">SHJ-03-1-010</data></node>
 <node id="MTN:邽山"><data key="type">MTN</data><data key="symbol">邽山</data><data key="mentions">SHJ-02-4-017</data></node>
 <node id="MTN:重陰之山"><data key="type">MTN</data><data key="symbol">重陰之山</data><data key="mentions">SHJ-15-1-014</data></node>
-<node id="MTN:釐山"><data key="type">MTN</data><data key="symbol">釐山</data><data key="mentions">SHJ-05-4-003 SHJ-05-4-010</data></node>
+<node id="MTN:釐山"><data key="type">MTN</data><data key="symbol">釐山</data><data key="mentions">SHJ-05-4-003 SHJ-05-4-001 SHJ-05-4-010</data></node>
 <node id="MTN:金之山"><data key="type">MTN</data><data key="symbol">金之山</data><data key="mentions">SHJ-16-1-050</data></node>
 <node id="MTN:金星之山"><data key="type">MTN</data><data key="symbol">金星之山</data><data key="mentions">SHJ-05-1-007</data></node>
 <node id="MTN:金門之山"><data key="type">MTN</data><data key="symbol">金門之山</data><data key="mentions">SHJ-16-1-036</data></node>
@@ -1048,7 +1032,7 @@
 <node id="MTN:降于巫山"><data key="type">MTN</data><data key="symbol">降于巫山</data><data key="mentions">SHJ-16-1-041</data></node>
 <node id="MTN:陰山#中山經"><data key="type">MTN</data><data key="symbol">陰山</data><data key="mentions">SHJ-05-1-014</data></node>
 <node id="MTN:陰山#西次三經"><data key="type">MTN</data><data key="symbol">陰山</data><data key="mentions">SHJ-02-3-016</data></node>
-<node id="MTN:陰山#西次四經"><data key="type">MTN</data><data key="symbol">陰山</data><data key="mentions">SHJ-02-4-001</data></node>
+<node id="MTN:陰山#西次四經"><data key="type">MTN</data><data key="symbol">陰山</data><data key="mentions">SHJ-02-4-001 SHJ-02-4-020</data></node>
 <node id="MTN:陳州山"><data key="type">MTN</data><data key="symbol">陳州山</data><data key="mentions">SHJ-15-1-024</data></node>
 <node id="MTN:陶唐之丘"><data key="type">MTN</data><data key="symbol">陶唐之丘</data><data key="mentions">SHJ-18-1-012</data></node>
 <node id="MTN:陸䣀之山"><data key="type">MTN</data><data key="symbol">陸䣀之山</data><data key="mentions">SHJ-05-8-007</data></node>
@@ -2816,7 +2800,7 @@
 <edge id="e850" source="MTN:崦嵫之山" target="CRE:龜"><data key="etype">has_creature</data><data key="entry">SHJ-02-4-019</data></edge>
 <edge id="e851" source="MTN:崦嵫之山" target="MIN:玉"><data key="etype">has_resource</data><data key="entry">SHJ-02-4-019</data></edge>
 <edge id="e852" source="MTN:崦嵫之山" target="MIN:砥礪"><data key="etype">has_resource</data><data key="entry">SHJ-02-4-019</data></edge>
-<edge id="e853" source="DOC:西次四經・總述" target="MTN:次四經自陰山"><data key="etype">summarizes</data><data key="entry">SHJ-02-4-020</data></edge>
+<edge id="e853" source="DOC:西次四經・總述" target="MTN:陰山#西次四經"><data key="etype">summarizes</data><data key="entry">SHJ-02-4-020</data></edge>
 <edge id="e854" source="DOC:西次四經・總述" target="MTN:崦嵫之山"><data key="etype">summarizes</data><data key="entry">SHJ-02-4-020</data></edge>
 <edge id="e855" source="MTN:單狐之山" target="PLA:木"><data key="etype">has_resource</data><data key="entry">SHJ-03-1-001</data></edge>
 <edge id="e856" source="MTN:單狐之山" target="PLA:草"><data key="etype">has_resource</data><data key="entry">SHJ-03-1-001</data></edge>

@@ -3,7 +3,8 @@ joint mapping, with confidence scores.
 
 Variables: MTN/LND (31 regions), major WAT (waters), CRE (animals or none), POL (cultures).
 Factors (methodology-spec §5):
-  flows_into  major→major: candidate mouth is the target +2.0 · same region +0.3 · otherwise −1.0
+  flows_into  major→major: candidate mouth is the target +2.0 · same region +0.3 · otherwise −1.0;
+              target 'none' while the source's real mouth is in the base −1.0
               major→generic sea: candidate mouth is a sea +0.5 / −0.5 · major→LND (流沙): endorheic/desert +0.5 / −0.3
               minor stream (rises at M, flows into major B): M's region in B's basin +0.6 / −0.3
   rises_at    major→MTN/LND: candidate's source region is the mountain's region +1.0 · adjacent +0.3 · else −0.5
@@ -11,12 +12,13 @@ Factors (methodology-spec §5):
   has_creature MTN→CRE: animal's range covers the region +0.5·cov · else −0.25·cov
   located, sees: bearing between candidate points within 67.5° of the stated direction +0.2 / −0.1 (sees ±0.1/−0.05)
 Solver: simulated annealing over whole configurations (CHAINS chains, STEPS steps, temperature T0 → T1, fixed
-seeds), maximising the global energy E = Σ own + Σ factors − uniqueness penalty, then iterated conditional modes to
-polish; the best chain wins. Single-entity updates alone get stuck when a large river's many tributaries pull the same
-way. Mapping = the best-energy configuration. Every solution (CHAINS full chains + RESTARTS re-solves each dropping 20% of
+seeds), maximising the global energy E = Σ own + Σ factors − uniqueness penalty (UNIQ per pair of book rivers on one
+real river), then iterated conditional modes, then block moves (one river set to a candidate while its neighbouring
+rivers, their source mountains and those mountains' stations are re-fitted; kept only if E rises); the best chain
+wins. Single-entity updates alone get stuck when a river system and its mountains must move together. Mapping = the best-energy configuration. Every solution (CHAINS full chains + RESTARTS re-solves each dropping 20% of
 the factors, SUB_CHAINS chains each) is a sample; stability = share of samples agreeing with the mapping, and the
 most frequent alternatives across samples are reported. Confidence = stability × (1 − e^(−margin)); tiers high ≥ 0.6,
-medium ≥ 0.3, low otherwise.
+medium ≥ 0.3, low ≥ 0.1, tentative below (best-energy pick, but the samples disagree).
 
 Output: projects/shanhaijing/data/derived/kg/mapping.jsonl
 """
@@ -38,7 +40,7 @@ CHAINS, STEPS, SUB_CHAINS, SUB_STEPS, T0, T1 = 6, 1_200_000, 2, 600_000, 2.0, 0.
 def main():
     regions, props, animals, waters, cultures = load_world()
     reg = {r["code"]: r for r in regions}
-    adj = {r["code"]: set(r["adjacent"]) for r in regions}
+    adj = {r["code"]: sorted(r["adjacent"]) for r in regions}   # sorted: proposals index into it
     wat = {w["id"]: w for w in waters}
     ani = {a["id"]: a for a in animals}
     cul = {c["id"]: c for c in cultures}
@@ -89,8 +91,11 @@ def main():
             rises[x["src"]].append(x["dst"])
 
     def f_flow(ca, cb):
-        if ca == "none" or cb == "none":
-            return 0.0
+        if ca == "none":
+            return 0.0                       # a small stream missing from the base may join any river
+        if cb == "none":
+            # the child is a real river whose mouth is itself in the base: "not in the base" contradicts it
+            return -1.0 if wat[ca[6:]].get("mouth") in wat else 0.0
         if ca == cb:
             return -2.0                      # a river cannot flow into itself
         wa, wb = wat[ca[6:]], wat[cb[6:]]
@@ -179,7 +184,7 @@ def main():
             by_var[b].append(i)
 
     river_vars = {v for v in var if cands[v].get("kind") == "water"}
-    UNIQ = 0.8
+    UNIQ = 2.0
 
     def local(v, c, assign, active, counts=None):
         s = own[v][c]
@@ -289,7 +294,96 @@ def main():
                 if e > best_e + 1e-9:
                     best, best_e = dict(assign), e
         best = icm(best, active, seed)
+        best = block_moves(best, active, rng)
         return best, energy(best, active)
+
+    river_nbrs = {v: sorted({o for o, lab, _ in nbr[v] if o in river_vars}) for v in river_vars}
+    # the mountains the block's rivers rise at, and their neighbouring stations, move with the block
+    rise_nbrs = {v: sorted({o for o, lab, _ in nbr[v] if lab == "rises_at" and o not in river_vars}) for v in river_vars}
+    station_nbrs = {m: sorted({o for o, lab, _ in nbr[m] if lab == "next"}) for v in river_vars for m in rise_nbrs[v]}
+
+    def block_of(v):
+        rivers = [v] + river_nbrs[v]
+        mtns = sorted({m for r in rivers for m in rise_nbrs[r]})
+        mtns += sorted({s for m in mtns for s in station_nbrs.get(m, [])} - set(mtns))
+        return rivers, mtns
+
+    def shortlist(v, assign):
+        """Candidates worth trying for v: what its neighbours' current states suggest, its best own scores, none."""
+        opts = set()
+        for o, lab, v_src in nbr[v]:
+            co = assign.get(o, "none")
+            if lab == "flows_into" and co.startswith("water:"):
+                if v_src:
+                    opts.update(tribs_of.get(co[6:], []))
+                elif wat[co[6:]].get("mouth"):
+                    opts.add("water:" + wat[co[6:]]["mouth"])
+            elif lab == "rises_at" and co.startswith("region:"):
+                opts.update(rising_in.get(co[7:], []))
+        opts.update(sorted(own[v], key=lambda c: -own[v][c])[:5])
+        opts.add("none")
+        return sorted(c for c in opts if c in own[v])
+
+    def block_terms(vs, assign, active):
+        """Own scores and factors touching the variables vs (each factor once); uniqueness is handled separately."""
+        e = sum(own[v][assign[v]] for v in vs)
+        for i in {i for v in vs for i in by_var[v] if i in active}:
+            a, b, fn, _, _ = factors[i]
+            e += fn(assign[a], None) if b is None else fn(assign[a], assign[b])
+        return e
+
+    def uniq_delta(undo, assign, counts):
+        """Change of −UNIQ·Σ k(k−1)/2 caused by moving the block from its undo state to the current state."""
+        rv = [u for u in undo if u in river_vars]            # uniqueness applies to rivers only
+        labels = {undo[u] for u in rv} | {assign[u] for u in rv}
+        labels.discard("none")
+        d = 0.0
+        for c in labels:
+            after = counts[c]
+            before = after - sum(1 for u in rv if assign[u] == c) + sum(1 for u in rv if undo[u] == c)
+            d -= UNIQ * (after * (after - 1) - before * (before - 1)) / 2
+        return d
+
+    def block_moves(assign, active, rng, passes=2):
+        """Large-neighbourhood search: set one river to a candidate, re-fit its neighbouring rivers greedily, keep the
+        block change only if the exact energy rises. Single-variable moves cannot make these coordinated changes."""
+        counts = Counter(assign[v] for v in river_vars)
+        order = sorted(river_vars)
+        for _ in range(passes):
+            rng.shuffle(order)
+            gained = 0
+            for v in order:
+                rivers, mtns = block_of(v)
+                block = rivers + mtns
+                for c in shortlist(v, assign):
+                    if c == assign[v]:
+                        continue
+                    undo = {u: assign[u] for u in block}
+                    before = block_terms(block, assign, active)
+                    set_label(v, c, assign, counts)
+                    for _sweep in range(2):
+                        for u in block[1:]:
+                            opts = shortlist(u, assign) if u in river_vars else cand_list[u]
+                            cur = local(u, assign[u], assign, active, counts)
+                            bu = max(opts, key=lambda k: (round(local(u, k, assign, active, counts), 6), k))
+                            if bu != assign[u] and local(u, bu, assign, active, counts) > cur + 1e-9:
+                                set_label(u, bu, assign, counts)
+                    gain = block_terms(block, assign, active) - before + uniq_delta(undo, assign, counts)
+                    if gain > 1e-9:
+                        gained += 1
+                    else:
+                        for u, k in undo.items():
+                            set_label(u, k, assign, counts)
+            if not gained:
+                break
+        return assign
+
+    def set_label(u, k, assign, counts):
+        if assign[u] != k:
+            if u in river_vars:
+                counts[assign[u]] -= 1
+                counts[k] += 1
+            assign[u] = k
 
     chain_log = []
 
@@ -350,7 +444,8 @@ def main():
                         "sample_alternatives": [{"cand": k, "share": round(v / len(runs), 2)}
                                                 for k, v in sorted(freq.items(), key=lambda kv: (-kv[1], kv[0]))
                                                 if k != ch][:3],
-                        "tier": "high" if conf >= 0.6 else "medium" if conf >= 0.3 else "low",
+                        "tier": ("high" if conf >= 0.6 else "medium" if conf >= 0.3 else "low" if conf >= 0.1
+                                 else "tentative"),
                         "margin": round(margin, 3), "stability": round(stab, 2), "own": own[nid][ch],
                         "alternatives": [{"cand": k, "total": round(v, 3)} for k, v in ranked[1:4]],
                         "supported_by": sorted(sup, key=lambda d: -d["score"])[:6],
