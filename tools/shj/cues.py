@@ -138,3 +138,25 @@ def region_cue_hits(text: str) -> dict[str, int]:
         if n:
             out[tag] = out.get(tag, 0) + n
     return out
+
+
+# Livelihood / diet cues for peoples (matched against data/world/cultures.jsonl tags; subject clauses only).
+CULTURE_CUES = [(re.compile(p), t) for p, t in [
+    (r"食稻|稻食", "rice"), (r"食黍|黍食", "millet"), (r"食穀|穀食|食榖|榖食", "agriculture"), (r"食魚|魚食", "fishing"),
+    (r"衣魚|魚皮|衣皮", "fishskin_clothing"), (r"食肉|肉食|不食穀|不粒食", "meat_diet"), (r"使四鳥|使虎豹熊羆", "hunting"),
+    (r"乘馬|騎", "horse"), (r"居海|海中|水居", "seafaring"),
+]]
+
+
+def culture_cue_hits(text: str) -> dict[str, int]:
+    """Custom and livelihood cues for a people, from subject clauses only (see region_cue_hits)."""
+    t = mask_names(text)
+    subj = " ".join(m.group(0) for m in RE_SUBJECT.finditer(t))
+    out = {}
+    for rx, tag in REGION_CUES:
+        if tag in CUSTOM_TAGS and rx.search(subj):
+            out[tag] = out.get(tag, 0) + len(rx.findall(subj))
+    for rx, tag in CULTURE_CUES:
+        if rx.search(subj):
+            out[tag] = out.get(tag, 0) + len(rx.findall(subj))
+    return out
