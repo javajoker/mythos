@@ -17,7 +17,8 @@
 | 1–2 實體、性質、關係 / entities, properties, relations | `tools/shj/kg_extract.py` | `kg/nodes.jsonl`, `kg/edges.jsonl`, `kg/mentions.jsonl`, `kg/shanhaijing.graphml`, `kg/coverage.md` |
 | 3 真實世界候選 / candidates | `tools/shj/kg_candidates.py` | `kg/candidates.jsonl` |
 | 4 交叉驗證 / cross-validation | `tools/shj/kg_crossval.py`（約 6 分鐘 / ~6 min） | `kg/mapping.jsonl`, `kg/crossval-log.json` |
-| 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v1/` |
+| 4b 敏感度 / sensitivity | `tools/shj/kg_sensitivity.py` | `kg/sensitivity/sensitivity.md`, `robustness.jsonl` |
+| 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v2/` |
 
 ## 2. 實體 / Entities（步驟 1）
 
@@ -88,7 +89,7 @@
 
 ## 6. 交付 / Deliverable（步驟 5）
 
-`deliverables/draft-v1/`：
+`deliverables/draft-vN/`（目前 / current: `draft-v2`；每個對應附「權重變體 k/16」/ each mapping shows its weight robustness）：
 - `README.md`：方法摘要、結果摘要、可信度分佈、限制。/ summary, results, confidence, limits.
 - `book/NN-書名.md`：**逐段對照**：每一段的原文、其中每個實體、對應的真實世界實體、可信度與理由。869 段一段不漏。/ **per-paragraph mapping** for all 869 paragraphs.
 - `entities.md`：全部實體的總表（依類型），含描述、性質、關係數、對應與可信度。/ the full entity catalogue.

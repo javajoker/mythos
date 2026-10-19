@@ -1,0 +1,277 @@
+{
+ "paragraphs": 869,
+ "entities": 1941,
+ "edges": 2725,
+ "mentions": 4004,
+ "types": {
+  "CRE": 258,
+  "DOC": 43,
+  "LND": 67,
+  "MIN": 47,
+  "MTN": 692,
+  "PER": 190,
+  "PLA": 107,
+  "POL": 131,
+  "UNK": 47,
+  "WAT": 359
+ },
+ "status": {
+  "mapped": 973,
+  "unmapped:none": 154,
+  "unmapped:structural": 43,
+  "unmapped:insufficient": 307,
+  "mapped:lexical": 78,
+  "unmapped:no-candidate": 76,
+  "unmapped:non-geographic": 190,
+  "unmapped:undetermined": 47,
+  "via-relations": 72,
+  "unmapped:generic": 1
+ },
+ "tiers": {
+  "tentative": 767,
+  "low": 171,
+  "medium": 34,
+  "high": 1
+ },
+ "regions_of_mountains": [
+  [
+   "CHN",
+   57
+  ],
+  [
+   "NAM",
+   23
+  ],
+  [
+   "TIB",
+   13
+  ],
+  [
+   "TAR",
+   11
+  ],
+  [
+   "SAM",
+   9
+  ],
+  [
+   "SIB",
+   8
+  ],
+  [
+   "CAS",
+   5
+  ],
+  [
+   "SCN",
+   3
+  ],
+  [
+   "EUR",
+   3
+  ],
+  [
+   "MAM",
+   1
+  ],
+  [
+   "IRN",
+   1
+  ],
+  [
+   "HIM",
+   1
+  ]
+ ],
+ "regions_of_mountains_all": [
+  [
+   "CHN",
+   98
+  ],
+  [
+   "NAM",
+   73
+  ],
+  [
+   "TIB",
+   47
+  ],
+  [
+   "TAR",
+   45
+  ],
+  [
+   "SIB",
+   33
+  ],
+  [
+   "CAS",
+   33
+  ],
+  [
+   "SAM",
+   26
+  ],
+  [
+   "MAM",
+   19
+  ],
+  [
+   "EUR",
+   18
+  ],
+  [
+   "EAF",
+   16
+  ],
+  [
+   "SCN",
+   15
+  ],
+  [
+   "MON",
+   13
+  ]
+ ],
+ "peoples": [
+  [
+   "ainu",
+   1
+  ],
+  [
+   "austronesian",
+   1
+  ],
+  [
+   "negrito",
+   1
+  ],
+  [
+   "inuit",
+   1
+  ]
+ ],
+ "peoples_all": [
+  [
+   "negrito",
+   5
+  ],
+  [
+   "ainu",
+   4
+  ],
+  [
+   "andean",
+   4
+  ],
+  [
+   "austronesian",
+   2
+  ],
+  [
+   "inuit",
+   2
+  ],
+  [
+   "aksumite",
+   2
+  ],
+  [
+   "li_hainan",
+   2
+  ],
+  [
+   "polynesian",
+   2
+  ],
+  [
+   "hittite",
+   2
+  ],
+  [
+   "tocharian",
+   2
+  ],
+  [
+   "sushen_nanai",
+   2
+  ],
+  [
+   "persian",
+   1
+  ],
+  [
+   "dravidian",
+   1
+  ],
+  [
+   "aboriginal",
+   1
+  ],
+  [
+   "malagasy",
+   1
+  ],
+  [
+   "phoenician",
+   1
+  ],
+  [
+   "mbuti",
+   1
+  ],
+  [
+   "nubian",
+   1
+  ],
+  [
+   "khoisan",
+   1
+  ],
+  [
+   "bactrian_sogdian",
+   1
+  ],
+  [
+   "yue",
+   1
+  ],
+  [
+   "qiang",
+   1
+  ],
+  [
+   "greek",
+   1
+  ],
+  [
+   "papuan",
+   1
+  ],
+  [
+   "amazonian",
+   1
+  ],
+  [
+   "tibetan_plateau",
+   1
+  ],
+  [
+   "dayak",
+   1
+  ],
+  [
+   "yemaek",
+   1
+  ],
+  [
+   "olmec_maya",
+   1
+  ],
+  [
+   "west_african",
+   1
+  ]
+ ],
+ "complete": true
+}

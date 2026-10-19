@@ -9,20 +9,20 @@
 
 | 狀態 / status | 實體數 / entities |
 |---|---|
-| mapped | 879 |
+| mapped | 973 |
 | mapped:lexical | 78 |
 | unmapped:generic | 1 |
-| unmapped:insufficient | 306 |
+| unmapped:insufficient | 307 |
 | unmapped:no-candidate | 76 |
-| unmapped:non-geographic | 180 |
-| unmapped:none | 256 |
+| unmapped:non-geographic | 190 |
+| unmapped:none | 154 |
 | unmapped:structural | 43 |
-| unmapped:undetermined | 50 |
+| unmapped:undetermined | 47 |
 | via-relations | 72 |
 
 | 可信度級別 / tier (mapped) | 實體數 |
 |---|---|
-| high | 5 |
-| low | 203 |
-| medium | 51 |
-| tentative | 620 |
+| high | 1 |
+| low | 171 |
+| medium | 34 |
+| tentative | 767 |

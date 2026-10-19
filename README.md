@@ -4,7 +4,7 @@
 
 Mythos 是一個開放研究項目：把古籍、神話與傳說當作**可能保存了真實觀測的資料**來閱讀，用可重現的方法，把它們放回現有的世界觀與宇宙觀中檢驗，看看它們可能記錄了什麼。
 
-第一個子項目是 **《山海經》**（[projects/shanhaijing](projects/shanhaijing/README.md)）。交付：[初稿 v1：全書逐段、逐實體的真實世界對照](projects/shanhaijing/deliverables/draft-v1/README.md)。
+第一個子項目是 **《山海經》**（[projects/shanhaijing](projects/shanhaijing/README.md)）。交付：[初稿 v2：全書逐段、逐實體的真實世界對照](projects/shanhaijing/deliverables/draft-v2/README.md)。
 
 ## 方法：實體圖譜交叉驗證
 
@@ -41,7 +41,7 @@ Mythos 是一個開放研究項目：把古籍、神話與傳說當作**可能�
 
 Mythos is an open research project. It reads ancient texts, myths and legends as **records that may preserve real observations** and tests them, with reproducible methods, against our present understanding of the world and the cosmos.
 
-The first sub-project is the **Shanhaijing 《山海經》** ([projects/shanhaijing](projects/shanhaijing/README.md)). Deliverable: [draft v1, a paragraph-by-paragraph, entity-by-entity real-world mapping of the whole book](projects/shanhaijing/deliverables/draft-v1/README.md).
+The first sub-project is the **Shanhaijing 《山海經》** ([projects/shanhaijing](projects/shanhaijing/README.md)). Deliverable: [draft v2, a paragraph-by-paragraph, entity-by-entity real-world mapping of the whole book](projects/shanhaijing/deliverables/draft-v2/README.md).
 
 ## Method: entity-graph cross-validation
 

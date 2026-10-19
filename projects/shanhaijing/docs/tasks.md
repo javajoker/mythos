@@ -28,32 +28,39 @@
 | T-E03 | 覆蓋檢查：無實體段落 0、未解釋的名稱句式 0 / coverage audit at 0 / 0 | `kg_extract.py` → `kg/coverage.md` | ✅ |
 | T-E04 | 為 50 個「未定」（UNK）實體確定類型 / type the 50 undetermined entities | `entity-extractor` | ⬜ |
 | T-E05 | 檢查同名河流的拆分與合併（洛、丹、涇等）/ audit homonym-river splits and merges | `entity-extractor` | ⬜ |
-| T-E06 | 抽取海經、大荒經更多的方位關係（目前多數國族只有 1–2 條 `located`）/ extract more bearings in the Sea and Wilderness books | `entity-extractor` | ⬜ |
+| T-E06 | 抽取空間句式：之南／之北、之濱、之後／之前、環之、其外有、「X流于Y」（無「注」）；修正「外有炎火之山」等名稱（紅隊 R1，例 `SHJ-16-1-037`）/ extract spatial clauses and fix names found by review R1 | `entity-extractor` | ⬜ |
+| T-E07 | 每段每種關係只計一次（去除 25 條重複）；以動物部件描述的神改為神人（7 個）/ dedupe relations; deities with animal parts are persons | `kg_extract.py` | ✅ |
 
 ## 步驟 3 真實世界候選 / Candidates
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
 | T-C01 | 全球庫：31 地區、36 性質、135 水體、116 動物、47 文化 / world base | `data/world/` | ✅ |
 | T-C02 | 每個實體的候選與自身分數 / candidates with own scores | `kg_candidates.py` | ✅ |
-| T-C03 | **庫的平衡**：每條大河列出的支流數相近（目前長江 6 條、渭河 2 條），重跑並比較 / balance listed tributaries per major river; re-run and compare | `world-candidate-scout` | ⬜ |
+| T-C03 | **庫的平衡**：以統一規則補 125 條支流（R1、R2，見 data/world/README）；重跑後河流全部暫定 / tributaries balanced by one rule; all rivers tentative after re-run | `world-candidate-scout` | ✅ |
 | T-C04 | 為 121 個「無合適真實對應」的生物檢查是否缺少候選動物 / check whether unmatched creatures lack candidate animals | `world-candidate-scout` | ⬜ |
 | T-C05 | 為 76 個無詞義的植物、礦物專名決定處理方式 / decide on proper-named plants and minerals | `world-candidate-scout` | ⬜ |
+| T-C06 | 地區性質加「火山、熔岩湖、天然氣或石油之火」與「沙丘地形」；新候選類型「紀念建築與造像」（例：人面獸身像）/ add fire-ground and dune properties; a monument/statue candidate type | `world-candidate-scout` | ⬜ |
 
 ## 步驟 4 交叉驗證 / Cross-validation
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
 | T-X01 | 聯合求解（退火 + ICM + 區塊調整）、樣本穩定度、可信度與級別 / joint solve, stability, confidence, tiers | `kg_crossval.py` | ✅ |
 | T-X02 | 確定性與單調性檢查 / determinism and monotonicity checks | `cross-validator` | ✅ |
-| T-X03 | 降低多峰：各鏈總分相差約 1%；試平行回火或更多鏈 / reduce multimodality (≈1% spread across chains) | `cross-validator` | ⬜ |
-| T-X04 | 權重敏感度：UNIQ、`flows_into`、`next` 各在合理範圍內變動，報告對應的變化 / weight sensitivity | `cross-validator` | ⬜ |
+| T-X03 | 降低多峰：各鏈總分相差約 3%；試平行回火或更多鏈 / reduce multimodality (≈3% spread across chains) | `cross-validator` | ⬜ |
+| T-X04 | 權重敏感度：16 個變體＋重跑；每個對應的穩健度 / weight sensitivity with per-entity robustness | `kg_sensitivity.py` | ✅ |
+| T-X05 | **待決定**：新的解讀規則：河流的地圖讀法、前／後慣例雙測、古蹟（需引證、扣分）、外觀與行為分開、觀察者替代（獅 → 虎）；全部候選一體適用 / **pending decision**: new reading rules applied to every candidate | 項目發起人 / initiator | ⬜ |
+| T-X06 | 對立組態檢驗：崑崙＝開羅一帶（西海＝地中海、流沙＝撒哈拉、赤水＝紅海、黑水＝尼羅河）對比青藏、衣索比亞高原、美索不達米亞、帕米爾，報告總分與違反的關係 / rival-configuration test for Kunlun | `cross-validator` | ⬜ |
+| T-X07 | 「小溪」因子從未產生（有出入記錄的水都算主要水體）：刪除或重新定義 / the minor-stream factor never fires: remove or redefine | `cross-validator` | ⬜ |
 
 ## 步驟 5 交付 / Deliverable
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-D01 | 初稿 v1：869 段、4,004 次提及逐條對照，完整性 PASS / draft v1, item by item, completeness PASS | `kg_deliver.py` → `deliverables/draft-v1/` | ✅ |
+| T-D01 | 初稿 v1：逐條對照（主要結論經紅隊 R1 撤回，已刪除）/ draft v1 (headline results withdrawn by review R1; removed) | `kg_deliver.py` | ✅ |
+| T-D03 | 初稿 v2：完整性 PASS、權重穩健度、海岸線地圖 / draft v2 with robustness and a coastline map | `kg_deliver.py` → `deliverables/draft-v2/` | ✅ |
 | T-D02 | 逐篇的文字摘要（每篇的山落在哪些地區、主要水系）/ per-section narrative summaries | `shj-lead` | ⬜ |
 
 ## 紅隊 / Red team
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-R01 | 審查初稿 v1：反例、誘餌（河、昆侖之丘、羬羊、毛民）、庫的偏差、可信度是否被誇大 / review draft v1 | `devils-advocate` | ⬜ |
+| T-R01 | 審查初稿 v1：庫的偏差、誘餌（每區已知性質上限 21）、抽取錯誤、敏感度、使用者的崑崙解讀（[red-team.md](red-team.md) R1）/ review draft v1 | `devils-advocate` | ✅ |
+| T-R02 | 審查初稿 v2 與 T-X06 的結果 / review draft v2 and the T-X06 results | `devils-advocate` | ⬜ |
