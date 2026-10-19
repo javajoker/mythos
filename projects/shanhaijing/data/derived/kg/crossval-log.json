@@ -1,16 +1,16 @@
 {
  "factors": 1390,
  "variables": 1441,
- "best_energy": 681.5,
+ "best_energy": 846.0,
  "chain_energies": [
-  677.8,
-  676.0,
-  681.5,
-  678.3,
-  675.7,
-  679.8
+  846.0,
+  836.7,
+  836.1,
+  828.1,
+  803.7,
+  831.2
  ],
- "consensus_energy": 681.5,
+ "consensus_energy": 846.0,
  "samples": 30,
  "restarts": 12,
  "drop": 0.2

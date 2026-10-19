@@ -20,7 +20,8 @@ the factors, SUB_CHAINS chains each) is a sample; stability = share of samples a
 most frequent alternatives across samples are reported. Confidence = stability × (1 − e^(−margin)); tiers high ≥ 0.6,
 medium ≥ 0.3, low ≥ 0.1, tentative below (best-energy pick, but the samples disagree).
 
-Output: projects/shanhaijing/data/derived/kg/mapping.jsonl
+Output: projects/shanhaijing/data/derived/kg/mapping.jsonl (or --out DIR); --set name=value overrides a weight in WT;
+--cands PATH reads another candidates file (red-team decoys).
 """
 import json
 import math
@@ -35,9 +36,44 @@ from kg_common import DIR_DEG, KG, angdiff, bearing, jl, load_world  # noqa: E40
 RESTARTS, DROP, ITERS = 12, 0.2, 25
 NONE_OWN = 0.05
 CHAINS, STEPS, SUB_CHAINS, SUB_STEPS, T0, T1 = 6, 1_200_000, 2, 600_000, 2.0, 0.02
+# relation weights (methodology-spec §5); `--set name=value` overrides one for a sensitivity run, `--out DIR` writes there
+WT = {"flow_hit": 2.0, "flow_near": 0.3, "flow_miss": -1.0, "rise_hit": 1.0, "rise_adj": 0.3, "rise_miss": -0.5,
+      "minor_hit": 0.6, "minor_miss": -0.3, "next_same": 0.3, "next_adj": 0.1, "next_miss": -0.3,
+      "bearing_scale": 1.0, "creature_scale": 1.0, "uniq": 2.0}
+
+
+CANDS = KG / "candidates.jsonl"
+INIT = None          # --init MAPPING: diagnostic only — polish that configuration and report its energy, then exit
+
+
+def parse_args(argv):
+    global CANDS, INIT
+    out = KG
+    i = 0
+    while i < len(argv):
+        if argv[i] == "--set":
+            k, _, v = argv[i + 1].partition("=")
+            if k not in WT:
+                sys.exit(f"unknown weight {k}; known: {sorted(WT)}")
+            WT[k] = float(v)
+            i += 2
+        elif argv[i] == "--init":
+            INIT = Path(argv[i + 1])
+            i += 2
+        elif argv[i] == "--cands":
+            CANDS = Path(argv[i + 1])
+            i += 2
+        elif argv[i] == "--out":
+            out = Path(argv[i + 1])
+            out.mkdir(parents=True, exist_ok=True)
+            i += 2
+        else:
+            sys.exit(f"unknown argument {argv[i]}")
+    return out
 
 
 def main():
+    out_dir = parse_args(sys.argv[1:])
     regions, props, animals, waters, cultures = load_world()
     reg = {r["code"]: r for r in regions}
     adj = {r["code"]: sorted(r["adjacent"]) for r in regions}   # sorted: proposals index into it
@@ -46,7 +82,7 @@ def main():
     cul = {c["id"]: c for c in cultures}
     nodes = {n["id"]: n for n in jl(KG / "nodes.jsonl")}
     edges = jl(KG / "edges.jsonl")
-    cands = {c["node"]: c for c in jl(KG / "candidates.jsonl")}
+    cands = {c["node"]: c for c in jl(CANDS)}
 
     # ---- variables and own scores ------------------------------------------------------------------------------------
     own = {}
@@ -95,35 +131,35 @@ def main():
             return 0.0                       # a small stream missing from the base may join any river
         if cb == "none":
             # the child is a real river whose mouth is itself in the base: "not in the base" contradicts it
-            return -1.0 if wat[ca[6:]].get("mouth") in wat else 0.0
+            return WT["flow_miss"] if wat[ca[6:]].get("mouth") in wat else 0.0
         if ca == cb:
             return -2.0                      # a river cannot flow into itself
         wa, wb = wat[ca[6:]], wat[cb[6:]]
         if wa.get("mouth") == wb["id"]:
-            return 2.0
+            return WT["flow_hit"]
         mouth = wat.get(wa.get("mouth") or "", {})
         if set(mouth.get("basin") or mouth.get("regions") or []) & set(wb.get("basin") or wb.get("regions") or []):
-            return 0.3
-        return -1.0
+            return WT["flow_near"]
+        return WT["flow_miss"]
 
     def f_rise(cw, cm):
         if cw == "none" or cm == "none":
             return 0.0
         src = wat[cw[6:]].get("src_region")
         m = cm.partition(":")[2]
-        return 1.0 if src == m else 0.3 if src in adj.get(m, ()) else -0.5
+        return WT["rise_hit"] if src == m else WT["rise_adj"] if src in adj.get(m, ()) else WT["rise_miss"]
 
     def f_minor(cm, cb):
         if cb == "none" or cm == "none":
             return 0.0
         basin = set(wat[cb[6:]].get("basin") or wat[cb[6:]].get("regions") or [])
-        return 0.6 if cm.partition(":")[2] in basin else -0.3
+        return WT["minor_hit"] if cm.partition(":")[2] in basin else WT["minor_miss"]
 
     def f_next(ca, cb):
         if ca == "none" or cb == "none":
             return 0.0
         a, b = ca.partition(":")[2], cb.partition(":")[2]
-        return 0.3 if a == b else 0.1 if b in adj.get(a, ()) else -0.3
+        return WT["next_same"] if a == b else WT["next_adj"] if b in adj.get(a, ()) else WT["next_miss"]
 
     def f_creature(cm, ca):
         if ca == "none" or cm == "none":
@@ -132,7 +168,7 @@ def main():
         if not any(not r.startswith("S_") for r in a["regions"]):
             return 0.0                      # sea-only animal: a mountain's land region says nothing about it
         cov = max(own_animal.get(ca, 0.0), 0.0)
-        return (0.5 if cm.partition(":")[2] in a["regions"] else -0.25) * max(cov, 0.3)
+        return WT["creature_scale"] * (0.5 if cm.partition(":")[2] in a["regions"] else -0.25) * max(cov, 0.3)
 
     def make_bearing(direction, w_ok, w_bad):
         def f(ca, cb):   # "A is <direction> of B": bearing from B to A
@@ -173,6 +209,7 @@ def main():
             factors.append((a, b, f_creature, "has_creature", x["entry"]))
         elif t in ("located", "sees") and a in var and b in var and x["attrs"].get("direction") in DIR_DEG:
             w_ok, w_bad = (0.2, -0.1) if t == "located" else (0.1, -0.05)
+            w_ok, w_bad = w_ok * WT["bearing_scale"], w_bad * WT["bearing_scale"]
             factors.append((a, b, make_bearing(x["attrs"]["direction"], w_ok, w_bad), t, x["entry"]))
     for nid, sc in own.items():
         if cands[nid].get("kind") == "animal":
@@ -184,7 +221,7 @@ def main():
             by_var[b].append(i)
 
     river_vars = {v for v in var if cands[v].get("kind") == "water"}
-    UNIQ = 2.0
+    UNIQ = WT["uniq"]
 
     def local(v, c, assign, active, counts=None):
         s = own[v][c]
@@ -397,6 +434,18 @@ def main():
         return max(results, key=lambda r: r[1])
 
     all_f = set(range(len(factors)))
+    if INIT:
+        # Is a given configuration (e.g. an earlier mapping) better than what the chains find? Polish it with ICM and
+        # block moves under the current base and weights, and print its energy. Nothing is written.
+        prev = {m["node"]: m.get("cand") for m in jl(INIT)}
+        assign = {v: (prev.get(v) if prev.get(v) in own[v] else max(sorted(own[v]), key=lambda c: own[v][c]))
+                  for v in var_list}
+        e0 = energy(assign, all_f)
+        assign = block_moves(icm(assign, all_f, 7), all_f, random.Random(7))
+        print(f"init energy {e0:.1f}; after polish {energy(assign, all_f):.1f}", file=sys.stderr)
+        for k in ("WAT:河", "WAT:江", "WAT:渭", "MTN:昆侖之丘"):
+            print(k, prev.get(k), "->", assign.get(k), file=sys.stderr)
+        return
     best_single, final_e = solve(all_f, 7, CHAINS, STEPS, log=True)
     for r in range(RESTARTS):
         rng = random.Random(1000 + r)
@@ -455,16 +504,16 @@ def main():
         else:
             rec.update({"cand": None, "status": c.get("status", "unmapped:no-candidate"), "gloss": c.get("gloss")})
         out.append(rec)
-    with (KG / "mapping.jsonl").open("w") as f:
+    with (out_dir / "mapping.jsonl").open("w") as f:
         for r in out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     st = Counter(r["status"] for r in out)
     tiers = Counter(r.get("tier") for r in out if r["status"] == "mapped")
-    (KG / "crossval-log.json").write_text(json.dumps({"factors": len(factors), "variables": len(var),
+    (out_dir / "crossval-log.json").write_text(json.dumps({"factors": len(factors), "variables": len(var),
                                                       "best_energy": round(final_e, 1), "chain_energies": chain_log,
                                                       "consensus_energy": round(energy(final, all_f), 1),
                                                       "samples": len(samples),
-                                                      "restarts": RESTARTS, "drop": DROP}, indent=1))
+                                                      "restarts": RESTARTS, "drop": DROP, "weights": WT}, indent=1))
     print(f"factors {len(factors)}; energy {final_e:.1f}; chains {chain_log}; status {dict(st)}; tiers {dict(tiers)}",
           file=sys.stderr)
 

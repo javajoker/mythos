@@ -8,7 +8,8 @@
   PLA, MIN  -> lexical meaning of the common noun (translation, not name matching); proper names: none
   PER, UNK, DOC -> not mapped (non-geographic or undetermined), kept for completeness
 
-Names never score. Output: projects/shanhaijing/data/derived/kg/candidates.jsonl
+Names never score. Output: projects/shanhaijing/data/derived/kg/candidates.jsonl (or --out PATH).
+Red-team option: --mask-known K caps every region at K known property values.
 """
 import json
 import math
@@ -68,8 +69,30 @@ def water_candidates(n, waters):
     return out + [{"cand": "none", "own": round(none_own, 3), "why": ["not in the base"]}]
 
 
+def mask_known(props, cap, seed=11):
+    """Red-team decoy (T-R01): cap every region at `cap` known property values (T or F); the excess, chosen with a
+    fixed seed, becomes unknown. Tests whether a region wins only because it is described in more detail."""
+    import random
+    rng = random.Random(seed)
+    known = {}
+    for k in sorted(props):
+        for c in props[k]["true"] + props[k]["false"]:
+            known.setdefault(c, []).append(k)
+    drop = set()
+    for c, ks in sorted(known.items()):
+        if len(ks) > cap:
+            drop |= {(c, k) for k in rng.sample(ks, len(ks) - cap)}
+    return {k: dict(p, true=[c for c in p["true"] if (c, k) not in drop], false=[c for c in p["false"] if (c, k) not in drop])
+            for k, p in props.items()}
+
+
 def main():
     regions, props, animals, waters, cultures = load_world()
+    out_path = KG / "candidates.jsonl"
+    if "--mask-known" in sys.argv:
+        props = mask_known(props, int(sys.argv[sys.argv.index("--mask-known") + 1]))
+    if "--out" in sys.argv:
+        out_path = Path(sys.argv[sys.argv.index("--out") + 1])
     codes = [r["code"] for r in regions]
     nodes = jl(KG / "nodes.jsonl")
     edges = jl(KG / "edges.jsonl")
@@ -132,7 +155,7 @@ def main():
         else:
             rec.update({"kind": "none", "status": "unmapped:undetermined" if t == "UNK" else "unmapped:structural"})
         out.append(rec)
-    with (KG / "candidates.jsonl").open("w") as f:
+    with out_path.open("w") as f:
         for r in out:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(Counter(r.get("kind") for r in out), file=sys.stderr)
