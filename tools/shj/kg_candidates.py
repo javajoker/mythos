@@ -48,9 +48,9 @@ def water_candidates(n, waters):
         if real_kind != book_kind:
             s -= 0.3
             why.append(f"type {book_kind}/{real_kind}")
-        if w.get("era") == "palaeo":
+        if w.get("era") in ("palaeo", "relic"):       # former rivers, dry valleys, ancient canals (rule R2)
             s -= 0.2
-            why.append("palaeo")
+            why.append(w["era"])
         if p.get("flow_dir") and w.get("flow_dir"):
             d = angdiff(DIR_DEG[p["flow_dir"]], DIR_DEG[w["flow_dir"]])
             r = angdiff(DIR_DEG[p["flow_dir"]], (DIR_DEG[w["flow_dir"]] + 180) % 360)

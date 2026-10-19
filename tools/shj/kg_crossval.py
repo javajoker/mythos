@@ -462,7 +462,7 @@ def main():
                     set_label(v, c, assign, counts)
                     for _sweep in range(2):
                         for u in block[1:]:
-                            opts = shortlist(u, assign) if u in river_vars else cand_list[u]
+                            opts = shortlist(u, assign) if u in river_vars else sorted(own[u])   # own: a held entity keeps its one candidate
                             cur = local(u, assign[u], assign, active, counts)
                             bu = max(opts, key=lambda k: (round(local(u, k, assign, active, counts), 6), k))
                             if bu != assign[u] and local(u, bu, assign, active, counts) > cur + 1e-9:

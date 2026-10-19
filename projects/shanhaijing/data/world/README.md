@@ -8,7 +8,7 @@
 | `regions.jsonl` | 33 | 山與地的候選；中心座標；相鄰地區（對稱）/ candidates for mountains and land features; centroids; symmetric adjacency |
 | `region-properties.jsonl` | 38 | 地區的礦產、植物、地形、習俗：為 T 的地區、為 F 的地區，其餘未知 / region properties: true regions, false regions, rest unknown |
 | `animals.jsonl` | 145 | 生物的候選：描述標籤、古代分佈 / creature candidates: tags and ancient ranges |
-| `waters.jsonl` | 269 | 水的候選（任何類型皆可，見解讀規則 R1）：217 條河（含 8 條古河道）（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、25 湖（含古湖 Mega-Chad）、23 海（長條形的海有軸向與出口）、4 個沙漠終點 / water candidates |
+| `waters.jsonl` | 287 | 水的候選（任何類型皆可，見解讀規則 R1）：232 條河（含 8 條古河道、11 條乾河谷、3 條古運河與古水道）（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、26 湖（含古湖 Mega-Chad、艾爾湖）、23 海（長條形的海有軸向與出口）、6 個沙漠終點 / water candidates |
 | `coastlines.json` | 33 + 6 | 簡化的陸地與內陸水域輪廓，**只用於繪製地圖，不參與計分** / simplified land and inland-water outlines, **for drawing the map only, never scored** |
 | `cultures.jsonl` | 48 | 國族的候選：地區、中心點、習俗與食物標籤 / polity/people candidates |
 
@@ -66,3 +66,4 @@ The earlier base listed tributaries only for the Yangtze, Yellow, Wei and Luo, w
 4. **古水體（R2）**：Ghaggar-Hakra、Wadi Howar、Tamanrasset、Wadi al-Batin、Uzboy、吉薩的 Khufu 支流、黃河故道、塔里木下游故道、Mega-Chad 古湖；分佈於各大洲，不只假說所在的地區。/ Palaeo waters worldwide, not only in the hypothesis regions.
 5. **長條形的海**：紅海、波斯灣、加利福尼亞灣、裏海、地中海、波羅的海記錄軸向；各海記錄出口（例如紅海 → 阿拉伯海），以便地圖讀法（R6）。/ Sea axes and outlets for the map view.
 6. **人群**：哈拉帕（印度河流域）。/ Harappan culture added.
+7. **乾河谷與古運河（R2，2026-10-20）**：只有一條河發源於埃及，而西次三經有 12 條「出焉」之水；依時間深度規則，曾經有水的乾河谷與古代運河也是候選，並在**全世界**一起加入：乾河谷 Wadi Qena、Hammamat、Allaqi（埃及）、Hadramawt（阿拉伯）、Saoura、Igharghar（撒哈拉）、Arabah（黎凡特）、Tharthar（美索不達米亞）、Cooper Creek（澳洲）、Keriya（塔里木）、Luni（印度）、Eastern Nara（印度河）；古運河與古水道：法老運河（尼羅河 → 紅海）、鴻溝（黃河 → 淮河）、Shatt al-Gharraf（蘇美）。另加艾爾湖與兩個沙漠終點。`era` 為 `palaeo` 或 `relic`，自身分數 −0.2。/ Dry valleys and ancient canals worldwide, era palaeo or relic, own score −0.2.
