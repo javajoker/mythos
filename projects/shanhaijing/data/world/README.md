@@ -8,7 +8,7 @@
 | `regions.jsonl` | 31 | 山與地的候選；中心座標；相鄰地區（對稱）/ candidates for mountains and land features; centroids; symmetric adjacency |
 | `region-properties.jsonl` | 36 | 地區的礦產、植物、地形、習俗：為 T 的地區、為 F 的地區，其餘未知 / region properties: true regions, false regions, rest unknown |
 | `animals.jsonl` | 116 | 生物的候選：描述標籤、古代分佈 / creature candidates: tags and ancient ranges |
-| `waters.jsonl` | 135 | 水的候選：84 條河（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、24 湖、23 海、4 個沙漠終點 / water candidates |
+| `waters.jsonl` | 260 | 水的候選：209 條河（河源地區、河口、流域、總流向、長度、內流、終於沙漠）、24 湖、23 海、4 個沙漠終點 / water candidates |
 | `cultures.jsonl` | 47 | 國族的候選：地區、中心點、習俗與食物標籤 / polity/people candidates |
 
 ## 1. 地區代碼 / Region codes
@@ -43,3 +43,13 @@
 ## 3. 判定原則 / Principles
 - 只記古代已存在或可見的情況（例如古代動物分佈、公元前的栽培、古代記載的習俗）。/ Only conditions existing or visible in antiquity.
 - 不確定的一律不填（地區性質）或不列（人群標籤），計分時以基準率期望處理。/ Uncertain values are left out and scored at base-rate expectation.
+
+## 支流的平衡規則 / Tributary balance rule (T-C03, 2026-10-19)
+
+舊版只為長江、黃河、渭河、洛河列出支流，而亞馬遜、剛果、尼日、多瑙、伏爾加、勒拿等 25 條 2,000 公里以上的大河一條也沒有；書中支流多的河因此只能在中國得到「河口吻合」的分數。現在對平衡前已在庫中的河流一律適用：
+The earlier base listed tributaries only for the Yangtze, Yellow, Wei and Luo, while 25 rivers over 2,000 km had none, so a book river with many inflows could earn mouth matches only in China. Now, for every river present before balancing:
+
+- **R1**：長度 ≥ 2,000 公里的河，列出長度 ≥ 500 公里的直接支流中最長的，最多 4 條（湖不計）。/ rivers ≥ 2,000 km list their longest direct tributaries ≥ 500 km, up to 4 (lakes not counted).
+- **R2**：長度 800–2,000 公里的河，列出長度 ≥ 300 公里的直接支流，最多 2 條。/ rivers of 800–2,000 km list up to 2 direct tributaries ≥ 300 km.
+- 原有條目保留；新加支流的支流不再展開。剩餘的不平衡：黃河 5 條、渭河與洛河的二級支流只在中國有。/ Existing entries are kept; tributaries of new tributaries are not expanded. Residual imbalance: the Yellow River has 5, and second-order tributaries (of the Wei and Luo) exist only in China.
+- 雅魯藏布、幼發拉底、薩爾溫、錫爾河沒有符合門檻的支流。/ The Brahmaputra, Euphrates, Salween and Syr Darya have no tributary above the threshold.
