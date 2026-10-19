@@ -1,4 +1,3 @@
-{"entry_id": "SHJ-01-1-001", "witness": "sbck", "op": "insert", "base": "", "witness_text": "南山經第一", "context": "南山經之首曰", "status": "unclassified"}
 {"entry_id": "SHJ-01-1-003", "witness": "sbck", "op": "replace", "base": "腹虫", "witness_text": "蝮蟲", "context": "怪魚多白玉多腹虫多怪蛇多怪木", "status": "unclassified"}
 {"entry_id": "SHJ-01-1-004", "witness": "sbck", "op": "replace", "base": "謠", "witness_text": "謡", "context": "而赤尾其音如謠其名曰鹿蜀佩", "status": "unclassified"}
 {"entry_id": "SHJ-01-1-005", "witness": "sbck", "op": "delete", "base": "又", "witness_text": "", "context": "不聾可以為底又東三百里柢山", "status": "unclassified"}
@@ -71,7 +70,6 @@
 {"entry_id": "SHJ-01-3-012", "witness": "skqs", "op": "replace", "base": "槀", "witness_text": "膏", "context": "百八十里曰禺槀之山多怪獸多", "status": "unclassified"}
 {"entry_id": "SHJ-01-3-013", "witness": "skqs", "op": "replace", "base": "玉", "witness_text": "玊", "context": "之山其上多金玉其下多水有穴", "status": "unclassified"}
 {"entry_id": "SHJ-01-3-013", "witness": "skqs", "op": "replace", "base": "鳳皇", "witness_text": "鳯凰", "context": "南流注於海有鳳皇鵷鶵凡南次三", "status": "unclassified"}
-{"entry_id": "SHJ-02-1-001", "witness": "sbck", "op": "insert", "base": "", "witness_text": "西山經第二", "context": "西山經華山之", "status": "unclassified"}
 {"entry_id": "SHJ-02-1-001", "witness": "sbck", "op": "replace", "base": "腊", "witness_text": "臘", "context": "羊其脂可以已腊西四十五里曰", "status": "unclassified"}
 {"entry_id": "SHJ-02-1-003", "witness": "sbck", "op": "replace", "base": "高", "witness_text": "髙", "context": "削成而四方其高五千仞其廣十", "status": "unclassified"}
 {"entry_id": "SHJ-02-1-003", "witness": "sbck", "op": "replace", "base": "仞", "witness_text": "仭", "context": "四方其高五千仞其廣十里鳥獸", "status": "unclassified"}
@@ -321,7 +319,6 @@
 {"entry_id": "SHJ-02-4-020", "witness": "skqs", "op": "delete", "base": "神", "witness_text": "", "context": "六百八十里其神祠禮皆用一白", "status": "unclassified"}
 {"entry_id": "SHJ-02-4-020", "witness": "skqs", "op": "insert", "base": "", "witness_text": "祀", "context": "八十里其神祠禮皆用一白雞", "status": "unclassified"}
 {"entry_id": "SHJ-02-4-021", "witness": "skqs", "op": "insert", "base": "", "witness_text": "志", "context": "席右西經之山凡七十七山一", "status": "unclassified"}
-{"entry_id": "SHJ-03-1-001", "witness": "sbck", "op": "insert", "base": "", "witness_text": "北山經第三", "context": "北山經之首曰", "status": "unclassified"}
 {"entry_id": "SHJ-03-1-001", "witness": "sbck", "op": "replace", "base": "机", "witness_text": "機", "context": "曰單狐之山多机木其上多華草", "status": "unclassified"}
 {"entry_id": "SHJ-03-1-001", "witness": "sbck", "op": "replace", "base": "茈", "witness_text": "芘", "context": "於泑水其中多茈石文石又北二", "status": "unclassified"}
 {"entry_id": "SHJ-03-1-003", "witness": "sbck", "op": "replace", "base": "疏", "witness_text": "䟽", "context": "有錯其名曰䑏疏可以辟火有鳥", "status": "unclassified"}
@@ -547,7 +544,6 @@
 {"entry_id": "SHJ-03-3-048", "witness": "skqs", "op": "replace", "base": "廿", "witness_text": "二十", "context": "馬身而人面者廿神其祠之皆用", "status": "unclassified"}
 {"entry_id": "SHJ-03-3-048", "witness": "skqs", "op": "replace", "base": "珪", "witness_text": "茝", "context": "祠之皆用一藻珪瘞之其十四神", "status": "unclassified"}
 {"entry_id": "SHJ-03-3-049", "witness": "skqs", "op": "insert", "base": "", "witness_text": "子部小說家類異聞之屬山海經", "context": "千二百三十里", "status": "unclassified"}
-{"entry_id": "SHJ-04-1-001", "witness": "sbck", "op": "insert", "base": "", "witness_text": "東山經第四", "context": "東山經之首曰", "status": "unclassified"}
 {"entry_id": "SHJ-04-1-001", "witness": "sbck", "op": "replace", "base": "梨", "witness_text": "犂", "context": "鱅之魚其狀如梨牛其音如彘鳴", "status": "unclassified"}
 {"entry_id": "SHJ-04-1-003", "witness": "sbck", "op": "replace", "base": "鼠", "witness_text": "䑕", "context": "焉其狀如雞而鼠毛其名曰䖪鼠", "status": "unclassified"}
 {"entry_id": "SHJ-04-1-003", "witness": "sbck", "op": "replace", "base": "鼠", "witness_text": "䑕", "context": "鼠毛其名曰䖪鼠見則其邑大旱", "status": "unclassified"}
@@ -656,7 +652,6 @@
 {"entry_id": "SHJ-04-4-008", "witness": "skqs", "op": "delete", "base": "北", "witness_text": "", "context": "天下大水又東北二百里曰太山", "status": "unclassified"}
 {"entry_id": "SHJ-04-4-008", "witness": "skqs", "op": "replace", "base": "的", "witness_text": "多", "context": "注於勞水其中的鱃魚凡東次四", "status": "unclassified"}
 {"entry_id": "SHJ-04-4-010", "witness": "skqs", "op": "replace", "base": "誌", "witness_text": "志", "context": "里右東經之山誌凡四十六山萬", "status": "unclassified"}
-{"entry_id": "SHJ-05-1-001", "witness": "sbck", "op": "insert", "base": "", "witness_text": "中山經第五", "context": "中山經薄山之", "status": "unclassified"}
 {"entry_id": "SHJ-05-1-001", "witness": "sbck", "op": "replace", "base": "籜", "witness_text": "蘀", "context": "華而莢實名曰籜可以已瞢有獸", "status": "unclassified"}
 {"entry_id": "SHJ-05-1-002", "witness": "sbck", "op": "replace", "base": "歷", "witness_text": "歴", "context": "又東二十里曰歷兒之山其上多", "status": "unclassified"}
 {"entry_id": "SHJ-05-1-003", "witness": "sbck", "op": "delete", "base": "而", "witness_text": "", "context": "多豪魚狀如鮪而赤喙赤尾赤羽", "status": "unclassified"}

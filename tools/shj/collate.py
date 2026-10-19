@@ -32,7 +32,7 @@ FOLD = str.maketrans({
 })
 CJK = re.compile(r"[㐀-鿿\U00020000-\U0003ffff]")
 HEADER_NOISE = re.compile(r"欽定四庫全書|山海經[巻卷][一二三四五六七八九十]+|晉郭璞撰|郭氏傳|郭璞傳|"
-                          r"[南西北東中大荒海內外]+經第[一二三四五六七八九十]+")
+                          r"[南西北東中大荒海內外山]+經第[一二三四五六七八九十]+")
 
 
 def norm(s: str) -> str:

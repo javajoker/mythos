@@ -69,11 +69,16 @@ Bare main text is about 31,300 characters. Similarity to `sbck` is about 0.95–
 
 ### 3.4 文本內部的數字問題（S3 候選）/ Internal numeric problems (S3 candidates)
 - `SHJ-05-1-016` 中山經首篇：分段里程合計 937 里，篇末記為 6,670 里；同段「白甘棗之山」的「白」疑為「自」（X2）。/ legs sum to 937 里 against a stated 6,670; 白 in 白甘棗之山 is probably 自 (X2).
-- `SHJ-05-12-016` 中次十二經：「凡十萬山」，實際抽出 15 站，疑為「十五山」（X1）。/ 「凡十萬山」 with 15 stations extracted; probably 十五山 (X1).
+- `SHJ-05-12-016` 中次十二經：「凡十萬山」，實際抽出 15 站。明成化本正作「凡十五山」，這是見證本支持的校改（T0），不是推測。/ 「凡十萬山」 with 15 stations; the Chenghua edition reads 「凡十五山」, so this is a witness-supported correction (T0), not a conjecture.
 - 完整列表見 [routes-summary.md](../data/derived/routes-summary.md)。/ Full list in [routes-summary.md](../data/derived/routes-summary.md).
+
+### 3.5 底本偏離 / Base deviations (T-102)
+
+`tools/shj/classify_variants.py` 發現 681 處底本與兩個早期見證本都不同、而兩見證本彼此一致的讀法（[variant-classes-summary.md](../data/derived/variant-classes-summary.md)）。這是事實判定，不判斷誰對：其中有底本誤字（如 `SHJ-01-3-009`「黑水**山**焉」，見證本作「出」），也可能有現代校改（如 `SHJ-02-2-004` 底本「西**北**五十里」，見證本作「西**百**五十里」，影響方位）。工作文本從見證本；若要採用底本讀法，卷宗須當作校改論證並計成本。
+681 readings where the base differs from both early witnesses, which agree. This is factual and does not judge who is right: some are base typos (e.g. `SHJ-01-3-009`), some may be modern emendations (e.g. `SHJ-02-2-004`, which changes a bearing). The working text follows the witnesses; adopting a base reading must be argued and costed in a dossier as an emendation.
 
 ## 4. 使用規則 / Usage rules
 
 1. 引用時預設用 `base` 的條目編號（穩定），但凡涉及 §3.1 的條目，要同時附上 `sbck` 的位置。/ Cite by `base` entry ID (stable), but for §3.1 entries also give the `sbck` position.
-2. 異文在分類完成之前不得作為證據（`status = unclassified`）。/ Variants cannot serve as evidence until classified.
+2. 異文在分類完成之前不得作為證據（`status = unclassified`）；分類見 `variant-classes.jsonl`。/ Variants cannot serve as evidence until classified (see `variant-classes.jsonl`).
 3. 郭注只作為「四世紀讀者的理解」。/ Guo Pu's notes are only "a 4th-century reader's understanding".

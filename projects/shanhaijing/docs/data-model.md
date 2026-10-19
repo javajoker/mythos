@@ -33,9 +33,24 @@ All data is JSONL (one record per line), UTF-8, English keys, source-language va
 ## 3. 篇段 Section — `sections.jsonl`
 `{entry_id, book, section, stated_mountains, stated_li, text}`：篇末的「凡N山，N里」/ the section's own stated totals.
 
-## 4. 異文 Collation — `collation.jsonl`
-`{entry_id, witness: sbck|skqs, op: replace|insert|delete, base, witness_text, context, status}`
-`status`: `unclassified` → `orthographic` | `scribal-error` | `substantive` | `displacement`，加上分類者和理由 / plus classifier and reason.
+## 4. 異文 Collation — `collation.jsonl` → `variant-classes.jsonl`
+`collation.jsonl`：`{entry_id, witness: sbck|skqs, op: replace|insert|delete, base, witness_text, context}`（機器對勘，可隨時重新產生 / regenerable）。
+
+`variant-classes.jsonl`（`tools/shj/classify_variants.py`）在每筆上加 `key`、`status`、`reason`、`classifier`。/ adds `key`, `status`, `reason`, `classifier` to each difference.
+
+| status | 意義 / Meaning | 誰判定 / Who |
+|---|---|---|
+| `orthographic` | 純字形異體，或古今字、通假（`reason` 註明）/ glyph variant, or 古今字/通假 (noted in `reason`) | auto |
+| `base-deviation` | 底本與**兩個**早期見證本都不同，而兩見證本一致；可能是底本誤字或現代校改。工作文本從見證本 / base differs from **both** early witnesses, which agree; base typo or modern emendation; working text follows the witnesses | auto（事實判定 / factual） |
+| `displacement` | 屬於已登記的 X3 移段塊 / inside a registered X3 block | auto |
+| `interpolation` | 底本補入的文字（I-*）/ text the base inserted | auto |
+| `transcription-gap` | 見證本轉錄缺頁 / page gap in a witness transcription | auto |
+| `witness-noise` | 維基頁面提示、雜入的注語 / wiki notices, stray notes | auto |
+| `scribal-error` | 某一讀法為傳抄錯誤 / one reading is a copying error | 人工 / human |
+| `substantive` | 實質不同的讀法 / genuinely different readings | 人工 / human |
+| `unclassified` | 待審，`reason` 給出提示 / to review; `reason` gives a hint | — |
+
+**人工判定 / Human decisions**：寫入 `projects/shanhaijing/ledgers/variant-overrides.jsonl`，每行 `{key, status, reason, by}`，`key` 取自 `variant-classes.jsonl`。人工判定永遠優先於自動規則，重新產生資料時也不會遺失。/ one line per decision, keyed by `key`; always wins over the auto rules and survives regeneration.
 
 ## 5. 假說證據項 Evidence item（卷宗內表格，未來會轉成 `evidence.jsonl` / dossier tables, later `evidence.jsonl`）
 
