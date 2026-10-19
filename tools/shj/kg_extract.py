@@ -222,6 +222,7 @@ def main():
     # ---- 1. Mountain stations, itinerary, rivers ------------------------------------------------------------------
     prev = {}
     water_flow = []          # (symbol_core, dest_core, dir, entry, clause, source_node)
+    sinks = []               # (water core, lake core, entry, clause)
     for s in stations:
         e = by_id[s["entry_id"]]
         nid = kg.node("MTN", fold(s["name"]), e["id"], nid=mtn_id[(s["section"], fold(s["name"]))],
@@ -280,12 +281,32 @@ def main():
             continue
         # waters described with 出/注 in the Sea books (e.g. the 海內東經 waterway list)
         if e["book_no"] >= 6:
-            for m in RE_RIVER_OUT.finditer(t):
-                src_place = m.group(2).strip()
-                mid = resolve_mtn(src_place, eid) if src_place else None
-                if src_place and not mid:
-                    mid = kg.node("LND", clean(src_place), eid)
-                water_flow.append((water_core(m.group(1)), water_core(m.group(4)), m.group(3), eid, m.group(0), mid))
+            for sent in re.split(r"。", t):
+                mc = re.search(r"([^\s，。；、]{1,5}?(?:水|江))出(?:於|于)?([^，。；]{0,12})", sent)
+                if not mc:
+                    continue
+                src_place = mc.group(2).strip()
+                if re.search(r"隅$", src_place):
+                    mid = subject if subject else None          # 「出東北隅」: a corner of the paragraph's subject
+                else:
+                    src_place = re.split(r"而|，", src_place)[0]
+                    if re.search(r"(山|丘)$", src_place):
+                        mid = resolve_mtn(src_place, eid)
+                    else:
+                        mid = kg.ref(re.sub(r"(東|西|南|北)+$", "", src_place), eid, "LND") if src_place else None
+                rest = sent[mc.end():]
+                tgt = None
+                for mt2 in re.finditer(rf"(?:({DIRS}))?(?:又)?(?:注|入)(?:于|於)?([^，。；]{{1,6}})", rest):
+                    cand = clean(mt2.group(2))
+                    core = water_core(cand)
+                    if re.search(r"(海|水|澤|淵|河|江|湖)$", cand) or core in ("河", "江"):
+                        tgt = (core, mt2.group(1))
+                        break
+                water_flow.append((water_core(mc.group(1)), tgt[0] if tgt else "", tgt[1] if tgt else None, eid,
+                                   sent[:40], mid))
+        # 「東望泑澤，河水所潛也」: the river sinks at the lake
+        for ms in re.finditer(r"([^\s，。；、]{1,5}?(?:澤|淵))，?(河水|[^\s，。；、]{1,3}水)所潛", t):
+            sinks.append((water_core(clean(ms.group(2))), water_core(clean(ms.group(1))), eid, ms.group(0)))
         # mountains mentioned
         for m in RE_MTN.finditer(t):
             nid = resolve_mtn(m.group(1), eid, e["section"] if e["book_no"] <= 5 else None)
@@ -489,24 +510,67 @@ def main():
             kg.node("DOC", f"{eid}", eid, desc=t[:80])
 
     # ---- 3. waters: merge by name, split homonyms that flow into different targets --------------------------------
+    # homonyms split only on distinct MAJOR destinations (≥ 3 inflows, never itself): 「江水注于大江」 is a tributary,
+    # and a local stream such as 玄扈之水 does not make a second 洛
+    indeg = Counter(d for _, d, _, _, _, _ in water_flow if d)
     dests = defaultdict(set)
     for core, dest, _, _, _, _ in water_flow:
-        if core and dest:
+        if core and dest and dest != core and indeg[dest] >= 3:
             dests[core].add(dest)
+    sec_of_entry = {e["id"]: (e["book_no"], e["section"]) for e in entries}
+    variant_home = defaultdict(lambda: defaultdict(Counter))   # core -> variant id -> Counter of (book, section)
+    for core, dest, d, eid, clause, src_node in water_flow:
+        if core and len(dests[core]) > 1 and dest in dests[core]:
+            variant_home[core][f"WAT:{core}→{dest}"][sec_of_entry[eid]] += 1
+
+    def water_ref(core, eid):
+        """Node id for a water symbol used as a TARGET: for homonyms, the variant from the same section, else the
+        same book, else the most-attested variant."""
+        if core not in variant_home:
+            return f"WAT:{core}"
+        b, sec = sec_of_entry[eid]
+        vs = variant_home[core]
+        for test in (lambda h: h[(b, sec)] > 0, lambda h: any(k[0] == b for k in h)):
+            hit = sorted(v for v, h in vs.items() if test(h))
+            if hit:
+                return hit[0]
+        return max(sorted(vs), key=lambda v: sum(vs[v].values()))
+
     for core, dest, d, eid, clause, src_node in water_flow:
         if not core or core in STOP_WAT:
             continue
+        if dest == core:
+            dest = ""                                  # tributary of the same-named main river: no self-loop
         split = len(dests[core]) > 1
-        wid = kg.node("WAT", core, eid, nid=f"WAT:{core}" + (f"→{dest}" if split else ""), desc=clause)
-        did = kg.node("WAT", dest, eid, nid=f"WAT:{dest}") if dest and dest not in ("",) else None
+        vid = (f"WAT:{core}→{dest}" if dest in dests[core] else water_ref(core, eid)) if split else f"WAT:{core}"
+        wid = kg.node("WAT", core, eid, nid=vid, desc=clause)
+        did = kg.node("WAT", dest, eid, nid=water_ref(dest, eid)) if dest and dest not in ("",) else None
         if src_node and src_node in kg.nodes and kg.nodes[src_node]["type"] in ("MTN", "LND"):
             kg.edge(wid, src_node, "rises_at", eid, clause)
         if did:
             etype = "sinks_at" if "潛" in clause else "flows_into"
             kg.edge(wid, did, etype, eid, clause, direction=d)
-    for e in entries:   # 「…所潛」 sinks
-        for m in re.finditer(r"(河水|[^\s，。；]{1,4}水)所潛", e["text"]):
-            pass  # 潛 at a lake: recorded via sees/clauses; kept in descriptions
+    for core, lake, eid, clause in sinks:
+        wid = water_ref(core, eid) if core in variant_home else f"WAT:{core}"
+        if wid in kg.nodes:
+            lid = kg.node("WAT", lake, eid, nid=f"WAT:{lake}")
+            kg.edge(wid, lid, "sinks_at", eid, clause)
+    # generic nodes of split homonyms: re-point edges and mentions to the right variant, then drop the generic node
+    for core in list(variant_home):
+        gid = f"WAT:{core}"
+        if gid not in kg.nodes:
+            continue
+        g = kg.nodes.pop(gid)
+        for x in kg.edges:
+            if x["src"] == gid:
+                x["src"] = water_ref(core, x["entry"])
+            if x["dst"] == gid:
+                x["dst"] = water_ref(core, x["entry"])
+        for eid in g["mentions"]:
+            vid = water_ref(core, eid)
+            kg.node("WAT", core, eid, nid=vid)
+            kg.mentions[eid] = [i for i in kg.mentions[eid] if i != gid]
+    kg.edges = [x for x in kg.edges if x["src"] != x["dst"]]
     # water properties
     inflow = Counter(x["dst"] for x in kg.edges if x["type"] == "flows_into")
     for nid, n in kg.nodes.items():

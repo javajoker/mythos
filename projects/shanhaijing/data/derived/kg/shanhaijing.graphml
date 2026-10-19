@@ -337,11 +337,13 @@
 <node id="LND:女丑"><data key="type">LND</data><data key="symbol">女丑</data><data key="mentions">SHJ-07-1-013 SHJ-14-1-026</data></node>
 <node id="LND:女祭、女戚"><data key="type">LND</data><data key="symbol">女祭、女戚</data><data key="mentions">SHJ-07-1-009</data></node>
 <node id="LND:孟鳥"><data key="type">LND</data><data key="symbol">孟鳥</data><data key="mentions">SHJ-12-1-027</data></node>
+<node id="LND:山陽"><data key="type">LND</data><data key="symbol">山陽</data><data key="mentions">SHJ-13-1-036</data></node>
 <node id="LND:從淵"><data key="type">LND</data><data key="symbol">從淵</data><data key="mentions">SHJ-15-1-006</data></node>
 <node id="LND:恒山四成"><data key="type">LND</data><data key="symbol">恒山四成</data><data key="mentions">SHJ-02-3-007</data></node>
 <node id="LND:日之所入"><data key="type">LND</data><data key="symbol">日之所入</data><data key="mentions">SHJ-02-3-021</data></node>
 <node id="LND:昆侖之虛"><data key="type">LND</data><data key="symbol">昆侖之虛</data><data key="mentions">SHJ-11-1-012</data></node>
 <node id="LND:昆侖虛"><data key="type">LND</data><data key="symbol">昆侖虛</data><data key="mentions">SHJ-06-1-017 SHJ-06-1-018 SHJ-11-1-009 SHJ-11-1-011 SHJ-11-1-024 SHJ-12-1-009 SHJ-12-1-016</data></node>
+<node id="LND:晉陽城"><data key="type">LND</data><data key="symbol">晉陽城</data><data key="mentions">SHJ-13-1-035</data></node>
 <node id="LND:朝陽"><data key="type">LND</data><data key="symbol">朝陽</data><data key="mentions">SHJ-09-1-008</data></node>
 <node id="LND:机谷"><data key="type">LND</data><data key="symbol">机谷</data><data key="mentions">SHJ-05-5-002</data></node>
 <node id="LND:栗廣之野"><data key="type">LND</data><data key="symbol">栗廣之野</data><data key="mentions">SHJ-16-1-003</data></node>
@@ -354,20 +356,23 @@
 <node id="LND:沙陵"><data key="type">LND</data><data key="symbol">沙陵</data><data key="mentions">SHJ-04-2-001</data></node>
 <node id="LND:沮吳"><data key="type">LND</data><data key="symbol">沮吳</data><data key="mentions">SHJ-04-2-001</data></node>
 <node id="LND:河林"><data key="type">LND</data><data key="symbol">河林</data><data key="mentions">SHJ-05-3-001</data></node>
+<node id="LND:湘陵南海"><data key="type">LND</data><data key="symbol">湘陵南海</data><data key="mentions">SHJ-10-1-005</data></node>
 <node id="LND:溫源谷"><data key="type">LND</data><data key="symbol">溫源谷</data><data key="mentions">SHJ-14-1-027</data></node>
 <node id="LND:滅蒙鳥"><data key="type">LND</data><data key="symbol">滅蒙鳥</data><data key="mentions">SHJ-07-1-002</data></node>
-<node id="LND:焉"><data key="type">LND</data><data key="symbol">焉</data><data key="mentions">SHJ-18-1-025</data></node>
+<node id="LND:漢陽"><data key="type">LND</data><data key="symbol">漢陽</data><data key="mentions">SHJ-13-1-017</data></node>
 <node id="LND:番隅"><data key="type">LND</data><data key="symbol">番隅</data><data key="mentions">SHJ-10-1-004</data></node>
 <node id="LND:維鳥"><data key="type">LND</data><data key="symbol">維鳥</data><data key="mentions">SHJ-07-1-011</data></node>
 <node id="LND:育遺"><data key="type">LND</data><data key="symbol">育遺</data><data key="mentions">SHJ-01-3-005</data></node>
+<node id="LND:舜葬東南陬"><data key="type">LND</data><data key="symbol">舜葬東南陬</data><data key="mentions">SHJ-13-1-015</data></node>
 <node id="LND:蒼梧之野"><data key="type">LND</data><data key="symbol">蒼梧之野</data><data key="mentions">SHJ-15-1-003</data></node>
 <node id="LND:蛇谷"><data key="type">LND</data><data key="symbol">蛇谷</data><data key="mentions">SHJ-05-7-013</data></node>
-<node id="LND:蜀"><data key="type">LND</data><data key="symbol">蜀</data><data key="mentions">SHJ-13-1-023</data></node>
 <node id="LND:行昆侖之虛"><data key="type">LND</data><data key="symbol">行昆侖之虛</data><data key="mentions">SHJ-11-1-008</data></node>
+<node id="LND:衛臯"><data key="type">LND</data><data key="symbol">衛臯</data><data key="mentions">SHJ-13-1-034</data></node>
 <node id="LND:諸夭之野"><data key="type">LND</data><data key="symbol">諸夭之野</data><data key="mentions">SHJ-07-1-018</data></node>
 <node id="LND:谷"><data key="type">LND</data><data key="symbol">谷</data><data key="mentions">SHJ-01-3-010</data></node>
 <node id="LND:豎亥"><data key="type">LND</data><data key="symbol">豎亥</data><data key="mentions">SHJ-09-1-010</data></node>
 <node id="LND:豐沮玉門"><data key="type">LND</data><data key="symbol">豐沮玉門</data><data key="mentions">SHJ-16-1-015</data></node>
+<node id="LND:象郡"><data key="type">LND</data><data key="symbol">象郡</data><data key="mentions">SHJ-13-1-027</data></node>
 <node id="LND:都廣之野"><data key="type">LND</data><data key="symbol">都廣之野</data><data key="mentions">SHJ-18-1-008</data></node>
 <node id="LND:鉅燕"><data key="type">LND</data><data key="symbol">鉅燕</data><data key="mentions">SHJ-13-1-002 SHJ-13-1-003</data></node>
 <node id="LND:雚谷"><data key="type">LND</data><data key="symbol">雚谷</data><data key="mentions">SHJ-05-6-003</data></node>
@@ -462,7 +467,6 @@
 <node id="MTN:五十里曰長右之山"><data key="type">MTN</data><data key="symbol">五十里曰長右之山</data><data key="mentions">SHJ-01-2-002</data></node>
 <node id="MTN:五十里高山"><data key="type">MTN</data><data key="symbol">五十里高山</data><data key="mentions">SHJ-02-2-004</data></node>
 <node id="MTN:井陘山"><data key="type">MTN</data><data key="symbol">井陘山</data><data key="mentions">SHJ-13-1-032</data></node>
-<node id="MTN:井陘山東"><data key="type">MTN</data><data key="symbol">井陘山東</data><data key="mentions">SHJ-13-1-032</data></node>
 <node id="MTN:京山"><data key="type">MTN</data><data key="symbol">京山</data><data key="mentions">SHJ-03-3-013</data></node>
 <node id="MTN:亶爰之山"><data key="type">MTN</data><data key="symbol">亶爰之山</data><data key="mentions">SHJ-01-1-006</data></node>
 <node id="MTN:仁舉之山"><data key="type">MTN</data><data key="symbol">仁舉之山</data><data key="mentions">SHJ-05-8-021</data></node>
@@ -482,6 +486,7 @@
 <node id="MTN:兔牀之山"><data key="type">MTN</data><data key="symbol">兔牀之山</data><data key="mentions">SHJ-05-11-007</data></node>
 <node id="MTN:兩山"><data key="type">MTN</data><data key="symbol">兩山</data><data key="mentions">SHJ-03-3-009 SHJ-08-1-020 SHJ-09-1-002</data></node>
 <node id="MTN:共山"><data key="type">MTN</data><data key="symbol">共山</data><data key="mentions">SHJ-13-1-033</data></node>
+<node id="MTN:共山南東丘"><data key="type">MTN</data><data key="symbol">共山南東丘</data><data key="mentions">SHJ-13-1-033</data></node>
 <node id="MTN:几山"><data key="type">MTN</data><data key="symbol">几山</data><data key="mentions">SHJ-05-11-048 SHJ-05-11-049</data></node>
 <node id="MTN:凶犁土丘"><data key="type">MTN</data><data key="symbol">凶犁土丘</data><data key="mentions">SHJ-14-1-035</data></node>
 <node id="MTN:前山"><data key="type">MTN</data><data key="symbol">前山</data><data key="mentions">SHJ-05-11-005</data></node>
@@ -609,7 +614,7 @@
 <node id="MTN:小次之山"><data key="type">MTN</data><data key="symbol">小次之山</data><data key="mentions">SHJ-02-2-009</data></node>
 <node id="MTN:小華之山"><data key="type">MTN</data><data key="symbol">小華之山</data><data key="mentions">SHJ-02-1-004</data></node>
 <node id="MTN:少咸之山"><data key="type">MTN</data><data key="symbol">少咸之山</data><data key="mentions">SHJ-03-1-018</data></node>
-<node id="MTN:少室之山"><data key="type">MTN</data><data key="symbol">少室之山</data><data key="mentions">SHJ-05-7-009</data></node>
+<node id="MTN:少室之山"><data key="type">MTN</data><data key="symbol">少室之山</data><data key="mentions">SHJ-05-7-009 SHJ-13-1-019</data></node>
 <node id="MTN:少室山"><data key="type">MTN</data><data key="symbol">少室山</data><data key="mentions">SHJ-13-1-019</data></node>
 <node id="MTN:少山"><data key="type">MTN</data><data key="symbol">少山</data><data key="mentions">SHJ-03-3-023</data></node>
 <node id="MTN:少陘之山"><data key="type">MTN</data><data key="symbol">少陘之山</data><data key="mentions">SHJ-05-7-014</data></node>
@@ -619,7 +624,6 @@
 <node id="MTN:尾山"><data key="type">MTN</data><data key="symbol">尾山</data><data key="mentions">SHJ-15-1-008</data></node>
 <node id="MTN:居山"><data key="type">MTN</data><data key="symbol">居山</data><data key="mentions">SHJ-07-1-010 SHJ-10-1-012</data></node>
 <node id="MTN:居鍾山"><data key="type">MTN</data><data key="symbol">居鍾山</data><data key="mentions">SHJ-08-1-003</data></node>
-<node id="MTN:山陽東"><data key="type">MTN</data><data key="symbol">山陽東</data><data key="mentions">SHJ-13-1-036</data></node>
 <node id="MTN:岐山#中次九經"><data key="type">MTN</data><data key="symbol">岐山</data><data key="mentions">SHJ-05-9-009</data></node>
 <node id="MTN:岐山#中次八經"><data key="type">MTN</data><data key="symbol">岐山</data><data key="mentions">SHJ-05-8-009</data></node>
 <node id="MTN:岐山#東次三經"><data key="type">MTN</data><data key="symbol">岐山</data><data key="mentions">SHJ-04-3-002</data></node>
@@ -807,7 +811,6 @@
 <node id="MTN:湖灌之山"><data key="type">MTN</data><data key="symbol">湖灌之山</data><data key="mentions">SHJ-03-2-014</data></node>
 <node id="MTN:湯伐夏桀于章山"><data key="type">MTN</data><data key="symbol">湯伐夏桀于章山</data><data key="mentions">SHJ-16-1-041</data></node>
 <node id="MTN:漆吳之山"><data key="type">MTN</data><data key="symbol">漆吳之山</data><data key="mentions">SHJ-01-2-017 SHJ-01-2-018</data></node>
-<node id="MTN:漢陽"><data key="type">MTN</data><data key="symbol">漢陽</data><data key="mentions">SHJ-13-1-017</data></node>
 <node id="MTN:潏山"><data key="type">MTN</data><data key="symbol">潏山</data><data key="mentions">SHJ-14-1-008</data></node>
 <node id="MTN:潘侯之山"><data key="type">MTN</data><data key="symbol">潘侯之山</data><data key="mentions">SHJ-03-1-014</data></node>
 <node id="MTN:濟山"><data key="type">MTN</data><data key="symbol">濟山</data><data key="mentions">SHJ-05-2-010</data></node>
@@ -899,7 +902,6 @@
 <node id="MTN:空桑之山#北次三經"><data key="type">MTN</data><data key="symbol">空桑之山</data><data key="mentions">SHJ-03-3-033</data></node>
 <node id="MTN:空桑之山#東次二經"><data key="type">MTN</data><data key="symbol">空桑之山</data><data key="mentions">SHJ-04-2-001 SHJ-04-2-018</data></node>
 <node id="MTN:窮山"><data key="type">MTN</data><data key="symbol">窮山</data><data key="mentions">SHJ-07-1-017</data></node>
-<node id="MTN:窳北"><data key="type">MTN</data><data key="symbol">窳北</data><data key="mentions">SHJ-13-1-031</data></node>
 <node id="MTN:章尾山"><data key="type">MTN</data><data key="symbol">章尾山</data><data key="mentions">SHJ-17-1-032</data></node>
 <node id="MTN:章山"><data key="type">MTN</data><data key="symbol">章山</data><data key="mentions">SHJ-05-11-036 SHJ-17-1-029</data></node>
 <node id="MTN:章莪之山"><data key="type">MTN</data><data key="symbol">章莪之山</data><data key="mentions">SHJ-02-3-015</data></node>
@@ -991,7 +993,6 @@
 <node id="MTN:蜮山"><data key="type">MTN</data><data key="symbol">蜮山</data><data key="mentions">SHJ-15-1-018</data></node>
 <node id="MTN:融父山"><data key="type">MTN</data><data key="symbol">融父山</data><data key="mentions">SHJ-17-1-023</data></node>
 <node id="MTN:蠱尾之山"><data key="type">MTN</data><data key="symbol">蠱尾之山</data><data key="mentions">SHJ-05-5-013</data></node>
-<node id="MTN:衛臯東"><data key="type">MTN</data><data key="symbol">衛臯東</data><data key="mentions">SHJ-13-1-034</data></node>
 <node id="MTN:衡山#中次八經"><data key="type">MTN</data><data key="symbol">衡山</data><data key="mentions">SHJ-05-8-015</data></node>
 <node id="MTN:衡山#中次十一經"><data key="type">MTN</data><data key="symbol">衡山</data><data key="mentions">SHJ-05-11-032</data></node>
 <node id="MTN:衡石山"><data key="type">MTN</data><data key="symbol">衡石山</data><data key="mentions">SHJ-17-1-030</data></node>
@@ -1009,7 +1010,6 @@
 <node id="MTN:讙山"><data key="type">MTN</data><data key="symbol">讙山</data><data key="mentions">SHJ-05-8-020</data></node>
 <node id="MTN:讙舉之山"><data key="type">MTN</data><data key="symbol">讙舉之山</data><data key="mentions">SHJ-05-4-009</data></node>
 <node id="MTN:豐山"><data key="type">MTN</data><data key="symbol">豐山</data><data key="mentions">SHJ-05-11-006 SHJ-05-11-033</data></node>
-<node id="MTN:象郡而西南"><data key="type">MTN</data><data key="symbol">象郡而西南</data><data key="mentions">SHJ-13-1-027</data></node>
 <node id="MTN:豪山"><data key="type">MTN</data><data key="symbol">豪山</data><data key="mentions">SHJ-05-2-003</data></node>
 <node id="MTN:賁聞之山"><data key="type">MTN</data><data key="symbol">賁聞之山</data><data key="mentions">SHJ-03-3-007</data></node>
 <node id="MTN:賈山"><data key="type">MTN</data><data key="symbol">賈山</data><data key="mentions">SHJ-15-1-008</data></node>
@@ -1612,30 +1612,25 @@
 <node id="WAT:三江首江"><data key="type">WAT</data><data key="symbol">三江首江</data><data key="mentions">SHJ-13-1-011</data></node>
 <node id="WAT:丘時"><data key="type">WAT</data><data key="symbol">丘時</data><data key="mentions">SHJ-02-3-007</data></node>
 <node id="WAT:丘西有沈淵"><data key="type">WAT</data><data key="symbol">丘西有沈淵</data><data key="mentions">SHJ-17-1-001</data></node>
-<node id="WAT:丹"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-01-3-003 SHJ-02-1-008 SHJ-02-1-012 SHJ-02-3-004 SHJ-03-3-014</data></node>
 <node id="WAT:丹→河"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-03-3-014</data></node>
-<node id="WAT:丹→洛"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-02-1-008</data></node>
+<node id="WAT:丹→洛"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-02-1-008 SHJ-02-3-004 SHJ-02-1-012</data></node>
 <node id="WAT:丹→渤海"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-01-3-003</data></node>
 <node id="WAT:丹→渭"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-02-1-012</data></node>
-<node id="WAT:丹→稷澤"><data key="type">WAT</data><data key="symbol">丹</data><data key="mentions">SHJ-02-3-004</data></node>
 <node id="WAT:丹林"><data key="type">WAT</data><data key="symbol">丹林</data><data key="mentions">SHJ-03-3-019</data></node>
 <node id="WAT:九"><data key="type">WAT</data><data key="symbol">九</data><data key="mentions">SHJ-05-3-005</data></node>
 <node id="WAT:乳"><data key="type">WAT</data><data key="symbol">乳</data><data key="mentions">SHJ-05-5-012</data></node>
 <node id="WAT:交瀟湘之淵"><data key="type">WAT</data><data key="symbol">交瀟湘之淵</data><data key="mentions">SHJ-05-12-007</data></node>
 <node id="WAT:交觴"><data key="type">WAT</data><data key="symbol">交觴</data><data key="mentions">SHJ-05-6-003</data></node>
-<node id="WAT:伊"><data key="type">WAT</data><data key="symbol">伊</data><data key="mentions">SHJ-03-1-006 SHJ-05-2-002 SHJ-05-2-004 SHJ-05-2-005 SHJ-05-2-007 SHJ-05-2-009 SHJ-05-4-003 SHJ-05-7-006 SHJ-05-7-007 SHJ-05-7-008</data></node>
 <node id="WAT:伊→河"><data key="type">WAT</data><data key="symbol">伊</data><data key="mentions">SHJ-03-1-006</data></node>
-<node id="WAT:伊→洛"><data key="type">WAT</data><data key="symbol">伊</data><data key="mentions">SHJ-05-2-009</data></node>
+<node id="WAT:伊→洛"><data key="type">WAT</data><data key="symbol">伊</data><data key="mentions">SHJ-05-2-002 SHJ-05-2-004 SHJ-05-2-005 SHJ-05-2-007 SHJ-05-2-009 SHJ-05-4-003 SHJ-05-7-007 SHJ-05-7-008 SHJ-05-7-006</data></node>
 <node id="WAT:休"><data key="type">WAT</data><data key="symbol">休</data><data key="mentions">SHJ-05-7-009</data></node>
 <node id="WAT:佐"><data key="type">WAT</data><data key="symbol">佐</data><data key="mentions">SHJ-01-3-013</data></node>
 <node id="WAT:余澤"><data key="type">WAT</data><data key="symbol">余澤</data><data key="mentions">SHJ-04-2-005</data></node>
 <node id="WAT:來需"><data key="type">WAT</data><data key="symbol">來需</data><data key="mentions">SHJ-05-7-008</data></node>
 <node id="WAT:俞隨"><data key="type">WAT</data><data key="symbol">俞隨</data><data key="mentions">SHJ-05-6-003</data></node>
 <node id="WAT:倫"><data key="type">WAT</data><data key="symbol">倫</data><data key="mentions">SHJ-03-3-043</data></node>
-<node id="WAT:共"><data key="type">WAT</data><data key="symbol">共</data><data key="mentions">SHJ-03-3-017 SHJ-05-1-001 SHJ-05-6-009</data></node>
-<node id="WAT:共→河"><data key="type">WAT</data><data key="symbol">共</data><data key="mentions">SHJ-05-1-001</data></node>
+<node id="WAT:共→河"><data key="type">WAT</data><data key="symbol">共</data><data key="mentions">SHJ-03-3-017 SHJ-05-1-001</data></node>
 <node id="WAT:共→洛"><data key="type">WAT</data><data key="symbol">共</data><data key="mentions">SHJ-05-6-009</data></node>
-<node id="WAT:共→虖池"><data key="type">WAT</data><data key="symbol">共</data><data key="mentions">SHJ-03-3-017</data></node>
 <node id="WAT:其陽狂"><data key="type">WAT</data><data key="symbol">其陽狂</data><data key="mentions">SHJ-05-7-007</data></node>
 <node id="WAT:具區"><data key="type">WAT</data><data key="symbol">具區</data><data key="mentions">SHJ-01-2-007</data></node>
 <node id="WAT:决决"><data key="type">WAT</data><data key="symbol">决决</data><data key="mentions">SHJ-03-3-002</data></node>
@@ -1656,10 +1651,8 @@
 <node id="WAT:厭染"><data key="type">WAT</data><data key="symbol">厭染</data><data key="mentions">SHJ-05-6-010</data></node>
 <node id="WAT:合"><data key="type">WAT</data><data key="symbol">合</data><data key="mentions">SHJ-05-7-008</data></node>
 <node id="WAT:器難"><data key="type">WAT</data><data key="symbol">器難</data><data key="mentions">SHJ-05-7-014</data></node>
-<node id="WAT:嚻"><data key="type">WAT</data><data key="symbol">嚻</data><data key="mentions">SHJ-02-1-014 SHJ-03-1-005 SHJ-03-1-020 SHJ-03-1-021</data></node>
-<node id="WAT:嚻→河"><data key="type">WAT</data><data key="symbol">嚻</data><data key="mentions">SHJ-03-1-005</data></node>
+<node id="WAT:嚻→河"><data key="type">WAT</data><data key="symbol">嚻</data><data key="mentions">SHJ-02-1-014 SHJ-03-1-005 SHJ-03-1-020 SHJ-03-1-021</data></node>
 <node id="WAT:嚻→海"><data key="type">WAT</data><data key="symbol">嚻</data><data key="mentions">SHJ-03-1-021</data></node>
-<node id="WAT:嚻→湯"><data key="type">WAT</data><data key="symbol">嚻</data><data key="mentions">SHJ-02-1-014</data></node>
 <node id="WAT:大澤"><data key="type">WAT</data><data key="symbol">大澤</data><data key="mentions">SHJ-02-3-007 SHJ-03-3-031 SHJ-11-1-003 SHJ-12-1-020 SHJ-12-1-024 SHJ-16-1-006 SHJ-17-1-011</data></node>
 <node id="WAT:太"><data key="type">WAT</data><data key="symbol">太</data><data key="mentions">SHJ-05-7-015</data></node>
 <node id="WAT:夾"><data key="type">WAT</data><data key="symbol">夾</data><data key="mentions">SHJ-02-4-010</data></node>
@@ -1677,6 +1670,7 @@
 <node id="WAT:少澤"><data key="type">WAT</data><data key="symbol">少澤</data><data key="mentions">SHJ-03-3-010</data></node>
 <node id="WAT:尸"><data key="type">WAT</data><data key="symbol">尸</data><data key="mentions">SHJ-05-5-011</data></node>
 <node id="WAT:展"><data key="type">WAT</data><data key="symbol">展</data><data key="mentions">SHJ-04-4-002</data></node>
+<node id="WAT:岷三江首江"><data key="type">WAT</data><data key="symbol">岷三江首江</data><data key="mentions">SHJ-13-1-011</data></node>
 <node id="WAT:嶧皋"><data key="type">WAT</data><data key="symbol">嶧皋</data><data key="mentions">SHJ-04-2-003</data></node>
 <node id="WAT:帝囷"><data key="type">WAT</data><data key="symbol">帝囷</data><data key="mentions">SHJ-05-11-003</data></node>
 <node id="WAT:帝苑"><data key="type">WAT</data><data key="symbol">帝苑</data><data key="mentions">SHJ-05-11-020</data></node>
@@ -1734,9 +1728,7 @@
 <node id="WAT:汔"><data key="type">WAT</data><data key="symbol">汔</data><data key="mentions">SHJ-15-1-008</data></node>
 <node id="WAT:汜"><data key="type">WAT</data><data key="symbol">汜</data><data key="mentions">SHJ-03-3-019 SHJ-05-7-013</data></node>
 <node id="WAT:汝"><data key="type">WAT</data><data key="symbol">汝</data><data key="mentions">SHJ-05-11-022 SHJ-13-1-020</data></node>
-<node id="WAT:江"><data key="type">WAT</data><data key="symbol">江</data><data key="mentions">SHJ-05-9-002 SHJ-05-9-003 SHJ-05-9-004 SHJ-18-1-038 SHJ-04-1-011 SHJ-05-8-001 SHJ-05-9-007 SHJ-05-9-008 SHJ-05-9-009 SHJ-05-9-011 SHJ-13-1-017 SHJ-13-1-023 SHJ-13-1-025</data></node>
-<node id="WAT:江→江"><data key="type">WAT</data><data key="symbol">江</data><data key="mentions">SHJ-05-9-003 SHJ-05-9-004</data></node>
-<node id="WAT:江→海"><data key="type">WAT</data><data key="symbol">江</data><data key="mentions">SHJ-05-9-002</data></node>
+<node id="WAT:江"><data key="type">WAT</data><data key="symbol">江</data><data key="mentions">SHJ-05-9-002 SHJ-05-9-003 SHJ-05-9-004 SHJ-18-1-038 SHJ-04-1-011 SHJ-05-8-001 SHJ-05-9-007 SHJ-05-9-008 SHJ-05-9-009 SHJ-05-9-011 SHJ-13-1-013 SHJ-13-1-017 SHJ-13-1-023 SHJ-13-1-025</data></node>
 <node id="WAT:江淵"><data key="type">WAT</data><data key="symbol">江淵</data><data key="mentions">SHJ-05-12-006 SHJ-05-12-007</data></node>
 <node id="WAT:池"><data key="type">WAT</data><data key="symbol">池</data><data key="mentions">SHJ-16-1-033 SHJ-17-1-017</data></node>
 <node id="WAT:汸"><data key="type">WAT</data><data key="symbol">汸</data><data key="mentions">SHJ-01-1-009</data></node>
@@ -1750,7 +1742,6 @@
 <node id="WAT:泑"><data key="type">WAT</data><data key="symbol">泑</data><data key="mentions">SHJ-02-3-002 SHJ-02-3-007 SHJ-03-1-001</data></node>
 <node id="WAT:泑澤"><data key="type">WAT</data><data key="symbol">泑澤</data><data key="mentions">SHJ-02-3-003 SHJ-03-1-010 SHJ-03-1-013 SHJ-03-1-017</data></node>
 <node id="WAT:泗"><data key="type">WAT</data><data key="symbol">泗</data><data key="mentions">SHJ-13-1-026</data></node>
-<node id="WAT:泚"><data key="type">WAT</data><data key="symbol">泚</data><data key="mentions">SHJ-02-3-002 SHJ-03-1-009 SHJ-04-4-003</data></node>
 <node id="WAT:泚→河"><data key="type">WAT</data><data key="symbol">泚</data><data key="mentions">SHJ-03-1-009</data></node>
 <node id="WAT:泚→泑"><data key="type">WAT</data><data key="symbol">泚</data><data key="mentions">SHJ-02-3-002</data></node>
 <node id="WAT:泚→海"><data key="type">WAT</data><data key="symbol">泚</data><data key="mentions">SHJ-04-4-003</data></node>
@@ -1761,28 +1752,22 @@
 <node id="WAT:泿"><data key="type">WAT</data><data key="symbol">泿</data><data key="mentions">SHJ-01-3-002</data></node>
 <node id="WAT:洈"><data key="type">WAT</data><data key="symbol">洈</data><data key="mentions">SHJ-05-8-005</data></node>
 <node id="WAT:洋"><data key="type">WAT</data><data key="symbol">洋</data><data key="mentions">SHJ-02-3-008 SHJ-02-4-017 SHJ-11-1-015</data></node>
-<node id="WAT:洛"><data key="type">WAT</data><data key="symbol">洛</data><data key="mentions">SHJ-02-1-008 SHJ-02-4-010 SHJ-02-4-014 SHJ-05-4-009 SHJ-05-5-011 SHJ-05-6-014 SHJ-05-9-001 SHJ-13-1-030 SHJ-02-4-001 SHJ-02-4-002 SHJ-02-4-003 SHJ-05-2-009 SHJ-05-4-001 SHJ-05-4-002 SHJ-05-4-005 SHJ-05-4-007 SHJ-05-5-012 SHJ-05-5-013 SHJ-05-6-003 SHJ-05-6-004 SHJ-05-6-005 SHJ-05-6-006 SHJ-05-6-008 SHJ-05-6-009 SHJ-05-6-010 SHJ-05-7-008 SHJ-05-7-009</data></node>
-<node id="WAT:洛→河"><data key="type">WAT</data><data key="symbol">洛</data><data key="mentions">SHJ-02-4-014 SHJ-13-1-030</data></node>
+<node id="WAT:洛→河"><data key="type">WAT</data><data key="symbol">洛</data><data key="mentions">SHJ-02-1-008 SHJ-02-4-001 SHJ-02-4-002 SHJ-02-4-003 SHJ-02-4-014 SHJ-05-2-009 SHJ-05-4-001 SHJ-05-4-002 SHJ-05-4-005 SHJ-05-4-007 SHJ-05-4-009 SHJ-05-5-011 SHJ-05-5-012 SHJ-05-5-013 SHJ-05-6-003 SHJ-05-6-004 SHJ-05-6-005 SHJ-05-6-006 SHJ-05-6-008 SHJ-05-6-009 SHJ-05-6-010 SHJ-05-6-014 SHJ-05-7-008 SHJ-05-7-009 SHJ-13-1-030 SHJ-02-4-010 SHJ-05-9-001</data></node>
 <node id="WAT:洛→渭"><data key="type">WAT</data><data key="symbol">洛</data><data key="mentions">SHJ-02-4-010</data></node>
-<node id="WAT:洛→玄扈"><data key="type">WAT</data><data key="symbol">洛</data><data key="mentions">SHJ-05-4-009</data></node>
 <node id="WAT:洧"><data key="type">WAT</data><data key="symbol">洧</data><data key="mentions">SHJ-03-3-027 SHJ-03-3-030</data></node>
 <node id="WAT:洱"><data key="type">WAT</data><data key="symbol">洱</data><data key="mentions">SHJ-02-4-003</data></node>
 <node id="WAT:洵"><data key="type">WAT</data><data key="symbol">洵</data><data key="mentions">SHJ-01-2-013 SHJ-02-3-012</data></node>
-<node id="WAT:洵→閼之澤"><data key="type">WAT</data><data key="symbol">洵</data><data key="mentions">SHJ-01-2-013</data></node>
-<node id="WAT:洵→黑"><data key="type">WAT</data><data key="symbol">洵</data><data key="mentions">SHJ-02-3-012</data></node>
 <node id="WAT:洹"><data key="type">WAT</data><data key="symbol">洹</data><data key="mentions">SHJ-03-3-021</data></node>
 <node id="WAT:流沙"><data key="type">WAT</data><data key="symbol">流沙</data><data key="mentions">SHJ-02-3-006</data></node>
 <node id="WAT:浮"><data key="type">WAT</data><data key="symbol">浮</data><data key="mentions">SHJ-03-2-007</data></node>
 <node id="WAT:浮濠"><data key="type">WAT</data><data key="symbol">浮濠</data><data key="mentions">SHJ-05-4-007</data></node>
 <node id="WAT:浴"><data key="type">WAT</data><data key="symbol">浴</data><data key="mentions">SHJ-02-2-002 SHJ-03-3-047</data></node>
-<node id="WAT:海"><data key="type">WAT</data><data key="symbol">海</data><data key="mentions">SHJ-01-1-001 SHJ-01-2-014 SHJ-01-3-002 SHJ-01-3-009 SHJ-01-3-013 SHJ-02-1-019 SHJ-02-3-007 SHJ-02-4-019 SHJ-03-1-021 SHJ-03-2-014 SHJ-03-3-025 SHJ-04-1-001 SHJ-04-1-005 SHJ-04-1-006 SHJ-04-3-009 SHJ-04-4-001 SHJ-04-4-003 SHJ-05-9-002 SHJ-06-1-001 SHJ-06-1-002 SHJ-06-1-021 SHJ-07-1-001 SHJ-08-1-001 SHJ-08-1-009 SHJ-09-1-001 SHJ-10-1-001 SHJ-10-1-002 SHJ-10-1-003 SHJ-11-1-001 SHJ-11-1-008 SHJ-11-1-009 SHJ-11-1-012 SHJ-11-1-014 SHJ-11-1-015 SHJ-12-1-001 SHJ-13-1-001 SHJ-13-1-003 SHJ-13-1-004 SHJ-13-1-006 SHJ-13-1-007 SHJ-13-1-008 SHJ-13-1-009 SHJ-13-1-011 SHJ-13-1-012 SHJ-13-1-014 SHJ-13-1-028 SHJ-13-1-037 SHJ-13-1-038 SHJ-13-1-039 SHJ-13-1-040 SHJ-13-1-041 SHJ-13-1-042 SHJ-13-1-043 SHJ-14-1-023 SHJ-14-1-026 SHJ-14-1-036 SHJ-15-1-016 SHJ-15-1-025 SHJ-15-1-026 SHJ-15-1-027 SHJ-15-1-029 SHJ-16-1-017 SHJ-17-1-009 SHJ-17-1-014 SHJ-17-1-019 SHJ-18-1-025</data></node>
+<node id="WAT:海"><data key="type">WAT</data><data key="symbol">海</data><data key="mentions">SHJ-01-1-001 SHJ-01-2-014 SHJ-01-3-002 SHJ-01-3-009 SHJ-01-3-013 SHJ-02-1-019 SHJ-02-3-007 SHJ-02-4-019 SHJ-03-1-021 SHJ-03-2-014 SHJ-03-3-025 SHJ-04-1-001 SHJ-04-1-005 SHJ-04-1-006 SHJ-04-3-009 SHJ-04-4-001 SHJ-04-4-003 SHJ-05-9-002 SHJ-06-1-001 SHJ-06-1-002 SHJ-06-1-021 SHJ-07-1-001 SHJ-08-1-001 SHJ-08-1-009 SHJ-09-1-001 SHJ-10-1-001 SHJ-10-1-002 SHJ-10-1-003 SHJ-11-1-001 SHJ-11-1-008 SHJ-11-1-009 SHJ-11-1-012 SHJ-11-1-014 SHJ-11-1-015 SHJ-12-1-001 SHJ-13-1-001 SHJ-13-1-003 SHJ-13-1-004 SHJ-13-1-006 SHJ-13-1-007 SHJ-13-1-008 SHJ-13-1-009 SHJ-13-1-011 SHJ-13-1-012 SHJ-13-1-014 SHJ-13-1-028 SHJ-13-1-037 SHJ-13-1-038 SHJ-13-1-039 SHJ-13-1-040 SHJ-13-1-041 SHJ-13-1-042 SHJ-13-1-043 SHJ-14-1-023 SHJ-14-1-026 SHJ-14-1-036 SHJ-15-1-016 SHJ-15-1-025 SHJ-15-1-026 SHJ-15-1-027 SHJ-15-1-029 SHJ-16-1-017 SHJ-17-1-009 SHJ-17-1-014 SHJ-17-1-019 SHJ-18-1-025 SHJ-13-1-026 SHJ-13-1-027</data></node>
 <node id="WAT:海澤"><data key="type">WAT</data><data key="symbol">海澤</data><data key="mentions">SHJ-03-3-025</data></node>
 <node id="WAT:涂"><data key="type">WAT</data><data key="symbol">涂</data><data key="mentions">SHJ-02-1-016</data></node>
 <node id="WAT:涂吾"><data key="type">WAT</data><data key="symbol">涂吾</data><data key="mentions">SHJ-03-1-024</data></node>
 <node id="WAT:涇"><data key="type">WAT</data><data key="symbol">涇</data><data key="mentions">SHJ-02-2-004 SHJ-02-2-006 SHJ-02-4-012 SHJ-13-1-021</data></node>
 <node id="WAT:涔"><data key="type">WAT</data><data key="symbol">涔</data><data key="mentions">SHJ-02-1-013 SHJ-03-2-011 SHJ-04-2-009</data></node>
-<node id="WAT:涔→渭"><data key="type">WAT</data><data key="symbol">涔</data><data key="mentions">SHJ-02-1-013</data></node>
-<node id="WAT:涔→邛澤"><data key="type">WAT</data><data key="symbol">涔</data><data key="mentions">SHJ-03-2-011</data></node>
 <node id="WAT:液女"><data key="type">WAT</data><data key="symbol">液女</data><data key="mentions">SHJ-03-3-034</data></node>
 <node id="WAT:涴"><data key="type">WAT</data><data key="symbol">涴</data><data key="mentions">SHJ-02-4-015</data></node>
 <node id="WAT:淅江"><data key="type">WAT</data><data key="symbol">淅江</data><data key="mentions">SHJ-13-1-012</data></node>
@@ -1794,7 +1779,6 @@
 <node id="WAT:淵"><data key="type">WAT</data><data key="symbol">淵</data><data key="mentions">SHJ-15-1-006 SHJ-16-1-037</data></node>
 <node id="WAT:清"><data key="type">WAT</data><data key="symbol">清</data><data key="mentions">SHJ-02-1-013</data></node>
 <node id="WAT:清漳"><data key="type">WAT</data><data key="symbol">清漳</data><data key="mentions">SHJ-03-3-023</data></node>
-<node id="WAT:減"><data key="type">WAT</data><data key="symbol">減</data><data key="mentions">SHJ-04-1-005 SHJ-05-9-009</data></node>
 <node id="WAT:減→江"><data key="type">WAT</data><data key="symbol">減</data><data key="mentions">SHJ-05-9-009</data></node>
 <node id="WAT:減→海"><data key="type">WAT</data><data key="symbol">減</data><data key="mentions">SHJ-04-1-005</data></node>
 <node id="WAT:渠豬"><data key="type">WAT</data><data key="symbol">渠豬</data><data key="mentions">SHJ-05-1-003</data></node>
@@ -1802,8 +1786,6 @@
 <node id="WAT:渭"><data key="type">WAT</data><data key="symbol">渭</data><data key="mentions">SHJ-02-4-018 SHJ-13-1-022 SHJ-02-1-002 SHJ-02-1-005 SHJ-02-1-008 SHJ-02-1-010 SHJ-02-1-011 SHJ-02-1-012 SHJ-02-1-013 SHJ-02-2-003 SHJ-02-2-004 SHJ-02-4-010 SHJ-02-4-012 SHJ-02-4-013</data></node>
 <node id="WAT:湍"><data key="type">WAT</data><data key="symbol">湍</data><data key="mentions">SHJ-05-11-001</data></node>
 <node id="WAT:湖"><data key="type">WAT</data><data key="symbol">湖</data><data key="mentions">SHJ-04-1-002 SHJ-04-1-003 SHJ-05-6-013</data></node>
-<node id="WAT:湖→河"><data key="type">WAT</data><data key="symbol">湖</data><data key="mentions">SHJ-05-6-013</data></node>
-<node id="WAT:湖→食"><data key="type">WAT</data><data key="symbol">湖</data><data key="mentions">SHJ-04-1-002</data></node>
 <node id="WAT:湖澤"><data key="type">WAT</data><data key="symbol">湖澤</data><data key="mentions">SHJ-04-2-017</data></node>
 <node id="WAT:湖灌"><data key="type">WAT</data><data key="symbol">湖灌</data><data key="mentions">SHJ-03-2-014</data></node>
 <node id="WAT:湘"><data key="type">WAT</data><data key="symbol">湘</data><data key="mentions">SHJ-10-1-007 SHJ-13-1-015</data></node>
@@ -1820,7 +1802,6 @@
 <node id="WAT:滑"><data key="type">WAT</data><data key="symbol">滑</data><data key="mentions">SHJ-03-1-002</data></node>
 <node id="WAT:滔雕"><data key="type">WAT</data><data key="symbol">滔雕</data><data key="mentions">SHJ-05-4-005</data></node>
 <node id="WAT:滱"><data key="type">WAT</data><data key="symbol">滱</data><data key="mentions">SHJ-03-3-037</data></node>
-<node id="WAT:滽滽"><data key="type">WAT</data><data key="symbol">滽滽</data><data key="mentions">SHJ-05-3-004 SHJ-05-4-003</data></node>
 <node id="WAT:滽滽→伊"><data key="type">WAT</data><data key="symbol">滽滽</data><data key="mentions">SHJ-05-4-003</data></node>
 <node id="WAT:滽滽→河"><data key="type">WAT</data><data key="symbol">滽滽</data><data key="mentions">SHJ-05-3-004</data></node>
 <node id="WAT:漂"><data key="type">WAT</data><data key="symbol">漂</data><data key="mentions">SHJ-15-1-008</data></node>
@@ -1829,10 +1810,8 @@
 <node id="WAT:漊液"><data key="type">WAT</data><data key="symbol">漊液</data><data key="mentions">SHJ-03-3-036</data></node>
 <node id="WAT:漢"><data key="type">WAT</data><data key="symbol">漢</data><data key="mentions">SHJ-02-1-013 SHJ-02-1-014 SHJ-02-4-018 SHJ-12-1-026 SHJ-13-1-016 SHJ-05-11-001 SHJ-05-11-010</data></node>
 <node id="WAT:漨"><data key="type">WAT</data><data key="symbol">漨</data><data key="mentions">SHJ-03-1-001</data></node>
-<node id="WAT:漳"><data key="type">WAT</data><data key="symbol">漳</data><data key="mentions">SHJ-03-3-022 SHJ-05-8-002 SHJ-13-1-036 SHJ-05-8-005</data></node>
-<node id="WAT:漳→河"><data key="type">WAT</data><data key="symbol">漳</data><data key="mentions">SHJ-03-3-022</data></node>
+<node id="WAT:漳→河"><data key="type">WAT</data><data key="symbol">漳</data><data key="mentions">SHJ-03-3-022 SHJ-05-8-002 SHJ-05-8-005</data></node>
 <node id="WAT:漳→渤海"><data key="type">WAT</data><data key="symbol">漳</data><data key="mentions">SHJ-13-1-036</data></node>
-<node id="WAT:漳→雎"><data key="type">WAT</data><data key="symbol">漳</data><data key="mentions">SHJ-05-8-002</data></node>
 <node id="WAT:漳淵"><data key="type">WAT</data><data key="symbol">漳淵</data><data key="mentions">SHJ-05-8-008</data></node>
 <node id="WAT:潁"><data key="type">WAT</data><data key="symbol">潁</data><data key="mentions">SHJ-13-1-019</data></node>
 <node id="WAT:潏"><data key="type">WAT</data><data key="symbol">潏</data><data key="mentions">SHJ-05-1-011</data></node>
@@ -1845,18 +1824,15 @@
 <node id="WAT:澤"><data key="type">WAT</data><data key="symbol">澤</data><data key="mentions">SHJ-04-1-007 SHJ-04-1-008</data></node>
 <node id="WAT:澤更"><data key="type">WAT</data><data key="symbol">澤更</data><data key="mentions">SHJ-01-2-016</data></node>
 <node id="WAT:澧"><data key="type">WAT</data><data key="symbol">澧</data><data key="mentions">SHJ-04-2-005 SHJ-05-11-030 SHJ-15-1-008</data></node>
-<node id="WAT:澧→余澤"><data key="type">WAT</data><data key="symbol">澧</data><data key="mentions">SHJ-04-2-005</data></node>
-<node id="WAT:澧→視"><data key="type">WAT</data><data key="symbol">澧</data><data key="mentions">SHJ-05-11-030</data></node>
 <node id="WAT:激"><data key="type">WAT</data><data key="symbol">激</data><data key="mentions">SHJ-04-1-012</data></node>
 <node id="WAT:激女"><data key="type">WAT</data><data key="symbol">激女</data><data key="mentions">SHJ-04-2-003</data></node>
 <node id="WAT:濁浴"><data key="type">WAT</data><data key="symbol">濁浴</data><data key="mentions">SHJ-02-3-016</data></node>
 <node id="WAT:濁漳"><data key="type">WAT</data><data key="symbol">濁漳</data><data key="mentions">SHJ-03-3-023</data></node>
 <node id="WAT:濁澤"><data key="type">WAT</data><data key="symbol">濁澤</data><data key="mentions">SHJ-02-3-004</data></node>
 <node id="WAT:濛"><data key="type">WAT</data><data key="symbol">濛</data><data key="mentions">SHJ-02-4-017 SHJ-13-1-017</data></node>
-<node id="WAT:濛→江"><data key="type">WAT</data><data key="symbol">濛</data><data key="mentions">SHJ-13-1-017</data></node>
-<node id="WAT:濛→洋"><data key="type">WAT</data><data key="symbol">濛</data><data key="mentions">SHJ-02-4-017</data></node>
 <node id="WAT:濝"><data key="type">WAT</data><data key="symbol">濝</data><data key="mentions">SHJ-03-3-020</data></node>
-<node id="WAT:濟"><data key="type">WAT</data><data key="symbol">濟</data><data key="mentions">SHJ-05-11-010 SHJ-13-1-033 SHJ-05-11-001</data></node>
+<node id="WAT:濟→渤海"><data key="type">WAT</data><data key="symbol">濟</data><data key="mentions">SHJ-13-1-033</data></node>
+<node id="WAT:濟→漢"><data key="type">WAT</data><data key="symbol">濟</data><data key="mentions">SHJ-05-11-001 SHJ-05-11-010</data></node>
 <node id="WAT:濩"><data key="type">WAT</data><data key="symbol">濩</data><data key="mentions">SHJ-02-1-002</data></node>
 <node id="WAT:濩濩"><data key="type">WAT</data><data key="symbol">濩濩</data><data key="mentions">SHJ-03-3-035</data></node>
 <node id="WAT:濫"><data key="type">WAT</data><data key="symbol">濫</data><data key="mentions">SHJ-02-4-018</data></node>
@@ -1898,21 +1874,13 @@
 <node id="WAT:繩"><data key="type">WAT</data><data key="symbol">繩</data><data key="mentions">SHJ-03-3-044</data></node>
 <node id="WAT:肆"><data key="type">WAT</data><data key="symbol">肆</data><data key="mentions">SHJ-13-1-028 SHJ-13-1-029</data></node>
 <node id="WAT:肥"><data key="type">WAT</data><data key="symbol">肥</data><data key="mentions">SHJ-03-3-015 SHJ-03-3-031</data></node>
-<node id="WAT:肥→牀"><data key="type">WAT</data><data key="symbol">肥</data><data key="mentions">SHJ-03-3-015</data></node>
-<node id="WAT:肥→皋澤"><data key="type">WAT</data><data key="symbol">肥</data><data key="mentions">SHJ-03-3-031</data></node>
 <node id="WAT:脩"><data key="type">WAT</data><data key="symbol">脩</data><data key="mentions">SHJ-03-2-012</data></node>
 <node id="WAT:臯"><data key="type">WAT</data><data key="symbol">臯</data><data key="mentions">SHJ-05-11-036</data></node>
 <node id="WAT:般"><data key="type">WAT</data><data key="symbol">般</data><data key="mentions">SHJ-03-3-039</data></node>
 <node id="WAT:芘湖"><data key="type">WAT</data><data key="symbol">芘湖</data><data key="mentions">SHJ-03-1-003</data></node>
 <node id="WAT:苕"><data key="type">WAT</data><data key="symbol">苕</data><data key="mentions">SHJ-01-2-007 SHJ-02-2-006 SHJ-02-4-019</data></node>
-<node id="WAT:苕→具區"><data key="type">WAT</data><data key="symbol">苕</data><data key="mentions">SHJ-01-2-007</data></node>
-<node id="WAT:苕→海"><data key="type">WAT</data><data key="symbol">苕</data><data key="mentions">SHJ-02-4-019</data></node>
-<node id="WAT:苕→涇"><data key="type">WAT</data><data key="symbol">苕</data><data key="mentions">SHJ-02-2-006</data></node>
 <node id="WAT:若"><data key="type">WAT</data><data key="symbol">若</data><data key="mentions">SHJ-18-1-009</data></node>
 <node id="WAT:英"><data key="type">WAT</data><data key="symbol">英</data><data key="mentions">SHJ-01-1-008 SHJ-01-2-001 SHJ-02-3-020</data></node>
-<node id="WAT:英→即翼之澤"><data key="type">WAT</data><data key="symbol">英</data><data key="mentions">SHJ-01-1-008</data></node>
-<node id="WAT:英→湯谷"><data key="type">WAT</data><data key="symbol">英</data><data key="mentions">SHJ-02-3-020</data></node>
-<node id="WAT:英→赤"><data key="type">WAT</data><data key="symbol">英</data><data key="mentions">SHJ-01-2-001</data></node>
 <node id="WAT:菑"><data key="type">WAT</data><data key="symbol">菑</data><data key="mentions">SHJ-05-6-012</data></node>
 <node id="WAT:葌"><data key="type">WAT</data><data key="symbol">葌</data><data key="mentions">SHJ-05-2-007</data></node>
 <node id="WAT:蒲𪈘"><data key="type">WAT</data><data key="symbol">蒲𪈘</data><data key="mentions">SHJ-05-9-007</data></node>
@@ -1930,6 +1898,7 @@
 <node id="WAT:蛇"><data key="type">WAT</data><data key="symbol">蛇</data><data key="mentions">SHJ-18-1-025</data></node>
 <node id="WAT:融"><data key="type">WAT</data><data key="symbol">融</data><data key="mentions">SHJ-14-1-024</data></node>
 <node id="WAT:表池"><data key="type">WAT</data><data key="symbol">表池</data><data key="mentions">SHJ-11-1-022</data></node>
+<node id="WAT:西泗"><data key="type">WAT</data><data key="symbol">西泗</data><data key="mentions">SHJ-13-1-026</data></node>
 <node id="WAT:西海"><data key="type">WAT</data><data key="symbol">西海</data><data key="mentions">SHJ-01-1-001 SHJ-02-1-019 SHJ-02-3-006 SHJ-10-1-003 SHJ-16-1-009 SHJ-16-1-028 SHJ-16-1-037 SHJ-18-1-002 SHJ-18-1-003</data></node>
 <node id="WAT:視"><data key="type">WAT</data><data key="symbol">視</data><data key="mentions">SHJ-05-11-022 SHJ-05-11-026 SHJ-05-11-030 SHJ-05-11-031 SHJ-05-11-045 SHJ-05-11-020</data></node>
 <node id="WAT:觀"><data key="type">WAT</data><data key="symbol">觀</data><data key="mentions">SHJ-02-3-006</data></node>
@@ -1978,8 +1947,6 @@
 <node id="WAT:魚"><data key="type">WAT</data><data key="symbol">魚</data><data key="mentions">SHJ-03-1-007</data></node>
 <node id="WAT:鮪"><data key="type">WAT</data><data key="symbol">鮪</data><data key="mentions">SHJ-03-2-005</data></node>
 <node id="WAT:鮮"><data key="type">WAT</data><data key="symbol">鮮</data><data key="mentions">SHJ-03-1-024 SHJ-05-2-004</data></node>
-<node id="WAT:鮮→伊"><data key="type">WAT</data><data key="symbol">鮮</data><data key="mentions">SHJ-05-2-004</data></node>
-<node id="WAT:鮮→涂吾"><data key="type">WAT</data><data key="symbol">鮮</data><data key="mentions">SHJ-03-1-024</data></node>
 <node id="WAT:鮮于"><data key="type">WAT</data><data key="symbol">鮮于</data><data key="mentions">SHJ-03-3-035</data></node>
 <node id="WAT:鮮於"><data key="type">WAT</data><data key="symbol">鮮於</data><data key="mentions">SHJ-03-3-035</data></node>
 <node id="WAT:鯢"><data key="type">WAT</data><data key="symbol">鯢</data><data key="mentions">SHJ-05-11-029</data></node>
@@ -4211,22 +4178,22 @@
 <edge id="e2212" source="WAT:麗𪊨" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-01-1-001</data></edge>
 <edge id="e2213" source="WAT:怪" target="MTN:杻陽之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-1-004</data></edge>
 <edge id="e2214" source="WAT:怪" target="WAT:憲翼"><data key="etype">flows_into</data><data key="entry">SHJ-01-1-004</data></edge>
-<edge id="e2215" source="WAT:英→即翼之澤" target="MTN:青丘之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-1-008</data></edge>
-<edge id="e2216" source="WAT:英→即翼之澤" target="WAT:即翼之澤"><data key="etype">flows_into</data><data key="entry">SHJ-01-1-008</data></edge>
+<edge id="e2215" source="WAT:英" target="MTN:青丘之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-1-008</data></edge>
+<edge id="e2216" source="WAT:英" target="WAT:即翼之澤"><data key="etype">flows_into</data><data key="entry">SHJ-01-1-008</data></edge>
 <edge id="e2217" source="WAT:汸" target="MTN:箕尾之山#南山經之首"><data key="etype">rises_at</data><data key="entry">SHJ-01-1-009</data></edge>
 <edge id="e2218" source="WAT:汸" target="WAT:淯"><data key="etype">flows_into</data><data key="entry">SHJ-01-1-009</data></edge>
-<edge id="e2219" source="WAT:英→赤" target="MTN:柜山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-001</data></edge>
-<edge id="e2220" source="WAT:英→赤" target="WAT:赤"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-001</data></edge>
-<edge id="e2221" source="WAT:苕→具區" target="MTN:浮玉之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-007</data></edge>
-<edge id="e2222" source="WAT:苕→具區" target="WAT:具區"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-007</data></edge>
+<edge id="e2219" source="WAT:英" target="MTN:柜山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-001</data></edge>
+<edge id="e2220" source="WAT:英" target="WAT:赤"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-001</data></edge>
+<edge id="e2221" source="WAT:苕" target="MTN:浮玉之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-007</data></edge>
+<edge id="e2222" source="WAT:苕" target="WAT:具區"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-007</data></edge>
 <edge id="e2223" source="WAT:𨴯" target="MTN:成山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-008</data></edge>
 <edge id="e2224" source="WAT:𨴯" target="WAT:虖勺"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-008</data></edge>
 <edge id="e2225" source="WAT:勺" target="MTN:會稽之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-009</data></edge>
 <edge id="e2226" source="WAT:勺" target="WAT:湨"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-009</data></edge>
 <edge id="e2227" source="WAT:湨" target="MTN:夷山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-010</data></edge>
 <edge id="e2228" source="WAT:湨" target="WAT:列塗"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-010</data></edge>
-<edge id="e2229" source="WAT:洵→閼之澤" target="MTN:洵山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-013</data></edge>
-<edge id="e2230" source="WAT:洵→閼之澤" target="WAT:閼之澤"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-013</data></edge>
+<edge id="e2229" source="WAT:洵" target="MTN:洵山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-013</data></edge>
+<edge id="e2230" source="WAT:洵" target="WAT:閼之澤"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-013</data></edge>
 <edge id="e2231" source="WAT:滂" target="MTN:虖勺之山"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-014</data></edge>
 <edge id="e2232" source="WAT:滂" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-01-2-014</data></edge>
 <edge id="e2233" source="WAT:鹿" target="MTN:區吳之山#南次二經"><data key="etype">rises_at</data><data key="entry">SHJ-01-2-015</data></edge>
@@ -4252,21 +4219,21 @@
 <edge id="e2253" source="WAT:竹" target="MTN:竹山#西山經之首"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-008</data></edge>
 <edge id="e2254" source="WAT:竹" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-008</data></edge>
 <edge id="e2255" source="WAT:丹→洛" target="MTN:竹山#西山經之首"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-008</data></edge>
-<edge id="e2256" source="WAT:丹→洛" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-008</data></edge>
+<edge id="e2256" source="WAT:丹→洛" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-008</data></edge>
 <edge id="e2257" source="WAT:漆" target="MTN:羭次之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-010</data></edge>
 <edge id="e2258" source="WAT:漆" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-010</data></edge>
 <edge id="e2259" source="WAT:逐" target="MTN:時山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-011</data></edge>
 <edge id="e2260" source="WAT:逐" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-011</data></edge>
 <edge id="e2261" source="WAT:丹→渭" target="MTN:南山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-012</data></edge>
 <edge id="e2262" source="WAT:丹→渭" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-012</data></edge>
-<edge id="e2263" source="WAT:涔→渭" target="MTN:大時之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-013</data></edge>
-<edge id="e2264" source="WAT:涔→渭" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-013</data></edge>
+<edge id="e2263" source="WAT:涔" target="MTN:大時之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-013</data></edge>
+<edge id="e2264" source="WAT:涔" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-013</data></edge>
 <edge id="e2265" source="WAT:清" target="MTN:大時之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-013</data></edge>
 <edge id="e2266" source="WAT:清" target="WAT:漢"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-013</data></edge>
 <edge id="e2267" source="WAT:漢" target="MTN:嶓塚之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-014</data></edge>
 <edge id="e2268" source="WAT:漢" target="WAT:沔"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-014</data></edge>
-<edge id="e2269" source="WAT:嚻→湯" target="MTN:嶓塚之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-014</data></edge>
-<edge id="e2270" source="WAT:嚻→湯" target="WAT:湯"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-014</data></edge>
+<edge id="e2269" source="WAT:嚻→河" target="MTN:嶓塚之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-014</data></edge>
+<edge id="e2270" source="WAT:嚻→河" target="WAT:湯"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-014</data></edge>
 <edge id="e2271" source="WAT:薔" target="MTN:塗途之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-016</data></edge>
 <edge id="e2272" source="WAT:薔" target="WAT:諸資"><data key="etype">flows_into</data><data key="entry">SHJ-02-1-016</data></edge>
 <edge id="e2273" source="WAT:涂" target="MTN:塗途之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-1-016</data></edge>
@@ -4279,16 +4246,16 @@
 <edge id="e2280" source="WAT:楚" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-2-003</data></edge>
 <edge id="e2281" source="WAT:涇" target="MTN:高山"><data key="etype">rises_at</data><data key="entry">SHJ-02-2-004</data></edge>
 <edge id="e2282" source="WAT:涇" target="WAT:渭"><data key="etype">flows_into</data><data key="entry">SHJ-02-2-004</data></edge>
-<edge id="e2283" source="WAT:苕→涇" target="MTN:龍首之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-2-006</data></edge>
-<edge id="e2284" source="WAT:苕→涇" target="WAT:涇"><data key="etype">flows_into</data><data key="entry">SHJ-02-2-006</data></edge>
+<edge id="e2283" source="WAT:苕" target="MTN:龍首之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-2-006</data></edge>
+<edge id="e2284" source="WAT:苕" target="WAT:涇"><data key="etype">flows_into</data><data key="entry">SHJ-02-2-006</data></edge>
 <edge id="e2285" source="WAT:鳥危" target="MTN:鳥危之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-2-008</data></edge>
 <edge id="e2286" source="WAT:鳥危" target="WAT:赤"><data key="etype">flows_into</data><data key="entry">SHJ-02-2-008</data></edge>
 <edge id="e2287" source="WAT:皇" target="MTN:皇人之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-2-014</data></edge>
 <edge id="e2288" source="WAT:皇" target="WAT:赤"><data key="etype">flows_into</data><data key="entry">SHJ-02-2-014</data></edge>
 <edge id="e2289" source="WAT:泚→泑" target="MTN:長沙之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-002</data></edge>
 <edge id="e2290" source="WAT:泚→泑" target="WAT:泑"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-002</data></edge>
-<edge id="e2291" source="WAT:丹→稷澤" target="MTN:峚山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-004</data></edge>
-<edge id="e2292" source="WAT:丹→稷澤" target="WAT:稷澤"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-004</data></edge>
+<edge id="e2291" source="WAT:丹→洛" target="MTN:峚山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-004</data></edge>
+<edge id="e2292" source="WAT:丹→洛" target="WAT:稷澤"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-004</data></edge>
 <edge id="e2293" source="WAT:觀" target="MTN:泰器之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-006</data></edge>
 <edge id="e2294" source="WAT:觀" target="WAT:流沙"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-006</data></edge>
 <edge id="e2295" source="WAT:丘時" target="MTN:槐江之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-007</data></edge>
@@ -4301,18 +4268,18 @@
 <edge id="e2302" source="WAT:洋" target="WAT:醜塗"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-008</data></edge>
 <edge id="e2303" source="WAT:桃" target="MTN:樂遊之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-009</data></edge>
 <edge id="e2304" source="WAT:桃" target="WAT:稷澤"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-009</data></edge>
-<edge id="e2305" source="WAT:洵→黑" target="MTN:軒轅之丘"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-012</data></edge>
-<edge id="e2306" source="WAT:洵→黑" target="WAT:黑"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-012</data></edge>
+<edge id="e2305" source="WAT:洵" target="MTN:軒轅之丘"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-012</data></edge>
+<edge id="e2306" source="WAT:洵" target="WAT:黑"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-012</data></edge>
 <edge id="e2307" source="WAT:濁浴" target="MTN:陰山#西次三經"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-016</data></edge>
 <edge id="e2308" source="WAT:濁浴" target="WAT:蕃澤"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-016</data></edge>
-<edge id="e2309" source="WAT:英→湯谷" target="MTN:天山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-020</data></edge>
-<edge id="e2310" source="WAT:英→湯谷" target="WAT:湯谷"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-020</data></edge>
+<edge id="e2309" source="WAT:英" target="MTN:天山"><data key="etype">rises_at</data><data key="entry">SHJ-02-3-020</data></edge>
+<edge id="e2310" source="WAT:英" target="WAT:湯谷"><data key="etype">flows_into</data><data key="entry">SHJ-02-3-020</data></edge>
 <edge id="e2311" source="WAT:陰" target="MTN:陰山#西次四經"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-001</data></edge>
-<edge id="e2312" source="WAT:陰" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-001</data></edge>
+<edge id="e2312" source="WAT:陰" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-001</data></edge>
 <edge id="e2313" source="WAT:弱" target="MTN:勞山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-002</data></edge>
-<edge id="e2314" source="WAT:弱" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-002</data></edge>
+<edge id="e2314" source="WAT:弱" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-002</data></edge>
 <edge id="e2315" source="WAT:洱" target="MTN:罷父之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-003</data></edge>
-<edge id="e2316" source="WAT:洱" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-003</data></edge>
+<edge id="e2316" source="WAT:洱" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-003</data></edge>
 <edge id="e2317" source="WAT:辱" target="MTN:鳥山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-005</data></edge>
 <edge id="e2318" source="WAT:辱" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-005</data></edge>
 <edge id="e2319" source="WAT:湯" target="MTN:上申之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-006</data></edge>
@@ -4335,12 +4302,12 @@
 <edge id="e2336" source="WAT:洛→河" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-014</data></edge>
 <edge id="e2337" source="WAT:涴" target="MTN:英鞮之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-015</data></edge>
 <edge id="e2338" source="WAT:涴" target="WAT:陵羊之澤"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-015</data></edge>
-<edge id="e2339" source="WAT:濛→洋" target="MTN:邽山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-017</data></edge>
-<edge id="e2340" source="WAT:濛→洋" target="WAT:洋"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-017</data></edge>
+<edge id="e2339" source="WAT:濛" target="MTN:邽山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-017</data></edge>
+<edge id="e2340" source="WAT:濛" target="WAT:洋"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-017</data></edge>
 <edge id="e2341" source="WAT:渭" target="MTN:鳥鼠同穴之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-018</data></edge>
 <edge id="e2342" source="WAT:渭" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-018</data></edge>
-<edge id="e2343" source="WAT:苕→海" target="MTN:崦嵫之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-019</data></edge>
-<edge id="e2344" source="WAT:苕→海" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-019</data></edge>
+<edge id="e2343" source="WAT:苕" target="MTN:崦嵫之山"><data key="etype">rises_at</data><data key="entry">SHJ-02-4-019</data></edge>
+<edge id="e2344" source="WAT:苕" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-02-4-019</data></edge>
 <edge id="e2345" source="WAT:漨" target="MTN:單狐之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-001</data></edge>
 <edge id="e2346" source="WAT:漨" target="WAT:泑"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-001</data></edge>
 <edge id="e2347" source="WAT:滑" target="MTN:求如之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-002</data></edge>
@@ -4372,11 +4339,11 @@
 <edge id="e2373" source="WAT:瀤澤" target="MTN:嶽法之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-019</data></edge>
 <edge id="e2374" source="WAT:瀤澤" target="WAT:泰澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-019</data></edge>
 <edge id="e2375" source="WAT:諸懷" target="MTN:北嶽之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-020</data></edge>
-<edge id="e2376" source="WAT:諸懷" target="WAT:嚻"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-020</data></edge>
+<edge id="e2376" source="WAT:諸懷" target="WAT:嚻→河"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-020</data></edge>
 <edge id="e2377" source="WAT:嚻→海" target="MTN:渾夕之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-021</data></edge>
 <edge id="e2378" source="WAT:嚻→海" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-021</data></edge>
-<edge id="e2379" source="WAT:鮮→涂吾" target="MTN:北鮮之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-024</data></edge>
-<edge id="e2380" source="WAT:鮮→涂吾" target="WAT:涂吾"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-024</data></edge>
+<edge id="e2379" source="WAT:鮮" target="MTN:北鮮之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-024</data></edge>
+<edge id="e2380" source="WAT:鮮" target="WAT:涂吾"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-024</data></edge>
 <edge id="e2381" source="WAT:隄" target="MTN:隄山"><data key="etype">rises_at</data><data key="entry">SHJ-03-1-025</data></edge>
 <edge id="e2382" source="WAT:隄" target="WAT:泰澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-1-025</data></edge>
 <edge id="e2383" source="WAT:汾" target="MTN:管涔之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-2-001</data></edge>
@@ -4393,8 +4360,8 @@
 <edge id="e2394" source="WAT:諸餘" target="WAT:旄"><data key="etype">flows_into</data><data key="entry">SHJ-03-2-008</data></edge>
 <edge id="e2395" source="WAT:旄" target="MTN:敦頭之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-2-009</data></edge>
 <edge id="e2396" source="WAT:旄" target="WAT:印澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-2-009</data></edge>
-<edge id="e2397" source="WAT:涔→邛澤" target="MTN:北嚻之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-2-011</data></edge>
-<edge id="e2398" source="WAT:涔→邛澤" target="WAT:邛澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-2-011</data></edge>
+<edge id="e2397" source="WAT:涔" target="MTN:北嚻之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-2-011</data></edge>
+<edge id="e2398" source="WAT:涔" target="WAT:邛澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-2-011</data></edge>
 <edge id="e2399" source="WAT:脩" target="MTN:梁渠之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-2-012</data></edge>
 <edge id="e2400" source="WAT:脩" target="WAT:鴈門"><data key="etype">flows_into</data><data key="entry">SHJ-03-2-012</data></edge>
 <edge id="e2401" source="WAT:湖灌" target="MTN:湖灌之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-2-014</data></edge>
@@ -4417,12 +4384,12 @@
 <edge id="e2418" source="WAT:薄" target="WAT:黃澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-014</data></edge>
 <edge id="e2419" source="WAT:蚤林" target="MTN:彭毗之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-015</data></edge>
 <edge id="e2420" source="WAT:蚤林" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-015</data></edge>
-<edge id="e2421" source="WAT:肥→牀" target="MTN:彭毗之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-015</data></edge>
-<edge id="e2422" source="WAT:肥→牀" target="WAT:牀"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-015</data></edge>
+<edge id="e2421" source="WAT:肥" target="MTN:彭毗之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-015</data></edge>
+<edge id="e2422" source="WAT:肥" target="WAT:牀"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-015</data></edge>
 <edge id="e2423" source="WAT:明漳" target="MTN:小侯之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-016</data></edge>
 <edge id="e2424" source="WAT:明漳" target="WAT:黃澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-016</data></edge>
-<edge id="e2425" source="WAT:共→虖池" target="MTN:泰頭之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-017</data></edge>
-<edge id="e2426" source="WAT:共→虖池" target="WAT:虖池"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-017</data></edge>
+<edge id="e2425" source="WAT:共→河" target="MTN:泰頭之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-017</data></edge>
+<edge id="e2426" source="WAT:共→河" target="WAT:虖池"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-017</data></edge>
 <edge id="e2427" source="WAT:沁" target="MTN:謁戾之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-019</data></edge>
 <edge id="e2428" source="WAT:沁" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-019</data></edge>
 <edge id="e2429" source="WAT:丹林" target="MTN:謁戾之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-019</data></edge>
@@ -4455,8 +4422,8 @@
 <edge id="e2456" source="WAT:槐" target="WAT:泜澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-029</data></edge>
 <edge id="e2457" source="WAT:歷聚" target="MTN:柘山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-030</data></edge>
 <edge id="e2458" source="WAT:歷聚" target="WAT:洧"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-030</data></edge>
-<edge id="e2459" source="WAT:肥→皋澤" target="MTN:維龍之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-031</data></edge>
-<edge id="e2460" source="WAT:肥→皋澤" target="WAT:皋澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-031</data></edge>
+<edge id="e2459" source="WAT:肥" target="MTN:維龍之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-031</data></edge>
+<edge id="e2460" source="WAT:肥" target="WAT:皋澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-031</data></edge>
 <edge id="e2461" source="WAT:敞鐵" target="MTN:維龍之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-031</data></edge>
 <edge id="e2462" source="WAT:敞鐵" target="WAT:大澤"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-031</data></edge>
 <edge id="e2463" source="WAT:木馬" target="MTN:白馬之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-032</data></edge>
@@ -4489,8 +4456,8 @@
 <edge id="e2490" source="WAT:倫" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-043</data></edge>
 <edge id="e2491" source="WAT:繩" target="MTN:碣石之山"><data key="etype">rises_at</data><data key="entry">SHJ-03-3-044</data></edge>
 <edge id="e2492" source="WAT:繩" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-03-3-044</data></edge>
-<edge id="e2493" source="WAT:湖→食" target="MTN:藟山"><data key="etype">rises_at</data><data key="entry">SHJ-04-1-002</data></edge>
-<edge id="e2494" source="WAT:湖→食" target="WAT:食"><data key="etype">flows_into</data><data key="entry">SHJ-04-1-002</data></edge>
+<edge id="e2493" source="WAT:湖" target="MTN:藟山"><data key="etype">rises_at</data><data key="entry">SHJ-04-1-002</data></edge>
+<edge id="e2494" source="WAT:湖" target="WAT:食"><data key="etype">flows_into</data><data key="entry">SHJ-04-1-002</data></edge>
 <edge id="e2495" source="WAT:減→海" target="MTN:番條之山"><data key="etype">rises_at</data><data key="entry">SHJ-04-1-005</data></edge>
 <edge id="e2496" source="WAT:減→海" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-04-1-005</data></edge>
 <edge id="e2497" source="WAT:姑兒" target="MTN:姑兒之山"><data key="etype">rises_at</data><data key="entry">SHJ-04-1-006</data></edge>
@@ -4507,8 +4474,8 @@
 <edge id="e2508" source="WAT:激" target="WAT:娶檀"><data key="etype">flows_into</data><data key="entry">SHJ-04-1-012</data></edge>
 <edge id="e2509" source="WAT:嶧皋" target="MTN:嶧皋之山"><data key="etype">rises_at</data><data key="entry">SHJ-04-2-003</data></edge>
 <edge id="e2510" source="WAT:嶧皋" target="WAT:激女"><data key="etype">flows_into</data><data key="entry">SHJ-04-2-003</data></edge>
-<edge id="e2511" source="WAT:澧→余澤" target="MTN:葛山之首"><data key="etype">rises_at</data><data key="entry">SHJ-04-2-005</data></edge>
-<edge id="e2512" source="WAT:澧→余澤" target="WAT:余澤"><data key="etype">flows_into</data><data key="entry">SHJ-04-2-005</data></edge>
+<edge id="e2511" source="WAT:澧" target="MTN:葛山之首"><data key="etype">rises_at</data><data key="entry">SHJ-04-2-005</data></edge>
+<edge id="e2512" source="WAT:澧" target="WAT:余澤"><data key="etype">flows_into</data><data key="entry">SHJ-04-2-005</data></edge>
 <edge id="e2513" source="WAT:雜余" target="MTN:餘峩之山"><data key="etype">rises_at</data><data key="entry">SHJ-04-2-006</data></edge>
 <edge id="e2514" source="WAT:雜余" target="WAT:黃"><data key="etype">flows_into</data><data key="entry">SHJ-04-2-006</data></edge>
 <edge id="e2515" source="WAT:沙" target="MTN:盧其之山"><data key="etype">rises_at</data><data key="entry">SHJ-04-2-009</data></edge>
@@ -4534,15 +4501,15 @@
 <edge id="e2535" source="WAT:勞" target="MTN:牛首之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-1-011</data></edge>
 <edge id="e2536" source="WAT:勞" target="WAT:潏"><data key="etype">flows_into</data><data key="entry">SHJ-05-1-011</data></edge>
 <edge id="e2537" source="WAT:即魚" target="MTN:發視之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-2-002</data></edge>
-<edge id="e2538" source="WAT:即魚" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-002</data></edge>
-<edge id="e2539" source="WAT:鮮→伊" target="MTN:鮮山#中次二經"><data key="etype">rises_at</data><data key="entry">SHJ-05-2-004</data></edge>
-<edge id="e2540" source="WAT:鮮→伊" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-004</data></edge>
+<edge id="e2538" source="WAT:即魚" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-002</data></edge>
+<edge id="e2539" source="WAT:鮮" target="MTN:鮮山#中次二經"><data key="etype">rises_at</data><data key="entry">SHJ-05-2-004</data></edge>
+<edge id="e2540" source="WAT:鮮" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-004</data></edge>
 <edge id="e2541" source="WAT:陽→伊" target="MTN:陽山#中次二經"><data key="etype">rises_at</data><data key="entry">SHJ-05-2-005</data></edge>
-<edge id="e2542" source="WAT:陽→伊" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-005</data></edge>
+<edge id="e2542" source="WAT:陽→伊" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-005</data></edge>
 <edge id="e2543" source="WAT:葌" target="MTN:葌山"><data key="etype">rises_at</data><data key="entry">SHJ-05-2-007</data></edge>
-<edge id="e2544" source="WAT:葌" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-007</data></edge>
+<edge id="e2544" source="WAT:葌" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-007</data></edge>
 <edge id="e2545" source="WAT:伊→洛" target="MTN:蔓渠之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-2-009</data></edge>
-<edge id="e2546" source="WAT:伊→洛" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-009</data></edge>
+<edge id="e2546" source="WAT:伊→洛" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-2-009</data></edge>
 <edge id="e2547" source="WAT:畛" target="MTN:青要之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-3-002</data></edge>
 <edge id="e2548" source="WAT:畛" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-3-002</data></edge>
 <edge id="e2549" source="WAT:正回" target="MTN:騩山#中次三經"><data key="etype">rises_at</data><data key="entry">SHJ-05-3-003</data></edge>
@@ -4550,75 +4517,75 @@
 <edge id="e2551" source="WAT:滽滽→河" target="MTN:宜蘇之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-3-004</data></edge>
 <edge id="e2552" source="WAT:滽滽→河" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-3-004</data></edge>
 <edge id="e2553" source="WAT:甘" target="MTN:鹿蹄之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-001</data></edge>
-<edge id="e2554" source="WAT:甘" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-001</data></edge>
+<edge id="e2554" source="WAT:甘" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-001</data></edge>
 <edge id="e2555" source="WAT:虢" target="MTN:扶豬之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-002</data></edge>
-<edge id="e2556" source="WAT:虢" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-002</data></edge>
+<edge id="e2556" source="WAT:虢" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-002</data></edge>
 <edge id="e2557" source="WAT:滽滽→伊" target="MTN:釐山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-003</data></edge>
-<edge id="e2558" source="WAT:滽滽→伊" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-003</data></edge>
+<edge id="e2558" source="WAT:滽滽→伊" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-003</data></edge>
 <edge id="e2559" source="WAT:滔雕" target="MTN:柄山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-005</data></edge>
-<edge id="e2560" source="WAT:滔雕" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-005</data></edge>
+<edge id="e2560" source="WAT:滔雕" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-005</data></edge>
 <edge id="e2561" source="WAT:浮濠" target="MTN:熊耳之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-007</data></edge>
-<edge id="e2562" source="WAT:浮濠" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-007</data></edge>
-<edge id="e2563" source="WAT:洛→玄扈" target="MTN:讙舉之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-009</data></edge>
-<edge id="e2564" source="WAT:洛→玄扈" target="WAT:玄扈"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-009</data></edge>
+<edge id="e2562" source="WAT:浮濠" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-007</data></edge>
+<edge id="e2563" source="WAT:洛→河" target="MTN:讙舉之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-4-009</data></edge>
+<edge id="e2564" source="WAT:洛→河" target="WAT:玄扈"><data key="etype">flows_into</data><data key="entry">SHJ-05-4-009</data></edge>
 <edge id="e2565" source="WAT:尸" target="MTN:尸山"><data key="etype">rises_at</data><data key="entry">SHJ-05-5-011</data></edge>
-<edge id="e2566" source="WAT:尸" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-011</data></edge>
+<edge id="e2566" source="WAT:尸" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-011</data></edge>
 <edge id="e2567" source="WAT:餘" target="MTN:良餘之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-5-012</data></edge>
 <edge id="e2568" source="WAT:餘" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-012</data></edge>
 <edge id="e2569" source="WAT:乳" target="MTN:良餘之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-5-012</data></edge>
-<edge id="e2570" source="WAT:乳" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-012</data></edge>
+<edge id="e2570" source="WAT:乳" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-012</data></edge>
 <edge id="e2571" source="WAT:龍餘" target="MTN:蠱尾之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-5-013</data></edge>
-<edge id="e2572" source="WAT:龍餘" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-013</data></edge>
+<edge id="e2572" source="WAT:龍餘" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-013</data></edge>
 <edge id="e2573" source="WAT:黃酸" target="MTN:升山"><data key="etype">rises_at</data><data key="entry">SHJ-05-5-014</data></edge>
 <edge id="e2574" source="WAT:黃酸" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-5-014</data></edge>
 <edge id="e2575" source="WAT:交觴" target="MTN:廆山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-003</data></edge>
-<edge id="e2576" source="WAT:交觴" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-003</data></edge>
+<edge id="e2576" source="WAT:交觴" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-003</data></edge>
 <edge id="e2577" source="WAT:俞隨" target="MTN:廆山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-003</data></edge>
 <edge id="e2578" source="WAT:俞隨" target="WAT:穀"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-003</data></edge>
 <edge id="e2579" source="WAT:㴬" target="MTN:瞻諸之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-004</data></edge>
-<edge id="e2580" source="WAT:㴬" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-004</data></edge>
+<edge id="e2580" source="WAT:㴬" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-004</data></edge>
 <edge id="e2581" source="WAT:少" target="MTN:瞻諸之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-004</data></edge>
 <edge id="e2582" source="WAT:少" target="WAT:穀"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-004</data></edge>
 <edge id="e2583" source="WAT:瞻" target="MTN:婁涿之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-005</data></edge>
-<edge id="e2584" source="WAT:瞻" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-005</data></edge>
+<edge id="e2584" source="WAT:瞻" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-005</data></edge>
 <edge id="e2585" source="WAT:陂" target="MTN:婁涿之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-005</data></edge>
 <edge id="e2586" source="WAT:陂" target="WAT:穀"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-005</data></edge>
 <edge id="e2587" source="WAT:惠" target="MTN:白石之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-006</data></edge>
-<edge id="e2588" source="WAT:惠" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-006</data></edge>
+<edge id="e2588" source="WAT:惠" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-006</data></edge>
 <edge id="e2589" source="WAT:澗" target="MTN:白石之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-006</data></edge>
 <edge id="e2590" source="WAT:澗" target="WAT:穀"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-006</data></edge>
 <edge id="e2591" source="WAT:爽" target="MTN:榖山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-007</data></edge>
 <edge id="e2592" source="WAT:爽" target="WAT:穀"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-007</data></edge>
 <edge id="e2593" source="WAT:豪" target="MTN:密山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-008</data></edge>
-<edge id="e2594" source="WAT:豪" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-008</data></edge>
+<edge id="e2594" source="WAT:豪" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-008</data></edge>
 <edge id="e2595" source="WAT:共→洛" target="MTN:長石之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-009</data></edge>
-<edge id="e2596" source="WAT:共→洛" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-009</data></edge>
+<edge id="e2596" source="WAT:共→洛" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-009</data></edge>
 <edge id="e2597" source="WAT:厭染" target="MTN:傅山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-010</data></edge>
-<edge id="e2598" source="WAT:厭染" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-010</data></edge>
+<edge id="e2598" source="WAT:厭染" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-010</data></edge>
 <edge id="e2599" source="WAT:穀" target="MTN:傅山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-010</data></edge>
-<edge id="e2600" source="WAT:穀" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-010</data></edge>
+<edge id="e2600" source="WAT:穀" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-010</data></edge>
 <edge id="e2601" source="WAT:橐" target="MTN:橐山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-011</data></edge>
 <edge id="e2602" source="WAT:橐" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-011</data></edge>
 <edge id="e2603" source="WAT:潐" target="MTN:常烝之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-012</data></edge>
 <edge id="e2604" source="WAT:潐" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-012</data></edge>
 <edge id="e2605" source="WAT:菑" target="MTN:常烝之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-012</data></edge>
 <edge id="e2606" source="WAT:菑" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-012</data></edge>
-<edge id="e2607" source="WAT:湖→河" target="MTN:夸父之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-013</data></edge>
-<edge id="e2608" source="WAT:湖→河" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-013</data></edge>
+<edge id="e2607" source="WAT:湖" target="MTN:夸父之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-013</data></edge>
+<edge id="e2608" source="WAT:湖" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-013</data></edge>
 <edge id="e2609" source="WAT:楊" target="MTN:陽華之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-014</data></edge>
-<edge id="e2610" source="WAT:楊" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-014</data></edge>
+<edge id="e2610" source="WAT:楊" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-014</data></edge>
 <edge id="e2611" source="WAT:門" target="MTN:陽華之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-014</data></edge>
 <edge id="e2612" source="WAT:門" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-014</data></edge>
 <edge id="e2613" source="WAT:𦁎姑" target="MTN:陽華之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-6-014</data></edge>
 <edge id="e2614" source="WAT:𦁎姑" target="WAT:門"><data key="etype">flows_into</data><data key="entry">SHJ-05-6-014</data></edge>
 <edge id="e2615" source="WAT:其陽狂" target="MTN:大𩇵之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-7-007</data></edge>
-<edge id="e2616" source="WAT:其陽狂" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-007</data></edge>
+<edge id="e2616" source="WAT:其陽狂" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-007</data></edge>
 <edge id="e2617" source="WAT:來需" target="MTN:半石之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-7-008</data></edge>
-<edge id="e2618" source="WAT:來需" target="WAT:伊"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-008</data></edge>
+<edge id="e2618" source="WAT:來需" target="WAT:伊→洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-008</data></edge>
 <edge id="e2619" source="WAT:合" target="MTN:半石之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-7-008</data></edge>
-<edge id="e2620" source="WAT:合" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-008</data></edge>
+<edge id="e2620" source="WAT:合" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-008</data></edge>
 <edge id="e2621" source="WAT:休" target="MTN:少室之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-7-009</data></edge>
-<edge id="e2622" source="WAT:休" target="WAT:洛"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-009</data></edge>
+<edge id="e2622" source="WAT:休" target="WAT:洛→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-009</data></edge>
 <edge id="e2623" source="WAT:汜" target="MTN:浮戲之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-7-013</data></edge>
 <edge id="e2624" source="WAT:汜" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-013</data></edge>
 <edge id="e2625" source="WAT:器難" target="MTN:少陘之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-7-014</data></edge>
@@ -4631,102 +4598,120 @@
 <edge id="e2632" source="WAT:役" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-05-7-017</data></edge>
 <edge id="e2633" source="WAT:雎" target="MTN:景山#中次八經"><data key="etype">rises_at</data><data key="entry">SHJ-05-8-001</data></edge>
 <edge id="e2634" source="WAT:雎" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-8-001</data></edge>
-<edge id="e2635" source="WAT:漳→雎" target="MTN:荊山"><data key="etype">rises_at</data><data key="entry">SHJ-05-8-002</data></edge>
-<edge id="e2636" source="WAT:漳→雎" target="WAT:雎"><data key="etype">flows_into</data><data key="entry">SHJ-05-8-002</data></edge>
+<edge id="e2635" source="WAT:漳→河" target="MTN:荊山"><data key="etype">rises_at</data><data key="entry">SHJ-05-8-002</data></edge>
+<edge id="e2636" source="WAT:漳→河" target="WAT:雎"><data key="etype">flows_into</data><data key="entry">SHJ-05-8-002</data></edge>
 <edge id="e2637" source="WAT:洈" target="MTN:宜諸之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-8-005</data></edge>
-<edge id="e2638" source="WAT:洈" target="WAT:漳"><data key="etype">flows_into</data><data key="entry">SHJ-05-8-005</data></edge>
-<edge id="e2639" source="WAT:江→海" target="MTN:岷山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-002</data></edge>
-<edge id="e2640" source="WAT:江→海" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-002</data></edge>
-<edge id="e2641" source="WAT:江→江" target="MTN:崍山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-003</data></edge>
-<edge id="e2642" source="WAT:江→江" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-003</data></edge>
-<edge id="e2643" source="WAT:江→江" target="MTN:崌山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-004</data></edge>
-<edge id="e2644" source="WAT:江→江" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-004</data></edge>
-<edge id="e2645" source="WAT:蒲𪈘" target="MTN:鬲山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-007</data></edge>
-<edge id="e2646" source="WAT:蒲𪈘" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-007</data></edge>
-<edge id="e2647" source="WAT:徐" target="MTN:隅陽之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-008</data></edge>
-<edge id="e2648" source="WAT:徐" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-008</data></edge>
-<edge id="e2649" source="WAT:減→江" target="MTN:岐山#中次九經"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-009</data></edge>
-<edge id="e2650" source="WAT:減→江" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-009</data></edge>
-<edge id="e2651" source="WAT:宣余" target="MTN:風雨之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-011</data></edge>
-<edge id="e2652" source="WAT:宣余" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-011</data></edge>
-<edge id="e2653" source="WAT:湍" target="MTN:翼望之山#中次十一經"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-001</data></edge>
-<edge id="e2654" source="WAT:湍" target="WAT:濟"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-001</data></edge>
-<edge id="e2655" source="WAT:貺" target="MTN:翼望之山#中次十一經"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-001</data></edge>
-<edge id="e2656" source="WAT:貺" target="WAT:漢"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-001</data></edge>
-<edge id="e2657" source="WAT:潕" target="MTN:朝歌之山#中次十一經"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-002</data></edge>
-<edge id="e2658" source="WAT:潕" target="WAT:滎"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-002</data></edge>
-<edge id="e2659" source="WAT:濟" target="MTN:支離之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-010</data></edge>
-<edge id="e2660" source="WAT:濟" target="WAT:漢"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-010</data></edge>
-<edge id="e2661" source="WAT:帝苑" target="MTN:畢山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-020</data></edge>
-<edge id="e2662" source="WAT:帝苑" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-020</data></edge>
-<edge id="e2663" source="WAT:視" target="MTN:葴山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-022</data></edge>
-<edge id="e2664" source="WAT:視" target="WAT:汝"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-022</data></edge>
-<edge id="e2665" source="WAT:殺" target="MTN:大孰之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-026</data></edge>
-<edge id="e2666" source="WAT:殺" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-026</data></edge>
-<edge id="e2667" source="WAT:澧→視" target="MTN:雅山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-030</data></edge>
-<edge id="e2668" source="WAT:澧→視" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-030</data></edge>
-<edge id="e2669" source="WAT:淪" target="MTN:宣山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-031</data></edge>
-<edge id="e2670" source="WAT:淪" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-031</data></edge>
-<edge id="e2671" source="WAT:臯" target="MTN:章山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-036</data></edge>
-<edge id="e2672" source="WAT:臯" target="WAT:豐"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-036</data></edge>
-<edge id="e2673" source="WAT:奧" target="MTN:奧山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-045</data></edge>
-<edge id="e2674" source="WAT:奧" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-045</data></edge>
-<edge id="e2675" source="WAT:三江首江" target="MTN:汶山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-011</data></edge>
-<edge id="e2676" source="WAT:南江" target="MTN:高山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-011</data></edge>
-<edge id="e2677" source="WAT:淅江" target="MTN:三天子"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-012</data></edge>
-<edge id="e2678" source="WAT:廬江" target="MTN:三天子"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-013</data></edge>
-<edge id="e2679" source="WAT:濛→江" target="MTN:漢陽"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-017</data></edge>
-<edge id="e2680" source="WAT:濛→江" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-017</data></edge>
-<edge id="e2681" source="WAT:渭" target="MTN:烏鼠同穴山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-022</data></edge>
-<edge id="e2682" source="WAT:渭" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-022</data></edge>
-<edge id="e2683" source="WAT:白" target="LND:蜀"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-023</data></edge>
-<edge id="e2684" source="WAT:白" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-023</data></edge>
-<edge id="e2685" source="WAT:贑" target="MTN:聶都東山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-025</data></edge>
-<edge id="e2686" source="WAT:贑" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-025</data></edge>
-<edge id="e2687" source="WAT:鬱" target="MTN:象郡而西南"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-027</data></edge>
-<edge id="e2688" source="WAT:鬱" target="WAT:南海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-027</data></edge>
-<edge id="e2689" source="WAT:潢" target="MTN:桂陽西北山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-029</data></edge>
-<edge id="e2690" source="WAT:潢" target="WAT:肆"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-029</data></edge>
-<edge id="e2691" source="WAT:洛→河" target="MTN:洛西山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-030</data></edge>
-<edge id="e2692" source="WAT:洛→河" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-030</data></edge>
-<edge id="e2693" source="WAT:汾" target="MTN:窳北"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-031</data></edge>
-<edge id="e2694" source="WAT:汾" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-031</data></edge>
-<edge id="e2695" source="WAT:沁" target="MTN:井陘山東"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-032</data></edge>
-<edge id="e2696" source="WAT:沁" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-032</data></edge>
-<edge id="e2697" source="WAT:潦" target="MTN:衛臯東"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-034</data></edge>
-<edge id="e2698" source="WAT:潦" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-034</data></edge>
-<edge id="e2699" source="WAT:漳→渤海" target="MTN:山陽東"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-036</data></edge>
-<edge id="e2700" source="WAT:漳→渤海" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-036</data></edge>
-<edge id="e2701" source="WAT:蛇" target="LND:焉"><data key="etype">rises_at</data><data key="entry">SHJ-18-1-025</data></edge>
-<edge id="e2702" source="WAT:蛇" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-18-1-025</data></edge>
-<edge id="e2703" source="MTN:箕尾之山#南山經之首" target="MTN:箕尾之山#中次四經"><data key="etype">same_name</data><data key="entry">SHJ-01-1-009</data></edge>
-<edge id="e2704" source="MTN:區吳之山#南次二經" target="MTN:區吳之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-01-2-015</data></edge>
-<edge id="e2705" source="MTN:雞山#南次三經" target="MTN:雞山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-01-3-009</data></edge>
-<edge id="e2706" source="MTN:竹山#西山經之首" target="MTN:竹山#東山經之首"><data key="etype">same_name</data><data key="entry">SHJ-02-1-008</data></edge>
-<edge id="e2707" source="MTN:騩山#西山經之首" target="MTN:騩山#西次三經"><data key="etype">same_name</data><data key="entry">SHJ-02-1-019</data></edge>
-<edge id="e2708" source="MTN:騩山#西次三經" target="MTN:騩山#中次三經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-019</data></edge>
-<edge id="e2709" source="MTN:騩山#中次三經" target="MTN:騩山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-3-003</data></edge>
-<edge id="e2710" source="MTN:騩山#中次九經" target="MTN:騩山@mention"><data key="etype">same_name</data><data key="entry">SHJ-05-9-014</data></edge>
-<edge id="e2711" source="MTN:流沙#西次三經" target="MTN:流沙#東次三經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-010</data></edge>
-<edge id="e2712" source="MTN:玉山#西次三經" target="MTN:玉山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-011</data></edge>
-<edge id="e2713" source="MTN:玉山#中次八經" target="MTN:玉山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-019</data></edge>
-<edge id="e2714" source="MTN:玉山#中次九經" target="MTN:玉山@mention"><data key="etype">same_name</data><data key="entry">SHJ-05-9-012</data></edge>
-<edge id="e2715" source="MTN:陰山#西次三經" target="MTN:陰山#西次四經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-016</data></edge>
-<edge id="e2716" source="MTN:陰山#西次四經" target="MTN:陰山#中山經"><data key="etype">same_name</data><data key="entry">SHJ-02-4-001</data></edge>
-<edge id="e2717" source="MTN:翼望之山#西次三經" target="MTN:翼望之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-022</data></edge>
-<edge id="e2718" source="MTN:陽山#北次三經" target="MTN:陽山#中次二經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-006</data></edge>
-<edge id="e2719" source="MTN:景山#北次三經" target="MTN:景山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-010</data></edge>
-<edge id="e2720" source="MTN:空桑之山#北次三經" target="MTN:空桑之山#東次二經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-033</data></edge>
-<edge id="e2721" source="MTN:石山#北次三經" target="MTN:石山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-035</data></edge>
-<edge id="e2722" source="MTN:岐山#東次三經" target="MTN:岐山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-04-3-002</data></edge>
-<edge id="e2723" source="MTN:岐山#中次八經" target="MTN:岐山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-009</data></edge>
-<edge id="e2724" source="MTN:太山#東次四經" target="MTN:太山#中次七經"><data key="etype">same_name</data><data key="entry">SHJ-04-4-008</data></edge>
-<edge id="e2725" source="MTN:蔥聾之山#中山經" target="MTN:蔥聾之山#中次五經"><data key="etype">same_name</data><data key="entry">SHJ-05-1-004</data></edge>
-<edge id="e2726" source="MTN:鮮山#中次二經" target="MTN:鮮山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-2-004</data></edge>
-<edge id="e2727" source="MTN:朝歌之山#中次五經" target="MTN:朝歌之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-5-008</data></edge>
-<edge id="e2728" source="MTN:大騩之山#中次七經" target="MTN:大騩之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-7-019</data></edge>
-<edge id="e2729" source="MTN:女几之山#中次八經" target="MTN:女几之山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-004</data></edge>
-<edge id="e2730" source="MTN:衡山#中次八經" target="MTN:衡山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-015</data></edge>
-<edge id="e2731" source="MTN:丙山#中次十經" target="MTN:丙山#中次十二經"><data key="etype">same_name</data><data key="entry">SHJ-05-10-009</data></edge>
+<edge id="e2638" source="WAT:洈" target="WAT:漳→河"><data key="etype">flows_into</data><data key="entry">SHJ-05-8-005</data></edge>
+<edge id="e2639" source="WAT:江" target="MTN:岷山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-002</data></edge>
+<edge id="e2640" source="WAT:江" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-002</data></edge>
+<edge id="e2641" source="WAT:江" target="MTN:崍山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-003</data></edge>
+<edge id="e2642" source="WAT:江" target="MTN:崌山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-004</data></edge>
+<edge id="e2643" source="WAT:蒲𪈘" target="MTN:鬲山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-007</data></edge>
+<edge id="e2644" source="WAT:蒲𪈘" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-007</data></edge>
+<edge id="e2645" source="WAT:徐" target="MTN:隅陽之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-008</data></edge>
+<edge id="e2646" source="WAT:徐" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-008</data></edge>
+<edge id="e2647" source="WAT:減→江" target="MTN:岐山#中次九經"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-009</data></edge>
+<edge id="e2648" source="WAT:減→江" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-009</data></edge>
+<edge id="e2649" source="WAT:宣余" target="MTN:風雨之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-9-011</data></edge>
+<edge id="e2650" source="WAT:宣余" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-05-9-011</data></edge>
+<edge id="e2651" source="WAT:湍" target="MTN:翼望之山#中次十一經"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-001</data></edge>
+<edge id="e2652" source="WAT:湍" target="WAT:濟→漢"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-001</data></edge>
+<edge id="e2653" source="WAT:貺" target="MTN:翼望之山#中次十一經"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-001</data></edge>
+<edge id="e2654" source="WAT:貺" target="WAT:漢"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-001</data></edge>
+<edge id="e2655" source="WAT:潕" target="MTN:朝歌之山#中次十一經"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-002</data></edge>
+<edge id="e2656" source="WAT:潕" target="WAT:滎"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-002</data></edge>
+<edge id="e2657" source="WAT:濟→漢" target="MTN:支離之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-010</data></edge>
+<edge id="e2658" source="WAT:濟→漢" target="WAT:漢"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-010</data></edge>
+<edge id="e2659" source="WAT:帝苑" target="MTN:畢山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-020</data></edge>
+<edge id="e2660" source="WAT:帝苑" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-020</data></edge>
+<edge id="e2661" source="WAT:視" target="MTN:葴山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-022</data></edge>
+<edge id="e2662" source="WAT:視" target="WAT:汝"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-022</data></edge>
+<edge id="e2663" source="WAT:殺" target="MTN:大孰之山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-026</data></edge>
+<edge id="e2664" source="WAT:殺" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-026</data></edge>
+<edge id="e2665" source="WAT:澧" target="MTN:雅山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-030</data></edge>
+<edge id="e2666" source="WAT:澧" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-030</data></edge>
+<edge id="e2667" source="WAT:淪" target="MTN:宣山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-031</data></edge>
+<edge id="e2668" source="WAT:淪" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-031</data></edge>
+<edge id="e2669" source="WAT:臯" target="MTN:章山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-036</data></edge>
+<edge id="e2670" source="WAT:臯" target="WAT:豐"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-036</data></edge>
+<edge id="e2671" source="WAT:奧" target="MTN:奧山"><data key="etype">rises_at</data><data key="entry">SHJ-05-11-045</data></edge>
+<edge id="e2672" source="WAT:奧" target="WAT:視"><data key="etype">flows_into</data><data key="entry">SHJ-05-11-045</data></edge>
+<edge id="e2673" source="WAT:鬱" target="LND:湘陵南海"><data key="etype">rises_at</data><data key="entry">SHJ-10-1-005</data></edge>
+<edge id="e2674" source="WAT:河" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-11-1-014</data></edge>
+<edge id="e2675" source="WAT:黑" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-11-1-015</data></edge>
+<edge id="e2676" source="WAT:岷三江首江" target="MTN:汶山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-011</data></edge>
+<edge id="e2677" source="WAT:三江首江" target="MTN:汶山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-011</data></edge>
+<edge id="e2678" source="WAT:南江" target="MTN:高山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-011</data></edge>
+<edge id="e2679" source="WAT:淅江" target="MTN:三天子"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-012</data></edge>
+<edge id="e2680" source="WAT:淅江" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-012</data></edge>
+<edge id="e2681" source="WAT:淅江" target="MTN:三天子"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-012</data></edge>
+<edge id="e2682" source="WAT:廬江" target="MTN:三天子"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-013</data></edge>
+<edge id="e2683" source="WAT:廬江" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-013</data></edge>
+<edge id="e2684" source="WAT:廬江" target="MTN:三天子"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-013</data></edge>
+<edge id="e2685" source="WAT:淮" target="MTN:餘山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-014</data></edge>
+<edge id="e2686" source="WAT:淮" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-014</data></edge>
+<edge id="e2687" source="WAT:湘" target="LND:舜葬東南陬"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-015</data></edge>
+<edge id="e2688" source="WAT:漢" target="MTN:鮒魚之山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-016</data></edge>
+<edge id="e2689" source="WAT:濛" target="LND:漢陽"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-017</data></edge>
+<edge id="e2690" source="WAT:濛" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-017</data></edge>
+<edge id="e2691" source="WAT:溫" target="MTN:崆峒山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-018</data></edge>
+<edge id="e2692" source="WAT:潁" target="MTN:少室之山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-019</data></edge>
+<edge id="e2693" source="WAT:汝" target="MTN:天息山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-020</data></edge>
+<edge id="e2694" source="WAT:涇" target="MTN:長城北山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-021</data></edge>
+<edge id="e2695" source="WAT:渭" target="MTN:烏鼠同穴山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-022</data></edge>
+<edge id="e2696" source="WAT:渭" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-022</data></edge>
+<edge id="e2697" source="WAT:白" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-023</data></edge>
+<edge id="e2698" source="WAT:贑" target="MTN:聶都東山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-025</data></edge>
+<edge id="e2699" source="WAT:贑" target="WAT:江"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-025</data></edge>
+<edge id="e2700" source="WAT:西泗" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-026</data></edge>
+<edge id="e2701" source="WAT:鬱" target="LND:象郡"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-027</data></edge>
+<edge id="e2702" source="WAT:鬱" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-027</data></edge>
+<edge id="e2703" source="WAT:肆" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-028</data></edge>
+<edge id="e2704" source="WAT:潢" target="MTN:桂陽西北山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-029</data></edge>
+<edge id="e2705" source="WAT:潢" target="WAT:肆"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-029</data></edge>
+<edge id="e2706" source="WAT:洛→河" target="MTN:洛西山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-030</data></edge>
+<edge id="e2707" source="WAT:洛→河" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-030</data></edge>
+<edge id="e2708" source="WAT:汾" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-031</data></edge>
+<edge id="e2709" source="WAT:沁" target="MTN:井陘山"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-032</data></edge>
+<edge id="e2710" source="WAT:沁" target="WAT:河"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-032</data></edge>
+<edge id="e2711" source="WAT:濟→渤海" target="MTN:共山南東丘"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-033</data></edge>
+<edge id="e2712" source="WAT:濟→渤海" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-033</data></edge>
+<edge id="e2713" source="WAT:潦" target="LND:衛臯"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-034</data></edge>
+<edge id="e2714" source="WAT:潦" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-034</data></edge>
+<edge id="e2715" source="WAT:虖沲" target="LND:晉陽城"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-035</data></edge>
+<edge id="e2716" source="WAT:虖沲" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-035</data></edge>
+<edge id="e2717" source="WAT:漳→渤海" target="LND:山陽"><data key="etype">rises_at</data><data key="entry">SHJ-13-1-036</data></edge>
+<edge id="e2718" source="WAT:漳→渤海" target="WAT:渤海"><data key="etype">flows_into</data><data key="entry">SHJ-13-1-036</data></edge>
+<edge id="e2719" source="WAT:蛇" target="WAT:海"><data key="etype">flows_into</data><data key="entry">SHJ-18-1-025</data></edge>
+<edge id="e2720" source="WAT:河" target="WAT:泑澤"><data key="etype">sinks_at</data><data key="entry">SHJ-02-3-003</data></edge>
+<edge id="e2721" source="MTN:箕尾之山#南山經之首" target="MTN:箕尾之山#中次四經"><data key="etype">same_name</data><data key="entry">SHJ-01-1-009</data></edge>
+<edge id="e2722" source="MTN:區吳之山#南次二經" target="MTN:區吳之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-01-2-015</data></edge>
+<edge id="e2723" source="MTN:雞山#南次三經" target="MTN:雞山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-01-3-009</data></edge>
+<edge id="e2724" source="MTN:竹山#西山經之首" target="MTN:竹山#東山經之首"><data key="etype">same_name</data><data key="entry">SHJ-02-1-008</data></edge>
+<edge id="e2725" source="MTN:騩山#西山經之首" target="MTN:騩山#西次三經"><data key="etype">same_name</data><data key="entry">SHJ-02-1-019</data></edge>
+<edge id="e2726" source="MTN:騩山#西次三經" target="MTN:騩山#中次三經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-019</data></edge>
+<edge id="e2727" source="MTN:騩山#中次三經" target="MTN:騩山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-3-003</data></edge>
+<edge id="e2728" source="MTN:騩山#中次九經" target="MTN:騩山@mention"><data key="etype">same_name</data><data key="entry">SHJ-05-9-014</data></edge>
+<edge id="e2729" source="MTN:流沙#西次三經" target="MTN:流沙#東次三經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-010</data></edge>
+<edge id="e2730" source="MTN:玉山#西次三經" target="MTN:玉山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-011</data></edge>
+<edge id="e2731" source="MTN:玉山#中次八經" target="MTN:玉山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-019</data></edge>
+<edge id="e2732" source="MTN:玉山#中次九經" target="MTN:玉山@mention"><data key="etype">same_name</data><data key="entry">SHJ-05-9-012</data></edge>
+<edge id="e2733" source="MTN:陰山#西次三經" target="MTN:陰山#西次四經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-016</data></edge>
+<edge id="e2734" source="MTN:陰山#西次四經" target="MTN:陰山#中山經"><data key="etype">same_name</data><data key="entry">SHJ-02-4-001</data></edge>
+<edge id="e2735" source="MTN:翼望之山#西次三經" target="MTN:翼望之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-02-3-022</data></edge>
+<edge id="e2736" source="MTN:陽山#北次三經" target="MTN:陽山#中次二經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-006</data></edge>
+<edge id="e2737" source="MTN:景山#北次三經" target="MTN:景山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-010</data></edge>
+<edge id="e2738" source="MTN:空桑之山#北次三經" target="MTN:空桑之山#東次二經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-033</data></edge>
+<edge id="e2739" source="MTN:石山#北次三經" target="MTN:石山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-03-3-035</data></edge>
+<edge id="e2740" source="MTN:岐山#東次三經" target="MTN:岐山#中次八經"><data key="etype">same_name</data><data key="entry">SHJ-04-3-002</data></edge>
+<edge id="e2741" source="MTN:岐山#中次八經" target="MTN:岐山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-009</data></edge>
+<edge id="e2742" source="MTN:太山#東次四經" target="MTN:太山#中次七經"><data key="etype">same_name</data><data key="entry">SHJ-04-4-008</data></edge>
+<edge id="e2743" source="MTN:蔥聾之山#中山經" target="MTN:蔥聾之山#中次五經"><data key="etype">same_name</data><data key="entry">SHJ-05-1-004</data></edge>
+<edge id="e2744" source="MTN:鮮山#中次二經" target="MTN:鮮山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-2-004</data></edge>
+<edge id="e2745" source="MTN:朝歌之山#中次五經" target="MTN:朝歌之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-5-008</data></edge>
+<edge id="e2746" source="MTN:大騩之山#中次七經" target="MTN:大騩之山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-7-019</data></edge>
+<edge id="e2747" source="MTN:女几之山#中次八經" target="MTN:女几之山#中次九經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-004</data></edge>
+<edge id="e2748" source="MTN:衡山#中次八經" target="MTN:衡山#中次十一經"><data key="etype">same_name</data><data key="entry">SHJ-05-8-015</data></edge>
+<edge id="e2749" source="MTN:丙山#中次十經" target="MTN:丙山#中次十二經"><data key="etype">same_name</data><data key="entry">SHJ-05-10-009</data></edge>
 </graph>
 </graphml>

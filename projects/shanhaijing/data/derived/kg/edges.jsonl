@@ -2213,22 +2213,22 @@
 {"src": "WAT:麗𪊨", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-01-1-001", "clause": "麗𪊨之水出焉，西流注于海"}
 {"src": "WAT:怪", "dst": "MTN:杻陽之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-1-004", "clause": "怪水出焉，東流注于憲翼之水"}
 {"src": "WAT:怪", "dst": "WAT:憲翼", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-01-1-004", "clause": "怪水出焉，東流注于憲翼之水"}
-{"src": "WAT:英→即翼之澤", "dst": "MTN:青丘之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-1-008", "clause": "英水出焉，南流注于即翼之澤"}
-{"src": "WAT:英→即翼之澤", "dst": "WAT:即翼之澤", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-1-008", "clause": "英水出焉，南流注于即翼之澤"}
+{"src": "WAT:英", "dst": "MTN:青丘之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-1-008", "clause": "英水出焉，南流注于即翼之澤"}
+{"src": "WAT:英", "dst": "WAT:即翼之澤", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-1-008", "clause": "英水出焉，南流注于即翼之澤"}
 {"src": "WAT:汸", "dst": "MTN:箕尾之山#南山經之首", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-1-009", "clause": "汸水出焉，南流注于淯"}
 {"src": "WAT:汸", "dst": "WAT:淯", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-1-009", "clause": "汸水出焉，南流注于淯"}
-{"src": "WAT:英→赤", "dst": "MTN:柜山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-001", "clause": "英水出焉，西南流注于赤水"}
-{"src": "WAT:英→赤", "dst": "WAT:赤", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-01-2-001", "clause": "英水出焉，西南流注于赤水"}
-{"src": "WAT:苕→具區", "dst": "MTN:浮玉之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-007", "clause": "苕水出於其陰，北流注于具區"}
-{"src": "WAT:苕→具區", "dst": "WAT:具區", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-01-2-007", "clause": "苕水出於其陰，北流注于具區"}
+{"src": "WAT:英", "dst": "MTN:柜山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-001", "clause": "英水出焉，西南流注于赤水"}
+{"src": "WAT:英", "dst": "WAT:赤", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-01-2-001", "clause": "英水出焉，西南流注于赤水"}
+{"src": "WAT:苕", "dst": "MTN:浮玉之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-007", "clause": "苕水出於其陰，北流注于具區"}
+{"src": "WAT:苕", "dst": "WAT:具區", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-01-2-007", "clause": "苕水出於其陰，北流注于具區"}
 {"src": "WAT:𨴯", "dst": "MTN:成山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-008", "clause": "𨴯水出焉，南流注于虖勺"}
 {"src": "WAT:𨴯", "dst": "WAT:虖勺", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-2-008", "clause": "𨴯水出焉，南流注于虖勺"}
 {"src": "WAT:勺", "dst": "MTN:會稽之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-009", "clause": "勺水出焉，南流注于湨"}
 {"src": "WAT:勺", "dst": "WAT:湨", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-2-009", "clause": "勺水出焉，南流注于湨"}
 {"src": "WAT:湨", "dst": "MTN:夷山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-010", "clause": "湨水出焉，南流注于列塗"}
 {"src": "WAT:湨", "dst": "WAT:列塗", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-2-010", "clause": "湨水出焉，南流注于列塗"}
-{"src": "WAT:洵→閼之澤", "dst": "MTN:洵山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-013", "clause": "洵水出焉，南流注于閼之澤"}
-{"src": "WAT:洵→閼之澤", "dst": "WAT:閼之澤", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-2-013", "clause": "洵水出焉，南流注于閼之澤"}
+{"src": "WAT:洵", "dst": "MTN:洵山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-013", "clause": "洵水出焉，南流注于閼之澤"}
+{"src": "WAT:洵", "dst": "WAT:閼之澤", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-01-2-013", "clause": "洵水出焉，南流注于閼之澤"}
 {"src": "WAT:滂", "dst": "MTN:虖勺之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-014", "clause": "滂水出焉，東流注于海"}
 {"src": "WAT:滂", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-01-2-014", "clause": "滂水出焉，東流注于海"}
 {"src": "WAT:鹿", "dst": "MTN:區吳之山#南次二經", "type": "rises_at", "attrs": {}, "entry": "SHJ-01-2-015", "clause": "鹿水出焉，南流注于滂水"}
@@ -2254,21 +2254,21 @@
 {"src": "WAT:竹", "dst": "MTN:竹山#西山經之首", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-008", "clause": "竹水出焉，北流注于渭"}
 {"src": "WAT:竹", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-008", "clause": "竹水出焉，北流注于渭"}
 {"src": "WAT:丹→洛", "dst": "MTN:竹山#西山經之首", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-008", "clause": "丹水出焉，東南流注于洛水"}
-{"src": "WAT:丹→洛", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-02-1-008", "clause": "丹水出焉，東南流注于洛水"}
+{"src": "WAT:丹→洛", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-02-1-008", "clause": "丹水出焉，東南流注于洛水"}
 {"src": "WAT:漆", "dst": "MTN:羭次之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-010", "clause": "漆水出焉，北流注于渭"}
 {"src": "WAT:漆", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-010", "clause": "漆水出焉，北流注于渭"}
 {"src": "WAT:逐", "dst": "MTN:時山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-011", "clause": "逐水出焉，北流注于渭"}
 {"src": "WAT:逐", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-011", "clause": "逐水出焉，北流注于渭"}
 {"src": "WAT:丹→渭", "dst": "MTN:南山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-012", "clause": "丹水出焉，北流注于渭"}
 {"src": "WAT:丹→渭", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-012", "clause": "丹水出焉，北流注于渭"}
-{"src": "WAT:涔→渭", "dst": "MTN:大時之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-013", "clause": "涔水出焉，北流注于渭"}
-{"src": "WAT:涔→渭", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-013", "clause": "涔水出焉，北流注于渭"}
+{"src": "WAT:涔", "dst": "MTN:大時之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-013", "clause": "涔水出焉，北流注于渭"}
+{"src": "WAT:涔", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-013", "clause": "涔水出焉，北流注于渭"}
 {"src": "WAT:清", "dst": "MTN:大時之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-013", "clause": "清水出焉，南流注于漢水"}
 {"src": "WAT:清", "dst": "WAT:漢", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-1-013", "clause": "清水出焉，南流注于漢水"}
 {"src": "WAT:漢", "dst": "MTN:嶓塚之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-014", "clause": "漢水出焉，東南流注于沔"}
 {"src": "WAT:漢", "dst": "WAT:沔", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-02-1-014", "clause": "漢水出焉，東南流注于沔"}
-{"src": "WAT:嚻→湯", "dst": "MTN:嶓塚之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-014", "clause": "嚻水出焉，北流注于湯水"}
-{"src": "WAT:嚻→湯", "dst": "WAT:湯", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-014", "clause": "嚻水出焉，北流注于湯水"}
+{"src": "WAT:嚻→河", "dst": "MTN:嶓塚之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-014", "clause": "嚻水出焉，北流注于湯水"}
+{"src": "WAT:嚻→河", "dst": "WAT:湯", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-1-014", "clause": "嚻水出焉，北流注于湯水"}
 {"src": "WAT:薔", "dst": "MTN:塗途之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-016", "clause": "薔水出焉，西流注于諸資之水"}
 {"src": "WAT:薔", "dst": "WAT:諸資", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-1-016", "clause": "薔水出焉，西流注于諸資之水"}
 {"src": "WAT:涂", "dst": "MTN:塗途之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-1-016", "clause": "涂水出焉，南流注于集獲之水"}
@@ -2281,16 +2281,16 @@
 {"src": "WAT:楚", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-2-003", "clause": "楚水出焉，南流注于渭"}
 {"src": "WAT:涇", "dst": "MTN:高山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-004", "clause": "涇水出焉，東流注于渭"}
 {"src": "WAT:涇", "dst": "WAT:渭", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-02-2-004", "clause": "涇水出焉，東流注于渭"}
-{"src": "WAT:苕→涇", "dst": "MTN:龍首之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-006", "clause": "苕水出焉，東南流注于涇水"}
-{"src": "WAT:苕→涇", "dst": "WAT:涇", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-02-2-006", "clause": "苕水出焉，東南流注于涇水"}
+{"src": "WAT:苕", "dst": "MTN:龍首之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-006", "clause": "苕水出焉，東南流注于涇水"}
+{"src": "WAT:苕", "dst": "WAT:涇", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-02-2-006", "clause": "苕水出焉，東南流注于涇水"}
 {"src": "WAT:鳥危", "dst": "MTN:鳥危之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-008", "clause": "鳥危之水出焉，西流注于赤水"}
 {"src": "WAT:鳥危", "dst": "WAT:赤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-2-008", "clause": "鳥危之水出焉，西流注于赤水"}
 {"src": "WAT:皇", "dst": "MTN:皇人之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-2-014", "clause": "皇水出焉，西流注于赤水"}
 {"src": "WAT:皇", "dst": "WAT:赤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-2-014", "clause": "皇水出焉，西流注于赤水"}
 {"src": "WAT:泚→泑", "dst": "MTN:長沙之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-002", "clause": "泚水出焉，北流注于泑水"}
 {"src": "WAT:泚→泑", "dst": "WAT:泑", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-3-002", "clause": "泚水出焉，北流注于泑水"}
-{"src": "WAT:丹→稷澤", "dst": "MTN:峚山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-004", "clause": "丹水出焉，西流注于稷澤"}
-{"src": "WAT:丹→稷澤", "dst": "WAT:稷澤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-004", "clause": "丹水出焉，西流注于稷澤"}
+{"src": "WAT:丹→洛", "dst": "MTN:峚山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-004", "clause": "丹水出焉，西流注于稷澤"}
+{"src": "WAT:丹→洛", "dst": "WAT:稷澤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-004", "clause": "丹水出焉，西流注于稷澤"}
 {"src": "WAT:觀", "dst": "MTN:泰器之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-006", "clause": "觀水出焉，西流注于流沙"}
 {"src": "WAT:觀", "dst": "WAT:流沙", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-006", "clause": "觀水出焉，西流注于流沙"}
 {"src": "WAT:丘時", "dst": "MTN:槐江之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-007", "clause": "丘時之水出焉，北流注于泑水"}
@@ -2303,18 +2303,18 @@
 {"src": "WAT:洋", "dst": "WAT:醜塗", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-02-3-008", "clause": "洋水出焉，西南流注于醜塗之水"}
 {"src": "WAT:桃", "dst": "MTN:樂遊之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-009", "clause": "桃水出焉，西流注于稷澤"}
 {"src": "WAT:桃", "dst": "WAT:稷澤", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-3-009", "clause": "桃水出焉，西流注于稷澤"}
-{"src": "WAT:洵→黑", "dst": "MTN:軒轅之丘", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-012", "clause": "洵水出焉，南流注于黑水"}
-{"src": "WAT:洵→黑", "dst": "WAT:黑", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-3-012", "clause": "洵水出焉，南流注于黑水"}
+{"src": "WAT:洵", "dst": "MTN:軒轅之丘", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-012", "clause": "洵水出焉，南流注于黑水"}
+{"src": "WAT:洵", "dst": "WAT:黑", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-3-012", "clause": "洵水出焉，南流注于黑水"}
 {"src": "WAT:濁浴", "dst": "MTN:陰山#西次三經", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-016", "clause": "濁浴之水出焉，南流注于蕃澤"}
 {"src": "WAT:濁浴", "dst": "WAT:蕃澤", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-3-016", "clause": "濁浴之水出焉，南流注于蕃澤"}
-{"src": "WAT:英→湯谷", "dst": "MTN:天山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-020", "clause": "英水出焉，西南流注于湯谷"}
-{"src": "WAT:英→湯谷", "dst": "WAT:湯谷", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-02-3-020", "clause": "英水出焉，西南流注于湯谷"}
+{"src": "WAT:英", "dst": "MTN:天山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-3-020", "clause": "英水出焉，西南流注于湯谷"}
+{"src": "WAT:英", "dst": "WAT:湯谷", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-02-3-020", "clause": "英水出焉，西南流注于湯谷"}
 {"src": "WAT:陰", "dst": "MTN:陰山#西次四經", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-001", "clause": "陰水出焉，西流注于洛"}
-{"src": "WAT:陰", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-001", "clause": "陰水出焉，西流注于洛"}
+{"src": "WAT:陰", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-001", "clause": "陰水出焉，西流注于洛"}
 {"src": "WAT:弱", "dst": "MTN:勞山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-002", "clause": "弱水出焉，西流注于洛"}
-{"src": "WAT:弱", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-002", "clause": "弱水出焉，西流注于洛"}
+{"src": "WAT:弱", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-002", "clause": "弱水出焉，西流注于洛"}
 {"src": "WAT:洱", "dst": "MTN:罷父之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-003", "clause": "洱水出焉，西流注于洛"}
-{"src": "WAT:洱", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-003", "clause": "洱水出焉，西流注于洛"}
+{"src": "WAT:洱", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-003", "clause": "洱水出焉，西流注于洛"}
 {"src": "WAT:辱", "dst": "MTN:鳥山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-005", "clause": "辱水出焉，東流注于河"}
 {"src": "WAT:辱", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-02-4-005", "clause": "辱水出焉，東流注于河"}
 {"src": "WAT:湯", "dst": "MTN:上申之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-006", "clause": "湯水出焉，東流注于河"}
@@ -2337,12 +2337,12 @@
 {"src": "WAT:洛→河", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-4-014", "clause": "洛水出焉，北流注于河"}
 {"src": "WAT:涴", "dst": "MTN:英鞮之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-015", "clause": "涴水出焉，北流注于陵羊之澤"}
 {"src": "WAT:涴", "dst": "WAT:陵羊之澤", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-02-4-015", "clause": "涴水出焉，北流注于陵羊之澤"}
-{"src": "WAT:濛→洋", "dst": "MTN:邽山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-017", "clause": "濛水出焉，南流注于洋水"}
-{"src": "WAT:濛→洋", "dst": "WAT:洋", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-4-017", "clause": "濛水出焉，南流注于洋水"}
+{"src": "WAT:濛", "dst": "MTN:邽山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-017", "clause": "濛水出焉，南流注于洋水"}
+{"src": "WAT:濛", "dst": "WAT:洋", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-02-4-017", "clause": "濛水出焉，南流注于洋水"}
 {"src": "WAT:渭", "dst": "MTN:鳥鼠同穴之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "渭水出焉，東流注于河"}
 {"src": "WAT:渭", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-02-4-018", "clause": "渭水出焉，東流注于河"}
-{"src": "WAT:苕→海", "dst": "MTN:崦嵫之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "苕水出焉，西流注于海"}
-{"src": "WAT:苕→海", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-019", "clause": "苕水出焉，西流注于海"}
+{"src": "WAT:苕", "dst": "MTN:崦嵫之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-019", "clause": "苕水出焉，西流注于海"}
+{"src": "WAT:苕", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-02-4-019", "clause": "苕水出焉，西流注于海"}
 {"src": "WAT:漨", "dst": "MTN:單狐之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-001", "clause": "漨水出焉，西流注于泑水"}
 {"src": "WAT:漨", "dst": "WAT:泑", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-03-1-001", "clause": "漨水出焉，西流注于泑水"}
 {"src": "WAT:滑", "dst": "MTN:求如之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-002", "clause": "滑水出焉，西流注于諸毗之水"}
@@ -2374,11 +2374,11 @@
 {"src": "WAT:瀤澤", "dst": "MTN:嶽法之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-019", "clause": "瀤澤之水出焉，東北流注于泰澤"}
 {"src": "WAT:瀤澤", "dst": "WAT:泰澤", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-03-1-019", "clause": "瀤澤之水出焉，東北流注于泰澤"}
 {"src": "WAT:諸懷", "dst": "MTN:北嶽之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-020", "clause": "諸懷之水出焉，西流注于嚻水"}
-{"src": "WAT:諸懷", "dst": "WAT:嚻", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-03-1-020", "clause": "諸懷之水出焉，西流注于嚻水"}
+{"src": "WAT:諸懷", "dst": "WAT:嚻→河", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-03-1-020", "clause": "諸懷之水出焉，西流注于嚻水"}
 {"src": "WAT:嚻→海", "dst": "MTN:渾夕之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-021", "clause": "嚻水出焉，西北流注于海"}
 {"src": "WAT:嚻→海", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "西北"}, "entry": "SHJ-03-1-021", "clause": "嚻水出焉，西北流注于海"}
-{"src": "WAT:鮮→涂吾", "dst": "MTN:北鮮之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-024", "clause": "鮮水出焉，西北流注于涂吾之水"}
-{"src": "WAT:鮮→涂吾", "dst": "WAT:涂吾", "type": "flows_into", "attrs": {"direction": "西北"}, "entry": "SHJ-03-1-024", "clause": "鮮水出焉，西北流注于涂吾之水"}
+{"src": "WAT:鮮", "dst": "MTN:北鮮之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-024", "clause": "鮮水出焉，西北流注于涂吾之水"}
+{"src": "WAT:鮮", "dst": "WAT:涂吾", "type": "flows_into", "attrs": {"direction": "西北"}, "entry": "SHJ-03-1-024", "clause": "鮮水出焉，西北流注于涂吾之水"}
 {"src": "WAT:隄", "dst": "MTN:隄山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-1-025", "clause": "隄水出焉，東流注于泰澤"}
 {"src": "WAT:隄", "dst": "WAT:泰澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-1-025", "clause": "隄水出焉，東流注于泰澤"}
 {"src": "WAT:汾", "dst": "MTN:管涔之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-2-001", "clause": "汾水出焉，西流注于河"}
@@ -2395,8 +2395,8 @@
 {"src": "WAT:諸餘", "dst": "WAT:旄", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-2-008", "clause": "諸餘之水出焉，東流注于旄水"}
 {"src": "WAT:旄", "dst": "MTN:敦頭之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-2-009", "clause": "旄水出焉，東流注于印澤"}
 {"src": "WAT:旄", "dst": "WAT:印澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-2-009", "clause": "旄水出焉，東流注于印澤"}
-{"src": "WAT:涔→邛澤", "dst": "MTN:北嚻之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-2-011", "clause": "涔水出焉，東流注于邛澤"}
-{"src": "WAT:涔→邛澤", "dst": "WAT:邛澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-2-011", "clause": "涔水出焉，東流注于邛澤"}
+{"src": "WAT:涔", "dst": "MTN:北嚻之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-2-011", "clause": "涔水出焉，東流注于邛澤"}
+{"src": "WAT:涔", "dst": "WAT:邛澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-2-011", "clause": "涔水出焉，東流注于邛澤"}
 {"src": "WAT:脩", "dst": "MTN:梁渠之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-2-012", "clause": "脩水出焉，東流注于鴈門"}
 {"src": "WAT:脩", "dst": "WAT:鴈門", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-2-012", "clause": "脩水出焉，東流注于鴈門"}
 {"src": "WAT:湖灌", "dst": "MTN:湖灌之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-2-014", "clause": "湖灌之水出焉，東流注于海"}
@@ -2419,12 +2419,12 @@
 {"src": "WAT:薄", "dst": "WAT:黃澤", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-03-3-014", "clause": "薄水出焉，東南流注于黃澤"}
 {"src": "WAT:蚤林", "dst": "MTN:彭毗之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-015", "clause": "蚤林之水出焉，東南流注于河"}
 {"src": "WAT:蚤林", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-03-3-015", "clause": "蚤林之水出焉，東南流注于河"}
-{"src": "WAT:肥→牀", "dst": "MTN:彭毗之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-015", "clause": "肥水出焉，南流注于牀水"}
-{"src": "WAT:肥→牀", "dst": "WAT:牀", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-03-3-015", "clause": "肥水出焉，南流注于牀水"}
+{"src": "WAT:肥", "dst": "MTN:彭毗之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-015", "clause": "肥水出焉，南流注于牀水"}
+{"src": "WAT:肥", "dst": "WAT:牀", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-03-3-015", "clause": "肥水出焉，南流注于牀水"}
 {"src": "WAT:明漳", "dst": "MTN:小侯之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-016", "clause": "明漳之水出焉，南流注于黃澤"}
 {"src": "WAT:明漳", "dst": "WAT:黃澤", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-03-3-016", "clause": "明漳之水出焉，南流注于黃澤"}
-{"src": "WAT:共→虖池", "dst": "MTN:泰頭之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-017", "clause": "共水出焉，南流注于虖池"}
-{"src": "WAT:共→虖池", "dst": "WAT:虖池", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-03-3-017", "clause": "共水出焉，南流注于虖池"}
+{"src": "WAT:共→河", "dst": "MTN:泰頭之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-017", "clause": "共水出焉，南流注于虖池"}
+{"src": "WAT:共→河", "dst": "WAT:虖池", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-03-3-017", "clause": "共水出焉，南流注于虖池"}
 {"src": "WAT:沁", "dst": "MTN:謁戾之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-019", "clause": "沁水出焉，南流注于河"}
 {"src": "WAT:沁", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-03-3-019", "clause": "沁水出焉，南流注于河"}
 {"src": "WAT:丹林", "dst": "MTN:謁戾之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-019", "clause": "丹林之水出焉，南流注于河"}
@@ -2457,8 +2457,8 @@
 {"src": "WAT:槐", "dst": "WAT:泜澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-3-029", "clause": "槐水出焉，東流注于泜澤"}
 {"src": "WAT:歷聚", "dst": "MTN:柘山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-030", "clause": "歷聚之水出焉，北流注于洧水"}
 {"src": "WAT:歷聚", "dst": "WAT:洧", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-03-3-030", "clause": "歷聚之水出焉，北流注于洧水"}
-{"src": "WAT:肥→皋澤", "dst": "MTN:維龍之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-031", "clause": "肥水出焉，東流注于皋澤"}
-{"src": "WAT:肥→皋澤", "dst": "WAT:皋澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-3-031", "clause": "肥水出焉，東流注于皋澤"}
+{"src": "WAT:肥", "dst": "MTN:維龍之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-031", "clause": "肥水出焉，東流注于皋澤"}
+{"src": "WAT:肥", "dst": "WAT:皋澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-3-031", "clause": "肥水出焉，東流注于皋澤"}
 {"src": "WAT:敞鐵", "dst": "MTN:維龍之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-031", "clause": "敞鐵之水出焉，北流注于大澤"}
 {"src": "WAT:敞鐵", "dst": "WAT:大澤", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-03-3-031", "clause": "敞鐵之水出焉，北流注于大澤"}
 {"src": "WAT:木馬", "dst": "MTN:白馬之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-032", "clause": "木馬之水出焉，東北流注于虖沱"}
@@ -2491,8 +2491,8 @@
 {"src": "WAT:倫", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-3-043", "clause": "倫水出焉，東流注于河"}
 {"src": "WAT:繩", "dst": "MTN:碣石之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-03-3-044", "clause": "繩水出焉，東流注于河"}
 {"src": "WAT:繩", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-03-3-044", "clause": "繩水出焉，東流注于河"}
-{"src": "WAT:湖→食", "dst": "MTN:藟山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-1-002", "clause": "湖水出焉，東流注于食水"}
-{"src": "WAT:湖→食", "dst": "WAT:食", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-1-002", "clause": "湖水出焉，東流注于食水"}
+{"src": "WAT:湖", "dst": "MTN:藟山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-1-002", "clause": "湖水出焉，東流注于食水"}
+{"src": "WAT:湖", "dst": "WAT:食", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-1-002", "clause": "湖水出焉，東流注于食水"}
 {"src": "WAT:減→海", "dst": "MTN:番條之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-1-005", "clause": "減水出焉，北流注于海"}
 {"src": "WAT:減→海", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-04-1-005", "clause": "減水出焉，北流注于海"}
 {"src": "WAT:姑兒", "dst": "MTN:姑兒之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-1-006", "clause": "姑兒之水出焉，北流注于海"}
@@ -2509,8 +2509,8 @@
 {"src": "WAT:激", "dst": "WAT:娶檀", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-1-012", "clause": "激水出焉，東流注于娶檀之水"}
 {"src": "WAT:嶧皋", "dst": "MTN:嶧皋之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-2-003", "clause": "嶧皋之水出焉，東流注于激女之水"}
 {"src": "WAT:嶧皋", "dst": "WAT:激女", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-2-003", "clause": "嶧皋之水出焉，東流注于激女之水"}
-{"src": "WAT:澧→余澤", "dst": "MTN:葛山之首", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-2-005", "clause": "澧水出焉，東流注于余澤"}
-{"src": "WAT:澧→余澤", "dst": "WAT:余澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-2-005", "clause": "澧水出焉，東流注于余澤"}
+{"src": "WAT:澧", "dst": "MTN:葛山之首", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-2-005", "clause": "澧水出焉，東流注于余澤"}
+{"src": "WAT:澧", "dst": "WAT:余澤", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-2-005", "clause": "澧水出焉，東流注于余澤"}
 {"src": "WAT:雜余", "dst": "MTN:餘峩之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-2-006", "clause": "雜余之水出焉，東流注于黃水"}
 {"src": "WAT:雜余", "dst": "WAT:黃", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-04-2-006", "clause": "雜余之水出焉，東流注于黃水"}
 {"src": "WAT:沙", "dst": "MTN:盧其之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-04-2-009", "clause": "沙水出焉，南流注于涔水"}
@@ -2536,15 +2536,15 @@
 {"src": "WAT:勞", "dst": "MTN:牛首之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-1-011", "clause": "勞水出焉，西流注于潏水"}
 {"src": "WAT:勞", "dst": "WAT:潏", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-1-011", "clause": "勞水出焉，西流注于潏水"}
 {"src": "WAT:即魚", "dst": "MTN:發視之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-2-002", "clause": "即魚之水出焉，西流注于伊水"}
-{"src": "WAT:即魚", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-2-002", "clause": "即魚之水出焉，西流注于伊水"}
-{"src": "WAT:鮮→伊", "dst": "MTN:鮮山#中次二經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-2-004", "clause": "鮮水出焉，北流注于伊水"}
-{"src": "WAT:鮮→伊", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-2-004", "clause": "鮮水出焉，北流注于伊水"}
+{"src": "WAT:即魚", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-2-002", "clause": "即魚之水出焉，西流注于伊水"}
+{"src": "WAT:鮮", "dst": "MTN:鮮山#中次二經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-2-004", "clause": "鮮水出焉，北流注于伊水"}
+{"src": "WAT:鮮", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-2-004", "clause": "鮮水出焉，北流注于伊水"}
 {"src": "WAT:陽→伊", "dst": "MTN:陽山#中次二經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-2-005", "clause": "陽水出焉，北流注于伊水"}
-{"src": "WAT:陽→伊", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-2-005", "clause": "陽水出焉，北流注于伊水"}
+{"src": "WAT:陽→伊", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-2-005", "clause": "陽水出焉，北流注于伊水"}
 {"src": "WAT:葌", "dst": "MTN:葌山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-2-007", "clause": "葌水出焉，北流注于伊水"}
-{"src": "WAT:葌", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-2-007", "clause": "葌水出焉，北流注于伊水"}
+{"src": "WAT:葌", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-2-007", "clause": "葌水出焉，北流注于伊水"}
 {"src": "WAT:伊→洛", "dst": "MTN:蔓渠之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-2-009", "clause": "伊水出焉，東流注于洛"}
-{"src": "WAT:伊→洛", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-2-009", "clause": "伊水出焉，東流注于洛"}
+{"src": "WAT:伊→洛", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-2-009", "clause": "伊水出焉，東流注于洛"}
 {"src": "WAT:畛", "dst": "MTN:青要之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-3-002", "clause": "畛水出焉，北流注于河"}
 {"src": "WAT:畛", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-3-002", "clause": "畛水出焉，北流注于河"}
 {"src": "WAT:正回", "dst": "MTN:騩山#中次三經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-3-003", "clause": "正回之水出焉，北流注于河"}
@@ -2552,75 +2552,75 @@
 {"src": "WAT:滽滽→河", "dst": "MTN:宜蘇之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-3-004", "clause": "滽滽之水出焉，北流注于河"}
 {"src": "WAT:滽滽→河", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-3-004", "clause": "滽滽之水出焉，北流注于河"}
 {"src": "WAT:甘", "dst": "MTN:鹿蹄之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-001", "clause": "甘水出焉，北流注于洛"}
-{"src": "WAT:甘", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-4-001", "clause": "甘水出焉，北流注于洛"}
+{"src": "WAT:甘", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-4-001", "clause": "甘水出焉，北流注于洛"}
 {"src": "WAT:虢", "dst": "MTN:扶豬之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-002", "clause": "虢水出焉，北流注于洛"}
-{"src": "WAT:虢", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-4-002", "clause": "虢水出焉，北流注于洛"}
+{"src": "WAT:虢", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-4-002", "clause": "虢水出焉，北流注于洛"}
 {"src": "WAT:滽滽→伊", "dst": "MTN:釐山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-003", "clause": "滽滽之水出焉，南流注于伊水"}
-{"src": "WAT:滽滽→伊", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-4-003", "clause": "滽滽之水出焉，南流注于伊水"}
+{"src": "WAT:滽滽→伊", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-4-003", "clause": "滽滽之水出焉，南流注于伊水"}
 {"src": "WAT:滔雕", "dst": "MTN:柄山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-005", "clause": "滔雕之水出焉，北流注于洛"}
-{"src": "WAT:滔雕", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-4-005", "clause": "滔雕之水出焉，北流注于洛"}
+{"src": "WAT:滔雕", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-4-005", "clause": "滔雕之水出焉，北流注于洛"}
 {"src": "WAT:浮濠", "dst": "MTN:熊耳之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-007", "clause": "浮濠之水出焉，西流注于洛"}
-{"src": "WAT:浮濠", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-4-007", "clause": "浮濠之水出焉，西流注于洛"}
-{"src": "WAT:洛→玄扈", "dst": "MTN:讙舉之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-009", "clause": "雒水出焉，東北流注于玄扈之水"}
-{"src": "WAT:洛→玄扈", "dst": "WAT:玄扈", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-4-009", "clause": "雒水出焉，東北流注于玄扈之水"}
+{"src": "WAT:浮濠", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-4-007", "clause": "浮濠之水出焉，西流注于洛"}
+{"src": "WAT:洛→河", "dst": "MTN:讙舉之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-4-009", "clause": "雒水出焉，東北流注于玄扈之水"}
+{"src": "WAT:洛→河", "dst": "WAT:玄扈", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-4-009", "clause": "雒水出焉，東北流注于玄扈之水"}
 {"src": "WAT:尸", "dst": "MTN:尸山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-5-011", "clause": "尸水出焉，南流注于洛水"}
-{"src": "WAT:尸", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-5-011", "clause": "尸水出焉，南流注于洛水"}
+{"src": "WAT:尸", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-5-011", "clause": "尸水出焉，南流注于洛水"}
 {"src": "WAT:餘", "dst": "MTN:良餘之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-5-012", "clause": "餘水出於其陰，北流注于河"}
 {"src": "WAT:餘", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-5-012", "clause": "餘水出於其陰，北流注于河"}
 {"src": "WAT:乳", "dst": "MTN:良餘之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-5-012", "clause": "乳水出於其陽，東南流注于洛"}
-{"src": "WAT:乳", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-5-012", "clause": "乳水出於其陽，東南流注于洛"}
+{"src": "WAT:乳", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-5-012", "clause": "乳水出於其陽，東南流注于洛"}
 {"src": "WAT:龍餘", "dst": "MTN:蠱尾之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-5-013", "clause": "龍餘之水出焉，東南流注于洛"}
-{"src": "WAT:龍餘", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-5-013", "clause": "龍餘之水出焉，東南流注于洛"}
+{"src": "WAT:龍餘", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-5-013", "clause": "龍餘之水出焉，東南流注于洛"}
 {"src": "WAT:黃酸", "dst": "MTN:升山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-5-014", "clause": "黃酸之水出焉，北流注于河"}
 {"src": "WAT:黃酸", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-5-014", "clause": "黃酸之水出焉，北流注于河"}
 {"src": "WAT:交觴", "dst": "MTN:廆山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-003", "clause": "交觴之水出於其陽，南流注于洛"}
-{"src": "WAT:交觴", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-003", "clause": "交觴之水出於其陽，南流注于洛"}
+{"src": "WAT:交觴", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-003", "clause": "交觴之水出於其陽，南流注于洛"}
 {"src": "WAT:俞隨", "dst": "MTN:廆山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-003", "clause": "俞隨之水出於其陰，北流注于穀水"}
 {"src": "WAT:俞隨", "dst": "WAT:穀", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-6-003", "clause": "俞隨之水出於其陰，北流注于穀水"}
 {"src": "WAT:㴬", "dst": "MTN:瞻諸之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-004", "clause": "㴬水出焉，東南流注于洛"}
-{"src": "WAT:㴬", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-6-004", "clause": "㴬水出焉，東南流注于洛"}
+{"src": "WAT:㴬", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-6-004", "clause": "㴬水出焉，東南流注于洛"}
 {"src": "WAT:少", "dst": "MTN:瞻諸之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-004", "clause": "少水出於其陰，東流注于穀水"}
 {"src": "WAT:少", "dst": "WAT:穀", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-6-004", "clause": "少水出於其陰，東流注于穀水"}
 {"src": "WAT:瞻", "dst": "MTN:婁涿之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-005", "clause": "瞻水出於其陽，東流注于洛"}
-{"src": "WAT:瞻", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-6-005", "clause": "瞻水出於其陽，東流注于洛"}
+{"src": "WAT:瞻", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-6-005", "clause": "瞻水出於其陽，東流注于洛"}
 {"src": "WAT:陂", "dst": "MTN:婁涿之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-005", "clause": "陂水出於其陰，北流注于穀水"}
 {"src": "WAT:陂", "dst": "WAT:穀", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-6-005", "clause": "陂水出於其陰，北流注于穀水"}
 {"src": "WAT:惠", "dst": "MTN:白石之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-006", "clause": "惠水出於其陽，南流注于洛"}
-{"src": "WAT:惠", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-006", "clause": "惠水出於其陽，南流注于洛"}
+{"src": "WAT:惠", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-006", "clause": "惠水出於其陽，南流注于洛"}
 {"src": "WAT:澗", "dst": "MTN:白石之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-006", "clause": "澗水出於其陰，西北流注于穀水"}
 {"src": "WAT:澗", "dst": "WAT:穀", "type": "flows_into", "attrs": {"direction": "西北"}, "entry": "SHJ-05-6-006", "clause": "澗水出於其陰，西北流注于穀水"}
 {"src": "WAT:爽", "dst": "MTN:榖山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-007", "clause": "爽水出焉，西北流注于榖水"}
 {"src": "WAT:爽", "dst": "WAT:穀", "type": "flows_into", "attrs": {"direction": "西北"}, "entry": "SHJ-05-6-007", "clause": "爽水出焉，西北流注于榖水"}
 {"src": "WAT:豪", "dst": "MTN:密山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-008", "clause": "豪水出焉，南流注于洛"}
-{"src": "WAT:豪", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-008", "clause": "豪水出焉，南流注于洛"}
+{"src": "WAT:豪", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-008", "clause": "豪水出焉，南流注于洛"}
 {"src": "WAT:共→洛", "dst": "MTN:長石之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-009", "clause": "共水出焉，西南流注于洛"}
-{"src": "WAT:共→洛", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-05-6-009", "clause": "共水出焉，西南流注于洛"}
+{"src": "WAT:共→洛", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-05-6-009", "clause": "共水出焉，西南流注于洛"}
 {"src": "WAT:厭染", "dst": "MTN:傅山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-010", "clause": "厭染之水出於其陽，南流注于洛"}
-{"src": "WAT:厭染", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-010", "clause": "厭染之水出於其陽，南流注于洛"}
+{"src": "WAT:厭染", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-6-010", "clause": "厭染之水出於其陽，南流注于洛"}
 {"src": "WAT:穀", "dst": "MTN:傅山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-010", "clause": "穀水出焉，東流注于洛"}
-{"src": "WAT:穀", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-6-010", "clause": "穀水出焉，東流注于洛"}
+{"src": "WAT:穀", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-6-010", "clause": "穀水出焉，東流注于洛"}
 {"src": "WAT:橐", "dst": "MTN:橐山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-011", "clause": "橐水出焉，北流注于河"}
 {"src": "WAT:橐", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-6-011", "clause": "橐水出焉，北流注于河"}
 {"src": "WAT:潐", "dst": "MTN:常烝之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-012", "clause": "潐水出焉，東北流注于河"}
 {"src": "WAT:潐", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-6-012", "clause": "潐水出焉，東北流注于河"}
 {"src": "WAT:菑", "dst": "MTN:常烝之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-012", "clause": "菑水出焉，北流注于河"}
 {"src": "WAT:菑", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-6-012", "clause": "菑水出焉，北流注于河"}
-{"src": "WAT:湖→河", "dst": "MTN:夸父之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-013", "clause": "湖水出焉，北流注于河"}
-{"src": "WAT:湖→河", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-6-013", "clause": "湖水出焉，北流注于河"}
+{"src": "WAT:湖", "dst": "MTN:夸父之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-013", "clause": "湖水出焉，北流注于河"}
+{"src": "WAT:湖", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-6-013", "clause": "湖水出焉，北流注于河"}
 {"src": "WAT:楊", "dst": "MTN:陽華之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-014", "clause": "楊水出焉，西南流注于洛"}
-{"src": "WAT:楊", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-05-6-014", "clause": "楊水出焉，西南流注于洛"}
+{"src": "WAT:楊", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-05-6-014", "clause": "楊水出焉，西南流注于洛"}
 {"src": "WAT:門", "dst": "MTN:陽華之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-014", "clause": "門水出焉，東北流注于河"}
 {"src": "WAT:門", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-6-014", "clause": "門水出焉，東北流注于河"}
 {"src": "WAT:𦁎姑", "dst": "MTN:陽華之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-6-014", "clause": "𦁎姑之水出於其陰，東流注于門水"}
 {"src": "WAT:𦁎姑", "dst": "WAT:門", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-6-014", "clause": "𦁎姑之水出於其陰，東流注于門水"}
 {"src": "WAT:其陽狂", "dst": "MTN:大𩇵之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-7-007", "clause": "其陽狂水出焉，西南流注于伊水"}
-{"src": "WAT:其陽狂", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-05-7-007", "clause": "其陽狂水出焉，西南流注于伊水"}
+{"src": "WAT:其陽狂", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-05-7-007", "clause": "其陽狂水出焉，西南流注于伊水"}
 {"src": "WAT:來需", "dst": "MTN:半石之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-7-008", "clause": "來需之水出於其陽，西流注于伊水"}
-{"src": "WAT:來需", "dst": "WAT:伊", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-7-008", "clause": "來需之水出於其陽，西流注于伊水"}
+{"src": "WAT:來需", "dst": "WAT:伊→洛", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-05-7-008", "clause": "來需之水出於其陽，西流注于伊水"}
 {"src": "WAT:合", "dst": "MTN:半石之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-7-008", "clause": "合水出於其陰，北流注于洛"}
-{"src": "WAT:合", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-7-008", "clause": "合水出於其陰，北流注于洛"}
+{"src": "WAT:合", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-7-008", "clause": "合水出於其陰，北流注于洛"}
 {"src": "WAT:休", "dst": "MTN:少室之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-7-009", "clause": "休水出焉，北流注于洛"}
-{"src": "WAT:休", "dst": "WAT:洛", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-7-009", "clause": "休水出焉，北流注于洛"}
+{"src": "WAT:休", "dst": "WAT:洛→河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-7-009", "clause": "休水出焉，北流注于洛"}
 {"src": "WAT:汜", "dst": "MTN:浮戲之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-7-013", "clause": "汜水出焉，北流注于河"}
 {"src": "WAT:汜", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-7-013", "clause": "汜水出焉，北流注于河"}
 {"src": "WAT:器難", "dst": "MTN:少陘之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-7-014", "clause": "器難之水出焉，北流注于役水"}
@@ -2633,16 +2633,14 @@
 {"src": "WAT:役", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "北"}, "entry": "SHJ-05-7-017", "clause": "役水出焉，北流注于河"}
 {"src": "WAT:雎", "dst": "MTN:景山#中次八經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-8-001", "clause": "雎水出焉，東南流注于江"}
 {"src": "WAT:雎", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-8-001", "clause": "雎水出焉，東南流注于江"}
-{"src": "WAT:漳→雎", "dst": "MTN:荊山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-8-002", "clause": "漳水出焉，東南流注于雎"}
-{"src": "WAT:漳→雎", "dst": "WAT:雎", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-8-002", "clause": "漳水出焉，東南流注于雎"}
+{"src": "WAT:漳→河", "dst": "MTN:荊山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-8-002", "clause": "漳水出焉，東南流注于雎"}
+{"src": "WAT:漳→河", "dst": "WAT:雎", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-8-002", "clause": "漳水出焉，東南流注于雎"}
 {"src": "WAT:洈", "dst": "MTN:宜諸之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-8-005", "clause": "洈水出焉，南流注于漳"}
-{"src": "WAT:洈", "dst": "WAT:漳", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-8-005", "clause": "洈水出焉，南流注于漳"}
-{"src": "WAT:江→海", "dst": "MTN:岷山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-002", "clause": "江水出焉，東北流注于海"}
-{"src": "WAT:江→海", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-9-002", "clause": "江水出焉，東北流注于海"}
-{"src": "WAT:江→江", "dst": "MTN:崍山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-003", "clause": "江水出焉，東流注于江"}
-{"src": "WAT:江→江", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-9-003", "clause": "江水出焉，東流注于江"}
-{"src": "WAT:江→江", "dst": "MTN:崌山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-004", "clause": "江水出焉，東流注于大江"}
-{"src": "WAT:江→江", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-9-004", "clause": "江水出焉，東流注于大江"}
+{"src": "WAT:洈", "dst": "WAT:漳→河", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-8-005", "clause": "洈水出焉，南流注于漳"}
+{"src": "WAT:江", "dst": "MTN:岷山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-002", "clause": "江水出焉，東北流注于海"}
+{"src": "WAT:江", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-9-002", "clause": "江水出焉，東北流注于海"}
+{"src": "WAT:江", "dst": "MTN:崍山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-003", "clause": "江水出焉，東流注于江"}
+{"src": "WAT:江", "dst": "MTN:崌山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-004", "clause": "江水出焉，東流注于大江"}
 {"src": "WAT:蒲𪈘", "dst": "MTN:鬲山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-007", "clause": "蒲𪈘之水出焉，東流注于江"}
 {"src": "WAT:蒲𪈘", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-9-007", "clause": "蒲𪈘之水出焉，東流注于江"}
 {"src": "WAT:徐", "dst": "MTN:隅陽之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-008", "clause": "徐之水出焉，東流注于江"}
@@ -2652,55 +2650,75 @@
 {"src": "WAT:宣余", "dst": "MTN:風雨之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-9-011", "clause": "宣余之水出焉，東流注于江"}
 {"src": "WAT:宣余", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-9-011", "clause": "宣余之水出焉，東流注于江"}
 {"src": "WAT:湍", "dst": "MTN:翼望之山#中次十一經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-001", "clause": "湍水出焉，東流注于濟"}
-{"src": "WAT:湍", "dst": "WAT:濟", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-11-001", "clause": "湍水出焉，東流注于濟"}
+{"src": "WAT:湍", "dst": "WAT:濟→漢", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-11-001", "clause": "湍水出焉，東流注于濟"}
 {"src": "WAT:貺", "dst": "MTN:翼望之山#中次十一經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-001", "clause": "貺水出焉，東南流注于漢"}
 {"src": "WAT:貺", "dst": "WAT:漢", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-11-001", "clause": "貺水出焉，東南流注于漢"}
 {"src": "WAT:潕", "dst": "MTN:朝歌之山#中次十一經", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-002", "clause": "潕水出焉，東南流注于滎"}
 {"src": "WAT:潕", "dst": "WAT:滎", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-11-002", "clause": "潕水出焉，東南流注于滎"}
-{"src": "WAT:濟", "dst": "MTN:支離之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-010", "clause": "濟水出焉，南流注于漢"}
-{"src": "WAT:濟", "dst": "WAT:漢", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-11-010", "clause": "濟水出焉，南流注于漢"}
+{"src": "WAT:濟→漢", "dst": "MTN:支離之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-010", "clause": "濟水出焉，南流注于漢"}
+{"src": "WAT:濟→漢", "dst": "WAT:漢", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-05-11-010", "clause": "濟水出焉，南流注于漢"}
 {"src": "WAT:帝苑", "dst": "MTN:畢山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-020", "clause": "帝苑之水出焉，東北流注于視"}
 {"src": "WAT:帝苑", "dst": "WAT:視", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-11-020", "clause": "帝苑之水出焉，東北流注于視"}
 {"src": "WAT:視", "dst": "MTN:葴山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-022", "clause": "視水出焉，東南流注于汝水"}
 {"src": "WAT:視", "dst": "WAT:汝", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-11-022", "clause": "視水出焉，東南流注于汝水"}
 {"src": "WAT:殺", "dst": "MTN:大孰之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-026", "clause": "殺水出焉，東北流注于視水"}
 {"src": "WAT:殺", "dst": "WAT:視", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-05-11-026", "clause": "殺水出焉，東北流注于視水"}
-{"src": "WAT:澧→視", "dst": "MTN:雅山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-030", "clause": "澧水出焉，東流注于視水"}
-{"src": "WAT:澧→視", "dst": "WAT:視", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-11-030", "clause": "澧水出焉，東流注于視水"}
+{"src": "WAT:澧", "dst": "MTN:雅山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-030", "clause": "澧水出焉，東流注于視水"}
+{"src": "WAT:澧", "dst": "WAT:視", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-11-030", "clause": "澧水出焉，東流注于視水"}
 {"src": "WAT:淪", "dst": "MTN:宣山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-031", "clause": "淪水出焉，東南流注于視水"}
 {"src": "WAT:淪", "dst": "WAT:視", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-05-11-031", "clause": "淪水出焉，東南流注于視水"}
 {"src": "WAT:臯", "dst": "MTN:章山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-036", "clause": "臯水出焉，東流注于豐水"}
 {"src": "WAT:臯", "dst": "WAT:豐", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-11-036", "clause": "臯水出焉，東流注于豐水"}
 {"src": "WAT:奧", "dst": "MTN:奧山", "type": "rises_at", "attrs": {}, "entry": "SHJ-05-11-045", "clause": "奧水出焉，東流注于視水"}
 {"src": "WAT:奧", "dst": "WAT:視", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-05-11-045", "clause": "奧水出焉，東流注于視水"}
+{"src": "WAT:鬱", "dst": "LND:湘陵南海", "type": "rises_at", "attrs": {}, "entry": "SHJ-10-1-005", "clause": "鬱水出湘陵南海"}
+{"src": "WAT:河", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-11-1-014", "clause": "河水出東北隅，以行其北，西南又入渤海，又出海外，即西而北，入禹所導積石山"}
+{"src": "WAT:黑", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "南"}, "entry": "SHJ-11-1-015", "clause": "洋水、黑水出西北隅，以東，東行，又東北，南入海，羽民南"}
+{"src": "WAT:岷三江首江", "dst": "MTN:汶山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-011", "clause": "岷三江首江出汶山，北江曼山，南江出高山"}
 {"src": "WAT:三江首江", "dst": "MTN:汶山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-011", "clause": "三江首江出汶山"}
 {"src": "WAT:南江", "dst": "MTN:高山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-011", "clause": "南江出高山"}
+{"src": "WAT:淅江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-012", "clause": "淅江出三天子，都在東，在閩西北，入海，餘暨南"}
+{"src": "WAT:淅江", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-012", "clause": "淅江出三天子，都在東，在閩西北，入海，餘暨南"}
 {"src": "WAT:淅江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-012", "clause": "淅江出三天子"}
+{"src": "WAT:廬江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-013", "clause": "廬江出三天子，都入江，彭澤西，一曰天子鄣"}
+{"src": "WAT:廬江", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-013", "clause": "廬江出三天子，都入江，彭澤西，一曰天子鄣"}
 {"src": "WAT:廬江", "dst": "MTN:三天子", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-013", "clause": "廬江出三天子"}
-{"src": "WAT:濛→江", "dst": "MTN:漢陽", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-017", "clause": "濛水出漢陽，西入江"}
-{"src": "WAT:濛→江", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-13-1-017", "clause": "濛水出漢陽，西入江"}
-{"src": "WAT:渭", "dst": "MTN:烏鼠同穴山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-022", "clause": "渭水出烏鼠同穴山，東注河"}
-{"src": "WAT:渭", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-13-1-022", "clause": "渭水出烏鼠同穴山，東注河"}
-{"src": "WAT:白", "dst": "LND:蜀", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-023", "clause": "白水出蜀，而東南注江"}
+{"src": "WAT:淮", "dst": "MTN:餘山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-014", "clause": "淮水出餘山，餘山在朝陽東，義鄉西，入海，淮浦北"}
+{"src": "WAT:淮", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-014", "clause": "淮水出餘山，餘山在朝陽東，義鄉西，入海，淮浦北"}
+{"src": "WAT:湘", "dst": "LND:舜葬東南陬", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-015", "clause": "湘水出舜葬東南陬，西環之，入洞庭下，一曰東南西澤"}
+{"src": "WAT:漢", "dst": "MTN:鮒魚之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-016", "clause": "漢水出鮒魚之山，帝顓頊葬于陽，九嬪葬于陰，四蛇衛之"}
+{"src": "WAT:濛", "dst": "LND:漢陽", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-017", "clause": "濛水出漢陽，西入江，聶陽西"}
+{"src": "WAT:濛", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "西"}, "entry": "SHJ-13-1-017", "clause": "濛水出漢陽，西入江，聶陽西"}
+{"src": "WAT:溫", "dst": "MTN:崆峒山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-018", "clause": "溫水出崆峒山，在臨汾，南入灑，華陽北"}
+{"src": "WAT:潁", "dst": "MTN:少室之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-019", "clause": "潁水出少室，少室山在雍氏，南入淮，西鄢北"}
+{"src": "WAT:汝", "dst": "MTN:天息山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-020", "clause": "汝水出天息山，在梁勉鄉，西南入淮，極西北"}
+{"src": "WAT:涇", "dst": "MTN:長城北山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-021", "clause": "涇水出長城北山，山在郁致，長垣北，北入謂戲北"}
+{"src": "WAT:渭", "dst": "MTN:烏鼠同穴山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-022", "clause": "渭水出烏鼠同穴山，東注河，入華陰北"}
+{"src": "WAT:渭", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-13-1-022", "clause": "渭水出烏鼠同穴山，東注河，入華陰北"}
 {"src": "WAT:白", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-023", "clause": "白水出蜀，而東南注江"}
-{"src": "WAT:贑", "dst": "MTN:聶都東山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-025", "clause": "贑水出聶都東山，東北注江"}
-{"src": "WAT:贑", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-13-1-025", "clause": "贑水出聶都東山，東北注江"}
-{"src": "WAT:鬱", "dst": "MTN:象郡而西南", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-027", "clause": "鬱水出象郡而西南，注南海"}
-{"src": "WAT:鬱", "dst": "WAT:南海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-027", "clause": "鬱水出象郡而西南，注南海"}
-{"src": "WAT:潢", "dst": "MTN:桂陽西北山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-029", "clause": "潢水出桂陽西北山，東南注肆水"}
-{"src": "WAT:潢", "dst": "WAT:肆", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-029", "clause": "潢水出桂陽西北山，東南注肆水"}
-{"src": "WAT:洛→河", "dst": "MTN:洛西山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-030", "clause": "洛水出洛西山，東北注河"}
-{"src": "WAT:洛→河", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-13-1-030", "clause": "洛水出洛西山，東北注河"}
-{"src": "WAT:汾", "dst": "MTN:窳北", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-031", "clause": "汾水出上窳北，而西南注河"}
-{"src": "WAT:汾", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-13-1-031", "clause": "汾水出上窳北，而西南注河"}
-{"src": "WAT:沁", "dst": "MTN:井陘山東", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-032", "clause": "沁水出井陘山東，東南注河"}
-{"src": "WAT:沁", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-032", "clause": "沁水出井陘山東，東南注河"}
-{"src": "WAT:潦", "dst": "MTN:衛臯東", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-034", "clause": "潦水出衛臯東，東南注渤海"}
-{"src": "WAT:潦", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-034", "clause": "潦水出衛臯東，東南注渤海"}
-{"src": "WAT:漳→渤海", "dst": "MTN:山陽東", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-036", "clause": "漳水出山陽東，東注渤海"}
-{"src": "WAT:漳→渤海", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-13-1-036", "clause": "漳水出山陽東，東注渤海"}
-{"src": "WAT:蛇", "dst": "LND:焉", "type": "rises_at", "attrs": {}, "entry": "SHJ-18-1-025", "clause": "蛇水出焉，東入于海"}
-{"src": "WAT:蛇", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-18-1-025", "clause": "蛇水出焉，東入于海"}
+{"src": "WAT:贑", "dst": "MTN:聶都東山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-025", "clause": "贑水出聶都東山，東北注江，入彭澤"}
+{"src": "WAT:贑", "dst": "WAT:江", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-13-1-025", "clause": "贑水出聶都東山，東北注江，入彭澤"}
+{"src": "WAT:西泗", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-026", "clause": "西泗水出吳東北而南、西南，過湖陵西而東南，注東海，入淮陰北"}
+{"src": "WAT:鬱", "dst": "LND:象郡", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-027", "clause": "鬱水出象郡而西南，注南海，入須陵東南"}
+{"src": "WAT:鬱", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-027", "clause": "鬱水出象郡而西南，注南海，入須陵東南"}
+{"src": "WAT:肆", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-028", "clause": "肆水出臨晉，西南而東南注海，入番隅西"}
+{"src": "WAT:潢", "dst": "MTN:桂陽西北山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-029", "clause": "潢水出桂陽西北山，東南注肆水，入敦浦西"}
+{"src": "WAT:潢", "dst": "WAT:肆", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-029", "clause": "潢水出桂陽西北山，東南注肆水，入敦浦西"}
+{"src": "WAT:洛→河", "dst": "MTN:洛西山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-030", "clause": "洛水出洛西山，東北注河，入成臯之西"}
+{"src": "WAT:洛→河", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東北"}, "entry": "SHJ-13-1-030", "clause": "洛水出洛西山，東北注河，入成臯之西"}
+{"src": "WAT:汾", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "西南"}, "entry": "SHJ-13-1-031", "clause": "汾水出上窳北，而西南注河，入皮氏南"}
+{"src": "WAT:沁", "dst": "MTN:井陘山", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-032", "clause": "沁水出井陘山東，東南注河，入懷東南"}
+{"src": "WAT:沁", "dst": "WAT:河", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-032", "clause": "沁水出井陘山東，東南注河，入懷東南"}
+{"src": "WAT:濟→渤海", "dst": "MTN:共山南東丘", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-033", "clause": "濟水出共山南東丘，絕鉅鹿澤，注渤海，入齊琅槐東北"}
+{"src": "WAT:濟→渤海", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": null}, "entry": "SHJ-13-1-033", "clause": "濟水出共山南東丘，絕鉅鹿澤，注渤海，入齊琅槐東北"}
+{"src": "WAT:潦", "dst": "LND:衛臯", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-034", "clause": "潦水出衛臯東，東南注渤海，入遼陽"}
+{"src": "WAT:潦", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": "東南"}, "entry": "SHJ-13-1-034", "clause": "潦水出衛臯東，東南注渤海，入遼陽"}
+{"src": "WAT:虖沲", "dst": "LND:晉陽城", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-035", "clause": "虖沲水出晉陽城南，而西至陽曲北，而東注渤海，入越章武北"}
+{"src": "WAT:虖沲", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-13-1-035", "clause": "虖沲水出晉陽城南，而西至陽曲北，而東注渤海，入越章武北"}
+{"src": "WAT:漳→渤海", "dst": "LND:山陽", "type": "rises_at", "attrs": {}, "entry": "SHJ-13-1-036", "clause": "漳水出山陽東，東注渤海，入章武南"}
+{"src": "WAT:漳→渤海", "dst": "WAT:渤海", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-13-1-036", "clause": "漳水出山陽東，東注渤海，入章武南"}
+{"src": "WAT:蛇", "dst": "WAT:海", "type": "flows_into", "attrs": {"direction": "東"}, "entry": "SHJ-18-1-025", "clause": "北海之内，有蛇山者，蛇水出焉，東入于海"}
+{"src": "WAT:河", "dst": "WAT:泑澤", "type": "sinks_at", "attrs": {}, "entry": "SHJ-02-3-003", "clause": "東望泑澤，河水所潛"}
 {"src": "MTN:箕尾之山#南山經之首", "dst": "MTN:箕尾之山#中次四經", "type": "same_name", "attrs": {}, "entry": "SHJ-01-1-009", "clause": "箕尾之山"}
 {"src": "MTN:區吳之山#南次二經", "dst": "MTN:區吳之山#中次十一經", "type": "same_name", "attrs": {}, "entry": "SHJ-01-2-015", "clause": "區吳之山"}
 {"src": "MTN:雞山#南次三經", "dst": "MTN:雞山#中次十一經", "type": "same_name", "attrs": {}, "entry": "SHJ-01-3-009", "clause": "雞山"}
