@@ -10,4 +10,6 @@
 
 **EN**: In 海內西經, 海內北經, 海內東經, 大荒東經 and 海內經, the Wikisource base text moves well over ten paragraphs and inserts sentences following modern editors (e.g. `SHJ-18-1-008`). The 1470 Chenghua edition has none of these changes. Any reasoning that depends on the relative position of these paragraphs (e.g. "polity A is east of B") must use the Chenghua order.
 
+**更新 / Update (T-104)**：對齊工具證實，明成化本與四庫本對其中 8 個段落塊（22 條）的位置**彼此一致**而與底本不同，已登記為 X3-001–008；另有兩處底本補入的文字（I-001、I-002）。見 [source-assessment §3.1](../docs/source-assessment.md)。/ The alignment tool shows the Chenghua and Siku editions **agree with each other** on 8 blocks (22 entries) and both differ from the base; registered as X3-001–008, plus two base insertions (I-001, I-002).
+
 **影響 / Impact**：任務 T-003、T-004、T-104；相對方位網路（規格 §7.6）。/ tasks T-003, T-004, T-104; relational network (spec §7.6).

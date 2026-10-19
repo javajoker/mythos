@@ -132,6 +132,8 @@ def pair_variants(entries, al, streams, names):
         book, lo = prev["book"], max(prev["end"], floor.get(prev["book"], 0)) - 4
         hi = nxt["start"] + 4 if nxt and nxt["book"] == book else prev["end"] + 3 * len(t) + 60
         s = streams[book]
+        if min(hi, len(s)) - max(0, lo) < 0.5 * len(t):   # no room between aligned neighbours: text is missing
+            continue
         best = None
         for st in range(max(0, lo), max(max(0, lo) + 1, min(hi, len(s)) - len(t) + 1)):
             w = s[st:st + len(t)]

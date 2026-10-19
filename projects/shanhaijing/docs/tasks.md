@@ -10,7 +10,7 @@
 | T-002 | 逐段編號，分離注疏、異文和現代編者註 / per-paragraph IDs; split commentary, variants and editorial notes | `tools/shj/ingest.py` | ✅ |
 | T-003 | 在明成化本與四庫本中定位每個底本條目（n-gram 投票，與順序無關），建立對應表 / locate every base entry in the Chenghua and Siku witnesses (order-independent n-gram voting) | `tools/shj/align_witness.py` → `witness-alignment.jsonl` | ✅ |
 | T-004 | 產生以明成化本為序的正式工作文本 `working-text.jsonl`（讀法暫取底本，待 T-102 逐條選定）/ build the canonical working text in Chenghua order (base readings until T-102 chooses per variant) | `tools/shj/align_witness.py` | ✅ |
-| T-005 | 補齊四部叢刊本缺頁（卷 1 洵山段、卷 15 一頁）/ fill the Sibu Congkan page gaps (book 1 洵山, one page of book 15) | `textual-critic` | ⬜ |
+| T-005 | 對照掃描頁補齊四部叢刊本缺頁（卷 1 洵山、虖勺、區吳三山；卷 15 一頁）/ fill the Sibu Congkan gaps from the scans (book 1: 洵山, 虖勺, 區吳; one page of book 15) | `textual-critic` | ⬜ |
 
 ## S1 校勘 / Textual criticism
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
@@ -18,7 +18,7 @@
 | T-101 | 機器對勘並把異文歸屬到條目 / machine collation, variants attributed to entries | `tools/shj/collate.py` | ✅ |
 | T-102 | 逐條分類 2,026 筆異文（異體 / 訛誤 / 實質 / 錯簡）/ classify the 2,026 variants | `textual-critic` + skill `witness-collation` | ⬜ |
 | T-103 | 擴充異體字摺疊表，降低雜訊 / extend the graphic-variant fold table to reduce noise | `textual-critic` | ⬜ |
-| T-104 | 登記底本中的現代移段為錯簡假說 `X3-*`（海內西、北、東經，大荒東經，海內經）/ register modern relocations as displacement hypotheses `X3-*` | `textual-critic` | ⬜ |
+| T-104 | 登記底本中的現代移段為錯簡假說：X3-001–008（22 條），補入文字 I-001–002 / register modern relocations as X3-001–008 (22 entries) and insertions I-001–002 | `align_witness.py` → `displacements.jsonl`；source-assessment §3.1 | ✅ |
 
 ## S2 結構抽取 / Extraction
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
