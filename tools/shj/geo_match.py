@@ -80,7 +80,7 @@ def main():
     props, evidence = {}, {}
     for e in target:
         t = mask_names(e["text"])
-        for tag in place_tags(t):
+        for tag in sorted(place_tags(t)):
             props.setdefault(tag, e["id"])
     rivers = set()
     for e in target:

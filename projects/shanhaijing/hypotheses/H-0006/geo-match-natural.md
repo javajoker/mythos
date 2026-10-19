@@ -8,12 +8,12 @@ Mentions listed for audit only, not scored (13): SHJ-02-3-005, SHJ-02-3-007, SHJ
 
 | feature | readings (alternatives score once) | weight(s) | evidence |
 |---|---|---|---|
-| great_peak | great_peak | 0.18 | `SHJ-11-1-012` |
 | gems_jade | gems_jade | 0.69 | `SHJ-11-1-012` |
+| great_peak | great_peak | 0.18 | `SHJ-11-1-012` |
 | desert_edge | desert_edge | 0.43 | `SHJ-16-1-037` |
-| sea_north | sea_north | 0.60 | `SHJ-16-1-037` |
-| fire_ground | fire_ground | 0.37 | `SHJ-16-1-037` |
 | encircling_water | encircling_water | 0.65 | `SHJ-16-1-037` |
+| fire_ground | fire_ground | 0.37 | `SHJ-16-1-037` |
+| sea_north | sea_north | 0.60 | `SHJ-16-1-037` |
 | glow | snow_cap or fire_ground | 0.23, 0.37 | `SHJ-02-3-007(clause)` |
 | river_source_major | river_source_major | 0.33 | `SHJ-02-3-008+SHJ-11-1-013+SHJ-11-1-014+SHJ-11-1-015+SHJ-11-1-016` |
 | rivers_multi_dir | rivers_multi_dir | 0.41 | 8 rivers, directions 東北東南西北西南 |
@@ -58,12 +58,12 @@ Leader margin: **0.52** → **G-moderate** (method-g-global.md §3.4)
 
 | dropped feature | leader | margin |
 |---|---|---|
-| great_peak | L13 | 0.52 |
 | gems_jade | L13 | 1.03 |
+| great_peak | L13 | 0.52 |
 | desert_edge | L13 | 0.95 |
-| sea_north | L13 | 0.52 |
-| fire_ground | L14 | 0.22 |
 | encircling_water | L14 | 0.72 |
+| fire_ground | L14 | 0.22 |
+| sea_north | L13 | 0.52 |
 | glow | L13 | 0.38 |
 | river_source_major | L13 | 0.41 |
 | rivers_multi_dir | L13 | 0.83 |
@@ -79,12 +79,12 @@ Leader frequency over the jackknife: L13 ×8, L14 ×3
 
 | feature | score | reading |
 |---|---|---|
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | -0.69 | gems_jade=F |
+| great_peak | +0.18 | great_peak=T |
 | desert_edge | -0.43 | desert_edge=F |
-| sea_north | -0.60 | sea_north=F |
-| fire_ground | +0.37 | fire_ground=T |
 | encircling_water | +0.65 | encircling_water=T |
+| fire_ground | +0.37 | fire_ground=T |
+| sea_north | -0.60 | sea_north=F |
 | glow | +0.37 | fire_ground=T |
 | river_source_major | +0.33 | river_source_major=T |
 | rivers_multi_dir | +0.00 | rivers_multi_dir=? |
@@ -95,12 +95,12 @@ Leader frequency over the jackknife: L13 ×8, L14 ×3
 
 | feature | score | reading |
 |---|---|---|
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | +0.69 | gems_jade=T |
+| great_peak | +0.18 | great_peak=T |
 | desert_edge | +0.00 | desert_edge=? |
-| sea_north | -0.60 | sea_north=F |
-| fire_ground | -0.37 | fire_ground=F |
 | encircling_water | -0.65 | encircling_water=F |
+| fire_ground | -0.37 | fire_ground=F |
+| sea_north | -0.60 | sea_north=F |
 | glow | +0.23 | snow_cap=T |
 | river_source_major | +0.33 | river_source_major=T |
 | rivers_multi_dir | +0.41 | rivers_multi_dir=T |
@@ -111,12 +111,12 @@ Leader frequency over the jackknife: L13 ×8, L14 ×3
 
 | feature | score | reading |
 |---|---|---|
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | -0.69 | gems_jade=F |
+| great_peak | +0.18 | great_peak=T |
 | desert_edge | -0.43 | desert_edge=F |
-| sea_north | -0.60 | sea_north=F |
-| fire_ground | -0.37 | fire_ground=F |
 | encircling_water | +0.65 | encircling_water=T |
+| fire_ground | -0.37 | fire_ground=F |
+| sea_north | -0.60 | sea_north=F |
 | glow | +0.23 | snow_cap=T |
 | river_source_major | +0.33 | river_source_major=T |
 | rivers_multi_dir | +0.41 | rivers_multi_dir=T |
@@ -127,12 +127,12 @@ Leader frequency over the jackknife: L13 ×8, L14 ×3
 
 | feature | score | reading |
 |---|---|---|
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | +0.69 | gems_jade=T |
+| great_peak | +0.18 | great_peak=T |
 | desert_edge | +0.43 | desert_edge=T |
-| sea_north | -0.60 | sea_north=F |
-| fire_ground | -0.37 | fire_ground=F |
 | encircling_water | +0.65 | encircling_water=T |
+| fire_ground | -0.37 | fire_ground=F |
+| sea_north | -0.60 | sea_north=F |
 | glow | +0.23 | snow_cap=T |
 | river_source_major | -0.33 | river_source_major=F |
 | rivers_multi_dir | +0.00 | rivers_multi_dir=? |
@@ -143,12 +143,12 @@ Leader frequency over the jackknife: L13 ×8, L14 ×3
 
 | feature | score | reading |
 |---|---|---|
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | +0.69 | gems_jade=T |
+| great_peak | +0.18 | great_peak=T |
 | desert_edge | +0.43 | desert_edge=T |
-| sea_north | -0.60 | sea_north=F |
-| fire_ground | +0.37 | fire_ground=T |
 | encircling_water | -0.65 | encircling_water=F |
+| fire_ground | +0.37 | fire_ground=T |
+| sea_north | -0.60 | sea_north=F |
 | glow | +0.37 | fire_ground=T |
 | river_source_major | +0.33 | river_source_major=T |
 | rivers_multi_dir | -0.41 | rivers_multi_dir=F |
@@ -159,12 +159,12 @@ Leader frequency over the jackknife: L13 ×8, L14 ×3
 
 | feature | score | reading |
 |---|---|---|
-| great_peak | -0.18 | great_peak=F |
 | gems_jade | +0.00 | gems_jade=? |
+| great_peak | -0.18 | great_peak=F |
 | desert_edge | +0.43 | desert_edge=T |
-| sea_north | +0.60 | sea_north=T |
-| fire_ground | -0.37 | fire_ground=F |
 | encircling_water | +0.00 | encircling_water=? |
+| fire_ground | -0.37 | fire_ground=F |
+| sea_north | +0.60 | sea_north=T |
 | glow | -0.23 | snow_cap=F |
 | river_source_major | -0.33 | river_source_major=F |
 | rivers_multi_dir | -0.41 | rivers_multi_dir=F |

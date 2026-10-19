@@ -11,13 +11,13 @@ Mentions listed for audit only, not scored (13): SHJ-02-3-005, SHJ-02-3-007, SHJ
 | guardian:human_feline_colossus | human_feline_colossus or animal: lion/tiger/leopard or animal: snow_leopard | 0.85, 0.14×1.0, 0.53×0.743 | `SHJ-02-3-008` 「虎身而九尾，人面而虎爪」 `SHJ-11-1-017` 「身大類虎而九首，皆人面」 `SHJ-16-1-037` 「人面虎身，有文有尾，皆白」  |
 | sacred_mountain | sacred_mountain | 0.17 | `SHJ-02-3-008` |
 | built_complex | built_complex | 0.55 | `SHJ-11-1-012` |
-| great_peak | great_peak | 0.18 | `SHJ-11-1-012` |
 | gems_jade | gems_jade | 0.69 | `SHJ-11-1-012` |
+| great_peak | great_peak | 0.18 | `SHJ-11-1-012` |
 | east_facing_colossus | east_facing_colossus | 1.41 | `SHJ-11-1-017` |
-| fire_ground | fire_ground | 0.37 | `SHJ-16-1-037` |
 | cave_dwelling | cave_dwelling | 1.20 | `SHJ-16-1-037` |
-| encircling_water | encircling_water | 0.65 | `SHJ-16-1-037` |
 | desert_edge | desert_edge | 0.43 | `SHJ-16-1-037` |
+| encircling_water | encircling_water | 0.65 | `SHJ-16-1-037` |
+| fire_ground | fire_ground | 0.37 | `SHJ-16-1-037` |
 | sea_north | sea_north | 0.60 | `SHJ-16-1-037` |
 | glow | snow_cap or fire_ground | 0.23, 0.37 | `SHJ-02-3-007(clause)` |
 | river_source_major | river_source_major | 0.33 | `SHJ-02-3-008+SHJ-11-1-013+SHJ-11-1-014+SHJ-11-1-015+SHJ-11-1-016` |
@@ -66,13 +66,13 @@ Leader margin: **0.46** → **G-moderate** (method-g-global.md §3.4)
 | guardian:human_feline_colossus | L19 | 0.36 |
 | sacred_mountain | L24 | 0.46 |
 | built_complex | L24 | 0.35 |
-| great_peak | L24 | 0.46 |
 | gems_jade | L24 | 1.15 |
+| great_peak | L24 | 0.46 |
 | east_facing_colossus | L14 | 0.24 |
-| fire_ground | L01 | 0.28 |
 | cave_dwelling | L01 | 1.23 |
-| encircling_water | L24 | 1.11 |
 | desert_edge | L24 | 0.49 |
+| encircling_water | L24 | 1.11 |
+| fire_ground | L01 | 0.28 |
 | sea_north | L19 | 0.68 |
 | glow | L01 | 0.14 |
 | river_source_major | L24 | 0.13 |
@@ -109,13 +109,13 @@ Each feature takes the better of the two loci. Only pairs sharing a river system
 | guardian:human_feline_colossus | +0.85 | human_feline_colossus=T |
 | sacred_mountain | +0.00 | sacred_mountain=? |
 | built_complex | +0.55 | built_complex=T |
-| great_peak | -0.18 | great_peak=F |
 | gems_jade | -0.69 | gems_jade=F |
+| great_peak | -0.18 | great_peak=F |
 | east_facing_colossus | +0.00 | east_facing_colossus=? |
-| fire_ground | +0.37 | fire_ground=T |
 | cave_dwelling | +1.20 | cave_dwelling=T |
-| encircling_water | -0.65 | encircling_water=F |
 | desert_edge | -0.43 | desert_edge=F |
+| encircling_water | -0.65 | encircling_water=F |
+| fire_ground | +0.37 | fire_ground=T |
 | sea_north | +0.60 | sea_north=T |
 | glow | +0.37 | fire_ground=T |
 | river_source_major | +0.00 | river_source_major=? |
@@ -130,13 +130,13 @@ Each feature takes the better of the two loci. Only pairs sharing a river system
 | guardian:human_feline_colossus | +0.85 | human_feline_colossus=T |
 | sacred_mountain | +0.00 | sacred_mountain=? |
 | built_complex | +0.55 | built_complex=T |
-| great_peak | -0.18 | great_peak=F |
 | gems_jade | +0.00 | gems_jade=? |
+| great_peak | -0.18 | great_peak=F |
 | east_facing_colossus | +1.41 | east_facing_colossus=T |
-| fire_ground | -0.37 | fire_ground=F |
 | cave_dwelling | -1.20 | cave_dwelling=F |
-| encircling_water | +0.00 | encircling_water=? |
 | desert_edge | +0.43 | desert_edge=T |
+| encircling_water | +0.00 | encircling_water=? |
+| fire_ground | -0.37 | fire_ground=F |
 | sea_north | +0.60 | sea_north=T |
 | glow | -0.23 | snow_cap=F |
 | river_source_major | -0.33 | river_source_major=F |
@@ -151,13 +151,13 @@ Each feature takes the better of the two loci. Only pairs sharing a river system
 | guardian:human_feline_colossus | +0.00 | human_feline_colossus=? |
 | sacred_mountain | +0.00 | sacred_mountain=? |
 | built_complex | +0.55 | built_complex=T |
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | +0.00 | gems_jade=? |
+| great_peak | +0.18 | great_peak=T |
 | east_facing_colossus | +0.00 | east_facing_colossus=? |
-| fire_ground | +0.37 | fire_ground=T |
 | cave_dwelling | +0.00 | cave_dwelling=? |
-| encircling_water | +0.65 | encircling_water=T |
 | desert_edge | -0.43 | desert_edge=F |
+| encircling_water | +0.65 | encircling_water=T |
+| fire_ground | +0.37 | fire_ground=T |
 | sea_north | -0.60 | sea_north=F |
 | glow | +0.37 | fire_ground=T |
 | river_source_major | +0.00 | river_source_major=? |
@@ -172,13 +172,13 @@ Each feature takes the better of the two loci. Only pairs sharing a river system
 | guardian:human_feline_colossus | +0.39 | snow_leopard present |
 | sacred_mountain | +0.00 | sacred_mountain=? |
 | built_complex | +0.00 | built_complex=? |
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | +0.69 | gems_jade=T |
+| great_peak | +0.18 | great_peak=T |
 | east_facing_colossus | -1.41 | east_facing_colossus=F |
-| fire_ground | -0.37 | fire_ground=F |
 | cave_dwelling | +0.00 | cave_dwelling=? |
-| encircling_water | -0.65 | encircling_water=F |
 | desert_edge | +0.00 | desert_edge=? |
+| encircling_water | -0.65 | encircling_water=F |
+| fire_ground | -0.37 | fire_ground=F |
 | sea_north | -0.60 | sea_north=F |
 | glow | +0.23 | snow_cap=T |
 | river_source_major | +0.33 | river_source_major=T |
@@ -193,13 +193,13 @@ Each feature takes the better of the two loci. Only pairs sharing a river system
 | guardian:human_feline_colossus | +0.14 | lion/tiger/leopard present |
 | sacred_mountain | +0.00 | sacred_mountain=? |
 | built_complex | -0.55 | built_complex=F |
-| great_peak | +0.18 | great_peak=T |
 | gems_jade | -0.69 | gems_jade=F |
+| great_peak | +0.18 | great_peak=T |
 | east_facing_colossus | -1.41 | east_facing_colossus=F |
-| fire_ground | +0.37 | fire_ground=T |
 | cave_dwelling | +0.00 | cave_dwelling=? |
-| encircling_water | +0.65 | encircling_water=T |
 | desert_edge | -0.43 | desert_edge=F |
+| encircling_water | +0.65 | encircling_water=T |
+| fire_ground | +0.37 | fire_ground=T |
 | sea_north | -0.60 | sea_north=F |
 | glow | +0.37 | fire_ground=T |
 | river_source_major | +0.33 | river_source_major=T |
