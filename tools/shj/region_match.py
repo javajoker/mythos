@@ -46,6 +46,30 @@ NAMED = {
 }
 
 
+# Schematic continent outlines (lon, lat), for orientation only.
+CONTINENTS = [
+    [(-168, 66), (-140, 70), (-95, 72), (-80, 63), (-60, 55), (-66, 44), (-75, 35), (-81, 25), (-97, 26), (-97, 18),
+     (-87, 15), (-79, 9), (-90, 14), (-105, 20), (-117, 32), (-124, 40), (-125, 49), (-135, 58), (-150, 60), (-165, 60)],
+    [(-80, 9), (-72, 12), (-60, 8), (-50, 0), (-35, -6), (-39, -15), (-48, -26), (-58, -35), (-65, -42), (-68, -55),
+     (-74, -50), (-72, -35), (-71, -18), (-81, -5), (-78, 1)],
+    [(-17, 21), (-6, 36), (10, 37), (20, 32), (32, 31), (35, 24), (43, 12), (51, 12), (40, -2), (40, -15), (35, -24),
+     (20, -35), (15, -25), (12, -6), (9, 4), (-8, 5), (-17, 14)],
+    [(-10, 36), (-9, 43), (-2, 48), (5, 52), (8, 57), (5, 62), (15, 69), (30, 71), (45, 68), (70, 73), (100, 77),
+     (140, 72), (170, 69), (180, 66), (160, 60), (155, 52), (140, 46), (135, 35), (128, 35), (122, 40), (122, 30),
+     (110, 20), (106, 10), (100, 13), (101, 3), (98, 9), (94, 16), (88, 22), (80, 15), (77, 8), (72, 20), (67, 25),
+     (57, 25), (52, 17), (44, 13), (35, 30), (28, 37), (26, 40), (23, 36), (15, 40), (18, 45), (12, 44), (8, 44),
+     (3, 43), (-5, 36)],
+    [(114, -22), (122, -17), (130, -12), (137, -12), (142, -11), (146, -19), (153, -26), (150, -37), (141, -38),
+     (130, -32), (115, -34)],
+    [(130, 31), (135, 34), (140, 36), (142, 40), (141, 45), (139, 40), (133, 35)],
+    [(44, -25), (47, -25), (50, -15), (49, -12), (44, -16)],
+    [(-50, 60), (-20, 70), (-25, 82), (-60, 82), (-70, 77)],
+    [(-5, 50), (1, 51), (-2, 57), (-6, 58), (-5, 54)],
+    [(95, 5), (105, -6), (115, -8), (120, -9), (117, 1), (110, 2), (104, 1)],
+    [(131, -1), (141, -3), (150, -10), (142, -9), (135, -4)],
+]
+
+
 def load():
     entries = [json.loads(l) for l in ENTRIES.open()]
     regions = [json.loads(l) for l in (WORLD / "regions.jsonl").open() if l.strip()]
@@ -213,38 +237,59 @@ def main():
         P.append(f"| `{e['id']}` | {mask_names(e['text'])[:36]}… | {', '.join(cs)} | {' '.join(sorted(regs)) or '(none)'} |")
     (OUT / "peoples-map.md").write_text("\n".join(P) + "\n")
 
-    # ---- SVG map (equirectangular; graticule, region centroids, leading units) ---------------------
-    W, H = 1200, 600
-    xy = lambda la, lo: ((lo + 180) / 360 * W, (90 - la) / 180 * H)  # noqa: E731
-    colour = {"山經": "#b5542d", "海外經": "#2d6cb5", "海內經(四篇)": "#2d9cb5", "大荒經": "#7a4cb5", "海內經": "#3f8f5a",
-              "named place": "#222222"}
-    S = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="sans-serif" font-size="10">',
-         f'<rect width="{W}" height="{H}" fill="#f7f5ef"/>']
+    # ---- SVG map: schematic continents, region circles sized by sections led, side panel of units ---------
+    W, H, MW = 1500, 720, 1000
+    xy = lambda la, lo: ((lo + 180) / 360 * MW, 60 + (90 - la) / 180 * (MW / 2))  # noqa: E731
+    colour = {"山經": "#b5542d", "海外經": "#2d6cb5", "海內經(四篇)": "#1f8f9c", "大荒經": "#7a4cb5", "海內經": "#3f8f5a",
+              "named place": "#333333"}
+    S = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="sans-serif" font-size="11">',
+         f'<rect width="{W}" height="{H}" fill="#fbfaf6"/>',
+         '<text x="12" y="28" font-size="17" font-weight="bold" fill="#222">山海經全書全球對照（方法 G，初稿）'
+         '/ Shanhaijing whole-book global map (Method G, draft)</text>',
+         '<text x="12" y="48" fill="#555">Each section is assigned to its best-matching world region by description only '
+         '(names masked, distances unused). Circle size = sections led. Continents are schematic.</text>']
+    for poly in CONTINENTS:
+        pts = " ".join(f"{xy(la, lo)[0]:.0f},{xy(la, lo)[1]:.0f}" for lo, la in poly)
+        S.append(f'<polygon points="{pts}" fill="#e8e3d6" stroke="#cfc8b6"/>')
     for lo in range(-180, 181, 30):
         x, _ = xy(0, lo)
-        S.append(f'<line x1="{x:.0f}" y1="0" x2="{x:.0f}" y2="{H}" stroke="#ddd"/>')
+        S.append(f'<line x1="{x:.0f}" y1="60" x2="{x:.0f}" y2="{60 + MW / 2:.0f}" stroke="#000" opacity="0.06"/>')
     for la in range(-60, 91, 30):
         _, y = xy(la, 0)
-        S.append(f'<line x1="0" y1="{y:.0f}" x2="{W}" y2="{y:.0f}" stroke="#ddd"/>')
-    stack = defaultdict(int)
+        S.append(f'<line x1="0" y1="{y:.0f}" x2="{MW}" y2="{y:.0f}" stroke="#000" opacity="0.06"/>')
+    led = defaultdict(list)
     for r in results:
-        if r["grade"] == "no data":
-            continue
-        c = r["top"][0]["region"]
-        x, y = xy(*cen[c])
-        k = stack[c]
-        stack[c] += 1
-        op = {"G-strong": 1.0, "G-moderate": 0.8, "G-weak": 0.45}[r["grade"]]
-        S.append(f'<text x="{x + 8:.0f}" y="{y + 12 + 11 * k:.0f}" fill="{colour.get(r["layer"], "#000")}" '
-                 f'opacity="{op}">{r["label"].split(" /")[0]}</text>')
+        if r["grade"] != "no data":
+            led[r["top"][0]["region"]].append(r)
     for code, (la, lo) in cen.items():
         x, y = xy(la, lo)
-        n = stack.get(code, 0)
-        S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{3 + 1.6 * n:.1f}" fill="#444" opacity="0.55"/>'
-                 f'<text x="{x - 10:.0f}" y="{y - 6:.0f}" fill="#444" font-weight="bold">{code}</text>')
-    S.append(f'<text x="10" y="{H - 10}" fill="#444">Method G whole-book map: each unit is written at the centroid of its '
-             'leading region (opacity = grade). Colours: 山經 / 海外 / 海內 / 大荒 / 海內經 / named places. '
-             'Centroids only; no coastlines.</text></svg>')
+        n = len(led.get(code, []))
+        S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{3 + 2.2 * n:.1f}" fill="#b5542d" opacity="{0.25 if n else 0.08}" '
+                 f'stroke="#7a3a1f" stroke-opacity="{0.6 if n else 0.2}"/>'
+                 f'<text x="{x:.0f}" y="{y + 4:.0f}" text-anchor="middle" font-weight="bold" '
+                 f'fill="{"#222" if n else "#999"}">{code}</text>')
+    y0, x0 = 80, MW + 20
+    S.append(f'<text x="{x0}" y="{y0 - 12}" font-weight="bold" fill="#222">Sections by leading region</text>')
+    yy = y0
+    for code, rs in sorted(led.items(), key=lambda kv: -len(kv[1])):
+        S.append(f'<text x="{x0}" y="{yy}" font-weight="bold" fill="#222">{code} — {rname[code]} ({len(rs)})</text>')
+        yy += 13
+        for r in rs:
+            op = {"G-strong": 1.0, "G-moderate": 0.85, "G-weak": 0.5}[r["grade"]]
+            S.append(f'<text x="{x0 + 12}" y="{yy}" fill="{colour.get(r["layer"], "#000")}" opacity="{op}">'
+                     f'{r["label"].split(" /")[0]}  ·  {r["grade"]}</text>')
+            yy += 12
+        yy += 4
+    ly = 60 + MW / 2 + 30
+    for i, (lab, c) in enumerate([("山經 Mountains", "#b5542d"), ("海外經", "#2d6cb5"), ("海內經(四篇)", "#1f8f9c"),
+                                  ("大荒經", "#7a4cb5"), ("海內經", "#3f8f5a"), ("named place", "#333333")]):
+        S.append(f'<rect x="{12 + i * 150}" y="{ly - 10}" width="10" height="10" fill="{c}"/>'
+                 f'<text x="{27 + i * 150}" y="{ly}" fill="#333">{lab}</text>')
+    S.append(f'<text x="12" y="{ly + 22}" fill="#555">Text opacity: G-strong solid, G-moderate medium, G-weak faint. '
+             'Source: projects/shanhaijing/data/derived/global-map.md</text></svg>')
+    H2 = max(H, int(yy) + 20)
+    S[0] = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H2}" font-family="sans-serif" font-size="11">'
+    S[1] = f'<rect width="{W}" height="{H2}" fill="#fbfaf6"/>'
     (OUT / "global-map.svg").write_text("\n".join(S))
     print(f"{len(results)} units; leaders: {lead.most_common(8)}", file=sys.stderr)
 
