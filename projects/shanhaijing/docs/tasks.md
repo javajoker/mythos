@@ -8,8 +8,8 @@
 |---|---|---|---|
 | T-001 | 擷取三個見證本（通行本、四部叢刊明成化本、四庫本）/ fetch the three witnesses | `tools/shj/fetch_sources.py` | ✅ |
 | T-002 | 逐段編號，分離注疏、異文和現代編者註 / per-paragraph IDs; split commentary, variants and editorial notes | `tools/shj/ingest.py` | ✅ |
-| T-003 | 為明成化本斷段，建立與通行本的段落對應表 / segment the Chenghua text into paragraphs and map them to base IDs | skill `witness-collation` | ⬜ |
-| T-004 | 產生以明成化本為序的正式工作文本 `working-text.jsonl` / build the canonical working text in Chenghua order | `textual-critic` | ⬜ |
+| T-003 | 在明成化本與四庫本中定位每個底本條目（n-gram 投票，與順序無關），建立對應表 / locate every base entry in the Chenghua and Siku witnesses (order-independent n-gram voting) | `tools/shj/align_witness.py` → `witness-alignment.jsonl` | ✅ |
+| T-004 | 產生以明成化本為序的正式工作文本 `working-text.jsonl`（讀法暫取底本，待 T-102 逐條選定）/ build the canonical working text in Chenghua order (base readings until T-102 chooses per variant) | `tools/shj/align_witness.py` | ✅ |
 | T-005 | 補齊四部叢刊本缺頁（卷 1 洵山段、卷 15 一頁）/ fill the Sibu Congkan page gaps (book 1 洵山, one page of book 15) | `textual-critic` | ⬜ |
 
 ## S1 校勘 / Textual criticism

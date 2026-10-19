@@ -1,0 +1,8 @@
+{"id": "X3-001", "base_book": "海內西經", "sbck_book": "海內東經", "entries": ["SHJ-11-1-009", "SHJ-11-1-010", "SHJ-11-1-011"], "base_cites_modern_editor": true, "status": "registered"}
+{"id": "X3-002", "base_book": "海內西經", "sbck_book": "海內北經", "entries": ["SHJ-11-1-023", "SHJ-11-1-024"], "base_cites_modern_editor": true, "status": "registered"}
+{"id": "X3-003", "base_book": "海內北經", "sbck_book": "海內西經", "entries": ["SHJ-12-1-002"], "base_cites_modern_editor": false, "status": "registered"}
+{"id": "X3-004", "base_book": "海內北經", "sbck_book": "海內西經", "entries": ["SHJ-12-1-020", "SHJ-12-1-021"], "base_cites_modern_editor": false, "status": "registered"}
+{"id": "X3-005", "base_book": "海內北經", "sbck_book": "海內西經", "entries": ["SHJ-12-1-024", "SHJ-12-1-025", "SHJ-12-1-026", "SHJ-12-1-027"], "base_cites_modern_editor": true, "status": "registered"}
+{"id": "X3-006", "base_book": "海內東經", "sbck_book": "海內北經", "entries": ["SHJ-13-1-003", "SHJ-13-1-004"], "base_cites_modern_editor": true, "status": "registered"}
+{"id": "X3-007", "base_book": "海內東經", "sbck_book": "海內北經", "entries": ["SHJ-13-1-037", "SHJ-13-1-038", "SHJ-13-1-039", "SHJ-13-1-040", "SHJ-13-1-041", "SHJ-13-1-042", "SHJ-13-1-043"], "base_cites_modern_editor": true, "status": "registered"}
+{"id": "X3-008", "base_book": "大荒東經", "sbck_book": "大荒南經", "entries": ["SHJ-14-1-002"], "base_cites_modern_editor": true, "status": "registered"}
