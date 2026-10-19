@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" font-family="sans-serif" font-size="10">
+<rect width="1200" height="600" fill="#f7f5ef"/>
+<line x1="0" y1="0" x2="0" y2="600" stroke="#ddd"/>
+<line x1="100" y1="0" x2="100" y2="600" stroke="#ddd"/>
+<line x1="200" y1="0" x2="200" y2="600" stroke="#ddd"/>
+<line x1="300" y1="0" x2="300" y2="600" stroke="#ddd"/>
+<line x1="400" y1="0" x2="400" y2="600" stroke="#ddd"/>
+<line x1="500" y1="0" x2="500" y2="600" stroke="#ddd"/>
+<line x1="600" y1="0" x2="600" y2="600" stroke="#ddd"/>
+<line x1="700" y1="0" x2="700" y2="600" stroke="#ddd"/>
+<line x1="800" y1="0" x2="800" y2="600" stroke="#ddd"/>
+<line x1="900" y1="0" x2="900" y2="600" stroke="#ddd"/>
+<line x1="1000" y1="0" x2="1000" y2="600" stroke="#ddd"/>
+<line x1="1100" y1="0" x2="1100" y2="600" stroke="#ddd"/>
+<line x1="1200" y1="0" x2="1200" y2="600" stroke="#ddd"/>
+<line x1="0" y1="500" x2="1200" y2="500" stroke="#ddd"/>
+<line x1="0" y1="400" x2="1200" y2="400" stroke="#ddd"/>
+<line x1="0" y1="300" x2="1200" y2="300" stroke="#ddd"/>
+<line x1="0" y1="200" x2="1200" y2="200" stroke="#ddd"/>
+<line x1="0" y1="100" x2="1200" y2="100" stroke="#ddd"/>
+<line x1="0" y1="0" x2="1200" y2="0" stroke="#ddd"/>
+<text x="958" y="279" fill="#b5542d" opacity="1.0">南山經・南山經之首</text>
+<text x="981" y="195" fill="#b5542d" opacity="1.0">南山經・南次二經</text>
+<text x="981" y="206" fill="#b5542d" opacity="0.45">南山經・南次三經</text>
+<text x="981" y="217" fill="#b5542d" opacity="1.0">西山經・西山經之首</text>
+<text x="868" y="239" fill="#b5542d" opacity="0.8">西山經・西次二經</text>
+<text x="868" y="250" fill="#b5542d" opacity="0.8">西山經・西次三經</text>
+<text x="981" y="228" fill="#b5542d" opacity="0.8">西山經・西次四經</text>
+<text x="981" y="239" fill="#b5542d" opacity="1.0">北山經・北山經之首</text>
+<text x="875" y="182" fill="#b5542d" opacity="0.45">北山經・北次二經</text>
+<text x="981" y="250" fill="#b5542d" opacity="0.8">北山經・北次三經</text>
+<text x="981" y="261" fill="#b5542d" opacity="0.8">東山經・東山經之首</text>
+<text x="275" y="172" fill="#b5542d" opacity="0.45">東山經・東次二經</text>
+<text x="981" y="272" fill="#b5542d" opacity="0.45">東山經・東次三經</text>
+<text x="981" y="283" fill="#b5542d" opacity="0.45">東山經・東次四經</text>
+<text x="981" y="294" fill="#b5542d" opacity="0.45">中山經</text>
+<text x="981" y="305" fill="#b5542d" opacity="0.8">中山經・中次二經</text>
+<text x="868" y="261" fill="#b5542d" opacity="0.8">中山經・中次三經</text>
+<text x="981" y="316" fill="#b5542d" opacity="0.8">中山經・中次四經</text>
+<text x="981" y="327" fill="#b5542d" opacity="0.45">中山經・中次五經</text>
+<text x="981" y="338" fill="#b5542d" opacity="1.0">中山經・中次六經</text>
+<text x="981" y="349" fill="#b5542d" opacity="0.45">中山經・中次七經</text>
+<text x="1068" y="192" fill="#b5542d" opacity="0.8">中山經・中次八經</text>
+<text x="981" y="360" fill="#b5542d" opacity="1.0">中山經・中次九經</text>
+<text x="981" y="371" fill="#b5542d" opacity="0.45">中山經・中次十經</text>
+<text x="981" y="229" fill="#b5542d" opacity="0.45">中山經・中次十一經</text>
+<text x="981" y="240" fill="#b5542d" opacity="0.45">中山經・中次十二經</text>
+<text x="1055" y="395" fill="#2d6cb5" opacity="0.45">海外南經</text>
+<text x="981" y="382" fill="#2d6cb5" opacity="0.45">海外西經</text>
+<text x="1068" y="203" fill="#2d6cb5" opacity="0.45">海外北經</text>
+<text x="958" y="290" fill="#2d6cb5" opacity="0.45">海外東經</text>
+<text x="981" y="251" fill="#2d9cb5" opacity="0.45">海內南經</text>
+<text x="981" y="393" fill="#2d9cb5" opacity="0.8">海內西經</text>
+<text x="718" y="182" fill="#2d9cb5" opacity="0.45">海內北經</text>
+<text x="718" y="193" fill="#2d9cb5" opacity="0.45">海內東經</text>
+<text x="958" y="301" fill="#7a4cb5" opacity="0.45">大荒東經</text>
+<text x="868" y="272" fill="#7a4cb5" opacity="0.8">大荒南經</text>
+<text x="825" y="179" fill="#7a4cb5" opacity="0.45">大荒西經</text>
+<text x="868" y="283" fill="#7a4cb5" opacity="0.45">大荒北經</text>
+<text x="868" y="294" fill="#3f8f5a" opacity="0.8">海內經</text>
+<text x="868" y="305" fill="#222222" opacity="0.8">崑崙（主語段落）/ Kunlun (subject passages)</text>
+<text x="981" y="404" fill="#222222" opacity="0.45">流沙</text>
+<text x="868" y="316" fill="#222222" opacity="0.45">赤水</text>
+<text x="868" y="327" fill="#222222" opacity="0.45">黑水</text>
+<text x="758" y="235" fill="#222222" opacity="0.45">弱水</text>
+<text x="275" y="183" fill="#222222" opacity="0.45">西王母</text>
+<text x="981" y="415" fill="#222222" opacity="0.8">湯谷・扶桑</text>
+<text x="718" y="204" fill="#222222" opacity="0.45">蓬萊</text>
+<text x="825" y="190" fill="#222222" opacity="0.45">不周</text>
+<circle cx="650" cy="213" r="3.0" fill="#444" opacity="0.55"/><text x="640" y="207" fill="#444" font-weight="bold">NAF</text>
+<circle cx="727" cy="283" r="3.0" fill="#444" opacity="0.55"/><text x="717" y="277" fill="#444" font-weight="bold">EAF</text>
+<circle cx="680" cy="303" r="3.0" fill="#444" opacity="0.55"/><text x="670" y="297" fill="#444" font-weight="bold">CAF</text>
+<circle cx="590" cy="267" r="3.0" fill="#444" opacity="0.55"/><text x="580" y="261" fill="#444" font-weight="bold">WAF</text>
+<circle cx="683" cy="383" r="3.0" fill="#444" opacity="0.55"/><text x="673" y="377" fill="#444" font-weight="bold">SAF</text>
+<circle cx="757" cy="363" r="3.0" fill="#444" opacity="0.55"/><text x="747" y="357" fill="#444" font-weight="bold">MDG</text>
+<circle cx="717" cy="197" r="3.0" fill="#444" opacity="0.55"/><text x="707" y="191" fill="#444" font-weight="bold">LEV</text>
+<circle cx="750" cy="223" r="4.6" fill="#444" opacity="0.55"/><text x="740" y="217" fill="#444" font-weight="bold">ARB</text>
+<circle cx="747" cy="190" r="3.0" fill="#444" opacity="0.55"/><text x="737" y="184" fill="#444" font-weight="bold">MES</text>
+<circle cx="780" cy="193" r="3.0" fill="#444" opacity="0.55"/><text x="770" y="187" fill="#444" font-weight="bold">IRN</text>
+<circle cx="750" cy="163" r="3.0" fill="#444" opacity="0.55"/><text x="740" y="157" fill="#444" font-weight="bold">CAU</text>
+<circle cx="710" cy="170" r="7.8" fill="#444" opacity="0.55"/><text x="700" y="164" fill="#444" font-weight="bold">ANA</text>
+<circle cx="647" cy="163" r="3.0" fill="#444" opacity="0.55"/><text x="637" y="157" fill="#444" font-weight="bold">MED</text>
+<circle cx="633" cy="133" r="3.0" fill="#444" opacity="0.55"/><text x="623" y="127" fill="#444" font-weight="bold">EUR</text>
+<circle cx="817" cy="167" r="6.2" fill="#444" opacity="0.55"/><text x="807" y="161" fill="#444" font-weight="bold">CAS</text>
+<circle cx="867" cy="170" r="4.6" fill="#444" opacity="0.55"/><text x="857" y="164" fill="#444" font-weight="bold">TAR</text>
+<circle cx="893" cy="190" r="3.0" fill="#444" opacity="0.55"/><text x="883" y="184" fill="#444" font-weight="bold">TIB</text>
+<circle cx="880" cy="207" r="3.0" fill="#444" opacity="0.55"/><text x="870" y="201" fill="#444" font-weight="bold">HIM</text>
+<circle cx="860" cy="227" r="17.4" fill="#444" opacity="0.55"/><text x="850" y="221" fill="#444" font-weight="bold">IND</text>
+<circle cx="950" cy="267" r="7.8" fill="#444" opacity="0.55"/><text x="940" y="261" fill="#444" font-weight="bold">SEA</text>
+<circle cx="973" cy="183" r="36.6" fill="#444" opacity="0.55"/><text x="963" y="177" fill="#444" font-weight="bold">CHN</text>
+<circle cx="973" cy="217" r="7.8" fill="#444" opacity="0.55"/><text x="963" y="211" fill="#444" font-weight="bold">SCN</text>
+<circle cx="943" cy="147" r="3.0" fill="#444" opacity="0.55"/><text x="933" y="141" fill="#444" font-weight="bold">MON</text>
+<circle cx="1023" cy="167" r="3.0" fill="#444" opacity="0.55"/><text x="1013" y="161" fill="#444" font-weight="bold">KOR</text>
+<circle cx="1060" cy="180" r="6.2" fill="#444" opacity="0.55"/><text x="1050" y="174" fill="#444" font-weight="bold">JPN</text>
+<circle cx="933" cy="100" r="3.0" fill="#444" opacity="0.55"/><text x="923" y="94" fill="#444" font-weight="bold">SIB</text>
+<circle cx="1047" cy="383" r="4.6" fill="#444" opacity="0.55"/><text x="1037" y="377" fill="#444" font-weight="bold">AUS</text>
+<circle cx="267" cy="160" r="6.2" fill="#444" opacity="0.55"/><text x="257" y="154" fill="#444" font-weight="bold">NAM</text>
+<circle cx="283" cy="240" r="3.0" fill="#444" opacity="0.55"/><text x="273" y="234" fill="#444" font-weight="bold">MAM</text>
+<circle cx="400" cy="340" r="3.0" fill="#444" opacity="0.55"/><text x="390" y="334" fill="#444" font-weight="bold">SAM</text>
+<circle cx="500" cy="67" r="3.0" fill="#444" opacity="0.55"/><text x="490" y="61" fill="#444" font-weight="bold">ARC</text>
+<text x="10" y="590" fill="#444">Method G whole-book map: each unit is written at the centroid of its leading region (opacity = grade). Colours: 山經 / 海外 / 海內 / 大荒 / 海內經 / named places. Centroids only; no coastlines.</text></svg>

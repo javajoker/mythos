@@ -119,12 +119,22 @@ REGION_CUES = [(re.compile(p), t) for p, t in REGION_CUES]
 RE_BARREN = re.compile(r"無草木")
 
 
+CUSTOM_TAGS = {"tattoo", "black_teeth", "ear_ornaments", "feather_dress", "hairy_people", "pygmy_people", "dark_skin",
+               "cave_dwelling"}
+RE_SUBJECT = re.compile(r"^[^，。；在]*|其為人[^。]*|為人[^。]*")   # first clause stops at 在 (landmark follows)
+
+
 def region_cue_hits(text: str) -> dict[str, int]:
-    """Count region-property cues in a text (names masked)."""
+    """Count region-property cues in a text (names masked).
+
+    Custom cues (descriptive ethnonyms such as 羽民, 黑齒, 毛民) count only where the people is the SUBJECT — the
+    entry's first clause or a 「其為人…」 description — never when the name is used as a landmark (「…羽民南」).
+    """
     t = mask_names(text)
+    subj = " ".join(m.group(0) for m in RE_SUBJECT.finditer(t))
     out = {}
     for rx, tag in REGION_CUES:
-        n = len(rx.findall(t))
+        n = len(rx.findall(subj if tag in CUSTOM_TAGS else t))
         if n:
             out[tag] = out.get(tag, 0) + n
     return out
