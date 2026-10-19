@@ -57,3 +57,17 @@
 | `gems_jade` | 300 km 內有古代著名的玉或寶石產地 / a famous ancient jade or gemstone source within 300 km |
 
 值：`true` / `false` / `null`（未知或無法判定）。/ Values: true / false / null (unknown or undecidable).
+
+## 4. 全球地區性質（整書比對用）/ Region properties (whole-book mapping)
+
+`regions.jsonl` 列出 31 個地區（覆蓋全部有人居住的大陸）及其中心座標；`region-properties.jsonl` 每行一個性質，列出為 T 的地區與明確為 F 的地區，其餘視為未知。性質分四組：
+`regions.jsonl` lists 31 regions covering every inhabited continent with centroids; `region-properties.jsonl` gives, per property, the regions where it is true and those where it is clearly false (others unknown). Four groups:
+
+| 組 / Group | 性質 / Properties | 判定依據 / Basis |
+|---|---|---|
+| 礦產 mineral | gold, silver, copper, iron, tin, jade, cinnabar, realgar, azurite_malachite, salt | 古代已知或可見的產地 / deposits known or visible in antiquity |
+| 植物 plant | bamboo, citrus, mulberry, lacquer, pine, cypress, palm, jujube, peach_plum, millet, rice | 原生分佈或公元前的栽培 / native range or pre-CE cultivation |
+| 地形 terrain | snow_peaks, sand_desert, barren, volcanic_fire, hot_springs, salt_lakes, sea_coast | 地區內存在 / present in the region |
+| 習俗 custom | tattoo, black_teeth, ear_ornaments, feather_dress, hairy_people, pygmy_people, dark_skin, cave_dwelling | 古代或早期文獻記載的習俗與人群 / customs and peoples attested in antiquity or early records |
+
+地區層級的判定比地點層級粗。不確定時一律留作未知（不列入 T 或 F）。/ Region-level calls are coarser than locus-level; anything uncertain is left unknown.

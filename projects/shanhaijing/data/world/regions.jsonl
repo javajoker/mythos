@@ -1,0 +1,31 @@
+{"code": "NAF", "name": "North Africa (Egypt, Maghreb, Sahara)", "lat": 26.0, "lon": 15.0}
+{"code": "EAF", "name": "East Africa and the Horn (incl. Ethiopia)", "lat": 5.0, "lon": 38.0}
+{"code": "CAF", "name": "Central Africa and the Great Lakes", "lat": -1.0, "lon": 24.0}
+{"code": "WAF", "name": "West Africa", "lat": 10.0, "lon": -3.0}
+{"code": "SAF", "name": "Southern Africa", "lat": -25.0, "lon": 25.0}
+{"code": "MDG", "name": "Madagascar", "lat": -19.0, "lon": 47.0}
+{"code": "LEV", "name": "Levant and Sinai", "lat": 31.0, "lon": 35.0}
+{"code": "ARB", "name": "Arabian Peninsula", "lat": 23.0, "lon": 45.0}
+{"code": "MES", "name": "Mesopotamia and the Zagros", "lat": 33.0, "lon": 44.0}
+{"code": "IRN", "name": "Iranian Plateau and south Caspian", "lat": 32.0, "lon": 54.0}
+{"code": "CAU", "name": "Caucasus and Armenian Highlands", "lat": 41.0, "lon": 45.0}
+{"code": "ANA", "name": "Anatolia", "lat": 39.0, "lon": 33.0}
+{"code": "MED", "name": "Mediterranean Europe", "lat": 41.0, "lon": 14.0}
+{"code": "EUR", "name": "Temperate Europe", "lat": 50.0, "lon": 10.0}
+{"code": "CAS", "name": "Central Asia (Oxus, Jaxartes)", "lat": 40.0, "lon": 65.0}
+{"code": "TAR", "name": "Tarim, West Kunlun, Pamir", "lat": 39.0, "lon": 80.0}
+{"code": "TIB", "name": "Tibetan Plateau", "lat": 33.0, "lon": 88.0}
+{"code": "HIM", "name": "Southern Himalaya", "lat": 28.0, "lon": 84.0}
+{"code": "IND", "name": "Indian subcontinent", "lat": 22.0, "lon": 78.0}
+{"code": "SEA", "name": "Southeast Asia", "lat": 10.0, "lon": 105.0}
+{"code": "CHN", "name": "Northern and central China", "lat": 35.0, "lon": 112.0}
+{"code": "SCN", "name": "Southern China", "lat": 25.0, "lon": 112.0}
+{"code": "MON", "name": "Mongolia and Altai", "lat": 46.0, "lon": 103.0}
+{"code": "KOR", "name": "Korea and Manchuria", "lat": 40.0, "lon": 127.0}
+{"code": "JPN", "name": "Japan", "lat": 36.0, "lon": 138.0}
+{"code": "SIB", "name": "Siberia", "lat": 60.0, "lon": 100.0}
+{"code": "AUS", "name": "Australia, New Guinea and Oceania", "lat": -25.0, "lon": 134.0}
+{"code": "NAM", "name": "North America", "lat": 42.0, "lon": -100.0}
+{"code": "MAM", "name": "Mesoamerica", "lat": 18.0, "lon": -95.0}
+{"code": "SAM", "name": "South America", "lat": -12.0, "lon": -60.0}
+{"code": "ARC", "name": "Arctic and Iceland", "lat": 70.0, "lon": -30.0}
