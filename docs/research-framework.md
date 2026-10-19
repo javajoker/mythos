@@ -48,11 +48,15 @@ For each property of e: +w if c has it, −w if c clearly lacks it, w·(2p − 1
 **關係分數 / Relation score**：每條邊依兩端當前候選是否在真實世界中具有相同的關係計分（例如書中「A 水注入 B 水」，候選 A′ 的河口是否正是 B′）。關係的權重依其可檢驗程度設定，距離與方位類關係權重最小。
 Each edge scores by whether the two ends' current candidates stand in the same relation in the real world; distance and bearing relations weigh least.
 
-**聯合求解 / Joint solution**：從各實體的最佳自身候選開始，反覆為每個實體選擇「自身分數＋與鄰居一致的關係分數」最高的候選，直到不再變化。多次重啟，每次隨機略去一部分關係，以檢驗穩定性。
-Start from each entity's best own candidate; repeatedly re-choose the candidate maximising own score plus relation score given the neighbours, until stable. Restart several times, each time dropping a random share of relations, to test stability.
+**唯一性 / Uniqueness**：兩個書中實體對到同一個真實的同類實體（例如兩條書中河流對到同一條真實河流）時，每對扣分。/ A penalty per pair of text entities mapped to the same real entity of a kind that should be unique (e.g. rivers).
 
-**可信度 / Confidence** = 穩定度 × (1 − e^(−邊際))。穩定度是各次重啟中選到同一候選的比例；邊際是最佳與次佳候選的總分差。分級：高 ≥ 0.6，中 0.3–0.6，低 < 0.3。
-stability × (1 − e^(−margin)); stability = share of restarts choosing the same candidate; margin = best minus second-best total. High ≥ 0.6, medium 0.3–0.6, low < 0.3.
+**聯合求解 / Joint solution**：對所有實體**同時**求解，使總分 E = Σ 自身分數 + Σ 關係分數 − 唯一性懲罰 最高：模擬退火（固定種子，部分提議由關係引導），再用迭代條件眾數法收尾，最後做**區塊調整**（一個實體連同其相鄰實體一起換候選，總分上升才接受）。對應 = 總分最高的組態；不用逐實體多數決，因為各自的贏家拼不起來。
+Solve all entities **jointly** for the highest E = Σ own + Σ relation − uniqueness: simulated annealing (fixed seeds, partly relation-guided proposals), iterated conditional modes, then **block moves** (an entity changes together with its neighbours; kept only if E rises). The mapping is the best-energy configuration, never per-entity majority votes, whose winners do not fit together.
+
+**可信度 / Confidence** = 穩定度 × (1 − e^(−邊際))。穩定度是全部樣本（完整求解，以及多次隨機略去 20% 關係的重解）中選到同一候選的比例；邊際是該實體最佳與次佳候選的局部分差。分級：高 ≥ 0.6、中 ≥ 0.3、低 ≥ 0.1、**暫定 < 0.1**（總分最高，但樣本意見不一，不宜引用）。
+stability × (1 − e^(−margin)); stability = share of samples (full solves and re-solves with 20% of relations dropped) choosing the same candidate; margin = local best minus second best. High ≥ 0.6, medium ≥ 0.3, low ≥ 0.1, **tentative < 0.1** (best-energy pick, but samples disagree: do not cite).
+
+**必做檢查 / Mandatory checks**：同一輸入兩次執行，輸出逐位元組相同；任何「變好才接受」的步驟不得讓總分下降；抽查原文自己的陳述（「A 注于 B」）是否在對應中成立。/ Two runs give identical bytes; accept-if-better steps never lower E; spot-check the text's own statements.
 
 ## 6. 交付的完整性 / Completeness of the deliverable
 
@@ -64,3 +68,5 @@ stability × (1 − e^(−margin)); stability = share of restarts choosing the s
 - 候選庫的組成與分析者的熟悉程度，是否讓某些地區更容易勝出？/ Does base composition or analyst familiarity favour some regions?
 - 高可信度的對應，是否只依賴一兩條關係？移除後是否仍成立？/ Do high-confidence mappings rest on one or two relations?
 - 是否有關係被違反卻仍選了該候選？違反的關係要列出。/ Which relations does the chosen mapping violate? List them.
+- 低可信度或暫定的對應，是否被當作結論引用？/ Is a low or tentative mapping being cited as a finding?
+- 支持的關係是否其實是抽取錯誤（比喻、篇名、誤併的同名）？/ Is a supporting relation an extraction artifact?

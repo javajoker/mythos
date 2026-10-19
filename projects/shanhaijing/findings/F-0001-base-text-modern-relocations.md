@@ -2,7 +2,7 @@
 
 | 欄位 / Field | 值 / Value |
 |---|---|
-| 信心 / Confidence | L3（文本事實，可直接重現 / textual fact, directly reproducible） |
+| 信心 / Confidence | 高（文本事實，可直接重現 / textual fact, directly reproducible） |
 | 依據 / Basis | `tools/shj/collate.py`；[source-assessment §3.1](../docs/source-assessment.md) |
 | 撤回條件 / Retraction | 若證明明成化本本身是錯簡，而通行本恢復了更早的次序 / if the Chenghua edition is shown to be the displaced one and the base text restores an earlier order |
 
@@ -12,4 +12,4 @@
 
 **更新 / Update (T-104)**：對齊工具證實，明成化本與四庫本對其中 8 個段落塊（22 條）的位置**彼此一致**而與底本不同，已登記為 X3-001–008；另有兩處底本補入的文字（I-001、I-002）。見 [source-assessment §3.1](../docs/source-assessment.md)。/ The alignment tool shows the Chenghua and Siku editions **agree with each other** on 8 blocks (22 entries) and both differ from the base; registered as X3-001–008, plus two base insertions (I-001, I-002).
 
-**影響 / Impact**：任務 T-003、T-004、T-104；相對方位網路（規格 §7.6）。/ tasks T-003, T-004, T-104; relational network (spec §7.6).
+**影響 / Impact**：任務 T-003、T-004、T-104；知識圖譜的 `located` 關係。/ tasks T-003, T-004, T-104; `located` relations in the knowledge graph.

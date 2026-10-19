@@ -16,7 +16,7 @@
 | 0 文本層 / text layer | `ingest.py`, `collate.py`, `align_witness.py`, `classify_variants.py`, `extract_routes.py` | `entries.jsonl`, `working-text.jsonl`, `stations.jsonl` … |
 | 1–2 實體、性質、關係 / entities, properties, relations | `tools/shj/kg_extract.py` | `kg/nodes.jsonl`, `kg/edges.jsonl`, `kg/mentions.jsonl`, `kg/shanhaijing.graphml`, `kg/coverage.md` |
 | 3 真實世界候選 / candidates | `tools/shj/kg_candidates.py` | `kg/candidates.jsonl` |
-| 4 交叉驗證 / cross-validation | `tools/shj/kg_crossval.py` | `kg/mapping.jsonl` |
+| 4 交叉驗證 / cross-validation | `tools/shj/kg_crossval.py`（約 6 分鐘 / ~6 min） | `kg/mapping.jsonl`, `kg/crossval-log.json` |
 | 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v1/` |
 
 ## 2. 實體 / Entities（步驟 1）
@@ -58,29 +58,33 @@
 
 | 書中類型 / Text type | 候選庫 / Candidate base | 自身分數依據 / Own-score basis |
 |---|---|---|
-| 生物 CRE | `world/animals.jsonl`（116 種，含特徵與古代分佈）| 描述特徵的加權覆蓋率 / weighted coverage of description tags |
+| 生物 CRE | `world/animals.jsonl`（116 種，含特徵與古代分佈），外加「無」（自身分數 0.35）| 描述特徵的稀有度加權覆蓋率；鳥、魚與身體形態檢查 / rarity-weighted coverage of description tags, with bird/fish and body checks; 'none' own score 0.35 |
 | 山 MTN、地 LND | `world/regions.jsonl`（31 個地區）＋ `region-properties.jsonl` | 該山的物產、生物、地形與地區性質的吻合 / resources, creatures and terrain vs region properties |
-| 水 WAT（主要水體）| `world/waters.jsonl`（全球河、湖、海，含河源地區、河口、流向）| 類型、流向、終點類型、規模（收納的支流數）/ type, flow direction, destination type, size |
-| 國族 POL | `world/cultures.jsonl`（全球古代人群，含習俗、地區）| 習俗、食物的吻合 / customs and diet |
-| 植物 PLA、礦物 MIN | 植物與礦物種類本身（分佈見 `region-properties.jsonl`）/ the plant or mineral type itself | 作為山的性質使用 / used as mountain properties |
+| 水 WAT（主要水體）| `world/waters.jsonl`（135 個全球河、湖、海、沙漠終點，含河源地區、河口、流域、流向），外加「庫中沒有」| 類型、流向、終點類型、規模（小權重）；「庫中沒有」的成本 = min(0.1 × 支流數, 1.5) / type, flow direction, destination type, size (small); 'none' costs min(0.1 × inflows, 1.5) |
+| 國族 POL | `world/cultures.jsonl`（47 個全球古代人群，含習俗、地區），外加「證據不足」| 習俗、生業的稀有度加權（只計該族作主語的句子）/ rarity-weighted customs and livelihood, subject clauses only |
+| 植物 PLA、礦物 MIN | 普通名詞的詞義（`kg_common.LEXICAL`）；專名不對應 / lexical meaning of common nouns; proper names unmapped | 亦作為山的性質使用 / also used as mountain properties |
 | 神人 PER | 無（非地理實體）/ none (non-geographic) | 不對應，但保留在圖中 / not mapped, kept in the graph |
 
-**主要水體 / Major waters**：收納 ≥ 2 條書中之水，或為「海」「澤」，或在海內東經水道表中有出入記錄者，逐一對應真實水體。其餘小溪不單獨對應，只作為關係（它的源山與它所注入的水）參與交叉驗證。/ Major waters (≥ 2 inflows, seas, marshes, or in the 海內東經 waterway list) are mapped individually; minor streams take part only through their relations.
+**主要水體 / Major waters**：收納 ≥ 2 條書中之水、提及 ≥ 3 次、為海或湖澤，或有完整的出入記錄（例如海內東經水道表）者，逐一對應真實水體。其餘小溪不單獨對應，只作為關係（它的源山與它所注入的水）參與交叉驗證。/ Major waters (≥ 2 inflows, seas, marshes, or in the 海內東經 waterway list) are mapped individually; minor streams take part only through their relations.
 
 ## 5. 交叉驗證 / Cross-validation（步驟 4）
 
 | 邊 / Edge | 一致 / Consistent | 權重 / Weight |
 |---|---|---|
-| `flows_into`（兩端皆主要水體）| 候選 A′ 的河口正是 B′ / A′'s mouth is B′ | +2.0；同地區 +0.3；否則 −1.0 |
-| `rises_at`（主要水體 → 山）| A′ 的河源地區＝山的候選地區（相鄰 +0.3）/ source region = the mountain's region | +1.0；否則 −0.5 |
+| `flows_into`（兩端皆主要水體）| 候選 A′ 的河口正是 B′ / A′'s mouth is B′ | +2.0；同地區 +0.3；否則 −1.0；A′＝B′（自注）−2.0；B′ 為「庫中沒有」而 A′ 的真實河口在庫中 −1.0 |
+| `flows_into`（→ 泛稱的海；→ 流沙等地）| A′ 入海 / A′ 為內流或沒入沙漠 | ±0.5；+0.5 / −0.3 |
+| `sinks_at` | A′ 為內流或沒入沙漠 / endorheic or ends in desert | +0.3 / −0.2 |
+| `rises_at`（主要水體 → 山）| A′ 的河源地區＝山的候選地區 / source region = the mountain's region | +1.0；相鄰 +0.3；否則 −0.5 |
 | 小溪的 `rises_at` ＋ `flows_into` | 源山的候選地區屬於所注入水體 B′ 的流域地區 / the source mountain's region lies in B′'s basin | +0.6；否則 −0.3 |
 | `next` | 兩山同一地區 +0.3、相鄰 +0.1、否則 −0.3（距離只是參考）/ same region, adjacent, otherwise | ≤ 0.3 |
-| `located`、`sees` | 兩端候選中心點的方位與書中方位相差 ≤ 67.5° / bearing agrees within 67.5° | +0.2；否則 −0.1 |
-| `has_creature`、`has_resource` | 已計入山的自身分數 / already in the mountain's own score | — |
+| `has_creature` | 動物的分佈涵蓋山的候選地區 / the animal's range covers the region | +0.5 × 覆蓋率；否則 −0.25 × 覆蓋率（海洋動物免檢）|
+| `located`、`sees` | 兩端候選中心點的方位與書中方位相差 ≤ 67.5° / bearing agrees within 67.5° | +0.2 / −0.1（`sees` ±0.1 / −0.05）|
 
-**求解 / Solve**：迭代條件眾數法（ICM）：從最佳自身候選開始，逐一更新，直到收斂。重啟 12 次，每次隨機略去 20% 的邊（固定種子）。/ Iterated conditional modes from the best own candidates; 12 restarts each dropping 20% of edges at random (fixed seeds).
+**唯一性 / Uniqueness**：兩條書中河流對到同一條真實水體，每對扣 2.0。/ 2.0 per pair of book waters on one real water.
 
-**可信度 / Confidence** = 穩定度 × (1 − e^(−邊際))；高 ≥ 0.6、中 0.3–0.6、低 < 0.3。每個對應都列出支持與違反的關係。/ Every mapping lists the relations it satisfies and violates.
+**求解 / Solve**：模擬退火 6 條鏈 × 120 萬步（溫度 2.0 → 0.02，固定種子；一半提議由關係引導），ICM 收尾（平手保留現值），再做區塊調整：一條河設為某候選，同時重配相鄰的河、它們的源山及源山的鄰站，總分上升才接受。對應＝總分最高的鏈。樣本：6 條完整鏈＋12 次「略去 20% 關係」的重解（各 2 條鏈），共 30 個。/ Simulated annealing (6 chains × 1.2M steps, T 2.0 → 0.02, fixed seeds, half the proposals relation-guided), ICM polish, then block moves (a river with its neighbouring rivers, source mountains and their stations; kept only if E rises). Mapping = the best chain. 30 samples: 6 full chains plus 12 re-solves with 20% of relations dropped (2 chains each).
+
+**可信度 / Confidence** = 穩定度 × (1 − e^(−邊際))；高 ≥ 0.6、中 ≥ 0.3、低 ≥ 0.1、暫定 < 0.1。每個對應都列出支持與違反的關係、樣本中的其他候選及比例；河流另報水系層級的穩定度。/ High, medium, low, tentative; every mapping lists supporting and violated relations and sample alternatives; rivers also report system-level stability.
 
 ## 6. 交付 / Deliverable（步驟 5）
 
@@ -88,9 +92,10 @@
 - `README.md`：方法摘要、結果摘要、可信度分佈、限制。/ summary, results, confidence, limits.
 - `book/NN-書名.md`：**逐段對照**：每一段的原文、其中每個實體、對應的真實世界實體、可信度與理由。869 段一段不漏。/ **per-paragraph mapping** for all 869 paragraphs.
 - `entities.md`：全部實體的總表（依類型），含描述、性質、關係數、對應與可信度。/ the full entity catalogue.
-- `mapping-waters.md`、`mapping-regions.md`、`mapping-creatures.md`、`mapping-peoples.md`：各類對應表。/ tables by type.
+- `mapping-waters.md`、`mapping-mountains.md`（依篇）、`mapping-creatures.md`、`mapping-peoples.md`、`mapping-plants-minerals.md`：各類對應表。/ tables by type.
 - `world-map.svg`：全球圖。/ world map.
-- `coverage.md`：覆蓋檢查（必須通過）。/ coverage audit (must pass).
+- `coverage.md`：交付完整性檢查：段落數、提及數與寫入的列數必須相等（PASS），否則 `kg_deliver.py` 失敗。/ completeness check: paragraphs and mentions written must equal those in the text, or the tool fails.
+- `summary.json`：統計。/ counts.
 
 ## 7. 覆蓋檢查 / Coverage audit
-`kg_extract.py` 產出 `coverage.md`：(1) 每段抽到的實體數；(2) 沒有任何實體的段落；(3) 名稱句式出現但未抽出的地方。交付前，(2)(3) 必須為零或逐項說明。/ Paragraphs with no entity and unextracted name patterns must be zero or individually explained before delivery.
+`kg_extract.py` 產出 `coverage.md`：(1) 每段抽到的實體數；(2) 沒有任何實體的段落；(3) 名稱句式出現但未抽出的地方，每一處要嘛已成實體，要嘛歸入明列的理由（數量、題記、泛稱、比喻、異說、敘事語）。交付前，(2) 與 (3) 的「未解釋」必須為零。/ Paragraphs with no entity and unextracted name patterns must be zero or individually explained before delivery.

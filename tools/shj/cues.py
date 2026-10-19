@@ -1,8 +1,7 @@
-"""Description cue lexicon for Method G (projects/shanhaijing/docs/method-g-global.md).
+"""Description cue lexicon for the entity-graph method (projects/shanhaijing/docs/methodology-spec.md §3).
 
-Maps the book's descriptive phrases to the tag vocabulary shared with
-projects/shanhaijing/data/world/animals.jsonl and loci.jsonl. Names are never used: callers strip the
-「(其)名曰X」 clause before tagging.
+Maps the book's descriptive phrases to the tag vocabularies of projects/shanhaijing/data/world/ (animals.jsonl,
+region-properties.jsonl, cultures.jsonl). Names are never used: callers strip the 「(其)名曰X」 clause before tagging.
 """
 import re
 
@@ -45,24 +44,6 @@ CREATURE_CUES = [
 ]
 CREATURE_CUES = [(re.compile(p), t) for p, t in CREATURE_CUES]
 
-# Place cues: (regex, tag) — searched in all entries naming the target place.
-PLACE_CUES = [
-    (r"萬仞|高萬|大山|方八百里", "great_peak"),
-    (r"其光熊熊|光熊熊", "glow"),
-    (r"流沙", "desert_edge"),
-    (r"炎火|投物輒然", "fire_ground"),
-    (r"淵環之|環之|弱水之淵", "encircling_water"),
-    (r"人面[^。]{0,3}虎身|虎身[^。]{0,6}人面|類虎[^。]{0,6}人面", "human_feline_colossus"),
-    (r"東嚮立|東向立", "east_facing_colossus"),
-    (r"九井|九門|以玉為檻|開明獸守之", "built_complex"),
-    (r"穴處", "cave_dwelling"),
-    (r"帝之下都|百神|萬物盡有", "sacred_mountain"),
-    (r"玉|琅玕|珠樹", "gems_jade"),
-]
-PLACE_CUES = [(re.compile(p), t) for p, t in PLACE_CUES]
-RE_SEA_SIDE = re.compile(r"(?:[東西南北]+)?海之(南|北|東|西)")   # 「X海之南」: the place lies S of a sea -> sea_north
-OPPOSITE = {"南": "sea_north", "北": "sea_south", "東": "sea_west", "西": "sea_east"}
-RE_RIVER_OUT = re.compile(r"([^，。；]{1,6}?水)出(?:焉|(東南|西南|東北|西北)隅)[^。]*?(東南|西南|東北|西北|東|西|南|北)?")
 RE_NAME = re.compile(r"(?:其名曰|名曰|號曰|是為)[^，。；]{1,6}")
 
 
@@ -90,15 +71,7 @@ def creature_tags(text: str) -> set[str]:
     return tags
 
 
-def place_tags(text: str) -> set[str]:
-    t = mask_names(text)
-    out = {tag for rx, tag in PLACE_CUES if rx.search(t)}
-    for m in RE_SEA_SIDE.finditer(t):
-        out.add(OPPOSITE[m.group(1)])
-    return out
-
-
-# Region-property cues for whole sections (Method G whole-book mapping; data/world/region-properties.jsonl).
+# Region-property cues for mountains and places (data/world/region-properties.jsonl).
 # Each maps a textual cue to a region property. Notes: 「玉」 -> jade is an interpretive step (玉 covers precious
 # stones generally); 「丹粟」 are cinnabar grains, so 粟 counts as millet only when not preceded by 丹.
 REGION_CUES = [
@@ -116,7 +89,6 @@ REGION_CUES = [
     (r"穴處|穴居", "cave_dwelling"),
 ]
 REGION_CUES = [(re.compile(p), t) for p, t in REGION_CUES]
-RE_BARREN = re.compile(r"無草木")
 
 
 CUSTOM_TAGS = {"tattoo", "black_teeth", "ear_ornaments", "feather_dress", "hairy_people", "pygmy_people", "dark_skin",

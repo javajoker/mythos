@@ -27,8 +27,8 @@ Bare main text is about 31,300 characters. Similarity to `sbck` is about 0.95–
 
 #### 3.1.1 錯簡假說登記 / Registered displacement hypotheses (X3, task T-104)
 
-`tools/shj/align_witness.py` 以與順序無關的 n-gram 投票，在兩個見證本中定位每一條底本條目（[alignment-summary.md](../data/derived/alignment-summary.md)）。下列 8 個段落塊的位置，**明成化本和四庫本一致**，而與底本不同。工作文本（[working-text.jsonl](../data/derived/working-text.jsonl)）依兩個見證本排序；底本的排法只作為錯簡假說登記（[displacements.jsonl](../data/derived/displacements.jsonl)），要採用它，必須在卷宗中以 T3 成本論證。
-`tools/shj/align_witness.py` locates every base entry in both witnesses by order-independent n-gram voting. For the 8 blocks below, **the 1470 Chenghua and the Siku editions agree with each other** and disagree with the base text. The working text follows the two witnesses; the base arrangement is registered only as a displacement hypothesis, which a dossier may adopt only by arguing it at T3 cost.
+`tools/shj/align_witness.py` 以與順序無關的 n-gram 投票，在兩個見證本中定位每一條底本條目（[alignment-summary.md](../data/derived/alignment-summary.md)）。下列 8 個段落塊的位置，**明成化本和四庫本一致**，而與底本不同。工作文本（[working-text.jsonl](../data/derived/working-text.jsonl)）依兩個見證本排序；底本的排法只作為錯簡假說登記（[displacements.jsonl](../data/derived/displacements.jsonl)），工作文本不採用它；若要採用，必須說明理由並重跑全部流程。
+`tools/shj/align_witness.py` locates every base entry in both witnesses by order-independent n-gram voting. For the 8 blocks below, **the 1470 Chenghua and the Siku editions agree with each other** and disagree with the base text. The working text follows the two witnesses; the base arrangement is registered only as a displacement hypothesis, not adopted by the working text; adopting it needs a stated reason and a full re-run.
 
 | X3 | 條目 / Entries | 底本所在 / In base | 兩見證本所在 / In both witnesses | 底本引現代編者 / Base cites modern editor | 首句 / Opening |
 |---|---|---|---|---|---|
@@ -41,7 +41,7 @@ Bare main text is about 31,300 characters. Similarity to `sbck` is about 0.95–
 | X3-007 | `SHJ-13-1-037`–`043` | 海內東經 | 海內北經 | ✓ | 姑射國…大蟹…陵魚…蓬萊山…大人之市 |
 | X3-008 | `SHJ-14-1-002` | 大荒東經 | 大荒南經 | ✓ | 羲和之國…方浴日于甘淵 |
 
-**影響 / Impact**：海內西、北、東三經之間的相對方位推理（規格 §7.6）必須用工作文本的次序。H-0001 引用的 `SHJ-11-1-017`（開明獸「東嚮立」）不在任何移段塊中，且兩個見證本都有此段，只有「昆侖／崑崙」等字形差異。/ Relative-position reasoning across these three books must use working-text order. `SHJ-11-1-017`, cited by H-0001, is in no relocated block and is present in both witnesses, with only glyph differences such as 昆侖/崑崙.
+**影響 / Impact**：海內西、北、東三經之間的相對方位（知識圖譜的 `located` 關係）必須依工作文本的次序。常被引用的 `SHJ-11-1-017`（開明獸「東嚮立」）不在任何移段塊中，且兩個見證本都有此段，只有「昆侖／崑崙」等字形差異。/ Relative positions across these three books (`located` relations in the knowledge graph) must follow working-text order. `SHJ-11-1-017`, often cited, is in no relocated block and is present in both witnesses, with only glyph differences such as 昆侖/崑崙.
 
 #### 3.1.2 底本補入的文字 / Text the base inserted
 
@@ -74,12 +74,12 @@ Bare main text is about 31,300 characters. Similarity to `sbck` is about 0.95–
 
 ### 3.5 底本偏離 / Base deviations (T-102)
 
-`tools/shj/classify_variants.py` 發現 681 處底本與兩個早期見證本都不同、而兩見證本彼此一致的讀法（[variant-classes-summary.md](../data/derived/variant-classes-summary.md)）。這是事實判定，不判斷誰對：其中有底本誤字（如 `SHJ-01-3-009`「黑水**山**焉」，見證本作「出」），也可能有現代校改（如 `SHJ-02-2-004` 底本「西**北**五十里」，見證本作「西**百**五十里」，影響方位）。工作文本從見證本；若要採用底本讀法，卷宗須當作校改論證並計成本。
-681 readings where the base differs from both early witnesses, which agree. This is factual and does not judge who is right: some are base typos (e.g. `SHJ-01-3-009`), some may be modern emendations (e.g. `SHJ-02-2-004`, which changes a bearing). The working text follows the witnesses; adopting a base reading must be argued and costed in a dossier as an emendation.
+`tools/shj/classify_variants.py` 發現 681 處底本與兩個早期見證本都不同、而兩見證本彼此一致的讀法（[variant-classes-summary.md](../data/derived/variant-classes-summary.md)）。這是事實判定，不判斷誰對：其中有底本誤字（如 `SHJ-01-3-009`「黑水**山**焉」，見證本作「出」），也可能有現代校改（如 `SHJ-02-2-004` 底本「西**北**五十里」，見證本作「西**百**五十里」，影響方位）。工作文本從見證本；若要採用底本讀法，須說明理由並重跑全部流程。
+681 readings where the base differs from both early witnesses, which agree. This is factual and does not judge who is right: some are base typos (e.g. `SHJ-01-3-009`), some may be modern emendations (e.g. `SHJ-02-2-004`, which changes a bearing). The working text follows the witnesses; adopting a base reading needs a stated reason and a full re-run.
 
 ## 4. 使用規則 / Usage rules
 
 1. 引用時預設用 `base` 的條目編號（穩定），但凡涉及 §3.1 的條目，要同時附上 `sbck` 的位置。/ Cite by `base` entry ID (stable), but for §3.1 entries also give the `sbck` position.
 2. 異文在分類完成之前不得作為證據（`status = unclassified`）；分類見 `variant-classes.jsonl`。/ Variants cannot serve as evidence until classified (see `variant-classes.jsonl`).
 3. 郭注只作為「四世紀讀者的理解」。/ Guo Pu's notes are only "a 4th-century reader's understanding".
-4. **草稿讀法政策（draft v0.1）/ Draft-reading policy**：人工審查已取消。初稿的讀法規則如下：(a) 段落次序依工作文本（明成化本）；(b) `base-deviation`（兩見證本一致而與底本不同）依見證本；(c) `orthographic` 不影響詮釋；(d) 其餘 `unclassified` 依底本，但卷宗若以某條為關鍵證據，必須在卷宗內列出三個見證本的讀法，並說明採用哪一個。/ Human review is cancelled. For the draft: (a) paragraph order follows the working text (Chenghua); (b) base deviations follow the witnesses; (c) orthographic variants do not affect interpretation; (d) other unclassified variants follow the base, but a dossier that uses one as key evidence must list all three witness readings and state its choice.
+4. **草稿讀法政策 / Draft-reading policy**：人工審查已取消。初稿的讀法規則如下：(a) 段落次序依工作文本（明成化本）；(b) `base-deviation`（兩見證本一致而與底本不同）依見證本；(c) `orthographic` 不影響詮釋；(d) 其餘 `unclassified` 依底本；若某條異文會改變抽出的實體或關係，要列出三個見證本的讀法，並說明採用哪一個。/ Human review is cancelled. For the draft: (a) paragraph order follows the working text (Chenghua); (b) base deviations follow the witnesses; (c) orthographic variants do not affect interpretation; (d) other unclassified variants follow the base; where a variant would change an extracted entity or relation, list all three witness readings and state the choice.

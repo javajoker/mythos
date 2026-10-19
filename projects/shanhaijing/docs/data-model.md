@@ -68,4 +68,4 @@
 
 ## 4. 帳簿 / Ledgers
 - `ledgers/variant-overrides.jsonl`：人工異文判定，永遠優先 / human variant decisions.
-- `ledgers/mapping-overrides.jsonl`：人工對應判定（例如確認或否決某個對應），永遠優先，必須寫理由 / human mapping decisions with reasons, always win.
+- `ledgers/mapping-overrides.jsonl`（**尚未實作**，人工審查已取消）：人工對應判定，必須寫理由 / (**not implemented**; human review is cancelled) human mapping decisions with reasons.

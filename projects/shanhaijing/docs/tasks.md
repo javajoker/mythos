@@ -1,100 +1,59 @@
 # 山海經子項目任務 / Shanhaijing Sub-project Tasks
 
-> 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo。編號按方法階段分組（T-0xx 對應 S0，依此類推）。
-> IDs grouped by method stage (T-0xx ↔ S0, …). Agent / skill names refer to [.claude/](../../../.claude/).
+> v2.0 ・ 2026-10-19 ・ 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo
+> 方法：實體圖譜交叉驗證（[methodology-spec](methodology-spec.md)）。舊方法（方法 A 的 S0–S9 卷宗、方法 G 的地點比對）的任務已隨方法退役，記錄在 git 歷史中。/ Tasks of the retired methods are in git history.
+> 編號 / IDs: `T-0nn`–`T-2nn` 文本層 / text layer（沿用舊編號 / kept）；`T-E` 實體與關係（步驟 1–2）；`T-C` 候選（步驟 3）；`T-X` 交叉驗證（步驟 4）；`T-D` 交付（步驟 5）；`T-R` 紅隊 / red team。
 
-## S0 語料 / Corpus
+## 文本層 / Text layer
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-001 | 擷取三個見證本（通行本、四部叢刊明成化本、四庫本）/ fetch the three witnesses | `tools/shj/fetch_sources.py` | ✅ |
-| T-002 | 逐段編號，分離注疏、異文和現代編者註 / per-paragraph IDs; split commentary, variants and editorial notes | `tools/shj/ingest.py` | ✅ |
-| T-003 | 在明成化本與四庫本中定位每個底本條目（n-gram 投票，與順序無關），建立對應表 / locate every base entry in the Chenghua and Siku witnesses (order-independent n-gram voting) | `tools/shj/align_witness.py` → `witness-alignment.jsonl` | ✅ |
-| T-004 | 產生以明成化本為序的正式工作文本 `working-text.jsonl`（讀法暫取底本，待 T-102 逐條選定）/ build the canonical working text in Chenghua order (base readings until T-102 chooses per variant) | `tools/shj/align_witness.py` | ✅ |
-| T-005 | 對照掃描頁補齊四部叢刊本缺頁（卷 1 洵山、虖勺、區吳三山；卷 15 一頁）/ fill the Sibu Congkan gaps from the scans (book 1: 洵山, 虖勺, 區吳; one page of book 15) | `textual-critic` | ⬜ |
+| T-001 | 擷取三個見證本（通行本、四部叢刊明成化本、四庫本）/ fetch the three witnesses | `fetch_sources.py` | ✅ |
+| T-002 | 逐段編號（869 段），分離注疏與編者註 / per-paragraph IDs, commentary split off | `ingest.py` | ✅ |
+| T-003 | 在明成化本與四庫本中定位每個底本條目 / locate every base entry in both witnesses | `align_witness.py` | ✅ |
+| T-004 | 以明成化本為序的工作文本 / working text in Chenghua order | `align_witness.py` | ✅ |
+| T-005 | 對照掃描頁補齊四部叢刊本缺頁（卷 1 三山；卷 15 一頁）/ fill the Sibu Congkan gaps from the scans | `textual-critic` | ⬜ |
+| T-101 | 機器對勘，異文歸屬到條目 / machine collation | `collate.py` | ✅ |
+| T-102 | 異文分類：自動 1,604 / 2,021；人工審查已取消，採草稿讀法政策（source-assessment §4）/ auto-classified; human review cancelled; draft-reading policy | `classify_variants.py` | ✅（草稿 / draft） |
+| T-103 | 擴充異體字摺疊表 / extend the graphic-variant fold table | `textual-critic` | ⬜ |
+| T-104 | 登記底本的現代移段 X3-001–008 與補入文字 / register modern relocations and insertions | `align_witness.py` | ✅ |
+| T-105 | 以見證本的數字讀法重抽里程，檢查與篇末總數的差異（F-0002）/ re-extract distances with witness numerals; check against section totals | `textual-critic` | ⬜ |
+| T-201 | 山經站點、方位、里程、水系抽取（447 站）/ Mountain-Classic stations | `extract_routes.py` | ✅ |
+| T-202 | 補抓段內遺漏的站點（例：`SHJ-02-3-010` 的「蠃母之山」）/ catch stations missed inside paragraphs | `entity-extractor` | ⬜ |
 
-## S1 校勘 / Textual criticism
+## 步驟 1–2 實體、性質、關係 / Entities, properties, relations
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-101 | 機器對勘並把異文歸屬到條目 / machine collation, variants attributed to entries | `tools/shj/collate.py` | ✅ |
-| T-102 | 異文分類：自動首輪已分類 1,604 / 2,021 筆。**人工審查已取消（2026-10-19，項目發起人決定）**；初稿採用「草稿讀法政策」（source-assessment §4.4），其餘 417 筆在卷宗引用時逐條處理 / variant classification: 1,604 of 2,021 auto-classified. **Human review cancelled (2026-10-19, initiator's decision)**; the draft uses the draft-reading policy (source-assessment §4.4) and handles the other 417 case by case when a dossier cites them | `tools/shj/classify_variants.py` | ✅（草稿 / draft） |
-| T-105 | 以見證本讀法（底本偏離中的 19 處數字）重新抽取山經里程，比較與篇末總數的自洽度變化 / re-extract Mountain-Classic distances with the witness readings (19 numeral base-deviations) and compare consistency with the stated totals | `shj-route-reconstructor` | ⬜ |
-| T-103 | 擴充異體字摺疊表，降低雜訊 / extend the graphic-variant fold table to reduce noise | `textual-critic` | ⬜ |
-| T-104 | 登記底本中的現代移段為錯簡假說：X3-001–008（22 條），補入文字 I-001–002 / register modern relocations as X3-001–008 (22 entries) and insertions I-001–002 | `align_witness.py` → `displacements.jsonl`；source-assessment §3.1 | ✅ |
+| T-E01 | 全書實體抽取與合併：1,941 個實體、10 種類型 / whole-book extraction and merge | `kg_extract.py` | ✅ |
+| T-E02 | 關係抽取：2,750 條邊（相鄰、發源、注入、潛入、位於、望見、產…）/ relation extraction | `kg_extract.py` | ✅ |
+| T-E03 | 覆蓋檢查：無實體段落 0、未解釋的名稱句式 0 / coverage audit at 0 / 0 | `kg_extract.py` → `kg/coverage.md` | ✅ |
+| T-E04 | 為 50 個「未定」（UNK）實體確定類型 / type the 50 undetermined entities | `entity-extractor` | ⬜ |
+| T-E05 | 檢查同名河流的拆分與合併（洛、丹、涇等）/ audit homonym-river splits and merges | `entity-extractor` | ⬜ |
+| T-E06 | 抽取海經、大荒經更多的方位關係（目前多數國族只有 1–2 條 `located`）/ extract more bearings in the Sea and Wilderness books | `entity-extractor` | ⬜ |
 
-## S2 結構抽取 / Extraction
+## 步驟 3 真實世界候選 / Candidates
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-201 | 山經站點、方位、里程、水系、生物抽取 v1 / Mountain-Classic extraction v1 | `tools/shj/extract_routes.py` | ✅ |
-| T-202 | 補抓遺漏的站點（例如 `SHJ-02-3-010` 段內的「蠃母之山」）/ catch missed stations (e.g. 蠃母之山 inside `SHJ-02-3-010`) | skill `shj-itinerary-reconstruction` | ⬜ |
-| T-203 | 抽取「望」見關係（方向約束）/ extract sight-lines | 同上 / same | ⬜ |
-| T-204 | 抽取礦產詞表和分佈 / mineral lexicon and distribution | 同上 / same | ⬜ |
-| T-205 | 生物描述的特徵向量（形、色、聲、習性）/ creature feature vectors | skill `biogeo-identification` | ⬜ |
-| T-206 | 海經、大荒經的相對方位關係抽取（A 在 B 某方）/ relative-position relations in the Sea and Wilderness classics | skill `toponym-triangulation` | ⬜ |
+| T-C01 | 全球庫：31 地區、36 性質、135 水體、116 動物、47 文化 / world base | `data/world/` | ✅ |
+| T-C02 | 每個實體的候選與自身分數 / candidates with own scores | `kg_candidates.py` | ✅ |
+| T-C03 | **庫的平衡**：每條大河列出的支流數相近（目前長江 6 條、渭河 2 條），重跑並比較 / balance listed tributaries per major river; re-run and compare | `world-candidate-scout` | ⬜ |
+| T-C04 | 為 121 個「無合適真實對應」的生物檢查是否缺少候選動物 / check whether unmatched creatures lack candidate animals | `world-candidate-scout` | ⬜ |
+| T-C05 | 為 76 個無詞義的植物、礦物專名決定處理方式 / decide on proper-named plants and minerals | `world-candidate-scout` | ⬜ |
 
-## S3 內部一致性 / Internal consistency
+## 步驟 4 交叉驗證 / Cross-validation
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-301 | 26 段里程與篇末總數對比 / leg sums vs stated totals for 26 sections | `extract_routes.py` | ✅ |
-| T-302 | 逐段解釋每個差異（抽取錯誤 / 文本錯誤 / 未解），例如中山經首篇 937 對 6670、中次十二經「凡十萬山」/ explain each discrepancy | `shj-route-reconstructor` | ⬜ |
-| T-303 | 全書水系圖：出、注、潛關係，同名河流歸併，懸空節點檢查 / whole-book river graph: merge same-name rivers, check dangling nodes | `tools/shj/river_graph.py` | ✅ |
-| T-310 | 大荒西經的相對方位網路，作為 H-0001b 的前置任務 / 大荒西經 relative network (prerequisite for H-0001b) | `geo-triangulator` | ⬜ |
+| T-X01 | 聯合求解（退火 + ICM + 區塊調整）、樣本穩定度、可信度與級別 / joint solve, stability, confidence, tiers | `kg_crossval.py` | ✅ |
+| T-X02 | 確定性與單調性檢查 / determinism and monotonicity checks | `cross-validator` | ✅ |
+| T-X03 | 降低多峰：各鏈總分相差約 1%；試平行回火或更多鏈 / reduce multimodality (≈1% spread across chains) | `cross-validator` | ⬜ |
+| T-X04 | 權重敏感度：UNIQ、`flows_into`、`next` 各在合理範圍內變動，報告對應的變化 / weight sensitivity | `cross-validator` | ⬜ |
 
-## S4 相對重建 / Relative reconstruction
+## 步驟 5 交付 / Deliverable
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-401 | 鏈條擬合工具（蒙地卡羅）/ Monte Carlo chain-fit tool | `tools/shj/chain_fit.py` | ✅ |
-| T-402 | 26 段的不錨定相對圖與不確定度橢圓 / unanchored relative maps with uncertainty ellipses for all 26 sections | `shj-route-reconstructor` | ⬜ |
-| T-403 | 各段之間的銜接：哪幾段共享地名或水系 / inter-section links via shared names or rivers | 同上 / same | ⬜ |
+| T-D01 | 初稿 v1：869 段、4,004 次提及逐條對照，完整性 PASS / draft v1, item by item, completeness PASS | `kg_deliver.py` → `deliverables/draft-v1/` | ✅ |
+| T-D02 | 逐篇的文字摘要（每篇的山落在哪些地區、主要水系）/ per-section narrative summaries | `shj-lead` | ⬜ |
 
-## S5–S6 指紋與盲候選 / Fingerprints & blind candidates
+## 紅隊 / Red team
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-501 | 每段的指紋卡（地形、水系型態、生物、礦產、氣候）/ fingerprint card per section | `naturalist` + `geo-triangulator` | ⬜ |
-| T-610 | 用 H-0001 的觀察 O-2、O-3、O-4 做全球盲候選生成；O-4 已由 H-0003 部分處理 / blind global candidates from O-2–O-4; O-4 partly handled in H-0003 | `geo-triangulator` | ⏳ |
-| T-611 | 為西次三經生成 ≥ 3 個候選框架（必含本地框架和虛無假說）/ ≥ 3 candidate frames for 西次三經 (incl. local + null) | H-0003 | ✅ |
-| T-620 | 海外四經奇異民族與真實習俗的比對（黑齒、雕題、穿胸等）/ match 海外 strange peoples with real customs | `naturalist` | ⬜ |
-| T-630 | 核實甲骨「四方風」刻辭（合集 14294）釋文並與大荒經比對 / verify the oracle-bone four-winds inscription and compare | `textual-critic` | ⬜ |
-| T-640 | 尋找東西地平線各有 6–7 個標記山頭的觀測點 / find an observation site with 6–7 horizon markers east and west | `geo-triangulator` | ⬜ |
-| T-650 | 南山經、東山經的指紋與候選（河網連結少，需改用地形與生物通道）/ fingerprints for 南山經 and 東山經 via terrain and biota | `shj-lead` | ⬜ |
-| T-651 | 北山經之首與泑澤的定位 / place 北山經之首 and 泑澤 | `shj-route-reconstructor` | ⬜ |
-| T-652 | 西次三經西半段的定位（需篇內錨點）/ place the western half of 西次三經 (needs in-section anchors) | `shj-route-reconstructor` | ⬜ |
-
-## S7–S8 交叉定位與裁決 / Triangulation & adjudication
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-701 | H-0001 全流程卷宗 / full H-0001 dossier | `shj-lead` | ✅ |
-| T-702 | 對 T-611 的每個候選做多通道擬合 / multi-channel fits for each T-611 candidate | H-0003 | ✅ |
-| T-704 | H-0002 山經核心河網卷宗；H-0004 海內知識範圍；H-0005 大荒經曆法框架 / dossiers H-0002, H-0004, H-0005 | `shj-lead` | ✅ |
-| T-705 | 初稿 v0.1 綜合報告 / draft v0.1 synthesis report (`reports/draft-v0.1.md`) | `shj-lead` | ✅ |
-
-## 方法 G / Method G
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-G01 | 方法 G 規格、框架 §10 / Method G spec and framework §10 | `shj-lead` | ✅ |
-| T-G02 | 世界知識庫：94 種動物、27 處候選（跑分前提交）/ world base: 94 animals, 27 loci (committed before scoring) | `naturalist`, `geo-triangulator` | ✅ |
-| T-G03 | 描述線索詞彙、生物抽取、動物地圖 / cue lexicon, creature extraction, animal map | `tools/shj/cues.py`, `creatures.py`, `animal_map.py` | ✅ |
-| T-G04 | 描述優先地點比對（含 jackknife、同水系複合）/ place matcher with jackknife and composites | `tools/shj/geo_match.py` | ✅ |
-| T-G05 | H-0006 崑崙全球比對 / H-0006 Kunlun global match | `shj-lead` | ✅ |
-| T-660 | N5：補齊各大水系候選（每系 ≥ 4 處，含古代紀念建築），重跑 H-0006 / balance the base and rerun | `geo-triangulator` | ⬜ |
-| T-661 | N6：流沙、赤水、黑水、弱水、西王母之山分別做方法 G 比對 / match the neighbouring names separately | `shj-lead` | ⬜ |
-| T-662 | N7：開明諸段與西王母描述的動物投票 / animal vote for the 開明 block and 西王母 | `naturalist` | ⬜ |
-| T-663 | 擴充動物庫，並補海經、大荒經的生物描述句式 / extend the animal base and the Sea/Wilderness creature formats | `naturalist` | ⏳（已加 22 種、海經句式 / 22 species and Sea formats added） |
-| T-G06 | 全書全球對照：39 篇＋9 個具名地點 對 31 個地區（地區性質庫、`region_match.py`、全球圖、人群表）/ whole-book global map | `geo-triangulator` | ✅ |
-| T-G07 | 完整初稿 v1.0（全球對照）/ full draft v1.0 (global mapping) → `reports/draft-v1.0-global.md` | `shj-lead` | ✅ |
-| T-664 | 由第二位分析者獨立填寫地區性質，量化分析者偏差 / independent second annotation of region properties | `naturalist`, `geo-triangulator` | ⬜ |
-| T-665 | 「四角獸」專項比對（四角羚、多角家羊等），西方延伸的結論依賴它 / focused test of the four-horned beast | `naturalist` | ⬜ |
-| T-703 | 引入地形、水系、GBIF、古氣候資料適配器 / DEM, river, GBIF, palaeoclimate adapters | `tools/` | ⬜ |
-| T-801 | H-0001b 登記與檢驗 / register and test H-0001b | `shj-lead` | ⬜ |
-
-## S9 發佈 / Publication
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-901 | 發現 F-0001（底本含現代移段）、F-0002（山經里程自洽性）/ findings F-0001 and F-0002 | `shj-lead` | ✅ |
-| T-902 | 地名帳、物種帳的格式與首批條目 / toponym and taxon ledgers: format and first entries | `shj-lead` | ⬜ |
-
-## 工具與代理 / Tooling & agents
-| ID | 任務 / Task | 狀態 |
-|---|---|---|
-| T-951 | 山海經專用 agent 與 skill / Shanhaijing agents & skills | ✅ |
-| T-952 | 抽取公共 agent 與 skill / extract common agents & skills | ✅ |
-| T-953 | 為腳本加上回歸測試（固定輸出摘要）/ regression tests for the scripts (fixed output digests) | ⬜ |
+| T-R01 | 審查初稿 v1：反例、誘餌（河、昆侖之丘、羬羊、毛民）、庫的偏差、可信度是否被誇大 / review draft v1 | `devils-advocate` | ⬜ |
