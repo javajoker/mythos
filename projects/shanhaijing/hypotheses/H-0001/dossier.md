@@ -8,6 +8,7 @@
 | 登記日期 / Registered | 2026-10-19 |
 | 方法版本 / Method | [methodology-spec v0.1](../../docs/methodology-spec.md), [framework v0.1](../../../../docs/research-framework.md) |
 | 校改預算 / Correction budget | log₁₀ −1.5（預設 / default）；實際使用 0 / used 0 |
+| 修訂 / Revision | r2 (2026-10-19)：改依明成化本與四庫本讀法（T-102 異文分類）；P9 由 E−1 改為 E0，總值 −3.50 → −3.20，等級不變 / r2: switched to the Chenghua/Siku readings after variant classification; P9 E−1 → E0, total −3.50 → −3.20, verdict unchanged |
 | 重現 / Reproduce | `python3 -I tools/shj/chain_fit.py --section 西次三經 --anchor 昆侖之丘 --lat 29.975 --lon 31.138` |
 
 ---
@@ -21,8 +22,9 @@
 
 **原文核對 / Text check (S0–S1)**：
 - `SHJ-16-1-037`（大荒西經）與引文相符；底本作「黒水」（黑的異體）。/ matches the quotation; the base text writes 黒 (variant of 黑).
-- `SHJ-02-3-006`（西次三經・泰器之山）原文是「常**從**西海**遊于**東海」，不是「常行西海，游於東海」。兩者意義相近，但引用時必須用原文。/ The source reads 「常從西海遊于東海」, not 「常行西海，游於東海」. The meaning is close, but citations must use the source wording.
-- 兩條在三個見證本中都沒有影響本題的實質異文（見 `projects/shanhaijing/data/derived/collation.jsonl`）。/ Neither entry has a witness variant that matters here.
+- `SHJ-02-3-006`（西次三經・泰器之山）：明成化本與四庫本都作「常**行**西海，**遊於**東海」，**與提出者的引文一致**。底本作「常從西海遊于東海」，屬於底本偏離（`base-deviation`）。r1 版曾把提出者的引文「更正」為底本讀法，這是錯的，已撤回。/ Both the Chenghua and Siku editions read 「常**行**西海，**遊於**東海」, **matching the proposer's quotation**. The base's 「常從西海遊于東海」 is a base deviation. Revision r1 wrongly "corrected" the proposer's quote to the base reading; retracted.
+- `SHJ-02-3-008` 河水：兩個見證本作「南流**東**注于無達」，底本脫「東」。下文 §4.5 依見證本。/ Both witnesses read 「南流**東**注于無達」; the base drops 東. §4.5 follows the witnesses.
+- 其餘差異只是字形（昆侖／崑崙、黑／黒等），見 `projects/shanhaijing/data/derived/variant-classes.jsonl`。/ Other differences are glyph-only (昆侖/崑崙, 黑/黒, …).
 
 ## 2. 範圍宣告 / Scope (spec §9)
 
@@ -49,7 +51,7 @@ The hypothesis cites 西次三經 (泰器之山) as support, so the 西次三經
 | P6 | 崑崙的神形與獅身人面像相容且有獨特性 / the Kunlun god's form fits the Sphinx distinctively | 形態不合，或者這類描述在全書很常見 / misfit, or the description is common in the corpus |
 | P7 | 「炎火之山，投物輒然」在崑崙外圍可找到 / a "fire mountain" lies around Kunlun | 沒有 / none |
 | P8 | 以崑崙為錨點，西次三經其餘站點都落在有對應地物的位置 / anchored at Kunlun, the rest of 西次三經 lands on matching features | 大量站點的水系或地形無法對應 / many stations' rivers or terrain have no counterpart |
-| P9 | 文鰩魚為飛魚，且「從西海遊于東海」在候選框架下可行 / 文鰩魚 is a flying fish and its West→East Sea route is feasible in this frame | 路線不可行 / route infeasible |
+| P9 | 文鰩魚為飛魚，且「常行西海，遊於東海」在候選框架下成立（r1 誤依底本，檢驗的是西海→東海的遷徙路線）/ 文鰩魚 is a flying fish and "ranges in the West Sea, swims in the East Sea" holds in this frame (r1 wrongly followed the base and tested a West→East migration route) | 兩海之一沒有這種魚 / one of the two seas lacks such fish |
 
 ## 4. 證據 / Evidence (S5–S7)
 
@@ -78,7 +80,7 @@ In the book's lexicon, 水 with 出/注 means a river, and seas are always 海 (
 The Nile rises far to the south (the East African lakes and the Ethiopian highlands) and flows north into the Mediterranean; at Giza it only passes by. It neither rises at Giza nor runs west of it.
 
 ### 4.5 P5・河水 — HYD — **E−2，與 P4 同根，折半計 (−0.5)** / **E−2, same root as P4, discounted 50% (−0.5)**
-- `SHJ-02-3-008`：「河水出焉，而南流注于無逹」。
+- `SHJ-02-3-008`：「河水出焉，而南流東注于無達」（依見證本 / per the witnesses）。
 - `SHJ-02-3-013`（積石之山，崑崙以西約 1,580 里 / about 1,580 里 west of Kunlun）：「其下有石門，河水冒以西流」。
 - `SHJ-02-3-003`（不周之山）：「東望泑澤，河水所潛也」。
 
@@ -114,7 +116,7 @@ Full table: [chain-fit-giza.md](chain-fit-giza.md) (里 300–500 m, 4,000 Monte
 | 槐江之山 #7 | 31.0°N 32.3°E（尼羅河三角洲東北 / NE Nile delta） | 「南望昆侖」「西望大澤」/ "looks south to Kunlun; west to a great marsh" | 西面的三角洲湖沼 ✓；但「南望」約 150 km 外的吉薩不可能看見 ~ / delta lagoons to the west ✓; but Giza is ~150 km away, too far to see ~ |
 | 樂遊之山 #9 → 翼望之山 #22 | 沿 30°N 向西，從 29.6°E 到 14.4°E（利比亞沙漠）/ due west along 30°N, 29.6°E to 14.4°E (Libyan Desert) | 至少 7 條河流或水體：桃水→稷澤、洵水→黑水、積石石門的河水、濁浴之水→蕃澤（其中多文貝）、英水→湯谷…… / at least 7 rivers or water bodies | 今天是極端乾旱的沙漠，沒有常年河 ✗。綠色撒哈拉時期（約 5,500 年前以前）有河湖，但那要求文本或其來源有那麼古老，需要額外論證（規格 §7.8）/ hyperarid desert today with no perennial rivers ✗. The Green Sahara (before ~5,500 years ago) had rivers and lakes, but that would require the text or its source to be that old, which needs separate argument (spec §7.8) |
 
-### 4.9 P9・文鰩魚 — BIO — **E−1 (−0.3)**
+### 4.9 P9・文鰩魚 — BIO — **E0 (0)**（r1：E−1）
 
 **分類群候選 / Candidate taxa**（規格 §5）：
 
@@ -130,7 +132,9 @@ Full table: [chain-fit-giza.md](chain-fit-giza.md) (里 300–500 m, 4,000 Monte
 
 - 飛魚科是最佳候選，但飛魚分佈於全球各溫暖海域，包括地中海、紅海、印度洋和太平洋，所以**不能區分地點**（E0）。/ Exocoetidae is the best candidate, but flying fish live in every warm sea, so this **does not discriminate location** (E0).
 - **棲地矛盾**：文本說泰器之山「是多文鰩魚」，而當地的觀水是向西流入流沙的溪流。海洋魚類不可能在這裡生活。這可能是 X6 傳聞插入，對任何框架都成立，所以不計入 H。/ **Habitat conflict**: the text puts many 文鰩魚 at 泰器之山, whose stream flows into desert sand, where no marine fish could live. Possibly an X6 hearsay insertion; this holds under any frame, so it is not charged to H.
-- **路線**：在 H 的框架下，西海是地中海（位於泰器之北），東海應是紅海或亞喀巴灣。兩者之間在 1869 年蘇伊士運河通航之前沒有海路，古代的尼羅河至紅海運河是淡水運河，所以這條路線不可行 → **E−1**。原始假說中的「大西洋洄游太平洋」在生物學上沒有依據：沒有任何飛魚種群在大西洋和太平洋之間洄游。而且這與 H 自己「西海＝地中海」的設定自相矛盾。/ **Route**: in H's frame the West Sea is the Mediterranean (north of 泰器) and the East Sea would be the Red Sea or Gulf of Aqaba. There was no sea route between them before the Suez Canal (1869), and the ancient Nile–Red Sea canal carried fresh water, so the route is infeasible → **E−1**. The original claim "migrates from the Atlantic to the Pacific" has no biological basis: no flying-fish population migrates between those oceans. It also contradicts H's own "West Sea = Mediterranean".
+- **分佈（r2，依見證本讀法）/ Range (r2, witness reading)**：早期見證本作「常行西海，遊於東海」，意思是此魚在西海、東海都有，不一定是從一海遷往另一海。在 H 的框架下，地中海（西海）與紅海或亞喀巴灣（東海）都有飛魚 `needs-citation`，因此相容；但任何兩側都有溫暖海域的框架同樣成立，所以只能記 **E0**。/ The early witnesses say the fish ranges in the West Sea and swims in the East Sea; no migration from one to the other is required. In H's frame both the Mediterranean and the Red Sea/Gulf of Aqaba have flying fish (`needs-citation`), so it is compatible; but so is any frame with warm seas on both sides, hence **E0**.
+- **r1 的論證（已撤回）/ r1 argument (withdrawn)**：r1 依底本「常從西海遊于東海」，把它讀成一條從西海到東海的遷徙路線，並因為蘇伊士運河開通（1869）前兩海不通而記 E−1。見證本不支持這種讀法，故撤回。/ r1 read the base's 「從…遊于」 as a West→East migration route and scored E−1 because the two seas were unconnected before 1869. The witnesses do not support that reading, so it is withdrawn.
+- **提出者的附帶主張 / The proposer's side claim**：「大西洋洄游太平洋」仍然沒有生物學依據：沒有任何飛魚種群在兩大洋之間洄游；而且它與 H 自己「西海＝地中海」的設定矛盾。這一點不計分，因為它不是文本的內容。/ "Migrates from the Atlantic to the Pacific" still has no biological basis (no flying-fish population does this) and contradicts H's own "West Sea = Mediterranean". Not scored, since it is not in the text.
 
 ### 4.10 其他 / Other — E0
 - 「赤水之後，黑水之前」：在三種前／後慣例下（規格 §4）都無法區分，而且它依賴已經被否定的 P3 和 P4。/ Non-discriminating under all three front/back conventions, and it depends on P3 and P4, which have already failed.
@@ -144,9 +148,9 @@ Full table: [chain-fit-giza.md](chain-fit-giza.md) (里 300–500 m, 4,000 Monte
 | TER | P2 +0.15, P7 −0.3, P8 −1.0 | −1.15 |
 | HYD | P3 −1.0, P4 −1.0, P5 −0.5 | −2.50 |
 | ARC | P6 | +0.30 |
-| BIO | P9 | −0.30 |
+| BIO | P9 | 0（r1：−0.30）|
 | 校改 / Emendations | 無 / none | 0 |
-| **合計 / Total** | | **−3.50** |
+| **合計 / Total** | | **−3.20**（r1：−3.50）|
 
 依框架 §6，總值 < −2 → **R（否定）**。/ Per framework §6, total < −2 → **R (Refuted)**.
 
@@ -157,10 +161,10 @@ Full table: [chain-fit-giza.md](chain-fit-giza.md) (里 300–500 m, 4,000 Monte
 3. **基準率 / Base rate**：P6 已用全書頻率校正；P2「流沙」已確認是通名。/ P6 corrected by corpus frequency; P2 流沙 confirmed as a generic term.
 4. **校改 / Emendations**：未使用任何校改。如果要把赤水改讀為海，需要 T5（−1.0），結果不變。/ None used; reading 赤水 as a sea would cost T5 (−1.0) and change nothing.
 5. **敏感度 / Sensitivity**：
-   - 移除最強的負向證據 P3 → −2.50，仍為 R。/ Remove the strongest negative (P3) → −2.50, still R.
-   - 把 HYD 三項視為完全相關、只計一次 −1.0 → −2.00，落在 R 與 L0 的邊界。/ Treat the three HYD items as fully correlated (one −1.0) → −2.00, on the R/L0 boundary.
-   - 把 P8 排除（假設西次三經另有來源）→ −2.50，仍為 R。/ Exclude P8 (assume a separate source for 西次三經) → −2.50, still R.
-   - 結論在合理的參數範圍內穩定，最樂觀的情況是 L0。/ The verdict is stable across reasonable parameters; the most favourable case is L0.
+   - 移除最強的負向證據 P3 → −2.20，仍為 R。/ Remove the strongest negative (P3) → −2.20, still R.
+   - 把 HYD 三項視為完全相關、只計一次 −1.0 → **−1.70，降為 L0**。/ Treat the three HYD items as fully correlated (one −1.0) → **−1.70, drops to L0**.
+   - 把 P8 排除（假設西次三經另有來源）→ −2.20，仍為 R。/ Exclude P8 (assume a separate source for 西次三經) → −2.20, still R.
+   - 在預設規則下為 R；只有在最寬鬆的相關性假設下才升為 L0。任何情況下都沒有正向支持（總值始終 < 0）。/ R under the default rules; L0 only under the most lenient correlation assumption. In no case is there net support (the total stays < 0).
 
 ## 7. 裁決 / Verdict
 
@@ -173,7 +177,7 @@ Full table: [chain-fit-giza.md](chain-fit-giza.md) (里 300–500 m, 4,000 Monte
 | # | 觀察 / Observation | 條目 / Entry | 用途 / Use |
 |---|---|---|---|
 | O-1 | 巨大的人面虎形守衛「東嚮立」於崑崙上 / a huge human-faced tiger-like guardian "stands facing east" on Kunlun | `SHJ-11-1-017` | 圖本假說（X5）或紀念建築的指紋 / map-source hypothesis (X5) or monument fingerprint |
-| O-2 | 似飛魚的海洋魚「從西海遊于東海」，說明敘述者知道東西兩側都有溫暖海域。**純本地框架也必須解釋這一點**，因為一個「西方的海」並不明顯存在 / a flying-fish-like marine fish "swims from the West Sea to the East Sea": the narrator knew warm seas on both sides. **A purely local frame must explain this too**, since an obvious "western sea" is not evident there | `SHJ-02-3-006` | 盲候選生成指紋：兩側都有溫暖海域、中間有可通行海路的陸塊 / blind candidate fingerprint: a landmass with warm seas on both sides and a passable sea route between them |
+| O-2 | 似飛魚的海洋魚「常行西海，遊於東海」，說明敘述者知道東西兩側都有這種魚的溫暖海域。**純本地框架也必須解釋這一點**，因為一個「西方的海」並不明顯存在 / a flying-fish-like marine fish "ranges in the West Sea, swims in the East Sea": the narrator knew warm seas with this fish on both sides. **A purely local frame must explain this too**, since an obvious "western sea" is not evident there | `SHJ-02-3-006` | 盲候選生成指紋：兩側都有溫暖海域的陸塊 / blind candidate fingerprint: a landmass with warm seas on both sides |
 | O-3 | 「炎火之山，投物輒然」 | `SHJ-16-1-037` | 指紋：天然氣長明火或活火山帶 / fingerprint: perpetual gas fires or an active volcanic belt |
 | O-4 | 河水：從崑崙發源，向南流 → 在積石穿石門向西流 → 在泑澤伏流 / rises at Kunlun, flows south → west through a stone gate at 積石 → sinks at 泑澤 | `SHJ-02-3-008`, `-013`, `-003` | 指紋：有峽谷段並最終注入內流盆地的河流 / fingerprint: a river with a gorge reach that ends in an endorheic basin |
 

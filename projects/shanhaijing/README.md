@@ -23,7 +23,9 @@
 - ✅ 山經抽取：447 個站點、26 個篇段總數；8 段在 ±2% 內自洽（[F-0002](findings/F-0002-mountain-itinerary-consistency.md)）/ Mountain-Classic extraction: 447 stations, 26 section totals; 8 sections consistent within ±2%
 - ✅ 發現通行本含現代移段（[F-0001](findings/F-0001-base-text-modern-relocations.md)）/ found modern relocations in the base text
 - ✅ [H-0001](hypotheses/H-0001/dossier.md)「崑崙在埃及」：**R（就目前表述而言否定）**，保留 4 項任何框架都必須解釋的觀察 / "Kunlun in Egypt": **R (refuted as formulated)**, with 4 retained observations every frame must explain
-- ⬜ 下一步：異文分類（T-102）、明成化本工作文本（T-004）、26 段相對重建（T-402）、盲候選生成（T-610、T-611）/ next steps
+- ✅ 明成化本為序的工作文本（T-004）；8 個移段塊登記為 X3-001–008（T-104）/ Chenghua-order working text; 8 relocation blocks registered as X3-001–008
+- ⏳ 異文分類首輪：1,604 / 2,021 筆自動分類，417 筆待審（T-102）/ variant classification first pass: 1,604 of 2,021 auto-classified, 417 to review
+- ⬜ 下一步：異文人工審查（T-102）、以見證本數字重抽里程（T-105）、26 段相對重建（T-402）、盲候選生成（T-610、T-611）/ next steps
 
 ## 重現 / Reproduce
 
@@ -37,6 +39,10 @@ python3 -I tools/shj/collate.py
 
 ```bash
 python3 -I tools/shj/extract_routes.py
+```
+
+```bash
+python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.py
 ```
 
 ```bash
