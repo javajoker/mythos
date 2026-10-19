@@ -14,7 +14,8 @@
 | [docs/data-model.md](docs/data-model.md) | 資料結構 / data schemas |
 | [docs/source-assessment.md](docs/source-assessment.md) | 三個見證本的評估與已知問題 / the three witnesses and known issues |
 | [hypotheses/](hypotheses/README.md) | 假說登記冊與卷宗 / hypothesis registry and dossiers |
-| [reports/draft-v0.1.md](reports/draft-v0.1.md) | **初稿 v0.2 綜合解讀（含方法 G）/ draft v0.2 synthesis (incl. Method G)** |
+| [reports/draft-v1.0-global.md](reports/draft-v1.0-global.md) | **完整初稿 v1.0：全書全球對照（方法 G）/ full draft v1.0: whole-book global mapping** |
+| [reports/draft-v0.1.md](reports/draft-v0.1.md) | 初稿 v0.2（方法 A 為主，含方法 G 的崑崙）/ draft v0.2 (Method A, plus Method G Kunlun) |
 | [findings/](findings/) | 已發佈的發現 / published findings |
 | [data/derived/](data/derived/) | 衍生資料（可由腳本重新產生）/ derived data (regenerable) |
 
@@ -29,7 +30,8 @@
 - ⏳ 異文分類首輪：1,604 / 2,021 筆自動分類，417 筆待審（T-102）/ variant classification first pass: 1,604 of 2,021 auto-classified, 417 to review
 - ✅ **初稿 v0.1 真實世界解讀 / Draft v0.1 real-world interpretation → [reports/draft-v0.1.md](reports/draft-v0.1.md)**：山經核心＝黃河中下游與漢水、岷江（H-0002，L2）；崑崙＝青海湖一帶（H-0003，L1）；海內諸經＝秦至西漢知識範圍（H-0004，L2）；大荒經＝地平線曆法框架（H-0005，L1）
 - ✅ **方法 G（全球、描述優先）/ Method G**：動物地圖（39 個描述比對到真實動物）；[H-0006](hypotheses/H-0006/dossier.md) 崑崙：單一地點 G-弱至中（安那托利亞／吉薩／墨西哥），尼羅河複合（吉薩＋月亮山）為候選 / animal map; Kunlun: single place weak–moderate, Nile composite a candidate
-- ⬜ 下一步 / next：T-660–T-663（方法 G）、T-105、T-620、T-630、T-640、T-650–652、T-703（見 [tasks](docs/tasks.md)）
+- ✅ **完整初稿 v1.0（全球對照）/ full draft v1.0**：39 篇＋9 個具名地點 對 31 個全球地區；18 篇達 G-強／中，全部在亞洲（華北華中 11、印度 5、東南亞 1、日本 1）；見 [F-0004](findings/F-0004-global-map-asia-centred.md) / all 18 strong/moderate sections in Asia
+- ⬜ 下一步 / next：T-660–T-665、T-105、T-620、T-630、T-640、T-650–652、T-703（見 [tasks](docs/tasks.md)）
 
 ## 重現 / Reproduce
 
@@ -50,7 +52,7 @@ python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.
 ```
 
 ```bash
-python3 -I tools/shj/creatures.py && python3 -I tools/shj/animal_map.py
+python3 -I tools/shj/creatures.py && python3 -I tools/shj/animal_map.py && python3 -I tools/shj/region_match.py
 ```
 
 ```bash

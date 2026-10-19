@@ -78,7 +78,11 @@
 | T-660 | N5：補齊各大水系候選（每系 ≥ 4 處，含古代紀念建築），重跑 H-0006 / balance the base and rerun | `geo-triangulator` | ⬜ |
 | T-661 | N6：流沙、赤水、黑水、弱水、西王母之山分別做方法 G 比對 / match the neighbouring names separately | `shj-lead` | ⬜ |
 | T-662 | N7：開明諸段與西王母描述的動物投票 / animal vote for the 開明 block and 西王母 | `naturalist` | ⬜ |
-| T-663 | 擴充動物庫（目前偏重南亞特有種），並補海經、大荒經的生物描述句式 / extend the animal base and the Sea/Wilderness creature formats | `naturalist` | ⬜ |
+| T-663 | 擴充動物庫，並補海經、大荒經的生物描述句式 / extend the animal base and the Sea/Wilderness creature formats | `naturalist` | ⏳（已加 22 種、海經句式 / 22 species and Sea formats added） |
+| T-G06 | 全書全球對照：39 篇＋9 個具名地點 對 31 個地區（地區性質庫、`region_match.py`、全球圖、人群表）/ whole-book global map | `geo-triangulator` | ✅ |
+| T-G07 | 完整初稿 v1.0（全球對照）/ full draft v1.0 (global mapping) → `reports/draft-v1.0-global.md` | `shj-lead` | ✅ |
+| T-664 | 由第二位分析者獨立填寫地區性質，量化分析者偏差 / independent second annotation of region properties | `naturalist`, `geo-triangulator` | ⬜ |
+| T-665 | 「四角獸」專項比對（四角羚、多角家羊等），西方延伸的結論依賴它 / focused test of the four-horned beast | `naturalist` | ⬜ |
 | T-703 | 引入地形、水系、GBIF、古氣候資料適配器 / DEM, river, GBIF, palaeoclimate adapters | `tools/` | ⬜ |
 | T-801 | H-0001b 登記與檢驗 / register and test H-0001b | `shj-lead` | ⬜ |
 
