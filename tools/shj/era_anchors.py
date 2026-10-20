@@ -2,7 +2,9 @@
 
 Input: projects/shanhaijing/data/derived/era/anchors.jsonl (one record per section: candidates with dimension
 scores, evidence and reasons), frame.jsonl (routes in li), data/era/regions.jsonl and coastlines-present.json.
-Output: data/derived/era/anchors.md and anchor-map.svg. Each lead candidate's route is drawn from its start point at
+Also renders the benchmark points (benchmarks.jsonl, prompt benchmark-1.0) as benchmarks.md and a world map with the
+Americas, the Bering passage, the latitude belt and the chained-belt West route (world-map-era.svg).
+Output: data/derived/era/anchors.md, anchor-map.svg, benchmarks.md, world-map-era.svg. Each lead candidate's route is drawn from its start point at
 its li scale; rivals are listed, and far rivals of 西次三經 are marked with the scale they would need.
 """
 import json
@@ -124,7 +126,102 @@ def main():
              '<text x="1010" y="898" fill="#555">圓點 = 各篇起點。</text></g>')
     S.append("</svg>")
     (ERA / "anchor-map.svg").write_text("\n".join(S))
+    benchmarks(coast, frame)
     print(f"{len(anchors)} sections", file=sys.stderr)
+
+
+SRC_ZH = {"initiator": "初始者提議", "belt": "緯度帶模型", "local": "篇段錨點", "rival": "對立候選", "association": "聯想"}
+SRC_COL = {"initiator": "#c0392b", "belt": "#7a4cb5", "local": "#2d8a4a", "rival": "#b07d12", "association": "#2d6cb5"}
+
+
+def benchmarks(coast, frame):
+    B = jl(ERA / "benchmarks.jsonl")
+    L = ["# 基準點 / Benchmark points", "",
+         "> 判斷：大模型推理（`benchmark-1.0`），**未遮蔽、暫定**。每個基準點列出書中所有相關段落、三種來源的候選（初始者提議、緯度帶模型、篇段錨點），"
+         "逐項評分（描述 1.0、關係與幾何 1.0、比例尺 0.4、聯想 0.3），並列出可以否定它的檢驗。因為距離只是參考，另列不含比例尺的分數。",
+         "> Unmasked, provisional. Scores with and without the scale dimension.", "",
+         "| 基準點 | 領先 / lead | 總分 | 不含比例尺的排序 / ranking without scale |", "|---|---|---|---|"]
+    for b in B:
+        ns = sorted(b["candidates"], key=lambda c: -(c["total"] - 0.4 * c["dims"]["scale"]["score"]
+                                                   + (0.5 if c["dims"]["scale"]["contradiction"] else 0)))
+        lead = b["candidates"][0]
+        L.append(f"| {b['entity']} | {lead['label']}（{SRC_ZH.get(lead['source'], lead['source'])}）| {lead['total']} | "
+                 + "；".join(f"{c['label']}" for c in ns[:3]) + " |")
+    for b in B:
+        L += ["", f"## {b['id']}　{b['entity']}", "", "**書中段落 / contexts**", ""]
+        L += [f"- `{e}`「{q}」" for e, q in b["contexts"]]
+        L += ["", "| 候選 | 來源 | 總分 | 描述 | 關係與幾何 | 比例尺 | 聯想 |", "|---|---|---|---|---|---|---|"]
+        for c in b["candidates"]:
+            cell = lambda k: f"{c['dims'][k]['score']}{'（矛盾）' if c['dims'][k]['contradiction'] else ''}：{c['dims'][k]['reason']}"
+            L.append(f"| {c['label']} | {SRC_ZH.get(c['source'], c['source'])} | {c['total']} | {cell('description')} | "
+                     f"{cell('relations')} | {cell('scale')} | {cell('association')} |")
+        if b["falsifiers"]:
+            L += ["", "**可否定的檢驗 / falsifiers**", ""] + [f"- {x}" for x in b["falsifiers"]]
+        if b.get("notes"):
+            L += ["", f"註：{b['notes']}"]
+    (ERA / "benchmarks.md").write_text("\n".join(L) + "\n")
+    # world map with the Americas
+    W, H = 1600, 1500
+    lat0, lat1, lon0, lon1 = 82, -45, -180, 180
+    k = W / 360
+    f = lambda la, lo: ((lo - lon0) * k, 70 + (lat0 - la) * k)  # noqa: E731
+    poly = lambda pts: "M" + " L".join(f"{f(a, b)[0]:.1f},{f(a, b)[1]:.1f}" for a, b in pts) + " Z"  # noqa: E731
+    S = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="sans-serif" font-size="11">',
+         f'<rect width="{W}" height="{H}" fill="#fbfaf6"/>',
+         '<text x="12" y="24" font-size="17" font-weight="bold">基準點與世界（前 4000–前 2000 年，暫定）/ Benchmark points and the world (provisional)</text>',
+         '<text x="12" y="44" fill="#555">綠：篇段錨點　紫：緯度帶模型（虛線為西山經串接路線，0.55 公里／里）　紅：初始者提議　黃：其他對立候選　藍：聯想。淡色帶：北緯 30–40°。'
+         '海岸線為今日簡化輪廓；白令在窗口內為海峽（皮艇、海冰可通）。</text>',
+         f'<rect x="0" y="{70:.0f}" width="{W}" height="{(lat0 - lat1) * k:.0f}" fill="#dce8f1"/>']
+    y30, y40 = f(30, 0)[1], f(40, 0)[1]
+    map_h = (lat0 - lat1) * k
+    S.append(f'<clipPath id="mapclip"><rect x="0" y="70" width="{W}" height="{map_h:.0f}"/></clipPath><g clip-path="url(#mapclip)">')
+    S.append('<g fill="#f3efe4" stroke="#a89f88" stroke-width="0.5">' + "".join(f'<path d="{poly(v)}"/>' for v in coast["land"].values()) + "</g>")
+    S.append('<g fill="#dce8f1" stroke="#a89f88" stroke-width="0.4">' + "".join(f'<path d="{poly(v)}"/>' for v in coast["water"].values()) + "</g></g>")
+    S.append(f'<rect x="0" y="{y40:.0f}" width="{W}" height="{y30 - y40:.0f}" fill="#d4a017" opacity="0.08"/>')
+    # chained belt route (西山經之首 → 西次二經 → 西次三經) at 0.55 km/li
+    lat, lon, pts = 34.5, 110.1, []
+    for name in ("西山經之首", "西次二經", "西次三經"):
+        x0 = y0 = 0
+        for x, y in frame[name]:
+            dx, dy = (x - x0) * 0.55, (y - y0) * 0.55
+            x0, y0 = x, y
+            lat += dy / 111
+            lon += dx / (111 * math.cos(math.radians(lat)))
+            pts.append((lat, lon))
+    S.append('<path d="M' + " L".join(f"{f(a, b)[0]:.1f},{f(a, b)[1]:.1f}" for a, b in pts) + '" fill="none" stroke="#7a4cb5" stroke-width="2" stroke-dasharray="6,4"><title>緯度帶串接路線</title></path>')
+    # Bering passage
+    (bx1, by1), (bx2, by2) = f(66.2, 170.0), f(65.6, 179.9)
+    (cx1, cy1), (cx2, cy2) = f(65.6, -180), f(65.0, -165.0)
+    S.append(f'<path d="M{bx1:.0f},{by1:.0f} L{bx2:.0f},{by2:.0f} M{cx1:.0f},{cy1:.0f} L{cx2:.0f},{cy2:.0f}" stroke="#2d6cb5" stroke-width="2" stroke-dasharray="3,3"/>')
+    # Americas sites in the window
+    for la, lo, t in [(-10.9, -77.5, "卡拉爾 Caral（前 2600 起）"), (-2.2, -80.6, "瓦爾迪維亞 Valdivia"), (66.5, -162, "北極小工具傳統（約前 2500）"),
+                      (57.5, -153.5, "海灣傳統 Ocean Bay（科迪亞克）"), (32.5, -91.0, "北美古代期（土丘）")]:
+        x, y = f(la, lo)
+        S.append(f'<rect x="{x - 3:.0f}" y="{y - 3:.0f}" width="6" height="6" fill="#555"/><text x="{x + 6:.0f}" y="{y + 4:.0f}" font-size="9" fill="#333">{t}</text>')
+    ox, oy = f(*ORIGIN)
+    S.append(f'<text x="{ox - 7:.0f}" y="{oy + 6:.0f}" font-size="16" fill="#d4a017">★</text>')
+    n, legend = 0, []
+    for b in B:
+        for c in b["candidates"]:
+            if not c.get("pt"):
+                continue
+            n += 1
+            x, y = f(*c["pt"])
+            col = SRC_COL.get(c["source"], "#555")
+            r = 5 if c["cand"] == b["lead"] else 3.5
+            S.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{col}" opacity="0.85"><title>{b["entity"]}：{c["label"]}（{c["total"]}）</title></circle>'
+                     f'<text x="{x + 5:.1f}" y="{y - 3:.1f}" font-size="9" font-weight="bold" fill="{col}">{n}</text>')
+            legend.append((n, col, f'{b["entity"].split("（")[0]}：{c["label"]}（{SRC_ZH.get(c["source"], c["source"])}，{c["total"]}）'))
+    y_l = 70 + (lat0 - lat1) * k + 24
+    per_col = (len(legend) + 2) // 3
+    for i, (num, col, text) in enumerate(legend):
+        cx, cy = 12 + (i // per_col) * 535, y_l + (i % per_col) * 16
+        S.append(f'<text x="{cx}" y="{cy}" font-size="10" fill="{col}"><tspan font-weight="bold">{num}</tspan>　{text}</text>')
+    S.append("</svg>")
+    total_h = int(y_l + per_col * 16 + 20)
+    S[0] = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {total_h}" font-family="sans-serif" font-size="11">'
+    S[1] = f'<rect width="{W}" height="{total_h}" fill="#fbfaf6"/>'
+    (ERA / "world-map-era.svg").write_text("\n".join(S))
 
 
 if __name__ == "__main__":

@@ -46,8 +46,8 @@
 
 ### 3.1 解讀規則 / Reading rules
 
-R1–R7 由項目發起人於 2026-10-19 採用，R8–R11 於 2026-10-20 加入；全部對所有候選一體適用，每一種寬容都付一點代價。
-R1–R7 adopted 2026-10-19, R8–R11 added 2026-10-20; all apply to every candidate, each at a small cost.
+R1–R7 由項目發起人於 2026-10-19 採用，R8–R12 於 2026-10-20 加入；全部對所有候選一體適用，每一種寬容都付一點代價。
+R1–R7 adopted 2026-10-19, R8–R12 added 2026-10-20; all apply to every candidate, each at a small cost.
 
 | # | 規則 / Rule |
 |---|---|
@@ -62,6 +62,7 @@ R1–R7 adopted 2026-10-19, R8–R11 added 2026-10-20; all apply to every candid
 | R9 | **觀察者原點**：方位與里程從編者所在的原點理解（山海經：中原）。/ Observer origin. |
 | R10 | **名稱語義**：名稱中的顏色、材質、形狀、狀態詞作為描述特徵，權重低於原文描述，並標明「來自名稱」。/ Name semantics, weighted below the description and flagged. |
 | R11 | **傳承錯誤**：缺失、錯字、數字訛誤、錯簡（見 P6）。/ Transmission errors. |
+| R12 | **聯想**：描述可以經由自然現象的聯想吻合（例：「十日」↔ 寒冷空氣中的幻日、高緯度夏季不落的太陽；「視為晝，瞑為夜，吹為冬，呼為夏」↔ 極晝與極夜；「赤色」↔ 紅色極光）。聯想單獨計分、權重最低（0.3）、每次標明「聯想」，且對所有候選一體適用。/ Association through natural phenomena, separately scored at the lowest weight, flagged, symmetric. |
 
 ## 4. 知識圖譜 / Knowledge graph
 節點為實體（山、水、地、國族、生物、植物、礦物、神人），邊為有類型的關係；每條附條目編號與原句；名稱的語義特徵作為節點的「名稱特徵」欄位。JSONL 與 GraphML。/ Nodes, typed edges, entry IDs, name features as a separate field.

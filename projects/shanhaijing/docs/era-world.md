@@ -68,6 +68,17 @@
 | 北極 / Arctic | 弗蘭格爾島猛獁象（至約前 2000 年）/ Wrangel Island mammoths |
 | 窗口前已滅絕（不作候選）/ extinct before the window | 洞獅、披毛犀、大角鹿 / cave lion, woolly rhino, Irish elk |
 
+## 5b. 美洲與白令通道 / The Americas and the Bering passage
+
+- **白令**：陸橋約前 9000 年已被海水淹沒；窗口內是海峽（最窄約 85 公里，中有島嶼）。可以乘皮艇、或在冬季走海冰通過；古愛斯基摩人的北極小工具傳統約前 2500 年由楚科奇進入阿拉斯加。窗口內**沒有陸路**，但有通道。/ Submerged c. 9000 BCE; in the window a strait crossable by skin boat or winter sea ice; Paleo-Eskimo crossing c. 2500 BCE.
+- **板塊漂移**：六千年約 0.1–0.6 公里，在地圖上不可見，不納入計算；影響通道與海岸的是海平面。/ Plate drift is negligible; sea level matters.
+- **美洲的同時期文化**：卡拉爾（祕魯，約前 2600 起，平臺金字塔）、瓦爾迪維亞（厄瓜多，陶器）、北美古代期（土丘、漁獵）、西北海岸與科迪亞克的海灣傳統、北極小工具傳統。/ Contemporary American cultures.
+- **高緯度現象**（供聯想，R12）：極晝與極夜、幻日（多個太陽）、極光（紅、綠）、冬季海冰。/ High-latitude phenomena for association.
+
+## 5c. 緯度帶 / The latitude belt
+
+項目發起人提出：西、中、東三方是大致同緯度（北緯約 30–40°）的連續大陸帶。由此得出的假說（緯度帶模型）：西山經諸篇首尾相接、每里約 0.55–0.65 公里時，西次二經止於印度河流域、西次三經橫越伊朗與兩河流域、止於地中海東岸。這是待檢驗的組態，不是前提；與文本內部的比例尺（每里 0.2–0.3 公里）及各篇開頭都接在河、渭、洛水系的現象衝突，須在檢驗中處理。見 `data/derived/era/benchmarks.md`。/ The initiator's latitude-belt model is a configuration to test, not a premise.
+
 ## 6. 觀察者原點 / The observer's origin
 
 中原（約北緯 34.7°、東經 113.6°，今鄭州、洛陽一帶）。書中方位從此理解；里數為比例尺未知的軟約束，比例尺由求解決定（R9、P12）。/ The Central Plains near 34.7°N, 113.6°E; bearings from here; li are soft constraints of unknown scale.

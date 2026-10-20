@@ -19,6 +19,7 @@
 | 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `kg_extract.py`（`name_features` 待加）| `kg/nodes.jsonl`, `kg/edges.jsonl` … | 已有，待擴充 / done, to extend |
 | 3 觀察框架 / observer frame | `era_frame.py` | `era/frame.jsonl`、`profiles.jsonl`、`profiles.md`（各篇路線與概況）| 已有 / done |
 | 3b 篇段錨點 / section anchors | 大模型判斷（`anchor-1.0`）→ `era_anchors.py` | `era/anchors.jsonl`、`anchors.md`、`anchor-map.svg` | 暫定 / provisional |
+| 3c 基準點 / benchmark points | 大模型判斷（`benchmark-1.0`）→ `era_anchors.py` | `era/benchmarks.jsonl`、`benchmarks.md`、`world-map-era.svg` | 暫定 / provisional |
 | 4 時代世界庫 / era world base | `civilization-scout`、`palaeo-geographer`（代理）→ `data/era/` | 遺址、造物、時代地理、時代動物的屬性卡 | 種子已有，待轉換 / seeds, to convert |
 | 5 候選生成 / candidates | `semantic-matcher`（代理）＋ `era_tasks.py`（產生遮蔽後的判斷任務）| `era/candidates.jsonl` | 待建 / to build |
 | 6 語義評分 / semantic judgments | `semantic-matcher`（代理）| `era/judgments.jsonl`（逐項分數、證據、理由、樣本）| 待做 / to do |
@@ -83,6 +84,9 @@
 
 ### 4.1 篇段錨點 / Section anchors
 在逐實體評分之前，先為每一篇判斷大致的位置（錨點）：候選地帶（含遠方對立候選）、起點與比例尺，依方位（斜向容許 ±67.5° 偏移）、路線與比例尺、地形外觀（山可為沙丘、貝殼堤、方山；水可為湖、沼澤、海灣）、水系結構、物產、動物逐項評分。錨點作為後續逐實體判斷的先驗與檢查，不是結論。/ Section-level anchors judged before entity-level scoring; a prior and a check, not a conclusion.
+
+### 4.2 基準點 / Benchmark points
+重要的書中實體（西海、赤水、黑水、流沙、崑崙之丘、炎火之山、泑澤、湯谷與十日、燭龍、大壑、白令通道）各自列出：書中所有相關段落、三種來源的候選（項目發起人提議、緯度帶模型、篇段錨點）與對立候選，逐項評分（描述 1.0、關係與幾何 1.0、比例尺 0.4、聯想 0.3），並列出可以否定它的檢驗。因為距離只是參考，報告同時列出不含比例尺的排序。/ Benchmarks with all contexts, three sources of candidates, scores with and without scale, and falsifiers.
 
 ## 5. 時代世界庫與候選 / Era world base and candidates（步驟 4–5）
 

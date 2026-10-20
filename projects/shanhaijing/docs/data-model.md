@@ -70,7 +70,7 @@
 ```
 - 每個實體與候選至少 3 個樣本；`input_hash` 不變則不重判。/ At least three samples; re-judged only when the input changes.
 - `relation-judgments.jsonl`：`{"edge": …, "a_cand": …, "b_cand": …, "score": 0–1, "reason": …, "sample": n}`。
-- `candidates.jsonl`：大模型提出的候選與理由；`frame.jsonl`：每站的累計位置（東 x、北 y，單位里）；`profiles.jsonl`：各篇的路線、地形、物產、水與生物；`anchors.jsonl`：篇段錨點的判斷（每篇的候選、起點、比例尺、逐維度分數、證據、理由、洩漏風險）。/ Proposed candidates; the observer frame.
+- `candidates.jsonl`：大模型提出的候選與理由；`frame.jsonl`：每站的累計位置（東 x、北 y，單位里）；`profiles.jsonl`：各篇的路線、地形、物產、水與生物；`anchors.jsonl`：篇段錨點的判斷（每篇的候選、起點、比例尺、逐維度分數、證據、理由、洩漏風險）；`benchmarks.jsonl`：基準點的判斷（實體、書中段落、各來源的候選與座標、描述／關係／比例尺／聯想的分數與理由、可否定的檢驗）。/ Proposed candidates; the observer frame.
 
 ## 5. 對應 / Mapping（`data/derived/era/mapping.jsonl`）
 ```json
