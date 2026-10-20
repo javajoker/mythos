@@ -34,7 +34,8 @@ Specs: `docs/research-framework.md`, `projects/shanhaijing/docs/methodology-spec
 python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.py && python3 -I tools/shj/extract_routes.py   # text layer
 python3 -I tools/shj/kg_extract.py      # knowledge graph + coverage audit
 python3 -I tools/shj/era_frame.py       # observer frame: section routes and profiles
-python3 -I tools/shj/era_anchors.py     # report and map from the section-anchor judgments (era/anchors.jsonl)
+python3 -I tools/shj/era_anchors.py     # reports and maps from the anchor and benchmark judgments (era/anchors.jsonl, benchmarks.jsonl)
+python3 -I tools/shj/era_screen_americas.py   # screen creatures and passages for the Americas
 python3 -I tools/shj/cn_numerals.py     # self-test
 ```
 Further era tools (`era_tasks`, `era_leakage`, `era_relations`, `era_solve`, `era_sensitivity`, `era_sections`, `era_deliver`) are built in the pilot (tasks T-V05–T-V11). Remove `tools/shj/__pycache__` before committing. Commit each finished task.

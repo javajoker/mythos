@@ -130,8 +130,10 @@ def main():
     print(f"{len(anchors)} sections", file=sys.stderr)
 
 
-SRC_ZH = {"initiator": "初始者提議", "belt": "緯度帶模型", "local": "篇段錨點", "rival": "對立候選", "association": "聯想"}
-SRC_COL = {"initiator": "#c0392b", "belt": "#7a4cb5", "local": "#2d8a4a", "rival": "#b07d12", "association": "#2d6cb5"}
+SRC_ZH = {"initiator": "初始者提議", "belt": "緯度帶模型", "local": "篇段錨點", "rival": "對立候選", "association": "聯想",
+          "americas": "美洲候選", "calibration": "校準"}
+SRC_COL = {"initiator": "#c0392b", "belt": "#7a4cb5", "local": "#2d8a4a", "rival": "#b07d12", "association": "#2d6cb5",
+           "americas": "#d35400", "calibration": "#555"}
 
 
 def benchmarks(coast, frame):
@@ -169,7 +171,7 @@ def benchmarks(coast, frame):
     S = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" font-family="sans-serif" font-size="11">',
          f'<rect width="{W}" height="{H}" fill="#fbfaf6"/>',
          '<text x="12" y="24" font-size="17" font-weight="bold">基準點與世界（前 4000–前 2000 年，暫定）/ Benchmark points and the world (provisional)</text>',
-         '<text x="12" y="44" fill="#555">綠：篇段錨點　紫：緯度帶模型（虛線為西山經串接路線，0.55 公里／里）　紅：初始者提議　黃：其他對立候選　藍：聯想。淡色帶：北緯 30–40°。'
+         '<text x="12" y="44" fill="#555">綠：篇段錨點　紫：緯度帶模型（虛線為西山經串接路線，0.55 公里／里）　紅：初始者提議　橙：美洲候選　黃：其他對立候選　藍：聯想。淡色帶：北緯 30–40°，用來以相近緯度校準東西距離。'
          '海岸線為今日簡化輪廓；白令在窗口內為海峽（皮艇、海冰可通）。</text>',
          f'<rect x="0" y="{70:.0f}" width="{W}" height="{(lat0 - lat1) * k:.0f}" fill="#dce8f1"/>']
     y30, y40 = f(30, 0)[1], f(40, 0)[1]

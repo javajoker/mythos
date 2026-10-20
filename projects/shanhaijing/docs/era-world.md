@@ -75,9 +75,10 @@
 - **美洲的同時期文化**：卡拉爾（祕魯，約前 2600 起，平臺金字塔）、瓦爾迪維亞（厄瓜多，陶器）、北美古代期（土丘、漁獵）、西北海岸與科迪亞克的海灣傳統、北極小工具傳統。/ Contemporary American cultures.
 - **高緯度現象**（供聯想，R12）：極晝與極夜、幻日（多個太陽）、極光（紅、綠）、冬季海冰。/ High-latitude phenomena for association.
 
-## 5c. 緯度帶 / The latitude belt
+## 5c. 緯度校準 / Latitude calibration of east–west distances
 
-項目發起人提出：西、中、東三方是大致同緯度（北緯約 30–40°）的連續大陸帶。由此得出的假說（緯度帶模型）：西山經諸篇首尾相接、每里約 0.55–0.65 公里時，西次二經止於印度河流域、西次三經橫越伊朗與兩河流域、止於地中海東岸。這是待檢驗的組態，不是前提；與文本內部的比例尺（每里 0.2–0.3 公里）及各篇開頭都接在河、渭、洛水系的現象衝突，須在檢驗中處理。見 `data/derived/era/benchmarks.md`。/ The initiator's latitude-belt model is a configuration to test, not a premise.
+項目發起人說明：緯度只用來**校準書中的東西向距離**：在相近的緯度上，經度一度的長度相同（北緯 35° 約 91 公里、30° 約 96 公里、40° 約 85 公里），所以可以把書中東西向的里數換算成經度差，與候選地點比較。這不是「各篇首尾相接」的前提。各篇是否串接（緯度帶串接模型）是另一個待檢驗的組態；文本中各篇開頭都接在河、渭、洛水系，傾向不串接。見 `data/derived/era/benchmarks.md`。
+The initiator clarified: latitude only calibrates east–west distances (one degree of longitude is about 91 km at 35°N). Chaining the sections is a separate configuration to test.
 
 ## 6. 觀察者原點 / The observer's origin
 
