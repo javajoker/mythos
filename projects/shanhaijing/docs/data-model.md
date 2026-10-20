@@ -74,3 +74,30 @@
 ## 4. 帳簿 / Ledgers
 - `ledgers/variant-overrides.jsonl`：人工異文判定，永遠優先 / human variant decisions.
 - `ledgers/mapping-overrides.jsonl`（**尚未實作**，人工審查已取消）：人工對應判定，必須寫理由 / (**not implemented**; human review is cancelled) human mapping decisions with reasons.
+
+## 5. 時代語義版 / Era-semantic version（規格 v3，`draft-v4`）
+
+### 5.1 時代世界庫 / Era world base（`data/era/`，提交於計分之前 / committed before scoring）
+| 檔案 / File | 內容 / Content |
+|---|---|
+| `sites.jsonl` | 遺址、地景與造物卡：`id`, `kind`（`natural` 山、沙丘、方山…／`built` 神廟、塔廟、金字塔、城、墓塚、運河、造像）、`region`, `pt`, `from`, `to`（存在年代，負數為公元前）, `state`（`living`／`ruin`／`gone`）, `attributes`（外觀、尺度、材質、顏色、功能、朝向）, `source` |
+| `waters-era.jsonl` | 當時的水體：沿用 `waters.jsonl` 欄位，加 `from`, `to`, `colour`（泥沙、藻類）, `state_note`（例：波斯灣頂端在烏爾附近）|
+| `fauna-era.jsonl` | 當時的動物分佈（含已滅絕或已退出原分佈者）：沿用 `animals.jsonl`，加 `range_era`（窗口內的分佈）, `extinct_after` |
+| `cultures-era.jsonl` | 當時的人群與文化：`from`, `to`, 習俗、生業、外觀 |
+| `palaeo-coast.json` | 約前 2500 年的海岸線、河道與撒哈拉乾濕界線，只用於繪圖 / drawing only |
+
+### 5.2 判斷紀錄 / Judgment records（`data/derived/era/judgments.jsonl`）
+```json
+{"node": "WAT:赤", "cand": "water:red_sea", "sample": 1, "masked": true,
+ "input_hash": "…", "model": "claude-opus-5-5", "prompt_version": "sem-1.0",
+ "dims": {"colour": {"score": 0.7, "contradiction": false, "evidence": ["name:赤"], "attribute": "seasonal Trichodesmium blooms, red coastal rocks", "reason": "…"},
+          "shape":  {"score": 0.8, "contradiction": false, "evidence": ["SHJ-02-3-008:赤水出焉，東南流注于氾天之水"], "attribute": "NW–SE axis, opens to the Arabian Sea", "reason": "…"},
+          "date":   {"score": 1.0, "contradiction": false, "evidence": [], "attribute": "present throughout", "reason": "…"}},
+ "variant_reading": null, "leakage_probe": false}
+```
+- 每個實體與候選至少 3 個樣本；`input_hash` 不變則不重判。/ At least three samples; re-judged only when the input changes.
+- `relation-judgments.jsonl`：`{"edge": …, "a_cand": …, "b_cand": …, "score": 0–1, "reason": …, "sample": n}`。
+- `candidates.jsonl`：大模型提出的候選與理由；`frame.jsonl`：每站從原點的方位與累計里數。/ Proposed candidates; the observer frame.
+
+### 5.3 對應 / Mapping（`data/derived/era/mapping.jsonl`）
+沿用 §2.5，另加 / as §2.5 plus：`period`（候選的年代）、`dims_top`（主要吻合維度與證據）、`name_feature_used`、`judgment_sd`、`leakage`。

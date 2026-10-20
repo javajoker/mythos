@@ -14,6 +14,9 @@ description: Cross-validate real-world candidates through the relations of a kno
 ## 解讀規則 / Reading rules（framework §3.1）
 同一套寬容給所有候選，每一種寬容都要付一點代價：R1 水只是水體（類型不同小扣分）；R2 時間深度（古水體、遺跡，需資料來源，小扣分）；R3 山只是外觀（自然山、沙丘、方山、高大建築）；R4 外觀與效果（例：投物輒然 = 火或酷熱）；R5 方位慣例（前 = 東為主，前 = 南為對照）；R6 地圖讀法（出／流是地圖上的線，不一定是源頭與流向）；R7 觀察者替代（獅 → 虎）。/ The same leniency for every candidate, each at a small cost.
 
+## 時代語義版 / Era-semantic version（框架 v3）
+自身分數與需語義的關係分數改由 `semantic-correlation-matching` 的判斷紀錄計算（罕見度加權、矛盾有上限）；可計算的關係在**當時**的地理上計算；相鄰實體年代相差過大時扣分（R8）；可信度再乘以 (1 − 判斷標準差) 與洩漏折扣。/ Own and semantic relation scores come from judgment records; computable relations on period geography; date-gap penalties; confidence also discounted by judgment spread and leakage.
+
 ## 求解 / Solving
 1. 模擬退火（多條鏈、固定種子；一半提議由關係引導：例如「注入 X」就提議 X 的真實支流）。/ Simulated annealing, fixed seeds; half the proposals relation-guided.
 2. ICM 收尾（平手時保留現值）。/ ICM polish (ties keep the current value).

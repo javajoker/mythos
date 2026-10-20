@@ -27,6 +27,10 @@ The first object of study is the **Shanhaijing** 《山海經》 (*Classic of Mo
 
 Distances and bearings are kept only as a small-weight reference; the relations that matter most are the structural ones, such as which river flows into which.
 
+### 2.1 Next: era-semantic correspondence (framework v3)
+
+The initiator has set the next version: the Shanhaijing is read as a record accumulated between 4000 and 2000 BCE, from the Central Plains, using only the original text and tolerating copying errors. It is mapped onto the world of that period (its coasts, rivers, animals including extinct ones, civilisations and their works, with Sumer, Harappa and Egypt in focus and every contemporary as a rival) by masked, recorded LLM judgments of semantic correspondence, and solved jointly as before. Names keep their meaning (赤 = red) but are never matched to modern names.
+
 ## 3. Why now
 
 - **The texts are digitised**, often in several independent witnesses (for the Shanhaijing: the common Wikisource text, the 1470 Chenghua edition and the Siku Quanshu edition).

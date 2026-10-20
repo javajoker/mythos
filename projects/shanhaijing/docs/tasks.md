@@ -1,6 +1,6 @@
 # 山海經子項目任務 / Shanhaijing Sub-project Tasks
 
-> v2.0 ・ 2026-10-19 ・ 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo
+> v3.0 ・ 2026-10-20 ・ 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo
 > 方法：實體圖譜交叉驗證（[methodology-spec](methodology-spec.md)）。舊方法（方法 A 的 S0–S9 卷宗、方法 G 的地點比對）的任務已隨方法退役，記錄在 git 歷史中。/ Tasks of the retired methods are in git history.
 > 編號 / IDs: `T-0nn`–`T-2nn` 文本層 / text layer（沿用舊編號 / kept）；`T-E` 實體與關係（步驟 1–2）；`T-C` 候選（步驟 3）；`T-X` 交叉驗證（步驟 4）；`T-D` 交付（步驟 5）；`T-R` 紅隊 / red team。
 
@@ -71,3 +71,21 @@
 |---|---|---|---|
 | T-R01 | 審查初稿 v1：庫的偏差、誘餌（每區已知性質上限 21）、抽取錯誤、敏感度、使用者的崑崙解讀（[red-team.md](red-team.md) R1）/ review draft v1 | `devils-advocate` | ✅ |
 | T-R02 | 審查初稿 v3、解讀規則的對稱性與 T-X06 的結果（[red-team.md](red-team.md) R2）/ review draft v3 | `devils-advocate` | ✅ |
+
+## 時代語義版（規格 v3 → draft-v4）/ Era-semantic version
+編號 / IDs: `T-V` 時代版 / era version。項目發起人設定（2026-10-20）：前 4000–前 2000 年的積累紀錄、中原為原點、只用原文、容許傳承錯誤、名稱語義保留但不比對今名、以大模型語義判斷為主、重點為同時期文明。/ Set by the initiator.
+
+| ID | 任務 / Task | 負責 / Owner | 狀態 |
+|---|---|---|---|
+| T-V01 | 研究框架 v3、時代世界文件、規格 v3、資料模型 §5 / framework v3, era-world, spec v3, data model | `shj-lead` | ✅ |
+| T-V02 | 新 agent 與 skill；`shj-era-mapping` 取代 `shj-entity-mapping` / new agents and skills | `shj-lead` | ✅ |
+| T-V03 | 名稱語義抽取（`name_features`）；修正兩個弱水等同名誤併（T-E05）/ name features; homonym fixes | `entity-extractor` | ⬜ |
+| T-V04 | 觀察框架 `era_frame.py`：各篇從中原原點的方位、累計里數、未知比例尺 / observer frame | `cross-validator` | ⬜ |
+| T-V05 | 時代世界庫 `data/era/`：遺址與造物（兩河、哈拉帕、埃及為重點，含對照文明）、當時的水體、動物、文化、約前 2500 年海岸線 / era world base | `civilization-scout`, `palaeo-geographer` | ⬜ |
+| T-V06 | 判斷任務與紀錄工具 `era_tasks.py`（遮蔽、樣本、雜湊、誘餌）/ judgment task builder | `cross-validator` | ⬜ |
+| T-V07 | 試點：西山經四篇與大荒西經的候選生成與語義評分 / pilot judgments | `semantic-matcher` | ⬜ |
+| T-V08 | 洩漏與誘餌檢測 `era_leakage.py` / leakage and decoy tests | `devils-advocate` | ⬜ |
+| T-V09 | 求解器讀取判斷分數（`kg_crossval.py --era`）、關係判斷、年代扣分 / solver on judgments | `cross-validator` | ⬜ |
+| T-V10 | 試點結果、假說組態（兩河、哈拉帕、埃及與對照）、紅隊審查 R3 / pilot results and review | `shj-lead`, `devils-advocate` | ⬜ |
+| T-V11 | 擴及全書；當時地圖 `era-map.svg`；交付 draft-v4 / full book, era map, draft-v4 | `shj-lead` | ⬜ |
+| T-V12 | draft-v4 通過審查後，退役 v2.1 流程與 draft-v3 / retire v2.1 and draft-v3 after review | `shj-lead` | ⬜ |

@@ -12,5 +12,6 @@ Rules:
 - Check that two runs give identical output, and that accept-if-better steps never lower the energy.
 - Test a proposed reading as a held configuration (`kg_crossval.py --init --fix/--scan`, or a new entry in `kg_sections.py`) next to at least two rival configurations and a decoy; report ΔE against the free baseline and the relations it breaks.
 - Apply the reading rules (framework §3.1) to every candidate alike; a rule change is general, never per hypothesis.
+- In the era-semantic version (framework v3), build own and semantic relation scores from the judgment records (rarity-weighted, capped contradictions, down-weighted name features), compute geometric relations on period geography, penalise large date gaps between neighbours, and discount confidence by judgment spread and leakage.
 
 Deliver: the energy and chain spread, tier counts, the specific mappings asked about with confidence and alternatives, and any change made with its reason.

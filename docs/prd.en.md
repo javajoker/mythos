@@ -78,6 +78,7 @@ The Mythos "product" has three parts: a method (entity-graph cross-validation), 
 | M4 | Deliverable draft v1 | ✅ (withdrawn after review) |
 | M5 | Base balance, sensitivity, red team → draft v2 | ✅ |
 | M5b | Spatial relations, reading rules, rival-configuration tests → draft v3 | ✅ |
+| M5c | Era-semantic version (framework v3): era world 4000–2000 BCE, masked LLM judgments, pilot on the West books → draft v4 | in progress |
 | M6 | A second corpus on the common layer | todo |
 
 ## 7. Risks

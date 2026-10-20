@@ -10,5 +10,6 @@ Rules:
 - Every change ends with a full re-run and a coverage audit with 0 paragraphs without entities and 0 unexplained name patterns. Report the before/after node and edge counts.
 - Explain every new "explained" category in the audit with an example from the text; do not widen a category to hide misses.
 - Keep outputs deterministic: sort every set before writing.
+- Extract `name_features` (skill `name-semantics`) from every name; they are description features, never identifiers.
 
 Deliver: what changed in the extraction rules, the audit result, and example paragraphs showing the fix.

@@ -1,25 +1,32 @@
-# 山海經實體圖譜交叉驗證規格 / Shanhaijing Entity-Graph Cross-Validation Spec
+# 山海經時代語義對應規格 / Shanhaijing Era-Semantic Correspondence Spec
 
-> v2.1 ・ 2026-10-19 ・ 實作 [Mythos 研究框架](../../../docs/research-framework.md)。這是本項目目前唯一的方法；舊方法（「方法 A」「方法 G」）已退役，保留在 git 歷史中。
-> Implements the [Mythos research framework](../../../docs/research-framework.md). This is the project's only current method; earlier methods are retired and kept in git history.
+> v3.0 ・ 2026-10-20 ・ 實作 [研究框架 v3](../../../docs/research-framework.md)；時代世界見 [era-world.md](era-world.md)。目標交付：`deliverables/draft-v4/`。v2.1（今日世界、規則計分，交付 draft-v3）保留作為對照，直到 draft-v4 通過紅隊審查。
+> Implements framework v3. Target deliverable draft-v4. The v2.1 pipeline and draft-v3 stay as a baseline until draft-v4 passes review.
 
 ---
 
 ## 0. 前提 / Premises
-- 全書以整個地球為範圍；書中名稱只是符號。/ The whole Earth; names are symbols.
-- 文本：以 `reference/shanhaijing/data/entries.jsonl`（869 段）為底，次序依工作文本（明成化本），讀法依 [source-assessment](source-assessment.md) §4 的草稿政策。/ 869 paragraphs; working-text order; draft-reading policy.
+- **文本**：只用原文；次序與讀法依明成化本（最早的完整見證本，[source-assessment](source-assessment.md)）；注疏（郭璞注等）不進入任何步驟。869 段。/ Original text only, Chenghua order and readings; no commentary.
+- **時代**：前 4000–前 2000 年逐步積累的傳承紀錄（[era-world](era-world.md) §1）。/ Accumulated 4000–2000 BCE.
+- **原點**：中原（北緯 34.7°、東經 113.6°）。/ Observer origin.
+- **範圍**：整個地球；不預設任何地區。/ The whole Earth; no presupposed region.
 
 ## 1. 流程 / Pipeline
 
-| 步驟 / Step | 工具 / Tool | 輸出（`data/derived/`）/ Outputs |
-|---|---|---|
-| 0 文本層 / text layer | `ingest.py`, `collate.py`, `align_witness.py`, `classify_variants.py`, `extract_routes.py` | `entries.jsonl`, `working-text.jsonl`, `stations.jsonl` … |
-| 1–2 實體、性質、關係 / entities, properties, relations | `tools/shj/kg_extract.py` | `kg/nodes.jsonl`, `kg/edges.jsonl`, `kg/mentions.jsonl`, `kg/shanhaijing.graphml`, `kg/coverage.md` |
-| 3 真實世界候選 / candidates | `tools/shj/kg_candidates.py` | `kg/candidates.jsonl` |
-| 4 交叉驗證 / cross-validation | `tools/shj/kg_crossval.py`（約 6 分鐘 / ~6 min） | `kg/mapping.jsonl`, `kg/crossval-log.json` |
-| 4b 敏感度 / sensitivity | `tools/shj/kg_sensitivity.py` | `kg/sensitivity/sensitivity.md`, `robustness.jsonl` |
-| 4c 篇段與假說檢驗 / section and hypothesis tests | `tools/shj/kg_sections.py` | `kg/sections/sections.md`, `scan.jsonl`, `section-best.json` |
-| 5 交付 / deliverable | `tools/shj/kg_deliver.py` | `projects/shanhaijing/deliverables/draft-v3/` |
+| 步驟 / Step | 工具或代理 / Tool or agent | 輸出 / Outputs | 狀態 / Status |
+|---|---|---|---|
+| 0 文本層 / text layer | `ingest.py` … `extract_routes.py` | `entries.jsonl`, `working-text.jsonl`, `stations.jsonl` | 沿用 / kept |
+| 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `kg_extract.py`（加 `name_features`）| `kg/nodes.jsonl`, `kg/edges.jsonl` … | 修改 / extend |
+| 3 觀察框架 / observer frame | `era_frame.py` | `era/frame.jsonl`（每站從原點的方位與累計里數）| 新 / new |
+| 4 時代世界庫 / era world base | `civilization-scout`、`palaeo-geographer`（代理）→ `data/era/` | 遺址、造物、時代地理、時代動物的屬性卡 | 新 / new |
+| 5 候選生成 / candidates | `semantic-matcher`（代理）＋ `era_tasks.py`（產生遮蔽後的判斷任務）| `era/candidates.jsonl` | 新 / new |
+| 6 語義評分 / semantic judgments | `semantic-matcher`（代理）| `era/judgments.jsonl`（逐項分數、證據、理由、樣本）| 新 / new |
+| 7 關係評分 / relation judgments | 可計算者用 `era_relations.py`；需語義者用 `semantic-matcher` | `era/relation-judgments.jsonl` | 新 / new |
+| 8 聯合求解 / joint solution | `kg_crossval.py --era`（以判斷分數取代規則分數）| `era/mapping.jsonl` | 修改 / extend |
+| 9 可信度、紅隊、假說 / confidence, review, hypotheses | `kg_sensitivity.py`、`kg_sections.py`、`era_leakage.py`；`devils-advocate` | `era/sensitivity/`, `era/sections/`, `era/leakage.md` | 修改＋新 / extend, new |
+| 10 交付與當時地圖 / deliverable and era map | `kg_deliver.py --era` | `deliverables/draft-v4/`（含 `era-map.svg`）| 修改 / extend |
+
+**試點**：先做西山經四篇與大荒西經，確認流程、成本與判斷品質，再擴及全書。/ Pilot: the four West sections and 大荒西經 first.
 
 ## 2. 實體 / Entities（步驟 1）
 
@@ -36,9 +43,18 @@
 
 **異寫歸併 / Variant folding**：昆侖＝崑崙＝崐崘；黑＝黒；雒＝洛；榖＝穀等，只作為同一符號的寫法，不作為證據。/ spelling variants are the same symbol, never evidence.
 
-## 3. 性質與關係 / Properties and relations（步驟 2）
+## 3. 性質、名稱語義與關係 / Properties, name semantics and relations（步驟 2）
 
 **性質 / Properties**：由描述抽出的標籤，詞彙見 `tools/shj/cues.py`：生物的體型參照、部件、顏色、聲音、習性；地點的礦產、植物、地形、氣候；國族的習俗、食物。/ Tags from descriptions (vocabulary in `cues.py`).
+
+**名稱語義 / Name semantics**（R10）：名稱中的語義詞抽為節點的 `name_features`，不作為辨識依據：
+- 顏色 / colour：赤、丹、朱（紅）；黑、玄（黑）；白、素（白）；青、蒼、碧（青綠）；黃（黃）
+- 材質 / material：玉、金、銅、鐵、石、沙、鹽
+- 形狀與尺度 / shape and scale：大、小、長、方、圓、高、積、不周
+- 狀態 / state：流、弱、炎、湯、溫、冰
+- 方位 / direction：東、西、南、北（從原點理解）
+- 人群特徵 / people：毛、黑齒、羽、一目、長股等（只在該族為主語時）
+比對的是候選的**實際特徵**（外觀為紅色的水、挾黃土的河），**不是**候選今名中的字（「紅海」「黑海」的名稱不加分）。/ Matched against the candidate's actual features, never its modern name.
 
 **關係（邊）/ Relations (edges)**：
 
@@ -60,64 +76,68 @@
 | `encircles` | WAT → 任意 | 「其下有X之淵環之」「X環之」 | — |
 | `outside` | 任意 → 任意 | 「其外有X」 | — |
 
-## 4. 真實世界候選 / Real-world candidates（步驟 3）
+## 4. 觀察框架 / Observer frame（R9）
+- 每篇山經以其首站為起點，依「又{方}{N}里」累計出相對路線；路線的**起點位置**與**比例尺**（里 → 公里）都是未知數，由求解決定，比例尺的先驗範圍很寬。/ Each section's route is built from its legs; its start and its li-to-km scale are unknowns.
+- 篇名的方位（南山經、西山經…）與海經、大荒經的方位從原點理解，作為**軟約束**：方向相差越多扣分越多，但不能單獨否決。/ Book directions read from the origin as soft constraints.
 
-| 書中類型 / Text type | 候選庫 / Candidate base | 自身分數依據 / Own-score basis |
+## 5. 時代世界庫與候選 / Era world base and candidates（步驟 4–5）
+
+| 書中類型 / Text type | 候選 / Candidates | 卡片屬性 / Card attributes |
 |---|---|---|
-| 生物 CRE | `world/animals.jsonl`（145 種，含特徵與古代分佈；新增會說話的鳥、有爪的獸，並補齊動物較少的地區），外加「無」（自身分數 0.35）| 描述特徵的稀有度加權覆蓋率；鳥、魚與身體形態檢查 / rarity-weighted coverage of description tags, with bird/fish and body checks; 'none' own score 0.35 |
-| 山 MTN、地 LND | `world/regions.jsonl`（33 個地區：埃及與尼羅河下游 EGY、印度河流域 IDS 依「河谷文明自成一區」規則分出）＋ `region-properties.jsonl`（38 項，含「火或酷熱」「方形外觀」）| 該山的物產、生物、地形與外觀（R3、R4）/ resources, creatures, terrain and outlook |
-| 水 WAT（主要水體）| `world/waters.jsonl`（269 個河、湖、海、沙漠終點，含 9 個古水體；長條形的海有軸向與出口），**任何類型都可為候選**（R1），外加「庫中沒有」| 類型、流向、終點類型、規模（小權重）；「庫中沒有」的成本 = min(0.1 × 支流數, 1.5) / type, flow direction, destination type, size (small); 'none' costs min(0.1 × inflows, 1.5) |
-| 國族 POL | `world/cultures.jsonl`（48 個全球古代人群，含哈拉帕；習俗、地區），外加「證據不足」| 習俗、生業的稀有度加權（只計該族作主語的句子）/ rarity-weighted customs and livelihood, subject clauses only |
-| 植物 PLA、礦物 MIN | 普通名詞的詞義（`kg_common.LEXICAL`）；專名不對應 / lexical meaning of common nouns; proper names unmapped | 亦作為山的性質使用 / also used as mountain properties |
-| 神人 PER | 無（非地理實體）/ none (non-geographic) | 不對應，但保留在圖中 / not mapped, kept in the graph |
+| 山 MTN、地 LND | **遺址與地景**：自然山脈與山峰、沙丘區、方山，與人工高大建築（神廟平臺、塔廟、金字塔、城牆、墓塚）；再彙總到地區 / sites and landforms, natural or built, rolled up to regions | 外觀、尺度、材質、顏色、物產、動植物、存在年代、當時樣貌、座標 |
+| 水 WAT | 當時的河、湖、海、沼澤、運河（含已消失者）/ waters of the period | 顏色（泥沙、藻類）、流向與走向、與其他水的連接、存在年代 |
+| 生物 CRE | 當時的動物（含已滅絕或已退出原分佈者），以及人工造像（如人面獸身像）/ animals of the period and statues | 形態、顏色、聲音、習性、當時分佈 |
+| 國族 POL | 當時的人群與文化 / peoples of the period | 習俗、生業、外觀、地區、年代 |
+| 神人 PER | 當時的神祇形象與造像（只在描述可比時）；否則不對應 / deity images where comparable | 形象、屬物、所在 |
+| 植物、礦物 PLA、MIN | 詞義，加上當時的產地與貿易品（青金石、紅玉髓、錫、銅、和田玉、黃金）/ meaning plus period sources and trade goods | 產地、年代 |
 
-**主要水體 / Major waters**：收納 ≥ 2 條書中之水、提及 ≥ 3 次、為海或湖澤，或有完整的出入記錄（例如海內東經水道表）者，逐一對應真實水體。其餘小溪不單獨對應，只作為關係（它的源山與它所注入的水）參與交叉驗證。/ Major waters (≥ 2 inflows, seas, marshes, or in the 海內東經 waterway list) are mapped individually; minor streams take part only through their relations.
+- **候選生成**：`semantic-matcher` 只看遮蔽後的輸入（描述、名稱特徵、關係、原點方位），開放提出候選；每個實體至少 3 個候選、至少 2 個不同大區；兩河流域、哈拉帕、古埃及為重點，但必須同時提出其他同時期文明作為對立候選。新候選寫成卡片，附一般性來源，由 `civilization-scout` 或 `palaeo-geographer` 審核後入庫。/ Open, masked candidate generation with rivals; cards reviewed before entering the base.
+- **對稱**：某類候選（例如運河、乾河谷、造像）只要加入，就要在全世界同類中一起加入。/ Symmetry.
 
-## 5. 交叉驗證 / Cross-validation（步驟 4）
+## 6. 語義評分 / Semantic judgments（步驟 6）
 
-| 邊 / Edge | 一致 / Consistent | 權重 / Weight |
+**輸入（遮蔽）/ Masked input**：實體的原文描述（名稱以代號取代）、名稱特徵、關係摘要（「一端在甲山、東南延伸、與一大水相接」）、從原點的方位；候選卡。/ Description with names replaced, name features, relation summary, bearing from origin; the candidate card.
+
+**維度與權重 / Dimensions and weights**（預設，可在敏感度中變動）：
+
+| 維度 / dimension | 權重 / weight | 例 / example |
 |---|---|---|
-| `flows_into`（兩端皆主要水體）| 候選 A′ 的河口正是 B′ / A′'s mouth is B′ | +2.0；同地區 +0.3；否則 −1.0；A′＝B′（自注）−2.0；B′ 為「庫中沒有」而 A′ 的真實河口在庫中 −1.0 |
-| `flows_into`（→ 泛稱的海；→ 流沙等地）| A′ 入海 / A′ 為內流或沒入沙漠 | ±0.5；+0.5 / −0.3 |
-| `sinks_at` | A′ 為內流或沒入沙漠 / endorheic or ends in desert | +0.3 / −0.2 |
-| `rises_at`（主要水體 → 山）| A′ 的河源地區＝山的候選地區 / source region = the mountain's region | +1.0；相鄰 +0.3；否則 −0.5 |
-| 小溪的 `rises_at` ＋ `flows_into` | 源山的候選地區屬於所注入水體 B′ 的流域地區 / the source mountain's region lies in B′'s basin | +0.6；否則 −0.3 |
-| `next` | 兩山同一地區 +0.3、相鄰 +0.1、否則 −0.3（距離只是參考）/ same region, adjacent, otherwise | ≤ 0.3 |
-| `has_creature` | 動物的分佈涵蓋山的候選地區 / the animal's range covers the region | +0.5 × 覆蓋率；否則 −0.25 × 覆蓋率（海洋動物免檢）|
-| `located`、`sees` | 兩端候選中心點的方位與書中方位相差 ≤ 67.5° / bearing agrees within 67.5° | +0.2 / −0.1（`sees` ±0.1 / −0.05）|
-| `beside`、`encircles` | 兩端候選同一地區 / 相鄰 / 否 / same region, adjacent, otherwise | +0.3 / +0.1 / −0.2 |
-| `outside` | 同上 / same | +0.2 / +0.1 / −0.13 |
+| 外觀與形狀 / appearance, shape | 1.0 | 「削成而四方」、「人面虎身」|
+| 顏色 / colour | 0.8 | 「皆白」、名稱的「赤」|
+| 尺度 / scale | 0.6 | 「其高五千仞」、「方八百里」|
+| 材質與物產 / material, products | 0.8 | 「多玉」、「其陽多金」|
+| 功能與行為 / function, behaviour | 0.8 | 「投物輒然」、「人舌能言」|
+| 聲音 / sound | 0.5 | 「其音如吠犬」|
+| 生態與分佈 / ecology, range | 0.8 | 物種在當時的分佈 |
+| 方位 / bearing from origin | 0.4 | 書的方位與候選相對原點的方向 |
+| 年代 / date | 硬條件 / hard | 窗口內不存在則不得為候選 |
+| 名稱特徵 / name features | 0.4 | 名稱中的「赤」「黑」「白」「玉」 |
 
-**唯一性 / Uniqueness**：兩條書中河流對到同一條真實水體，每對扣 2.0。/ 2.0 per pair of book waters on one real water.
+**每一維的輸出 / Per dimension**：吻合 0–1、`contradiction`（真／假）、原文證據（條目編號與原句）、候選屬性、一句理由。無資料時為 `null`（不計分，不扣分：缺失不算矛盾）。/ score, contradiction flag, evidence, attribute, reason; null when absent.
 
-**求解 / Solve**：模擬退火 6 條鏈 × 120 萬步（溫度 2.0 → 0.02，固定種子；一半提議由關係引導），ICM 收尾（平手保留現值），再做區塊調整（`located` 對河流以河線最近的一點計方位 / bearings to a river use the nearest point of its line）：一條河設為某候選，同時重配相鄰的河、它們的源山及源山的鄰站，總分上升才接受。對應＝總分最高的鏈。樣本：6 條完整鏈＋12 次「略去 20% 關係」的重解（各 2 條鏈），共 30 個。/ Simulated annealing (6 chains × 1.2M steps, T 2.0 → 0.02, fixed seeds, half the proposals relation-guided), ICM polish, then block moves (a river with its neighbouring rivers, source mountains and their stations; kept only if E rises). Mapping = the best chain. 30 samples: 6 full chains plus 12 re-solves with 20% of relations dropped (2 chains each).
+**自身分數 / Own score** = Σ 權重 × 吻合 × 罕見度 − Σ min(矛盾扣分, 0.5)；罕見度 = log₁₀(候選池大小 / 具有該屬性的候選數) + 0.1，由全部判斷統計。/ rarity-weighted agreement minus capped contradictions.
 
-**可信度 / Confidence** = 穩定度 × (1 − e^(−邊際))；高 ≥ 0.6、中 ≥ 0.3、低 ≥ 0.1、暫定 < 0.1。每個對應都列出支持與違反的關係、樣本中的其他候選及比例；河流另報水系層級的穩定度。/ High, medium, low, tentative; every mapping lists supporting and violated relations and sample alternatives; rivers also report system-level stability.
+**取樣 / Sampling**：每個判斷 3 個樣本（不同的候選順序）；取平均與標準差；標準差 > 0.25 的維度降權。/ three samples; noisy dimensions down-weighted.
 
-### 5.1 解讀規則的實作 / Reading rules in scoring（[framework §3.1](../../../docs/research-framework.md)）
-- R1 水只是水體：水的候選包含所有類型，類型不同 −0.3。/ any water type, −0.3 when it differs.
-- R2 時間深度：`era = palaeo` 的水體 −0.2。/ palaeo waters −0.2.
-- R3、R4 外觀與效果：性質「方形外觀」（「削成而四方」）、「火或酷熱」（「炎火」「投物輒然」）。/ properties square_cut_form, fire_or_extreme_heat.
-- R5 方位慣例：`front_east = 1`（前 = 東）；`--set front_east=0` 以另一慣例計分。/ orientation, with the other convention as a check.
-- R6 地圖讀法：`rises_at` 另一端吻合 ×0.8；`flows_into` 反向相接 +1.5；書中方向與實際方向相反時自身分數只少 0.1。/ map view.
-- 對稱：以上規則對所有候選一體適用。/ applied to every candidate alike.
+**傳承錯誤 / Transmission errors**（R11）：判斷時允許替代讀法（形近字、數字、錯簡），記為 `variant_reading` 並扣 0.1；所用讀法須來自見證本或明列的錯誤類型。/ variant readings at −0.1, sourced from witnesses or a stated error type.
 
-### 5.2 篇段與假說檢驗 / Section and hypothesis tests（`kg_sections.py`）
-- **篇段掃描**：每一篇的山全部固定在某一地區，其餘全書以 ICM 與區塊調整重新擬合，記錄總分；各篇的地區排名即全書的篇段層級地圖。/ Section scan: each section held in each region; the ranking is a section-level map of the book.
-- **聯合假說**：例如「西次一經 = 印度河流域、西次二經 = 美索不達米亞、西次三經 = 埃及，赤水 = 紅海、黑水 = 尼羅河、西海 = 地中海」，與對立組態（衣索比亞、中國、塔里木、伊朗—中亞、北美誘餌）一起計分，報告 ΔE 與被違反的關係。/ Joint configurations and their rivals, with ΔE and broken relations.
-- 限制：這是從基準出發的局部擬合，用於比較；地區層級無法分辨「尼羅河東岸或西岸」這類細節。/ A local re-fit for comparison; region resolution cannot resolve river banks.
+## 7. 關係評分 / Relation judgments（步驟 7）
+- **可計算的**（相鄰、方位、注入、發源、同區）：依時代地理的座標與連接直接計算，沿用 v2 的因子並套用 R1–R6。/ Computable relations as in v2, on period geography.
+- **需語義的**（環之、其外有、濱、望見、居、生）：由 `semantic-matcher` 判斷兩個候選在當時是否處於該關係，給 0–1 與理由。/ Semantic relations judged.
+- 相鄰實體的候選年代不重疊時扣分（R8）：相差 ≤ 500 年不扣，> 1000 年扣 0.2。/ Date gaps between neighbours.
 
-## 6. 交付 / Deliverable（步驟 5）
+## 8. 聯合求解與可信度 / Joint solution and confidence
+沿用 v2（模擬退火、ICM、區塊調整、唯一性、取樣穩定度、邊際）；可信度再乘以 (1 − 判斷標準差) 與洩漏折扣（§9）。級別同框架。/ As in v2, times (1 − judgment spread) and a leakage discount.
 
-`deliverables/draft-vN/`（目前 / current: `draft-v3`；每個對應附「權重變體 k/16」/ each mapping shows its weight robustness）：
-- `README.md`：方法摘要、結果摘要、可信度分佈、限制。/ summary, results, confidence, limits.
-- `book/NN-書名.md`：**逐段對照**：每一段的原文、其中每個實體、對應的真實世界實體、可信度與理由。869 段一段不漏。/ **per-paragraph mapping** for all 869 paragraphs.
-- `entities.md`：全部實體的總表（依類型），含描述、性質、關係數、對應與可信度。/ the full entity catalogue.
-- `mapping-waters.md`、`mapping-mountains.md`（依篇）、`mapping-creatures.md`、`mapping-peoples.md`、`mapping-plants-minerals.md`：各類對應表。/ tables by type.
-- `world-map.svg`：全球圖。/ world map.
-- `hypotheses.md`：篇段掃描與聯合假說（`kg/sections/sections.md` 的複本）/ section scan and joint hypotheses.
-- `coverage.md`：交付完整性檢查：段落數、提及數與寫入的列數必須相等（PASS），否則 `kg_deliver.py` 失敗。/ completeness check: paragraphs and mentions written must equal those in the text, or the tool fails.
-- `summary.json`：統計。/ counts.
+## 9. 先入知識、誘餌與假說 / Leakage, decoys, hypotheses
+- **洩漏檢測**：抽樣 10% 的實體，以不遮蔽的輸入再判一次；若最佳候選改變或分數差 > 0.3，標記 `leakage` 並把可信度乘以 0.5。/ 10% re-judged unmasked; differences flag leakage.
+- **誘餌**：每批混入 5% 人工編造的描述（隨機組合書中常見特徵）；若誘餌被高分套到某個熱門候選，該候選的所有判斷降權並在紅隊中報告。/ 5% synthetic decoys per batch.
+- **假說檢驗**：`kg_sections.py` 的固定組態與篇段掃描，改以時代世界與判斷分數計算。/ Held configurations on the era base.
 
-## 7. 覆蓋檢查 / Coverage audit
-`kg_extract.py` 產出 `coverage.md`：(1) 每段抽到的實體數；(2) 沒有任何實體的段落；(3) 名稱句式出現但未抽出的地方，每一處要嘛已成實體，要嘛歸入明列的理由（數量、題記、泛稱、比喻、異說、敘事語）。交付前，(2) 與 (3) 的「未解釋」必須為零。/ Paragraphs with no entity and unextracted name patterns must be zero or individually explained before delivery.
+## 10. 交付 / Deliverable（`deliverables/draft-v4/`）
+- 沿用 draft-v3 的逐段對照、實體總表、各類對應表、完整性檢查；每個對應另附：候選的年代與當時樣貌、主要的吻合維度與證據、名稱特徵是否參與、洩漏標記。/ As in draft-v3, plus period, matched dimensions with evidence, name-feature use, leakage flag.
+- **當時地圖** `era-map.svg`：約前 2500 年的海岸線與河道、撒哈拉乾濕界線、文明遺址與造物、中原原點與各篇的方位線，疊加對應與可信度。/ The era map.
+- `hypotheses.md`：篇段掃描與聯合假說（含兩河流域、哈拉帕、古埃及的組態與對立組態）。
+
+## 11. 覆蓋檢查 / Coverage audit
+沿用：沒有實體的段落 0、未解釋的名稱句式 0；交付的完整性檢查 PASS。/ Unchanged.

@@ -1,6 +1,6 @@
 # 山海經交付檢查清單 / Shanhaijing Deliverable Checklist
 
-> v2.0 ・ 每次產生或更新交付版本（`deliverables/draft-vN/`）之前逐項勾選。`shj-lead` 負責，`devils-advocate` 複核。
+> v3.0 ・ 每次產生或更新交付版本（`deliverables/draft-vN/`）之前逐項勾選。`shj-lead` 負責，`devils-advocate` 複核。
 > Tick every item before producing or updating a deliverable. Owned by `shj-lead`, reviewed by `devils-advocate`.
 
 ## 1. 文本 / Text
@@ -30,3 +30,13 @@
 - [ ] README 寫明限制與主要的其他候選 / limits and main alternatives stated
 - [ ] `devils-advocate` 的審查意見已處理或記錄 / red-team comments addressed or recorded
 - [ ] 已提交 / committed
+
+## 6. 時代語義版 / Era-semantic version（規格 v3）
+- [ ] 輸入只有原文（明成化本次序與讀法），沒有注疏 / original text only, no commentary
+- [ ] 每個候選在前 4000–前 2000 年內存在或可見，並標明年代與當時樣貌 / every candidate dated within the window
+- [ ] 判斷時名稱已遮蔽；名稱特徵單獨計分並標明；理由中沒有今名比對 / names masked; name features flagged; no modern-name matching in reasons
+- [ ] 每個判斷至少 3 個樣本，紀錄完整（證據、理由、模型、提示詞版本）/ three samples, complete records
+- [ ] 洩漏抽樣與誘餌已執行，結果寫入紅隊紀錄 / leakage probes and decoys run
+- [ ] 重點文明（兩河、哈拉帕、埃及）的每一個比較都包含其他同時期文明作為對立候選 / rivals present in every comparison
+- [ ] 新增的候選類別在全世界同類中一起加入 / new kinds added worldwide
+- [ ] 當時地圖的海岸線、河道與界線注明為簡化示意 / era map marked as schematic

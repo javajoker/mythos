@@ -32,8 +32,10 @@
 | 1–2 實體、性質、關係 / Entities, properties, relations | `entity-extractor` | `textual-critic` | `entity-graph-extraction` | `kg_extract`（`cues`）|
 | 3 真實世界候選 / Candidates | `world-candidate-scout` | — | `world-candidate-generation` | `kg_candidates`（`kg_common`）|
 | 4 交叉驗證 / Cross-validation | `cross-validator` | `devils-advocate` | `graph-cross-validation` | `kg_crossval`, `kg_sensitivity`, `kg_sections` |
-| 5 交付 / Deliverable | `shj-lead` | `devils-advocate` | `shj-entity-mapping` | `kg_deliver` |
-| 全程協調 / Orchestration | `shj-lead` | 全部 / all | `shj-entity-mapping` | — |
+| 5 交付 / Deliverable | `shj-lead` | `devils-advocate` | `shj-era-mapping` | `kg_deliver` |
+| 全程協調 / Orchestration | `shj-lead` | 全部 / all | `shj-era-mapping` | — |
+
+**時代語義版（框架 v3）/ Era-semantic version**：時代世界 → `civilization-scout`、`palaeo-geographer`（skill `era-world-modelling`）；觀察框架（`observer-frame`）；候選與語義評分 → `semantic-matcher`（`semantic-correlation-matching`、`name-semantics`、`transmission-error-tolerance`）；求解與可信度 → `cross-validator`；洩漏、誘餌、對稱 → `devils-advocate`。工具 `era_frame`、`era_tasks`、`era_leakage`、`kg_crossval --era`、`kg_deliver --era` 在試點中建立。
 
 ## 3. Agent 與 Skill 清單 / Catalogue
 
@@ -44,13 +46,21 @@
 | 公共 Common | agent | [world-candidate-scout](../.claude/agents/world-candidate-scout.md) | 真實世界庫與候選、庫的平衡 / world base, candidates, balance |
 | 公共 Common | agent | [cross-validator](../.claude/agents/cross-validator.md) | 聯合求解、可信度、確定性與一致性檢查 / joint solve, confidence, checks |
 | 公共 Common | agent | [devils-advocate](../.claude/agents/devils-advocate.md) | 紅隊 / red team |
+| 公共 Common | agent | [semantic-matcher](../.claude/agents/semantic-matcher.md) | 遮蔽下的候選生成與語義評分 / masked candidates and semantic scores |
+| 公共 Common | agent | [civilization-scout](../.claude/agents/civilization-scout.md) | 時代內的文明、造物與人群 / civilisations, works, peoples of the period |
+| 公共 Common | agent | [palaeo-geographer](../.claude/agents/palaeo-geographer.md) | 時代內的地理、動物與地圖 / geography, fauna and map of the period |
 | 公共 Common | skill | [source-ingest](../.claude/skills/source-ingest/SKILL.md) | 新語料入庫 / onboard a corpus |
 | 公共 Common | skill | [witness-collation](../.claude/skills/witness-collation/SKILL.md) | 見證本對勘與異文分類 / collation and variant classes |
 | 公共 Common | skill | [entity-graph-extraction](../.claude/skills/entity-graph-extraction/SKILL.md) | 步驟 1–2 / steps 1–2 |
 | 公共 Common | skill | [world-candidate-generation](../.claude/skills/world-candidate-generation/SKILL.md) | 步驟 3 / step 3 |
 | 公共 Common | skill | [graph-cross-validation](../.claude/skills/graph-cross-validation/SKILL.md) | 步驟 4 / step 4 |
+| 公共 Common | skill | [semantic-correlation-matching](../.claude/skills/semantic-correlation-matching/SKILL.md) | 語義評分規程 / judgment protocol |
+| 公共 Common | skill | [era-world-modelling](../.claude/skills/era-world-modelling/SKILL.md) | 時代世界 / world of the period |
+| 公共 Common | skill | [name-semantics](../.claude/skills/name-semantics/SKILL.md) | 名稱語義 / name semantics |
+| 公共 Common | skill | [transmission-error-tolerance](../.claude/skills/transmission-error-tolerance/SKILL.md) | 傳承錯誤 / transmission errors |
+| 公共 Common | skill | [observer-frame](../.claude/skills/observer-frame/SKILL.md) | 觀察框架 / observer frame |
 | 山海經 SHJ | agent | [shj-lead](../.claude/agents/shj-lead.md) | 子項目主持 / sub-project lead |
-| 山海經 SHJ | skill | [shj-entity-mapping](../.claude/skills/shj-entity-mapping/SKILL.md) | 流程 runbook、回答「X 在哪裡」/ runbook, "where is X" |
+| 山海經 SHJ | skill | [shj-era-mapping](../.claude/skills/shj-era-mapping/SKILL.md) | 時代語義版 runbook / era-semantic runbook |
 
 ## 4. 公共層與子項目層 / Common vs sub-project
 
@@ -75,6 +85,7 @@ Entity-graph cross-validation replaced the two earlier methods; their files are 
 | `hypotheses/H-0001…H-0006`、`reports/draft-v0.1.md`、`reports/draft-v1.0-global.md`、`findings/F-0003`、`F-0004`、`docs/method-g-global.md` | 文檔與交付 / docs and deliverables | 由 `deliverables/draft-v2/` 取代 / superseded |
 | `deliverables/draft-v1/` | 交付 / deliverable | 紅隊審查 R1 撤回其主要結論，由 draft-v2 取代 / withdrawn by review R1, superseded by draft-v2 |
 | `deliverables/draft-v2/` | 交付 / deliverable | 由採用解讀規則 R1–R7 的 draft-v3 取代 / superseded by draft-v3 (reading rules R1–R7) |
+| skill `shj-entity-mapping` | 技能 / skill | 由 `shj-era-mapping` 取代（2026-10-20）/ replaced by shj-era-mapping |
 | agents `adjudicator`, `geo-triangulator`, `naturalist`, `shj-route-reconstructor`；skills `hypothesis-adjudication`, `toponym-triangulation`, `biogeo-identification`, `description-first-matching`, `shj-hypothesis-case`, `shj-itinerary-reconstruction`, `shj-global-locate` | 代理與技能 / agents and skills | 由新的公共層取代 / replaced by the new common layer |
 
 ## 6. 新語料接入 / Adding a corpus

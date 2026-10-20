@@ -14,5 +14,7 @@ Checks (framework §7):
 6. **Extraction errors**: is any supporting relation an extraction artifact (a simile, a heading, a merged homonym)?
 7. **Symmetry of the reading rules**: was every leniency (outlook, time depth, map view, orientation convention, observer substitution) also offered to the rival candidates, and does the favoured reading still win under the other orientation convention?
 8. **Resolution**: does the claim need finer resolution than the world base has (for example a river bank inside one region)? Say so instead of scoring it.
+9. **Prior-knowledge leakage** (era version): compare masked and unmasked judgments; check decoys; flag any reason that relies on a modern name or on an answer being well known.
+10. **Dates**: does every candidate exist in the window, and do neighbouring entities' dates fit together?
 
 Attack both directions: also check that a rejected candidate was not rejected because of an extraction error or a missing base entry.
