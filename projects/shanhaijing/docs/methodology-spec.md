@@ -79,6 +79,9 @@
 | `outside` | 任意 → 任意 | 「其外有X」 | — |
 
 ## 4. 觀察框架 / Observer frame（R9）
+- **絕對距離**（項目發起人，2026-10-20）：「又西三百里」是向西 300 里的直線位移；不假設是沿路里程，也不假設古人有或沒有量測工具。里的長度未知，**全書共用一個**，由求解決定。/ Legs are absolute straight-line displacements; one unknown li length for the whole book.
+- **各篇獨立**：書中只有篇內的距離；篇與篇之間（例如東次三經與東次四經）沒有距離，只有相對位置（篇名方位、共同的水系、「次」的順序），所以每一篇的起點各自錨定。/ No distances between sections: each section is anchored on its own.
+- **篇末總數的校準**：篇末總數與齊全的各段合計相差超過 20% 時視為傳承錯誤，以各段合計校準（R11；見 `data/derived/era/totals.md`：中山經首篇 6,670 → 937、中次三經 440 → 80、中次十二經 2,800 → 1,849）。/ Totals that disagree with complete legs by > 20 % are recalibrated from the legs.
 - 每篇山經以其首站為起點，依「又{方}{N}里」累計出相對路線；路線的**起點位置**與**比例尺**（里 → 公里）都是未知數，由求解決定，比例尺的先驗範圍很寬。/ Each section's route is built from its legs; its start and its li-to-km scale are unknowns.
 - 篇名的方位（南山經、西山經…）與海經、大荒經的方位從原點理解，作為**軟約束**：方向相差越多扣分越多，但不能單獨否決。/ Book directions read from the origin as soft constraints.
 

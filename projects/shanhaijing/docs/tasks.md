@@ -40,6 +40,8 @@
 | T-V04d | 基準點（暫定，`benchmark-1.0`）：西海、赤水、黑水、流沙、崑崙之丘、炎火之山、泑澤、湯谷與十日、燭龍、大壑、白令；三種來源的候選與對立候選；世界地圖（含美洲、白令、緯度帶）/ benchmark points and world map | `era_anchors.py` → `era/benchmarks.jsonl`, `benchmarks.md`, `world-map-era.svg` | ✅（暫定）|
 | T-V04f | 美洲篩查：全書生物（147 個）沒有一個以美洲特有動物明確勝出；指向東方、東北遠方的 20 段逐一檢視；美洲基準點 8 個（扶桑、流波山、大人國、玄股、女和月母、日月出入之山、豎亥步量、白令），皆以較近的候選領先 / Americas screen and benchmarks | `era_screen_americas.py` → `era/americas-screen.md`；`era/benchmarks.jsonl` | ✅（暫定）|
 | T-V04e | 檢驗緯度帶串接模型：同名拆分（西海、赤水、河是否為相對或同名異實）、各篇是否串接、各書的比例尺是否可以不同；以固定組態與篇段錨點一起求解 / test the latitude-belt model | `cross-validator`, `entity-extractor` | ⬜ |
+| T-V04h | 里數改為絕對距離、全書共用一個單位；各篇獨立；篇末總數校準（中山經首篇、中次三經、中次十二經）/ absolute distances, independent sections, total recalibration | `era_frame.py` → `era/totals.md` | ✅ |
+| T-V04g | 重新錨定：以全書共用的絕對里長（求解）、各篇獨立的起點、篇間只有相對位置與共同水系，重判西、東、中山經的篇段錨點 / re-anchor with one absolute li length and independent sections | `cross-validator`, `semantic-matcher` | ⬜ |
 | T-V04c | 以遮蔽輸入重判篇段錨點與基準點，與未遮蔽的結果比較（洩漏）/ re-judge anchors and benchmarks masked and compare | `semantic-matcher`, `devils-advocate` | ⬜ |
 | T-V05 | 時代世界庫：把 `data/era/` 的種子改為窗口內的狀態；新建 `sites.jsonl`（遺址與造物，含對立文明）與 `palaeo-coast.json` / convert the seeds; sites; palaeo coasts | `civilization-scout`, `palaeo-geographer` | ⬜ |
 | T-V06 | 判斷任務 `era_tasks.py`（遮蔽、名稱特徵、關係摘要、樣本、雜湊、誘餌）/ judgment tasks | `cross-validator` | ⬜ |

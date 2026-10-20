@@ -6,8 +6,15 @@ describes — terrain (barren, sand, snow, marsh, water), resources, plants, cre
 directions, destinations and name features. Profiles are the input for the section-level anchoring and, masked, for
 the semantic judgments.
 
+Distances are read as absolute (straight-line) distances in an unknown unit (initiator, 2026-10-20): a leg 「又西三百里」
+is a displacement of 300 li to the west. Each section gives distances only inside itself; the distance between two
+sections is never stated, so every section is placed independently and sections relate only by relative position
+(book directions, shared waters). A section's stated total (「凡…N 里」) is checked against the sum of its legs; when all
+its stations and legs are present and the two differ by more than 20 %, the total is treated as a transmission error
+and recalibrated from the legs (rule R11), since the other sections show that totals and legs normally agree.
+
 Outputs (projects/shanhaijing/data/derived/era/): frame.jsonl (one line per station), profiles.jsonl (one line per
-section), profiles.md (readable).
+section), profiles.md (readable), totals.md (the total check and recalibration).
 """
 import json
 import math
@@ -91,10 +98,27 @@ def main():
             frame.append({"section": sec, "seq": s["seq"], "station": s["name"], "entry": s["entry_id"],
                           "x_li": round(x), "y_li": round(y), "bearing": s.get("bearing"), "leg_li": s.get("leg_li")})
         net_dir, net_deg = compass(x, y)
+        stated = sections.get(sec, {}).get("stated_li")
+        stated_m = sections.get(sec, {}).get("stated_mountains")
+        legs = sum(s_.get("leg_li") or 0 for s_ in ss)
+        diff = (legs - stated) / stated if stated else None
+        complete = stated_m == len(ss) or (stated_m and stated_m > 1000)      # 「十萬山」: the count itself is corrupt
+        if diff is None:
+            status, corrected = "no total", legs
+        elif abs(diff) <= 0.10:
+            status, corrected = "consistent", stated
+        elif abs(diff) <= 0.20:
+            status, corrected = "minor gap (missing station or unparsed leg)", stated
+        elif complete and unresolved == 0:
+            status, corrected = "total suspect: recalibrated from legs", legs
+        else:
+            status, corrected = "legs incomplete: total kept", stated
         dest = Counter(w["to"] for w in waters if w["to"])
         prof = {"section": sec, "book": ss[0]["book"], "stations": len(ss), "stated_li": sections.get(sec, {}).get("stated_li"),
                 "leg_li_sum": sum(s.get("leg_li") or 0 for s in ss), "net_x_li": round(x), "net_y_li": round(y),
                 "net_direction": net_dir, "net_deg": net_deg, "net_li": round(math.hypot(x, y)),
+                "stated_mountains": stated_m, "total_diff": round(diff, 3) if diff is not None else None,
+                "total_status": status, "corrected_li": corrected,
                 "legs_by_bearing": dict(bearings.most_common()), "unresolved_legs": unresolved,
                 "terrain": dict(terrain.most_common()), "resources": dict(res.most_common(12)),
                 "waters": waters, "water_destinations": dict(dest.most_common()), "creatures": crit}
@@ -122,6 +146,27 @@ def main():
                                           + (f"，名稱特徵 {w['name_features']}" if w['name_features'] else "") + "）"
                                           for w in p["waters"]), ""]
     (OUT / "profiles.md").write_text("\n".join(L) + "\n")
+    T = ["# 篇末總數的檢查與校準 / Section totals: check and recalibration", "",
+         "里數視為**絕對距離**（單位長度未知）；各篇只描述篇內距離，篇與篇之間沒有距離，只有相對位置。篇末總數與各段合計相差超過 20%、"
+         "且該篇的山與段都齊全時，視為傳承錯誤，以各段合計校準（R11）。",
+         "Distances are absolute in an unknown unit; sections are independent. A stated total that differs from complete legs by "
+         "more than 20 % is recalibrated from the legs.", "",
+         "| 經 | 篇 | 山（篇末／抽出）| 篇末總數 | 各段合計 | 差 | 判定 | 校準後 | 淨位移（里）| 東西分量（里）|",
+         "|---|---|---|---|---|---|---|---|---|---|"]
+    books = defaultdict(lambda: [0, 0, 0])
+    for p in profiles:
+        T.append(f"| {p['book']} | {p['section']} | {p['stated_mountains']}／{p['stations']} | {p['stated_li']} | {p['leg_li_sum']} | "
+                 f"{(p['total_diff'] * 100):+.1f}% | {p['total_status']} | **{p['corrected_li']}** | {p['net_li']} {p['net_direction']} | {p['net_x_li']:+} |")
+        b = books[p["book"]]
+        b[0] += p["stated_li"] or 0
+        b[1] += p["corrected_li"]
+        b[2] += p["net_x_li"]
+    T += ["", "| 經 | 篇末總數合計 | 校準後合計 | 各篇東西分量合計（里，東為正）|", "|---|---|---|---|"]
+    for bk in order:
+        T.append(f"| {bk} | {books[bk][0]} | {books[bk][1]} | {books[bk][2]:+} |")
+    T += ["", f"五經校準後合計 {sum(v[1] for v in books.values())} 里；篇末總數合計 {sum(v[0] for v in books.values())} 里。"
+          "各篇彼此獨立，合計只是長度的總和，不是地理上的跨度。/ Sums of independent sections are lengths, not spans."]
+    (OUT / "totals.md").write_text("\n".join(T) + "\n")
     print(f"{len(frame)} stations, {len(profiles)} sections", file=sys.stderr)
 
 

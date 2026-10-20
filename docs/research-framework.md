@@ -42,7 +42,7 @@
 | P9 | **大模型判斷可審查、可重現**：判斷時遮蔽名稱；每個判斷存成紀錄（輸入、分數、證據、理由、模型、提示詞版本、樣本序號）；只有輸入改變才重判；同一判斷取多個樣本，差異計入可信度。/ **LLM judgments are masked, recorded, re-run only on change, and sampled.** |
 | P10 | **先入知識的防範**：大模型讀過注疏與各種比定；以遮蔽與不遮蔽的差異、人工誘餌、對立候選檢測，受先入知識影響的判斷降低可信度。/ **Guard against prior knowledge** with masking contrasts, decoys and rivals. |
 | P11 | **不遺漏**：交付涵蓋每一段、每一個實體，未對應的寫明原因；完整性檢查不通過不得交付。/ **Nothing missed.** |
-| P12 | **距離只是參考**：里數是比例尺未知的軟約束，不能單獨否定候選。/ **Distances are soft constraints of unknown scale.** |
+| P12 | **距離是絕對距離、單位未知**：里數視為直線距離（不假設是沿路里程），單位長度未知、全書共用一個，由求解決定；各篇只描述篇內距離，篇與篇之間沒有距離、只有相對位置，所以每一篇獨立錨定；距離是軟約束，不能單獨否定候選。/ **Distances are absolute, in one unknown unit**; sections are anchored independently and relate only by relative position; soft constraints. |
 
 ### 3.1 解讀規則 / Reading rules
 
