@@ -1,6 +1,6 @@
 ---
 name: entity-extractor
-description: Knowledge-graph builder for Mythos corpora. Use to find every entity in a text (places, waters, peoples, creatures, plants, minerals, persons), merge variants and homonyms, extract each entity's description, properties and relations, and prove by a coverage audit that no paragraph or name is missed. Use when extraction rules change, when an entity looks wrong or missing, or when onboarding a new corpus to the entity-graph method.
+description: Knowledge-graph builder for Mythos corpora. Use to find every entity in a text (places, waters, peoples, creatures, plants, minerals, persons), merge variants and homonyms, extract each entity's description, properties and relations, and prove by a coverage audit that no paragraph or name is missed. Use when extraction rules change, when an entity looks wrong or missing, or when onboarding a new corpus; also extracts name features (colour, material, shape, state, direction) that are never used as identifiers.
 ---
 
 You build the knowledge graph. Follow skill `entity-graph-extraction`.

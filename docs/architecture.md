@@ -1,6 +1,7 @@
 # 架構 / Architecture
 
-> v2.0 ・ 2026-10-19
+> v3.0 ・ 2026-10-20 ・ 對應研究框架 v3（時代語義對應）。先前的方法、工具與交付只保留在 git 歷史中。
+> For framework v3. Earlier methods, tools and drafts are in git history only.
 
 ## 1. 分層 / Layers
 
@@ -8,88 +9,66 @@
             ┌──────────────────────────── docs/ ────────────────────────────┐
             │ whitepaper · prd · research-framework · conventions · glossary │
             └────────────────────────────────────────────────────────────────┘
- reference/<corpus>/          tools/<corpus>/                  projects/<corpus>/
- ┌──────────────────┐  ingest ┌──────────────────┐   derive   ┌──────────────────────────┐
- │ sources/<witness>│ ──────▶ │ text layer       │ ─────────▶ │ data/derived/ (text)     │
- │ data/entries     │         │ kg_extract       │ ─────────▶ │ data/derived/kg/ (graph) │
- │ text/*.md        │         │ kg_candidates  ◀─┼─ world ─── │ data/world/ (real world) │
- └──────────────────┘         │ kg_crossval      │ ─────────▶ │ kg/mapping.jsonl         │
-                              │ kg_deliver       │ ─────────▶ │ deliverables/draft-vN/   │
-                              └──────────────────┘            └──────────────────────────┘
-                     .claude/agents + .claude/skills（公共層 + 子項目層 / common + sub-project）
+ reference/<corpus>/          tools/<corpus>/                    projects/<corpus>/
+ ┌──────────────────┐ ingest ┌───────────────────┐   derive   ┌──────────────────────────────┐
+ │ sources/<witness>│ ─────▶ │ text layer        │ ─────────▶ │ data/derived/ (text layer)   │
+ │ data/entries     │        │ kg_extract        │ ─────────▶ │ data/derived/kg/ (graph)     │
+ │ text/*.md        │        │ era_* (pilot)     │ ◀── era ── │ data/era/ (world of period)  │
+ └──────────────────┘        └───────────────────┘ ─────────▶ │ data/derived/era/ (judgments,│
+                                       ▲                       │   mapping) · deliverables/   │
+                    .claude/agents: semantic-matcher …         └──────────────────────────────┘
 ```
 
-- `reference/` 只放原文和忠實的結構化轉寫，**不放詮釋**。/ Source texts and faithful transcriptions only, **no interpretation**.
-- `projects/<corpus>/data/world/` 是真實世界庫，在計分之前提交。/ The real-world base, committed before scoring.
-- `projects/<corpus>/data/derived/` 全部可由 `tools/` 重新產生；`deliverables/` 是交付版本（也由工具產生）。/ Everything derived is regenerable; deliverables are tool-generated too.
-- `tools/` 是確定性的腳本，只用標準庫，固定隨機種子，輸出逐位元組可重現。/ Deterministic, standard-library scripts with fixed seeds.
+- `reference/` 只放原文和忠實的結構化轉寫，**不放詮釋**；注疏只作為轉錄保存，不進入分析。/ Sources and faithful transcriptions only; commentary is never analysed.
+- `data/era/` 是時代世界庫，在計分之前提交。/ The era world base, committed before scoring.
+- `data/derived/` 與 `deliverables/` 全部由工具與判斷紀錄產生。/ Everything derived comes from tools and judgment records.
+- 工具只用標準庫，固定種子，輸出可重現；大模型的判斷存成紀錄，輸入不變不重判。/ Standard-library tools; LLM judgments are recorded and re-run only on change.
 
 ## 2. 流程與代理分工 / Pipeline and roles
 
 | 步驟 / Step | 主責 / Lead | 支援 / Support | Skill | 山海經工具 / SHJ tool |
 |---|---|---|---|---|
-| 0 語料與校勘 / Corpus and collation | `textual-critic` | — | `source-ingest`, `witness-collation` | `fetch_sources`, `ingest`, `collate`, `align_witness`, `classify_variants`, `extract_routes` |
-| 1–2 實體、性質、關係 / Entities, properties, relations | `entity-extractor` | `textual-critic` | `entity-graph-extraction` | `kg_extract`（`cues`）|
-| 3 真實世界候選 / Candidates | `world-candidate-scout` | — | `world-candidate-generation` | `kg_candidates`（`kg_common`）|
-| 4 交叉驗證 / Cross-validation | `cross-validator` | `devils-advocate` | `graph-cross-validation` | `kg_crossval`, `kg_sensitivity`, `kg_sections` |
-| 5 交付 / Deliverable | `shj-lead` | `devils-advocate` | `shj-era-mapping` | `kg_deliver` |
-| 全程協調 / Orchestration | `shj-lead` | 全部 / all | `shj-era-mapping` | — |
-
-**時代語義版（框架 v3）/ Era-semantic version**：時代世界 → `civilization-scout`、`palaeo-geographer`（skill `era-world-modelling`）；觀察框架（`observer-frame`）；候選與語義評分 → `semantic-matcher`（`semantic-correlation-matching`、`name-semantics`、`transmission-error-tolerance`）；求解與可信度 → `cross-validator`；洩漏、誘餌、對稱 → `devils-advocate`。工具 `era_frame`、`era_tasks`、`era_leakage`、`kg_crossval --era`、`kg_deliver --era` 在試點中建立。
+| 0 原始文本 / original text | `textual-critic` | — | `source-ingest`, `witness-collation`, `transmission-error-tolerance` | `fetch_sources`, `ingest`, `collate`, `align_witness`, `classify_variants`, `extract_routes` |
+| 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `entity-extractor` | `textual-critic` | `entity-graph-extraction`, `name-semantics` | `kg_extract`（`cues`）|
+| 3 觀察框架 / observer frame | `cross-validator` | — | `observer-frame` | `era_frame`（待建）|
+| 4 時代世界 / era world | `civilization-scout`, `palaeo-geographer` | — | `era-world-modelling` | `data/era/` |
+| 5–7 候選與語義評分 / candidates and judgments | `semantic-matcher` | `civilization-scout` | `semantic-correlation-matching` | `era_tasks`, `era_relations`（待建）|
+| 8–9 求解、可信度、假說 / solving, confidence, hypotheses | `cross-validator` | `devils-advocate` | `graph-cross-validation` | `era_solve`, `era_sensitivity`, `era_sections`, `era_leakage`（待建）|
+| 10 交付與當時地圖 / deliverable and era map | `shj-lead` | `devils-advocate`, `palaeo-geographer` | `shj-era-mapping` | `era_deliver`（待建）|
+| 全程協調 / orchestration | `shj-lead` | 全部 / all | `shj-era-mapping` | — |
 
 ## 3. Agent 與 Skill 清單 / Catalogue
 
 | 層 / Layer | 類型 / Kind | 名稱 / Name | 用途 / Purpose |
 |---|---|---|---|
-| 公共 Common | agent | [textual-critic](../.claude/agents/textual-critic.md) | 校勘、引文核對、工作文本 / collation, quotation checks, working text |
-| 公共 Common | agent | [entity-extractor](../.claude/agents/entity-extractor.md) | 實體、性質、關係與覆蓋檢查 / entities, properties, relations, coverage audit |
-| 公共 Common | agent | [world-candidate-scout](../.claude/agents/world-candidate-scout.md) | 真實世界庫與候選、庫的平衡 / world base, candidates, balance |
-| 公共 Common | agent | [cross-validator](../.claude/agents/cross-validator.md) | 聯合求解、可信度、確定性與一致性檢查 / joint solve, confidence, checks |
-| 公共 Common | agent | [devils-advocate](../.claude/agents/devils-advocate.md) | 紅隊 / red team |
-| 公共 Common | agent | [semantic-matcher](../.claude/agents/semantic-matcher.md) | 遮蔽下的候選生成與語義評分 / masked candidates and semantic scores |
+| 公共 Common | agent | [textual-critic](../.claude/agents/textual-critic.md) | 原文、校勘、替代讀法 / original text, collation, variant readings |
+| 公共 Common | agent | [entity-extractor](../.claude/agents/entity-extractor.md) | 實體、關係、名稱語義、覆蓋檢查 / entities, relations, name features, coverage |
+| 公共 Common | agent | [semantic-matcher](../.claude/agents/semantic-matcher.md) | 遮蔽下的候選生成與語義評分 / masked candidates and judgments |
 | 公共 Common | agent | [civilization-scout](../.claude/agents/civilization-scout.md) | 時代內的文明、造物與人群 / civilisations, works, peoples of the period |
 | 公共 Common | agent | [palaeo-geographer](../.claude/agents/palaeo-geographer.md) | 時代內的地理、動物與地圖 / geography, fauna and map of the period |
+| 公共 Common | agent | [cross-validator](../.claude/agents/cross-validator.md) | 觀察框架、求解、可信度、假說組態 / frame, solver, confidence, held configurations |
+| 公共 Common | agent | [devils-advocate](../.claude/agents/devils-advocate.md) | 紅隊：洩漏、誘餌、對稱、年代 / red team |
 | 公共 Common | skill | [source-ingest](../.claude/skills/source-ingest/SKILL.md) | 新語料入庫 / onboard a corpus |
-| 公共 Common | skill | [witness-collation](../.claude/skills/witness-collation/SKILL.md) | 見證本對勘與異文分類 / collation and variant classes |
-| 公共 Common | skill | [entity-graph-extraction](../.claude/skills/entity-graph-extraction/SKILL.md) | 步驟 1–2 / steps 1–2 |
-| 公共 Common | skill | [world-candidate-generation](../.claude/skills/world-candidate-generation/SKILL.md) | 步驟 3 / step 3 |
-| 公共 Common | skill | [graph-cross-validation](../.claude/skills/graph-cross-validation/SKILL.md) | 步驟 4 / step 4 |
-| 公共 Common | skill | [semantic-correlation-matching](../.claude/skills/semantic-correlation-matching/SKILL.md) | 語義評分規程 / judgment protocol |
-| 公共 Common | skill | [era-world-modelling](../.claude/skills/era-world-modelling/SKILL.md) | 時代世界 / world of the period |
-| 公共 Common | skill | [name-semantics](../.claude/skills/name-semantics/SKILL.md) | 名稱語義 / name semantics |
+| 公共 Common | skill | [witness-collation](../.claude/skills/witness-collation/SKILL.md) | 見證本對勘 / collation |
 | 公共 Common | skill | [transmission-error-tolerance](../.claude/skills/transmission-error-tolerance/SKILL.md) | 傳承錯誤 / transmission errors |
+| 公共 Common | skill | [entity-graph-extraction](../.claude/skills/entity-graph-extraction/SKILL.md) | 實體與關係 / entities and relations |
+| 公共 Common | skill | [name-semantics](../.claude/skills/name-semantics/SKILL.md) | 名稱語義 / name semantics |
 | 公共 Common | skill | [observer-frame](../.claude/skills/observer-frame/SKILL.md) | 觀察框架 / observer frame |
+| 公共 Common | skill | [era-world-modelling](../.claude/skills/era-world-modelling/SKILL.md) | 時代世界 / world of the period |
+| 公共 Common | skill | [semantic-correlation-matching](../.claude/skills/semantic-correlation-matching/SKILL.md) | 語義評分規程 / judgment protocol |
+| 公共 Common | skill | [graph-cross-validation](../.claude/skills/graph-cross-validation/SKILL.md) | 聯合求解與可信度 / joint solving and confidence |
 | 山海經 SHJ | agent | [shj-lead](../.claude/agents/shj-lead.md) | 子項目主持 / sub-project lead |
-| 山海經 SHJ | skill | [shj-era-mapping](../.claude/skills/shj-era-mapping/SKILL.md) | 時代語義版 runbook / era-semantic runbook |
+| 山海經 SHJ | skill | [shj-era-mapping](../.claude/skills/shj-era-mapping/SKILL.md) | runbook |
 
 ## 4. 公共層與子項目層 / Common vs sub-project
 
-| 公共（與語料無關）/ Common | 山海經專用 / Shanhaijing-specific |
+| 公共 / Common | 山海經專用 / Shanhaijing-specific |
 |---|---|
-| 五個步驟、計分公式、可信度與級別、完整性規則（`docs/research-framework.md`）/ steps, scoring, confidence, completeness | 實體句式（曰X之山、X水出焉、注于X…）、異體摺疊、`cues.py` 詞彙 / sentence patterns, glyph folding, cue vocabulary |
-| 求解器設計（退火、ICM、區塊調整、丟棄重解）/ solver design | 關係權重（規格 §5）、唯一性 2.0、主要水體的定義 / relation weights, uniqueness, major-water rule |
-| 真實世界庫的格式（地區、性質、水體、動物、文化）/ world-base schemas | 庫的內容（31 地區、135 水體、116 動物、47 文化）/ base contents |
-| 紅隊檢查 / red-team checks | 交付格式（`book/NN-書名.md`）/ deliverable layout |
+| 框架 v3 的步驟、原則、解讀規則、計分與求解、紅隊（`docs/research-framework.md`）| 時代窗口（前 4000–前 2000）、原點（中原）、實體句式、名稱語義詞表、試點範圍 |
+| 判斷紀錄格式、遮蔽與洩漏檢測 | 重點文明（兩河流域、哈拉帕、古埃及）與對立文明清單 |
+| 時代世界庫的卡片格式 | `data/era/` 的內容、`era-world.md` |
 
-## 5. 退役紀錄 / Retirement record (2026-10-19)
-
-實體圖譜交叉驗證取代了先前的兩個方法；它們的檔案已刪除，保留在 git 歷史中（`git log --diff-filter=D --stat` 可查）。
-Entity-graph cross-validation replaced the two earlier methods; their files are deleted and remain in git history (`git log --diff-filter=D --stat`).
-
-| 退役項目 / Retired | 種類 / Kind | 原因 / Reason |
-|---|---|---|
-| 方法 A（S0–S9 假說卷宗、證據分級、校改預算、裁決）/ Method A | 方法 / method | 以單一假說為中心，不以全書為基準 / hypothesis-centred, not whole-book |
-| 方法 G（描述優先的地點比對、地區性質比對）/ Method G | 方法 / method | 逐地比對，沒有實體之間的交叉驗證 / per-place matching without cross-validation |
-| `chain_fit.py`, `calibrate.py`, `river_graph.py`, `geo_match.py`, `region_match.py`, `animal_map.py`, `creatures.py` | 工具 / tools | 由 `kg_*.py` 取代 / superseded by `kg_*.py` |
-| `loci.jsonl`, `data/geo/anchors-*.jsonl`, `animal-map.*`, `creatures.jsonl`, `global-map.*`, `peoples-map.md`, `river-graph.*` | 資料 / data | 同上 / same |
-| `hypotheses/H-0001…H-0006`、`reports/draft-v0.1.md`、`reports/draft-v1.0-global.md`、`findings/F-0003`、`F-0004`、`docs/method-g-global.md` | 文檔與交付 / docs and deliverables | 由 `deliverables/draft-v2/` 取代 / superseded |
-| `deliverables/draft-v1/` | 交付 / deliverable | 紅隊審查 R1 撤回其主要結論，由 draft-v2 取代 / withdrawn by review R1, superseded by draft-v2 |
-| `deliverables/draft-v2/` | 交付 / deliverable | 由採用解讀規則 R1–R7 的 draft-v3 取代 / superseded by draft-v3 (reading rules R1–R7) |
-| skill `shj-entity-mapping` | 技能 / skill | 由 `shj-era-mapping` 取代（2026-10-20）/ replaced by shj-era-mapping |
-| agents `adjudicator`, `geo-triangulator`, `naturalist`, `shj-route-reconstructor`；skills `hypothesis-adjudication`, `toponym-triangulation`, `biogeo-identification`, `description-first-matching`, `shj-hypothesis-case`, `shj-itinerary-reconstruction`, `shj-global-locate` | 代理與技能 / agents and skills | 由新的公共層取代 / replaced by the new common layer |
-
-## 6. 新語料接入 / Adding a corpus
-
+## 5. 新語料接入 / Adding a corpus
 1. 依 `source-ingest` 建立 `reference/<corpus>/` 和 `tools/<corpus>/`。/ Create both per `source-ingest`.
-2. 寫 `projects/<corpus>/docs/methodology-spec.md`，只寫專用部分：實體句式、關係權重、交付格式。/ A spec with only the specific parts.
-3. 建立或擴充真實世界庫；其他一律重用公共層。/ Build or extend the world base; reuse the common layer for everything else.
+2. 決定時代窗口與觀察原點，寫 `projects/<corpus>/docs/era-world.md` 與規格（只寫專用部分）。/ Set the window and origin; write era-world and a spec.
+3. 建立該時代的世界庫；其他一律重用公共層。/ Build the era base; reuse the common layer.

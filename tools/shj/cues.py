@@ -1,7 +1,8 @@
-"""Description cue lexicon for the entity-graph method (projects/shanhaijing/docs/methodology-spec.md §3).
+"""Description cue lexicon for the Shanhaijing knowledge graph (projects/shanhaijing/docs/methodology-spec.md §3).
 
-Maps the book's descriptive phrases to the tag vocabularies of projects/shanhaijing/data/world/ (animals.jsonl,
-region-properties.jsonl, cultures.jsonl). Names are never used: callers strip the 「(其)名曰X」 clause before tagging.
+Maps the book's descriptive phrases to tag vocabularies (projects/shanhaijing/data/era/: fauna-era.jsonl,
+region-properties.jsonl, cultures-era.jsonl). Auxiliary in framework v3, where the semantic judgments are primary.
+Names are never used: callers strip the 「(其)名曰X」 clause before tagging.
 """
 import re
 
@@ -72,7 +73,7 @@ def creature_tags(text: str) -> set[str]:
     return tags
 
 
-# Region-property cues for mountains and places (data/world/region-properties.jsonl).
+# Region-property cues for mountains and places (data/era/region-properties.jsonl).
 # Each maps a textual cue to a region property. Notes: 「玉」 -> jade is an interpretive step (玉 covers precious
 # stones generally); 「丹粟」 are cinnabar grains, so 粟 counts as millet only when not preceded by 丹.
 REGION_CUES = [
@@ -115,7 +116,7 @@ def region_cue_hits(text: str) -> dict[str, int]:
     return out
 
 
-# Livelihood / diet cues for peoples (matched against data/world/cultures.jsonl tags; subject clauses only).
+# Livelihood / diet cues for peoples (matched against data/era/cultures-era.jsonl tags; subject clauses only).
 CULTURE_CUES = [(re.compile(p), t) for p, t in [
     (r"食稻|稻食", "rice"), (r"食黍|黍食", "millet"), (r"食穀|穀食|食榖|榖食", "agriculture"), (r"食魚|魚食", "fishing"),
     (r"衣魚|魚皮|衣皮", "fishskin_clothing"), (r"食肉|肉食|不食穀|不粒食", "meat_diet"), (r"使四鳥|使虎豹熊羆", "hunting"),

@@ -10,19 +10,20 @@ description: Runbook for the Shanhaijing (山海經) era-semantic mapping — th
 
 ## 流程 / Pipeline（規格 §1）
 ```bash
-python3 -I tools/shj/kg_extract.py        # 實體、關係、名稱語義
-python3 -I tools/shj/era_frame.py         # 觀察框架（待建 / to build）
-python3 -I tools/shj/era_tasks.py         # 遮蔽後的判斷任務（待建）
-#   → agent semantic-matcher：候選生成與語義評分 → data/derived/era/judgments.jsonl
-python3 -I tools/shj/era_leakage.py       # 洩漏與誘餌（待建）
-python3 -I tools/shj/kg_crossval.py --era # 聯合求解（待建）
-python3 -I tools/shj/kg_sections.py       # 篇段掃描與假說組態
-python3 -I tools/shj/kg_deliver.py --era  # 交付 draft-v4 與當時地圖（待建）
+python3 -I tools/shj/kg_extract.py        # 實體、關係、名稱語義（name_features：T-V03）
+python3 -I tools/shj/era_frame.py         # 觀察框架（T-V04，待建）
+python3 -I tools/shj/era_tasks.py         # 遮蔽後的判斷任務（T-V06，待建）
+#   → agent semantic-matcher：候選生成與語義評分 → data/derived/era/judgments.jsonl（T-V07）
+python3 -I tools/shj/era_leakage.py       # 洩漏與誘餌（T-V08，待建）
+python3 -I tools/shj/era_relations.py && python3 -I tools/shj/era_solve.py   # 關係與聯合求解（T-V09，待建）
+python3 -I tools/shj/era_sensitivity.py && python3 -I tools/shj/era_sections.py   # 敏感度、假說組態（T-V10，待建）
+python3 -I tools/shj/era_deliver.py       # 交付 draft-v4 與當時地圖（T-V11，待建）
 ```
+時代世界庫 `data/era/` 由 agent `civilization-scout` 與 `palaeo-geographer` 建立（T-V05）。
 
 ## 回答「X 在哪裡」或「這個解讀成立嗎」/ Answering
 1. 從全書的對應讀，不做單點搜尋；報告候選、年代、主要吻合維度與證據、可信度、對立候選。/ Read from the whole-book mapping.
-2. 使用者提出的解讀寫成固定組態，與對立組態一起求解（`kg_sections.py`）；不為了解讀改權重。/ Test readings as held configurations.
+2. 使用者提出的解讀寫成固定組態，與對立組態一起求解（`era_sections.py`）；不為了解讀改權重。/ Test readings as held configurations.
 3. 新的解讀原則寫成一般規則（框架 §3.1），對所有候選一體適用。/ New principles become general rules.
 
 ## 檢查 / Checks

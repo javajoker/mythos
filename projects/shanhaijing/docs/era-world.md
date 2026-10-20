@@ -1,6 +1,6 @@
 # 時代世界：前 4000–前 2000 年 / The World of 4000–2000 BCE
 
-> v1.0 ・ 2026-10-20 ・ 山海經被視為這段期間逐步積累的傳承紀錄（項目發起人設定）。本文件列出當時與今日不同之處，作為時代世界庫（`data/world/`）與當時地圖的依據。年代皆為約數，資料來自一般性的考古與古地理概述（多為 Wikipedia 條目）；不使用任何對山海經的既有詮釋。
+> v1.0 ・ 2026-10-20 ・ 山海經被視為這段期間逐步積累的傳承紀錄（項目發起人設定）。本文件列出當時與今日不同之處，作為時代世界庫（`data/era/`）與當時地圖的依據。年代皆為約數，資料來自一般性的考古與古地理概述（多為 Wikipedia 條目）；不使用任何對山海經的既有詮釋。
 > The Shanhaijing is treated as a record accumulated over this period (set by the initiator). This document lists what differed from today, as the basis for the era world base and the map of the period. Dates are approximate; sources are general archaeological and palaeogeographic overviews, never interpretations of the book.
 
 ## 1. 時代窗口 / The window

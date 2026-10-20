@@ -2,7 +2,7 @@
 
 > v3.0 ・ 2026-10-20 ・ 適用於所有語料的公共方法。山海經的實作見 [methodology-spec.md](../projects/shanhaijing/docs/methodology-spec.md)，時代世界見 [era-world.md](../projects/shanhaijing/docs/era-world.md)。
 > The common, corpus-agnostic method. Shanhaijing implementation: methodology-spec.md; the world of the period: era-world.md.
-> v2（實體圖譜交叉驗證，只用今日世界與規則計分）由 v3 取代；其知識圖譜、求解器與完整性規則沿用。/ v3 supersedes v2 and keeps its knowledge graph, solver and completeness rules.
+> 這是唯一的現行方法；先前的版本只保留在 git 歷史中。/ The only current method; earlier versions are in git history only.
 
 ---
 
@@ -76,8 +76,8 @@ Weighted agreement minus capped contradictions plus down-weighted name features;
 
 **關係分數 / Relation score**：每條關係在**當時**是否成立的判斷（0–1，或依可計算的幾何與水系直接計算），權重依關係的可檢驗程度設定。/ Judged or computed at the time, weighted by testability.
 
-**聯合求解、唯一性、可信度 / Joint solution, uniqueness, confidence**：沿用 v2（模擬退火、ICM、區塊調整；可信度 = 穩定度 × (1 − e^(−邊際))），另加判斷的取樣差異與洩漏檢測：可信度再乘以 (1 − 判斷差異) 與洩漏折扣。級別：高 ≥ 0.6、中 ≥ 0.3、低 ≥ 0.1、暫定 < 0.1。
-As in v2, further multiplied by (1 − judgment spread) and a leakage discount.
+**聯合求解、唯一性、可信度 / Joint solution, uniqueness, confidence**：對所有實體同時求解，使總分 E = Σ 自身分數 + Σ 關係分數 − 唯一性懲罰（兩個書中實體對到同一真實實體時扣分）最高：模擬退火（固定種子、部分提議由關係引導）、迭代條件眾數法、區塊調整（一個實體連同相鄰實體一起換候選，總分上升才接受）；不用逐實體多數決。可信度 = 穩定度（完整求解與略去 20% 關係的重解中一致的比例）× (1 − e^(−邊際)) × (1 − 判斷差異) × 洩漏折扣。級別：高 ≥ 0.6、中 ≥ 0.3、低 ≥ 0.1、暫定 < 0.1。
+Joint energy maximisation with simulated annealing, ICM and block moves; confidence = stability × (1 − e^(−margin)) × (1 − judgment spread) × leakage discount.
 
 **假說檢驗 / Hypothesis tests**：一個解讀寫成固定組態，其餘全書重新求解，與自由解及對立組態比較，列出被違反的關係。/ Held configurations against the free solution and rivals.
 

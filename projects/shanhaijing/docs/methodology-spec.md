@@ -1,7 +1,7 @@
 # 山海經時代語義對應規格 / Shanhaijing Era-Semantic Correspondence Spec
 
-> v3.0 ・ 2026-10-20 ・ 實作 [研究框架 v3](../../../docs/research-framework.md)；時代世界見 [era-world.md](era-world.md)。目標交付：`deliverables/draft-v4/`。v2.1（今日世界、規則計分，交付 draft-v3）保留作為對照，直到 draft-v4 通過紅隊審查。
-> Implements framework v3. Target deliverable draft-v4. The v2.1 pipeline and draft-v3 stay as a baseline until draft-v4 passes review.
+> v3.0 ・ 2026-10-20 ・ 實作 [研究框架 v3](../../../docs/research-framework.md)；時代世界見 [era-world.md](era-world.md)。交付：`deliverables/draft-v4/`。先前的方法與交付只保留在 git 歷史中。
+> Implements framework v3; deliverable draft-v4. Earlier methods and drafts are in git history only.
 
 ---
 
@@ -15,16 +15,16 @@
 
 | 步驟 / Step | 工具或代理 / Tool or agent | 輸出 / Outputs | 狀態 / Status |
 |---|---|---|---|
-| 0 文本層 / text layer | `ingest.py` … `extract_routes.py` | `entries.jsonl`, `working-text.jsonl`, `stations.jsonl` | 沿用 / kept |
-| 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `kg_extract.py`（加 `name_features`）| `kg/nodes.jsonl`, `kg/edges.jsonl` … | 修改 / extend |
-| 3 觀察框架 / observer frame | `era_frame.py` | `era/frame.jsonl`（每站從原點的方位與累計里數）| 新 / new |
-| 4 時代世界庫 / era world base | `civilization-scout`、`palaeo-geographer`（代理）→ `data/era/` | 遺址、造物、時代地理、時代動物的屬性卡 | 新 / new |
-| 5 候選生成 / candidates | `semantic-matcher`（代理）＋ `era_tasks.py`（產生遮蔽後的判斷任務）| `era/candidates.jsonl` | 新 / new |
-| 6 語義評分 / semantic judgments | `semantic-matcher`（代理）| `era/judgments.jsonl`（逐項分數、證據、理由、樣本）| 新 / new |
-| 7 關係評分 / relation judgments | 可計算者用 `era_relations.py`；需語義者用 `semantic-matcher` | `era/relation-judgments.jsonl` | 新 / new |
-| 8 聯合求解 / joint solution | `kg_crossval.py --era`（以判斷分數取代規則分數）| `era/mapping.jsonl` | 修改 / extend |
-| 9 可信度、紅隊、假說 / confidence, review, hypotheses | `kg_sensitivity.py`、`kg_sections.py`、`era_leakage.py`；`devils-advocate` | `era/sensitivity/`, `era/sections/`, `era/leakage.md` | 修改＋新 / extend, new |
-| 10 交付與當時地圖 / deliverable and era map | `kg_deliver.py --era` | `deliverables/draft-v4/`（含 `era-map.svg`）| 修改 / extend |
+| 0 文本層 / text layer | `ingest.py` … `extract_routes.py` | `entries.jsonl`, `working-text.jsonl`, `stations.jsonl` | 已有 / done |
+| 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `kg_extract.py`（`name_features` 待加）| `kg/nodes.jsonl`, `kg/edges.jsonl` … | 已有，待擴充 / done, to extend |
+| 3 觀察框架 / observer frame | `era_frame.py` | `era/frame.jsonl`（每站從原點的方位與累計里數）| 待建 / to build |
+| 4 時代世界庫 / era world base | `civilization-scout`、`palaeo-geographer`（代理）→ `data/era/` | 遺址、造物、時代地理、時代動物的屬性卡 | 種子已有，待轉換 / seeds, to convert |
+| 5 候選生成 / candidates | `semantic-matcher`（代理）＋ `era_tasks.py`（產生遮蔽後的判斷任務）| `era/candidates.jsonl` | 待建 / to build |
+| 6 語義評分 / semantic judgments | `semantic-matcher`（代理）| `era/judgments.jsonl`（逐項分數、證據、理由、樣本）| 待做 / to do |
+| 7 關係評分 / relation judgments | 可計算者用 `era_relations.py`；需語義者用 `semantic-matcher` | `era/relation-judgments.jsonl` | 待建 / to build |
+| 8 聯合求解 / joint solution | `era_solve.py`（以判斷分數計分；求解器改寫自 git 歷史中的 `kg_crossval.py`）| `era/mapping.jsonl` | 待建 / to build |
+| 9 可信度、紅隊、假說 / confidence, review, hypotheses | `era_sensitivity.py`、`era_sections.py`、`era_leakage.py`；`devils-advocate` | `era/sensitivity/`, `era/sections/`, `era/leakage.md` | 待建 / to build |
+| 10 交付與當時地圖 / deliverable and era map | `era_deliver.py` | `deliverables/draft-v4/`（含 `era-map.svg`）| 待建 / to build |
 
 **試點**：先做西山經四篇與大荒西經，確認流程、成本與判斷品質，再擴及全書。/ Pilot: the four West sections and 大荒西經 first.
 
@@ -122,20 +122,21 @@
 **傳承錯誤 / Transmission errors**（R11）：判斷時允許替代讀法（形近字、數字、錯簡），記為 `variant_reading` 並扣 0.1；所用讀法須來自見證本或明列的錯誤類型。/ variant readings at −0.1, sourced from witnesses or a stated error type.
 
 ## 7. 關係評分 / Relation judgments（步驟 7）
-- **可計算的**（相鄰、方位、注入、發源、同區）：依時代地理的座標與連接直接計算，沿用 v2 的因子並套用 R1–R6。/ Computable relations as in v2, on period geography.
+- **可計算的**（相鄰、方位、注入、發源、同區）：依時代地理的座標與連接直接計算：注入（候選的去處正是對方 +2.0、地圖讀法下反向相接 +1.5、同區 +0.3、否則 −1.0）、發源（一端在山的地區 +1.0、另一端 ×0.8、相鄰 +0.3、否則 −0.5）、相鄰站（同區 +0.3、相鄰區 +0.1、否則 −0.3）、方位（與書中方位相差 ≤ 67.5° 時 +0.2，否則 −0.1）；套用 R1–R6。/ Computable relations on period geography, with these weights.
 - **需語義的**（環之、其外有、濱、望見、居、生）：由 `semantic-matcher` 判斷兩個候選在當時是否處於該關係，給 0–1 與理由。/ Semantic relations judged.
 - 相鄰實體的候選年代不重疊時扣分（R8）：相差 ≤ 500 年不扣，> 1000 年扣 0.2。/ Date gaps between neighbours.
 
 ## 8. 聯合求解與可信度 / Joint solution and confidence
-沿用 v2（模擬退火、ICM、區塊調整、唯一性、取樣穩定度、邊際）；可信度再乘以 (1 − 判斷標準差) 與洩漏折扣（§9）。級別同框架。/ As in v2, times (1 − judgment spread) and a leakage discount.
+總分 E = Σ 自身分數 + Σ 關係分數 − 唯一性懲罰（兩個書中實體對到同一真實實體，每對 2.0）；以模擬退火（多條鏈、固定種子、一半提議由關係引導）、ICM 與區塊調整求最高；對應 = 總分最高的組態。可信度 = 穩定度（完整求解與略去 20% 關係的重解中一致的比例）× (1 − e^(−邊際)) × (1 − 判斷標準差) × 洩漏折扣（§9）。級別同框架。輸出逐位元組可重現。/ Energy, annealing with ICM and block moves, confidence with judgment spread and leakage; byte-reproducible.
 
 ## 9. 先入知識、誘餌與假說 / Leakage, decoys, hypotheses
 - **洩漏檢測**：抽樣 10% 的實體，以不遮蔽的輸入再判一次；若最佳候選改變或分數差 > 0.3，標記 `leakage` 並把可信度乘以 0.5。/ 10% re-judged unmasked; differences flag leakage.
 - **誘餌**：每批混入 5% 人工編造的描述（隨機組合書中常見特徵）；若誘餌被高分套到某個熱門候選，該候選的所有判斷降權並在紅隊中報告。/ 5% synthetic decoys per batch.
-- **假說檢驗**：`kg_sections.py` 的固定組態與篇段掃描，改以時代世界與判斷分數計算。/ Held configurations on the era base.
+- **假說檢驗**：`era_sections.py`：一個解讀寫成固定組態（例：西次三經 = 古埃及），其餘全書重新求解，與自由解、對立組態、誘餌比較總分並列出被違反的關係；篇段 × 遺址或地區的掃描即當時的篇段地圖。/ Held configurations and section scans.
 
 ## 10. 交付 / Deliverable（`deliverables/draft-v4/`）
-- 沿用 draft-v3 的逐段對照、實體總表、各類對應表、完整性檢查；每個對應另附：候選的年代與當時樣貌、主要的吻合維度與證據、名稱特徵是否參與、洩漏標記。/ As in draft-v3, plus period, matched dimensions with evidence, name-feature use, leakage flag.
+- `book/NN-書名.md`：逐段的原文、段內每個實體、對應、年代與當時樣貌、可信度與穩健度、主要吻合維度與證據、名稱特徵是否參與、洩漏標記；未對應的寫明原因。/ per paragraph.
+- `entities.md` 與各類對應表；`coverage.md` 完整性檢查（段落數與提及數必須相等）。/ catalogue, tables, completeness check.
 - **當時地圖** `era-map.svg`：約前 2500 年的海岸線與河道、撒哈拉乾濕界線、文明遺址與造物、中原原點與各篇的方位線，疊加對應與可信度。/ The era map.
 - `hypotheses.md`：篇段掃描與聯合假說（含兩河流域、哈拉帕、古埃及的組態與對立組態）。
 

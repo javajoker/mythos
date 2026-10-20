@@ -1,6 +1,6 @@
 ---
 name: entity-graph-extraction
-description: Turn an ancient text into a knowledge graph — find every entity (places, waters, peoples, creatures, plants, minerals, persons), merge variants and homonyms, record each entity's description and properties, and extract the relations between entities (adjacent, rises at, flows into, located, sees, produces, begets…), with a coverage audit proving no paragraph or name pattern was missed. Use for steps 1–2 of the entity-graph method on any corpus, or when asked to "extract all entities", "build the knowledge graph", or "check that nothing is missed".
+description: Turn an ancient text into a knowledge graph — find every entity (places, waters, peoples, creatures, plants, minerals, persons), merge variants and homonyms, record each entity's description and properties, and extract the relations between entities (adjacent, rises at, flows into, located, sees, produces, begets…), with a coverage audit proving no paragraph or name pattern was missed. Use for steps 1–2 of the era-semantic method (framework v3) on any corpus, or when asked to "extract all entities", "build the knowledge graph", or "check that nothing is missed".
 ---
 
 # 實體圖譜抽取 / Entity-graph extraction（步驟 1–2）

@@ -1,4 +1,4 @@
-"""Step 1–2 of the entity-graph method: extract, merge and relate every entity in the Shanhaijing.
+"""Steps 1–2 of framework v3: extract, merge and relate every entity in the Shanhaijing (the knowledge graph).
 
 Builds the knowledge graph from all 869 paragraphs:
   nodes   MTN mountain · WAT water · LND land feature/place · POL polity/people · CRE creature · PLA plant ·
