@@ -33,9 +33,11 @@ Specs: `docs/research-framework.md`, `projects/shanhaijing/docs/methodology-spec
 ```bash
 python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/align_witness.py && python3 -I tools/shj/classify_variants.py && python3 -I tools/shj/extract_routes.py   # text layer
 python3 -I tools/shj/kg_extract.py      # knowledge graph + coverage audit
+python3 -I tools/shj/era_frame.py       # observer frame: section routes and profiles
+python3 -I tools/shj/era_anchors.py     # report and map from the section-anchor judgments (era/anchors.jsonl)
 python3 -I tools/shj/cn_numerals.py     # self-test
 ```
-Era tools (`era_frame`, `era_tasks`, `era_leakage`, `era_relations`, `era_solve`, `era_sensitivity`, `era_sections`, `era_deliver`) are built in the pilot (tasks T-V04–T-V11). Remove `tools/shj/__pycache__` before committing. Commit each finished task.
+Further era tools (`era_tasks`, `era_leakage`, `era_relations`, `era_solve`, `era_sensitivity`, `era_sections`, `era_deliver`) are built in the pilot (tasks T-V05–T-V11). Remove `tools/shj/__pycache__` before committing. Commit each finished task.
 
 ## Languages
 Docs are in Traditional Chinese and English. When a corpus in a new language is added, add that language per `docs/conventions.md` §1. Never convert quotations to simplified characters or normalise variant glyphs.

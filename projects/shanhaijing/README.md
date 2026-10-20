@@ -23,7 +23,8 @@
 - ✅ 文本層：三個見證本、869 段、明成化本為序的工作文本、異文首輪分類 / text layer
 - ✅ 知識圖譜：全書實體與關係，覆蓋檢查通過 / knowledge graph
 - ✅ 框架 v3、時代世界文件、規格、agent 與 skill / framework v3, era world doc, spec, agents, skills
-- ⏳ 下一步：試點（西山經四篇與大荒西經）：名稱語義、觀察框架、時代世界庫、遮蔽的語義評分、求解，之後擴及全書並交付 draft-v4 / next: the pilot, then draft-v4
+- ✅ 觀察框架與西、東、中山經的篇段錨點（暫定，未遮蔽）：[anchors.md](data/derived/era/anchors.md)、[anchor-map.svg](data/derived/era/anchor-map.svg) / observer frame and provisional section anchors
+- ⏳ 下一步：以遮蔽輸入重判錨點、時代世界庫、逐實體語義評分、求解，之後擴及全書並交付 draft-v4 / next: masked re-judging, era base, entity judgments, solver, draft-v4
 
 先前方法的結果與交付只保留在 git 歷史中。/ Earlier methods and drafts are in git history only.
 

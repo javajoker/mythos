@@ -35,7 +35,9 @@
 | T-V01 | 研究框架 v3、時代世界文件、規格 v3、資料模型 / framework, era-world, spec, data model | `shj-lead` | ✅ |
 | T-V02 | agent 與 skill / agents and skills | `shj-lead` | ✅ |
 | T-V03 | 名稱語義 `name_features`（顏色、材質、形狀、狀態、方位）/ name features | `entity-extractor` | ⬜ |
-| T-V04 | 觀察框架 `era_frame.py` / observer frame | `cross-validator` | ⬜ |
+| T-V04 | 觀察框架 `era_frame.py`：各篇路線（里）與概況（地形、物產、水、生物）/ observer frame and section profiles | `era_frame.py` → `era/frame.jsonl`, `profiles.jsonl`, `profiles.md` | ✅ |
+| T-V04b | 西、東、中山經的篇段錨點（暫定，未遮蔽，`anchor-1.0`）：比例尺約 0.2–0.3 公里／里；西次三經的領先錨點為青海—崑崙—塔里木，帕米爾為接近的對立候選；報告與地圖 / provisional section anchors, report and map | `era_anchors.py` → `era/anchors.jsonl`, `anchors.md`, `anchor-map.svg` | ✅（暫定）|
+| T-V04c | 以遮蔽輸入重判篇段錨點，與未遮蔽的結果比較（洩漏）/ re-judge anchors masked and compare | `semantic-matcher`, `devils-advocate` | ⬜ |
 | T-V05 | 時代世界庫：把 `data/era/` 的種子改為窗口內的狀態；新建 `sites.jsonl`（遺址與造物，含對立文明）與 `palaeo-coast.json` / convert the seeds; sites; palaeo coasts | `civilization-scout`, `palaeo-geographer` | ⬜ |
 | T-V06 | 判斷任務 `era_tasks.py`（遮蔽、名稱特徵、關係摘要、樣本、雜湊、誘餌）/ judgment tasks | `cross-validator` | ⬜ |
 | T-V07 | 試點的候選生成與語義評分 / pilot judgments | `semantic-matcher` | ⬜ |

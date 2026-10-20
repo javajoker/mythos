@@ -17,7 +17,8 @@
 |---|---|---|---|
 | 0 文本層 / text layer | `ingest.py` … `extract_routes.py` | `entries.jsonl`, `working-text.jsonl`, `stations.jsonl` | 已有 / done |
 | 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `kg_extract.py`（`name_features` 待加）| `kg/nodes.jsonl`, `kg/edges.jsonl` … | 已有，待擴充 / done, to extend |
-| 3 觀察框架 / observer frame | `era_frame.py` | `era/frame.jsonl`（每站從原點的方位與累計里數）| 待建 / to build |
+| 3 觀察框架 / observer frame | `era_frame.py` | `era/frame.jsonl`、`profiles.jsonl`、`profiles.md`（各篇路線與概況）| 已有 / done |
+| 3b 篇段錨點 / section anchors | 大模型判斷（`anchor-1.0`）→ `era_anchors.py` | `era/anchors.jsonl`、`anchors.md`、`anchor-map.svg` | 暫定 / provisional |
 | 4 時代世界庫 / era world base | `civilization-scout`、`palaeo-geographer`（代理）→ `data/era/` | 遺址、造物、時代地理、時代動物的屬性卡 | 種子已有，待轉換 / seeds, to convert |
 | 5 候選生成 / candidates | `semantic-matcher`（代理）＋ `era_tasks.py`（產生遮蔽後的判斷任務）| `era/candidates.jsonl` | 待建 / to build |
 | 6 語義評分 / semantic judgments | `semantic-matcher`（代理）| `era/judgments.jsonl`（逐項分數、證據、理由、樣本）| 待做 / to do |
@@ -79,6 +80,9 @@
 ## 4. 觀察框架 / Observer frame（R9）
 - 每篇山經以其首站為起點，依「又{方}{N}里」累計出相對路線；路線的**起點位置**與**比例尺**（里 → 公里）都是未知數，由求解決定，比例尺的先驗範圍很寬。/ Each section's route is built from its legs; its start and its li-to-km scale are unknowns.
 - 篇名的方位（南山經、西山經…）與海經、大荒經的方位從原點理解，作為**軟約束**：方向相差越多扣分越多，但不能單獨否決。/ Book directions read from the origin as soft constraints.
+
+### 4.1 篇段錨點 / Section anchors
+在逐實體評分之前，先為每一篇判斷大致的位置（錨點）：候選地帶（含遠方對立候選）、起點與比例尺，依方位（斜向容許 ±67.5° 偏移）、路線與比例尺、地形外觀（山可為沙丘、貝殼堤、方山；水可為湖、沼澤、海灣）、水系結構、物產、動物逐項評分。錨點作為後續逐實體判斷的先驗與檢查，不是結論。/ Section-level anchors judged before entity-level scoring; a prior and a check, not a conclusion.
 
 ## 5. 時代世界庫與候選 / Era world base and candidates（步驟 4–5）
 

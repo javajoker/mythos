@@ -11,7 +11,8 @@ description: Runbook for the Shanhaijing (山海經) era-semantic mapping — th
 ## 流程 / Pipeline（規格 §1）
 ```bash
 python3 -I tools/shj/kg_extract.py        # 實體、關係、名稱語義（name_features：T-V03）
-python3 -I tools/shj/era_frame.py         # 觀察框架（T-V04，待建）
+python3 -I tools/shj/era_frame.py         # 觀察框架：各篇路線與概況（T-V04）
+python3 -I tools/shj/era_anchors.py       # 篇段錨點的報告與地圖（判斷紀錄 era/anchors.jsonl，T-V04b）
 python3 -I tools/shj/era_tasks.py         # 遮蔽後的判斷任務（T-V06，待建）
 #   → agent semantic-matcher：候選生成與語義評分 → data/derived/era/judgments.jsonl（T-V07）
 python3 -I tools/shj/era_leakage.py       # 洩漏與誘餌（T-V08，待建）
