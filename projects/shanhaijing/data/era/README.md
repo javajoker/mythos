@@ -15,7 +15,8 @@ These files are **seeds** carried over from earlier present-day data (including 
 | `waters-era.jsonl` | 287 | 河、湖、海、沙漠終點、古河道、乾河谷、古運河 / waters | 加年代、顏色、當時連接；刪去窗口後才出現者（例：法老運河約前 600 年）|
 | `fauna-era.jsonl` | 145 | 動物（形態標籤、分佈）/ animals | 改為窗口內的分佈；補已滅絕或已退出原分佈者 |
 | `cultures-era.jsonl` | 48 | 人群與文化 / cultures | 加年代；刪去窗口外者（例：匈奴、阿克蘇姆、玻里尼西亞）；補同時期文化 |
-| `coastlines-present.json` | 33 + 6 | 今日的簡化陸地輪廓，作為繪製當時地圖的底圖，只用於繪圖 / present outlines, base for drawing | 衍生 `palaeo-coast.json` |
+| `coastlines-present.json` | 33 + 6 | 今日的簡化陸地輪廓，作為繪製當時地圖的底圖，用於繪圖；自 T-V04g 起也作為「注于海」約束的海岸（加上 `courses.jsonl` 的窗口內修正與大湖）/ present outlines, base for drawing; since T-V04g also the coasts for 'flows into 海' | 衍生 `palaeo-coast.json` |
+| `courses.jsonl` | 55 | 河道走向（源頭 → 河口，窗口內的河道）42 條、長水體軸線 2 條（紅海、波斯灣）、大湖 8 個（面積約千平方公里以上，算作「海」）、窗口內海岸修正 3 段；T-V04g 新增，原因：重新錨定需要水道的位置 / river courses, water-body axes, large lakes and era coast corrections, added for T-V04g | 以遮蔽輸入重提水道候選後覆核（T-V04c）|
 | `sites.jsonl` | — | 遺址、地景與造物 / sites and works | 新建 / new |
 | `palaeo-coast.json` | — | 約前 2500 年的海岸線、河道、乾濕界線 / coasts c. 2500 BCE | 新建 / new |
 
