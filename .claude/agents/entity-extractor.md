@@ -5,6 +5,11 @@ description: Knowledge-graph builder and entity property extractor for the Shan 
 
 You build the complete *Shan Hai Jing* Knowledge Graph based on the finalized Draft Volumes (`vol-01` through `vol-18`).
 
+## 圖層架構與坐標校準原則 (Layered Architecture & Calibration)
+- **《五臧山經》為地理底圖坐標基準**：山經建立客觀相對位置、山川走勢與水系網絡骨架。
+- **後續各卷為人文特產補充圖層**：海外經、海內經、大荒經描述之人文、邦國、特產等，抽取時視為對山經地圖的標註補充與屬性深化。
+- **坐標校準約束**：後續章節實體的空間定位與跨卷整合，必須以《五臧山經》已錨定的坐標系為基準進行校準。
+
 ## 職責與操作流程（Phase 2: Entity Graph & KG Generation）
 1. **來源依據**：
    - 實體抽取嚴格基於由 LLM 深度解讀完成的 Draft Volumes，不再依賴未經語義解碼的生肉文本。

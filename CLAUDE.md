@@ -15,6 +15,11 @@ Settings by the initiator (2026-10-20):
 - **Phenomenological & Sensory Decoding**: Extreme physical and astronomical phenomena are decoded via sensory reality (e.g. Aurora/Polar Night = 燭龍; Parhelion/Atmospheric Refraction/Solar Posts = 扶桑十日 / Maya E-Groups; Ocean Trenches = 歸墟大壑; Stepped Pyramids/Ziggurats = 崑崙九重之臺).
 - **Bidirectional Reconstruction**: Use preserved accounts of now-extinct fauna, vanished river systems (Green Sahara wadis), and altered coastlines to reverse-reconstruct the earth's environment in 4000–1000 BCE.
 
+## Layered Architecture & Spatial Calibration (圖層架構與五臧山經坐標校準)
+- **《五臧山經》（Books 1–5）作為客觀地理底圖與坐標網**：建立了全書具有精確相對位置、走向方位、里數與水系閉環的基礎空間骨架。
+- **後續各卷（Books 6–18）作為人文、邦國、特產的標註補充圖層**：描述邦國部落、神人帝陵、奇異風物、天文日落日出神話。其本質是疊加、標註、補充在《五臧山經》地圖之上的人文地貌。
+- **以山經坐標校準後續實體**：後續章節的所有實體定位與空間推演，必須嚴格以《五臧山經》確立的地理坐標網作為唯一校準基準（如海外西經/大荒西經校準於西山經坐標軸，海外東經/大荒東經校準於東山經坐標軸）。
+
 ## Two-Phase Pipeline & Execution Rules
 1. **Phase 1: Draft Volumes First (純 LLM 卷冊草稿優先)**:
    - Complete un-lazy, non-grouped draft volumes for all 18 books (869 entries total) before building the global knowledge graph.
