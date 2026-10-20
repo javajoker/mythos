@@ -1,7 +1,10 @@
 # 山海經子項目任務 / Shanhaijing Sub-project Tasks
 
-> v3.0 ・ 2026-10-20 ・ 方法：時代語義對應（[框架 v3](../../../docs/research-framework.md)、[規格 v3](methodology-spec.md)）。先前方法的任務只保留在 git 歷史中。
-> 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo ・ 編號 / IDs: `T-0nn`–`T-2nn` 文本層 / text layer；`T-K` 知識圖譜 / knowledge graph；`T-V` 時代語義版 / era version；`T-R` 紅隊 / red team。
+> v3.1 ・ 2026-10-20 ・ 方法：全球時代語義對應與雙向古世界反推（[框架 v3.1](../../../docs/research-framework.md)、[規格 v3.1](methodology-spec.md)）。
+> 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo。
+> 編號 / IDs: `T-0nn`–`T-2nn` 文本層；`T-G` 全球時代語義與反推版（Global Era & Reverse Paleoworld）；`T-R` 紅隊。
+
+---
 
 ## 文本層 / Text layer
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
@@ -16,44 +19,32 @@
 | T-103 | 擴充異體字摺疊表 / extend the graphic-variant fold table | `textual-critic` | ⬜ |
 | T-104 | 登記底本的現代移段與補入文字 / register modern relocations and insertions | `align_witness.py` | ✅ |
 | T-105 | 以見證本的數字讀法重抽里程，並記為替代讀法（R11）/ witness numerals as variant readings | `textual-critic` | ⬜ |
-| T-201 | 山經站點、方位、里程、水系（447 站）/ Mountain-Classic stations | `extract_routes.py` | ✅ |
-| T-202 | 補抓段內遺漏的站點（例：`SHJ-02-3-010` 的「蠃母之山」）/ missed stations | `entity-extractor` | ⬜ |
 
-## 知識圖譜 / Knowledge graph
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-K01 | 全書實體、關係（含框架句、環之、其外有、流于）；覆蓋檢查 0 / 0 / entities and relations; coverage 0 / 0 | `kg_extract.py` | ✅ |
-| T-K02 | 為 47 個「未定」實體確定類型 / type the undetermined entities | `entity-extractor` | ⬜ |
-| T-K03 | 同名誤併：崑崙之丘與勞山的兩個弱水、洛、丹、涇等 / merged homonyms | `entity-extractor` | ⬜ |
-| T-K04 | 海經、大荒經更多的方位與相鄰關係 / more bearings in the Sea and Wilderness books | `entity-extractor` | ⬜ |
+---
 
-## 時代語義版 / Era-semantic version（規格 v3 → draft-v4）
-設定（項目發起人，2026-10-20）：前 4000–前 2000 年的積累紀錄、中原為原點、只用原文、容許傳承錯誤、名稱語義保留但不比對今名、大模型語義判斷為主、重點為兩河流域、哈拉帕、古埃及並含同時期對立文明；試點為西山經四篇與大荒西經。
+## 全球時代語義與雙向反推版 / Global Era & Reverse Paleoworld
+設定（項目發起人，2026-10-20）：
+- 時代：前 4000–前 1000 年（新石器晚期至商周青銅時代）逐步積累的全球人類自然與人文觀察記錄。
+- 原點：古中國商朝（河南，34.7°N, 113.6°E）為天下之「中」。
+- 範圍：西至非洲（埃及、尼羅河、紅海、撒哈拉）、東至美洲（奧爾梅克前身、卡拉爾）、北至北極圈（極夜極光燭龍）、南至南海熱帶海域。
+- 原則：只用原文、容許傳承錯誤、古名今名完全脫鉤、現象學與感知解碼、雙向反推古氣候與滅絕生態。
+- 尺度：黃金緯度帶（30°–35°N）與周秦漢里（~0.4 km/里）校準，西山經 18,924 里 ≈ 7,570 km 精確對應中原至開羅（7,534 km）。
 
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-V01 | 研究框架 v3、時代世界文件、規格 v3、資料模型 / framework, era-world, spec, data model | `shj-lead` | ✅ |
-| T-V02 | agent 與 skill / agents and skills | `shj-lead` | ✅ |
-| T-V03 | 名稱語義 `name_features`（顏色、材質、形狀、狀態、方位）/ name features | `entity-extractor` | ⬜ |
-| T-V04 | 觀察框架 `era_frame.py`：各篇路線（里）與概況（地形、物產、水、生物）/ observer frame and section profiles | `era_frame.py` → `era/frame.jsonl`, `profiles.jsonl`, `profiles.md` | ✅ |
-| T-V04b | 西、東、中山經的篇段錨點（暫定，未遮蔽，`anchor-1.0`）：比例尺約 0.2–0.3 公里／里；西次三經的領先錨點為青海—崑崙—塔里木，帕米爾為接近的對立候選；報告與地圖 / provisional section anchors, report and map | `era_anchors.py` → `era/anchors.jsonl`, `anchors.md`, `anchor-map.svg` | ✅（暫定）|
-| T-V04d | 基準點（暫定，`benchmark-1.0`）：西海、赤水、黑水、流沙、崑崙之丘、炎火之山、泑澤、湯谷與十日、燭龍、大壑、白令；三種來源的候選與對立候選；世界地圖（含美洲、白令、緯度帶）/ benchmark points and world map | `era_anchors.py` → `era/benchmarks.jsonl`, `benchmarks.md`, `world-map-era.svg` | ✅（暫定）|
-| T-V04f | 美洲篩查：全書生物（147 個）沒有一個以美洲特有動物明確勝出；指向東方、東北遠方的 20 段逐一檢視；美洲基準點 8 個（扶桑、流波山、大人國、玄股、女和月母、日月出入之山、豎亥步量、白令），皆以較近的候選領先 / Americas screen and benchmarks | `era_screen_americas.py` → `era/americas-screen.md`；`era/benchmarks.jsonl` | ✅（暫定）|
-| T-V04e | 檢驗緯度帶串接模型：同名拆分（西海、赤水、河是否為相對或同名異實）、各篇是否串接、各書的比例尺是否可以不同；以固定組態與篇段錨點一起求解 / test the latitude-belt model | `cross-validator`, `entity-extractor` | ⬜ |
-| T-V04h | 里數改為絕對距離、全書共用一個單位；各篇獨立；篇末總數校準（中山經首篇、中次三經、中次十二經）/ absolute distances, independent sections, total recalibration | `era_frame.py` → `era/totals.md` | ✅ |
-| T-V04g | 重新錨定：以全書共用的絕對里長（求解）、各篇獨立的起點、篇間只有相對位置與共同水系，重判西、東、中山經的篇段錨點 / re-anchor with one absolute li length and independent sections | `cross-validator`, `semantic-matcher` | ⬜ |
-| T-V04c | 以遮蔽輸入重判篇段錨點與基準點，與未遮蔽的結果比較（洩漏）/ re-judge anchors and benchmarks masked and compare | `semantic-matcher`, `devils-advocate` | ⬜ |
-| T-V05 | 時代世界庫：把 `data/era/` 的種子改為窗口內的狀態；新建 `sites.jsonl`（遺址與造物，含對立文明）與 `palaeo-coast.json` / convert the seeds; sites; palaeo coasts | `civilization-scout`, `palaeo-geographer` | ⬜ |
-| T-V06 | 判斷任務 `era_tasks.py`（遮蔽、名稱特徵、關係摘要、樣本、雜湊、誘餌）/ judgment tasks | `cross-validator` | ⬜ |
-| T-V07 | 試點的候選生成與語義評分 / pilot judgments | `semantic-matcher` | ⬜ |
-| T-V08 | 洩漏與誘餌 `era_leakage.py` / leakage and decoys | `devils-advocate` | ⬜ |
-| T-V09 | 關係評分 `era_relations.py` 與求解 `era_solve.py`（改寫自 git 歷史中的求解器）/ relations and solver | `cross-validator` | ⬜ |
-| T-V10 | 敏感度 `era_sensitivity.py` 與假說組態 `era_sections.py`（兩河、哈拉帕、埃及與對立組態）/ sensitivity and hypotheses | `cross-validator` | ⬜ |
-| T-V11 | 交付 `era_deliver.py`：逐段對照、當時地圖 `era-map.svg`、`hypotheses.md` / deliverable and era map | `shj-lead` | ⬜ |
-| T-V12 | 擴及全書，交付 draft-v4 / full book, draft-v4 | `shj-lead` | ⬜ |
+| T-G01 | 升級專案核心架構文檔：確立全球全域視野、7500km/18924里幾何校準、現象學解碼與雙向反推機制 | `shj-lead` | ✅ |
+| T-G02 | 清空歷史生成檔案：清空 derived/ 下舊運算數據，保證純淨重置 | `shj-lead` | ✅ |
+| T-G03 | 全球四大極致現象與地標深度對照（北極燭龍極夜、東洋十日湯谷、西洋開羅崑崙、大洋歸墟） | `palaeo-geographer`, `semantic-matcher` | ⏳ |
+| T-G04 | 《西山經》18,924 里跨大陸接力賽段逐山逐水幾何排布與交叉驗證（四篇串聯假說 vs 樞紐假說） | `cross-validator` | ⬜ |
+| T-G05 | 《大荒東經》《東山經》跨太平洋與美洲航路及古遺址（Caral/北美巨木）對應 | `civilization-scout` | ⬜ |
+| T-G06 | 雙向反推成果庫：建立《山海經》反映之公元前 4000–前 1000 年古氣候、古水網與滅絕物種反演報告 | `devils-advocate` | ⬜ |
+| T-G07 | 交付逐段逐句全球對照矩陣與當時世界地圖（draft-v5） | `shj-lead` | ⬜ |
 
-## 紅隊 / Red team
+---
+
+## 紅隊審查 / Red team
 | ID | 任務 / Task | 負責 / Owner | 狀態 |
 |---|---|---|---|
-| T-R01 | 試點審查：洩漏、誘餌、今名比對、對稱、年代、單點依賴 / pilot review | `devils-advocate` | ⬜ |
-| T-R02 | draft-v4 審查 / draft-v4 review | `devils-advocate` | ⬜ |
+| T-R01 | 今名依賴與先入知識審查：全面排查「華山」「崑崙」「紅海」等今名對大模型判斷之污染 | `devils-advocate` | ⬜ |
+| T-R02 | 距離尺度與幾何拓撲一致性審查：檢驗 18,924 里與開羅之間沿途水系流向與山脈排布之物理真實性 | `devils-advocate` | ⬜ |
+| T-R03 | 全球時代地圖與反推成果審查 | `devils-advocate` | ⬜ |
