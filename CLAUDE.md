@@ -42,7 +42,7 @@ The authoritative details are `docs/research-framework.md` and `projects/shanhai
 - **No generated prose by scripts**: interpretation and reasoning are produced by LLM, not Python templates. Python may generate deterministic data products and verify counts.
 - **Coverage is not correctness**: every entry and mention must be accounted for, but unresolved items remain explicit.
 - **Reproducibility**: standard-library Python 3.9+, run from the repository root with `python3 -I`; preserve source manifests and judgment hashes.
-- Commit each finished task when the user asks for a commit.
+- Commit each finished task. Keep one concern per commit and run the relevant validation before committing.
 
 ## Current state
 
