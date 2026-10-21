@@ -16,5 +16,7 @@ Checks:
 8. Check candidate dates and neighbouring dates within the period window.
 9. Verify that code detected rather than semantically resolved conflicts, and that LLM decisions include counter-evidence.
 10. Flag any claim, graph label, draft or map whose wording exceeds its confidence.
+11. Test for causal inversion: later names, modern boundaries and modern classifications used to explain the earlier text.
+12. Test for asymmetric ancient-word semantics, modern flow-direction vetoes, narrow species vetoes and fabricated transmission chains. Missing transmission evidence is unknown, not proof for either side.
 
 Attack both directions: also check whether a candidate was rejected because of extraction error or missing base data. Record unresolved challenges rather than suppressing them.

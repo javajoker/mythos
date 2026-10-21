@@ -23,6 +23,8 @@ docs/                 公共方法與規範，不含語料專用固定答案
 
 原文層不放解釋。文本事實圖與解釋圖使用同一實體 ID，但屬性以 `kind` 和 `status` 分層。衍生資料必須能回到工作文本、判斷或 LLM 裁決記錄。
 
+所有層共用同一推論順序：原文 → 靜態形狀／物理特徵 → 古代通用詞義 → 同時代候選 → 對稱評估 → 可信度與未知項。`static.shape`、`static.topology` 記錄形狀與格局；動態 `flows_into` 保留原文方向，候選比較另用有來源的無方向 `connected_to`。後世地名、現代分類與傳播鏈缺失不得提前否決或鎖定答案。
+
 ## 2. 公共層與語料層 / Common versus corpus-specific
 
 | 公共層 / Common | 語料專用層 / Corpus-specific |

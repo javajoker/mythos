@@ -20,6 +20,8 @@ The first object of study is the **Shanhaijing 《山海經》**, with a first-v
 
 The pipeline is: working text → entity extraction → geographic semantic-fit attributes → initial graph → base-section draft → associative and deductive attributes → later sections and graph update → LLM conflict adjudication and merging → iteration → red-team-reviewed delivery and maps.
 
+Every entity follows the same order: **source evidence → static shape and physical features → ancient general semantics → period candidates → symmetric evaluation → confidence and unknowns**. Dynamic flow remains a textual assertion but may become an undirected connection for candidate comparison. Later names, modern classifications and missing transmission chains cannot prematurely veto or lock an answer; unknown mechanisms remain unknown.
+
 For the first SHJ version, geographic mentions in Books 6–18 must reuse nodes from the Five Mountain Classics. This is a graph constraint, not a predetermined geographic answer. Distances are evaluated over **0.35–0.42 km/li**. Sections start independently; cross-section links require evidence.
 
 ## 3. Auditable division of labour

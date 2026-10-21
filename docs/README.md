@@ -9,6 +9,6 @@
 | 規範 / Conventions | [conventions.md](conventions.md)（雙語） | ← |
 | 詞彙表 / Glossary | [glossary.md](glossary.md)（雙語） | ← |
 | 路線圖 / Roadmap | [roadmap.md](roadmap.md)（雙語） | ← |
-| 項目清理與方法決策 / Cleanup & method decisions | [project-review.md](project-review.md)（D01–D24 已裁決 / decided） | ← |
+| 項目清理與方法決策 / Cleanup & method decisions | [project-review.md](project-review.md)（D01–D25 已裁決 / decided） | ← |
 
 子項目 / Sub-projects: [山海經 Shanhaijing](../projects/shanhaijing/README.md)

@@ -22,6 +22,9 @@ Mythos 是一個開放研究項目：把古籍、神話與傳說視為可能保�
 
 - **原文為準**：主文、注疏、異文分離；每個判斷可回到條目 ID 和逐字引文。
 - **競爭假說**：不以今名、名氣或預設地區代替候選比較。
+- **靜態形狀優先**：先比較輪廓、相對位置、連接、環繞、包含、分支與分佈；動態水流和現代流向不作硬性否決。
+- **禁止因果倒置**：後世地名、注釋與現代分類不能反向解釋文本形成；按古代通用詞義理解描述。
+- **承認歷史斷層**：傳播鏈缺失不是正反證，未知機制保持未知，不編造路線或動機。
 - **文本與解釋分層**：文本事實、語義擬合、聯想和演繹屬性各有來源與狀態。
 - **程序與 LLM 分工**：程序檢查、計算和發現衝突；LLM 負責語義裁決，人工覆核最高。
 - **可重現**：原始快照有 SHA-256，工具輸出可重建，判斷有輸入雜湊與版本。
@@ -50,6 +53,8 @@ Mythos is an open research project that reads ancient texts, myths and legends a
 The first sub-project is the **Shanhaijing 《山海經》**, with a first-version period window of **4000–1000 BCE**. Every real-world correspondence is a competing hypothesis, never a predetermined answer.
 
 The iterative v4 pipeline is: working text → entity extraction → geographic semantic-fit attributes → initial knowledge graph → base-section draft → enriched attributes → later sections and graph update → LLM conflict adjudication and merging → repeat until reviewed delivery. For the first SHJ version, geographic mentions in Books 6–18 must reuse nodes from the Five Mountain Classics; this constrains graph structure, not the real-world answer.
+
+Every corpus follows the same judgment order: source evidence → static shape and physical features → ancient general semantics → period candidates → symmetric evaluation → confidence and unknowns. Later names and modern classifications cannot reverse causality; modern flow and missing transmission chains are not standalone vetoes, and unknown mechanisms remain unknown.
 
 See the [research framework](docs/research-framework.md), [SHJ specification](projects/shanhaijing/docs/methodology-spec.md), and [current SHJ status](projects/shanhaijing/README.md).
 

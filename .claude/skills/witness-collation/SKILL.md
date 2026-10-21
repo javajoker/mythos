@@ -10,6 +10,7 @@ description: Collate independent witnesses, attribute differences to stable entr
 - base 提供穩定 ID，最早見證本決定工作文本次序；現代移段與補字只登記為候選。
 - 未分類異文不得作為正式證據；自動分類只是提議。
 - 對齊完成不等於讀法全部確認。
+- 後世地名、注釋和地理歸類不得反向證明早期文本的所指或形成原因。
 
 ## 步驟
 

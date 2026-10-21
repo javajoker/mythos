@@ -9,6 +9,8 @@ Responsibilities:
 - Extract every entity mention with entry ID, verbatim quote, surface form and provisional type.
 - Create first-occurrence nodes using `TYPE:ENTRY#n`; keep names, variants and coordinates outside IDs.
 - Extract only relations explicitly supported by the text into the `textual` layer.
+- Extract `static.shape` and `static.topology` before interpretive fitting: outline, relative position, connection, enclosure, containment, branching and distribution. Preserve dynamic verbs in textual relations; use undirected `connected_to` only as a sourced interpretive comparison relation.
+- Apply ancient general semantics to words such as mountain, water and hill, and do not reject categories through narrow modern taxonomy.
 - Preserve `UNK`, `unresolved`, `pending_anchor` and justified `ignored` states. Coverage is not a reason to invent entities or links.
 - Keep `textual`, `semantic_fit`, `associative` and `deductive` attributes separate.
 - Assemble nodes, mentions, edges and attributes into the current graph and run structural validation.

@@ -11,6 +11,14 @@ Mythos tests ancient texts as possible records of real observations using reprod
 - **Observer origin**: infer it from mutually confirmable landmarks, then register consensus in `anchors.jsonl`; do not hardcode a conflated city origin.
 - **v1 geography constraint**: Books 1–5 are the only source of new `MTN/WAT/LND` nodes. Books 6–18 must reuse those nodes. Unresolved mentions become `pending_anchor` and go to LLM adjudication; code must not create a replacement node or select a mapping.
 
+## Foundational judgment logic for every corpus and agent
+
+- **Static shape first**: compare outlines, relative positions, connections, enclosure, containment, branching and distribution before dynamic narratives. Preserve `出/入/注` in the text graph, but candidate comparison may use undirected `connected_to`; modern flow direction is not a standalone veto.
+- **No causal inversion**: later names, commentary, boundaries and modern classifications cannot explain the earlier text's formation. Modern remains are comparison objects, not rules for how ancient observers had to write.
+- **Ancient general semantics**: allow observer substitution and category generalisation symmetrically. Do not reject candidates through narrow modern taxonomy; sand dunes and built platforms may share the outlook of a mountain.
+- **Cultural and historical discontinuity**: missing transmission chains are unknown, not evidence for or against a correspondence. Do not invent contacts, routes or motives.
+- **Required order**: source evidence → static shape and physical features → ancient general semantics → period candidates → symmetric fit/contradictions → confidence and unknowns. Dynamic flow, later names and transmission mechanisms must not bypass this order.
+
 ## Required iterative pipeline
 
 1. Establish the working text with stable entry IDs and reading status.

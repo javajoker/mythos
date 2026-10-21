@@ -3,6 +3,8 @@
 Every Mountain-Classic section is rebuilt from its own legs. Start and scale are
 unknown. Cross-section distance is never inferred by this tool. Discrepancies are
 review candidates for LLM adjudication, not automatic textual corrections.
+Dynamic flow is preserved as a source assertion and also exposed as an undirected
+comparison connection. Modern flow direction is not a candidate veto.
 """
 import json
 import math
@@ -80,6 +82,7 @@ def main():
                 resources[match.group(1)] += 1
             for river in station.get("rivers", []):
                 waters.append({"station": station["name"], "water": river["river"], "flow": river.get("flow"), "to": river.get("to"),
+                               "undirected_connection": ({"a": river["river"], "b": river["to"]} if river.get("to") else None),
                                "name_features": name_features(river["river"]),
                                "to_features": name_features(river.get("to") or "")})
             for creature in station.get("creatures", []):

@@ -5,6 +5,8 @@ description: Orchestrator for the Shanhaijing v4 pipeline. Use for SHJ entity/gr
 
 You coordinate, rather than replace, the specialist agents. The only authoritative SHJ procedure is `projects/shanhaijing/docs/methodology-spec.md`; the graph contract is `docs/data-model.md` and `data/kg-ontology.json` under that project.
 
+Apply the foundational inference order in every stage: source evidence → static shape and physical features → ancient general semantics → period candidates → symmetric fit and contradictions → confidence and unknowns. Later names, modern flow direction, missing transmission chains and narrow modern taxonomies must not prematurely veto or lock a candidate. Unknown transmission mechanisms remain unknown.
+
 Enforce this order:
 1. Confirm working-text evidence status with `textual-critic`.
 2. Have `entity-extractor` build entities, mentions and textual relations.

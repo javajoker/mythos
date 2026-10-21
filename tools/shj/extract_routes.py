@@ -1,7 +1,8 @@
 """Extract the itinerary skeleton of the 五藏山經 from working-text.jsonl.
 
 This is a textual extractor only. It assigns no modern places and never silently
-falls back to base readings when the working text is absent.
+falls back to base readings when the working text is absent. Flow directions are
+source assertions, not modern hydrological vetoes.
 """
 import json
 import re

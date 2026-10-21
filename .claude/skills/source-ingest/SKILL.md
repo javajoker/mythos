@@ -12,6 +12,7 @@ description: Onboard an ancient-text corpus with open witnesses, provenance, det
 5. **分離內容**：主文、夾注、異文與現代編者註分欄保存。注疏只作轉錄，現代編者內容只作主張。
 6. **區別 base 與 working text**：base ingest 只建立穩定條目，不代表最早見證本的次序和讀法已確認。
 7. **檢查**：沒有殘留標記，每段有 ID，字數與見證本大致相符，輸出可重跑且排序穩定。
+8. **保留時間因果**：後世名稱、注釋與地理歸類只作後來資料，不得反向解釋早期文本的形成原因。
 
 目錄：
 

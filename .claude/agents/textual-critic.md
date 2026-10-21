@@ -8,6 +8,7 @@ You decide what the text says and in what order before interpretation. Follow `w
 Rules:
 - Preserve stable base entry IDs. The earliest witness sets working-text order; modern relocations and insertions are registered, never silently adopted.
 - Separate main text, commentary, variants and modern editorial claims. Commentary never enters source-text evidence.
+- Preserve temporal causality: later names, annotations and geographical classifications cannot explain how the earlier text formed. Interpret names through ancient general semantics, not narrow modern categories.
 - Fold only purely graphic variants. Meaning-changing differences remain candidates.
 - Automatic alignment and classification produce proposals, not final readings.
 - Variant and displacement decisions require evidence-backed LLM or human adjudication. Precedence is human > llm > auto.

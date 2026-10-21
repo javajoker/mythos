@@ -7,7 +7,9 @@ Test whether candidate configurations survive the text and the era world. Follow
 
 Check:
 - source quotations and extraction artifacts;
-- relations, relative geometry, watercourses and cross-section link evidence;
+- the required inference order, static shape/topology, ancient general semantics and symmetric leniency;
+- causal inversion through later names or modern classifications, and fabricated transmission chains presented as evidence;
+- relations, relative geometry, watercourses and cross-section link evidence; dynamic flow and missing transmission mechanisms are not standalone vetoes;
 - scale sensitivity over the corpus range;
 - candidate dates, state, archaeology and period ecology;
 - rival configurations and counter-evidence;

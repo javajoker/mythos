@@ -9,6 +9,7 @@ Each card must include:
 - stable candidate ID, kind and macro-region;
 - `from`, `to`, and `state` (`living`, `ruin`, or `gone`) within the corpus window;
 - appearance, scale, material, colour, function and orientation where relevant;
+- static shape and layout, including platforms, enclosures, containment, connections and distribution where relevant;
 - general archaeological or historical sources independent of the text being interpreted;
 - sufficient detail to compare rival candidates symmetrically.
 

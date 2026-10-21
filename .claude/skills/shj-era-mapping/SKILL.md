@@ -25,6 +25,12 @@ description: Runbook for the Shanhaijing v4 iterative pipeline from working text
 9. `cross-validator`：由 LLM 解決語義衝突、合併或拆分，回寫指定記錄並迭代。
 10. `devils-advocate`：獨立紅隊通過後，才交付 `deliverables/draft-v1/` 並評估地圖重建。
 
+## 基礎判斷約束
+
+每個階段均按「原文 → 靜態形狀／物理特徵 → 古代通用詞義 → 同時代候選 → 對稱評估 → 可信度與未知項」執行。後世地名、現代水流、傳播鏈缺失和獅虎等現代狹窄分類不得單獨否決；文化歷史機制未知時保持未知。
+
+開羅／吉薩可作為崑崙之丘的競爭候選，但不是既定答案。其人工高台、陵寢格局、人面獸身造像與其他同時代物理特徵，必須與其他候選按同一規則比較。
+
 ## 第一版硬約束
 
 只有卷一至五可新增 `MTN/WAT/LND` 節點。卷六至十八必須復用這些節點；無法對齊的提及保持 `pending_anchor`，由 LLM 裁決，不得由程序新增或指定節點。
