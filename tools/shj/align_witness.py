@@ -9,7 +9,8 @@ Then:
   * entries whose base order breaks the sbck order         -> displacement candidates (X3), corroborated by skqs
   * witness text covered by no base entry                  -> witness-only spans (gaps in the base text)
 
-Readings stay those of the base text; choosing readings is a per-variant decision (T-102), not done here.
+Readings stay those of the base text in this pass and are explicitly marked `unreviewed`.
+Choosing readings is a separate LLM/human adjudication task, not an alignment heuristic.
 
 Output: projects/shanhaijing/data/derived/witness-alignment.jsonl, working-text.jsonl, alignment-summary.md
 """
@@ -213,6 +214,7 @@ def main():
     pair_variants(entries, al_sk, skqs, names)
     dis_sb, dis_sk = displaced(entries, al_sb), displaced(entries, al_sk)
     confirmed, unconfirmed = blocks(entries, dis_sb, dis_sk, al_sb)
+    OUT.mkdir(parents=True, exist_ok=True)
     with (OUT / "displacements.jsonl").open("w") as f:
         for n, b in enumerate(confirmed, 1):
             f.write(json.dumps({"id": f"X3-{n:03d}", "base_book": names[b["base_book"]],
@@ -220,7 +222,6 @@ def main():
                                 "base_cites_modern_editor": b["editorial_ref"], "status": "registered"},
                                ensure_ascii=False) + "\n")
 
-    OUT.mkdir(parents=True, exist_ok=True)
     with (OUT / "witness-alignment.jsonl").open("w") as f:
         for e in entries:
             i = e["id"]
@@ -246,13 +247,15 @@ def main():
             if e is None:
                 rec = {"seq": seq, "entry_id": None, "kind": "witness-only", "chenghua_book": a["book"],
                        "sbck_span": [a["start"], a["end"]], "text": a["text"],
-                       "note": "sbck text with no base entry (unpunctuated, normalised); review in T-102"}
+                       "reading_source": "sbck", "reading_status": "unreviewed",
+                       "note": "sbck text with no base entry (unpunctuated, normalised); LLM/human review required"}
             else:
                 rec = {"seq": seq, "entry_id": e["id"],
                        "kind": a["status"] if a["status"] != "absent" else "base-only",
                        "chenghua_book": key[0], "base_book": e["book_no"],
                        "sbck_span": [a["start"], a["end"]] if a["status"] != "absent" else None,
-                       "order_changed": e["id"] in dis_sb, "text": e["text"]}
+                       "order_changed": e["id"] in dis_sb, "text": e["text"],
+                       "reading_source": "wikisource-base", "reading_status": "unreviewed"}
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     # summary

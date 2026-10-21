@@ -1,4 +1,5 @@
 """Chinese numeral parsing for classical texts (e.g. 三百八十里, 百八十里, 一萬七千五百一十七里)."""
+from __future__ import annotations
 
 DIGITS = {"〇": 0, "零": 0, "一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5,
           "六": 6, "七": 7, "八": 8, "九": 9}

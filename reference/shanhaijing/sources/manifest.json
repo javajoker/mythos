@@ -1,0 +1,291 @@
+{
+  "schema_version": "mythos-source-manifest-1",
+  "corpus": "shanhaijing",
+  "files": [
+    {
+      "path": "sbck-chenghua/00-序.txt",
+      "bytes": 3104,
+      "sha256": "2fc2f02bb393035504a96f30a9c7d37482ad11196ef7abd779b4af63b7c7e019"
+    },
+    {
+      "path": "sbck-chenghua/01.txt",
+      "bytes": 10099,
+      "sha256": "dacc4ef67cfa55996f7f171b3a83e54431ed16992186993e4cce4d0ef9963f9f"
+    },
+    {
+      "path": "sbck-chenghua/02.txt",
+      "bytes": 28264,
+      "sha256": "ea6ac15e1a5f76d4523a834b01aa05b00dbbd56da2072705928d36bb1352b8ad"
+    },
+    {
+      "path": "sbck-chenghua/03.txt",
+      "bytes": 19611,
+      "sha256": "84e5d31913bfd66050e6f756e60a510d0ac020c52992e1903e00085e33bfc6b0"
+    },
+    {
+      "path": "sbck-chenghua/04.txt",
+      "bytes": 8695,
+      "sha256": "b2ebcef8f64b9759bef0e314780b8e8e496eac84cee3ae071f0d14a441be6d39"
+    },
+    {
+      "path": "sbck-chenghua/05.txt",
+      "bytes": 40386,
+      "sha256": "ea787df92de211b4b5a1f85abba07175a2675cac6882d055ac68d5c701228266"
+    },
+    {
+      "path": "sbck-chenghua/06.txt",
+      "bytes": 4474,
+      "sha256": "7d961a9e204ff7567866bf1706aea01f7d98fc55fe0d2bdba06800462ca09553"
+    },
+    {
+      "path": "sbck-chenghua/07.txt",
+      "bytes": 3600,
+      "sha256": "16bd1515f1592a89a4dc3f0e8408e05ea567725ccfe4f8ca1804d907dc3886e9"
+    },
+    {
+      "path": "sbck-chenghua/08.txt",
+      "bytes": 3952,
+      "sha256": "0cc003f5fc946f54c491d07ad850f58b6bd1264a15cdc431b63871ebf19720ab"
+    },
+    {
+      "path": "sbck-chenghua/09.txt",
+      "bytes": 3791,
+      "sha256": "452992fdbd28d78401ae82ec67dfbec723cb3e2bc27c84b86d471e0f46d35bcf"
+    },
+    {
+      "path": "sbck-chenghua/10.txt",
+      "bytes": 3639,
+      "sha256": "b02570b55db6017855ca66cabc4b208555b85f7dae4b8db9e629f1f244b62809"
+    },
+    {
+      "path": "sbck-chenghua/11.txt",
+      "bytes": 4249,
+      "sha256": "f769e403e75b0055e235cef3ac7c5e301a60ffa8b4879a0168be7156c552fa60"
+    },
+    {
+      "path": "sbck-chenghua/12.txt",
+      "bytes": 3842,
+      "sha256": "895969839792f0a6557ffd4d48de7f472e821f6f8a1fc6d40901432cbf1c4a3f"
+    },
+    {
+      "path": "sbck-chenghua/13.txt",
+      "bytes": 6066,
+      "sha256": "823fc4e720190c860d0ed36ab7fe945e9ea66244d30843ed79c15e5013daac1b"
+    },
+    {
+      "path": "sbck-chenghua/14.txt",
+      "bytes": 6144,
+      "sha256": "fd0ad3b56cde55a632c61332444e4790bc7888322323c5defa691904da5ed332"
+    },
+    {
+      "path": "sbck-chenghua/15.txt",
+      "bytes": 5725,
+      "sha256": "bbb95777cda472306fb524ed1834957dae9543838a3c9e5ff92a6ad5befc3aba"
+    },
+    {
+      "path": "sbck-chenghua/16.txt",
+      "bytes": 8256,
+      "sha256": "41581a3be1e62b75c0f9848faf171ffcb302c39162f91597b5c2fd9ee1aed227"
+    },
+    {
+      "path": "sbck-chenghua/17.txt",
+      "bytes": 6448,
+      "sha256": "c291341a1e58e70f73b7a9b82eae8078d81a29aa6515c1709c0a02be3e1cc852"
+    },
+    {
+      "path": "sbck-chenghua/18.txt",
+      "bytes": 7392,
+      "sha256": "c1040c9983379c4222b0d3cf52a8a72e411c859cd7e1bbcf6b32e8cdbcbeebba"
+    },
+    {
+      "path": "skqs/01.wiki",
+      "bytes": 11936,
+      "sha256": "3f8d3ef83235c8987fc05c91c6c40c005cd7d05e41566b0e656329f115f68825"
+    },
+    {
+      "path": "skqs/02.wiki",
+      "bytes": 30819,
+      "sha256": "b287c6a2e5dc869fd26f295279bb2a16ace0f6a7a06dde0853b84de0250d28b1"
+    },
+    {
+      "path": "skqs/03.wiki",
+      "bytes": 21336,
+      "sha256": "ca3164cf5f3a05aa04ed6cd7845ae9cf33c5adec1c06560e2cecb8f304221738"
+    },
+    {
+      "path": "skqs/04.wiki",
+      "bytes": 9720,
+      "sha256": "1c6b2bcfb75712f1ab9b532737945f0268d924fcdbd72388bbc3693698cf4130"
+    },
+    {
+      "path": "skqs/05.wiki",
+      "bytes": 43827,
+      "sha256": "071d02ded85260c2ffca9096e5cd7aec35eef7f6e762981424f6592cc69d2706"
+    },
+    {
+      "path": "skqs/06.wiki",
+      "bytes": 5213,
+      "sha256": "26da827e394f1a258aed8c40f15831c3168446572be1cc336a8f81efb7fc2339"
+    },
+    {
+      "path": "skqs/07.wiki",
+      "bytes": 4398,
+      "sha256": "070d0f6908eb483b66cfcd708a1d8ada2d36c9ead138fde3a3089a2734d772ad"
+    },
+    {
+      "path": "skqs/08.wiki",
+      "bytes": 4728,
+      "sha256": "7ebeaf71ff8f458a14864c6313ba8b42cecafcca8c3368dc858a6e185baf1b5c"
+    },
+    {
+      "path": "skqs/09.wiki",
+      "bytes": 4279,
+      "sha256": "6d0ee1ce40b351df2dbc75953fd2d3816d5be9086c2fe9e7116d5af95ef698eb"
+    },
+    {
+      "path": "skqs/10.wiki",
+      "bytes": 4438,
+      "sha256": "ffbf119d568ca02491f783f73b54938c7448399fb8e27ec787e84ff5a072e4c2"
+    },
+    {
+      "path": "skqs/11.wiki",
+      "bytes": 5242,
+      "sha256": "7601efc47fc31855c80e30f774a889234f89f46212255b8c3f383effcb5694aa"
+    },
+    {
+      "path": "skqs/12.wiki",
+      "bytes": 4798,
+      "sha256": "b0601373870633b3bee83dd3698e0cf86637b1a278697729958a1622685ec952"
+    },
+    {
+      "path": "skqs/13.wiki",
+      "bytes": 6827,
+      "sha256": "0cf49c9c0ddbf62b6a2ff51906f9a6ac9107adee1910c3296feb34ca263385ae"
+    },
+    {
+      "path": "skqs/14.wiki",
+      "bytes": 7154,
+      "sha256": "54586be5be0793b2e697588f4189f42cdc57b7b7184dc036e2dbdd77b918763c"
+    },
+    {
+      "path": "skqs/15.wiki",
+      "bytes": 6537,
+      "sha256": "a16ed93e7facc23d441cde6594a353d629a7e8cda17613a715310fb1ad279981"
+    },
+    {
+      "path": "skqs/16.wiki",
+      "bytes": 9190,
+      "sha256": "296feac407c6a404a25e96dfb0342a8925724c17d06a91e825c50a3eaea74466"
+    },
+    {
+      "path": "skqs/17.wiki",
+      "bytes": 7471,
+      "sha256": "6d3dcb085a56bf2d42935c6c7e4e0f41be3807b5aa2ecc081c26fb377ee3ec23"
+    },
+    {
+      "path": "skqs/18.wiki",
+      "bytes": 8500,
+      "sha256": "03248defbe71735b924731998429cd6ac28f86c76c26fd9ddfcb95f3f6ffa4ff"
+    },
+    {
+      "path": "wikisource-base/01-南山經.wiki",
+      "bytes": 13299,
+      "sha256": "8aeb335a1ae37b7bb5f847c52d460b9b2725eabbae933c08a67bc10717ec56b8"
+    },
+    {
+      "path": "wikisource-base/02-西山經.wiki",
+      "bytes": 33142,
+      "sha256": "001592c670f18397c5321e874b88321913482e1260eea1eabc96a792faf1bf96"
+    },
+    {
+      "path": "wikisource-base/03-北山經.wiki",
+      "bytes": 16537,
+      "sha256": "20f78c8db2e53c56c8fab20f26acedd4bd409a9c5ee5e92f74c76c991726ec09"
+    },
+    {
+      "path": "wikisource-base/04-東山經.wiki",
+      "bytes": 8465,
+      "sha256": "8c5b01114e2dfbc541ee26f5aa8e8ea585272a5b16e4a357669a09238db44ead"
+    },
+    {
+      "path": "wikisource-base/05-中山經.wiki",
+      "bytes": 33515,
+      "sha256": "46fbc0e9d34080a78f3ac9a4db8e8bae87120c1c60a6d9a0406c269685962f1c"
+    },
+    {
+      "path": "wikisource-base/06-海外南經.wiki",
+      "bytes": 2656,
+      "sha256": "d71c3f8211554e32c8217c7365a1bdde5219d45298d1fbb96b4e4c4e68e4e085"
+    },
+    {
+      "path": "wikisource-base/07-海外西經.wiki",
+      "bytes": 2605,
+      "sha256": "4d8af9b7de8719fa3b399030290c387bd1fd38669ba390c46e515bebc3f9f5b3"
+    },
+    {
+      "path": "wikisource-base/08-海外北經.wiki",
+      "bytes": 2906,
+      "sha256": "3b3bee900b2db6be0691df67687b073667834468508231906847ded3058986ee"
+    },
+    {
+      "path": "wikisource-base/09-海外東經.wiki",
+      "bytes": 2433,
+      "sha256": "9308f124647aec8da8039c36000bc490214ae6db98c67d28bcc93a4bd9637bff"
+    },
+    {
+      "path": "wikisource-base/10-海內南經.wiki",
+      "bytes": 1980,
+      "sha256": "c95889e9ebda970fdff0e83d286ce76947eabd55cb14f51b671223976dafeca3"
+    },
+    {
+      "path": "wikisource-base/11-海內西經.wiki",
+      "bytes": 3477,
+      "sha256": "1244e76c94a248e19692fc59c692cbdbdb053ac05a6ab27b3a58cb6186377d1e"
+    },
+    {
+      "path": "wikisource-base/12-海內北經.wiki",
+      "bytes": 3459,
+      "sha256": "23d01e77c430d513db0174cb599b454a5160ed415fd1ed0fa913e6eb89accd7c"
+    },
+    {
+      "path": "wikisource-base/13-海內東經.wiki",
+      "bytes": 6861,
+      "sha256": "6bcf3466f0dea39c8faa39d3dbd112d895667037f9bdf36853b955e90c5811f9"
+    },
+    {
+      "path": "wikisource-base/14-大荒東經.wiki",
+      "bytes": 4154,
+      "sha256": "10b2b02bedf3366bd24dc3b637b873758f76dfd00e99a49dc4f9f28c6e872775"
+    },
+    {
+      "path": "wikisource-base/15-大荒南經.wiki",
+      "bytes": 4480,
+      "sha256": "e39df26871bf9fd91dbf0397137631caa452bd8677f7c3074dc85a4b356e7e7b"
+    },
+    {
+      "path": "wikisource-base/16-大荒西經.wiki",
+      "bytes": 5562,
+      "sha256": "8307f3d124207447996f7cb6cbd8a8e71cb914535ae24fd00c662f4e347dc6cc"
+    },
+    {
+      "path": "wikisource-base/17-大荒北經.wiki",
+      "bytes": 4683,
+      "sha256": "4378e59185e748f15a6f030297e80cfd8dfc26fa72594b3e458f6c89edd76126"
+    },
+    {
+      "path": "wikisource-base/18-海內經.wiki",
+      "bytes": 6242,
+      "sha256": "710e146b3d1d5096f9d65392c2bd39aeae13dfdf4de0d60ed8e5b972113ac5be"
+    },
+    {
+      "path": "wikisource-base/19-郭璞序.wiki",
+      "bytes": 3287,
+      "sha256": "3ed65e6d6302e88ae69808a85863cb355f5209de4817c6452149618029c7099d"
+    },
+    {
+      "path": "wikisource-base/index.wiki",
+      "bytes": 3839,
+      "sha256": "5afdff46751be8b7cac3d44f8700e5b7be4c8b591803ba07354b72555cc0d1f5"
+    }
+  ]
+}
