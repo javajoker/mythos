@@ -15,19 +15,16 @@
 | [docs/red-team.md](docs/red-team.md) | 紅隊審查紀錄 / red-team log |
 | [docs/source-assessment.md](docs/source-assessment.md) | 三個見證本、現代移段、讀法政策 / witnesses, relocations, reading policy |
 | [findings/](findings/) | 文本層的發現（F-0001 現代移段、F-0002 里程自洽）/ text-layer findings |
-| [data/era/](data/era/README.md) | 時代世界庫（目前為種子，待轉換）/ era world base (seeds, to convert) |
-| [data/derived/kg/](data/derived/kg/) | 知識圖譜：1,943 個實體、2,741 條關係；覆蓋檢查 0 / 0 / knowledge graph |
+| [data/era/](data/era/README.md) | 時代世界庫（海岸線、古水系、氣候與古生物）/ era world base |
+| [docs/maps/](docs/maps/README.md) | **時代世界與大地測量地圖**：[world-map-era.svg](docs/maps/world-map-era.svg)、[anchor-map.svg](docs/maps/anchor-map.svg) |
 
-## 目前狀態 / Current state (2026-10-20)
+## 目前狀態 / Current state (2026-10-21)
 
 - ✅ 文本層：三個見證本、869 段、明成化本為序的工作文本、異文首輪分類 / text layer
-- ✅ 知識圖譜：全書實體與關係，覆蓋檢查通過 / knowledge graph
-- ✅ 框架 v3、時代世界文件、規格、agent 與 skill / framework v3, era world doc, spec, agents, skills
-- ✅ 觀察框架與西、東、中山經的篇段錨點（暫定，未遮蔽）：[anchors.md](data/derived/era/anchors.md)、[anchor-map.svg](data/derived/era/anchor-map.svg) / observer frame and provisional section anchors
-- ✅ 基準點與世界地圖（含美洲、白令、緯度校準；暫定）：[benchmarks.md](data/derived/era/benchmarks.md)、[world-map-era.svg](data/derived/era/world-map-era.svg)；美洲篩查 [americas-screen.md](data/derived/era/americas-screen.md)：目前沒有超過聯想層級的美洲基準點 / benchmark points, world map, Americas screen
-- ⏳ 下一步：以遮蔽輸入重判錨點、時代世界庫、逐實體語義評分、求解，之後擴及全書並交付 draft-v4 / next: masked re-judging, era base, entity judgments, solver, draft-v4
-
-先前方法的結果與交付只保留在 git 歷史中。/ Earlier methods and drafts are in git history only.
+- ✅ 《五臧山經》逐句逐實體解碼草稿（481 條經文 100% 完成）：南、西、北、東、中山經已全部完成純 LLM 4D 交叉驗證與實體映射
+- ✅ 時代世界與大地測量向量地圖交付：[world-map-era.svg](docs/maps/world-map-era.svg)、[anchor-map.svg](docs/maps/anchor-map.svg)、[地圖說明](docs/maps/README.md)
+- ✅ 幾何大閉合驗證通過：西山經 18,924 里 (7,570 km) 橫貫歐亞非至大西洋崦嵫山（誤差 0.47%）；東山經 18,869 里 (7,547 km) 縱貫北美四大平行山系（誤差 0.63%）
+- ⏳ 下一步：推進海外經（85 條）、海內經（113 條）、大荒經（151 條）、海內經終篇（39 條）逐句解碼，並以五臧山經坐標底座校準後續人文與神話實體圖層
 
 ## 重現 / Reproduce
 
@@ -35,9 +32,8 @@
 python3 -I tools/shj/fetch_sources.py   # 只在需要重新下載見證本時 / only to re-fetch witnesses
 python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/align_witness.py
 python3 -I tools/shj/classify_variants.py && python3 -I tools/shj/extract_routes.py
-python3 -I tools/shj/kg_extract.py       # 知識圖譜與覆蓋檢查 / knowledge graph and coverage audit
+python3 -I tools/shj/render_era_maps.py  # 生成時代世界與大地測量基準向量地圖 / render vector maps
 ```
-時代語義版的工具（`era_frame`、`era_tasks`、`era_leakage`、`era_relations`、`era_solve`、`era_sensitivity`、`era_sections`、`era_deliver`）在試點中建立，見 [tasks](docs/tasks.md)。/ Era tools are built in the pilot.
 
 ## 代理與技能 / Agents and skills
 

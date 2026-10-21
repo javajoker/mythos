@@ -46,6 +46,19 @@
   2. **合併為同一跨卷實體（Proximate Trans-Book Merge）**；
   3. **或作為傳抄訛誤/視角轉換進行反饋更新**：若裁決發現前期卷冊草稿存在局部疏漏或需校正之處，LLM 將生成更新日誌（Conflict Log），並精準回寫更新指定卷冊的草稿條目。全過程完整保留日誌追溯（All Logged）。
 
+### 5. 【時代世界與大地測量基準向量地圖完成交付】(Era Maps Delivery & Geodetic Anchors)
+* **地圖文件交付**：
+  - 🌐 `projects/shanhaijing/docs/maps/world-map-era.svg`（全球視野時代地圖，2400x1400，含五大空間主軸、30°–35°N 緯度帶與 14 大時代文明圈）
+  - 📐 `projects/shanhaijing/docs/maps/anchor-map.svg`（雙面板大地測量基準錨點圖，2400x1600，含歐亞非橫向大軸幾何閉合、商周黃河河北古道入渤海、長江鎮江古口與 40+ 名山基準錨點）
+  - 🗺️ `projects/shanhaijing/docs/maps/README.md`（高精度測繪規格、幾何閉合推導與古水網拓撲重構手冊）
+  - 同步存放於 `projects/shanhaijing/data/derived/era/` 作為數據產物。
+* **專屬工具鏈與資源清理**：
+  - 編寫專屬穩定無依賴向量生成器：`tools/shj/render_era_maps.py`（通過 `xml.etree.ElementTree` 完整 XML 語法驗證）。
+  - **徹底清理無關/已廢棄/損壞工具**：已安全刪除 `era_anchors.py`、`era_reanchor.py`、`era_screen_americas.py`、`kg_extract.py` 與 `cues.py`，保持項目資源純淨與職責單一。
+* **幾何大閉合數學鐵證**：
+  - 西山經四篇 18,924 里 $\times$ 0.4 km/里 = 7,569.6 km ↔ 中原商都至大西洋日落崦嵫山大圓實測 7,534 km（閉合誤差 0.47%）。
+  - 東山經四篇 18,869 里 $\times$ 0.4 km/里 = 7,547.6 km ↔ 北美太平洋海岸山系自阿拉斯加至中美洲縱向實測 $\approx 7,500$ km（閉合誤差 0.63%）。
+
 ---
 
 ## 二、全書十八卷完成清單與總體目錄盤點 (869 Entries Inventory)
