@@ -1,0 +1,17 @@
+{
+  "mountain_nodes": 488,
+  "water_nodes": 452,
+  "water_relations": 1017,
+  "relation_types": {
+    "connected_to": 515,
+    "flows_into": 247,
+    "rises_at": 255
+  },
+  "geography_nodes_by_book": {
+    "01": 91,
+    "02": 186,
+    "03": 221,
+    "04": 105,
+    "05": 337
+  }
+}
