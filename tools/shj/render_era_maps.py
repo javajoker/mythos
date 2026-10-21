@@ -382,7 +382,7 @@ def render_world_map_svg():
     y30 = proj.pt(30.0, 0)[1]
     belt_h = y30 - y35
     S.append(f'<rect x="{x0}" y="{y35:.1f}" width="{w}" height="{belt_h:.1f}" fill="{COLORS["belt"]}" fill-opacity="0.13" stroke="{COLORS["belt"]}" stroke-width="1" stroke-dasharray="6,4"/>')
-    S.append(f'<text x="{x0 + 40}" y="{y35 + belt_h/2 + 4:.1f}" font-size="11" font-weight="bold" fill="{COLORS["belt"]}" letter-spacing="1">【北緯 30°–35° 全球文明黃金緯度帶】西向：中原 ➔ 兩河流域 ➔ 埃及吉薩崑崙丘 ➔ 崦嵫日入大西洋門戶；東向：跨越東海 ➔ 北美四大平行山系 ➔ 中美洲瑪雅日出太陽曆圈</text>')
+    S.append(f'<text x="{x0 + 940}" y="{y35 + belt_h/2 + 4:.1f}" font-size="11" font-weight="bold" fill="{COLORS["belt"]}" letter-spacing="1">【北緯 30°–35° 全球文明黃金緯度帶】西向：中原 ➔ 兩河流域 ➔ 埃及吉薩崑崙丘 ➔ 崦嵫日入大西洋門戶；東向：跨越東海 ➔ 北美四大平行山系 ➔ 中美洲瑪雅日出太陽曆圈</text>')
 
     # 陸地剪裁區
     S.append(f'<clipPath id="mapBounds"><rect x="{x0}" y="{y0}" width="{w}" height="{h}" rx="4"/></clipPath>')

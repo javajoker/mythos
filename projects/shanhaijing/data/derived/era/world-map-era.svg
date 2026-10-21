@@ -71,7 +71,7 @@
 <text x="2232.2" y="1164" font-size="9.5" fill="#7F8C8D" font-weight="500">30°W 大西洋</text>
 </g>
 <rect x="80" y="471.0" width="2240" height="38.4" fill="#E67E22" fill-opacity="0.13" stroke="#E67E22" stroke-width="1" stroke-dasharray="6,4"/>
-<text x="120" y="494.2" font-size="11" font-weight="bold" fill="#E67E22" letter-spacing="1">【北緯 30°–35° 全球文明黃金緯度帶】西向：中原 ➔ 兩河流域 ➔ 埃及吉薩崑崙丘 ➔ 崦嵫日入大西洋門戶；東向：跨越東海 ➔ 北美四大平行山系 ➔ 中美洲瑪雅日出太陽曆圈</text>
+<text x="1020" y="494.2" font-size="11" font-weight="bold" fill="#E67E22" letter-spacing="1">【北緯 30°–35° 全球文明黃金緯度帶】西向：中原 ➔ 兩河流域 ➔ 埃及吉薩崑崙丘 ➔ 崦嵫日入大西洋門戶；東向：跨越東海 ➔ 北美四大平行山系 ➔ 中美洲瑪雅日出太陽曆圈</text>
 <clipPath id="mapBounds"><rect x="80" y="110" width="2240" height="1060" rx="4"/></clipPath>
 <g clip-path="url(#mapBounds)">
 <text x="1290.8" y="570.9" font-size="22" font-weight="bold" fill="#B0C8D9" letter-spacing="6" text-anchor="middle">太 平 洋 ／ 東 海 (Pacific Ocean / Eastern Sea)</text>
@@ -352,7 +352,7 @@
 <circle cx="0" cy="0" r="8" fill="#F39C12" stroke="#FFFFFF" stroke-width="1.8"/>
 <polygon points="0,-12 3,-4 11,-4 5,2 7,10 0,5 -7,10 -5,2 -11,-4 -3,-4" fill="#F1C40F" stroke="#B7950B" stroke-width="0.8"/>
 </g>
-<g transform="translate(919.1,473.3)">
+<g transform="translate(819.1,443.3)">
 <rect x="14" y="-20" width="220" height="38" fill="#FFFDF8" fill-opacity="0.96" stroke="#D4AC0D" stroke-width="1.5" rx="4" filter="url(#shadow)"/>
 <text x="22" y="-4" font-size="12" font-weight="bold" fill="#7D6608">★ 天地之中 · 河南商都/洛陽/嵩山</text>
 <text x="22" y="11" font-size="9.5" fill="#B7950B">五臧山經世界坐標系絕對原點 (34.7°N, 113.6°E)</text>

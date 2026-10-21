@@ -15,10 +15,22 @@
 
 ## 1. 地圖清單與預覽鏈接
 
+### (1) 全球與跨大陸宏觀大地測量基準圖
+
 | 地圖文件 | 尺寸 / 投影 | 核心呈現內容 | 文件路徑 |
 |---|---|---|---|
 | **[world-map-era.svg](world-map-era.svg)** | $2400 \times 1400$<br>太平洋居中 / 美洲居東 | 全球視野下之五臧山經五大方位空間主軸、30°–35°N 全球文明黃金緯度帶、白令陸橋大洋海冰通道、美洲四大縱向山脈、14 大時代文明圈（古埃及、兩河、哈拉帕、三星堆、瑪雅、奧爾梅克、北極燭龍極光圈、南島語族） | `docs/maps/world-map-era.svg`<br>`data/derived/era/world-map-era.svg` |
 | **[anchor-map.svg](anchor-map.svg)** | $2400 \times 1600$<br>雙面板大地測量投影 | **【甲·歐亞非橫向大軸】** 河南商都直貫直布羅陀/大西洋日落崦嵫山之幾何大閉合；<br>**【乙·東亞核心高精度水網】** 洛陽嵩山天地之中樞紐、商周黃河河北古道（入今天津渤海）、長江鎮江古口、江漢淮濟水網及 40+ 座五臧山經實錄名山基準錨點 | `docs/maps/anchor-map.svg`<br>`data/derived/era/anchor-map.svg` |
+
+### (2) 《五臧山經》逐卷全要素實體高精度向量地圖（100% 零遺漏全量標註）
+
+| 地圖文件 | 尺寸 / 佈局 | 篇章範圍與統計實體 | 核心呈現內容 | 文件路徑 |
+|---|---|---|---|---|
+| **[vol-01-nanshanjing.svg](vol-01-nanshanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷一《南山經》<br>3 山系 · 40 山 · 43 條目<br>**141 個實體** | 䧿山、柜山至漆吳、天虞山系；越城嶺玉蟾岩出發，橫貫南嶺至東海；麗𪊨水、西海、狌狌、祝餘、育沛 | `docs/maps/vol-01-nanshanjing.svg`<br>`data/derived/era/vol-01-nanshanjing.svg` |
+| **[vol-02-xishanjing.svg](vol-02-xishanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (2欄索引) | 卷二《西山經》<br>4 山系 · 78 山 · 82 條目<br>**170 個實體** | 華山、鈐山、崇吾至崑崙、陰山至崦嵫；歐亞非大陸橫向大軸；太華大冢、渭水正源鳥鼠同穴、帕米爾不周山、埃及吉薩崑崙丘、大西洋日落崦嵫山 | `docs/maps/vol-02-xishanjing.svg`<br>`data/derived/era/vol-02-xishanjing.svg` |
+| **[vol-03-beishanjing.svg](vol-03-beishanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (2欄索引) | 卷三《北山經》<br>3 山系 · 88 山 · 92 條目<br>**171 個實體** | 單狐、管涔至太行、燕山北延至北海泰澤與北極章尾山；汾水正源、雁門句注、精衛填海發鳩山、貝加爾湖北海、極光極夜燭龍圈 | `docs/maps/vol-03-beishanjing.svg`<br>`data/derived/era/vol-03-beishanjing.svg` |
+| **[vol-04-dongshanjing.svg](vol-04-dongshanjing.svg)** | $3200 \times 1800$<br>太平洋居中 (2欄索引) | 卷四《東山經》<br>4 山系 · 46 山 · 51 條目<br>**124 個實體** | 樕𧑤至竹山、空桑、尸胡、北號至無皋；山東膠東耿山出海口、黑潮跨洋航線、北美太平洋科迪勒拉四大平行山脈直達中美洲瑪雅太陽曆圈 | `docs/maps/vol-04-dongshanjing.svg`<br>`data/derived/era/vol-04-dongshanjing.svg` |
+| **[vol-05-zhongshanjing.svg](vol-05-zhongshanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (3欄索引) | 卷五《中山經》<br>12 山系 · 197 山 · 213 條目<br>**368 個實體** | 嵩山少室太室天下之中絕對原點；長江正源岷山、江漢之樞荊山、洞庭大澤、首陽河曲；夏商周王畿水土礦冶樞紐，213 條目 100% 全量精煉列示 | `docs/maps/vol-05-zhongshanjing.svg`<br>`data/derived/era/vol-05-zhongshanjing.svg` |
 
 ---
 
@@ -66,8 +78,17 @@
 
 ## 4. 工具與生成腳本
 
-本圖由純 Python 標準庫編寫之專屬生成器產出，杜絕第三方不穩定依賴：
+本套向量地圖體系由純 Python 標準庫編寫之專屬生成器產出，杜絕第三方不穩定依賴：
+
+### (1) 全球全景圖與雙面板大地測量基準圖生成
 ```bash
 python3 -I tools/shj/render_era_maps.py
 ```
-- 驗證方式：通過 `xml.etree.ElementTree` 完整 XML 語法驗證，具備良好之響應式 `viewBox` 與 SVG 矢量縮放特性。
+- 產出 `world-map-era.svg`（太平洋居中 / 美洲居東）、`anchor-map.svg`。
+
+### (2) 《五臧山經》逐卷全要素實體高精度向量地圖生成
+```bash
+python3 -I tools/shj/render_volume_maps.py
+```
+- 產出 `vol-01-nanshanjing.svg` 至 `vol-05-zhongshanjing.svg`（左側地圖畫布 + 右側動態分欄實體總索引目錄，100% 條目覆蓋無截斷）。
+- **驗證方式**：通過 `xml.etree.ElementTree` 完整 XML 語法驗證，具備良好之響應式 `viewBox` 與 SVG 矢量縮放特性。
