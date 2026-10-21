@@ -7,31 +7,33 @@
     "book-01.jsonl": "257ac57e7e11106892cb7cf78290db7c583dea19aa0cb207774593b6d032aef0",
     "book-02.jsonl": "d76e817e88e7b22ee6f7c5d031a00fb4c5d20937669944f6e2007fdcc3a2da18",
     "book-03.jsonl": "53beee54e421c28d3acbbdd080be681d157350d739df4a44580e9649b67a990f",
-    "book-04.jsonl": "b543e16783f00cad7526f32527bf62cf4fa29309de2386c516e1f5c1e7e082d2"
+    "book-04.jsonl": "b543e16783f00cad7526f32527bf62cf4fa29309de2386c516e1f5c1e7e082d2",
+    "book-05.jsonl": "c3f4774bd344dca357a1ee360c7e7352f9e4289c5ef31f8831ff17c45cfa921e"
   },
   "books": [
     1,
     2,
     3,
-    4
+    4,
+    5
   ],
-  "entries": 268,
-  "nodes": 2091,
-  "mentions": 2188,
-  "edges": 695,
+  "entries": 481,
+  "nodes": 3593,
+  "mentions": 3781,
+  "edges": 1019,
   "mention_types": {
     "AST": 7,
-    "CLIM": 54,
-    "CRE": 541,
-    "DOC": 4,
-    "LND": 21,
-    "MIN": 370,
-    "MTN": 302,
-    "OBJ": 36,
-    "PER": 48,
-    "PLA": 388,
-    "POL": 19,
-    "WAT": 398
+    "CLIM": 86,
+    "CRE": 784,
+    "DOC": 7,
+    "LND": 40,
+    "MIN": 697,
+    "MTN": 554,
+    "OBJ": 91,
+    "PER": 88,
+    "PLA": 821,
+    "POL": 32,
+    "WAT": 574
   },
   "books_detail": {
     "1": {
@@ -87,6 +89,19 @@
       "PLA": 73,
       "POL": 5,
       "WAT": 60
+    },
+    "5": {
+      "CLIM": 32,
+      "CRE": 243,
+      "DOC": 3,
+      "LND": 19,
+      "MIN": 327,
+      "MTN": 252,
+      "OBJ": 55,
+      "PER": 40,
+      "PLA": 433,
+      "POL": 13,
+      "WAT": 176
     }
   },
   "reading_statuses": [
