@@ -1,74 +1,77 @@
-# 架構 / Architecture
+# 架構 v4 / Architecture v4
 
-> v3.0 ・ 2026-10-20 ・ 對應研究框架 v3（時代語義對應）。先前的方法、工具與交付只保留在 git 歷史中。
-> For framework v3. Earlier methods, tools and drafts are in git history only.
+> 2026-10-21 · 對應研究框架 v4 與山海經規格 v4。
 
 ## 1. 分層 / Layers
 
+```text
+reference/<corpus>/                 projects/<corpus>/
+  sources/<witness>/  原始快照        data/era/               時代世界種子與卡片
+  sources/manifest    快照雜湊        data/kg-ontology.json   語料專用本體（SHJ）
+  data/entries        穩定條目         data/derived/
+  text/               乾淨閱讀文本       working-text / collation / variants
+                                      stations / sections / era judgments
+                                      kg/ nodes·mentions·edges·attributes
+                                    deliverables/draft-vN/  草稿與交付
+                                    findings/               發現與 LLM 衝突日誌
+
+tools/<corpus>/       可重現文本處理、結構校驗和計算
+.claude/agents/       通用研究角色與子項目主持
+.claude/skills/       可組合的操作規程
+docs/                 公共方法與規範，不含語料專用固定答案
 ```
-            ┌──────────────────────────── docs/ ────────────────────────────┐
-            │ whitepaper · prd · research-framework · conventions · glossary │
-            └────────────────────────────────────────────────────────────────┘
- reference/<corpus>/          tools/<corpus>/                    projects/<corpus>/
- ┌──────────────────┐ ingest ┌───────────────────┐   derive   ┌──────────────────────────────┐
- │ sources/<witness>│ ─────▶ │ text layer        │ ─────────▶ │ data/derived/ (text layer)   │
- │ data/entries     │        │ kg_extract        │ ─────────▶ │ data/derived/kg/ (graph)     │
- │ text/*.md        │        │ era_* (pilot)     │ ◀── era ── │ data/era/ (world of period)  │
- └──────────────────┘        └───────────────────┘ ─────────▶ │ data/derived/era/ (judgments,│
-                                       ▲                       │   mapping) · deliverables/   │
-                    .claude/agents: semantic-matcher …         └──────────────────────────────┘
-```
 
-- `reference/` 只放原文和忠實的結構化轉寫，**不放詮釋**；注疏只作為轉錄保存，不進入分析。/ Sources and faithful transcriptions only; commentary is never analysed.
-- `data/era/` 是時代世界庫，在計分之前提交。/ The era world base, committed before scoring.
-- `data/derived/` 與 `deliverables/` 全部由工具與判斷紀錄產生。/ Everything derived comes from tools and judgment records.
-- 工具只用標準庫，固定種子，輸出可重現；大模型的判斷存成紀錄，輸入不變不重判。/ Standard-library tools; LLM judgments are recorded and re-run only on change.
+原文層不放解釋。文本事實圖與解釋圖使用同一實體 ID，但屬性以 `kind` 和 `status` 分層。衍生資料必須能回到工作文本、判斷或 LLM 裁決記錄。
 
-## 2. 流程與代理分工 / Pipeline and roles
+## 2. 公共層與語料層 / Common versus corpus-specific
 
-| 步驟 / Step | 主責 / Lead | 支援 / Support | Skill | 山海經工具 / SHJ tool |
-|---|---|---|---|---|
-| 0 原始文本 / original text | `textual-critic` | — | `source-ingest`, `witness-collation`, `transmission-error-tolerance` | `fetch_sources`, `ingest`, `collate`, `align_witness`, `classify_variants`, `extract_routes` |
-| 1–2 實體、關係、名稱語義 / entities, relations, name semantics | `entity-extractor` | `textual-critic` | `entity-graph-extraction`, `name-semantics` | `kg_extract`（`cues`）|
-| 3 觀察框架 / observer frame | `cross-validator` | — | `observer-frame` | `era_frame`（待建）|
-| 4 時代世界 / era world | `civilization-scout`, `palaeo-geographer` | — | `era-world-modelling` | `data/era/` |
-| 5–7 候選與語義評分 / candidates and judgments | `semantic-matcher` | `civilization-scout` | `semantic-correlation-matching` | `era_tasks`, `era_relations`（待建）|
-| 8–9 求解、可信度、假說 / solving, confidence, hypotheses | `cross-validator` | `devils-advocate` | `graph-cross-validation` | `era_solve`, `era_sensitivity`, `era_sections`, `era_leakage`（待建）|
-| 10 交付與當時地圖 / deliverable and era map | `shj-lead` | `devils-advocate`, `palaeo-geographer` | `shj-era-mapping` | `era_deliver`（待建）|
-| 全程協調 / orchestration | `shj-lead` | 全部 / all | `shj-era-mapping` | — |
-
-## 3. Agent 與 Skill 清單 / Catalogue
-
-| 層 / Layer | 類型 / Kind | 名稱 / Name | 用途 / Purpose |
-|---|---|---|---|
-| 公共 Common | agent | [textual-critic](../.claude/agents/textual-critic.md) | 原文、校勘、替代讀法 / original text, collation, variant readings |
-| 公共 Common | agent | [entity-extractor](../.claude/agents/entity-extractor.md) | 實體、關係、名稱語義、覆蓋檢查 / entities, relations, name features, coverage |
-| 公共 Common | agent | [semantic-matcher](../.claude/agents/semantic-matcher.md) | 遮蔽下的候選生成與語義評分 / masked candidates and judgments |
-| 公共 Common | agent | [civilization-scout](../.claude/agents/civilization-scout.md) | 時代內的文明、造物與人群 / civilisations, works, peoples of the period |
-| 公共 Common | agent | [palaeo-geographer](../.claude/agents/palaeo-geographer.md) | 時代內的地理、動物與地圖 / geography, fauna and map of the period |
-| 公共 Common | agent | [cross-validator](../.claude/agents/cross-validator.md) | 觀察框架、求解、可信度、假說組態 / frame, solver, confidence, held configurations |
-| 公共 Common | agent | [devils-advocate](../.claude/agents/devils-advocate.md) | 紅隊：洩漏、誘餌、對稱、年代 / red team |
-| 公共 Common | skill | [source-ingest](../.claude/skills/source-ingest/SKILL.md) | 新語料入庫 / onboard a corpus |
-| 公共 Common | skill | [witness-collation](../.claude/skills/witness-collation/SKILL.md) | 見證本對勘 / collation |
-| 公共 Common | skill | [transmission-error-tolerance](../.claude/skills/transmission-error-tolerance/SKILL.md) | 傳承錯誤 / transmission errors |
-| 公共 Common | skill | [entity-graph-extraction](../.claude/skills/entity-graph-extraction/SKILL.md) | 實體與關係 / entities and relations |
-| 公共 Common | skill | [name-semantics](../.claude/skills/name-semantics/SKILL.md) | 名稱語義 / name semantics |
-| 公共 Common | skill | [observer-frame](../.claude/skills/observer-frame/SKILL.md) | 觀察框架 / observer frame |
-| 公共 Common | skill | [era-world-modelling](../.claude/skills/era-world-modelling/SKILL.md) | 時代世界 / world of the period |
-| 公共 Common | skill | [semantic-correlation-matching](../.claude/skills/semantic-correlation-matching/SKILL.md) | 語義評分規程 / judgment protocol |
-| 公共 Common | skill | [graph-cross-validation](../.claude/skills/graph-cross-validation/SKILL.md) | 聯合求解與可信度 / joint solving and confidence |
-| 山海經 SHJ | agent | [shj-lead](../.claude/agents/shj-lead.md) | 子項目主持 / sub-project lead |
-| 山海經 SHJ | skill | [shj-era-mapping](../.claude/skills/shj-era-mapping/SKILL.md) | runbook |
-
-## 4. 公共層與子項目層 / Common vs sub-project
-
-| 公共 / Common | 山海經專用 / Shanhaijing-specific |
+| 公共層 / Common | 語料專用層 / Corpus-specific |
 |---|---|
-| 框架 v3 的步驟、原則、解讀規則、計分與求解、紅隊（`docs/research-framework.md`）| 時代窗口（前 4000–前 2000）、原點（中原）、實體句式、名稱語義詞表、試點範圍 |
-| 判斷紀錄格式、遮蔽與洩漏檢測 | 重點文明（兩河流域、哈拉帕、古埃及）與對立文明清單 |
-| 時代世界庫的卡片格式 | `data/era/` 的內容、`era-world.md` |
+| 見證本入庫、校勘、名稱語義、候選評分、關係驗證、紅隊 | 時代窗口、底層卷冊、實體句式、比例尺區間、第一版地理復用規則 |
+| 判斷與裁決紀錄格式、可重現要求、實體與屬性分層原則 | `kg-ontology.json` 的類型適用規則、候選地區與時代世界庫 |
+| 通用 agent 與 skill，不包含任何語料的現實對應答案 | `projects/shanhaijing/docs/methodology-spec.md` 與 `shj-era-mapping` runbook |
 
-## 5. 新語料接入 / Adding a corpus
-1. 依 `source-ingest` 建立 `reference/<corpus>/` 和 `tools/<corpus>/`。/ Create both per `source-ingest`.
-2. 決定時代窗口與觀察原點，寫 `projects/<corpus>/docs/era-world.md` 與規格（只寫專用部分）。/ Set the window and origin; write era-world and a spec.
-3. 建立該時代的世界庫；其他一律重用公共層。/ Build the era base; reuse the common layer.
+新增語料時，公共 agent/skill 不得需要修改；只新增語料規格、文本適配器、本體與時代世界設定。
+
+## 3. 流程與職責 / Pipeline and ownership
+
+| 階段 / Stage | 主責 / Lead | 支援 / Support | 產物 / Output |
+|---|---|---|---|
+| 工作文本 | `textual-critic` | `devils-advocate` | entries、working text、異文與移段記錄 |
+| 實體抽取 | `entity-extractor` | `textual-critic` | nodes、mentions、textual edges |
+| 時代世界 | `civilization-scout`、`palaeo-geographer` | `devils-advocate` | 有年代與來源的候選卡 |
+| 地理語義擬合 | `semantic-matcher` | `cross-validator` | candidates、judgments、semantic-fit attributes |
+| 初版圖譜 | `entity-extractor` | `cross-validator` | KG v1 與結構校驗結果 |
+| 草稿與屬性補充 | `shj-lead` | `entity-extractor`、`semantic-matcher` | 底層卷草稿、associative/deductive attributes |
+| 後續卷與圖譜更新 | `shj-lead`、`entity-extractor` | `semantic-matcher` | 後續卷草稿、復用與錨定關係 |
+| 衝突解決與迭代 | `cross-validator` | `textual-critic`、`devils-advocate` | LLM 裁決、合併記錄、指定草稿修訂 |
+| 交付與地圖 | `shj-lead` | `devils-advocate`、`palaeo-geographer` | 審查後的草稿、對照表與示意地圖 |
+
+## 4. 現有工具 / Current tools
+
+| 工具 / Tool | 職責 / Role |
+|---|---|
+| `fetch_sources.py` | 下載見證本；另可離線生成快照 manifest |
+| `ingest.py` | 從 base 建立穩定條目、主文與注疏分欄 |
+| `collate.py` | 見證本差異定位 |
+| `align_witness.py` | 條目定位、明成化本次序與讀法狀態 |
+| `classify_variants.py` | 異文分類提議與人工／LLM overrides |
+| `extract_routes.py` | 從 working text 抽取山經站點、方向、里數與水系 |
+| `era_frame.py` | 各篇獨立相對幾何、概況與里程差異報告 |
+| `cn_numerals.py` | 中文數字解析 |
+| `kg_validate.py` | 本體、schema、引用、類型及第一版地理約束校驗；只報告語義衝突 |
+
+語義候選生成、判斷、合併與草稿推理由 agent 產生結構化記錄；不得以硬編碼腳本代替。後續需要的任務生成、求解、交付與地圖工具，須在相應資料契約可用後新增，不引用已刪除的舊工具名。
+
+## 5. Agent 與 skill / Catalogue
+
+- 主持：`shj-lead`；runbook：`shj-era-mapping`。
+- 文本：`textual-critic`；`source-ingest`、`witness-collation`、`transmission-error-tolerance`。
+- 實體與名稱：`entity-extractor`；`entity-graph-extraction`、`name-semantics`。
+- 時代世界：`civilization-scout`、`palaeo-geographer`；`era-world-modelling`。
+- 語義與框架：`semantic-matcher`；`semantic-correlation-matching`、`observer-frame`。
+- 一致性與紅隊：`cross-validator`、`devils-advocate`；`graph-cross-validation`。
+
+## 6. 可重現與語義裁決 / Reproducibility and adjudication
+
+工具使用 Python 標準庫，從倉庫根目錄以 `python3 -I` 執行；支援 Python 3.9 以上。輸出排序並以快照和輸入雜湊確定。程序可做格式檢查、引用檢查、數值計算和衝突發現，但不得選擇語義答案。LLM 的裁決附證據、理由與版本；人工覆核高於 LLM，LLM 高於自動提議。
