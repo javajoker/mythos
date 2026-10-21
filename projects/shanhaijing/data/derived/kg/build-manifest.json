@@ -21,6 +21,8 @@
   "nodes": 3593,
   "mentions": 3781,
   "edges": 1019,
+  "attributes": 27,
+  "initialization_anchors": 5,
   "mention_types": {
     "AST": 7,
     "CLIM": 86,

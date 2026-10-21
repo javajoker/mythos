@@ -24,7 +24,9 @@
 - 已完成：舊解釋草稿、地圖、渲染器與舊圖譜清理；框架、規格和本體 v4。
 - 已生成：三個見證本快照 manifest、869 條 base entries、working text、對勘、移段、異文分類、447 個山經站點與 26 個篇末總數。
 - 注意：working text 的 base 讀法目前仍為 `unreviewed`，不能宣稱所有正式讀法已確認。
-- 待開始：新文本事實圖、時代候選與語義判斷、KG v1、新草稿、LLM 衝突日誌、紅隊和地圖。
+- 第一輪已完成：五臧山經 481 段實體抽取，3,781 條提及、3,593 個節點、1,019 條關係邊；另有 488 個山體與 452 個水體節點。
+- 待你審核：5 組初始化錨點與 27 條候選屬性，見 [anchor-review.md](data/derived/review/anchor-review.md)。全部為未確認候選，需經聯合校準。
+- 待完成：全量時代世界卡與其餘語義判斷、KG v1 定稿、新草稿、紅隊和地圖。
 - 時代世界庫仍是種子資料；`sites.jsonl` 與 `palaeo-coast.json` 尚未建立。
 
 ## 重現文本層 / Reproduce the text layer
@@ -37,7 +39,9 @@ python3 -I tools/shj/align_witness.py
 python3 -I tools/shj/classify_variants.py
 python3 -I tools/shj/extract_routes.py
 python3 -I tools/shj/era_frame.py
-python3 -I tools/shj/kg_validate.py
+python3 -I tools/shj/kg_build.py
+python3 -I tools/shj/kg_export_geography.py
+python3 -I tools/shj/kg_validate.py --require-graph
 ```
 
 只在明確需要更新上游見證本時，不帶 `--manifest-only` 執行 `fetch_sources.py`。更新後必須重新審查所有受影響的對勘、判斷與衍生資料。

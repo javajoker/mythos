@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 WORKING = ROOT / "projects/shanhaijing/data/derived/working-text.jsonl"
 INPUT = ROOT / "projects/shanhaijing/data/derived/extraction"
 OUT = ROOT / "projects/shanhaijing/data/derived/kg"
+ANCHORS = ROOT / "projects/shanhaijing/data/derived/era/anchors.jsonl"
 DYNAMIC = {"rises_at", "flows_into"}
 
 
@@ -25,6 +26,37 @@ def write_jsonl(path, rows):
     with path.open("w", encoding="utf-8") as handle:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def build_anchor_attributes(nodes, working):
+    if not ANCHORS.exists():
+        return []
+    node_by_id = {node["id"]: node for node in nodes}
+    attributes = []
+    counters = Counter()
+    for anchor in read_jsonl(ANCHORS):
+        for entity_id in anchor["entities"]:
+            node = node_by_id[entity_id]
+            evidence = [{"entry": name["entry"], "quote": working[name["entry"]]["text"]}
+                        for name in node["names"]]
+            for candidate in anchor["candidates"]:
+                counters[node["first_entry"]] += 1
+                attributes.append({
+                    "id": f"ATT:{node['first_entry']}#{counters[node['first_entry']]}",
+                    "subject": entity_id,
+                    "predicate": "era.candidate",
+                    "value": {"anchor": anchor["id"], "candidate": candidate["candidate"],
+                              "name": candidate["name"], "role": anchor["role"],
+                              "coordinates": candidate["coordinates"], "period_state": candidate["period_state"],
+                              "present_state": candidate["present_state"], "static_fit": candidate["static_fit"]},
+                    "kind": "semantic_fit",
+                    "status": "proposed",
+                    "confidence": None,
+                    "evidence": evidence,
+                    "provenance": {"anchor": anchor["id"], "candidate_id": candidate["id"],
+                                   "review_status": anchor["review_status"]},
+                })
+    return attributes
 
 
 def main():
@@ -118,11 +150,13 @@ def main():
     nodes.sort(key=lambda row: row["id"])
     mentions.sort(key=lambda row: row["id"])
     edges.sort(key=lambda row: row["id"])
+    attributes = build_anchor_attributes(nodes, working)
+    attributes.sort(key=lambda row: row["id"])
     OUT.mkdir(parents=True, exist_ok=True)
     write_jsonl(OUT / "nodes.jsonl", nodes)
     write_jsonl(OUT / "mentions.jsonl", mentions)
     write_jsonl(OUT / "edges.jsonl", edges)
-    write_jsonl(OUT / "attributes.jsonl", [])
+    write_jsonl(OUT / "attributes.jsonl", attributes)
     manifest = {
         "schema_version": "shj-kg-1.1",
         "builder": "kg_build.py",
@@ -134,6 +168,8 @@ def main():
         "nodes": len(nodes),
         "mentions": len(mentions),
         "edges": len(edges),
+        "attributes": len(attributes),
+        "initialization_anchors": len(read_jsonl(ANCHORS)) if ANCHORS.exists() else 0,
         "mention_types": dict(sorted(per_type_counts.items())),
         "books_detail": {str(book): dict(sorted(counts.items())) for book, counts in sorted(per_book_counts.items())},
         "reading_statuses": sorted({row.get("reading_status", "unreviewed") for row in working.values()}),
