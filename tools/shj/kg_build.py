@@ -95,7 +95,7 @@ def main():
 
             for rel_index, relation in enumerate(record.get("relations", []), 1):
                 src_surface, relation_type, dst_surface = relation
-                if relation_type not in DYNAMIC:
+                if relation_type not in DYNAMIC | {"connected_to"}:
                     raise ValueError(f"{entry}: unsupported relation {relation_type}")
                 endpoints = []
                 for surface in (src_surface, dst_surface):
@@ -103,6 +103,11 @@ def main():
                         raise ValueError(f"{entry}: relation endpoint not extracted: {surface}")
                     endpoints.append(node_by_ref[current_refs[surface]]["id"])
                 dynamic_id = f"REL:{entry}#{rel_index * 2 - 1}"
+                if relation_type == "connected_to":
+                    edges.append({"id": dynamic_id, "src": endpoints[0], "dst": endpoints[1], "type": relation_type,
+                                  "layer": "interpretive", "entry": entry, "quote": text, "status": "proposed",
+                                  "provenance": {"method": "llm_static_connection"}})
+                    continue
                 edges.append({"id": dynamic_id, "src": endpoints[0], "dst": endpoints[1], "type": relation_type,
                               "layer": "textual", "entry": entry, "quote": text, "status": "stated"})
                 edges.append({"id": f"REL:{entry}#{rel_index * 2}", "src": endpoints[0], "dst": endpoints[1],
