@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 KG = ROOT / "projects/shanhaijing/data/derived/kg"
 OUT = ROOT / "projects/shanhaijing/data/derived/era"
+HYPOTHESES = OUT / "water-hypotheses.jsonl"
 
 
 def read_jsonl(path):
@@ -30,6 +31,11 @@ def main():
                 if other.startswith("MTN:"):
                     shared_mountains[endpoint].add(other)
 
+    hypotheses = {}
+    if HYPOTHESES.exists():
+        for hypothesis in read_jsonl(HYPOTHESES):
+            hypotheses[hypothesis["entity"]] = hypothesis["hypotheses"]
+
     records = []
     for water_id, node in sorted(waters.items()):
         records.append({
@@ -39,6 +45,7 @@ def main():
             "mapping_status": "pending",
             "candidates": [],
             "historical_states": [],
+            "initiator_hypotheses": hypotheses.get(water_id, []),
             "shared_mountains": sorted(shared_mountains[water_id]),
             "relation_ids": sorted(relation_ids[water_id]),
             "review": {"status": "pending", "reviewer": None, "decision": None},
@@ -49,6 +56,7 @@ def main():
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
     shared = sum(bool(record["shared_mountains"]) for record in records)
     summary = {"water_nodes": len(records), "pending_mappings": len(records),
+               "waters_with_initiator_hypotheses": sum(bool(record["initiator_hypotheses"]) for record in records),
                "waters_with_mountain_relations": shared,
                "waters_shared_by_multiple_mountains": sum(len(record["shared_mountains"]) > 1 for record in records)}
     (OUT / "water-mapping-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

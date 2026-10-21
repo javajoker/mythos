@@ -10,6 +10,7 @@ Responsibilities:
 - Create first-occurrence nodes using `TYPE:ENTRY#n`; keep names, variants and coordinates outside IDs.
 - Extract only relations explicitly supported by the text into the `textual` layer. Code may serialize these LLM-authored decisions and check counts, but must not add, merge or classify semantics.
 - Preserve every water mention and its relations. A water shared by multiple mountains must remain one candidate anchor unless LLM adjudication splits it; never create duplicate waters merely to simplify the graph.
+- Record `reference.scope` when names share roots but denote different objects, such as a specific hill, a range, a hollow or a neighbouring named mountain. Do not merge them by shared text.
 - Extract `static.shape` and `static.topology` before interpretive fitting: outline, relative position, connection, enclosure, containment, branching and distribution. Preserve dynamic verbs in textual relations; use undirected `connected_to` only as a sourced interpretive comparison relation.
 - Apply ancient general semantics to words such as mountain, water and hill, and do not reject categories through narrow modern taxonomy.
 - Preserve `UNK`, `unresolved`, `pending_anchor` and justified `ignored` states. Coverage is not a reason to invent entities or links.

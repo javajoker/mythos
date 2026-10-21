@@ -1,6 +1,6 @@
 # Mythos 清理與方法決策記錄 / Cleanup and Method Decision Record
 
-> 狀態：D01–D27 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
+> 狀態：D01–D28 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
 
 ## 1. 清理結果 / Cleanup outcome
 
@@ -37,6 +37,7 @@
 | D25 | 全域採用靜態形狀優先、禁止因果倒置、古代通用詞義、文化歷史斷層與統一推論順序；吉薩只作崑崙競爭候選 | 公共框架、SHJ 規格 §7、ontology、工具與全部 agent/skill |
 | D26 | 開羅／吉薩可作未確認初始化錨點，從西次三經反向擬合；支持時加入多個錨點並在後續推理中校準、替換或否決 | 框架 R9、SHJ 規格、anchors 契約與 observer-frame |
 | D27 | 所有語義處理由 LLM 完成，代碼只做記憶與結構化處理；先由 LLM 完成全部水體映射並由發起人確認，再校準其他錨點。共享水體可跨山錨定，保留改道、消亡與性狀改變 | `water-mappings.jsonl`、`hydrology.history/formation`、全部相關規程 |
+| D28 | 明確語義指稱差異：昆侖之丘、昆侖、昆侖虛與西胡白玉山不自動合併；水體可分段、部分重合或歷史消失；吉薩聯動配置與阿特拉斯、撒哈拉之眼、乞力馬扎羅均為待審候選 | `semantic-referents.jsonl`、`water-hypotheses.jsonl`、ANC-01 聯動配置 |
 
 ## 3. 目前工具與組織 / Current tools and roles
 

@@ -14,6 +14,7 @@ Requirements:
 - Score appearance, colour, scale, material, function, sound, ecology, bearing and date separately; record evidence and reasons.
 - Modern-name similarity and fame are not evidence. Missing data is not automatically contradiction.
 - Modern flow direction, later toponyms, missing transmission chains and narrow modern species categories are not standalone vetoes. Allow ancient observer substitution and category generalisation symmetrically; unknown transmission remains unknown.
+- Distinguish referent scope before comparing candidates. Linked configurations may combine one site with several waters, and water names may refer to segments, branches, vanished courses or alternatives; never force them into one complete modern river.
 - Record model, prompt version, input hash and at least three shuffled samples.
 - Emit `semantic_fit` attributes as `proposed` until conflict and red-team review accepts them.
 - Compare scale models over the corpus range and report sensitivity; never use a numeric coincidence as standalone proof.

@@ -40,6 +40,7 @@ The authoritative details are `docs/research-framework.md` and `projects/shanhai
 - **Extensible ontology**: use `TYPE:SHJ-BB-S-EEE#n` node IDs and register predicates by entity type in `projects/shanhaijing/data/kg-ontology.json`.
 - **LLM-only semantics**: all entity/relation interpretation, candidate generation, mapping, merge/split and conflict adjudication are performed by LLM. Code only preserves memory, expands LLM-authored structure, validates references and counts coverage. It must not perform semantic processing.
 - **Water mappings before other anchors**: every WAT node first receives an LLM-reviewed real-world mapping with historical course/state changes and is confirmed by the initiator. Only then may other anchors be calibrated. Shared waters can anchor multiple mountains.
+- **Referent distinctions**: names sharing a root are not automatically one object. Specific hills, ranges, hollows and named neighbours need separate `reference.scope`; hydrological names may denote segments, branches, vanished parts or alternatives. Linked configurations remain hypotheses until every component is reviewed.
 - **No generated prose by scripts**: interpretation and reasoning are produced by LLM, not Python templates. Python may generate deterministic data products and verify counts.
 - **Coverage is not correctness**: every entry and mention must be accounted for, but unresolved items remain explicit.
 - **Reproducibility**: standard-library Python 3.9+, run from the repository root with `python3 -I`; preserve source manifests and judgment hashes.

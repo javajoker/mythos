@@ -59,7 +59,9 @@ def build_anchor_attributes(nodes, working):
                     "value": {"anchor": anchor["id"], "candidate": candidate["candidate"],
                               "name": candidate["name"], "role": anchor["role"],
                               "coordinates": candidate["coordinates"], "period_state": candidate["period_state"],
-                              "present_state": candidate["present_state"], "static_fit": candidate["static_fit"]},
+                              "present_state": candidate["present_state"], "static_fit": candidate["static_fit"],
+                              "components": candidate.get("components", []),
+                              "historical_scenarios": candidate.get("historical_scenarios", [])},
                     "kind": "semantic_fit",
                     "status": "proposed",
                     "confidence": None,
@@ -171,7 +173,7 @@ def main():
     write_jsonl(OUT / "edges.jsonl", edges)
     write_jsonl(OUT / "attributes.jsonl", attributes)
     manifest = {
-        "schema_version": "shj-kg-1.2",
+        "schema_version": "shj-kg-1.3",
         "builder": "kg_build.py",
         "source": "working-text.jsonl",
         "source_sha256": hashlib.sha256(WORKING.read_bytes()).hexdigest(),

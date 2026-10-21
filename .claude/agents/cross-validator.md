@@ -14,7 +14,8 @@ Check:
 - candidate dates, state, archaeology and period ecology;
 - rival configurations and counter-evidence;
 - typed graph constraints and unresolved anchors;
-- complete water mappings before other anchor calibration, including shared waters and historical course or state changes. The initiator confirms every water mapping; code only checks coverage.
+- complete water mappings before other anchor calibration, including shared waters and historical course or state changes. The initiator confirms every water mapping; code only checks coverage;
+- referent scope before merge/split: specific hills, ranges, hollows, neighbouring named mountains and partial hydrological segments must not be conflated by shared names.
 
 Distinguish responsibilities:
 - Code may validate schemas, calculate distances, detect duplicate values and report conflicts.

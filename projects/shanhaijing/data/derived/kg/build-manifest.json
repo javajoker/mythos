@@ -1,5 +1,5 @@
 {
-  "schema_version": "shj-kg-1.2",
+  "schema_version": "shj-kg-1.3",
   "builder": "kg_build.py",
   "source": "working-text.jsonl",
   "source_sha256": "4da155f60de8808c5f6b76ce406d65c9c340f8b2a53c8f8849a73b9c02070224",
@@ -21,7 +21,7 @@
   "nodes": 3593,
   "mentions": 3781,
   "edges": 1019,
-  "attributes": 27,
+  "attributes": 28,
   "initialization_anchors": 5,
   "mention_types": {
     "AST": 7,

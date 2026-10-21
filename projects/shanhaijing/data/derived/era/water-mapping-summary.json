@@ -1,6 +1,7 @@
 {
   "water_nodes": 452,
   "pending_mappings": 452,
+  "waters_with_initiator_hypotheses": 7,
   "waters_with_mountain_relations": 259,
   "waters_shared_by_multiple_mountains": 4
 }

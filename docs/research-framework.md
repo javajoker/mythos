@@ -77,7 +77,7 @@ Ancient texts are treated as transmitted records, not as predetermined answers. 
 | P11 | **可信度誠實**：對立候選、穩定度、敏感度、洩漏和紅隊結果決定措辭；暫定不得寫成定論。 |
 | P12 | **可重現**：來源有快照與雜湊，工具輸出確定性排序，生成物可由同一輸入重建。 |
 
-## 5. 解讀規則 R1–R15 / Reading rules
+## 5. 解讀規則 R1–R16 / Reading rules
 
 | # | 規則 / Rule |
 |---|---|
@@ -96,6 +96,7 @@ Ancient texts are treated as transmitted records, not as predetermined answers. 
 | R13 | 古環境反推只在對應經獨立驗證後進行，不能用反推結果循環證明原對應。 |
 | R14 | 各篇先獨立建模；跨篇連接必須有文本或已接受關係證據。里程總和不是天然的地理跨度，比例尺只在語料指定區間內擬合。 |
 | R15 | 同名實體的遠距拆分、近距合併與爭議保留均由 LLM 結合距離和關係裁決；語料的第一版硬約束只限制可用節點，不指定現實答案。 |
+| R16 | 共享詞根不代表同一指稱。具體丘台、山脈、窪地、遺址、河段、支流和鄰近名山須分別記錄 scope；水體可部分重合、分段指代或歷史消失，不得強制合成一條現代河道。 |
 
 ## 6. 程序與 LLM 的職責 / Code versus LLM
 

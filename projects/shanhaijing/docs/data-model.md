@@ -81,6 +81,8 @@
 | `candidates.jsonl` | 實體、候選、年代、當時狀態、物理屬性、一般性來源與對立候選組 |
 | `judgments.jsonl` | 遮蔽輸入雜湊、模型、提示版本、樣本、逐維分數、證據與理由 |
 | `relation-judgments.jsonl` | 兩個候選之間的關係是否成立、證據、樣本與理由 |
+| `water-hypotheses.jsonl` | LLM／發起人提出的水體候選假說，可含分段、部分重合、消失、改道與人工渠道狀態 |
+| `semantic-referents.jsonl` | 名稱相近但指稱不同的對象、scope、來源條目與未決候選；位於 `data/derived/review/` |
 | `water-mappings.jsonl` | 每個水體的完整映射審核記錄：共享山體、候選、歷史狀態、證據與人工決定 |
 | `anchors.jsonl` | 錨點實體與候選、角色、坐標、推進方向、支持條目、校準狀態、迭代記錄與共識狀態 |
 | `mapping.jsonl` | 目前有效的對應、狀態、可信度、對立候選、支持與違反關係 |
