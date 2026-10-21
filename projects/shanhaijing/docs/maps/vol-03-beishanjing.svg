@@ -33,12 +33,12 @@
       <g transform="translate(1820, 20)">
         <rect x="0" y="0" width="1290" height="38" fill="#FFFFFF" stroke="#E2E8F0" rx="4"/>
         <text x="18" y="24" font-size="12" fill="#2C3E50">
-          <tspan font-weight="bold" fill="#16A085">⛰️ 實錄名山：88 座</tspan> · 
-          <tspan font-weight="bold" fill="#1B4F72">💧 發源水系：35 條</tspan> · 
+          <tspan font-weight="bold" fill="#16A085">📍 標註站點：88 處</tspan> · 
+          <tspan font-weight="bold" fill="#1B4F72">💧 水系：35 條</tspan> · 
+          <tspan font-weight="bold" fill="#6E2C00">🏛️ 邦國：0 國</tspan> · 
+          <tspan font-weight="bold" fill="#4A235A">👑 神祇：4 尊</tspan> · 
           <tspan font-weight="bold" fill="#78281F">🐾 異獸神禽：31 種</tspan> · 
           <tspan font-weight="bold" fill="#145A32">🌿 靈草奇木：4 種</tspan> · 
-          <tspan font-weight="bold" fill="#7D6608">💎 金玉礦石：6 種</tspan> · 
-          <tspan font-weight="bold" fill="#4A235A">👑 祭禮神祇：6 項</tspan> · 
           <tspan font-weight="bold" fill="#C0392B">⭐ 全要素實體總數：171 個 (100% 零遺漏)</tspan>
         </text>
       </g>
@@ -47,36 +47,34 @@
 <clipPath id="clip_map_3"><rect x="50" y="110" width="1980" height="1630" rx="4"/></clipPath>
 <g clip-path="url(#clip_map_3)">
 <g stroke="#CAD7E0" stroke-width="0.6" stroke-dasharray="3,3">
-<line x1="50" y1="1740.0" x2="2030" y2="1740.0"/>
-<text x="58" y="1736.0" font-size="9.5" fill="#7F8C8D">34°N</text>
-<line x1="50" y1="1525.5" x2="2030" y2="1525.5"/>
-<text x="58" y="1521.5" font-size="9.5" fill="#7F8C8D">39°N</text>
-<line x1="50" y1="1311.1" x2="2030" y2="1311.1"/>
-<text x="58" y="1307.1" font-size="9.5" fill="#7F8C8D">44°N</text>
-<line x1="50" y1="1096.6" x2="2030" y2="1096.6"/>
-<text x="58" y="1092.6" font-size="9.5" fill="#7F8C8D">49°N</text>
-<line x1="50" y1="882.1" x2="2030" y2="882.1"/>
-<text x="58" y="878.1" font-size="9.5" fill="#7F8C8D">54°N</text>
-<line x1="50" y1="667.6" x2="2030" y2="667.6"/>
-<text x="58" y="663.6" font-size="9.5" fill="#7F8C8D">59°N</text>
-<line x1="50" y1="453.2" x2="2030" y2="453.2"/>
-<text x="58" y="449.2" font-size="9.5" fill="#7F8C8D">64°N</text>
-<line x1="50" y1="238.7" x2="2030" y2="238.7"/>
-<text x="58" y="234.7" font-size="9.5" fill="#7F8C8D">69°N</text>
-<line x1="50.0" y1="110" x2="50.0" y2="1740"/>
-<text x="54.0" y="1732" font-size="9.5" fill="#7F8C8D">96°E</text>
-<line x1="359.4" y1="110" x2="359.4" y2="1740"/>
-<text x="363.4" y="1732" font-size="9.5" fill="#7F8C8D">101°E</text>
-<line x1="668.8" y1="110" x2="668.8" y2="1740"/>
-<text x="672.8" y="1732" font-size="9.5" fill="#7F8C8D">106°E</text>
-<line x1="978.1" y1="110" x2="978.1" y2="1740"/>
-<text x="982.1" y="1732" font-size="9.5" fill="#7F8C8D">111°E</text>
-<line x1="1287.5" y1="110" x2="1287.5" y2="1740"/>
-<text x="1291.5" y="1732" font-size="9.5" fill="#7F8C8D">116°E</text>
-<line x1="1596.9" y1="110" x2="1596.9" y2="1740"/>
-<text x="1600.9" y="1732" font-size="9.5" fill="#7F8C8D">121°E</text>
-<line x1="1906.2" y1="110" x2="1906.2" y2="1740"/>
-<text x="1910.2" y="1732" font-size="9.5" fill="#7F8C8D">126°E</text>
+<line x1="50" y1="1697.1" x2="2030" y2="1697.1"/>
+<text x="58" y="1693.1" font-size="9.5" fill="#7F8C8D">35°N</text>
+<line x1="50" y1="1482.6" x2="2030" y2="1482.6"/>
+<text x="58" y="1478.6" font-size="9.5" fill="#7F8C8D">40°N</text>
+<line x1="50" y1="1268.2" x2="2030" y2="1268.2"/>
+<text x="58" y="1264.2" font-size="9.5" fill="#7F8C8D">45°N</text>
+<line x1="50" y1="1053.7" x2="2030" y2="1053.7"/>
+<text x="58" y="1049.7" font-size="9.5" fill="#7F8C8D">50°N</text>
+<line x1="50" y1="839.2" x2="2030" y2="839.2"/>
+<text x="58" y="835.2" font-size="9.5" fill="#7F8C8D">55°N</text>
+<line x1="50" y1="624.7" x2="2030" y2="624.7"/>
+<text x="58" y="620.7" font-size="9.5" fill="#7F8C8D">60°N</text>
+<line x1="50" y1="410.3" x2="2030" y2="410.3"/>
+<text x="58" y="406.3" font-size="9.5" fill="#7F8C8D">65°N</text>
+<line x1="50" y1="195.8" x2="2030" y2="195.8"/>
+<text x="58" y="191.8" font-size="9.5" fill="#7F8C8D">70°N</text>
+<line x1="297.5" y1="110" x2="297.5" y2="1740"/>
+<text x="301.5" y="1732" font-size="9.5" fill="#7F8C8D">100°E</text>
+<line x1="606.9" y1="110" x2="606.9" y2="1740"/>
+<text x="610.9" y="1732" font-size="9.5" fill="#7F8C8D">105°E</text>
+<line x1="916.2" y1="110" x2="916.2" y2="1740"/>
+<text x="920.2" y="1732" font-size="9.5" fill="#7F8C8D">110°E</text>
+<line x1="1225.6" y1="110" x2="1225.6" y2="1740"/>
+<text x="1229.6" y="1732" font-size="9.5" fill="#7F8C8D">115°E</text>
+<line x1="1535.0" y1="110" x2="1535.0" y2="1740"/>
+<text x="1539.0" y="1732" font-size="9.5" fill="#7F8C8D">120°E</text>
+<line x1="1844.4" y1="110" x2="1844.4" y2="1740"/>
+<text x="1848.4" y="1732" font-size="9.5" fill="#7F8C8D">125°E</text>
 </g>
 <g fill="#F6F2E8" stroke="#9E9480" stroke-width="0.8">
 <path d="M -15542.5,152.9 L -14614.4,174.3 L -14119.4,217.2 L -13005.6,260.1 L -11953.8,281.6 L -11273.1,367.4 L -11520.6,496.1 L -11737.2,624.7 L -11613.4,753.4 L -10963.8,839.2 L -10778.1,989.3 L -10685.3,839.2 L -10716.2,689.1 L -10716.2,517.5 L -10221.2,624.7 L -10097.5,689.1 L -9880.9,611.9 L -9695.3,753.4 L -9355.0,903.6 L -9336.4,967.9 L -9602.5,1075.1 L -9633.4,1182.4 L -9664.4,1246.7 L -9819.1,1289.6 L -9973.8,1332.5 L -10035.6,1268.2 L -10159.4,1311.1 L -10252.2,1396.8 L -10283.1,1418.3 L -10468.8,1461.2 L -10530.6,1547.0 L -10561.6,1688.5 L -10901.9,1825.8 L -10920.4,1911.6 L -10840.0,2040.3 L -10864.8,2117.5 L -10951.4,2083.2 L -11007.1,1997.4 L -11087.5,1911.6 L -11304.1,1898.7 L -11409.2,1954.5 L -11582.5,1928.7 L -11737.2,1933.0 L -11910.4,2018.8 L -11922.8,2126.1 L -11941.4,2254.7 L -11854.8,2362.0 L -11737.2,2404.9 L -11551.6,2396.3 L -11483.5,2297.6 L -11285.5,2276.2 L -11316.4,2404.9 L -11365.9,2512.1 L -11211.2,2520.7 L -11044.2,2555.0 L -11068.9,2726.6 L -10932.8,2812.4 L -10685.3,2833.8 L -10716.2,2876.7 L -10840.0,2846.7 L -10870.9,2876.7 L -11180.3,2786.6 L -11198.9,2726.6 L -11304.1,2640.8 L -11551.6,2597.9 L -11675.3,2520.7 L -11768.1,2512.1 L -12077.5,2469.2 L -12355.9,2383.4 L -12417.8,2319.1 L -12448.8,2211.8 L -12634.4,2083.2 L -12758.1,1997.4 L -12881.9,1868.7 L -12980.9,1890.1 L -12869.5,1997.4 L -12758.1,2147.5 L -12696.2,2211.8 L -12820.0,2147.5 L -12962.3,2040.3 L -13036.6,1933.0 L -13129.4,1804.3 L -13253.1,1727.1 L -13352.1,1718.6 L -13432.6,1632.8 L -13488.2,1568.4 L -13581.1,1465.5 L -13587.2,1353.9 L -13562.5,1216.7 L -13605.8,1122.3 L -13779.1,1053.7 L -13964.7,882.1 L -14150.3,774.9 L -14335.9,689.1 L -14614.4,624.7 L -14954.7,603.3 L -15264.1,667.6 L -15418.8,732.0 L -15790.0,817.8 L -15975.6,839.2 L -15666.2,753.4 L -15604.4,680.5 L -15913.8,684.8 L -16099.4,603.3 L -16068.4,517.5 L -16161.2,431.7 L -16285.0,384.5 L -16037.5,324.5 L -16161.2,247.3 L -15851.9,182.9 L -15542.5,152.9 Z"><title>north_america</title></path>
@@ -196,28 +194,28 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-002】求如之山&#10;時代坐標: 39.95°N, 111.45°E&#10;考古/古生物映射: 陰山南麓前山丘陵&#10;⛰️ 名山: 求如之山&#10;🐾 生物: 滑魚（大泥鰍/花鰍）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">求如之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 滑魚（大</text>
 </g>
 <g transform="translate(1015.2,1446.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-003】帶山&#10;時代坐標: 40.85°N, 111.6°E&#10;考古/古生物映射: 太古宙變質岩與花崗岩斷塊巨嶂&#10;⛰️ 名山: 帶山（大青山）&#10;💧 水系: 芘湖之水（哈素海）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">帶山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 芘湖之水</text>
 </g>
 <g transform="translate(903.9,1452.6)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-004】譙明之山&#10;時代坐標: 40.7°N, 109.8°E&#10;考古/古生物映射: 陰山山系高聳斷塊山&#10;⛰️ 名山: 譙明之山&#10;🐾 生物: 何羅之魚</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">譙明之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 何羅之魚</text>
 </g>
 <g transform="translate(780.1,1431.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-005】涿光之山&#10;時代坐標: 41.2°N, 107.8°E&#10;考古/古生物映射: 前寒武系變質岩石質荒漠山&#10;⛰️ 名山: 涿光之山&#10;🐾 生物: 橐駞（雙峰駱駝）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">涿光之山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 橐駞（雙</text>
 </g>
 <g transform="translate(699.7,1418.3)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -236,21 +234,21 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-008】丹熏之山&#10;時代坐標: 40.8°N, 103.8°E&#10;考古/古生物映射: 阿拉善沙漠中孤立山系&#10;⛰️ 名山: 丹熏之山&#10;🐾 生物: 耳鼠（長耳跳鼠）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">丹熏之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 耳鼠（長</text>
 </g>
 <g transform="translate(470.7,1418.3)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-009】石者之山&#10;時代坐標: 41.5°N, 102.8°E&#10;考古/古生物映射: 前寒武系變質基底裸岩&#10;⛰️ 名山: 石者之山&#10;🐾 生物: 孟極（雪豹）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">石者之山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 孟極（雪</text>
 </g>
 <g transform="translate(415.1,1392.6)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-010】邊春之山&#10;時代坐標: 42.1°N, 101.9°E&#10;考古/古生物映射: 荒漠草原山地綠洲&#10;⛰️ 名山: 邊春之山&#10;🐾 生物: 幽鴳（旱獺/土撥鼠）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">邊春之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 幽鴳（旱</text>
 </g>
 <g transform="translate(390.3,1358.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -263,14 +261,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-012】單張之山&#10;時代坐標: 43.5°N, 101.1°E&#10;考古/古生物映射: 荒漠結晶片岩山體&#10;⛰️ 名山: 單張之山&#10;🐾 生物: 諸犍（長尾神獸/兔猻）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">單張之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 諸犍（長</text>
 </g>
 <g transform="translate(347.0,1293.9)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-013】灌題之山&#10;時代坐標: 44.4°N, 100.8°E&#10;考古/古生物映射: 荒漠沉積與片麻岩山梁&#10;⛰️ 名山: 灌題之山&#10;🐾 生物: 竦斯（沙雞）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">灌題之山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 竦斯（沙</text>
 </g>
 <g transform="translate(328.4,1259.6)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -295,35 +293,35 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-017】敦薨之山&#10;時代坐標: 48.2°N, 98.5°E&#10;考古/古生物映射: 西伯利亞落葉松林山脈&#10;⛰️ 名山: 敦薨之山&#10;🐾 生物: 赤鮭（哲羅鮭）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">敦薨之山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 赤鮭（哲</text>
 </g>
 <g transform="translate(248.0,1092.3)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-018】少咸之山&#10;時代坐標: 49.1°N, 99.2°E&#10;考古/古生物映射: 泰加林邊緣高山&#10;⛰️ 名山: 少咸之山&#10;🐾 生物: 窫窳</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">少咸之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 窫窳</text>
 </g>
 <g transform="translate(390.3,1019.4)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-019】嶽法之山&#10;時代坐標: 50.8°N, 101.5°E&#10;考古/古生物映射: 貝加爾裂谷帶高山&#10;⛰️ 名山: 嶽法之山&#10;💧 水系: 泰澤（貝加爾湖）&#10;🐾 生物: 山𤟤（貂熊/狼獾）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">嶽法之山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 山𤟤（貂</text>
 </g>
 <g transform="translate(532.6,972.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-020】北嶽之山&#10;時代坐標: 51.9°N, 103.8°E&#10;考古/古生物映射: 寒帶針葉林斷塊山體&#10;⛰️ 名山: 北嶽之山&#10;🐾 生物: 諸懷（駝鹿/犴達罕）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">北嶽之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 諸懷（駝</text>
 </g>
 <g transform="translate(557.4,942.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-021】渾夕之山&#10;時代坐標: 52.6°N, 104.2°E&#10;考古/古生物映射: 貝加爾斷陷變質岩山嶺&#10;⛰️ 名山: 渾夕之山&#10;💧 水系: 嚻水（安加拉河）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">渾夕之山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 嚻水（安</text>
 </g>
 <g transform="translate(613.1,920.7)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#16A085" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -348,42 +346,42 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-1-025】隄山&#10;時代坐標: 55.4°N, 109.8°E&#10;考古/古生物映射: 阻斷北極寒潮之天然山隄&#10;⛰️ 名山: 隄山&#10;💧 水系: 隄水（上安加拉河）&#10;🐾 生物: 龍龜（貝加爾海豹）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">隄山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 龍龜（貝</text>
 </g>
 <g transform="translate(1043.1,1529.8)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-001】管涔之山（北次二經之首·汾河發源聖山）&#10;時代坐標: 38.9°N, 112.05°E&#10;考古/古生物映射: 前寒武系花崗岩與奧陶系石灰岩山體&#10;⛰️ 名山: 管涔之山&#10;💧 水系: 汾水（汾河）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">管涔之山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 汾水（汾</text>
 </g>
 <g transform="translate(1002.9,1534.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-002】少陽之山&#10;時代坐標: 38.8°N, 111.4°E&#10;考古/古生物映射: 變質岩與沉積赤鐵礦山嶺&#10;⛰️ 名山: 少陽之山&#10;💧 水系: 酸水&#10;💎 礦產: 美赭</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">少陽之山</text>
-<text x="9" y="3" font-size="8">💧💎</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧💎 酸水</text>
 </g>
 <g transform="translate(1066.6,1580.9)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-003】縣雍之山（太原晉水發源地）&#10;時代坐標: 37.71°N, 112.43°E&#10;考古/古生物映射: 奧陶系石灰岩岩溶斷崖&#10;⛰️ 名山: 縣雍之山（懸甕山）&#10;💧 水系: 晋水（晉祠難老泉）&#10;🐾 生物: 鮆魚（晉祠赤鱗魚）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">縣雍之山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 鮆魚（晉</text>
 </g>
 <g transform="translate(1030.7,1585.6)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-004】狐岐之山&#10;時代坐標: 37.6°N, 111.85°E&#10;考古/古生物映射: 古生界石灰岩與砂岩&#10;⛰️ 名山: 狐岐之山&#10;💧 水系: 勝水</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">狐岐之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 勝水</text>
 </g>
 <g transform="translate(1089.5,1504.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-005】白沙山&#10;時代坐標: 39.5°N, 112.8°E&#10;考古/古生物映射: 第四紀風積白色石英沙丘&#10;⛰️ 名山: 白沙山&#10;💧 水系: 鮪水</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">白沙山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 鮪水</text>
 </g>
 <g transform="translate(1095.7,1465.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -396,7 +394,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-007】狂山&#10;時代坐標: 41.0°N, 112.5°E&#10;考古/古生物映射: 前寒武系變質花崗片麻岩&#10;⛰️ 名山: 狂山&#10;💧 水系: 狂水</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">狂山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 狂水</text>
 </g>
 <g transform="translate(1077.1,1414.0)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -409,28 +407,28 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-009】敦頭之山&#10;時代坐標: 42.1°N, 112.7°E&#10;考古/古生物映射: 古生界沉積變質花崗岩山嶺&#10;⛰️ 名山: 敦頭之山&#10;💧 水系: 印澤&#10;🐾 生物: 𩣡馬（草原獨角獸）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">敦頭之山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 𩣡馬（草</text>
 </g>
 <g transform="translate(1070.9,1362.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-010】鈎吾之山（上古四大凶獸「饕餮/狍鴞」發源地）&#10;時代坐標: 42.8°N, 112.5°E&#10;考古/古生物映射: 前寒武系變質岩殘丘&#10;⛰️ 名山: 鈎吾之山&#10;🐾 生物: 狍鴞（饕餮原型）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">鈎吾之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 狍鴞（饕</text>
 </g>
 <g transform="translate(1058.6,1332.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-011】北嚻之山&#10;時代坐標: 43.5°N, 112.3°E&#10;考古/古生物映射: 第三紀紅層黏土與泥岩風蝕丘陵&#10;⛰️ 名山: 北嚻之山&#10;🐾 生物: 𪄀𪃑（人面夜行鵰鴞）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">北嚻之山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 𪄀𪃑（人</text>
 </g>
 <g transform="translate(1040.0,1302.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-012】梁渠之山&#10;時代坐標: 44.2°N, 112.0°E&#10;考古/古生物映射: 古生代變質花崗岩殘山&#10;⛰️ 名山: 梁渠之山&#10;🐾 生物: 居暨（赤毛豪豬）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">梁渠之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 居暨（赤</text>
 </g>
 <g transform="translate(545.0,1319.6)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -443,7 +441,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-014】湖灌之山&#10;時代坐標: 45.5°N, 103.5°E&#10;考古/古生物映射: 花崗岩與草原灌木交錯帶&#10;⛰️ 名山: 湖灌之山&#10;🐾 生物: 馬（普氏野馬）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">湖灌之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 馬（普氏</text>
 </g>
 <g transform="translate(575.9,1139.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#1ABC9C" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -457,28 +455,28 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-2-016】敦題之山（北次二經終點·錞于北海）&#10;時代坐標: 51.5°N, 104.5°E&#10;考古/古生物映射: 貝加爾裂谷南岸前寒武系結晶岩斷崖&#10;⛰️ 名山: 敦題之山&#10;💧 水系: 北海（貝加爾湖）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">敦題之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 北海（貝</text>
 </g>
 <g transform="translate(1108.1,1688.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-001】太行之山（北次三經之首）&#10;時代坐標: 35.2°N, 113.1°E&#10;考古/古生物映射: 華北地台東緣巨大斷塊隆起山脈&#10;⛰️ 名山: 太行之山&#10;💧 水系: 歸水</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">太行之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 歸水</text>
 </g>
 <g transform="translate(1123.5,1682.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-002】龍侯之山&#10;時代坐標: 35.35°N, 113.35°E&#10;考古/古生物映射: 震旦系紅色石英砂岩峽谷&#10;⛰️ 名山: 龍侯之山&#10;🐾 生物: 人魚（中國大鯢）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">龍侯之山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 人魚（中</text>
 </g>
 <g transform="translate(1139.0,1675.7)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-003】馬成之山&#10;時代坐標: 35.5°N, 113.6°E&#10;考古/古生物映射: 華北地台奧陶系石灰岩障壁&#10;⛰️ 名山: 馬成之山&#10;🐾 生物: 天馬（滑翔飛鼠/林跳鼠）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">馬成之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 天馬（滑</text>
 </g>
 <g transform="translate(1151.4,1667.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -492,14 +490,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-005】天池之山&#10;時代坐標: 36.45°N, 114.15°E&#10;考古/古生物映射: 奧陶系石灰岩岩溶泉源&#10;⛰️ 名山: 天池之山（滏山/鼓山）&#10;💧 水系: 滏水（滏陽河）&#10;🐾 生物: 飛鼠（復齒鼯鼠）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">天池之山</text>
-<text x="9" y="3" font-size="8">💧🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 飛鼠（復</text>
 </g>
 <g transform="translate(1151.4,1641.3)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-006】陽山&#10;時代坐標: 36.3°N, 113.8°E&#10;考古/古生物映射: 碳酸鹽岩與砂岩接觸帶&#10;⛰️ 名山: 陽山&#10;🐾 生物: 象蛇（五彩錦雞）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">陽山</text>
-<text x="9" y="14" font-size="8">🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 象蛇（五</text>
 </g>
 <g transform="translate(1194.7,1649.9)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -519,14 +517,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-009】教山&#10;時代坐標: 35.6°N, 112.9°E&#10;考古/古生物映射: 石灰岩喀斯特溶蝕山地&#10;⛰️ 名山: 教山&#10;💧 水系: 教水（季節性乾河）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">教山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 教水（季</text>
 </g>
 <g transform="translate(978.1,1695.0)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-010】景山（災鳥「酸與」棲息地）&#10;時代坐標: 35.05°N, 111.0°E&#10;考古/古生物映射: 斷塊山地（南臨解池）&#10;⛰️ 名山: 景山&#10;💧 水系: 鹽販之澤（解池）&#10;🌿 植物: 藷藇（山藥）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">景山</text>
-<text x="9" y="14" font-size="8">💧🌿</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🌿 鹽販之澤</text>
 </g>
 <g transform="translate(944.1,1652.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -539,7 +537,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-012】平山&#10;時代坐標: 35.8°N, 113.1°E&#10;考古/古生物映射: 碳酸鹽岩溶蝕平頂山&#10;⛰️ 名山: 平山&#10;💧 水系: 平水（地下溶洞潛水）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">平山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 平水（地</text>
 </g>
 <g transform="translate(1126.6,1671.4)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -553,70 +551,70 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-014】虫尾之山&#10;時代坐標: 35.8°N, 113.2°E&#10;考古/古生物映射: 石灰岩分水嶺山體&#10;⛰️ 名山: 虫尾之山&#10;💧 水系: 丹水（丹河）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">虫尾之山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 丹水（丹</text>
 </g>
 <g transform="translate(1132.8,1654.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-015】彭毗之山&#10;時代坐標: 36.0°N, 113.5°E&#10;考古/古生物映射: 奧陶系石灰岩岩溶泉源&#10;⛰️ 名山: 彭毗之山&#10;🐾 生物: 珠鼈（巨鱉/斑鱉）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">彭毗之山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 珠鼈（巨</text>
 </g>
 <g transform="translate(1126.6,1639.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-016】小侯之山&#10;時代坐標: 36.35°N, 113.4°E&#10;考古/古生物映射: 石英砂岩峽谷山嶺&#10;⛰️ 名山: 小侯之山&#10;💧 水系: 明漳之水（清漳河源）&#10;🐾 生物: 鴗（冠魚狗）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">小侯之山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 鴗（冠魚</text>
 </g>
 <g transform="translate(1157.6,1619.9)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-017】泰頭之山&#10;時代坐標: 36.8°N, 113.9°E&#10;考古/古生物映射: 震旦系與古生界高聳斷塊山&#10;⛰️ 名山: 泰頭之山&#10;💧 水系: 虖池（滹沱河）&#10;🌿 植物: 竹箭（箭竹）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">泰頭之山</text>
-<text x="9" y="3" font-size="8">💧🌿</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🌿 虖池（滹</text>
 </g>
 <g transform="translate(1169.9,1607.0)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-018】軒轅之山（黃帝始祖名山與神鳥黃鳥）&#10;時代坐標: 37.1°N, 114.1°E&#10;考古/古生物映射: 華夏人文始祖青銅發祥聖山&#10;⛰️ 名山: 軒轅之山&#10;🐾 生物: 黃鳥（白首倉鴞）&#10;💎 礦產: 銅（黃帝首山鑄鼎銅）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">軒轅之山</text>
-<text x="9" y="14" font-size="8">🐾💎</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾💎 黃鳥（白</text>
 </g>
 <g transform="translate(1052.4,1624.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-019】謁戾之山（沁水發源聖山）&#10;時代坐標: 36.7°N, 112.2°E&#10;考古/古生物映射: 前寒武系變質岩山嶺&#10;⛰️ 名山: 謁戾之山&#10;💧 水系: 沁水（沁河）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">謁戾之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 沁水（沁</text>
 </g>
 <g transform="translate(1108.1,1632.8)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-020】沮洳之山&#10;時代坐標: 36.5°N, 113.1°E&#10;考古/古生物映射: 奧陶系灰岩與紅層盆地&#10;⛰️ 名山: 沮洳之山&#10;💧 水系: 濝水（淇河源）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">沮洳之山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 濝水（淇</text>
 </g>
 <g transform="translate(1145.2,1643.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-021】神囷之山（商代殷墟母親河「洹水」發源地）&#10;時代坐標: 36.25°N, 113.7°E&#10;考古/古生物映射: 奧陶系巨型石灰岩桶狀圓倉山體&#10;⛰️ 名山: 神囷之山&#10;💧 水系: 洹（洹水/安陽河）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">神囷之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 洹（洹水</text>
 </g>
 <g transform="translate(1088.3,1649.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
-<title>【SHJ-03-3-022】發鳩之山（精衛填海千古第一悲壯神話）&#10;時代坐標: 36.12°N, 112.78°E&#10;考古/古生物映射: 華北陸台太行背斜沉積岩山體&#10;⛰️ 名山: 發鳩之山&#10;💧 水系: 漳水（濁漳河西源）&#10;🐾 生物: 精衛（紅嘴山鴉）&#10; OTHER: 女娃（炎帝少女）</title>
+<title>【SHJ-03-3-022】發鳩之山（精衛填海千古第一悲壯神話）&#10;時代坐標: 36.12°N, 112.78°E&#10;考古/古生物映射: 華北陸台太行背斜沉積岩山體&#10;⛰️ 名山: 發鳩之山&#10;💧 水系: 漳水（濁漳河西源）&#10;🐾 生物: 精衛（紅嘴山鴉）&#10;👑 神祇: 女娃（炎帝少女）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">發鳩之山</text>
-<text x="9" y="14" font-size="8">💧🐾👑</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧👑🐾 女娃（炎</text>
 </g>
 <g transform="translate(1095.7,1637.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-023】少山&#10;時代坐標: 36.4°N, 112.9°E&#10;考古/古生物映射: 石英砂岩低山丘陵&#10;⛰️ 名山: 少山&#10;💧 水系: 清漳之水</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">少山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 清漳之水</text>
 </g>
 <g transform="translate(1163.8,1626.3)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -629,7 +627,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-025】景山（海澤注入山）&#10;時代坐標: 37.05°N, 114.2°E&#10;考古/古生物映射: 碳酸鹽岩險峰&#10;⛰️ 名山: 景山&#10;💧 水系: 海澤（大陸澤/巨鹿澤）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">景山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 海澤（大</text>
 </g>
 <g transform="translate(1182.3,1596.3)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -642,7 +640,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-027】繡山&#10;時代坐標: 37.6°N, 114.05°E&#10;考古/古生物映射: 震旦系紅色石英砂岩三層絕壁&#10;⛰️ 名山: 繡山（障石岩）&#10;🐾 生物: 鱬魚（刺鰍/黃顙）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">繡山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 鱬魚（刺</text>
 </g>
 <g transform="translate(1169.9,1572.7)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -655,7 +653,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-029】敦與之山&#10;時代坐標: 38.05°N, 114.15°E&#10;考古/古生物映射: 前寒武系變質岩要塞山梁&#10;⛰️ 名山: 敦與之山&#10;💧 水系: 泜水（泜河）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">敦與之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 泜水（泜</text>
 </g>
 <g transform="translate(1169.9,1555.6)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -675,7 +673,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-032】白馬之山&#10;時代坐標: 39.2°N, 114.65°E&#10;考古/古生物映射: 中生代花崗岩與前寒武系白雲岩&#10;⛰️ 名山: 白馬之山（白石山）&#10;💧 水系: 木馬之水</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">白馬之山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 木馬之水</text>
 </g>
 <g transform="translate(1225.6,1486.9)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -688,14 +686,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-034】泰戲之山（滹沱河發源地與一目神羊䍶䍶）&#10;時代坐標: 39.15°N, 113.8°E&#10;考古/古生物映射: 五台群古老變質綠片岩山體&#10;⛰️ 名山: 泰戲之山（繁峙五台主脈）&#10;💧 水系: 虖沱之水（滹沱河正源）&#10;🐾 生物: 䍶䍶（高山單角岩羊）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">泰戲之山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 䍶䍶（高</text>
 </g>
 <g transform="translate(1139.0,1508.4)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-035】石山&#10;時代坐標: 39.4°N, 113.6°E&#10;考古/古生物映射: 太古代變質花崗片麻岩山體&#10;⛰️ 名山: 石山&#10;💧 水系: 鮮于之水</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">石山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 鮮于之水</text>
 </g>
 <g transform="translate(1169.9,1499.8)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -708,7 +706,7 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-037】高是之山（滱水發源地）&#10;時代坐標: 39.0°N, 114.8°E&#10;考古/古生物映射: 太行深處斷塊山地&#10;⛰️ 名山: 高是之山&#10;💧 水系: 滱水（唐河）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">高是之山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 滱水（唐</text>
 </g>
 <g transform="translate(1231.8,1508.4)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -727,14 +725,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-040】燕山（北京燕山山脈名典）&#10;時代坐標: 40.25°N, 116.15°E&#10;考古/古生物映射: 華北地台北緣前寒武系結晶岩山系&#10;⛰️ 名山: 燕山&#10;💧 水系: 燕水（溫榆河源）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">燕山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 燕水（溫</text>
 </g>
 <g transform="translate(1361.8,1341.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-041】饒山（雙峰駝橐駞特產名山）&#10;時代坐標: 43.3°N, 117.2°E&#10;考古/古生物映射: 大興安嶺最高峰花崗岩石林&#10;⛰️ 名山: 饒山&#10;🐾 生物: 橐駞（雙峰駱駝）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">饒山</text>
-<text x="9" y="3" font-size="8">🐾</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">🐾 橐駞（雙</text>
 </g>
 <g transform="translate(1337.0,1302.5)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -747,14 +745,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-043】倫山&#10;時代坐標: 47.5°N, 110.5°E&#10;考古/古生物映射: 森林草原交錯帶花崗岩高山&#10;⛰️ 名山: 倫山&#10;💧 水系: 倫水（克魯倫河）</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">倫山</text>
-<text x="9" y="3" font-size="8">💧</text>
+<text x="9" y="4" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 倫水（克</text>
 </g>
 <g transform="translate(1483.0,1495.1)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-044】碣石之山（曹操「東臨碣石以觀滄海」千古名山）&#10;時代坐標: 39.71°N, 119.16°E&#10;考古/古生物映射: 中生代燕山期花崗岩海岸第一峰&#10;⛰️ 名山: 碣石之山&#10;💧 水系: 繩水&#10;🐾 生物: 蒲夷之魚（比目魚/鰣魚）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">碣石之山</text>
-<text x="9" y="14" font-size="8">💧🐾</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧🐾 蒲夷之魚</text>
 </g>
 <g transform="translate(1093.8,1517.8)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
@@ -767,14 +765,14 @@
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-046】泰澤與帝都之山（貝加爾湖心臟「奧爾洪島」）&#10;時代坐標: 53.0°N, 107.5°E&#10;考古/古生物映射: 大陸裂谷淡水深湖（蓄水量佔全球五分之一）&#10;⛰️ 名山: 帝都之山（奧爾洪島）&#10;💧 水系: 泰澤（貝加爾湖）</title>
 <text x="9" y="4" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">泰澤與帝都之山</text>
-<text x="9" y="14" font-size="8">💧</text>
+<text x="9" y="15" font-size="8" fill="#555" stroke="#FFFFFF" stroke-width="1.5" paint-order="stroke fill">💧 泰澤（貝</text>
 </g>
 <g transform="translate(823.4,839.2)" filter="url(#shadow_3)">
 <circle cx="0" cy="0" r="6" fill="#48C9B0" stroke="#FFFFFF" stroke-width="1.6"/>
 <circle cx="0" cy="0" r="2" fill="#FFFFFF"/>
 <title>【SHJ-03-3-047】錞于毋逢之山（北極圈幽都門戶）&#10;時代坐標: 55.0°N, 108.5°E&#10;考古/古生物映射: 亞寒帶泰加林深處雪峰&#10;⛰️ 名山: 錞于毋逢之山, 幽都之山&#10; OTHER: 其風如䬅</title>
 <text x="9" y="-7" font-size="10" font-weight="bold" fill="#2C3E50" stroke="#FFFFFF" stroke-width="2" paint-order="stroke fill">錞于毋逢之山</text>
-<text x="9" y="3" font-size="8">👑</text>
+<text x="9" y="3" font-size="8">⭐</text>
 </g>
 <g transform="translate(928.6,1521.2)">
               <circle cx="0" cy="0" r="11" fill="none" stroke="#F1C40F" stroke-width="2.5" filter="url(#glow_3)"/>
@@ -820,11 +818,11 @@
     </g>
 <g transform="translate(15.0, 66)">
           <rect x="0" y="0" width="524.0" height="22" fill="#EAEDED" rx="2"/>
-          <text x="8" y="15" font-size="10" font-weight="bold" fill="#5D6D7E">條目 / 名山 (坐標) 實體全要素索引</text>
+          <text x="8" y="15" font-size="10" font-weight="bold" fill="#5D6D7E">條目 / 實體名稱 (坐標) 全要素標註</text>
         </g>
 <g transform="translate(551.0, 66)">
           <rect x="0" y="0" width="524.0" height="22" fill="#EAEDED" rx="2"/>
-          <text x="8" y="15" font-size="10" font-weight="bold" fill="#5D6D7E">條目 / 名山 (坐標) 實體全要素索引</text>
+          <text x="8" y="15" font-size="10" font-weight="bold" fill="#5D6D7E">條目 / 實體名稱 (坐標) 全要素標註</text>
         </g>
 <rect x="15.0" y="92.0" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="105.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【001】單狐之山 (39.1°N, 110.2°E)</text>
@@ -843,10 +841,10 @@
 <text x="21.0" y="252.3" font-size="8.5" fill="#5D6D7E">🐾橐駞（雙峰駱駝）</text>
 <rect x="15.0" y="259.8" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="272.8" font-size="9.5" font-weight="bold" fill="#2C3E50">【006】虢山 (41.5°N, 106.5°E)</text>
-<text x="21.0" y="285.8" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="285.8" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="293.4" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="306.4" font-size="9.5" font-weight="bold" fill="#2C3E50">【007】虢山之尾 (41.65°N, 105.4°E)</text>
-<text x="21.0" y="319.4" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="319.4" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="327.0" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="340.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【008】丹熏之山 (40.8°N, 103.8°E)</text>
 <text x="21.0" y="353.0" font-size="8.5" fill="#5D6D7E">🐾耳鼠（長耳跳鼠）</text>
@@ -858,7 +856,7 @@
 <text x="21.0" y="420.1" font-size="8.5" fill="#5D6D7E">🐾幽鴳（旱獺/土撥鼠）</text>
 <rect x="15.0" y="427.7" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="440.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【011】蔓聯之山 (42.9°N, 101.5°E)</text>
-<text x="21.0" y="453.7" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="453.7" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="461.2" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="474.2" font-size="9.5" font-weight="bold" fill="#2C3E50">【012】單張之山 (43.5°N, 101.1°E)</text>
 <text x="21.0" y="487.2" font-size="8.5" fill="#5D6D7E">🐾諸犍（長尾神獸/兔猻）</text>
@@ -867,13 +865,13 @@
 <text x="21.0" y="520.8" font-size="8.5" fill="#5D6D7E">🐾竦斯（沙雞）</text>
 <rect x="15.0" y="528.3" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="541.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【014】潘侯之山 (45.2°N, 100.5°E)</text>
-<text x="21.0" y="554.3" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="554.3" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="561.9" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="574.9" font-size="9.5" font-weight="bold" fill="#2C3E50">【015】小咸之山 (46.1°N, 100.1°E)</text>
-<text x="21.0" y="587.9" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="587.9" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="595.5" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="608.5" font-size="9.5" font-weight="bold" fill="#2C3E50">【016】大咸之山 (47.05°N, 99.8°E)</text>
-<text x="21.0" y="621.5" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="621.5" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="629.0" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="642.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【017】敦薨之山 (48.2°N, 98.5°E)</text>
 <text x="21.0" y="655.0" font-size="8.5" fill="#5D6D7E">🐾赤鮭（哲羅鮭）</text>
@@ -891,19 +889,19 @@
 <text x="21.0" y="789.3" font-size="8.5" fill="#5D6D7E">💧嚻水（安加拉河）</text>
 <rect x="15.0" y="796.9" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="809.9" font-size="9.5" font-weight="bold" fill="#2C3E50">【022】北單之山 (53.1°N, 105.1°E)</text>
-<text x="21.0" y="822.9" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="822.9" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="830.4" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="843.4" font-size="9.5" font-weight="bold" fill="#2C3E50">【023】羆差之山 (53.6°N, 106.2°E)</text>
-<text x="21.0" y="856.4" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="856.4" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="864.0" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="877.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【024】北鮮之山 (54.5°N, 108.0°E)</text>
-<text x="21.0" y="890.0" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="890.0" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="897.6" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="910.6" font-size="9.5" font-weight="bold" fill="#2C3E50">【025】隄山 (55.4°N, 109.8°E)</text>
 <text x="21.0" y="923.6" font-size="8.5" fill="#5D6D7E">💧隄水（上安加拉河） 🐾龍龜（貝加爾海豹）</text>
 <rect x="15.0" y="931.1" width="524.0" height="32.1" fill="#FEF9E7"/>
-<text x="21.0" y="944.1" font-size="9.5" font-weight="bold" fill="#2C3E50">【026】北次一經山系總結 (祭祀總綱)</text>
-<text x="21.0" y="957.1" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="944.1" font-size="9.5" font-weight="bold" fill="#2C3E50">【026】北次一經山系總結與祠 (神話天象)</text>
+<text x="21.0" y="957.1" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="964.7" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="977.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【001】管涔之山 (38.9°N, 112.05°E)</text>
 <text x="21.0" y="990.7" font-size="8.5" fill="#5D6D7E">💧汾水（汾河）</text>
@@ -921,13 +919,13 @@
 <text x="21.0" y="1125.0" font-size="8.5" fill="#5D6D7E">💧鮪水</text>
 <rect x="15.0" y="1132.5" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="1145.5" font-size="9.5" font-weight="bold" fill="#2C3E50">【006】爾是之山 (40.4°N, 112.9°E)</text>
-<text x="21.0" y="1158.5" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="1158.5" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="1166.1" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="1179.1" font-size="9.5" font-weight="bold" fill="#2C3E50">【007】狂山 (41.0°N, 112.5°E)</text>
 <text x="21.0" y="1192.1" font-size="8.5" fill="#5D6D7E">💧狂水</text>
 <rect x="15.0" y="1199.7" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="1212.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【008】諸餘之山 (41.6°N, 112.6°E)</text>
-<text x="21.0" y="1225.7" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="1225.7" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="1233.2" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="1246.2" font-size="9.5" font-weight="bold" fill="#2C3E50">【009】敦頭之山 (42.1°N, 112.7°E)</text>
 <text x="21.0" y="1259.2" font-size="8.5" fill="#5D6D7E">💧印澤 🐾𩣡馬（草原獨角獸）</text>
@@ -942,7 +940,7 @@
 <text x="21.0" y="1359.9" font-size="8.5" fill="#5D6D7E">🐾居暨（赤毛豪豬）</text>
 <rect x="15.0" y="1367.5" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="21.0" y="1380.5" font-size="9.5" font-weight="bold" fill="#2C3E50">【013】姑灌之山 (43.8°N, 104.0°E)</text>
-<text x="21.0" y="1393.5" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="21.0" y="1393.5" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="15.0" y="1401.0" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="1414.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【014】湖灌之山 (45.5°N, 103.5°E)</text>
 <text x="21.0" y="1427.0" font-size="8.5" fill="#5D6D7E">🐾馬（普氏野馬）</text>
@@ -953,8 +951,8 @@
 <text x="21.0" y="1481.2" font-size="9.5" font-weight="bold" fill="#2C3E50">【016】敦題之山 (51.5°N, 104.5°E)</text>
 <text x="21.0" y="1494.2" font-size="8.5" fill="#5D6D7E">💧北海（貝加爾湖）</text>
 <rect x="15.0" y="1501.7" width="524.0" height="32.1" fill="#FEF9E7"/>
-<text x="21.0" y="1514.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【017】北次二經山系總結 (祭祀總綱)</text>
-<text x="21.0" y="1527.7" font-size="8.5" fill="#5D6D7E">👑蛇身人面神,一璧一珪</text>
+<text x="21.0" y="1514.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【017】北次二經山系總結與祠 (神話天象)</text>
+<text x="21.0" y="1527.7" font-size="8.5" fill="#5D6D7E">👑蛇身人面神 🔮一璧一珪</text>
 <rect x="15.0" y="1535.3" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="21.0" y="1548.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【001】太行之山 (35.2°N, 113.1°E)</text>
 <text x="21.0" y="1561.3" font-size="8.5" fill="#5D6D7E">💧歸水</text>
@@ -978,7 +976,7 @@
 <text x="557.0" y="218.7" font-size="8.5" fill="#5D6D7E">💎黃堊</text>
 <rect x="551.0" y="226.3" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="239.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【008】王屋之山 (35.18°N, 112.25°E)</text>
-<text x="557.0" y="252.3" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="252.3" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="259.8" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="272.8" font-size="9.5" font-weight="bold" fill="#2C3E50">【009】教山 (35.6°N, 112.9°E)</text>
 <text x="557.0" y="285.8" font-size="8.5" fill="#5D6D7E">💧教水（季節性乾河）</text>
@@ -987,7 +985,7 @@
 <text x="557.0" y="319.4" font-size="8.5" fill="#5D6D7E">💧鹽販之澤（解池） 🌿藷藇（山藥）</text>
 <rect x="551.0" y="327.0" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="340.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【011】孟門之山 (36.05°N, 110.45°E)</text>
-<text x="557.0" y="353.0" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="353.0" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="360.5" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="373.5" font-size="9.5" font-weight="bold" fill="#2C3E50">【012】平山 (35.8°N, 113.1°E)</text>
 <text x="557.0" y="386.5" font-size="8.5" fill="#5D6D7E">💧平水（地下溶洞潛水）</text>
@@ -1020,25 +1018,25 @@
 <text x="557.0" y="688.6" font-size="8.5" fill="#5D6D7E">💧洹（洹水/安陽河）</text>
 <rect x="551.0" y="696.2" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="709.2" font-size="9.5" font-weight="bold" fill="#2C3E50">【022】發鳩之山 (36.12°N, 112.78°E)</text>
-<text x="557.0" y="722.2" font-size="8.5" fill="#5D6D7E">💧漳水（濁漳河西源） 🐾精衛（紅嘴山鴉） 👑女娃（炎帝少女）</text>
+<text x="557.0" y="722.2" font-size="8.5" fill="#5D6D7E">👑女娃（炎帝少女） 💧漳水（濁漳河西源） 🐾精衛（紅嘴山鴉）</text>
 <rect x="551.0" y="729.7" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="742.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【023】少山 (36.4°N, 112.9°E)</text>
 <text x="557.0" y="755.7" font-size="8.5" fill="#5D6D7E">💧清漳之水</text>
 <rect x="551.0" y="763.3" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="776.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【024】錫山 (36.65°N, 114.0°E)</text>
-<text x="557.0" y="789.3" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="789.3" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="796.9" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="809.9" font-size="9.5" font-weight="bold" fill="#2C3E50">【025】景山 (37.05°N, 114.2°E)</text>
 <text x="557.0" y="822.9" font-size="8.5" fill="#5D6D7E">💧海澤（大陸澤/巨鹿澤）</text>
 <rect x="551.0" y="830.4" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="843.4" font-size="9.5" font-weight="bold" fill="#2C3E50">【026】題首之山 (37.35°N, 114.3°E)</text>
-<text x="557.0" y="856.4" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="856.4" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="864.0" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="877.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【027】繡山 (37.6°N, 114.05°E)</text>
 <text x="557.0" y="890.0" font-size="8.5" fill="#5D6D7E">🐾鱬魚（刺鰍/黃顙）</text>
 <rect x="551.0" y="897.6" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="910.6" font-size="9.5" font-weight="bold" fill="#2C3E50">【028】松山 (37.9°N, 114.1°E)</text>
-<text x="557.0" y="923.6" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="923.6" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="931.1" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="944.1" font-size="9.5" font-weight="bold" fill="#2C3E50">【029】敦與之山 (38.05°N, 114.15°E)</text>
 <text x="557.0" y="957.1" font-size="8.5" fill="#5D6D7E">💧泜水（泜河）</text>
@@ -1047,13 +1045,13 @@
 <text x="557.0" y="990.7" font-size="8.5" fill="#5D6D7E">💎鐵（磁鐵礦）</text>
 <rect x="551.0" y="998.3" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1011.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【031】維龍之山 (38.8°N, 114.2°E)</text>
-<text x="557.0" y="1024.3" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1024.3" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1031.8" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1044.8" font-size="9.5" font-weight="bold" fill="#2C3E50">【032】白馬之山 (39.2°N, 114.65°E)</text>
 <text x="557.0" y="1057.8" font-size="8.5" fill="#5D6D7E">💧木馬之水</text>
 <rect x="551.0" y="1065.4" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1078.4" font-size="9.5" font-weight="bold" fill="#2C3E50">【033】空桑之山 (39.9°N, 115.0°E)</text>
-<text x="557.0" y="1091.4" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1091.4" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1099.0" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1112.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【034】泰戲之山 (39.15°N, 113.8°E)</text>
 <text x="557.0" y="1125.0" font-size="8.5" fill="#5D6D7E">💧虖沱之水（滹沱河正源） 🐾䍶䍶（高山單角岩羊）</text>
@@ -1062,16 +1060,16 @@
 <text x="557.0" y="1158.5" font-size="8.5" fill="#5D6D7E">💧鮮于之水</text>
 <rect x="551.0" y="1166.1" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1179.1" font-size="9.5" font-weight="bold" fill="#2C3E50">【036】童戎之山 (39.6°N, 114.1°E)</text>
-<text x="557.0" y="1192.1" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1192.1" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1199.7" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1212.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【037】高是之山 (39.0°N, 114.8°E)</text>
 <text x="557.0" y="1225.7" font-size="8.5" fill="#5D6D7E">💧滱水（唐河）</text>
 <rect x="551.0" y="1233.2" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1246.2" font-size="9.5" font-weight="bold" fill="#2C3E50">【038】陸山 (39.4°N, 115.1°E)</text>
-<text x="557.0" y="1259.2" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1259.2" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1266.8" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1279.8" font-size="9.5" font-weight="bold" fill="#2C3E50">【039】沂山 (39.65°N, 115.8°E)</text>
-<text x="557.0" y="1292.8" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1292.8" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1300.3" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1313.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【040】燕山 (40.25°N, 116.15°E)</text>
 <text x="557.0" y="1326.3" font-size="8.5" fill="#5D6D7E">💧燕水（溫榆河源）</text>
@@ -1080,7 +1078,7 @@
 <text x="557.0" y="1359.9" font-size="8.5" fill="#5D6D7E">🐾橐駞（雙峰駱駝）</text>
 <rect x="551.0" y="1367.5" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1380.5" font-size="9.5" font-weight="bold" fill="#2C3E50">【042】乾山 (44.2°N, 116.8°E)</text>
-<text x="557.0" y="1393.5" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1393.5" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1401.0" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1414.0" font-size="9.5" font-weight="bold" fill="#2C3E50">【043】倫山 (47.5°N, 110.5°E)</text>
 <text x="557.0" y="1427.0" font-size="8.5" fill="#5D6D7E">💧倫水（克魯倫河）</text>
@@ -1089,18 +1087,18 @@
 <text x="557.0" y="1460.6" font-size="8.5" fill="#5D6D7E">💧繩水 🐾蒲夷之魚（比目魚/鰣魚）</text>
 <rect x="551.0" y="1468.2" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1481.2" font-size="9.5" font-weight="bold" fill="#2C3E50">【045】鴈門之山 (39.18°N, 112.87°E)</text>
-<text x="557.0" y="1494.2" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1494.2" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 <rect x="551.0" y="1501.7" width="524.0" height="32.1" fill="#FFFFFF"/>
 <text x="557.0" y="1514.7" font-size="9.5" font-weight="bold" fill="#2C3E50">【046】泰澤與帝都之山 (53.0°N, 107.5°E)</text>
 <text x="557.0" y="1527.7" font-size="8.5" fill="#5D6D7E">💧泰澤（貝加爾湖）</text>
 <rect x="551.0" y="1535.3" width="524.0" height="32.1" fill="#F8F9F9"/>
 <text x="557.0" y="1548.3" font-size="9.5" font-weight="bold" fill="#2C3E50">【047】錞于毋逢之山 (55.0°N, 108.5°E)</text>
-<text x="557.0" y="1561.3" font-size="8.5" fill="#5D6D7E">👑其風如䬅</text>
+<text x="557.0" y="1561.3" font-size="8.5" fill="#5D6D7E">⭐其風如䬅</text>
 <rect x="551.0" y="1568.9" width="524.0" height="32.1" fill="#FEF9E7"/>
-<text x="557.0" y="1581.9" font-size="9.5" font-weight="bold" fill="#2C3E50">【048】北次三經山系總結 (祭祀總綱)</text>
+<text x="557.0" y="1581.9" font-size="9.5" font-weight="bold" fill="#2C3E50">【048】北次三經山系總結與神 (神話天象)</text>
 <text x="557.0" y="1594.9" font-size="8.5" fill="#5D6D7E">👑馬身人面神群（20神）,彘身人面神群（14神）</text>
 <rect x="551.0" y="1602.4" width="524.0" height="32.1" fill="#FEF9E7"/>
-<text x="557.0" y="1615.4" font-size="9.5" font-weight="bold" fill="#2C3E50">【049】右北經之山志總結 (祭祀總綱)</text>
-<text x="557.0" y="1628.4" font-size="8.5" fill="#5D6D7E">山神祭祀典儀與神座禮制</text>
+<text x="557.0" y="1615.4" font-size="9.5" font-weight="bold" fill="#2C3E50">【049】右北經之山志總結 (神話天象)</text>
+<text x="557.0" y="1628.4" font-size="8.5" fill="#5D6D7E">宏觀神話與人文特產</text>
 </g>
 </svg>

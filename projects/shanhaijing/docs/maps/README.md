@@ -1,6 +1,6 @@
 # 《山海經》時代世界與大地測量基準向量地圖說明 (4000–1000 BCE)
 
-> **版本**：v3.6 · 2026-10-21  
+> **版本**：v4.0 · 2026-10-21  
 > **核心公理**：《五臧山經》（前五卷）建立客觀地理相對空間骨架、方位、里程與水系網；後續卷次（《海外經》、《海內經》、《大荒經》、《海內經終篇》）所記邦國、人文、特產、神話與帝王陵墓，為**覆蓋標註於五臧山經地理底座之上的文明與生態圖層**。所有後續章節實體必須以五臧山經大地測量坐標系為基準進行校準。
 > 
 > **全球方位佈局核心原則（美洲居東）**：
@@ -13,7 +13,7 @@
 
 ---
 
-## 1. 地圖清單與預覽鏈接
+## 1. 地圖清單與預覽鏈接 (全書 18 卷專屬 4K 向量地圖全系交付)
 
 ### (1) 全球與跨大陸宏觀大地測量基準圖
 
@@ -22,7 +22,7 @@
 | **[world-map-era.svg](world-map-era.svg)** | $2400 \times 1400$<br>太平洋居中 / 美洲居東 | 全球視野下之五臧山經五大方位空間主軸、30°–35°N 全球文明黃金緯度帶、白令陸橋大洋海冰通道、美洲四大縱向山脈、14 大時代文明圈（古埃及、兩河、哈拉帕、三星堆、瑪雅、奧爾梅克、北極燭龍極光圈、南島語族） | `docs/maps/world-map-era.svg`<br>`data/derived/era/world-map-era.svg` |
 | **[anchor-map.svg](anchor-map.svg)** | $2400 \times 1600$<br>雙面板大地測量投影 | **【甲·歐亞非橫向大軸】** 河南商都直貫直布羅陀/大西洋日落崦嵫山之幾何大閉合；<br>**【乙·東亞核心高精度水網】** 洛陽嵩山天地之中樞紐、商周黃河河北古道（入今天津渤海）、長江鎮江古口、江漢淮濟水網及 40+ 座五臧山經實錄名山基準錨點 | `docs/maps/anchor-map.svg`<br>`data/derived/era/anchor-map.svg` |
 
-### (2) 《五臧山經》逐卷全要素實體高精度向量地圖（100% 零遺漏全量標註）
+### (2) 《五臧山經》逐卷全要素實體高精度向量地圖（卷一至卷五，地理空間坐標網）
 
 | 地圖文件 | 尺寸 / 佈局 | 篇章範圍與統計實體 | 核心呈現內容 | 文件路徑 |
 |---|---|---|---|---|
@@ -31,6 +31,39 @@
 | **[vol-03-beishanjing.svg](vol-03-beishanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (2欄索引) | 卷三《北山經》<br>3 山系 · 88 山 · 92 條目<br>**171 個實體** | 單狐、管涔至太行、燕山北延至北海泰澤與北極章尾山；汾水正源、雁門句注、精衛填海發鳩山、貝加爾湖北海、極光極夜燭龍圈 | `docs/maps/vol-03-beishanjing.svg`<br>`data/derived/era/vol-03-beishanjing.svg` |
 | **[vol-04-dongshanjing.svg](vol-04-dongshanjing.svg)** | $3200 \times 1800$<br>太平洋居中 (2欄索引) | 卷四《東山經》<br>4 山系 · 46 山 · 51 條目<br>**124 個實體** | 樕𧑤至竹山、空桑、尸胡、北號至無皋；山東膠東耿山出海口、黑潮跨洋航線、北美太平洋科迪勒拉四大平行山脈直達中美洲瑪雅太陽曆圈 | `docs/maps/vol-04-dongshanjing.svg`<br>`data/derived/era/vol-04-dongshanjing.svg` |
 | **[vol-05-zhongshanjing.svg](vol-05-zhongshanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (3欄索引) | 卷五《中山經》<br>12 山系 · 197 山 · 213 條目<br>**368 個實體** | 嵩山少室太室天下之中絕對原點；長江正源岷山、江漢之樞荊山、洞庭大澤、首陽河曲；夏商周王畿水土礦冶樞紐，213 條目 100% 全量精煉列示 | `docs/maps/vol-05-zhongshanjing.svg`<br>`data/derived/era/vol-05-zhongshanjing.svg` |
+
+### (3) 《海外經》逐卷全要素實體高精度向量地圖（卷六至卷九，外圍四域人文疊加層）
+
+| 地圖文件 | 尺寸 / 佈局 | 篇章範圍與統計實體 | 核心呈現內容 | 文件路徑 |
+|---|---|---|---|---|
+| **[vol-06-haiwainanjing.svg](vol-06-haiwainanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷六《海外南經》<br>23 條目 · 48 實體 | 結匈國、南山、比翼鳥、羽民國、二八神、畢方、不死民、岐舌、三苗、焦僥（中南半島至南洋諸島） | `docs/maps/vol-06-haiwainanjing.svg`<br>`data/derived/era/vol-06-haiwainanjing.svg` |
+| **[vol-07-haiwaixijing.svg](vol-07-haiwaixijing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷七《海外西經》<br>23 條目 · 49 實體 | 滅蒙鳥、三身、一臂、奇肱飛車、刑天舞干戚、女祭女戚、鳥身人面、夏后啟九代舞（青藏高原西緣、中亞至兩河） | `docs/maps/vol-07-haiwaixijing.svg`<br>`data/derived/era/vol-07-haiwaixijing.svg` |
+| **[vol-08-haiwaibeijing.svg](vol-08-haiwaibeijing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷八《海外北經》<br>22 條目 · 52 實體 | 無啟、鍾山燭陰、一目、柔利、相柳受誅築帝台、夸父逐日化鄧林、博父、深目、無腸（蒙古高原至北極） | `docs/maps/vol-08-haiwaibeijing.svg`<br>`data/derived/era/vol-08-haiwaibeijing.svg` |
+| **[vol-09-haiwaidongjing.svg](vol-09-haiwaidongjing.svg)** | $3200 \times 1800$<br>太平洋居中 (1欄索引) | 卷九《海外東經》<br>17 條目 · 44 實體 | 大人國、君子國衣冠帶劍、嗟丘百鳥、青丘九尾狐、黑齒、湯谷扶桑十日所浴、雨師妾（面向太平洋至美洲扶桑） | `docs/maps/vol-09-haiwaidongjing.svg`<br>`data/derived/era/vol-09-haiwaidongjing.svg` |
+
+### (4) 《海內經》逐卷全要素實體高精度向量地圖（卷十至卷十三，內圈水網人文疊加層）
+
+| 地圖文件 | 尺寸 / 佈局 | 篇章範圍與統計實體 | 核心呈現內容 | 文件路徑 |
+|---|---|---|---|---|
+| **[vol-10-haineinanjing.svg](vol-10-haineinanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷十《海內南經》<br>18 條目 · 56 實體 | 甌閩、鬱水、巴蛇食象三歲出骨、建木天梯、蒼梧舜陵九嶷山、兕水兕獸（嶺南兩廣、湖南與雲貴水網） | `docs/maps/vol-10-haineinanjing.svg`<br>`data/derived/era/vol-10-haineinanjing.svg` |
+| **[vol-11-haineixijing.svg](vol-11-haineixijing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷十一《海內西經》<br>24 條目 · 68 實體 | 貳負受誅反縛疏屬之山、大夏西域、崑崙九門開明獸、西王母蓬髮戴勝、巫彭巫咸六巫（河西走廊、青海至塔里木） | `docs/maps/vol-11-haineixijing.svg`<br>`data/derived/era/vol-11-haineixijing.svg` |
+| **[vol-12-haineibeijing.svg](vol-12-haineibeijing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷十二《海內北經》<br>27 條目 · 73 實體 | 匈奴淳維、犬戎、鬼國人面一目、窮奇食人、騶吾仁獸、冰夷河伯之都（燕山以北、蒙古草原至大興安嶺） | `docs/maps/vol-12-haineibeijing.svg`<br>`data/derived/era/vol-12-haineibeijing.svg` |
+| **[vol-13-haineidongjing.svg](vol-13-haineidongjing.svg)** | $3200 \times 1800$<br>左圖右錄 (2欄索引) | 卷十三《海內東經》<br>44 條目 · 136 實體 | 鉅燕朝陽之谷、雷澤華胥生伏羲、會稽禹穴、華夏天下二十餘巨川水經、蓬萊海中仙山（黃淮海平原至江淮） | `docs/maps/vol-13-haineidongjing.svg`<br>`data/derived/era/vol-13-haineidongjing.svg` |
+
+### (5) 《大荒經》逐卷全要素實體高精度向量地圖（卷十四至卷十七，宏觀宇宙史詩深化層）
+
+| 地圖文件 | 尺寸 / 佈局 | 篇章範圍與統計實體 | 核心呈現內容 | 文件路徑 |
+|---|---|---|---|---|
+| **[vol-14-dahuangdongjing.svg](vol-14-dahuangdongjing.svg)** | $3200 \times 1800$<br>太平洋居中 (1欄索引) | 卷十四《大荒東經》<br>36 條目 · 128 實體 | 少昊大壑、羲和浴日十日甘淵、王亥僕牛易牛於有易、應龍殺蚩尤夸父、流波山夔牛雷鼓（東海大壑至美洲） | `docs/maps/vol-14-dahuangdongjing.svg`<br>`data/derived/era/vol-14-dahuangdongjing.svg` |
+| **[vol-15-dahuangnanjing.svg](vol-15-dahuangnanjing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷十五《大荒南經》<br>33 條目 · 119 實體 | 蒼梧之野舜葬、巫山黃鳥帝藥、三身國、大禹攻雲雨、蚩尤桎梏楓木林、南嶽衡山三帝陵（長江以南至西南夷） | `docs/maps/vol-15-dahuangnanjing.svg`<br>`data/derived/era/vol-15-dahuangnanjing.svg` |
+| **[vol-16-dahuangxijing.svg](vol-16-dahuangxijing.svg)** | $3200 \times 1800$<br>左圖右錄 (2欄索引) | 卷十六《大荒西經》<br>50 條目 · 162 實體 | 不周天柱日月入焉、女媧之腸十神、常羲生月十二、崑崙西王母、夏后啟九歌、顓頊復甦魚婦（青藏高原至中亞西荒） | `docs/maps/vol-16-dahuangxijing.svg`<br>`data/derived/era/vol-16-dahuangxijing.svg` |
+| **[vol-17-dahuangbeijing.svg](vol-17-dahuangbeijing.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷十七《大荒北經》<br>32 條目 · 114 實體 | 附禺顓頊九嬪陵、不咸山肅慎、呼倫大澤換羽、夸父逐日、黃帝女魃殺蚩尤、犬戎苗民、燭龍照九陰（長白山至北極） | `docs/maps/vol-17-dahuangbeijing.svg`<br>`data/derived/era/vol-17-dahuangbeijing.svg` |
+
+### (6) 《海內經》（終篇）全要素實體高精度向量地圖（卷十八，華夏大一統總綱）
+
+| 地圖文件 | 尺寸 / 佈局 | 篇章範圍與統計實體 | 核心呈現內容 | 文件路徑 |
+|---|---|---|---|---|
+| **[vol-18-haineijing-final.svg](vol-18-haineijing-final.svg)** | $3200 \times 1800$<br>左圖右錄 (1欄索引) | 卷十八《海內經》<br>39 條目 · 142 實體 | 朝鮮天毒、都廣建木、巴國後照、氐羌乞姓、幽都黑水玄五獸、釘靈馬蹄、緣婦鐘侯樂風、舟車弓矢、百巧牛耕、大比立國、噎鳴十二歲曆法、鯀竊息壤、禹布土定九州 | `docs/maps/vol-18-haineijing-final.svg`<br>`data/derived/era/vol-18-haineijing-final.svg` |
 
 ---
 
@@ -73,22 +106,3 @@
    - **北山經（深碧 #16A085）**：單狐、求如、句注（雁門關）、管涔（汾水源）、太行、燕山、貝加爾湖北海、章尾山燭龍。
    - **東山經（海藍 #2980B9）**：膠東耿山出海口、阿拉斯加樕𧑤山、空桑、姑兒、尸胡、北號、無皋。
    - **南山經（絳紫 #8E44AD）**：招搖山（越城嶺玉蟾岩）、堂庭、柜山、箕尾、天虞、中南翼望山。
-
----
-
-## 4. 工具與生成腳本
-
-本套向量地圖體系由純 Python 標準庫編寫之專屬生成器產出，杜絕第三方不穩定依賴：
-
-### (1) 全球全景圖與雙面板大地測量基準圖生成
-```bash
-python3 -I tools/shj/render_era_maps.py
-```
-- 產出 `world-map-era.svg`（太平洋居中 / 美洲居東）、`anchor-map.svg`。
-
-### (2) 《五臧山經》逐卷全要素實體高精度向量地圖生成
-```bash
-python3 -I tools/shj/render_volume_maps.py
-```
-- 產出 `vol-01-nanshanjing.svg` 至 `vol-05-zhongshanjing.svg`（左側地圖畫布 + 右側動態分欄實體總索引目錄，100% 條目覆蓋無截斷）。
-- **驗證方式**：通過 `xml.etree.ElementTree` 完整 XML 語法驗證，具備良好之響應式 `viewBox` 與 SVG 矢量縮放特性。
