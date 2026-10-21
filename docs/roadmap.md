@@ -1,12 +1,13 @@
-# 路線圖 / Roadmap
-
-> v3.0 ・ 2026-10-20
+# 路線圖 v4 / Roadmap v4
 
 | 階段 / Phase | 內容 / Content | 退出條件 / Exit criteria |
 |---|---|---|
-| **1 山海經時代語義版 / Shanhaijing, era-semantic** | 試點（西山經四篇與大荒西經）：名稱語義、觀察框架、時代世界庫、遮蔽的語義評分、求解、紅隊；再擴及全書，交付 draft-v4 與當時地圖 / pilot, then full book, draft-v4 and the era map | draft-v4 完整性 PASS，並通過紅隊審查（洩漏、誘餌、對稱、年代）/ draft-v4 complete and reviewed |
-| **2 中文跨語料 / Chinese cross-corpus** | 以同一方法處理《穆天子傳》《淮南子・地形訓》《尚書・禹貢》《水經》，跨書共有的實體成為額外關係 / the same method for related Chinese texts | 第二部語料只靠入庫、實體句式與時代窗口三個設定即可運行 / a second corpus runs with three settings |
-| **3 多語種 / Multilingual** | 美索不達米亞、古埃及、吠陀與往世書、希臘、瑪雅；與山海經共用同時期的時代世界庫 / sharing the era base with the Shanhaijing | 每新增一個語種，同時加入該語言的文檔版本 / each language adds its doc locale |
-| **4 宇宙觀 / Cosmology** | 天文與曆法實體（日月出入之山、星宿、天象）與當時天象的回推 / astronomy and calendar against retro-calculated skies | 天文實體有中等以上可信度的對應 / astronomical entities at medium confidence or better |
+| **0 清理與基礎** | 移除舊解釋成果；統一框架、規格、本體和文本工具 | 文本管線可重跑，快照與派生資料可驗證 |
+| **1 文本事實圖** | 確認工作讀法，抽取全書實體、提及與文本關係 | 每段覆蓋有結果，無無主引用，未決項顯式列出 |
+| **2 語義擬合與 KG v1** | 完成時代世界卡、競爭候選、地標共識和地理語義屬性 | 初版圖譜通過 schema 與類型檢查；對立候選與判斷齊全 |
+| **3 迭代草稿** | 五臧山經草稿→屬性補充→後續卷→圖譜更新→LLM 衝突合併 | 受影響產物完成迭代，無未處理的阻斷衝突 |
+| **4 審查與交付** | 紅隊、敏感度、完整性、draft-v1 與地圖重建 | 對照和地圖由有效圖譜生成，措辭不超過證據 |
+| **5 中文跨語料** | 《穆天子傳》《淮南子・地形訓》《尚書・禹貢》《水經》 | 不改公共 agent/skill，只新增語料適配、規格、本體與時代設定 |
+| **6 多語種與宇宙觀** | 其他語種文本、天文與曆法回推 | 共用時代世界方法，候選有年代、競爭與可證偽檢驗 |
 
-**挑選新語料的原則 / Corpus selection**：實體多、關係明確、時代可以估計、有多個獨立見證本的優先。/ Entity-rich, explicit relations, datable, several witnesses.
+目前處於階段 0 完成、階段 1 待開始。舊草稿和舊地圖不納入新版本進度。

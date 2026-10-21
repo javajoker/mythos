@@ -1,41 +1,47 @@
 # 山海經子項目 / Shanhaijing Sub-project
 
-> 把《山海經》看作前 4000–前 2000 年逐步積累的傳承紀錄：從中原出發、只用原文、容許傳抄錯誤，依語義相關性對應到**當時的世界**（當時的海岸、河道、動物、文明與其造物），不預設它記的是哪一個地區。
-> The Shanhaijing as a record accumulated 4000–2000 BCE: read from the Central Plains, original text only, copying errors tolerated, mapped by semantic correspondence onto the world of that period, with no region presupposed.
+> 第一版時代窗口：**4000–1000 BCE**。以工作文本為證據，透過競爭候選與迭代圖譜檢驗《山海經》可能保存的時代觀測。
+> First-version window: 4000–1000 BCE. All real-world correspondences are competing hypotheses.
 
-## 文檔 / Documents
+## 權威規格 / Authoritative specifications
 
-| 文件 / Doc | 內容 / Content |
+| 文件 / Document | 內容 / Content |
 |---|---|
-| [docs/methodology-spec.md](docs/methodology-spec.md) | **方法規格 v3**：原點、時代世界、遮蔽的語義評分、聯合求解、當時地圖 / method spec v3 |
-| [docs/era-world.md](docs/era-world.md) | **時代世界**：前 4000–前 2000 年的海岸線、河道、氣候、文明與動物 / the world of 4000–2000 BCE |
-| [docs/data-model.md](docs/data-model.md) | 文本層、知識圖譜、時代世界庫、判斷紀錄、對應 / schemas |
-| [docs/tasks.md](docs/tasks.md) | 任務與狀態 / tasks |
-| [docs/checklist.md](docs/checklist.md) | 交付前檢查清單 / pre-delivery checklist |
-| [docs/red-team.md](docs/red-team.md) | 紅隊審查紀錄 / red-team log |
-| [docs/source-assessment.md](docs/source-assessment.md) | 三個見證本、現代移段、讀法政策 / witnesses, relocations, reading policy |
-| [findings/](findings/) | 文本層的發現（F-0001 現代移段、F-0002 里程自洽）/ text-layer findings |
-| [data/era/](data/era/README.md) | 時代世界庫（海岸線、古水系、氣候與古生物）/ era world base |
-| [docs/maps/](docs/maps/README.md) | **時代世界與大地測量地圖**：[world-map-era.svg](docs/maps/world-map-era.svg)、[anchor-map.svg](docs/maps/anchor-map.svg) |
+| [docs/methodology-spec.md](docs/methodology-spec.md) | 發起人確認的迭代流程、第一版地理復用、比例尺與地標共識 |
+| [docs/data-model.md](docs/data-model.md) | 工作文本、圖譜、屬性、判斷與 LLM 裁決格式 |
+| [data/kg-ontology.json](data/kg-ontology.json) | 按實體類型定義的可擴展 predicate 與關係 |
+| [docs/era-world.md](docs/era-world.md) | 時代世界庫的範圍、卡片要求與目前缺口 |
+| [docs/tasks.md](docs/tasks.md) | 可驗證任務狀態 |
+| [docs/checklist.md](docs/checklist.md) | 草稿與交付前檢查 |
+| [docs/red-team.md](docs/red-team.md) | 紅隊審查記錄 |
+| [docs/source-assessment.md](docs/source-assessment.md) | 見證本、移段、缺頁與讀法政策 |
+| [findings/](findings/) | 文本層發現與後續 LLM 衝突日誌 |
 
-## 目前狀態 / Current state (2026-10-21)
+公共方法見 [研究框架 v4](../../docs/research-framework.md)，已裁決的項目整理見 [決策記錄](../../docs/project-review.md)。
 
-- ✅ 文本層：三個見證本、869 段、明成化本為序的工作文本、異文首輪分類 / text layer
-- ✅ 《五臧山經》逐句逐實體解碼草稿（481 條經文 100% 完成）：南、西、北、東、中山經已全部完成純 LLM 4D 交叉驗證與實體映射
-- ✅ 時代世界與大地測量向量地圖交付：[world-map-era.svg](docs/maps/world-map-era.svg)、[anchor-map.svg](docs/maps/anchor-map.svg)、[地圖說明](docs/maps/README.md)
-- ✅ 幾何大閉合驗證通過：西山經 18,924 里 (7,570 km) 橫貫歐亞非至大西洋崦嵫山（誤差 0.47%）；東山經 18,869 里 (7,547 km) 縱貫北美四大平行山系（誤差 0.63%）
-- ⏳ 下一步：推進海外經（85 條）、海內經（113 條）、大荒經（151 條）、海內經終篇（39 條）逐句解碼，並以五臧山經坐標底座校準後續人文與神話實體圖層
+## 目前狀態 / Current state
 
-## 重現 / Reproduce
+- 已完成：舊解釋草稿、地圖、渲染器與舊圖譜清理；框架、規格和本體 v4。
+- 已生成：三個見證本快照 manifest、869 條 base entries、working text、對勘、移段、異文分類、447 個山經站點與 26 個篇末總數。
+- 注意：working text 的 base 讀法目前仍為 `unreviewed`，不能宣稱所有正式讀法已確認。
+- 待開始：新文本事實圖、時代候選與語義判斷、KG v1、新草稿、LLM 衝突日誌、紅隊和地圖。
+- 時代世界庫仍是種子資料；`sites.jsonl` 與 `palaeo-coast.json` 尚未建立。
+
+## 重現文本層 / Reproduce the text layer
 
 ```bash
-python3 -I tools/shj/fetch_sources.py   # 只在需要重新下載見證本時 / only to re-fetch witnesses
-python3 -I tools/shj/ingest.py && python3 -I tools/shj/collate.py && python3 -I tools/shj/align_witness.py
-python3 -I tools/shj/classify_variants.py && python3 -I tools/shj/extract_routes.py
-python3 -I tools/shj/render_era_maps.py  # 生成時代世界與大地測量基準向量地圖 / render vector maps
+python3 -I tools/shj/fetch_sources.py --manifest-only
+python3 -I tools/shj/ingest.py
+python3 -I tools/shj/collate.py
+python3 -I tools/shj/align_witness.py
+python3 -I tools/shj/classify_variants.py
+python3 -I tools/shj/extract_routes.py
+python3 -I tools/shj/era_frame.py
+python3 -I tools/shj/kg_validate.py
 ```
 
-## 代理與技能 / Agents and skills
+只在明確需要更新上游見證本時，不帶 `--manifest-only` 執行 `fetch_sources.py`。更新後必須重新審查所有受影響的對勘、判斷與衍生資料。
 
-主持者 `shj-lead`（runbook：skill `shj-era-mapping`）；公共代理 `textual-critic`、`entity-extractor`、`semantic-matcher`、`civilization-scout`、`palaeo-geographer`、`cross-validator`、`devils-advocate`。見 [architecture](../../docs/architecture.md)。
-Led by `shj-lead` (runbook: skill `shj-era-mapping`) with the common agents above.
+## Agent 與 skill
+
+主持者 `shj-lead`，runbook 為 `shj-era-mapping`。文本、實體、時代世界、語義、交叉驗證與紅隊角色見 [架構 v4](../../docs/architecture.md)。公共 agent/skill 不含《山海經》的固定地理答案。

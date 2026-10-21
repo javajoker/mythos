@@ -1,36 +1,47 @@
-# 山海經交付檢查清單 / Shanhaijing Deliverable Checklist
+# 山海經交付檢查清單 v4 / SHJ Delivery Checklist v4
 
-> v3.0 ・ 2026-10-20 ・ 每次產生或更新交付版本之前逐項勾選；`shj-lead` 負責，`devils-advocate` 複核。
-> Tick every item before producing or updating a deliverable; owned by `shj-lead`, reviewed by `devils-advocate`.
+每次生成或更新草稿、圖譜與交付版本時逐項檢查。完整性通過不代表解釋正確。
 
 ## 1. 文本 / Text
-- [ ] 只用原文：明成化本的次序與讀法；注疏沒有進入任何步驟 / original text only; no commentary
-- [ ] 每個替代讀法（形近字、數字、錯簡）都有見證本或明列的錯誤類型，並記錄在判斷紀錄中 / every variant reading sourced and recorded
 
-## 2. 知識圖譜 / Knowledge graph
-- [ ] 覆蓋檢查：沒有實體的段落 = 0、未解釋的名稱句式 = 0 / coverage 0 and 0
-- [ ] 名稱特徵已抽出，且沒有被當作辨識依據 / name features extracted, never identifiers
+- [ ] 原始快照 manifest 可驗證，未經審查的上游更新沒有進入分析。
+- [ ] 每個正式證據讀法均已由 LLM 或人工確認；`unreviewed` 未被當作定本。
+- [ ] 引文逐字、條目 ID 正確；注疏與現代編輯內容沒有冒充原文。
+- [ ] 每個替代讀法有見證本或明確錯誤類型，以及 human > llm > auto 的裁決記錄。
 
-## 3. 時代世界 / Era world
-- [ ] 世界庫的修改在計分之前提交，提交訊息說明原因 / base committed before scoring
-- [ ] 每個候選在前 4000–前 2000 年內存在或可見，標明年代與當時樣貌 / every candidate dated within the window
-- [ ] 新增的候選類別在全世界同類中一起加入；重點文明之外有同時期的對立文明 / symmetry and rivals
-- [ ] 來源是一般性的考古、古地理、動物學資料，沒有對山海經的既有詮釋 / general sources only
+## 2. 文本事實圖 / Text graph
+
+- [ ] 每段都有覆蓋結果；未抽取、忽略與未決提及有原因。
+- [ ] 節點、提及、關係 ID 全項目一致，名稱與坐標不進入節點 ID。
+- [ ] 文本事實與解釋斷言分層，沒有把候選寫成原文事實。
+- [ ] 第一版卷六至十八沒有新地理節點；未錨定者為 `pending_anchor`。
+
+## 3. 時代世界與候選 / Era base and candidates
+
+- [ ] 每張卡有年代、當時狀態和一般性來源，屬於 4000–1000 BCE 窗口。
+- [ ] 同類候選的資料詳度對稱，至少三個候選、兩個大區。
+- [ ] 候選不是由今名、名氣或預設地區產生。
+- [ ] 地標共識有多個獨立條目和關係支持，未用單一地標鎖定全書。
 
 ## 4. 語義判斷 / Semantic judgments
-- [ ] 判斷時名稱已遮蔽；名稱特徵單獨計分並標明 / names masked; name features flagged
-- [ ] 理由中沒有今名比對，也沒有「有名」之類的理由 / no modern-name or fame reasons
-- [ ] 每個判斷至少 3 個樣本，紀錄完整（證據、理由、模型、提示詞版本、雜湊）/ three samples, complete records
-- [ ] 洩漏抽樣（10%）與誘餌（5%）已執行，結果寫入紅隊紀錄 / leakage probes and decoys run
 
-## 5. 求解與可信度 / Solving and confidence
-- [ ] 兩次執行輸出逐位元組相同 / two runs, identical bytes
-- [ ] 抽查原文自己的陳述（「A 注于 B」「X 在 Y 西」）在對應中是否成立，或說明為何不成立 / spot-check the text's own statements
-- [ ] 權重的修改有一般性的理由，並套用到全書 / weight changes general and book-wide
+- [ ] 名稱已遮蔽；名稱特徵單獨標明且低於原文描述權重。
+- [ ] 每個判斷至少三個樣本，記錄模型、提示版本、輸入雜湊、證據與理由。
+- [ ] 0.35–0.42 km/里區間完成敏感度檢查，未把總里程直接當跨度。
+- [ ] 已執行洩漏抽樣和誘餌，結果進入紅隊記錄。
 
-## 6. 交付 / Deliverable
-- [ ] 完整性檢查 PASS：段落數、提及數與寫入的列數相等 / completeness PASS
-- [ ] 每個未對應的實體寫明原因 / every unmapped entity has a reason
-- [ ] README 的措辭符合可信度級別；暫定不當作結論 / wording matches tiers
-- [ ] 當時地圖的輪廓注明為簡化示意 / era map marked schematic
-- [ ] 紅隊意見已處理或記錄；已提交 / review addressed; committed
+## 5. 圖譜與衝突 / Graph and conflicts
+
+- [ ] `kg_validate.py` 的 schema、引用、類型和第一版地理約束通過。
+- [ ] predicate 已在 ontology 註冊，適用類型正確；聯想與演繹不冒充原文。
+- [ ] 程序只發現衝突；合併、拆分、異文和解釋裁決由 LLM 附證據完成。
+- [ ] 每次裁決記錄對立解釋、反向證據、更新範圍和審核狀態。
+- [ ] 受影響的抽取、判斷、圖譜與草稿已迭代，無舊版本殘留。
+
+## 6. 交付與地圖 / Deliverables and maps
+
+- [ ] 段落數、提及數和交付記錄數一致，未對應項有原因。
+- [ ] 草稿明確區分原文、候選、聯想、演繹與未決項。
+- [ ] 可信度與措辭一致；未知留空，暫定不作定論。
+- [ ] 紅隊意見已處理或保留為未決，沒有隱藏反例。
+- [ ] 地圖由目前有效的圖譜和時代資料重建，標明假說、可信度與簡化輪廓。

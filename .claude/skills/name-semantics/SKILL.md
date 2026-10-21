@@ -1,14 +1,15 @@
 ---
 name: name-semantics
-description: Extract the semantic features carried by names in an ancient text (colours such as 赤 red or 黑 black, materials such as 玉 jade, shapes, states such as 流 flowing or 弱 weak, directions, people traits) and use them as down-weighted description features — never as identifiers and never matched against modern names. Use when building name_features, reviewing a judgment that relies on a name, or when a user says a name "means" something.
+description: Extract colour, material, form, state, direction and people traits carried by ancient names as down-weighted semantic features, never as modern-name identifiers.
 ---
 
-# 名稱語義 / Name semantics（框架 v3 P5、R10）
+# 名稱語義 / Name semantics
 
-1. **名稱不作辨識**：同名不代表同一實體，異名不代表不同實體；辨識靠描述與關係。/ Names do not identify.
-2. **名稱特徵保留**：名稱中的語義詞（顏色、材質、形狀與尺度、狀態、方位、人群特徵）抽成 `name_features`，例如「赤水」→ `colour: red`、`kind: water`。/ Semantic words become features.
-3. **比實際特徵，不比今名**：「赤水」對的是**外觀為紅色**的水（泥沙、藻類、紅岩），所有這樣的水一起競爭；候選今名中的「紅」「黑」等字不加分。/ Match real features, never modern names.
-4. **權重較低並標明**：名稱特徵的權重低於原文描述（規格 §6：0.4），每次使用都標「來自名稱」。/ Down-weighted and flagged.
-5. **人群特徵**：「毛民」「黑齒」「羽民」等只在該族作為主語時計入。/ Ethnonym traits only for the subject.
+1. **名稱不作辨識**：同名不代表同一實體，異名不代表不同實體；辨識依描述與關係。
+2. **保留語義特徵**：將名稱中的顏色、材質、形狀、尺度、狀態、方位和人群特徵寫入已註冊的 `name.semantic` 屬性。
+3. **比實際特徵**：例如名稱含「赤」只提供紅色語義，候選必須以實際顏色、泥沙、藻類或材料比較；今名含相同字不加分。
+4. **低權重並標記**：名稱特徵低於原文直接描述，每個判斷標明哪些分數來自名稱。
+5. **人群特徵有主語限制**：族名中的毛、黑齒、羽等只在該族作為描述主語時使用。
+6. **異體不進 ID**：名稱、異體與規範名放在 `names`，不改寫穩定節點 ID。
 
-山海經的語義詞表見 `projects/shanhaijing/docs/methodology-spec.md` §3。
+具體詞表屬於語料設定，公共 skill 不保存任何語料的現實對應答案。

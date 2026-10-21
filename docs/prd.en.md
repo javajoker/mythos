@@ -1,84 +1,61 @@
-# Mythos Product Requirements Document (PRD)
+# Mythos Product Requirements Document v4
 
-> Version 3.0 · 2026-10-20 · [繁體中文](prd.zh-Hant.md)
+> Version 4.0 · 2026-10-21 · [繁體中文](prd.zh-Hant.md)
 
-## 1. Background and goals
+## 1. Product and goals
 
-The Mythos "product" has three parts: a method (era-semantic correspondence, framework v3), a reproducible research database (original text, knowledge graph, world of the period, judgment records), and a set of AI research agents. The goal is that anyone can regenerate, inspect and challenge a complete, item-by-item mapping of an ancient text onto the world of its period.
+Mythos provides an iterative era-semantic method, a reproducible research database, and specialised AI research agents. Anyone should be able to regenerate, inspect and challenge an item-by-item correspondence between an ancient text and its period world.
 
-| Goal | Metric |
+| Goal | Acceptance metric |
 |---|---|
-| G1 Nothing missed | The deliverable covers 100% of paragraphs and entity mentions; unmapped items state a reason |
-| G2 Traceable | Every entity, relation, judgment and mapping links to entry IDs and the source clause |
-| G3 No inherited conclusions | Commentary and prior scholarship are never input; judgments run on masked input; leakage is measured |
-| G4 Period-true | Every candidate exists or is visible in the period window, with its dates and state |
-| G5 Honest confidence | Every mapping carries confidence, tier, evidence and rivals |
-| G6 Reproducible | Tools give byte-identical outputs; judgments are recorded and re-run only on change |
-| G7 Extensible and multilingual | A new corpus needs an ingest adapter, entity patterns and a period window; each new language adds a doc locale |
+| G1 Coverage | Every paragraph and entity mention is accounted for, including unresolved items |
+| G2 Traceability | Every entity, attribute, relation, judgment and decision links to source evidence |
+| G3 No inherited answers | Commentary is excluded; correspondences arise from masked competing candidates |
+| G4 Period truth | Candidates exist or are visible within 4000–1000 BCE and carry dates and state |
+| G5 Honest confidence | Mappings retain rivals, evidence, confidence and counter-evidence; unknown is not zero |
+| G6 Reproducibility | Source hashes, rerunnable tools and hashed judgment inputs |
+| G7 Extensibility | Predicates are registered by entity type; common agents contain no corpus answers |
 
-## 2. Users
-
-| Role | Needs |
-|---|---|
-| Researcher (human) | Read the mapping, ask "where is X", propose a reading and see it tested against rivals |
-| AI research agent | Build the era world, judge candidates on masked input, solve, deliver |
-| Reviewer / red team | Find leakage, decoy failures, modern-name matching, asymmetry, date errors |
-| Reader | Read the mapping and the map of the period with confidence and limits |
-
-## 3. Scope (Phase 1: Shanhaijing, era-semantic version)
-
-### 3.1 Must have (P0)
-- **R1** Original text: three witnesses, 869 paragraphs, Chenghua order; commentary excluded from analysis. ✅
-- **R2** Knowledge graph of the whole book with a coverage audit at zero unexplained misses. ✅
-- **R3** Name features (colour, material, shape, state, direction) for every entity.
-- **R4** Observer frame from the Central Plains with soft bearing and distance constraints.
-- **R5** Era world base 4000–2000 BCE: sites and works (Mesopotamia, Harappa, Egypt in focus, contemporaries as rivals), waters, fauna including extinct species, cultures, coastlines of the period.
-- **R6** Masked semantic judgments with evidence, reasons and three samples; leakage probes and decoys.
-- **R7** Joint solver on the judgments with confidence; held-configuration tests of readings.
-- **R8** Deliverable draft-v4: every paragraph and entity, plus the map of the period, with a completeness check.
-
-### 3.2 Should have (P1)
-- **R9** Pilot on the four Western sections and 大荒西經 before the whole book.
-- **R10** Weight sensitivity and red-team review of each draft.
-
-### 3.3 Could have (P2)
-- **R11** Interactive map of the period with the mapping and alternatives.
-- **R12** Cross-corpus graphs (穆天子傳, 淮南子・地形訓, 禹貢, 水經).
-
-## 4. Functional requirements
+## 2. First-version requirements
 
 | ID | Requirement | Acceptance |
 |---|---|---|
-| F1 | Text layer | `ingest.py` … `extract_routes.py` produce entries, working text, variants, stations |
-| F2 | Knowledge graph | `kg_extract.py`: 0 paragraphs without entities, 0 unexplained name patterns, name features present |
-| F3 | Era base | `data/era/` cards each have dates, state and a general source; committed before scoring |
-| F4 | Judgments | every record has masked input hash, model, prompt version, sample number, per-dimension evidence and reason |
-| F5 | Solving | `era_solve.py` writes the mapping with confidence, tier, evidence and rivals; two runs identical |
-| F6 | Deliverable | `era_deliver.py` fails unless paragraphs and mentions written equal those in the text; draws the era map |
+| R1 Source | Three witnesses, 869 stable entries, snapshot manifest, Chenghua order and reading status | Local hashes verify; only confirmed readings are formal evidence |
+| R2 Text graph | Entities, mentions, name semantics and textual relations from working text | Per-entry coverage with explicit misses |
+| R3 Era base | Dated and sourced geography, fauna, cultures and works | Out-of-window candidates rejected; symmetric coverage |
+| R4 Semantic fit | At least three candidates from two macro-regions, attribute judgments and samples | No acceptance without rivals; leakage and decoy checks |
+| R5 Initial graph | `nodes/mentions/edges/attributes` with typed ontology | Schema, references, types and v1 geography constraint pass |
+| R6 Iterative drafts | Base draft → enriched attributes → later books → graph update | Text, hypotheses and unresolved items remain distinct |
+| R7 LLM adjudication | Evidence-backed merge, split, variant and revision decisions | Code detects/executes only; human > LLM > automatic proposal |
+| R8 Delivery | `deliverables/draft-v1/`, comparison, conflict log and rebuilt maps | Completeness, sensitivity and red-team review pass |
 
-## 5. Non-functional requirements
-- Reproducible: Python standard library, `python3 -I`, fixed seeds, sorted outputs; judgments cached by input hash.
-- Neutral: no presupposed region; symmetry for every leniency and kind of candidate; rivals in every comparison.
-- Licensing: code and docs Apache-2.0; classical texts public domain; Wikisource transcriptions under CC BY-SA 4.0.
+### SHJ v1 constraints
 
-## 6. Milestones
+- Only Books 1–5 may introduce geographic nodes. Books 6–18 reuse them or remain `pending_anchor`.
+- Scale is fitted over **0.35–0.42 km/li** with sensitivity analysis.
+- Sections start independently. Cross-section links need evidence; summed distance is not automatically span.
+- Observer origin is inferred from mutually confirmed landmarks and registered by stable ID.
+
+## 3. Non-functional requirements
+
+- Keep `textual`, `semantic_fit`, `associative` and `deductive` assertions separate.
+- Register predicates by entity type, with evidence, status and provenance.
+- Use standard-library Python 3.9+, `python3 -I`, sorted outputs and input-hash caching.
+- Modern names and fame are not evidence; equivalent candidates use equivalent rules.
+- Code and documentation are Apache-2.0; ancient texts are public domain; Wikisource transcriptions are CC BY-SA 4.0.
+
+## 4. Milestones
 
 | Milestone | Content | Status |
 |---|---|---|
-| M0 | Repository, reference corpus, overall docs | ✅ |
-| M1 | Text layer | ✅ |
-| M2 | Knowledge graph of the whole book | ✅ |
-| M3 | Framework v3, era-world document, spec, agents, skills | ✅ |
-| M4 | Pilot: name features, observer frame, era base, judgments, solver, review | todo |
-| M5 | Whole book, draft-v4 with the map of the period, review | todo |
-| M6 | A second corpus on the common layer | todo |
+| M0 Cleanup and specifications | Legacy outputs removed; framework, SHJ specification, data model and ontology v4 | Done |
+| M1 Text foundation | Manifest, 869 entries, collation, working text, variants and routes | Generated; formal readings still require confirmation |
+| M2 Text graph | Full-book entities, mentions and textual relations | Todo |
+| M3 Semantic fit and KG v1 | Era cards, candidates, judgments, anchor consensus and initial graph | Todo |
+| M4 Iterative drafts | Base draft, enriched attributes, later books and graph update | Todo |
+| M5 Conflicts and delivery | LLM merge/split, red team, draft-v1 and rebuilt maps | Todo |
+| M6 Second corpus | Onboard without changing common agents or skills | Todo |
 
-## 7. Risks
+## 5. Risks
 
-| Risk | Mitigation |
-|---|---|
-| The model's prior knowledge steers judgments | Masking, unmasked probes, decoys, rivals; leakage discounts confidence |
-| Semantic matching fits anything | Rarity weighting, capped contradictions, joint solving across relations, held-configuration tests |
-| Base bias toward well-described regions or focus civilisations | Symmetry rule, rivals, balance checks in every review |
-| Wrong dates or period states | Every card dated; candidates outside the window excluded |
-| Over-reading weak results | Tiers everywhere; tentative results never cited |
+Predetermined answers, unconstrained semantic fitting, era-base bias, mixed fact and inference, programmatic semantic adjudication, and overstatement are handled respectively by masking and rivals, relation and falsifiability checks, symmetric cards, typed assertion layers, LLM decisions with human review, and explicit confidence tiers.

@@ -1,23 +1,25 @@
-# 時代世界庫 / Era World Base（前 4000–前 2000 年）
+# 時代世界庫 / Era World Base（4000–1000 BCE）
 
-> 依 [era-world.md](../../docs/era-world.md) 與 skill `era-world-modelling` 建立；**在計分之前提交**，之後的修改要在提交訊息中說明原因。資料只用一般性的考古、古地理、動物學來源，不用任何對山海經的既有詮釋。
-> Built per era-world.md and skill `era-world-modelling`; committed before scoring; general sources only.
+> 依 `docs/era-world.md` 與 skill `era-world-modelling` 建立。資料只用一般性考古、古地理、古生物與氣候來源，不用對《山海經》的既有詮釋。
 
 ## 現況 / Current state
 
-下列檔案是**種子**：內容沿自先前整理的今日世界資料（含部分古河道、乾河谷、古運河與已滅絕動物），**尚未全部改成時代窗口內的狀態**。任務 T-V05 會逐筆加上年代（`from`、`to`）、當時樣貌（`state`）與顏色等屬性，刪去窗口外的項目，並補上遺址與造物（`sites.jsonl`）及約前 2500 年的海岸線（`palaeo-coast.json`）。
-These files are **seeds** carried over from earlier present-day data (including some palaeo-rivers, dry valleys, ancient canals and extinct animals). They are **not yet converted** to the window; task T-V05 dates every record, adds state and colour, removes what lies outside the window, and adds `sites.jsonl` and `palaeo-coast.json`.
+下列檔案仍是**種子資料**：部分沿自先前整理的現代世界資料，尚未全部轉換成時代窗口內的狀態。它們不能被描述為已完成的時代世界庫，也不能直接支持確定性對應。
 
-| 檔案 / File | 筆數 / Records | 用途 / Use | 待辦 / To do (T-V05) |
-|---|---|---|---|
-| `regions.jsonl` | 33 | 彙總用的大區（中心、相鄰；EGY、IDS 依「河谷文明自成一區」分出）/ roll-up regions | 保留 / keep |
-| `region-properties.jsonl` | 38 | 大區的礦產、植物、地形、習俗 / region attributes | 改為窗口內的狀態（例：撒哈拉由濕轉乾）|
-| `waters-era.jsonl` | 287 | 河、湖、海、沙漠終點、古河道、乾河谷、古運河 / waters | 加年代、顏色、當時連接；刪去窗口後才出現者（例：法老運河約前 600 年）|
-| `fauna-era.jsonl` | 145 | 動物（形態標籤、分佈）/ animals | 改為窗口內的分佈；補已滅絕或已退出原分佈者 |
-| `cultures-era.jsonl` | 48 | 人群與文化 / cultures | 加年代；刪去窗口外者（例：匈奴、阿克蘇姆、玻里尼西亞）；補同時期文化 |
-| `coastlines-present.json` | 33 + 6 | 今日的簡化陸地輪廓，作為繪製當時地圖的底圖，用於繪圖；自 T-V04g 起也作為「注于海」約束的海岸（加上 `courses.jsonl` 的窗口內修正與大湖）/ present outlines, base for drawing; since T-V04g also the coasts for 'flows into 海' | 衍生 `palaeo-coast.json` |
-| `courses.jsonl` | 55 | 河道走向（源頭 → 河口，窗口內的河道）42 條、長水體軸線 2 條（紅海、波斯灣）、大湖 8 個（面積約千平方公里以上，算作「海」）、窗口內海岸修正 3 段；T-V04g 新增，原因：重新錨定需要水道的位置 / river courses, water-body axes, large lakes and era coast corrections, added for T-V04g | 以遮蔽輸入重提水道候選後覆核（T-V04c）|
-| `sites.jsonl` | — | 遺址、地景與造物 / sites and works | 新建 / new |
-| `palaeo-coast.json` | — | 約前 2500 年的海岸線、河道、乾濕界線 / coasts c. 2500 BCE | 新建 / new |
+| 檔案 / File | 筆數 / Records | 用途 / Use | 待辦 / To do |
+|---|---:|---|---|
+| `regions.jsonl` | 33 | 大區中心與相鄰關係 | 保留並審查分區是否適合候選對稱 |
+| `region-properties.jsonl` | 38 | 大區礦產、植物、地形與習俗 | 改為窗口內狀態並補來源 |
+| `waters-era.jsonl` | 287 | 河、湖、海、古河道、乾河谷與古運河 | 補年代、顏色、當時連接；刪除窗口後才出現者 |
+| `fauna-era.jsonl` | 145 | 動物形態與分佈 | 改為當時分佈，補滅絕與區域退出時間 |
+| `cultures-era.jsonl` | 48 | 人群與文化 | 補年代；移除窗口外文化，補同時期對立候選 |
+| `courses.jsonl` | 55 | 河道、長水體軸線、大湖與海岸修正 | 逐筆核對年代與來源 |
+| `coastlines-present.json` | 33 + 6 | 現代簡化陸地輪廓 | 只能標為現代底圖，不得稱時代海岸 |
+| `sites.jsonl` | — | 遺址、地景與造物卡 | 新建 |
+| `palaeo-coast.json` | — | 代表時點的古海岸、河道與乾濕界線 | 新建 |
 
-格式見 [data-model](../../docs/data-model.md) §3；地區代碼見 [conventions](../../../../docs/conventions.md)。
+每張卡必須有 `from`、`to`、`state`、當時屬性與一般性來源。窗口內不同時期可分卡；遺跡在窗口內可見時使用 `ruin`，不能簡單刪除。
+
+## 使用限制 / Usage gate
+
+在完成年代、狀態、來源與對立候選審查前，這些資料只用於整理與缺口分析，不進入正式語義評分。地圖待有效圖譜與 `palaeo-coast.json` 完成後重建。

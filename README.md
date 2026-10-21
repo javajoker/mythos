@@ -2,50 +2,56 @@
 
 > **繁體中文** ｜ [English](#english)
 
-Mythos 是一個開放研究項目：把古籍、神話與傳說當作**可能保存了真實觀測的傳承紀錄**來閱讀，放回**它們形成的那個時代的世界**中，用可審查、可重現的方法檢驗它們可能記錄了什麼。
+Mythos 是一個開放研究項目：把古籍、神話與傳說視為可能保存真實觀測的傳承紀錄，放回其形成的時代世界，以可審查、可重現的方法比較競爭解讀。
 
-第一個子項目是 **《山海經》**（[projects/shanhaijing](projects/shanhaijing/README.md)）：視為前 4000–前 2000 年逐步積累的紀錄，從中原出發，只用原文。
+第一個子項目是 **《山海經》**（[projects/shanhaijing](projects/shanhaijing/README.md)），第一版時代窗口為 **4000–1000 BCE**。所有現實地理對應都是候選假說，不是前置答案。
 
-## 方法：時代語義對應（框架 v3）
+## 方法：迭代時代語義對應（框架 v4）
 
-1. 找出書中**所有實體**、它們的描述、關係，以及名稱中的語義（例：「赤」= 紅色）；
-2. 建立**當時的世界**：當時的海岸線、河道、氣候、動物（含已滅絕者）、文明與其造物；
-3. 在名稱遮蔽下，由大模型依**語義相關性**逐項評分（外觀、顏色、尺度、材質、功能、聲音、生態、方位、年代），附原文證據與理由；
-4. 以全書的關係**聯合求解**，求最一致的對應，並計算可信度；
-5. 交付：與原書**逐條對應**，不遺漏任何一段、任何一個實體，並畫出**當時的地圖**。
+1. 校勘見證本，建立有穩定 ID 和讀法狀態的工作文本；
+2. 抽取實體、提及、名稱語義與文本關係；
+3. 在名稱遮蔽下生成競爭候選，逐屬性形成地理語義擬合；
+4. 建立初版圖譜，再完成底層卷冊草稿並補充聯想、演繹屬性；
+5. 完成後續卷冊並更新圖譜；
+6. 由 LLM 依證據解決語義衝突、合併或拆分，迭代受影響產物；
+7. 通過完整性、對立候選、敏感度和紅隊審查後，交付逐條對照與時代示意地圖。
 
-詳見 [研究框架](docs/research-framework.md)。
+《山海經》第一版另強制卷六至十八的地理提及復用《五臧山經》節點；這是圖譜結構約束，不指定任何現實地理答案。詳見 [研究框架](docs/research-framework.md) 與 [山海經規格](projects/shanhaijing/docs/methodology-spec.md)。
 
 ## 原則
 
-- **原文為準**：只用原始古本；注疏與前人學說不作為證據，也不作為輸入。
-- **不預設地區**：所有地區、所有同時期文明公平競爭。
-- **名稱語義保留、今名不比對。**
-- **容許傳抄錯誤**：缺失不算矛盾，吻合越多越可信。
-- **可審查、可重現**：每個判斷都有紀錄；完整性檢查不通過不得交付。
+- **原文為準**：主文、注疏、異文分離；每個判斷可回到條目 ID 和逐字引文。
+- **競爭假說**：不以今名、名氣或預設地區代替候選比較。
+- **文本與解釋分層**：文本事實、語義擬合、聯想和演繹屬性各有來源與狀態。
+- **程序與 LLM 分工**：程序檢查、計算和發現衝突；LLM 負責語義裁決，人工覆核最高。
+- **可重現**：原始快照有 SHA-256，工具輸出可重建，判斷有輸入雜湊與版本。
 
 ## 倉庫結構
 
 | 路徑 | 內容 |
 |---|---|
-| [docs/](docs/README.md) | 總體文檔：白皮書、PRD、研究框架、架構、規範、詞彙表、路線圖 |
-| [reference/](reference/README.md) | 古籍原文（公有領域），含多個見證本與結構化條目 |
-| [projects/shanhaijing/](projects/shanhaijing/README.md) | 山海經子項目：規格、時代世界、資料模型、任務、知識圖譜 |
-| [tools/shj/](tools/shj) | 可重現的處理腳本 |
+| [docs/](docs/README.md) | 方法、規格、架構、決策記錄與路線圖 |
+| [reference/](reference/README.md) | 原始見證本、快照 manifest、結構化條目與乾淨文本 |
+| [projects/shanhaijing/](projects/shanhaijing/README.md) | 山海經規格、本體、時代世界、派生資料與任務 |
+| [tools/shj/](tools/shj) | 文本處理、路線分析與圖譜結構校驗工具 |
 | [.claude/](.claude/) | 研究 agent 與 skill |
+
+## 目前狀態
+
+舊解釋草稿、舊地圖和舊圖譜已清除。文本層已重新生成；新知識圖譜、草稿、語義判斷和地圖待依框架 v4 建立。時代世界庫仍是種子資料，新版本尚未進行紅隊審查。
 
 ---
 
 <a id="english"></a>
 # Mythos — Seeking the Truths of the Universe in Ancient Texts, Myths and Legends
 
-Mythos is an open research project. It reads ancient texts, myths and legends as **transmitted records that may preserve real observations**, places them back in **the world of the period that produced them**, and tests what they may record with auditable, reproducible methods.
+Mythos is an open research project that reads ancient texts, myths and legends as transmitted records which may preserve real observations. It compares rival interpretations against the world of the period with auditable, reproducible methods.
 
-The first sub-project is the **Shanhaijing 《山海經》** ([projects/shanhaijing](projects/shanhaijing/README.md)), read as a record accumulated between 4000 and 2000 BCE, from the Central Plains, in its original text only.
+The first sub-project is the **Shanhaijing 《山海經》**, with a first-version period window of **4000–1000 BCE**. Every real-world correspondence is a competing hypothesis, never a predetermined answer.
 
-## Method: era-semantic correspondence (framework v3)
+The iterative v4 pipeline is: working text → entity extraction → geographic semantic-fit attributes → initial knowledge graph → base-section draft → enriched attributes → later sections and graph update → LLM conflict adjudication and merging → repeat until reviewed delivery. For the first SHJ version, geographic mentions in Books 6–18 must reuse nodes from the Five Mountain Classics; this constrains graph structure, not the real-world answer.
 
-(1) every entity with its description, relations and name semantics; (2) the world of the period: coasts, rivers, climate, animals including extinct ones, civilisations and their works; (3) masked LLM judgments of semantic correspondence, attribute by attribute, with evidence and reasons; (4) joint solving across the book's relations, with confidence; (5) an item-by-item deliverable with a map of the period. See the [research framework](docs/research-framework.md).
+See the [research framework](docs/research-framework.md), [SHJ specification](projects/shanhaijing/docs/methodology-spec.md), and [current SHJ status](projects/shanhaijing/README.md).
 
 ## License
 

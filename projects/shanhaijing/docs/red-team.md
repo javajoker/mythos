@@ -1,10 +1,24 @@
-# 紅隊審查紀錄 / Red-team review log
+# 紅隊審查紀錄 v4 / Red-team Review Log v4
 
-> 每一版交付之前的審查（任務 T-R），依 [框架 v3 §7](../../../docs/research-framework.md) 與 agent `devils-advocate` 的檢查項。先前方法的審查只保留在 git 歷史中。
-> Reviews before each deliverable (tasks T-R), per framework v3 §7 and the `devils-advocate` checks. Reviews of earlier methods are in git history only.
+> 每一版交付前，依 [研究框架 v4 §7](../../../docs/research-framework.md) 與 `devils-advocate` 執行獨立審查。
 
-## 先前版本的教訓 / Lessons carried forward
-- **庫的偏差會造出清楚的結果**：某地區的資料較詳（例如只為某地的河流列出支流），結果就會偏向它；每次都要檢查各地區、各文明的候選卡是否同樣詳細。/ A richer base for one region produces a clear but false result; check balance every time.
-- **假說要寫成固定組態，與對立組態一起求解**，不能只看單一段落是否相合。/ Test readings as held configurations against rivals, not paragraph by paragraph.
+## 審查範圍 / Review scope
 
-（尚無審查 / no reviews yet）
+1. **反例**：列出所有與候選關係衝突的原文，附條目 ID 和逐字引文。
+2. **對立候選與誘餌**：至少兩個可行競爭者，包括提出者不喜歡的候選；檢查是否同樣吻合。
+3. **時代庫偏差**：比較不同地區的支流、屬性、動物和文明卡詳度。
+4. **遮蔽洩漏**：比較遮蔽與不遮蔽判斷，排查今名、名氣和既有比定污染。
+5. **比例尺與拓撲**：在 0.35–0.42 km/里區間做敏感度，檢查篇段連接是否有獨立證據。
+6. **年代**：候選與相鄰實體在窗口內的年代是否相容。
+7. **抽取錯誤**：區分原文關係、比喻、標題、同名合併與抽取偽影。
+8. **對稱與可證偽性**：所有候選是否獲得相同容錯，什麼證據能推翻目前結果。
+9. **語義裁決**：程序是否越權決定合併、拆分或讀法；LLM 裁決是否附反向證據。
+10. **措辭**：草稿、README、地圖是否超過可信度；暫定和未知是否被寫成定論。
+
+## 目前狀態 / Current status
+
+**框架 v4 尚無審查。** 舊版本的「完成、實證、完美閉合」等說法不作為本版結論，也不繼承其審查狀態。
+
+## 記錄格式 / Record format
+
+每次審查至少記錄：版本、輸入雜湊、審查者、反例、對立候選、敏感度、發現、嚴重度、處理方式與未決項。未處理的阻斷問題不得通過交付。

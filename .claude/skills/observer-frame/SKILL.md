@@ -1,23 +1,15 @@
 ---
 name: observer-frame
-description: Read the bearings and distances of an ancient itinerary text from the compilers' point of origin — directions as seen from the origin, routes rebuilt from legs with an unknown start and an unknown unit length (li to km). Enforces the Zero-New-Geography Axiom for Books 6-18 (mountains/waters 100% reused from Wuzang Shanjing) and Discard-Commentary text-first principle.
+description: Rebuild ancient itinerary frames from independent sections, infer observer origins from mutually confirmable landmarks and evaluate distance scales with sensitivity rather than fixed conversion.
 ---
 
-# 觀察框架 / Observer frame（框架 v3 R9、P12）
+# 觀察框架 / Observer frame
 
-1. **原點與圖層坐標基準**：
-   - 編者所在地：中原河南商都殷墟/洛陽一帶（北緯 34.7°、東經 113.6°）。
-   - **《五臧山經》（卷一至五）確立客觀地理走向、里數與水網閉環，是全書唯一的地理坐標骨架底座**。
-   - **卷六至十八無新地理內容**：後續各卷（海外經、海內經、大荒經、海內經終篇）純粹描述人文邦國、神人帝陵、特產風物等，**所有山水實體 100% 複用五臧山經節點與坐標**，以五臧山經坐標系為基準進行校準和標註補充。
-2. **拋棄後世注釋·文字出發**：
-   - 徹底拋棄漢唐郭璞注等微縮注疏，嚴格依據經文走向與里數客觀推演：
-     - 開羅吉薩金字塔群 ≡ 崑崙之丘；
-     - 吉薩獅身人面像 ≡ 神陸吾 / 開明獸；
-     - 紅海 ≡ 赤水；
-     - 尼羅河 ≡ 黑水；
-     - 西次三經直入地中海非洲板塊。
-3. **路線與絕對距離**：
-   - 每篇依「又{方}{N}里」累計出路線；里數是**絕對的直線距離**（不假設沿路里程），周秦漢里換算公理：**1 里 ≡ 0.400 公里**。
-   - 西向橫向長征 18,924 里 ≡ 7,569.6 km ↔ 7,534 km 開羅（閉合誤差 0.47%）。
-   - 東向縱向長征 18,869 里 ≡ 7,547.6 km ↔ 7,500 km 北美縱深（閉合誤差 0.63%）。
-4. **輸出**：`frame.jsonl`：每站相對原點的方位、累計里數、所屬篇。
+1. **篇段獨立**：依每篇自身的「又{方}{N}里」累計相對位置。沒有文本或已接受關係時，不推定篇間距離。
+2. **原點反推**：收集多個可共同確認的地標及其相對關係，比較可行原點；形成共識後以穩定 ID 寫入 `anchors.jsonl`。
+3. **比例尺區間**：使用語料指定範圍擬合，不把單一換算率稱為公理。山海經 v4 的範圍是 0.35–0.42 km/里。
+4. **距離不是路線證明**：里數可表示直線或行程的候選模型，必須分別記錄；總里程不直接等於地理跨度。
+5. **敏感度**：在比例尺和方位慣例變化時重新計算，報告候選是否穩定。
+6. **輸出**：每站保留 entry、篇、序號、相對 x/y、原始里數與讀法狀態；地標共識和跨篇連接另存判斷記錄。
+
+程序負責幾何計算，LLM 負責地標、連接和解釋衝突裁決。

@@ -1,18 +1,20 @@
 ---
 name: transmission-error-tolerance
-description: Score an ancient text that has been copied for millennia without letting losses and copying errors veto a match — absence is not contradiction, per-item penalties are capped, more agreement makes a reading stronger, and variant readings (graphic confusion, numeral corruption, displaced slips) are allowed only from witnesses or stated error types, at a small recorded cost. Use when a candidate fails on one detail, when numbers look wrong, or when deciding whether a mismatch is a copying error.
+description: Handle missing details and possible copying errors without allowing unlimited fitting. Variant readings require evidence and LLM or human adjudication; code only reports candidates.
 ---
 
-# 傳承錯誤的容許 / Tolerating transmission errors（框架 v3 P6、R11）
+# 傳承錯誤的容許 / Transmission-error tolerance
 
 | 情況 / Case | 處理 / Treatment |
 |---|---|
-| 書中沒提到 / not mentioned | 不計分、不扣分 / no score, no penalty |
-| 單項不符 / one item contradicts | 扣分，上限 0.5 / capped at 0.5 |
-| 多項吻合 / many agree | 分數累加：吻合越多，越可信 / agreement accumulates |
-| 形近字 / graphic confusion（已／己、千／十、日／曰）| 替代讀法，−0.1，須有見證本或明列的類型 |
-| 數字訛誤 / numeral corruption | 只比較大小級別；替代數字須有見證本支持 |
-| 錯簡 / displaced slips | 依工作文本（明成化本）的次序；已登記的錯簡可作替代 |
-| 誇張 / exaggeration（「其高五千仞」）| 只取「很高」的級別 |
+| 原文未提 | 不計分、不扣分，也不自動視為矛盾 |
+| 單項不符 | 記錄矛盾與影響，納入整體候選比較，不能隱藏 |
+| 多項吻合 | 只在獨立特徵與關係上累積支持，避免重複計算同一證據 |
+| 形近字 | 形成替代讀法候選，須有見證本或明確錯誤類型 |
+| 數字差異 | 保留各見證本讀數與分段合計，做級別與敏感度比較 |
+| 錯簡 | 以最早見證本次序為工作次序，其他排法只作移段假說 |
+| 誇張 | 可降為大小級別，但必須標明轉換規則並對所有候選一致 |
 
-**不得**為了讓某個候選吻合而自創讀法；每一個替代讀法都寫入判斷紀錄的 `variant_reading`，紅隊可以逐條檢查。/ Never invent readings to fit; every variant is recorded.
+程序可以發現差異、計算合計和報告異常，不能決定哪個讀法正確。LLM 或人工裁決必須記錄證據、理由、錯誤類型、審核狀態與受影響產物；人工覆核高於 LLM。
+
+不得為遷就候選自創讀法，也不得把容錯變成任何候選都能通過的免責規則。

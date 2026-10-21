@@ -1,58 +1,61 @@
-# 山海經子項目任務 / Shanhaijing Sub-project Tasks
+# 山海經任務 v4 / SHJ Tasks v4
 
-> v3.5 ・ 2026-10-21 ・ 方法：全球時代語義對應與雙向古世界反推（[框架 v3.2](../../../docs/research-framework.md)、[規格 v3.3](methodology-spec.md)）。
-> 狀態 / Status: ✅ done ・ ⏳ in progress ・ ⬜ todo。
-> 編號 / IDs: `T-0nn`–`T-2nn` 文本層；`T-G` 全球時代語義與反推版（Global Era & Reverse Paleoworld）；`T-R` 紅隊。
+> 狀態只根據目前可驗證產物填寫：✅ 完成・⏳ 進行中・⬜ 待辦。
+> 「生成」不等於「所有讀法或解釋已確認」。
 
----
+## 1. 清理與規格 / Cleanup and specifications
 
-## 文本層 / Text layer
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-001 | 擷取三個見證本（通行本、四部叢刊明成化本、四庫本）/ fetch the three witnesses | `fetch_sources.py` | ✅ |
-| T-002 | 逐段編號（869 段）；注疏分欄保存，不進入分析 / IDs; commentary kept apart, never analysed | `ingest.py` | ✅ |
-| T-003 | 在明成化本與四庫本中定位每個底本條目 / locate every base entry in both witnesses | `align_witness.py` | ✅ |
-| T-004 | 以明成化本為序的工作文本 / working text in Chenghua order | `align_witness.py` | ✅ |
-| T-005 | 對照掃描頁補齊四部叢刊本缺頁 / fill the Sibu Congkan gaps from the scans | `textual-critic` | ⬜ |
-| T-101 | 機器對勘 / machine collation | `collate.py` | ✅ |
-| T-102 | 異文分類（自動首輪；草稿讀法政策，見 source-assessment §4）/ variant classes | `classify_variants.py` | ✅ |
-| T-103 | 擴充異體字摺疊表 / extend the graphic-variant fold table | `textual-critic` | ⬜ |
-| T-104 | 登記底本的現代移段與補入文字 / register modern relocations and insertions | `align_witness.py` | ✅ |
-| T-105 | 以見證本的數字讀法重抽里程，並記為替代讀法（R11）/ witness numerals as variant readings | `textual-critic` | ⬜ |
+| ID | 任務 / Task | 狀態 |
+|---|---|---|
+| T-V001 | 刪除舊解釋、舊草稿、舊地圖、渲染器與舊圖譜 | ✅ |
+| T-V002 | 統一 4000–1000 BCE、0.35–0.42 km/里、競爭假說與篇段獨立原則 | ✅ |
+| T-V003 | 建立發起人指定的迭代流程與第一版地理復用約束 | ✅ |
+| T-V004 | 建立可擴展資料模型、類型化 ontology 與結構校驗器 | ✅ |
 
----
+## 2. 文本層 / Text layer
 
-## 全球時代語義與雙向反推版 / Global Era & Reverse Paleoworld
-設定（項目發起人，2026-10-21）：
-- **無新地理實體公理**：卷六到卷十八只是描述人文和物產，沒有新的地理內容。所有卷六到卷十八提到的山、水實體，一定在五臧山經中找到對應的，並且 100% 強制複用對應的實體與地理坐標！
-- **地圖表現法則**：反應到地圖上，也是把對應的人文物產添加到已有的五臧山經地圖之上：根據描述的五臧山經地理位置，補充人文和物產。
-- **徹底拋棄後世注釋·文字出發**：五臧山經應該嚴格按照地理位置執行。徹底拋棄所有現在對於山海經的注釋和解讀！嚴格從山海經文字出發。
-- **經典實證鐵律**：
-  - 《大荒西經》的崑崙之丘就應該和《西山經》一樣，對應在開羅位置（30.0°N, 31.2°E，吉薩金字塔群）。
-  - 一路向西，《西次三經》就應該是地中海非洲板塊。
-  - 赤水 ≡ 紅海 (Red Sea)。
-  - 黑水 ≡ 古埃及尼羅河 (Nile River，古埃及名 Aur 黑水)。
-  - 陸吾 ≡ 吉薩獅身人面像 (Sphinx，人面虎身九尾虎爪守衛帝之下都)。
-- 尺度：黃金緯度帶（30°–35°N）與周秦漢里（1 里 ≡ 0.400 公里）校準，西山經 18,924 里 ≈ 7,569.6 km 精確對應中原至開羅（7,534 km）。
+| ID | 任務 / Task | 狀態 |
+|---|---|---|
+| T-001 | 三個見證本與本地快照 | ✅ |
+| T-002 | 869 個穩定 base 條目，主文、注疏與異文分離 | ✅ |
+| T-003 | 在明成化本與四庫本定位所有 base 條目 | ✅ |
+| T-004 | 建立明成化本次序的 working text，標明讀法來源與審核狀態 | ✅ |
+| T-005 | 對照掃描頁核實四部叢刊本缺頁 | ⬜ |
+| T-101 | 機器對勘與摘要 | ✅ |
+| T-102 | 異文首輪分類；自動結果標為提議 | ✅ |
+| T-103 | 擴充並審查異體字摺疊表 | ⬜ |
+| T-104 | 登記現代移段與補入文字 | ✅ |
+| T-105 | 由 LLM／人工確認正式證據讀法與數字替代讀法 | ⬜ |
+| T-106 | 從 working text 抽取站點、方位、里數、水系與各篇獨立框架 | ✅ |
+| T-107 | 將里程與抽取差異交 LLM 審查，不由程序自動改數 | ⬜ |
 
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-G01 | 升級專案核心架構文檔：確立全球全域視野、7500km/18924里幾何校準、現象學解碼與雙向反推機制 | `shj-lead` | ✅ |
-| T-G02 | 清空歷史生成檔案：清空 derived/ 下舊運算數據，保證純淨重置 | `shj-lead` | ✅ |
-| T-G03 | 全球四大極致現象與地標深度對照（北極燭龍極夜、東洋十日湯谷、西洋開羅崑崙、大洋歸墟） | `palaeo-geographer`, `semantic-matcher` | ✅ |
-| T-G04 | 《西山經》18,924 里跨大陸接力賽段逐山逐水幾何排布與交叉驗證（四篇串聯假說 vs 樞紐假說） | `cross-validator` | ✅ |
-| T-G05 | 《大荒東經》《東山經》跨太平洋與美洲航路及古遺址（Caral/北美巨木/奧爾梅克/瑪雅）對應 | `civilization-scout` | ✅ |
-| T-G06 | 雙向反推成果庫：建立《山海經》反映之公元前 4000–前 1000 年古氣候、古水網與滅絕物種反演報告 | `devils-advocate` | ✅ |
-| T-G07 | 交付逐段逐句全球對照矩陣與當時世界地圖（draft-v5） | `shj-lead` | ✅ |
-| T-G08 | 【第一階段 Phase 1】全書十八卷（869 條經文，21,456 行草稿）100% 逐句純 LLM 解碼入庫 | `shj-lead` | ✅ |
-| T-G09 | 確立「無新地理實體公理」、「山水 100% 複用五臧山經」與「拋棄注釋文字出發」：更新 docs, agents 與 skills | `shj-lead` | ✅ |
-| T-G10 | 【第二階段 Phase 2】全要素知識圖譜抽取：卷六至十八山水節點 100% 複用山經，人文特產錨定於山經底座 | `entity-extractor`, `cross-validator` | ⏳ |
+## 3. 圖譜與語義擬合 / Graph and semantic fitting
 
----
+| ID | 任務 / Task | 狀態 |
+|---|---|---|
+| T-G01 | 從 working text 抽取實體、提及、名稱語義與文本關係 | ⬜ |
+| T-G02 | 完成時代世界卡：年代、狀態、來源、對稱候選與古海岸 | ⬜ |
+| T-G03 | 遮蔽生成至少三個候選、兩個大區並逐屬性判斷 | ⬜ |
+| T-G04 | 由共同地標反推觀察原點並形成 anchors 共識 | ⬜ |
+| T-G05 | 建立並校驗 KG v1：nodes、mentions、edges、attributes | ⬜ |
 
-## 紅隊審查 / Red team
-| ID | 任務 / Task | 負責 / Owner | 狀態 |
-|---|---|---|---|
-| T-R01 | 今名依賴與先入知識審查：全面排查「華山」「崑崙」「紅海」等今名對大模型判斷之污染 | `devils-advocate` | ⬜ |
-| T-R02 | 距離尺度與幾何拓撲一致性審查：檢驗 18,924 里與開羅之間沿途水系流向與山脈排布之物理真實性 | `devils-advocate` | ⬜ |
-| T-R03 | 全球時代地圖與反推成果審查 | `devils-advocate` | ⬜ |
+## 4. 迭代草稿與衝突 / Iterative drafts and conflicts
+
+| ID | 任務 / Task | 狀態 |
+|---|---|---|
+| T-D01 | 重新生成五臧山經草稿，明確原文、候選與未決項 | ⬜ |
+| T-D02 | 補充 associative 與 deductive 屬性並更新圖譜 | ⬜ |
+| T-D03 | 重新生成卷六至十八草稿，遵守第一版地理復用 | ⬜ |
+| T-D04 | 更新後續卷實體、屬性、復用與人文錨定關係 | ⬜ |
+| T-D05 | LLM 解決語義衝突、合併／拆分並回寫受影響條目 | ⬜ |
+| T-D06 | 對受影響範圍迭代，形成 `deliverables/draft-v1/` | ⬜ |
+
+## 5. 審查與地圖 / Review and maps
+
+| ID | 任務 / Task | 狀態 |
+|---|---|---|
+| T-R01 | 今名依賴、先入知識、遮蔽洩漏與誘餌審查 | ⬜ |
+| T-R02 | 比例尺區間、篇段連接、水文與拓撲反例審查 | ⬜ |
+| T-R03 | 時代世界資料偏斜、年代與候選對稱審查 | ⬜ |
+| T-R04 | 完整性、敏感度、可信度與交付措辭審查 | ⬜ |
+| T-M01 | 由有效圖譜與時代資料重建示意地圖 | ⬜ |

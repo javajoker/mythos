@@ -1,50 +1,52 @@
 # Mythos — project instructions
 
-Mythos tests ancient texts, myths and legends as possible records of real observations, using reproducible methods. The primary sub-project is the Shanhaijing 《山海經》.
+Mythos tests ancient texts as possible records of real observations using reproducible, auditable methods. The primary sub-project is the Shanhaijing 《山海經》.
 
-## Method: era-semantic correspondence (framework v3.1, global bidirectional scope)
-Settings by the initiator (2026-10-20):
-- **Origin & Perspective**: Central Plains (Henan, 34.7°N, 113.6°E) as the global center ("中").
-- **Global Horizon (4000–1000 BCE)**: Radiating west across Eurasia to North Africa (Egypt, Nile, Red Sea, Sahara, Sumer); east across the Pacific Rim, Beringia, and into the Americas (proto-Olmec, Caral/Norte Chico); north to the Arctic Circle (Polar Night, Aurora / Candle Dragon); south to the Indo-Pacific tropics.
-- **Toponym Independence**: Ancient names never presuppose modern toponyms (e.g. ancient 華山 is not assumed to be modern Shaanxi Mount Hua; names are phonetic/descriptive symbols, not modern geographic anchors).
-- **Distance-Based Disambiguation (R15)**: Distance is the primary arbiter of homonyms:
-  1. **Far-Distance Homonym Split**: Same-name entities located in geographically distant macro-regions are treated as distinct physical entities (e.g., Nile Black Water vs Siberian Black Water vs Sichuan Black Water; Cairo Kunlun vs Silk Road Inland Kunlun).
-  2. **Proximate Trans-Book Merge**: Same-name entities in proximate geographic regions across different books are treated as the same entity (e.g., West Mountain Kunlun and Great Wilderness West Kunlun = Cairo Giza; Jianmu in Sea South and Inland = Sanxingdui).
-  3. **Dispute Flagging & Forward Pipeline**: Unresolved disputes are documented with explicit notes and logical reasoning hypotheses, allowing the full-book draft to proceed without stalling, to be revisited and audited upon draft completion.
-- **Scale Calibration**: High-confidence physical distances calibrate the ancient "里" (initial baseline: Zhou/Qin/Han li ~0.35–0.42 km/li at ~30°–35°N latitude). The Western Mountains total (18,924 里 ≈ 7,570 km) remarkably matches Henan to Cairo (7,534 km), and Eastern Mountains (18,869 里 ≈ 7,547 km) matches the North American longitudinal cordillera (~7,500 km).
-- **Phenomenological & Sensory Decoding**: Extreme physical and astronomical phenomena are decoded via sensory reality (e.g. Aurora/Polar Night = 燭龍; Parhelion/Atmospheric Refraction/Solar Posts = 扶桑十日 / Maya E-Groups; Ocean Trenches = 歸墟大壑; Stepped Pyramids/Ziggurats = 崑崙九重之臺).
-- **Bidirectional Reconstruction**: Use preserved accounts of now-extinct fauna, vanished river systems (Green Sahara wadis), and altered coastlines to reverse-reconstruct the earth's environment in 4000–1000 BCE.
+## Framework v4 and initiator decisions (2026-10-21)
 
-## Layered Architecture & Spatial Calibration (圖層架構與五臧山經坐標校準)
-- **《五臧山經》（Books 1–5）作為客觀地理底圖與坐標網**：建立了全書具有精確相對位置、走向方位、里數與水系閉環的基礎空間骨架。
-- **後續各卷（Books 6–18）作為人文、邦國、特產的標註補充圖層**：描述邦國部落、神人帝陵、奇異風物、天文日落日出神話。其本質是疊加、標註、補充在《五臧山經》地圖之上的人文地貌。
-- **以山經坐標校準後續實體**：後續章節的所有實體定位與空間推演，必須嚴格以《五臧山經》確立的地理坐標網作為唯一校準基準（如海外西經/大荒西經校準於西山經坐標軸，海外東經/大荒東經校準於東山經坐標軸）。
+- **Period**: 4000–1000 BCE.
+- **Competing hypotheses**: no real-world correspondence is a preset answer. Use masked candidates, rivals and evidence.
+- **Scale**: evaluate 0.35–0.42 km/li as a range with sensitivity analysis, never a fixed 0.400 conversion.
+- **Sections**: model each section independently. Cross-section links need textual or accepted relational evidence; summed li is not automatically geographic span.
+- **Observer origin**: infer it from mutually confirmable landmarks, then register consensus in `anchors.jsonl`; do not hardcode a conflated city origin.
+- **v1 geography constraint**: Books 1–5 are the only source of new `MTN/WAT/LND` nodes. Books 6–18 must reuse those nodes. Unresolved mentions become `pending_anchor` and go to LLM adjudication; code must not create a replacement node or select a mapping.
 
-## Two-Phase Pipeline & Execution Rules
-1. **Phase 1: Draft Volumes First (純 LLM 卷冊草稿優先)**:
-   - Complete un-lazy, non-grouped draft volumes for all 18 books (869 entries total) before building the global knowledge graph.
-   - **DO NOT use Python code to generate prose/reasoning**: All interpretations, entity unpacks, and 4D cross-validations must be produced via pure LLM deductive reasoning. Python is permitted ONLY for inventory verification (`len(found) == len(expected)`).
-   - **Zero Grouping & Zero Omissions**: Every single entry `SHJ-XX-X-XXX` has its own standalone section header, complete verbatim text, full entity unpack (MTN, WAT, LND, POL, PER, CRE, PLA, MIN, OBJ, AST, CLIM), era mapping table, and 4D cross-validation.
-   - **請絕對不要偷懶！！！** (Strictly forbidden: merging intervals, omitting entities, using placeholder phrases like "餘同前").
-2. **Phase 2: Knowledge Graph & Property Induction (圖譜抽提與多維屬性生成)**:
-   - Extract structured entities and relations from the finalized draft volumes.
-   - Induce new associative properties (totemic symbolism, ritual meaning) and deductive properties (ecological adaptations, material utilities).
-   - Perform cross-book entity integration and disambiguation via Rule R15.
-3. **Conflict Resolution via LLM (知識衝突由 LLM 實質裁決)**:
-   - Knowledge migration and cross-validation conflicts must be resolved by LLM deductive reasoning, NOT by algorithmic/programmatic heuristics.
-   - LLM decides whether to accept errors/variants, split homonyms, or reconcile perspectives.
-   - If an error in prior draft volumes is identified, LLM triggers targeted updates to specified volume entries (`vol-XX.md`).
-   - All conflicts, rationales, and adjustments are transparently recorded in `findings/conflict-resolutions.md`.
+## Required iterative pipeline
+
+1. Establish the working text with stable entry IDs and reading status.
+2. Extract entities, mentions, name semantics and textual relations.
+3. Produce geographic semantic-fit attributes from masked competing candidates.
+4. Assemble and validate the initial knowledge graph.
+5. Complete the Five Mountain Classics draft without forcing a mapping where evidence is insufficient.
+6. Supplement associative and deductive attributes in the graph.
+7. Complete Books 6–18, then update the graph with later entities, reuse and anchoring relations.
+8. Resolve semantic conflicts and merge/split through LLM decisions; update only the affected graph records and draft entries.
+9. Iterate steps 1–8 as needed, then run completeness, sensitivity and independent red-team review before delivery and maps.
+
+The authoritative details are `docs/research-framework.md` and `projects/shanhaijing/docs/methodology-spec.md`. Do not create a competing pipeline in another document.
 
 ## Research rules
-- **Text first**: Every entity and relation carries entry IDs (e.g. `SHJ-02-3-006`) from `reference/<corpus>/data/entries.jsonl`; quotations are verbatim; commentary never enters analysis.
-- **No inherited conclusions**: Prior scholarship is never evidence, input or a candidate source; evaluations are made on masked attribute input and checked for leakage.
-- Reading rules R1–R15 (framework §3.1) apply to every candidate alike.
-- Commit each finished task.
+
+- **Text first**: quotations are verbatim and carry entry IDs. Commentary and modern editorial claims never enter source-text evidence.
+- **Layered assertions**: separate `textual`, `semantic_fit`, `associative` and `deductive` attributes; use `stated/proposed/accepted/contested/rejected` honestly.
+- **Extensible ontology**: use `TYPE:SHJ-BB-S-EEE#n` node IDs and register predicates by entity type in `projects/shanhaijing/data/kg-ontology.json`.
+- **Code versus LLM**: code performs snapshots, validation, calculations, coverage and conflict detection. LLM performs semantic extraction, candidate scoring, variant adjudication, merge/split and draft revision. Code never resolves semantic conflicts by heuristics.
+- **No generated prose by scripts**: interpretation and reasoning are produced by LLM, not Python templates. Python may generate deterministic data products and verify counts.
+- **Coverage is not correctness**: every entry and mention must be accounted for, but unresolved items remain explicit.
+- **Reproducibility**: standard-library Python 3.9+, run from the repository root with `python3 -I`; preserve source manifests and judgment hashes.
+- Commit each finished task when the user asks for a commit.
+
+## Current state
+
+Old interpretive drafts, maps, renderers and legacy graph outputs have been removed. The text pipeline has been rerun and its missing derived outputs restored. The new KG, drafts, semantic judgments and maps have not been generated. The era base remains seed data and no v4 red-team review has occurred.
 
 ## Layout
-- `MEMORY.md`: Project master memory, milestones, progress inventory, and operational guidelines.
-- `docs/`: overall docs (whitepaper and PRD as `zh-Hant`/`en` files; the other docs bilingual inline)
-- `reference/<corpus>/`: sources, `data/entries.jsonl`, `text/*.md` (no interpretation)
-- `projects/<corpus>/`: spec, era world, data model, tasks, checklist, red-team log, `data/era/` (era world base), `data/derived/` (text layer, `kg/`, later `era/`), `deliverables/draft-vN/`, `findings/F-*`
-- `tools/<corpus>/`: standard-library Python; run from the repo root with `python3 -I`
+
+- `MEMORY.md`: current verified status and next actions, not a repository of conclusions.
+- `docs/`: common framework, conventions, architecture and decision record.
+- `reference/<corpus>/`: source snapshots, manifest, entries and clean reading text.
+- `projects/<corpus>/docs/`: corpus specification, data model, tasks and review logs.
+- `projects/<corpus>/data/`: era base, ontology and derived text/era/KG records.
+- `projects/<corpus>/deliverables/`: future draft versions.
+- `projects/<corpus>/findings/`: findings and LLM conflict-resolution log.
+- `tools/<corpus>/`: standard-library text and validation tools.
