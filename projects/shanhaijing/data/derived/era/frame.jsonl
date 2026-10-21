@@ -21,9 +21,9 @@
 {"section": "南次二經", "seq": 12, "station": "咸陰之山", "entry": "SHJ-01-2-012", "x_li": 4778, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
 {"section": "南次二經", "seq": 13, "station": "洵山", "entry": "SHJ-01-2-013", "x_li": 5178, "y_li": -318, "bearing": "東", "leg_li": 400, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
 {"section": "南次二經", "seq": 14, "station": "虖勺之山", "entry": "SHJ-01-2-014", "x_li": 5578, "y_li": -318, "bearing": "東", "leg_li": 400, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
-{"section": "南次二經", "seq": 15, "station": "鹿吳之山", "entry": "SHJ-01-2-016", "x_li": 6078, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
-{"section": "南次二經", "seq": 16, "station": "漆吳之山", "entry": "SHJ-01-2-017", "x_li": 6578, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
-{"section": "南次二經", "seq": 17, "station": "區吳之山", "entry": "SHJ-01-2-015", "x_li": 7078, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
+{"section": "南次二經", "seq": 15, "station": "區吳之山", "entry": "SHJ-01-2-015", "x_li": 6078, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
+{"section": "南次二經", "seq": 16, "station": "鹿吳之山", "entry": "SHJ-01-2-016", "x_li": 6578, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
+{"section": "南次二經", "seq": 17, "station": "漆吳之山", "entry": "SHJ-01-2-017", "x_li": 7078, "y_li": -318, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
 {"section": "南次三經", "seq": 1, "station": "天虞之山", "entry": "SHJ-01-3-001", "x_li": 0, "y_li": 0, "bearing": null, "leg_li": 0, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
 {"section": "南次三經", "seq": 2, "station": "禱過之山", "entry": "SHJ-01-3-002", "x_li": 500, "y_li": 0, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}
 {"section": "南次三經", "seq": 3, "station": "丹穴之山", "entry": "SHJ-01-3-003", "x_li": 1000, "y_li": 0, "bearing": "東", "leg_li": 500, "reading_source": "wikisource-base", "reading_status": "unreviewed"}

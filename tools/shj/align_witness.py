@@ -25,6 +25,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from collate import ENTRIES, OUT, norm, witness_sbck, witness_skqs  # noqa: E402
 
+ORDER_OVERRIDES = OUT.parents[3] / "projects/shanhaijing/ledgers/working-order-overrides.jsonl"
+
 K = 5                # n-gram length for voting
 MAX_HITS = 6         # ignore n-grams that occur more often than this (formulaic phrases)
 BUCKET = 24          # vote bucket width in characters
@@ -230,10 +232,21 @@ def main():
                                ensure_ascii=False) + "\n")
 
     # working text: Chenghua order; base-only entries keep their slot after the base predecessor
+    order_overrides = {}
+    if ORDER_OVERRIDES.exists():
+        for line in ORDER_OVERRIDES.open(encoding="utf-8"):
+            if line.strip():
+                override = json.loads(line)
+                order_overrides[override["entry_id"]] = override
     order, last_key = [], (0, -1)
     for n, e in enumerate(entries):
         a = al_sb[e["id"]]
-        if a["status"] != "absent":
+        override = order_overrides.get(e["id"])
+        if override:
+            if n == 0 or entries[n - 1]["id"] != override["after_entry"]:
+                raise ValueError(f"working-order override for {e['id']} must follow {override['after_entry']}")
+            order.append(((last_key[0], last_key[1], 1, n), e, a))
+        elif a["status"] != "absent":
             last_key = (a["book"], a["start"])
             order.append(((a["book"], a["start"], 0, n), e, a))
         else:
@@ -255,6 +268,7 @@ def main():
                        "chenghua_book": key[0], "base_book": e["book_no"],
                        "sbck_span": [a["start"], a["end"]] if a["status"] != "absent" else None,
                        "order_changed": e["id"] in dis_sb, "text": e["text"],
+                       "order_override": order_overrides.get(e["id"], {}).get("after_entry"),
                        "reading_source": "wikisource-base", "reading_status": "unreviewed"}
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
