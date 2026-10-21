@@ -34,7 +34,7 @@ Mythos provides an iterative era-semantic method, a reproducible research databa
 - Only Books 1–5 may introduce geographic nodes. Books 6–18 reuse them or remain `pending_anchor`.
 - Scale is fitted over **0.35–0.42 km/li** with sensitivity analysis.
 - Sections start independently. Cross-section links need evidence; summed distance is not automatically span.
-- Observer origin is inferred from mutually confirmed landmarks and registered by stable ID.
+- Provisional candidates may initialize the search without evidential priority. After iterative calibration, the observer origin is inferred from mutually confirmed landmarks and registered by stable ID.
 
 ## 3. Non-functional requirements
 

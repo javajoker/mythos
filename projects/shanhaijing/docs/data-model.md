@@ -81,8 +81,10 @@
 | `candidates.jsonl` | 實體、候選、年代、當時狀態、物理屬性、一般性來源與對立候選組 |
 | `judgments.jsonl` | 遮蔽輸入雜湊、模型、提示版本、樣本、逐維分數、證據與理由 |
 | `relation-judgments.jsonl` | 兩個候選之間的關係是否成立、證據、樣本與理由 |
-| `anchors.jsonl` | 地標候選、支持條目、共同關係、共識狀態與反推的觀察原點 |
+| `anchors.jsonl` | 錨點實體與候選、角色、坐標、推進方向、支持條目、校準狀態、迭代記錄與共識狀態 |
 | `mapping.jsonl` | 目前有效的對應、狀態、可信度、對立候選、支持與違反關係 |
+
+初始化錨點使用 `role: initialization`、`status: provisional`，只作演算法起點，不增加證據權重。每筆另記 `direction`（如 `backward`）、`seed_sections`、對立候選和 `calibration_history`；後續可改為 `calibrated`、`replaced` 或 `rejected`。多個初始化錨點可聯合求解，只有經共同關係驗證者才進入共識。
 
 每個實體至少三個候選、至少兩個大區；沒有對立候選的結果只能保留為未決，不得標為接受。
 

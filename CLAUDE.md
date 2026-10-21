@@ -8,7 +8,7 @@ Mythos tests ancient texts as possible records of real observations using reprod
 - **Competing hypotheses**: no real-world correspondence is a preset answer. Use masked candidates, rivals and evidence.
 - **Scale**: evaluate 0.35–0.42 km/li as a range with sensitivity analysis, never a fixed 0.400 conversion.
 - **Sections**: model each section independently. Cross-section links need textual or accepted relational evidence; summed li is not automatically geographic span.
-- **Observer origin**: infer it from mutually confirmable landmarks, then register consensus in `anchors.jsonl`; do not hardcode a conflated city origin.
+- **Observer origin and anchors**: provisional candidates may seed the search as `initialization` anchors, with no evidential priority. Calibrate or replace them iteratively; only mutually confirmed landmarks become the consensus observer origin. Do not hardcode a conflated city datum.
 - **v1 geography constraint**: Books 1–5 are the only source of new `MTN/WAT/LND` nodes. Books 6–18 must reuse those nodes. Unresolved mentions become `pending_anchor` and go to LLM adjudication; code must not create a replacement node or select a mapping.
 
 ## Foundational judgment logic for every corpus and agent
