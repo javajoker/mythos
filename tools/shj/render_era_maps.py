@@ -4,15 +4,16 @@
 render_era_maps.py
 ==================
 《山海經》前 4000–前 1000 年時代世界與五臧山經大地測量錨點高精度向量地圖生成工具。
-生成文件：
-1. world-map-era.svg: 全球視野下之五臧山經地理大軸、全球時代文明圈與 30°–35°N 黃金緯度帶。
-2. anchor-map.svg: 雙重視野下之歐亞非跨大陸大地測量校準圖與東亞核心水網山脈高密度基準錨點圖。
 
-基於：
-- projects/shanhaijing/data/era/coastlines-present.json (全球陸地、島嶼與內陸水體)
-- projects/shanhaijing/data/era/courses.jsonl (時代古水系：黃河河北古道、長江鎮江古口、黑水尼羅河、底格里斯等)
-- projects/shanhaijing/docs/draft/vol-01 至 vol-05 逐句逐實體解碼坐標成果
-- projects/shanhaijing/docs/era-world.md 與 global-civilizations-and-entity-atlas.md
+核心方位佈局法則：
+1. world-map-era.svg: 太平洋居中、美洲大陸位於亞歐大陸東部（Pacific-Centered / Americas on East）。
+   - 嚴格保證與書中方位描述之 100% 空間幾何一致性：
+     * 「西」即向左：西山經橫貫歐亞非大陸向西長征（中原 ➔ 兩河 ➔ 埃及吉薩崑崙丘 ➔ 大西洋崦嵫山日落門戶）。
+     * 「東」即向右：東山經與大荒東經面東跨越大洋（中原 ➔ 東海 ➔ 白令陸橋 ➔ 北美四大平行山脈 ➔ 中美洲瑪雅日出太陽曆圈）。
+     * 「北」即向上：北山經北貫太行、蒙古高原至貝加爾湖（北海）與北極圈章尾山燭龍（極光極夜圈）。
+     * 「南」即向下：南山經延伸至南嶺、中南半島與巽他火山島弧（巴蛇食象、吐火獸）。
+     * 「中」即居中：洛陽嵩山伊洛盆地為天地之中絕對原點。
+2. anchor-map.svg: 雙重視野下之歐亞非跨大陸大地測量校準圖與東亞核心水網山脈高密度基準錨點圖。
 
 輸出路徑：
 - projects/shanhaijing/data/derived/era/
@@ -55,6 +56,7 @@ COLORS = {
 }
 
 # 14 大時代文明與神話實體節點 (4000–1000 BCE)
+# 在太平洋居中視角下，美洲實體經度透過 norm_lon 映射至亞歐大陸東部
 CIVILIZATIONS = [
     {
         "id": "CIV-01", "name": "中原夏商文明", "sub": "二里頭/商都/殷墟 (34.7°N, 113.6°E)",
@@ -89,11 +91,11 @@ CIVILIZATIONS = [
         "pt": (35.3, 25.1), "desc": "孰湖神馬（翼馬天馬/半人馬）、迷宮王宮與海中巨島", "classic": "西山經"
     },
     {
-        "id": "CIV-09", "name": "中美洲奧爾梅克與瑪雅", "sub": "尤卡坦半島 (17.5°N, -92.5°E)",
+        "id": "CIV-09", "name": "中美洲奧爾梅克與瑪雅", "sub": "尤卡坦半島 (17.5°N, 92.5°W / 東向越洋)",
         "pt": (17.5, -92.5), "desc": "六座日月所出之山（E組地平太陽觀象臺）、吉貝世界天樹（扶木）、神聖天然井（甘淵）", "classic": "東山經/大荒東經"
     },
     {
-        "id": "CIV-10", "name": "南美安第斯卡拉爾文明", "sub": "秘魯小北地區 ( -10.9, -77.5)",
+        "id": "CIV-10", "name": "南美安第斯卡拉爾文明", "sub": "秘魯小北地區 (10.9°S, 77.5°W / 東海大壑)",
         "pt": (-10.9, -77.5), "desc": "美洲最古老金字塔階梯台基、東海之外大壑、大人之堂", "classic": "海外東經/大荒東經"
     },
     {
@@ -101,7 +103,7 @@ CIVILIZATIONS = [
         "pt": (68.0, 110.0), "desc": "章尾山燭龍（赤色北極光、極晝極夜「瞑為晦，視為明」）、群鳥所解大澤", "classic": "北山經/大荒北經"
     },
     {
-        "id": "CIV-12", "name": "弗蘭格爾島殘留猛獁", "sub": "北冰洋猛獁骨骸遺址 (71.2°N, -179.4°E)",
+        "id": "CIV-12", "name": "弗蘭格爾島殘留猛獁", "sub": "北冰洋猛獁骨骸遺址 (71.2°N, 179.4°W)",
         "pt": (71.2, -179.4), "desc": "人類記憶晚期猛獁象孑遺滅絕、冰原巨獸傳說", "classic": "北荒/海內北經"
     },
     {
@@ -115,6 +117,7 @@ CIVILIZATIONS = [
 ]
 
 # 五臧山經宏觀走廊路線點列 (五大方位空間主軸)
+# 西山經向西（向左），東山經跨洋向東（向右）抵北美縱貫山脈
 CORRIDORS = {
     "west": {
         "name": "西山經四篇（歐亞非橫向大軸 · 18,924 里 ≈ 7,570 km）",
@@ -144,15 +147,15 @@ CORRIDORS = {
             (36.8, 120.5),  # 膠東半島耿山（母港出發點）
             (45.0, 142.0),  # 庫頁島/日本弧
             (55.0, 160.0),  # 堪察加半島
-            (65.6, -168.0), # 白令陸橋海峽
-            (58.5, -136.5), # 阿拉斯加海岸山脈樕𧑤之山
-            (54.0, -130.5), # 卑詩海岸竹山
-            (48.0, -121.5), # 喀斯喀特山脈空桑山
-            (42.0, -122.5), # 俄勒岡喀斯喀特南段
-            (38.0, -119.5), # 內華達山脈姑兒山
-            (34.5, -115.5), # 莫哈韋沙漠孟子之山
-            (28.0, -107.0), # 墨西哥西馬德雷山脈北號山
-            (18.0, -94.0)   # 墨西哥中南部尤卡坦灣無皋山（望幼海與榑木）
+            (65.6, -168.0), # 白令陸橋海峽 (東向越洋登陸 192.0°E)
+            (58.5, -136.5), # 阿拉斯加海岸山脈樕𧑤之山 (223.5°E)
+            (54.0, -130.5), # 卑詩海岸竹山 (229.5°E)
+            (48.0, -121.5), # 喀斯喀特山脈空桑山 (238.5°E)
+            (42.0, -122.5), # 俄勒岡喀斯喀特南段 (237.5°E)
+            (38.0, -119.5), # 內華達山脈姑兒山 (240.5°E)
+            (34.5, -115.5), # 莫哈韋沙漠孟子之山 (244.5°E)
+            (28.0, -107.0), # 墨西哥西馬德雷山脈北號山 (253.0°E)
+            (18.0, -94.0)   # 墨西哥中南部尤卡坦灣無皋山 (266.0°E，望幼海與榑木)
         ]
     },
     "north": {
@@ -209,7 +212,7 @@ CORRIDORS = {
     }
 }
 
-# 高精度基準錨點（包含經緯度、現代地理、時代文明特性與所屬經卷）
+# 高精度基準錨點（供 anchor-map.svg 使用）
 ANCHORS_DATA = [
     # 中山經
     {"name": "太室之山", "book": "中山經", "section": "中次五經", "lat": 34.48, "lon": 113.06, "desc": "嵩山東峰，古之太室，商周天地之中祭天聖山"},
@@ -300,12 +303,27 @@ class EquirectangularProjector:
         return d
 
 
+def norm_lon_pacific(lon, split_lon=-25.0):
+    """
+    太平洋居中座標歸一化：
+    若經度小於 split_lon（例如 -92.5°W），則平移 +360°（映射為 267.5°E），
+    確保美洲大陸完整座落於亞歐大陸東部。
+    """
+    if lon < split_lon:
+        return lon + 360.0
+    return lon
+
+
 def render_world_map_svg():
-    """生成第一張地圖：world-map-era.svg 全球視野時代地圖"""
+    """
+    生成第一張地圖：world-map-era.svg
+    佈局策略：太平洋居中／美洲位於亞歐大陸東部（Pacific-Centered / Americas on East）
+    經度跨度：-25°W 至 345°E（共 370° 全景，兩端均落入大西洋開闊海域）
+    """
     coast, courses = load_era_data()
     W, H = 2400, 1400
     x0, y0, w, h = 80, 110, 2240, 1060
-    lat0, lat1, lon0, lon1 = 82, -56, -180, 180
+    lat0, lat1, lon0, lon1 = 82, -56, -25, 345
 
     proj = EquirectangularProjector(lat0, lat1, lon0, lon1, x0, y0, w, h)
 
@@ -317,10 +335,6 @@ def render_world_map_svg():
       <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" stop-color="#D7E7F2"/>
         <stop offset="100%" stop-color="#EAF2F8"/>
-      </linearGradient>
-      <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#F39C12" stop-opacity="0.9"/>
-        <stop offset="100%" stop-color="#F1C40F" stop-opacity="0.3"/>
       </linearGradient>
       <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
         <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#2C3E50" flood-opacity="0.18"/>
@@ -342,36 +356,77 @@ def render_world_map_svg():
     S.append(f'<rect width="{W}" height="{H}" fill="#FAF8F2"/>')
     S.append(f'<rect x="{x0}" y="{y0}" width="{w}" height="{h}" fill="url(#oceanGrad)" stroke="#B4C6D4" stroke-width="1.5" rx="4"/>')
 
-    # 經緯網格 (Graticule: 每 30 度)
+    # 經緯網格 (Graticule)
+    # 緯線 (每 10 度，標籤每 20 度)
     S.append('<g stroke="#CAD7E0" stroke-width="0.7" stroke-dasharray="3,3">')
     for lat in range(-50, 81, 10):
         y_lat = proj.pt(lat, 0)[1]
         S.append(f'<line x1="{x0}" y1="{y_lat:.1f}" x2="{x0 + w}" y2="{y_lat:.1f}"/>')
         if lat % 20 == 0:
             S.append(f'<text x="{x0 + 6}" y="{y_lat - 3:.1f}" font-size="10" fill="#7F8C8D" font-weight="500">{lat}°N</text>' if lat >= 0 else f'<text x="{x0 + 6}" y="{y_lat - 3:.1f}" font-size="10" fill="#7F8C8D">{abs(lat)}°S</text>')
-    for lon in range(-150, 180, 30):
-        x_lon = proj.pt(0, lon)[0]
+
+    # 經線 (Pacific-Centered 標註，自 -15°W 跨越至 330°E / 30°W)
+    meridians = [
+        (-15, "15°W"), (0, "0° 本初子午線"), (30, "30°E"), (60, "60°E"), (90, "90°E"),
+        (120, "120°E 中原樞紐"), (150, "150°E"), (180, "180° 日界線"),
+        (210, "150°W"), (240, "120°W 北美西岸"), (270, "90°W 中美瑪雅"), (300, "60°W 南美"), (330, "30°W 大西洋")
+    ]
+    for lon_val, label in meridians:
+        x_lon = proj.pt(0, lon_val)[0]
         S.append(f'<line x1="{x_lon:.1f}" y1="{y0}" x2="{x_lon:.1f}" y2="{y0 + h}"/>')
-        S.append(f'<text x="{x_lon + 3:.1f}" y="{y0 + h - 6}" font-size="10" fill="#7F8C8D" font-weight="500">{lon}°E</text>' if lon >= 0 else f'<text x="{x_lon + 3:.1f}" y="{y0 + h - 6}" font-size="10" fill="#7F8C8D">{abs(lon)}°W</text>')
+        S.append(f'<text x="{x_lon + 3:.1f}" y="{y0 + h - 6}" font-size="9.5" fill="#7F8C8D" font-weight="500">{label}</text>')
     S.append('</g>')
 
-    # 30°–35°N 黃金緯度帶標註（歐亞非文明大軸與山海經西山經走廊）
+    # 30°–35°N 黃金緯度帶標註（貫穿全球橫向大軸）
     y35 = proj.pt(35.0, 0)[1]
     y30 = proj.pt(30.0, 0)[1]
     belt_h = y30 - y35
-    S.append(f'<rect x="{x0}" y="{y35:.1f}" width="{w}" height="{belt_h:.1f}" fill="{COLORS["belt"]}" fill-opacity="0.14" stroke="{COLORS["belt"]}" stroke-width="1" stroke-dasharray="6,4"/>')
-    S.append(f'<text x="{x0 + 40}" y="{y35 + belt_h/2 + 4:.1f}" font-size="11" font-weight="bold" fill="{COLORS["belt"]}" letter-spacing="1">【北緯 30°–35° 全球文明黃金緯度帶】中原商都 ↔ 兩河流域 ↔ 埃及吉薩 ↔ 崦嵫日入大西洋門戶（西山經橫貫歐亞非大軸）</text>')
+    S.append(f'<rect x="{x0}" y="{y35:.1f}" width="{w}" height="{belt_h:.1f}" fill="{COLORS["belt"]}" fill-opacity="0.13" stroke="{COLORS["belt"]}" stroke-width="1" stroke-dasharray="6,4"/>')
+    S.append(f'<text x="{x0 + 40}" y="{y35 + belt_h/2 + 4:.1f}" font-size="11" font-weight="bold" fill="{COLORS["belt"]}" letter-spacing="1">【北緯 30°–35° 全球文明黃金緯度帶】西向：中原 ➔ 兩河流域 ➔ 埃及吉薩崑崙丘 ➔ 崦嵫日入大西洋門戶；東向：跨越東海 ➔ 北美四大平行山系 ➔ 中美洲瑪雅日出太陽曆圈</text>')
 
     # 陸地剪裁區
     S.append(f'<clipPath id="mapBounds"><rect x="{x0}" y="{y0}" width="{w}" height="{h}" rx="4"/></clipPath>')
     S.append('<g clip-path="url(#mapBounds)">')
 
-    # 陸地多邊形
+    # 大洋水體背景文字（增強方位感）
+    p_pacific = proj.pt(22.0, 175.0)
+    S.append(f'<text x="{p_pacific[0]:.1f}" y="{p_pacific[1]:.1f}" font-size="22" font-weight="bold" fill="#B0C8D9" letter-spacing="6" text-anchor="middle">太 平 洋 ／ 東 海 (Pacific Ocean / Eastern Sea)</text>')
+    p_indian = proj.pt(-15.0, 75.0)
+    S.append(f'<text x="{p_indian[0]:.1f}" y="{p_indian[1]:.1f}" font-size="16" font-weight="bold" fill="#B0C8D9" letter-spacing="4" text-anchor="middle">印 度 洋 (Indian Ocean)</text>')
+    p_atlantic_l = proj.pt(25.0, -18.0)
+    S.append(f'<text x="{p_atlantic_l[0]:.1f}" y="{p_atlantic_l[1]:.1f}" font-size="12" font-weight="bold" fill="#B0C8D9" text-anchor="middle">大西洋西緣</text>')
+    p_atlantic_r = proj.pt(25.0, 335.0)
+    S.append(f'<text x="{p_atlantic_r[0]:.1f}" y="{p_atlantic_r[1]:.1f}" font-size="12" font-weight="bold" fill="#B0C8D9" text-anchor="middle">大西洋東緣</text>')
+
+    # 陸地多邊形渲染（將美洲大陸完全平移至亞歐大陸東部）
+    americas_keys = {'north_america', 'arctic_archipelago', 'baffin', 'greenland', 'cuba', 'hispaniola', 'south_america'}
+
+    def get_land_poly(k, pts):
+        if k == 'greenland':
+            # 格陵蘭全部隨北美板塊平移至東側
+            return [(p[0], p[1] + 360.0 if p[1] < 0 else p[1]) for p in pts]
+        elif k == 'antarctica':
+            # 南極洲橫跨全圖底部平滑閉合
+            poly = []
+            for lat, lon in pts:
+                if lat <= -89:
+                    continue
+                if lon < -25:
+                    lon += 360.0
+                poly.append((lat, lon))
+            poly.sort(key=lambda p: p[1])
+            return [(poly[0][0], -25.0)] + poly + [(poly[-1][0], 345.0), (-90.0, 345.0), (-90.0, -25.0)]
+        elif k in americas_keys:
+            return [(p[0], p[1] + 360.0 if p[1] < 0 else p[1]) for p in pts]
+        else:
+            return [(p[0], p[1] + 360.0 if p[1] < -25.0 else p[1]) for p in pts]
+
     S.append(f'<g fill="{COLORS["land"]}" stroke="{COLORS["land_border"]}" stroke-width="0.8">')
     for land_id, pts in coast["land"].items():
         if not pts:
             continue
-        S.append(f'<path d="{proj.poly(pts)}"><title>{land_id}</title></path>')
+        poly_pts = get_land_poly(land_id, pts)
+        S.append(f'<path d="{proj.poly(poly_pts)}"><title>{land_id}</title></path>')
     S.append('</g>')
 
     # 內陸水體
@@ -379,8 +434,25 @@ def render_world_map_svg():
     for lake_id, pts in coast["water"].items():
         if not pts:
             continue
-        S.append(f'<path d="{proj.poly(pts)}"><title>{lake_id}</title></path>')
+        # 北美五大湖平移
+        if lake_id == 'great_lakes':
+            l_pts = [(p[0], p[1] + 360.0) for p in pts]
+        else:
+            l_pts = [(p[0], norm_lon_pacific(p[1])) for p in pts]
+        S.append(f'<path d="{proj.poly(l_pts)}"><title>{lake_id}</title></path>')
     S.append('</g>')
+
+    # 大陸板塊主標籤
+    p_eurasia = proj.pt(48.0, 75.0)
+    S.append(f'<text x="{p_eurasia[0]:.1f}" y="{p_eurasia[1]:.1f}" font-size="20" font-weight="bold" fill="#B3A894" letter-spacing="4" text-anchor="middle">亞 歐 大 陸 (Eurasia)</text>')
+    p_africa = proj.pt(12.0, 20.0)
+    S.append(f'<text x="{p_africa[0]:.1f}" y="{p_africa[1]:.1f}" font-size="18" font-weight="bold" fill="#B3A894" letter-spacing="3" text-anchor="middle">非 洲 大 陸 (Africa)</text>')
+    p_na = proj.pt(45.0, 260.0)
+    S.append(f'<text x="{p_na[0]:.1f}" y="{p_na[1]:.1f}" font-size="20" font-weight="bold" fill="#B3A894" letter-spacing="4" text-anchor="middle">北 美 洲 (North America)</text>')
+    p_sa = proj.pt(-15.0, 305.0)
+    S.append(f'<text x="{p_sa[0]:.1f}" y="{p_sa[1]:.1f}" font-size="18" font-weight="bold" fill="#B3A894" letter-spacing="3" text-anchor="middle">南 美 洲 (South America)</text>')
+    p_aus = proj.pt(-25.0, 134.0)
+    S.append(f'<text x="{p_aus[0]:.1f}" y="{p_aus[1]:.1f}" font-size="15" font-weight="bold" fill="#B3A894" letter-spacing="2" text-anchor="middle">澳 洲 (Australia)</text>')
 
     # 時代古水系河流 (Paleo Rivers)
     S.append(f'<g fill="none" stroke="{COLORS["river"]}" stroke-linecap="round" stroke-linejoin="round">')
@@ -388,26 +460,21 @@ def render_world_map_svg():
         pts = c.get("pts", [])
         if len(pts) < 2:
             continue
+        c_pts = [(p[0], norm_lon_pacific(p[1])) for p in pts]
         sw = 2.2 if c["id"] in ["yellow_era", "yangtze", "nile", "euphrates", "tigris", "indus"] else 1.2
         dash = ' stroke-dasharray="4,2"' if c.get("colour") == "red" else ''
         sc = "#C0392B" if c.get("colour") == "red" else COLORS["river"]
-        S.append(f'<path d="{proj.poly(pts, close=False)}" stroke="{sc}" stroke-width="{sw}"{dash} opacity="0.85"><title>{c.get("name")}</title></path>')
+        S.append(f'<path d="{proj.poly(c_pts, close=False)}" stroke="{sc}" stroke-width="{sw}"{dash} opacity="0.85"><title>{c.get("name")}</title></path>')
     S.append('</g>')
 
-    # 白令陸橋跨洋連接線 (Bering Passage Connection)
-    p_chukotka = proj.pt(65.6, 170.0)
-    p_edge_r = proj.pt(65.6, 180.0)
-    p_edge_l = proj.pt(65.0, -180.0)
-    p_alaska = proj.pt(65.0, -165.0)
-    S.append(f'<path d="M {p_chukotka[0]:.1f},{p_chukotka[1]:.1f} L {p_edge_r[0]:.1f},{p_edge_r[1]:.1f}" stroke="{COLORS["east"]}" stroke-width="2.2" stroke-dasharray="5,4"/>')
-    S.append(f'<path d="M {p_edge_l[0]:.1f},{p_edge_l[1]:.1f} L {p_alaska[0]:.1f},{p_alaska[1]:.1f}" stroke="{COLORS["east"]}" stroke-width="2.2" stroke-dasharray="5,4"/>')
-    S.append(f'<text x="{p_chukotka[0] - 80:.1f}" y="{p_chukotka[1] - 8:.1f}" font-size="10" font-weight="bold" fill="{COLORS["east"]}">白令海峽/陸橋海冰通道 ➔</text>')
-    S.append(f'<text x="{p_alaska[0] + 10:.1f}" y="{p_alaska[1] - 8:.1f}" font-size="10" font-weight="bold" fill="{COLORS["east"]}">➔ 東山經阿拉斯加登陸點</text>')
+    # 白令海峽與陸橋通道標註（位於圖面中央偏右大洋區，連接楚科奇與阿拉斯加）
+    p_bering_sea = proj.pt(65.6, 185.0)
+    S.append(f'<text x="{p_bering_sea[0]:.1f}" y="{p_bering_sea[1] - 12:.1f}" font-size="11" font-weight="bold" fill="{COLORS["east"]}" text-anchor="middle">白令陸橋與海冰通道 (Beringian Gateway) ➔</text>')
 
     # 五臧山經主幹走廊軌跡 (Five Classics Corridors)
     for c_id, c_data in CORRIDORS.items():
         pts = c_data["pts"]
-        coords = [proj.pt(lat, lon) for lat, lon in pts]
+        coords = [proj.pt(lat, norm_lon_pacific(lon)) for lat, lon in pts]
         d_path = "M " + " L ".join(f"{x:.1f},{y:.1f}" for x, y in coords)
         
         # 軌跡光暈與實線
@@ -418,30 +485,28 @@ def render_world_map_svg():
         
         # 站點微型圓點
         for i, (lat, lon) in enumerate(pts):
-            px, py = proj.pt(lat, lon)
+            px, py = proj.pt(lat, norm_lon_pacific(lon))
             r = 3.5 if i in [0, len(pts)-1] else 2.2
             S.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="{r}" fill="{c_data["color"]}" stroke="#FFFFFF" stroke-width="0.8"/>')
 
-    # 14 大文明與時代神話實體標註
+    # 14 大文明與時代神話實體標註 (全要素依歸一化坐標定位)
     for civ in CIVILIZATIONS:
-        cx, cy = proj.pt(*civ["pt"])
+        c_lat, c_lon = civ["pt"]
+        cx, cy = proj.pt(c_lat, norm_lon_pacific(c_lon))
         is_origin = (civ["id"] == "CIV-01")
         if is_origin:
             continue  # 原點另作專屬輝光標註
-        
-        badge_color = COLORS["origin"] if is_origin else "#2C3E50"
         
         # 錨點標記
         S.append(f'<g transform="translate({cx:.1f},{cy:.1f})" filter="url(#shadow)">')
         S.append(f'<circle cx="0" cy="0" r="5" fill="#E74C3C" stroke="#FFFFFF" stroke-width="1.2"/>')
         S.append(f'<circle cx="0" cy="0" r="2" fill="#FFFFFF"/>')
         
-        # 標籤引線與文字框
+        # 標籤引線與文字框（自動避免邊界碰撞）
         tx = 10
         ty = -8
-        # 根據屏幕邊界自適應偏移
-        if cx > x0 + w - 160:
-            tx = -140
+        if cx > x0 + w - 165:
+            tx = -145
         if cy < y0 + 40:
             ty = 16
             
@@ -469,10 +534,10 @@ def render_world_map_svg():
     # 頂部大標題板塊
     S.append(f'''<g transform="translate(80, 25)">
       <rect x="0" y="0" width="2240" height="72" fill="#FAF8F2" rx="4"/>
-      <text x="20" y="32" font-size="23" font-weight="bold" fill="#2C3E50" letter-spacing="1.5">《山海經》前 4000–前 1000 年時代世界與五臧山經全球大軸解碼圖 (World of 4000–1000 BCE)</text>
-      <text x="20" y="55" font-size="12.5" fill="#5D6D7E">
-        <tspan font-weight="bold" fill="#C0392B">核心公理：</tspan>五臧山經建立客觀空間骨架與地理坐標底座，後續卷次（海外、海內、大荒經）之文明、物產、邦國為覆蓋於山經之上的圖層疊加。
-        <tspan font-weight="bold" fill="#2980B9">幾何大閉合：</tspan>西山經歐亞非橫向大軸 (18,924 里 ≈ 7,570 km) ↔ 東山經北美縱向四大山系 (18,869 里 ≈ 7,547 km)，1 里 = 0.4 公里精確對稱。
+      <text x="20" y="32" font-size="23" font-weight="bold" fill="#2C3E50" letter-spacing="1.5">《山海經》時代世界大格局：美洲居東與五臧山經全球大軸解碼圖 (World of 4000–1000 BCE)</text>
+      <text x="20" y="55" font-size="12" fill="#5D6D7E">
+        <tspan font-weight="bold" fill="#C0392B">【空間方位絕對一致性】：</tspan>美洲大陸座落於亞歐大陸東部（右側），嚴格符合經文「東海之外大壑」、「大荒東經」、「東山經」自中原面東出海越洋之客觀方位記述。
+        <tspan font-weight="bold" fill="#2980B9">【幾何大對稱】：</tspan>西向橫向長征（向左，18,924 里 ≈ 7,570 km 至大西洋崦嵫山） ↔ 東向縱貫長征（向右，18,869 里 ≈ 7,547 km 縱貫北美四大山脈），1 里 ≡ 0.4 公里完美閉合。
       </text>
     </g>''')
 
@@ -480,36 +545,36 @@ def render_world_map_svg():
     S.append(f'''<g transform="translate(80, 1190)">
       <rect x="0" y="0" width="2240" height="180" fill="#FFFFFF" fill-opacity="0.96" stroke="#D5DBDB" stroke-width="1" rx="5" filter="url(#shadow)"/>
       
-      <!-- 欄位 1: 五經走向圖例 -->
+      <!-- 欄位 1: 五經走向圖例 (符合左右上下方位) -->
       <g transform="translate(25, 20)">
-        <text x="0" y="0" font-size="13" font-weight="bold" fill="#2C3E50">【五臧山經五大方位空間主軸】</text>
+        <text x="0" y="0" font-size="13" font-weight="bold" fill="#2C3E50">【五臧山經五大方位空間主軸（嚴格保證方位一致）】</text>
         
         <line x1="0" y1="20" x2="35" y2="20" stroke="{COLORS["central"]}" stroke-width="3"/>
         <circle cx="17.5" cy="20" r="3" fill="{COLORS["central"]}"/>
-        <text x="45" y="24" font-size="11" fill="#2C3E50"><tspan font-weight="bold">中山經十二篇</tspan>（21,371 里）：洛陽伊洛盆地與嵩山為樞紐，精密輻射中原、秦嶺、岷山長江源與江漢水網</text>
+        <text x="45" y="24" font-size="11" fill="#2C3E50"><tspan font-weight="bold">中山經十二篇</tspan>（居中，21,371 里）：洛陽伊洛盆地與嵩山為樞紐，精密輻射中原、秦嶺、岷山長江源與江漢水網</text>
         
         <line x1="0" y1="42" x2="35" y2="42" stroke="{COLORS["west"]}" stroke-width="3" stroke-dasharray="5,3"/>
         <circle cx="17.5" cy="42" r="3" fill="{COLORS["west"]}"/>
-        <text x="45" y="46" font-size="11" fill="#2C3E50"><tspan font-weight="bold">西山經四篇</tspan>（18,924 里 ≈ 7,570 km）：自中原西向橫穿河西、帕米爾、兩河、吉薩崑崙丘（金字塔）至大西洋日入崦嵫山</text>
+        <text x="45" y="46" font-size="11" fill="#2C3E50"><tspan font-weight="bold">西山經四篇</tspan>（向左/西，18,924 里 ≈ 7,570 km）：中原向西直貫河西、帕米爾、兩河、吉薩崑崙丘至大西洋日入崦嵫山</text>
         
         <line x1="0" y1="64" x2="35" y2="64" stroke="{COLORS["east"]}" stroke-width="3" stroke-dasharray="5,3"/>
         <circle cx="17.5" cy="64" r="3" fill="{COLORS["east"]}"/>
-        <text x="45" y="68" font-size="11" fill="#2C3E50"><tspan font-weight="bold">東山經四篇</tspan>（18,869 里 ≈ 7,547 km）：經白令陸橋全向正南縱貫北美四大平行山系（落基、喀斯喀特、內華達、西馬德雷）</text>
+        <text x="45" y="68" font-size="11" fill="#2C3E50"><tspan font-weight="bold">東山經四篇</tspan>（向右/東，18,869 里 ≈ 7,547 km）：膠東出洋越太平洋與白令陸橋，全向正南縱貫北美四大平行山系</text>
         
         <line x1="0" y1="86" x2="35" y2="86" stroke="{COLORS["north"]}" stroke-width="3"/>
         <circle cx="17.5" cy="86" r="3" fill="{COLORS["north"]}"/>
-        <text x="45" y="90" font-size="11" fill="#2C3E50"><tspan font-weight="bold">北山經三篇</tspan>（23,230 里）：自管涔、太行、句注北越蒙古高原，抵貝加爾湖（北海泰澤）與北極圈章尾山燭龍（極光極夜）</text>
+        <text x="45" y="90" font-size="11" fill="#2C3E50"><tspan font-weight="bold">北山經三篇</tspan>（向上/北，23,230 里）：管涔、太行、句注北越蒙古高原，抵貝加爾湖（北海泰澤）與北極圈章尾山燭龍</text>
         
         <line x1="0" y1="108" x2="35" y2="108" stroke="{COLORS["south"]}" stroke-width="3"/>
         <circle cx="17.5" cy="108" r="3" fill="{COLORS["south"]}"/>
-        <text x="45" y="112" font-size="11" fill="#2C3E50"><tspan font-weight="bold">南山經三篇</tspan>（16,380 里）：自南嶺越城嶺（招搖山玉蟾岩）、浙閩丘陵延伸至嶺南與中南半島、巽他群島火山島弧</text>
+        <text x="45" y="112" font-size="11" fill="#2C3E50"><tspan font-weight="bold">南山經三篇</tspan>（向下/南，16,380 里）：南嶺越城嶺（招搖山玉蟾岩）、浙閩丘陵延伸至嶺南、中南半島與巽他火山島弧</text>
       </g>
 
       <!-- 欄位 2: 時代文明與跨學科證據 -->
-      <g transform="translate(900, 20)">
+      <g transform="translate(930, 20)">
         <text x="0" y="0" font-size="13" font-weight="bold" fill="#2C3E50">【時代文明與天文生態現象學對照（前 4000–前 1000 年）】</text>
-        <text x="0" y="24" font-size="11" fill="#34495E">1. <tspan font-weight="bold">章尾山燭龍</tspan>（瞑為晦，視為明，赤色身長千里）：北緯 65°–71° 北極圈高緯度赤色極光舞動與極晝極夜物理實錄。</text>
-        <text x="0" y="46" font-size="11" fill="#34495E">2. <tspan font-weight="bold">大荒東經六座日月所出之山</tspan>：中美洲前古典期奧爾梅克與瑪雅「E 組 (E-Group)」地平觀測台群（春分秋分夏至冬至日出）。</text>
+        <text x="0" y="24" font-size="11" fill="#34495E">1. <tspan font-weight="bold">大荒東經六座日月所出之山</tspan>：中美洲奧爾梅克與瑪雅「E 組 (E-Group)」地平太陽觀象臺群（春分秋分夏至冬至日出）。</text>
+        <text x="0" y="46" font-size="11" fill="#34495E">2. <tspan font-weight="bold">章尾山燭龍</tspan>（瞑為晦，視為明，赤色身長千里）：北緯 65°–71° 北極圈高緯度赤色極光舞動與極晝極夜物理實錄。</text>
         <text x="0" y="68" font-size="11" fill="#34495E">3. <tspan font-weight="bold">通天世界神樹</tspan>：四川成都平原三星堆青銅神樹（扶桑與建木實物） ↔ 中美洲瑪雅吉貝世界天樹（Wacah Chan/Ceiba）。</text>
         <text x="0" y="90" font-size="11" fill="#34495E">4. <tspan font-weight="bold">黑水與赤水</tspan>：古埃及尼羅河富含腐殖黑土古稱「黑土之地 (Kemet/黑水)」；紅海藻類季節性爆發赤潮赤色海域（赤水）。</text>
         <text x="0" y="112" font-size="11" fill="#34495E">5. <tspan font-weight="bold">巴蛇食象與厭火吐火獸</tspan>：全新世大暖期華南與東南亞亞洲象熱帶巨蟒生態；印尼巽他島弧活火山群（吐火黑獸石拍樹皮布）。</text>
@@ -519,11 +584,11 @@ def render_world_map_svg():
       <g transform="translate(1820, 20)">
         <rect x="0" y="0" width="390" height="135" fill="#F8F9F9" stroke="#BDC3C7" stroke-width="0.8" rx="4"/>
         <text x="15" y="22" font-size="11.5" font-weight="bold" fill="#2C3E50">【地圖技術規格與數值公理】</text>
-        <text x="15" y="42" font-size="10" fill="#5D6D7E">● 投影法：Equirectangular 經緯度等距柱狀投影</text>
-        <text x="15" y="59" font-size="10" fill="#5D6D7E">● 基準尺度：1 里 ≡ 0.400 公里（絕對直線拓撲距離）</text>
+        <text x="15" y="42" font-size="10" fill="#5D6D7E">● 佈局：太平洋居中 · 美洲居東（亞歐大陸東部）</text>
+        <text x="15" y="59" font-size="10" fill="#5D6D7E">● 尺度公理：1 里 ≡ 0.400 公里（絕對直線空間距離）</text>
         <text x="15" y="76" font-size="10" fill="#5D6D7E">● 大圓閉合誤差：西山經 0.47% · 東山經 0.63%</text>
-        <text x="15" y="93" font-size="10" fill="#5D6D7E">● 基礎數據：481 實體逐句無遺漏人工推理標定</text>
-        <text x="15" y="112" font-size="9.5" fill="#7F8C8D">專案庫：Mythos/Shanhaijing v3.5 · 2026-10-21</text>
+        <text x="15" y="93" font-size="10" fill="#5D6D7E">● 空間坐標底座：481 實體逐句無遺漏人工推理標定</text>
+        <text x="15" y="112" font-size="9.5" fill="#7F8C8D">專案庫：Mythos/Shanhaijing v3.6 · 2026-10-21</text>
       </g>
     </g>''')
 
@@ -589,7 +654,7 @@ def render_anchor_map_svg():
 
     # 陸地與水體
     S.append(f'<g fill="{COLORS["land"]}" stroke="{COLORS["land_border"]}" stroke-width="0.7">')
-    for land_id in ["eurasia", "africa", "britain_ireland", "taiwan", "hainan", "japan"]:
+    for land_id in ["eurasia", "africa", "great_britain", "ireland", "taiwan", "hainan", "japan"]:
         if land_id in coast["land"]:
             S.append(f'<path d="{proj_a.poly(coast["land"][land_id])}"/>')
     S.append('</g>')
@@ -651,7 +716,7 @@ def render_anchor_map_svg():
 
     # =========================================================================
     # 下板塊：東亞核心區與五臧山經高密度水陸錨點圖 (Panel B: East Asian Core & Anchor Network)
-    # 經緯度範圍：18°N–45°N, 98°E–124°E (高密度呈現中原、江漢、南嶺、太行、海岱、巴蜀)
+    # 經緯度範圍：19°N–44°N, 98°E–124°E (高密度呈現中原、江漢、南嶺、太行、海岱、巴蜀)
     # =========================================================================
     pb_x, pb_y, pb_w, pb_h = 60, 700, 2280, 860
     pb_lat0, pb_lat1, pb_lon0, pb_lon1 = 44, 19, 98, 124
@@ -686,7 +751,6 @@ def render_anchor_map_svg():
     for c in courses:
         pts = c.get("pts", [])
         if len(pts) >= 2:
-            # 高亮黃河古道（穿河北入天津渤海）、長江古道（鎮江古口）、漢水、淮水、渭水、汾水
             if c["id"] == "yellow_era":
                 S.append(f'<path d="{proj_b.poly(pts, close=False)}" stroke="#C0392B" stroke-width="3.2" opacity="0.9"><title>黃河商周河北古道 (入今天津渤海灣)</title></path>')
             elif c["id"] == "yangtze":
@@ -711,7 +775,6 @@ def render_anchor_map_svg():
     # 五大經卷在東亞核心區之主要山脈軌跡
     for c_id, c_data in CORRIDORS.items():
         pts = c_data["pts"]
-        # 過濾落入本窗口之點
         sub_pts = [p for p in pts if pb_lat1 <= p[0] <= pb_lat0 and pb_lon0 <= p[1] <= pb_lon1]
         if len(sub_pts) >= 2:
             sub_coords = [proj_b.pt(la, lo) for la, lo in sub_pts]
@@ -738,16 +801,13 @@ def render_anchor_map_svg():
         elif a["book"] == "南山經":
             b_color = COLORS["south"]
 
-        # 錨點圓圈
         is_origin_point = ("嵩山" in a["name"] or "太室" in a["name"] or "大騩" in a["name"])
         r_anchor = 5.5 if is_origin_point else 4.0
         
         S.append(f'<circle cx="{ax:.1f}" cy="{ay:.1f}" r="{r_anchor}" fill="{b_color}" stroke="#FFFFFF" stroke-width="1.2" filter="url(#anchorShadow)"/>')
         
-        # 標籤文字
         tx_off = 7
         ty_off = 3
-        # 碰撞調整
         if "少室" in a["name"]:
             tx_off = -55
             ty_off = 3
@@ -810,6 +870,7 @@ def render_anchor_map_svg():
 
 def main():
     print("開始生成《山海經》前 4000–前 1000 年時代世界與大地測量基準向量地圖...")
+    print("佈局策略：太平洋居中，美洲大陸位於亞歐大陸東部（保證與經文描述方位 100% 一致）")
     
     # 1. 生成 world-map-era.svg
     world_svg = render_world_map_svg()

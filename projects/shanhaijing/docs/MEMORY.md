@@ -48,7 +48,7 @@
 
 ### 5. 【時代世界與大地測量基準向量地圖完成交付】(Era Maps Delivery & Geodetic Anchors)
 * **地圖文件交付**：
-  - 🌐 `projects/shanhaijing/docs/maps/world-map-era.svg`（全球視野時代地圖，2400x1400，含五大空間主軸、30°–35°N 緯度帶與 14 大時代文明圈）
+  - 🌐 `projects/shanhaijing/docs/maps/world-map-era.svg`（太平洋居中／美洲居東視角時代地圖，2400x1400，美洲位於亞歐大陸東部，嚴格保證與「東海之外大壑」、「大荒東經」、「東山經」面東出海越洋之客觀方位一致；含五大空間主軸、30°–35°N 緯度帶與 14 大時代文明圈）
   - 📐 `projects/shanhaijing/docs/maps/anchor-map.svg`（雙面板大地測量基準錨點圖，2400x1600，含歐亞非橫向大軸幾何閉合、商周黃河河北古道入渤海、長江鎮江古口與 40+ 名山基準錨點）
   - 🗺️ `projects/shanhaijing/docs/maps/README.md`（高精度測繪規格、幾何閉合推導與古水網拓撲重構手冊）
   - 同步存放於 `projects/shanhaijing/data/derived/era/` 作為數據產物。
