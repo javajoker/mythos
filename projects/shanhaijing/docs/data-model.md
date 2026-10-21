@@ -15,29 +15,46 @@
 
 ## 2. 知識圖譜 / Knowledge graph（`data/derived/kg/`）
 
+### 2.0 核心本體公理 (Core Ontology Axioms)
+1. **【無新地理實體公理】**：
+   - 《五臧山經》（卷一至五）是全書唯一的客觀地理空間底座，所有地理實體節點（`MTN`, `WAT`, `LND`）首發於此，標記 `is_geography_base: true`。
+   - 卷六至卷十八純屬人文與特產，絕無新地理內容。卷六至卷十八出現的所有山、水實體，**100% 複用五臧山經的實體節點與地理坐標**，標記 `reused_from_shanjing: true`。
+   - 卷六至卷十八的人文與特產實體（`POL`, `PER`, `CRE`, `PLA`, `OBJ`, `AST`），通過 `anchored_shanjing_id` 邊或屬性直接錨定於五臧山經對應的地理底座節點之上。
+2. **【拋棄後世注釋·文字出發】**：
+   - 徹底拋棄郭璞注等後世狹隘微縮注疏，嚴格依據經文字面全球尺度實證：
+     - 開羅吉薩金字塔群 ≡ 崑崙之丘；
+     - 吉薩獅身人面像 ≡ 神陸吾 / 開明獸；
+     - 紅海 ≡ 赤水；
+     - 尼羅河 ≡ 黑水；
+     - 地中海與北非板塊 ≡ 西次三經。
+
 ### 2.1 節點 `nodes.jsonl`
 ```json
-{"id": "WAT:渭", "type": "WAT", "symbol": "渭", "variants": ["渭水"], "subtype": "river",
- "mentions": ["SHJ-02-4-018", "SHJ-13-1-022"], "descriptions": [{"entry": "SHJ-02-4-018", "text": "渭水出焉，而東流注于河"}],
- "props": {"flow_dir": "東", "n_inflows": 12, "dest_type": "river"}, "tags": [], "section": null,
- "name_features": {"kind": "water"}}
+{"id": "MTN:SHJ-02-3-006-崑崙之丘", "type": "MTN", "canonical_name": "崑崙之丘", "is_geography_base": true,
+ "coordinates_era": [30.0, 31.2], "era_entity": "埃及開羅吉薩高地金字塔群", "temporal_state": "living",
+ "mentions": ["SHJ-02-3-006", "SHJ-11-1-010", "SHJ-16-1-020"],
+ "associative_properties": ["帝之下都", "法老王陵", "天門樞紐"],
+ "deductive_properties": ["花崗岩與石灰岩巨石台", "高萬仞", "面有九門"]}
 ```
 | 鍵 / Key | 說明 / Meaning |
 |---|---|
-| `id` | `類型:符號`，同名異實體加 `#n`（例如 `MTN:陰山#2`、`WAT:洛#2`）/ `TYPE:symbol`, `#n` for homonyms |
-| `type` | MTN 山、WAT 水、LND 地、POL 國族、CRE 生物、PLA 植物、MIN 礦物、PER 神人 |
-| `symbol` | 書中的名稱（只是符號，不參與計分）/ the text's name (a symbol only, never scored) |
-| `mentions` | 出現的全部條目編號 / every entry where it appears |
-| `descriptions` | 描述它的原文片段 / source clauses describing it |
-| `props`, `tags` | 從描述得到的性質與標籤 / properties and tags from descriptions |
-| `section` | 山經站點所屬的篇 / section of a Mountain station |
-| `name_features` | 名稱中的語義特徵（顏色、材質、形狀、狀態、方位），不作辨識（T-V03 加入）/ name semantics, never identifiers |
+| `id` | `類型:條目編號-符號`（如 `MTN:SHJ-02-3-006-崑崙之丘`）/ Unique node identifier |
+| `type` | MTN 山、WAT 水、LND 地、POL 國族、CRE 生物、PLA 植物、MIN 礦物、PER 神人、OBJ 器物、AST 天象、CLIM 氣候 |
+| `canonical_name` | 規範正體名稱（原始經文）/ Canonical source name |
+| `is_geography_base` | 布爾值（是否屬於五臧山經地理底座，`true` 僅限卷一至五山水）/ Is Wuzang Shanjing base |
+| `reused_from_shanjing` | 布爾值（卷六至十八山水實體強制為 `true`，複用山經節點）/ Reused from Shanjing |
+| `anchored_shanjing_id` | 若為卷六至十八的人文/特產實體，必須指向五臧山經錨定節點 ID / Anchor Mountain/Water ID |
+| `coordinates_era` | 4000–1000 BCE 時代地理坐標 `[lat, lon]` / Era coordinates |
+| `era_entity` | 考古遺址、古生物化石或時代古水文對位實體 / Archaeological or paleo-entity |
+| `associative_properties` | 聯想性圖騰信仰與文化屬性列表 / Associative cultural properties |
+| `deductive_properties` | 演繹性生態適應、工藝材料與理化功能列表 / Deductive functional properties |
+| `mentions` | 出現的全部條目編號（含跨卷複用引用）/ All entry mentions across 18 books |
 
 ### 2.2 邊 `edges.jsonl`
 ```json
-{"src": "WAT:渭", "dst": "MTN:鳥鼠同穴之山", "type": "rises_at", "attrs": {}, "entry": "SHJ-02-4-018", "clause": "渭水出焉"}
+{"src": "PER:SHJ-16-1-020-西王母", "dst": "MTN:SHJ-02-3-006-崑崙之丘", "type": "anchored_to", "attrs": {"role": "穴居主天之厲"}, "entry": "SHJ-16-1-020"}
 ```
-邊的類型見 [methodology-spec](methodology-spec.md) §3。框架句的 `located` 另有 `alt_direction`（另一方位慣例）與 `convention`。/ Edge types in methodology-spec §3; frame-clause `located` edges also carry `alt_direction` and `convention`.
+邊的類型包括：`anchored_to`（人文特產錨定於山經地理底座）、`rises_at`（發源）、`flows_into`（注入）、`adjacent_to`（相鄰）、`same_entity_as`（同一實體跨卷同一）、`produces`（出產物候）、`inhabits`（棲居生息）、`worships`（祭祀奉祠）、`invented_by`（科技發明）。
 
 ### 2.3 提及 `mentions.jsonl`
 每段一行，列出該段抽出的全部實體 ID；這是逐段對照的骨架。/ One line per paragraph listing every entity extracted from it — the backbone of the per-paragraph deliverable.
