@@ -1,0 +1,49 @@
+{
+  "schema_version": "shj-kg-1.1",
+  "builder": "kg_build.py",
+  "source": "working-text.jsonl",
+  "source_sha256": "4da155f60de8808c5f6b76ce406d65c9c340f8b2a53c8f8849a73b9c02070224",
+  "extraction_sha256": {
+    "book-01.jsonl": "257ac57e7e11106892cb7cf78290db7c583dea19aa0cb207774593b6d032aef0"
+  },
+  "books": [
+    1
+  ],
+  "entries": 43,
+  "nodes": 296,
+  "mentions": 306,
+  "edges": 70,
+  "mention_types": {
+    "AST": 1,
+    "CLIM": 5,
+    "CRE": 76,
+    "DOC": 1,
+    "LND": 5,
+    "MIN": 52,
+    "MTN": 50,
+    "OBJ": 7,
+    "PER": 4,
+    "PLA": 51,
+    "POL": 3,
+    "WAT": 51
+  },
+  "books_detail": {
+    "1": {
+      "AST": 1,
+      "CLIM": 5,
+      "CRE": 76,
+      "DOC": 1,
+      "LND": 5,
+      "MIN": 52,
+      "MTN": 50,
+      "OBJ": 7,
+      "PER": 4,
+      "PLA": 51,
+      "POL": 3,
+      "WAT": 51
+    }
+  },
+  "reading_statuses": [
+    "unreviewed"
+  ]
+}
