@@ -54,6 +54,7 @@
 
 - `layer`：`textual` 或 `interpretive`。
 - `type`、`src/dst` 類型與 `layer` 必須符合 ontology。
+- `flows_into` 等動態關係在 `textual` 層保留原文方向；候選比較使用 `interpretive` 層的無方向 `connected_to`，並附推導來源。現代水流方向不得單獨作為硬性否決。
 - 解釋關係另附 `decision` 或 `judgment` 來源，不得只寫模型結論。
 
 ### 2.4 屬性 `attributes.jsonl`
@@ -67,6 +68,7 @@
 - `kind`：`textual`、`semantic_fit`、`associative`、`deductive`。
 - `status`：`stated`、`proposed`、`accepted`、`contested`、`rejected`。
 - predicate 的適用實體類型和值類型由 ontology 定義；新增語義先註冊新 predicate，不建立無定義的自由欄位。
+- `static.shape` 記錄輪廓與物理形態；`static.topology` 記錄相對位置、連接、環繞、包含、分支和分佈格局。兩者先於現代分類與動態流向評估，可作 `textual` 或 `semantic_fit`，並須保留證據。
 - 值格式：`geo_point` 為 `{"lat": 25.5, "lon": 111.5}`；`year_range` 為 `[from, to]` 兩個整數年，BCE 為負且 `from <= to`；`geometry` 為含 `type` 與 `coordinates` 的 GeoJSON 類物件；`object` 為 JSON 物件；`string` 為字串；`any` 可為任何 JSON 值。
 - `confidence` 可為空；沒有判斷記錄時不得填入確定數值或把 `proposed` 改為 `accepted`。
 

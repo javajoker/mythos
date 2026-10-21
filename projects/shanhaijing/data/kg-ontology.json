@@ -1,5 +1,5 @@
 {
-  "schema_version": "shj-kg-1.0",
+  "schema_version": "shj-kg-1.1",
   "base_books": [1, 2, 3, 4, 5],
   "geography_types": ["MTN", "WAT", "LND"],
   "attribute_kinds": ["textual", "semantic_fit", "associative", "deductive"],
@@ -24,6 +24,8 @@
   },
   "predicate_definitions": {
     "name.semantic": {"value_type": "object", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "AST", "CLIM", "UNK"]},
+    "static.shape": {"value_type": "object", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "UNK"]},
+    "static.topology": {"value_type": "object", "domains": ["MTN", "WAT", "LND", "POL", "PER", "OBJ", "UNK"]},
     "physical.form": {"value_type": "any", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ"]},
     "physical.scale": {"value_type": "any", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "AST", "CLIM"]},
     "physical.colour": {"value_type": "any", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ"]},
@@ -48,6 +50,7 @@
   "relation_types": {
     "rises_at": {"domain": ["WAT"], "range": ["MTN", "LND"], "layers": ["textual"]},
     "flows_into": {"domain": ["WAT"], "range": ["WAT", "LND"], "layers": ["textual"]},
+    "connected_to": {"domain": ["MTN", "WAT", "LND"], "range": ["MTN", "WAT", "LND"], "layers": ["interpretive"]},
     "adjacent_to": {"domain": ["MTN", "WAT", "LND"], "range": ["MTN", "WAT", "LND"], "layers": ["textual", "interpretive"]},
     "located_in": {"domain": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "AST", "CLIM"], "range": ["MTN", "WAT", "LND"], "layers": ["textual", "interpretive"]},
     "produces": {"domain": ["MTN", "WAT", "LND", "POL"], "range": ["CRE", "PLA", "MIN", "OBJ"], "layers": ["textual"]},
