@@ -20,5 +20,6 @@ description: Extract entities, mentions, name semantics and textual relations fr
 7. 屬性分為 `textual`、`semantic_fit`、`associative`、`deductive`，每個 predicate 必須先在 ontology 註冊。
 8. 合併與拆分不是字符串操作：程序發現候選衝突，LLM 依證據裁決並保留首發 ID 和全部提及。
 9. 執行結構、引用、類型和覆蓋檢查，不能用自動補齊隱藏漏抽。
+10. 全部水體必須有映射記錄。共享同一水體的山體及其關係 ID 保留為跨山語義錨點；不得由程序拆分、合併或指定現實位置。
 
 輸出為 `nodes.jsonl`、`mentions.jsonl`、`edges.jsonl`、`attributes.jsonl`。語料專用的地理復用規則只從其規格與 ontology 讀取，不複製到公共 skill。

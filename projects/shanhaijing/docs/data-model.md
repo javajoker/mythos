@@ -81,8 +81,13 @@
 | `candidates.jsonl` | 實體、候選、年代、當時狀態、物理屬性、一般性來源與對立候選組 |
 | `judgments.jsonl` | 遮蔽輸入雜湊、模型、提示版本、樣本、逐維分數、證據與理由 |
 | `relation-judgments.jsonl` | 兩個候選之間的關係是否成立、證據、樣本與理由 |
+| `water-mappings.jsonl` | 每個水體的完整映射審核記錄：共享山體、候選、歷史狀態、證據與人工決定 |
 | `anchors.jsonl` | 錨點實體與候選、角色、坐標、推進方向、支持條目、校準狀態、迭代記錄與共識狀態 |
 | `mapping.jsonl` | 目前有效的對應、狀態、可信度、對立候選、支持與違反關係 |
+
+`water-mappings.jsonl` 必須覆蓋全部 WAT 節點。每筆初始為 `mapping_status: pending`、`candidates: []`、`historical_states: []`，由 LLM 填入競爭候選與狀態，項目發起人確認後才可更新為接受。共用同一水體的山體記入 `shared_mountains`，可作跨山系語義錨點。
+
+水體歷史狀態至少區分 `living`、`changed_course`、`diminished`、`marsh`、`ruin`、`gone`、`unknown`；人工運河、環狀渠道、沼澤化與水質或含沙量改變用 `hydrology.history` 和 `hydrology.formation` 記錄。動態流向只作原文線索，候選比較可用無方向連接。
 
 初始化錨點使用 `role: initialization`、`status: provisional`，只作演算法起點，不增加證據權重。每筆另記 `direction`（如 `backward`）、`seed_sections`、對立候選和 `calibration_history`；後續可改為 `calibrated`、`replaced` 或 `rejected`。多個初始化錨點可聯合求解，只有經共同關係驗證者才進入共識。
 

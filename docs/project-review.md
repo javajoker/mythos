@@ -1,6 +1,6 @@
 # Mythos 清理與方法決策記錄 / Cleanup and Method Decision Record
 
-> 狀態：D01–D26 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
+> 狀態：D01–D27 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
 
 ## 1. 清理結果 / Cleanup outcome
 
@@ -36,10 +36,11 @@
 | D24 | 舊地圖與渲染器刪除，未來由有效圖譜重建 | 已刪除；T-M01 待辦 |
 | D25 | 全域採用靜態形狀優先、禁止因果倒置、古代通用詞義、文化歷史斷層與統一推論順序；吉薩只作崑崙競爭候選 | 公共框架、SHJ 規格 §7、ontology、工具與全部 agent/skill |
 | D26 | 開羅／吉薩可作未確認初始化錨點，從西次三經反向擬合；支持時加入多個錨點並在後續推理中校準、替換或否決 | 框架 R9、SHJ 規格、anchors 契約與 observer-frame |
+| D27 | 所有語義處理由 LLM 完成，代碼只做記憶與結構化處理；先由 LLM 完成全部水體映射並由發起人確認，再校準其他錨點。共享水體可跨山錨定，保留改道、消亡與性狀改變 | `water-mappings.jsonl`、`hydrology.history/formation`、全部相關規程 |
 
 ## 3. 目前工具與組織 / Current tools and roles
 
-現有工具：`fetch_sources`、`ingest`、`collate`、`align_witness`、`classify_variants`、`extract_routes`、`cn_numerals`、`era_frame`、`kg_validate`。舊地圖工具已刪除，語義任務、交付與地圖工具只在相應資料契約可用後新增。
+現有工具：`fetch_sources`、`ingest`、`collate`、`align_witness`、`classify_variants`、`extract_routes`、`cn_numerals`、`era_frame`、`kg_build`、`kg_export_geography`、`kg_water_registry`、`kg_validate`。舊地圖工具已刪除，語義任務、交付與地圖工具只在相應資料契約可用後新增。
 
 保留 8 個 agent 與 10 個 skill 的名稱，按 v4 重寫職責。公共角色不包含 SHJ 固定答案；`shj-lead` 與 `shj-era-mapping` 只負責子項目編排並引用唯一規格。
 

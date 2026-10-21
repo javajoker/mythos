@@ -38,7 +38,8 @@ The authoritative details are `docs/research-framework.md` and `projects/shanhai
 - **Text first**: quotations are verbatim and carry entry IDs. Commentary and modern editorial claims never enter source-text evidence.
 - **Layered assertions**: separate `textual`, `semantic_fit`, `associative` and `deductive` attributes; use `stated/proposed/accepted/contested/rejected` honestly.
 - **Extensible ontology**: use `TYPE:SHJ-BB-S-EEE#n` node IDs and register predicates by entity type in `projects/shanhaijing/data/kg-ontology.json`.
-- **Code versus LLM**: code performs snapshots, validation, calculations, coverage and conflict detection. LLM performs semantic extraction, candidate scoring, variant adjudication, merge/split and draft revision. Code never resolves semantic conflicts by heuristics.
+- **LLM-only semantics**: all entity/relation interpretation, candidate generation, mapping, merge/split and conflict adjudication are performed by LLM. Code only preserves memory, expands LLM-authored structure, validates references and counts coverage. It must not perform semantic processing.
+- **Water mappings before other anchors**: every WAT node first receives an LLM-reviewed real-world mapping with historical course/state changes and is confirmed by the initiator. Only then may other anchors be calibrated. Shared waters can anchor multiple mountains.
 - **No generated prose by scripts**: interpretation and reasoning are produced by LLM, not Python templates. Python may generate deterministic data products and verify counts.
 - **Coverage is not correctness**: every entry and mention must be accounted for, but unresolved items remain explicit.
 - **Reproducibility**: standard-library Python 3.9+, run from the repository root with `python3 -I`; preserve source manifests and judgment hashes.

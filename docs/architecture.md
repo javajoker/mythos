@@ -41,6 +41,7 @@ docs/                 公共方法與規範，不含語料專用固定答案
 |---|---|---|---|
 | 工作文本 | `textual-critic` | `devils-advocate` | entries、working text、異文與移段記錄 |
 | 實體抽取 | `entity-extractor` | `textual-critic` | nodes、mentions、textual edges |
+| 全量水體映射 | `semantic-matcher`、`palaeo-geographer` | 項目發起人、 `cross-validator` | 每個水體的候選、共享關係與歷史狀態，經人工確認 |
 | 時代世界 | `civilization-scout`、`palaeo-geographer` | `devils-advocate` | 有年代與來源的候選卡 |
 | 地理語義擬合 | `semantic-matcher` | `cross-validator` | candidates、judgments、semantic-fit attributes |
 | 初版圖譜 | `entity-extractor` | `cross-validator` | KG v1 與結構校驗結果 |
@@ -61,6 +62,9 @@ docs/                 公共方法與規範，不含語料專用固定答案
 | `extract_routes.py` | 從 working text 抽取山經站點、方向、里數與水系 |
 | `era_frame.py` | 各篇獨立相對幾何、概況與里程差異報告 |
 | `cn_numerals.py` | 中文數字解析 |
+| `kg_build.py` | 將 LLM 抽取記錄展開為圖譜；無方向邊只接受已有 LLM 審核的輸出 |
+| `kg_export_geography.py` | 導出山水與水體關係供人工審核，不選擇位置 |
+| `kg_water_registry.py` | 建立全部水體的 pending 映射與共享山體登記，不產生候選 |
 | `kg_validate.py` | 本體、schema、引用、類型及第一版地理約束校驗；只報告語義衝突 |
 
 語義候選生成、判斷、合併與草稿推理由 agent 產生結構化記錄；不得以硬編碼腳本代替。後續需要的任務生成、求解、交付與地圖工具，須在相應資料契約可用後新增，不引用已刪除的舊工具名。

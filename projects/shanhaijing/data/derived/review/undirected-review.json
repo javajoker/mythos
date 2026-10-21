@@ -1,0 +1,11 @@
+{
+  "schema_version": "llm-undirected-review-1",
+  "decision": "retain",
+  "reviewed_by": "llm",
+  "review_status": "proposed",
+  "scope": {
+    "provenance.method": "direction_erasure",
+    "edges_sha256": "1f85dabbbf6cc877562d4df270ad21758f2e8e8f0d628e189b3cbfadefd38cdf"
+  },
+  "rationale": "現有 direction_erasure 邊已由 LLM 作為一個類別複核：它們只表示候選比較時的無方向連接，不用作現實水流方向、現實位置或候選映射的證據。保留它們不等於接受任何現實世界對應。後續新增或改變動態關係時，必須由 LLM 重新審核，不得由程序自行生成語義判斷。"
+}

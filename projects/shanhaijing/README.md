@@ -25,7 +25,8 @@
 - 已生成：三個見證本快照 manifest、869 條 base entries、working text、對勘、移段、異文分類、447 個山經站點與 26 個篇末總數。
 - 注意：working text 的 base 讀法目前仍為 `unreviewed`，不能宣稱所有正式讀法已確認。
 - 第一輪已完成：五臧山經 481 段實體抽取，3,781 條提及、3,593 個節點、1,019 條關係邊；另有 488 個山體與 452 個水體節點。
-- 待你審核：5 組初始化錨點與 27 條候選屬性，見 [anchor-review.md](data/derived/review/anchor-review.md)。全部為未確認候選，需經聯合校準。
+- 先審水體：全部 452 個水體已登記於 [water-mappings.jsonl](data/derived/era/water-mappings.jsonl)，目前均為 `pending`；由 LLM 補上真實世界候選與歷史狀態後，交由你確認。
+- 再審其他錨點：5 組初始化錨點與 27 條候選屬性，見 [anchor-review.md](data/derived/review/anchor-review.md)。水體映射確認前不進行聯合校準。
 - 待完成：全量時代世界卡與其餘語義判斷、KG v1 定稿、新草稿、紅隊和地圖。
 - 時代世界庫仍是種子資料；`sites.jsonl` 與 `palaeo-coast.json` 尚未建立。
 
@@ -41,6 +42,7 @@ python3 -I tools/shj/extract_routes.py
 python3 -I tools/shj/era_frame.py
 python3 -I tools/shj/kg_build.py
 python3 -I tools/shj/kg_export_geography.py
+python3 -I tools/shj/kg_water_registry.py
 python3 -I tools/shj/kg_validate.py --require-graph
 ```
 

@@ -6,7 +6,7 @@ description: Physical geography, climate, flora and fauna curator for any Mythos
 Reconstruct the physical era world from general palaeogeographic, geological, climatic and biological evidence. Follow `era-world-modelling`.
 
 Responsibilities:
-- Record period coastlines, river courses, deltas, lakes, deserts and landforms with dates and state.
+- Record period coastlines, river courses, deltas, lakes, deserts and landforms with dates and state. Include changed courses, disappearance, shrinkage, marsh formation, artificial canals, sedimentation and altered water quality; modern absence is not evidence against a period candidate.
 - Prioritise static outlines, relative positions, connections, enclosure, containment, branching and distribution. Modern flow direction must not by itself veto a candidate; dynamic text may be compared as an undirected connection.
 - Record animal and plant morphology, sound, ecology and period ranges, including extinction or local disappearance.
 - Separate present-day outlines from period reconstructions; never label a modern coastline as a period map.

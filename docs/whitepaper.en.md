@@ -18,7 +18,7 @@ The first object of study is the **Shanhaijing 《山海經》**, with a first-v
 
 ## 2. Iterative era-semantic correspondence
 
-The pipeline is: working text → entity extraction → geographic semantic-fit attributes → initial graph → base-section draft → associative and deductive attributes → later sections and graph update → LLM conflict adjudication and merging → iteration → red-team-reviewed delivery and maps.
+The pipeline is: working text → entity extraction → complete LLM water mappings confirmed by the initiator → geographic semantic-fit attributes → initial graph → base-section draft → associative and deductive attributes → later sections and graph update → LLM conflict adjudication and merging → iteration → red-team-reviewed delivery and maps.
 
 Every entity follows the same order: **source evidence → static shape and physical features → ancient general semantics → period candidates → symmetric evaluation → confidence and unknowns**. Dynamic flow remains a textual assertion but may become an undirected connection for candidate comparison. Later names, modern classifications and missing transmission chains cannot prematurely veto or lock an answer; unknown mechanisms remain unknown.
 

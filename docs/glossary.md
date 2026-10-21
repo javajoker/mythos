@@ -17,6 +17,8 @@
 | 解釋圖 | Interpretation graph | 語義擬合、聯想、演繹、候選對應與裁決形成的圖譜層。 |
 | 屬性斷言 | Attribute assertion | 某實體的一個 predicate/value 記錄，附種類、狀態、證據和來源。 |
 | 語義擬合 | Semantic fit | 文本描述與時代候選之間的逐屬性對應判斷。 |
+| 全量水體映射 | Complete water mapping | 由 LLM 為每個水體建立真實世界候選、共享山體、歷史狀態與證據，先由發起人確認，再校準其他錨點。 |
+| 水文歷史狀態 | Hydrological history | 水體在時代中的存續、改道、消亡、萎縮、沼澤化、人工渠道遺址、淤積與性狀改變；未知時明確標記。 |
 | 時代窗口 | Period window | 文本被視為積累而成的期間；山海經第一版為 4000–1000 BCE。 |
 | 時代世界庫 | Era world base | 窗口內的地理、動物、文明與造物，每項附年代、狀態和一般性來源。 |
 | 觀察原點 | Observer origin | 由共同可確認地標及其關係反推、經共識登記的觀察基準。 |

@@ -15,15 +15,16 @@ description: Runbook for the Shanhaijing v4 iterative pipeline from working text
 ## 執行順序
 
 1. `textual-critic`：確認 working text 的次序與正式證據讀法。
-2. `entity-extractor`：建立全書實體、提及、名稱語義和文本關係。
-3. `civilization-scout`／`palaeo-geographer`：完成有年代、來源和對立候選的時代世界卡。
-4. `semantic-matcher`：遮蔽生成競爭候選與語義擬合屬性；以未確認錨點初始化搜索，迭代校準後再形成地標共識。
-5. `entity-extractor`：組成 KG v1，運行 `kg_validate.py`。
-6. `shj-lead`：重新生成五臧山經草稿，保留未決項。
-7. `entity-extractor`／`semantic-matcher`：補充 associative 和 deductive 屬性。
-8. `shj-lead`：重新生成卷六至十八草稿並更新圖譜。
-9. `cross-validator`：由 LLM 解決語義衝突、合併或拆分，回寫指定記錄並迭代。
-10. `devils-advocate`：獨立紅隊通過後，才交付 `deliverables/draft-v1/` 並評估地圖重建。
+2. `entity-extractor`：建立全書實體、提及、名稱語義和文本關係；代碼只保存結構與核對覆蓋。
+3. `semantic-matcher`／`palaeo-geographer`：由 LLM 完成全部水體的真實世界映射，保留共享水體與歷史狀態，先交項目發起人確認。
+4. `civilization-scout`／`palaeo-geographer`：完成有年代、來源和對立候選的時代世界卡。
+5. `semantic-matcher`：在水體映射確認後，遮蔽生成競爭候選與語義擬合屬性；以未確認錨點初始化搜索，迭代校準後再形成地標共識。
+6. `entity-extractor`：組成 KG v1，運行 `kg_validate.py`。
+7. `shj-lead`：重新生成五臧山經草稿，保留未決項。
+8. `entity-extractor`／`semantic-matcher`：補充 associative 和 deductive 屬性。
+9. `shj-lead`：重新生成卷六至十八草稿並更新圖譜。
+10. `cross-validator`：由 LLM 解決語義衝突、合併或拆分，回寫指定記錄並迭代。
+11. `devils-advocate`：獨立紅隊通過後，才交付 `deliverables/draft-v1/` 並評估地圖重建。
 
 ## 基礎判斷約束
 

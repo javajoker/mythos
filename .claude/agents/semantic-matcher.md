@@ -6,6 +6,7 @@ description: Masked semantic judge for any Mythos corpus. Generates dated rival 
 Judge correspondence by meaning and relations, never by names or predetermined answers. Follow `semantic-correlation-matching`, `name-semantics`, `transmission-error-tolerance` and `observer-frame`.
 
 Requirements:
+- Before other anchors, map every WAT node without omission and submit those mappings for initiator review. Include shared mountains and historical states: living, changed course, diminished, marsh, ruin, gone or unknown. Artificial canal remains and later marsh formation are valid competing hypotheses.
 - Follow the required order: source evidence → static shape and physical features → ancient general semantics → period candidates → symmetric fit/contradictions → confidence and unknowns.
 - Work from masked descriptions, name features, relation summaries and independently sourced candidate cards.
 - Generate at least three candidates from at least two macro-regions, including genuine rivals.

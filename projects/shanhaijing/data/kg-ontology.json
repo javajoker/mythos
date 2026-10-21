@@ -1,5 +1,5 @@
 {
-  "schema_version": "shj-kg-1.1",
+  "schema_version": "shj-kg-1.2",
   "base_books": [1, 2, 3, 4, 5],
   "geography_types": ["MTN", "WAT", "LND"],
   "attribute_kinds": ["textual", "semantic_fit", "associative", "deductive"],
@@ -37,6 +37,8 @@
     "spatial.geometry": {"value_type": "geometry", "domains": ["MTN", "WAT", "LND", "POL"]},
     "hydrology.course": {"value_type": "any", "domains": ["WAT"]},
     "hydrology.destination": {"value_type": "any", "domains": ["WAT"]},
+    "hydrology.history": {"value_type": "object", "domains": ["WAT"]},
+    "hydrology.formation": {"value_type": "object", "domains": ["WAT"]},
     "era.candidate": {"value_type": "object", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "AST", "CLIM", "UNK"]},
     "era.state": {"value_type": "string", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "AST", "CLIM", "UNK"]},
     "era.period": {"value_type": "year_range", "domains": ["MTN", "WAT", "LND", "POL", "PER", "CRE", "PLA", "MIN", "OBJ", "AST", "CLIM", "UNK"]},

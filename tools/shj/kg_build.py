@@ -1,8 +1,9 @@
 """Expand LLM-authored extraction records into the SHJ text graph.
 
 The input JSONL contains the semantic decisions. This tool only assigns IDs,
-expands mentions and relations, erases direction for comparison edges, and checks
-coverage. It never merges by name similarity or invents entities or relations.
+expands mentions and relations, and checks coverage. Direction-erasure edges are
+serialized only when their exact output already has an LLM review record. This
+tool never merges by name similarity or performs semantic processing.
 """
 import hashlib
 import json
@@ -15,6 +16,7 @@ WORKING = ROOT / "projects/shanhaijing/data/derived/working-text.jsonl"
 INPUT = ROOT / "projects/shanhaijing/data/derived/extraction"
 OUT = ROOT / "projects/shanhaijing/data/derived/kg"
 ANCHORS = ROOT / "projects/shanhaijing/data/derived/era/anchors.jsonl"
+UNDIRECTED_REVIEW = ROOT / "projects/shanhaijing/data/derived/review/undirected-review.json"
 DYNAMIC = {"rises_at", "flows_into"}
 
 
@@ -26,6 +28,15 @@ def write_jsonl(path, rows):
     with path.open("w", encoding="utf-8") as handle:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def undirected_review_allowed():
+    if not UNDIRECTED_REVIEW.exists() or not (OUT / "edges.jsonl").exists():
+        return False
+    review = json.loads(UNDIRECTED_REVIEW.read_text(encoding="utf-8"))
+    current_hash = hashlib.sha256((OUT / "edges.jsonl").read_bytes()).hexdigest()
+    return (review.get("decision") == "retain" and review.get("reviewed_by") == "llm"
+            and review.get("scope", {}).get("edges_sha256") == current_hash)
 
 
 def build_anchor_attributes(nodes, working):
@@ -75,6 +86,7 @@ def main():
     per_type_counts = Counter()
     per_book_counts = defaultdict(Counter)
     input_hashes = {}
+    allow_undirected = undirected_review_allowed()
 
     for path in files:
         book = int(path.stem.split("-")[1])
@@ -142,10 +154,11 @@ def main():
                     continue
                 edges.append({"id": dynamic_id, "src": endpoints[0], "dst": endpoints[1], "type": relation_type,
                               "layer": "textual", "entry": entry, "quote": text, "status": "stated"})
-                edges.append({"id": f"REL:{entry}#{rel_index * 2}", "src": endpoints[0], "dst": endpoints[1],
-                              "type": "connected_to", "layer": "interpretive", "entry": entry, "quote": text,
-                              "status": "proposed", "provenance": {"derived_from": dynamic_id,
-                                                                    "method": "direction_erasure"}})
+                if allow_undirected:
+                    edges.append({"id": f"REL:{entry}#{rel_index * 2}", "src": endpoints[0], "dst": endpoints[1],
+                                  "type": "connected_to", "layer": "interpretive", "entry": entry, "quote": text,
+                                  "status": "proposed", "provenance": {"derived_from": dynamic_id,
+                                                                        "method": "direction_erasure"}})
 
     nodes.sort(key=lambda row: row["id"])
     mentions.sort(key=lambda row: row["id"])
@@ -158,7 +171,7 @@ def main():
     write_jsonl(OUT / "edges.jsonl", edges)
     write_jsonl(OUT / "attributes.jsonl", attributes)
     manifest = {
-        "schema_version": "shj-kg-1.1",
+        "schema_version": "shj-kg-1.2",
         "builder": "kg_build.py",
         "source": "working-text.jsonl",
         "source_sha256": hashlib.sha256(WORKING.read_bytes()).hexdigest(),

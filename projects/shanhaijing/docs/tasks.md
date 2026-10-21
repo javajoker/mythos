@@ -29,7 +29,16 @@
 | T-106 | 從 working text 抽取站點、方位、里數、水系與各篇獨立框架 | ✅ |
 | T-107 | 將里程與抽取差異交 LLM 審查，不由程序自動改數 | ⬜ |
 
-## 3. 圖譜與語義擬合 / Graph and semantic fitting
+## 3. 全量水體映射 / Complete water mapping
+
+| ID | 任務 / Task | 狀態 |
+|---|---|---|
+| T-W01 | 建立全部 WAT 節點與共享山體、文本水關係的完整登記，無遺漏 | ✅ |
+| T-W02 | 由 LLM 為全部 452 個水體提出真實世界候選、歷史狀態與證據，交項目發起人確認 | ⏳ |
+| T-W03 | 對改道、消亡、沼澤化、人工運河遺址與性狀改變進行對立候選審查 | ⬜ |
+| T-W04 | 水體映射全部確認後，才允許其他錨點進入聯合校準 | ⬜ |
+
+## 4. 圖譜與語義擬合 / Graph and semantic fitting
 
 | ID | 任務 / Task | 狀態 |
 |---|---|---|
@@ -39,7 +48,7 @@
 | T-G04 | 選取可校準的初始化錨點，正向／反向擬合並以多錨點形成觀察原點共識 | ⏳ |
 | T-G05 | 建立並校驗 KG v1：nodes、mentions、edges、attributes | ⏳ |
 
-## 4. 迭代草稿與衝突 / Iterative drafts and conflicts
+## 5. 迭代草稿與衝突 / Iterative drafts and conflicts
 
 | ID | 任務 / Task | 狀態 |
 |---|---|---|
@@ -50,7 +59,7 @@
 | T-D05 | LLM 解決語義衝突、合併／拆分並回寫受影響條目 | ⬜ |
 | T-D06 | 對受影響範圍迭代，形成 `deliverables/draft-v1/` | ⬜ |
 
-## 5. 審查與地圖 / Review and maps
+## 6. 審查與地圖 / Review and maps
 
 | ID | 任務 / Task | 狀態 |
 |---|---|---|
