@@ -19,6 +19,7 @@ description: Runbook for the Shanhaijing v4 iterative pipeline from working text
 3. `semantic-matcher`／`palaeo-geographer`：由 LLM 完成全部水體的真實世界映射，保留共享水體與歷史狀態，先交項目發起人確認。
 4. `civilization-scout`／`palaeo-geographer`：完成有年代、來源和對立候選的時代世界卡。
 5. `semantic-matcher`：在水體映射確認後，遮蔽生成競爭候選與語義擬合屬性；以未確認錨點初始化搜索，迭代校準後再形成地標共識。
+5a. `classic-adapter`／`atlas-renderer`：按 `classic-adaptation` runbook 為單個子經產出適配包——里程網格、逐實體映射、適配報告、逐句文檔與 SVG 地圖（工作範例：`xici3-*`）。
 6. `entity-extractor`：組成 KG v1，運行 `kg_validate.py`。
 7. `shj-lead`：重新生成五臧山經草稿，保留未決項。
 8. `entity-extractor`／`semantic-matcher`：補充 associative 和 deductive 屬性。
