@@ -1,6 +1,6 @@
 # Mythos 清理與方法決策記錄 / Cleanup and Method Decision Record
 
-> 狀態：D01–D28 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
+> 狀態：D01–D29 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
 
 ## 1. 清理結果 / Cleanup outcome
 
@@ -38,10 +38,11 @@
 | D26 | 開羅／吉薩可作未確認初始化錨點，從西次三經反向擬合；支持時加入多個錨點並在後續推理中校準、替換或否決 | 框架 R9、SHJ 規格、anchors 契約與 observer-frame |
 | D27 | 所有語義處理由 LLM 完成，代碼只做記憶與結構化處理；先由 LLM 完成全部水體映射並由發起人確認，再校準其他錨點。共享水體可跨山錨定，保留改道、消亡與性狀改變 | `water-mappings.jsonl`、`hydrology.history/formation`、全部相關規程 |
 | D28 | 明確語義指稱差異：昆侖之丘、昆侖、昆侖虛與西胡白玉山不自動合併；水體可分段、部分重合或歷史消失；吉薩聯動配置與阿特拉斯、撒哈拉之眼、乞力馬扎羅均為待審候選 | `semantic-referents.jsonl`、`water-hypotheses.jsonl`、ANC-01 聯動配置 |
+| D29 | 由 LLM 分組完成五臧山經全部山水首輪映射，代碼只按結構展開；452 水體、488 山體全部有獨立記錄，聚合類不虛構坐標 | `mapping-groups.jsonl`、`water-mappings.jsonl`、`mountain-mappings.jsonl`、`mapping-review.md` |
 
 ## 3. 目前工具與組織 / Current tools and roles
 
-現有工具：`fetch_sources`、`ingest`、`collate`、`align_witness`、`classify_variants`、`extract_routes`、`cn_numerals`、`era_frame`、`kg_build`、`kg_export_geography`、`kg_water_registry`、`kg_validate`。舊地圖工具已刪除，語義任務、交付與地圖工具只在相應資料契約可用後新增。
+現有工具：`fetch_sources`、`ingest`、`collate`、`align_witness`、`classify_variants`、`extract_routes`、`cn_numerals`、`era_frame`、`kg_build`、`kg_export_geography`、`kg_water_registry`、`kg_mapping_build`、`kg_mapping_review`、`kg_validate`。舊地圖工具已刪除，語義任務、交付與地圖工具只在相應資料契約可用後新增。
 
 保留 8 個 agent 與 10 個 skill 的名稱，按 v4 重寫職責。公共角色不包含 SHJ 固定答案；`shj-lead` 與 `shj-era-mapping` 只負責子項目編排並引用唯一規格。
 

@@ -50,4 +50,4 @@
 - 新五臧山經與後續經卷草稿尚未生成；`sites.jsonl` 與 `palaeo-coast.json` 尚未建立。
 - 新紅隊審查與地圖尚未執行。
 
-下一步：先由 LLM 完成 `data/derived/era/water-mappings.jsonl` 中全部 452 個水體的真實世界映射，並由項目發起人逐組確認；任何水體不得遺漏。每個映射須考慮改道、消亡、萎縮、沼澤化、人工運河遺址與性狀改變。已登記的吉薩聯動配置與弱水環狀運河假說仍待審核。水體映射確認後，才審核 `anchor-review.md` 並進行其他錨點的聯合校準。
+下一步：審核 `data/derived/review/mapping-review.md`。五臧山經全部 452 個水體與 488 個山體已有首輪 LLM 映射：935 個節點為 `proposed_pending_review`，5 個聚合類山體保持 `unresolved_aggregate`。所有候選仍須人工確認；吉薩聯動配置、弱水環狀運河假說、泰澤、岷山與洞庭等只作初始化候選。水體映射確認後，才進行其他錨點的聯合校準。
