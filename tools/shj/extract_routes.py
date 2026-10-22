@@ -25,6 +25,7 @@ RE_STATION = re.compile(rf"^(?P<again>又)?(?P<dir>{DIRS})(?P<leg>(?:[^，。曰
                         rf"(?:曰|至於|至|有)?(?P<name>[^，。；]+?)(?:[，。；]|$)")
 RE_FIRST = re.compile(r"之首.{0,12}?[，。]?其(?:首|名)曰(?P<name>[^，。；]+)|之首，?曰(?P<name2>[^，。；]+)")
 RE_LEG_PART = re.compile(rf"(?P<mode>水行|流沙|山行|陸行)?(?P<n>{NUM})里")
+RE_CONT = re.compile(rf"(?P<n>{NUM})里至於(?P<name>[^，。；]+)")
 RE_RIVER = re.compile(rf"(?P<river>[^，。；]{{1,8}}?之?水)出(?P<where>焉|於其[陽陰]|其[陽陰]|於其上|其上|於其下)?"
                       rf"[，]?而?(?P<dir>{DIRS})?流注?於(?P<to>[^，。；]+)")
 RE_CREATURE = re.compile(r"有(?P<kind>獸|鳥|魚|蛇|木|草|神|人)焉，(?P<desc>(?:(?!有[獸鳥魚蛇木草神人]焉).)*?)(?:其名曰|名曰)(?P<name>[^，。；]+)")
@@ -32,7 +33,7 @@ RE_SUMMARY = re.compile(rf"凡(?P<what>.+?)，?(?:自|起)?(?P<span>.*?)凡(?P<n
 
 
 def norm(t: str) -> str:
-    return t.translate(str.maketrans({"于": "於", "隂": "陰"}))
+    return t.translate(str.maketrans({"于": "於", "隂": "陰", "裏": "里"}))
 
 
 def parse_leg(leg: str):
@@ -95,6 +96,19 @@ def main():
         rec["creatures"] = [{"kind": c.group("kind"), "desc": c.group("desc").rstrip("，"), "name": c.group("name")}
                             for c in RE_CREATURE.finditer(t)]
         stations.append(rec)
+        if m:
+            cm = RE_CONT.search(t)
+            if cm:
+                seq[key] += 1
+                stations.append({"entry_id": e["id"], "book": e["book"], "section": e["section"],
+                                 "seq": seq[key], "reading_source": e["reading_source"],
+                                 "reading_status": e["reading_status"],
+                                 "bearing": rec["bearing"], "bearing_deg": rec["bearing_deg"],
+                                 "leg_raw": cm.group(0),
+                                 "leg_parts": [{"mode": "陸行(默認)", "li": cn(cm.group("n"))}],
+                                 "leg_li": cn(cm.group("n")), "name": cm.group("name"),
+                                 "continuation_of": rec["name"], "explicit_again": False,
+                                 "complex_leg": False, "rivers": [], "creatures": []})
 
     OUT.mkdir(parents=True, exist_ok=True)
     with (OUT / "stations.jsonl").open("w", encoding="utf-8") as handle:

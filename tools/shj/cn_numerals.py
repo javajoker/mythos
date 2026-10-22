@@ -12,6 +12,9 @@ def parse(s: str) -> int | None:
     """Parse a Chinese numeral string. Returns None if it contains non-numeral characters."""
     if not s or any(c not in NUMERAL_CHARS for c in s):
         return None
+    # Classical shorthand: 百 + bare digit between 百s reads as tens — 百二百 = 一百二十 = 120.
+    if len(s) == 3 and s[0] == "百" and s[1] in DIGITS and s[2] == "百":
+        return 100 + DIGITS[s[1]] * 10
     total, section, digit = 0, 0, None
     for c in s:
         if c in DIGITS:
@@ -28,6 +31,7 @@ def parse(s: str) -> int | None:
 
 if __name__ == "__main__":
     for s, want in [("三百八十里"[:-1], 380), ("百八十", 180), ("一萬七千五百一十七", 17517),
-                    ("二千九百五十", 2950), ("十", 10), ("十九", 19), ("四十", 40), ("三", 3)]:
+                    ("二千九百五十", 2950), ("十", 10), ("十九", 19), ("四十", 40), ("三", 3),
+                    ("百二百", 120)]:
         assert parse(s) == want, (s, parse(s), want)
     print("ok")
