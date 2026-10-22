@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Render the Xici-1 adaptation map as SVG.
+"""Render the Xici-1 adaptation map as SVG (v2).
 
-Data-driven from xici1-station-grid.jsonl (0.385 band). Basemap (Yellow
-River bend, Wei/Han rivers, Qinling, plateau lakes) is simplified示意
-geometry. All mappings proposed_pending_review. Built-in overflow audit.
+Data-driven from xici1-station-grid.jsonl (0.385 band, v2). Basemap
+(Yellow River first bend, Yangtze upper system, Yarlung, plateau lakes)
+is simplified示意 geometry. All mappings proposed_pending_review.
+Built-in overflow audit.
 """
 import json, math, os, re
 
@@ -20,18 +21,18 @@ for line in open(GRID):
     stations.append({"name": r["station"], "order": r["order"], "lat": g["lat"], "lon": g["lon"]})
 
 short = {
-    "錢來之山": "豫西—潼關丘陵", "松果之山": "潼關西·濩水注渭", "太華之山": "華山（削成四方·錨）",
-    "小華之山": "少華山方向·紅腹錦雞", "符禺之山": "秦嶺北麓·陽銅陰鐵", "石脆之山": "流赭（赭石獸醫）",
-    "英山": "箭竹帶·䰷魚", "竹山": "雙源·人魚＝大鯢·毫彘＝豪豬", "浮山": "薰草（香草民俗）",
-    "羭次之山": "神山·金絲猴候選", "時山": "裸山·水玉", "南山": "猛豹＝熊貓候選·丹砂",
-    "大時之山": "主脊分水（北渭南漢）", "嶓塚之山": "漢水源·犀兕熊羆·白翰赤鷩", "天帝之山": "杜衡藥草",
-    "塗途之山": "西南折點·桂木·礜石毒鼠", "黃山": "鸚鵡（人舌能言）·西注赤水", "翠山": "犛牛＋麝鹿",
-    "騩山": "巴顏喀拉·錞于西海（終點）",
+    "錢來之山": "成都平原西緣（東端）", "松果之山": "龍門山·濩水注渭", "太華之山": "邛崍山系花崗岩峰群",
+    "小華之山": "邛崍西段·紅腹錦雞", "符禺之山": "夾金山方向", "石脆之山": "大雪山東緣·流赭",
+    "英山": "大雪山系·箭竹", "竹山": "雙源·人魚＝大鯢·豪豬", "浮山": "薰草（香草民俗）",
+    "羭次之山": "神山·川金絲猴", "時山": "裸山·水玉", "南山": "橫斷山北段·猛豹＝熊貓候選",
+    "大時之山": "黃河—長江分水嶺", "嶓塚之山": "昌都方向·卡若文化帶", "天帝之山": "藏東·杜衡",
+    "塗途之山": "藏東南·西南折點", "黃山": "林芝方向·鸚鵡", "翠山": "藏東牧區·犛牛麝鹿",
+    "騩山": "念青唐古拉—納木錯東緣（終點）",
 }
 
-# ---- projection: lon 94..112, lat 30.5..37 ----
-LON0, LON1 = 94.0, 112.0
-LAT0, LAT1 = 30.5, 37.0
+# ---- projection: lon 88.5..105, lat 28..34.5 ----
+LON0, LON1 = 88.5, 105.0
+LAT0, LAT1 = 28.0, 34.5
 MX, MY = 60, 80
 MW, MH = 1000, 470
 PANEL_X = MX + MW + 30
@@ -58,56 +59,55 @@ def wrap_text(x, y, max_w, size, color, text, lh=None):
 
 S.append('<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">')
 S.append('<rect x="0" y="0" width="1700" height="900" fill="#f7f3e8"/>')
-S.append('<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker>'
-         '<pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>')
+S.append('<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker></defs>')
 
-S.append('<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《西山經之首》時代假想推理 × 現代映射參照圖</text>')
-S.append('<text x="60" y="56" font-size="12" fill="#666">adapt-xici1-1 ｜ 屬性錨：太華之山＝華山（削成四方；不依同名）｜ 里程鏈 0.385 km/里（±150 km）｜ 全部映射 proposed_pending_review</text>')
+S.append('<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《西山經之首》時代假想推理 × 現代映射參照圖 v2</text>')
+S.append('<text x="60" y="56" font-size="12" fill="#666">adapt-xici1-2 ｜ 錨點傳播鏈：開羅→西三→西二→本經（無獨立錨點）｜ 0.385 km/里（±150 km）｜ 全部映射 proposed_pending_review</text>')
 
 # ---- terrain shading ----
-S.append(f'<ellipse cx="{X(107.0):.0f}" cy="{Y(34.1):.0f}" rx="160" ry="26" fill="#c9b18a" opacity="0.45"/>')
-S.append(f'<text x="{X(106.3):.0f}" y="{Y(33.9):.0f}" font-size="11" fill="#7a6540">秦嶺主脊（簡化示意）</text>')
-S.append(f'<ellipse cx="{X(99.0):.0f}" cy="{Y(33.8):.0f}" rx="90" ry="22" fill="#c9b18a" opacity="0.4"/>')
-S.append(f'<text x="{X(98.35):.0f}" y="{Y(33.55):.0f}" font-size="10" fill="#7a6540">巴顏喀拉山</text>')
-S.append(f'<ellipse cx="{X(103.3):.0f}" cy="{Y(32.3):.0f}" rx="55" ry="30" fill="#c9b18a" opacity="0.35"/>')
-S.append(f'<text x="{X(102.8):.0f}" y="{Y(32.3):.0f}" font-size="10" fill="#7a6540">岷山</text>')
-S.append(f'<rect x="{X(94):.0f}" y="{Y(34.6):.0f}" width="{X(101.5)-X(94):.0f}" height="{Y(31.0)-Y(34.6):.0f}" fill="#e2d9c8" opacity="0.5"/>')
-S.append(f'<text x="{X(94.4):.0f}" y="{Y(31.5):.0f}" font-size="11" fill="#8a7d5f">川西高原—青藏高原東緣</text>')
-S.append(f'<rect x="{X(105.5):.0f}" y="{Y(35.3):.0f}" width="{X(110.6)-X(105.5):.0f}" height="{Y(34.5)-Y(35.3):.0f}" fill="#dce8cf" opacity="0.8"/>')
-S.append(f'<text x="{X(106.0):.0f}" y="{Y(35.05):.0f}" font-size="11" fill="#5a7a3a">關中平原（渭河谷）</text>')
+for name, cx, cy, rx, ry in [("巴顏喀拉（黃河—長江分水嶺）", 98.2, 33.9, 2.6, 0.45),
+                             ("橫斷山脈", 98.8, 31.0, 1.8, 1.1),
+                             ("邛崍山系", 102.5, 31.2, 0.8, 0.5),
+                             ("龍門山", 103.9, 31.6, 0.6, 0.5),
+                             ("念青唐古拉", 91.8, 30.5, 1.6, 0.4)]:
+    S.append(f'<ellipse cx="{X(cx):.0f}" cy="{Y(cy):.0f}" rx="{rx/16.5*MW:.0f}" ry="{ry/6.5*MH:.0f}" fill="#c9b18a" opacity="0.45"/>')
+    S.append(f'<text x="{X(cx)-26:.0f}" y="{Y(cy)+3:.0f}" font-size="10" fill="#7a6540">{name}</text>')
+S.append(f'<rect x="{X(103.9):.0f}" y="{Y(31.2):.0f}" width="{X(104.9)-X(103.9):.0f}" height="{Y(30.5)-Y(31.2):.0f}" fill="#dce8cf" opacity="0.8"/>')
+S.append(f'<text x="{X(104.0):.0f}" y="{Y(30.75):.0f}" font-size="10" fill="#5a7a3a">成都平原</text>')
+S.append(f'<rect x="{X(88.5):.0f}" y="{Y(31.5):.0f}" width="{X(97.5)-X(88.5):.0f}" height="{Y(28.0)-Y(31.5):.0f}" fill="#e2d9c8" opacity="0.45"/>')
+S.append(f'<text x="{X(89.0):.0f}" y="{Y(28.5):.0f}" font-size="11" fill="#8a7d5f">藏東—藏東南高原</text>')
 
-# ---- Qinghai Lake + source lakes ----
-S.append(f'<ellipse cx="{X(100.4):.0f}" cy="{Y(36.9):.0f}" rx="34" ry="14" fill="#9dc2dd" stroke="#7fa8c9"/>')
-S.append(f'<text x="{X(100.0):.0f}" y="{Y(36.62):.0f}" font-size="9" fill="#2f6d9e">青海湖（西海候選B·借名警示）</text>')
-S.append(f'<ellipse cx="{X(97.5):.0f}" cy="{Y(34.95):.0f}" rx="18" ry="8" fill="#9dc2dd" stroke="#5b97c4" stroke-dasharray="4 3"/>')
-S.append(f'<ellipse cx="{X(98.3):.0f}" cy="{Y(34.8):.0f}" rx="14" ry="7" fill="#9dc2dd" stroke="#5b97c4" stroke-dasharray="4 3"/>')
-S.append(f'<text x="{X(96.4):.0f}" y="{Y(34.5):.0f}" font-size="9" fill="#2f6d9e">扎陵湖—鄂陵湖（西海候選A·黃河源湖區）</text>')
+# ---- plateau lakes ----
+S.append(f'<ellipse cx="{X(90.6):.0f}" cy="{Y(30.7):.0f}" rx="16" ry="11" fill="#9dc2dd" stroke="#5b97c4"/>')
+S.append(f'<text x="{X(89.85):.0f}" y="{Y(30.35):.0f}" font-size="10" fill="#2f6d9e">納木錯（西海候選A）</text>')
+S.append(f'<ellipse cx="{X(88.9):.0f}" cy="{Y(31.8):.0f}" rx="15" ry="8" fill="#9dc2dd" stroke="#7fa8c9" stroke-dasharray="4 3"/>')
+S.append(f'<text x="{X(88.55):.0f}" y="{Y(32.1):.0f}" font-size="9" fill="#2f6d9e">色林錯（候選B）</text>')
 
 # ---- rivers (modern reference) ----
-yellow = [(97.6,34.95),(99.0,35.2),(100.5,35.6),(101.8,35.9),(103.0,36.0),(103.8,36.1),(104.6,36.4)]
+yellow = [(96.2,34.05),(98.0,34.2),(99.8,34.35),(101.3,34.2),(102.6,33.9),(103.4,33.5),(102.9,33.15),(101.9,32.95),(100.9,33.05)]
 S.append(f'<polyline points="{pts(yellow)}" fill="none" stroke="#c89a2e" stroke-width="2.4"/>')
-jinshan = [(110.9,37.0),(110.8,36.3),(110.6,35.6),(110.5,35.0),(110.55,34.65),(111.0,34.75),(111.6,34.85)]
-S.append(f'<polyline points="{pts(jinshan)}" fill="none" stroke="#c89a2e" stroke-width="2.4"/>')
-S.append(f'<text x="{X(101.0):.0f}" y="{Y(36.25):.0f}" font-size="10" fill="#a07d1e">黃河（河曲段）</text>')
-S.append(f'<text x="{X(110.75):.0f}" y="{Y(35.8):.0f}" font-size="9" fill="#a07d1e">黃河（晉陝峽谷段）</text>')
-wei = [(104.2,34.75),(105.5,34.7),(106.8,34.55),(108.0,34.5),(109.2,34.45),(110.2,34.5),(110.55,34.62)]
-S.append(f'<polyline points="{pts(wei)}" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>')
-S.append(f'<text x="{X(106.6):.0f}" y="{Y(34.75):.0f}" font-size="10" fill="#2f7fbf">渭河（渭——北麓七溪北注）</text>')
-han = [(104.4,33.7),(105.6,33.3),(106.8,33.0),(107.9,32.8),(109.0,32.6),(110.3,32.4)]
-S.append(f'<polyline points="{pts(han)}" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>')
-S.append(f'<text x="{X(106.5):.0f}" y="{Y(32.75):.0f}" font-size="10" fill="#2f7fbf">漢江（漢水—沔）</text>')
-luo = [(109.9,35.6),(110.1,35.1),(110.3,34.8),(110.55,34.66)]
-S.append(f'<polyline points="{pts(luo)}" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>')
-S.append(f'<text x="{X(110.05):.0f}" y="{Y(35.3):.0f}" font-size="9" fill="#2f7fbf">洛河</text>')
-jialing = [(105.8,33.9),(105.6,33.2),(105.5,32.5),(105.9,31.6),(106.3,31.0)]
-S.append(f'<polyline points="{pts(jialing)}" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>')
-S.append(f'<text x="{X(105.1):.0f}" y="{Y(32.6):.0f}" font-size="9" fill="#2f7fbf">嘉陵江</text>')
-min = [(103.8,33.3),(103.6,32.5),(103.6,31.7),(103.9,31.0)]
-S.append(f'<polyline points="{pts(min)}" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>')
-S.append(f'<text x="{X(103.15):.0f}" y="{Y(31.9):.0f}" font-size="9" fill="#2f7fbf">岷江</text>')
-# period hypothesis: 赤水 (dashed red, W Sichuan)
-S.append(f'<polyline points="{pts([(100.3,33.4),(99.9,33.2),(99.5,33.0),(99.2,32.8)])}" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="7 4"/>')
-S.append(f'<text x="{X(99.0):.0f}" y="{Y(32.55):.0f}" font-size="9" fill="#c0392b">赤水（川西·同名異水待裁）</text>')
+S.append(f'<text x="{X(98.6):.0f}" y="{Y(34.42):.0f}" font-size="10" fill="#a07d1e">黃河上游河曲（渭候選）</text>')
+for nm, ln in [("白河", [(101.3,32.3),(101.5,32.9),(101.95,32.97)]), ("黑河", [(102.2,32.5),(102.5,33.2)])]:
+    S.append(f'<polyline points="{pts(ln)}" fill="none" stroke="#c89a2e" stroke-width="1.2"/>')
+S.append(f'<text x="{X(101.35):.0f}" y="{Y(32.55):.0f}" font-size="8" fill="#a07d1e">白河/黑河（北注渭格局）</text>')
+rivers = [
+    ("岷江（沔候選方向）", [(103.6,32.6),(103.75,31.9),(103.9,31.3),(104.0,30.7)]),
+    ("大渡河（漢水候選方向）", [(97.4,32.2),(98.9,31.6),(100.2,30.9),(101.4,30.1),(102.3,29.55)]),
+    ("雅礱江", [(98.2,32.0),(98.9,30.9),(99.6,29.8),(100.2,28.9)]),
+    ("金沙江", [(97.3,31.2),(97.25,30.0),(97.6,29.0),(98.6,28.55)]),
+    ("雅魯藏布江（赤水候選）", [(90.2,29.75),(91.5,29.55),(92.8,29.45),(94.0,29.35),(95.2,29.35),(95.9,29.55)]),
+    ("尼洋河（盼水方向）", [(94.35,29.95),(93.8,29.75),(93.3,29.55),(93.0,29.5)]),
+]
+for name, line in rivers:
+    S.append(f'<polyline points="{pts(line)}" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>')
+S.append(f'<text x="{X(103.35):.0f}" y="{Y(31.6):.0f}" font-size="9" fill="#2f7fbf">岷江（沔候選）</text>')
+S.append(f'<text x="{X(99.2):.0f}" y="{Y(30.55):.0f}" font-size="9" fill="#2f7fbf">大渡河（漢水候選）</text>')
+S.append(f'<text x="{X(90.4):.0f}" y="{Y(29.45):.0f}" font-size="9" fill="#2f7fbf">雅魯藏布江（赤水候選）</text>')
+
+# ---- xici2 adjacency marker ----
+qx, qy = X(90.0), Y(29.5)
+S.append(f'<circle cx="{qx:.0f}" cy="{qy:.0f}" r="7" fill="none" stroke="#8e44ad" stroke-width="1.8" stroke-dasharray="3 3"/>')
+S.append(f'<text x="{qx-60:.0f}" y="{qy+22:.0f}" font-size="9" fill="#8e44ad">鈐山（西次二經 v2 起點·相鄰）</text>')
 
 # ---- route chain ----
 route = [(s["lon"], s["lat"]) for s in stations]
@@ -119,22 +119,22 @@ for i, s in enumerate(stations):
     S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{"#e74c3c" if anchor else "#c0392b"}" stroke="#fff" stroke-width="1.5"/>')
     S.append(f'<text x="{x-4:.0f}" y="{y+4:.0f}" font-size="9" fill="#fff" font-weight="bold">{s["order"]}</text>')
     dy = -11 if i % 2 == 0 else 16
-    dx = -22 if anchor else -18
+    dx = -26 if anchor else -18
     if anchor:
         dy = -20
     S.append(f'<text x="{x+dx:.0f}" y="{y+dy:.0f}" font-size="10" fill="#7b241c" font-weight="bold">{s["name"]}</text>')
 
 # ---- modern reference points ----
-modern = [("西安", 108.94, 34.27), ("華山", 110.09, 34.5), ("寶雞", 107.24, 34.36), ("漢中", 107.02, 33.07),
-          ("蘭州", 103.83, 36.06), ("西寧", 101.77, 36.62), ("成都", 104.07, 30.65)]
+modern = [("成都", 104.07, 30.65), ("拉薩", 91.11, 29.65), ("昌都（卡若）", 97.17, 31.14),
+          ("汶川", 103.59, 31.48), ("四姑娘山", 102.83, 31.11), ("貢嘎山", 101.88, 29.6)]
 for name, lo, la in modern:
     x, y = X(lo), Y(la)
     S.append(f'<rect x="{x-3:.0f}" y="{y-3:.0f}" width="6" height="6" fill="#34495e"/>')
     S.append(f'<text x="{x+5:.0f}" y="{y-4:.0f}" font-size="9" fill="#34495e">{name}</text>')
 
-# ---- scale bar (1°lon≈92km @34.5°N; px/deg = MW/18) ----
-bx, by = X(94.4), Y(31.0)
-px100 = 100 / 92.0 * (MW / 18)
+# ---- scale bar (1°lon≈97km @31.5°N; px/deg = MW/16.5) ----
+bx, by = X(88.9), Y(28.5)
+px100 = 100 / 97.0 * (MW / 16.5)
 S.append(f'<line x1="{bx:.0f}" y1="{by:.0f}" x2="{bx + 4*px100:.0f}" y2="{by:.0f}" stroke="#333" stroke-width="2"/>')
 for k in range(5):
     S.append(f'<line x1="{bx + k*px100:.0f}" y1="{by-4:.0f}" x2="{bx + k*px100:.0f}" y2="{by+4:.0f}" stroke="#333" stroke-width="1.5"/>')
@@ -142,10 +142,10 @@ for k in range(5):
 S.append(f'<text x="{bx + 4*px100 + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>')
 
 # ---- grid ----
-for lon in range(96, 112, 4):
+for lon in range(90, 106, 2):
     S.append(f'<line x1="{X(lon):.0f}" y1="{Y(LAT0):.0f}" x2="{X(lon):.0f}" y2="{Y(LAT1):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
     S.append(f'<text x="{X(lon)-8:.0f}" y="{Y(LAT0)+14:.0f}" font-size="9" fill="#999">{lon}°E</text>')
-for lat in range(31, 37):
+for lat in range(29, 35):
     S.append(f'<line x1="{X(LON0):.0f}" y1="{Y(lat):.0f}" x2="{X(LON1):.0f}" y2="{Y(lat):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
     S.append(f'<text x="{X(LON0)-26:.0f}" y="{Y(lat)+3:.0f}" font-size="9" fill="#999">{lat}°N</text>')
 
@@ -154,13 +154,13 @@ px = PANEL_X
 S.append(f'<rect x="{px-12}" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>')
 S.append(f'<text x="{px}" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>')
 legend = [
-    ("#c0392b", "solid", "里程鏈（19站，紅圈數字＝站序；幾乎純西向）"),
-    ("#e74c3c", "star", "大圈＝屬性錨：太華之山＝華山"),
-    ("#2f7fbf", "solid", "現代水體參照（渭/漢/洛/嘉陵/岷江）"),
-    ("#c89a2e", "solid", "黃河（現代參照）"),
-    ("#5b97c4", "dash", "西海候選A：黃河源湖區（扎陵—鄂陵）"),
-    ("#c0392b", "dash", "時代假想：赤水（川西·同名待裁）"),
-    ("#c9b18a", "sq", "秦嶺/巴顏喀拉/岷山（簡化示意）"),
+    ("#c0392b", "solid", "里程鏈（19站；成都平原西緣→納木錯）"),
+    ("#e74c3c", "star", "大圈＝太華之山（屬性 corroborate，非獨立錨）"),
+    ("#2f7fbf", "solid", "現代水體參照（長江上游系/雅魯藏布/湖泊）"),
+    ("#c89a2e", "solid", "黃河上游河曲（渭候選）"),
+    ("#5b97c4", "solid", "納木錯＝西海候選A"),
+    ("#8e44ad", "dash", "鈐山（西次二經 v2 起點——兩經相鄰）"),
+    ("#c9b18a", "sq", "山系（簡化示意）"),
     ("#34495e", "sq", "現代地點參照點"),
 ]
 ly = 118
@@ -168,7 +168,7 @@ for color, style, label in legend:
     if style == "solid":
         S.append(f'<line x1="{px}" y1="{ly}" x2="{px+26}" y2="{ly}" stroke="{color}" stroke-width="2.5"/>')
     elif style == "dash":
-        S.append(f'<line x1="{px}" y1="{ly}" x2="{px+26}" y2="{ly}" stroke="{color}" stroke-width="2" stroke-dasharray="6 4"/>')
+        S.append(f'<circle cx="{px+13}" cy="{ly}" r="9" fill="none" stroke="{color}" stroke-width="1.6" stroke-dasharray="3 3"/>')
     elif style == "sq":
         S.append(f'<rect x="{px+8}" y="{ly-5}" width="8" height="8" fill="{color}"/>')
     elif style == "star":
@@ -177,9 +177,9 @@ for color, style, label in legend:
     ly += 22
 
 ly += 8
-ly = wrap_text(px, ly, 500, 10, "#666", "借名警示：本經為後世中國地理命名的最大借名輸出端（太華/渭/洛/漢/沔/嶓塚/南山/黃山/西海）——後世借名方向，不得以同名反證；映射僅依屬性＋里程。")
-ly = wrap_text(px, ly + 4, 500, 10, "#666", "生態鏈證據：箭竹（7/8/17/18站）→猛豹/熊羆＝熊貓候選（12/14站）→旄牛麝鹿（18站高原動物群）→騩山臨西海——自關中向高原的生態梯度。")
-ly = wrap_text(px, ly + 4, 500, 10, "#666", "三星堆（成都平原31°N）不在本經鏈條上（全程≥33.5°N）——建議留待中山經適配校準（F-0006）。")
+ly = wrap_text(px, ly, 500, 10, "#666", "錨點傳播鏈（發起人裁定）：開羅（吉薩）→西次三經→西次二經→本經；本經無獨立錨點。鏈位＝傳播鄰接（騩山≈91°E 與鈐山 90°E 相鄰）＋屬性 corroborate（太華削成四方＝邛崍山系；騩山錞于西海＝納木錯）。")
+ly = wrap_text(px, ly + 4, 500, 10, "#666", "借名純化：華山/渭/洛/漢/沔/嶓塚/南山/黃山/西海全部同名脫鉤——文本地理實為川西—藏東，後世以文本名命名陝西地理（因果倒置最純粹案例，不依名反證）。")
+ly = wrap_text(px, ly + 4, 500, 10, "#666", "時代文明：卡若文化（昌都，5000–4000BP，窗口內）與嶓塚之山鏈位同域；三星堆不納入本經（交中山經校準）。")
 
 S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">19 站 → 現實候選（審核中）</text>')
 ty = ly + 38
@@ -189,9 +189,9 @@ for s in stations:
 
 # ---- footer ----
 fy = wrap_text(60, Y(LAT0) + 40, MW, 11, "#666",
-    "推理說明：自錢來之山（潼關方向）沿秦嶺北麓西行——北麓七溪北注渭；竹山雙源（北渭/東南洛）；大時之山主脊分水（北渭南漢）；嶓塚漢水源；塗途之山西南折入川西高原（水系轉西南）；經黃山（鸚鵡）、翠山（犛牛麝鹿）至騩山——錞于西海（黃河源湖區候選A／青海湖候選B）。")
+    "推理說明：自錢來之山（成都平原西緣）沿川西高原—橫斷山北段西行——七溪北注渭（黃河河曲方向）；大時之山黃河—長江分水（巴顏喀拉）；嶓塚漢水源（昌都·卡若文化帶）；塗途西南折入藏東南；經黃山（鸚鵡北緣）、翠山（犛牛麝鹿）至騩山——錞于西海（納木錯候選A／色林錯候選B）。")
 fy = wrap_text(60, fy + 6, MW, 11, "#666",
-    "腿程 3,045 里≈1,172 km（0.385；原文自記 2,957 里，+3.0%）。太華—騩山淨位移擬合約 95%。所有對應為競爭假說，時代窗口 4000–1000 BCE；犀牛溫暖期北界、竹林北界、大鯢均為後期退出記錄。")
+    "腿程 3,045 里≈1,172 km（0.385；原文自記 2,957 里）。太華—騩山淨位移擬合約 94%；騩山鏈位與納木錯幾乎重合；騩山與鈐山（西次二經 v2 起點）相距約 140 km——兩經端點相鄰。所有對應為競爭假說，時代窗口 4000–1000 BCE。")
 
 S.append('</svg>')
 svg = "\n".join(S)
