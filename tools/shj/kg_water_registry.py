@@ -36,26 +36,37 @@ def main():
         for hypothesis in read_jsonl(HYPOTHESES):
             hypotheses[hypothesis["entity"]] = hypothesis["hypotheses"]
 
+    existing = {}
+    existing_path = OUT / "water-mappings.jsonl"
+    if existing_path.exists():
+        existing = {row["entity"]: row for row in read_jsonl(existing_path)}
+
     records = []
     for water_id, node in sorted(waters.items()):
+        previous = existing.get(water_id, {})
         records.append({
             "entity": water_id,
             "canonical_name": node["canonical_name"],
             "mentions": node["names"],
-            "mapping_status": "pending",
-            "candidates": [],
-            "historical_states": [],
-            "initiator_hypotheses": hypotheses.get(water_id, []),
+            "mapping_status": previous.get("mapping_status", "pending"),
+            "candidates": previous.get("candidates", []),
+            "historical_states": previous.get("historical_states", []),
+            "initiator_hypotheses": hypotheses.get(water_id, previous.get("initiator_hypotheses", [])),
             "shared_mountains": sorted(shared_mountains[water_id]),
             "relation_ids": sorted(relation_ids[water_id]),
-            "review": {"status": "pending", "reviewer": None, "decision": None},
+            "mapping_group": previous.get("mapping_group"),
+            "reason": previous.get("reason"),
+            "evidence_entries": previous.get("evidence_entries", []),
+            "review": previous.get("review", {"status": "pending", "reviewer": None, "decision": None}),
         })
     OUT.mkdir(parents=True, exist_ok=True)
     with (OUT / "water-mappings.jsonl").open("w", encoding="utf-8") as handle:
         for record in records:
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
     shared = sum(bool(record["shared_mountains"]) for record in records)
-    summary = {"water_nodes": len(records), "pending_mappings": len(records),
+    summary = {"water_nodes": len(records),
+               "pending_mappings": sum(record["mapping_status"] == "pending" for record in records),
+               "proposed_pending_review": sum(record["mapping_status"] == "proposed_pending_review" for record in records),
                "waters_with_initiator_hypotheses": sum(bool(record["initiator_hypotheses"]) for record in records),
                "waters_with_mountain_relations": shared,
                "waters_shared_by_multiple_mountains": sum(len(record["shared_mountains"]) > 1 for record in records)}
