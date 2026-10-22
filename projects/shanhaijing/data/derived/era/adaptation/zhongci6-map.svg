@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次六經》時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-zhongci6-1 ｜ 起點拓撲錨：平逢之山（南望伊洛＋東望穀城——借名不作證）｜ 全鏈＝穀水/洛河分水嶺西向鏈 ｜ 全部映射 proposed_pending_review</text>
+<polyline points="-2828.9,302.6 -2495.6,352.1 -2162.2,203.7 -1940.0,55.3 -1651.1,-18.9 -1384.4,-56.1 -1206.7,-68.4 -1073.3,-167.4 -940.0,-365.3 -806.7,-513.7 -673.3,-662.1 -517.8,-810.5 -406.7,-958.9 -184.4,-1107.4 60.0,-1156.8 260.0,-1156.8 415.6,-1107.4 526.7,-1033.2 526.7,-860.0 460.0,-662.1 371.1,-439.5 326.7,-216.8 293.3,5.8 282.2,203.7 293.3,302.6 393.3,277.9 571.1,253.2 793.3,240.8 993.3,228.4 1193.3,203.7 1393.3,129.5 1571.1,55.3 1726.7,-117.9 1860.0,-291.1 1993.3,-390.0 2126.7,-439.5" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
+<text x="727" y="142" font-size="10" fill="#a07d1e">黃河（現代參照）</text>
+<polyline points="-1117.8,265.5 -828.9,277.9 -540.0,315.0 -273.3,327.4 -6.7,339.7 215.6,327.4 293.3,297.7" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="-584" y="273" font-size="9" fill="#2f7fbf">渭河</text>
+<polyline points="193.3,426.3 371.1,389.2 526.7,352.1 682.2,315.0 815.6,297.7 926.7,282.8" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="460" y="414" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
+<polyline points="460.0,500.5 571.1,426.3 693.3,339.7 793.3,302.6" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="504" y="476" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
+<polyline points="704.4,-612.6 593.3,-414.7 504.4,-216.8 437.8,-68.4 371.1,55.3 326.7,166.6" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="527" y="-341" font-size="9" fill="#2f7fbf">汾河（汾水——借名標記）</text>
+<ellipse cx="393" cy="352" rx="222" ry="87" fill="#c9b18a" opacity="0.4"/>
+<text x="369" y="355" font-size="10" fill="#7a6540">崤山</text>
+<ellipse cx="593" cy="501" rx="178" ry="99" fill="#c9b18a" opacity="0.4"/>
+<text x="569" y="504" font-size="10" fill="#7a6540">伏牛山</text>
+<polyline points="737.8,297.7 728.9,297.7 720.0,297.7 691.1,297.7 662.2,297.7 626.7,297.7 580.0,297.7 511.1,297.7 417.8,297.7 286.7,297.7 240.0,297.7 157.8,297.7 73.3,297.7 -11.1,297.7" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="738" cy="298" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="734" y="302" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="720" y="278" font-size="10" fill="#7b241c" font-weight="bold">平逢之山</text>
+<circle cx="729" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="725" y="302" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="711" y="314" font-size="10" fill="#7b241c" font-weight="bold">縞羝之山</text>
+<circle cx="720" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="716" y="302" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="702" y="287" font-size="10" fill="#7b241c" font-weight="bold">廆山</text>
+<circle cx="691" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="687" y="302" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="673" y="314" font-size="10" fill="#7b241c" font-weight="bold">瞻諸之山</text>
+<circle cx="662" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="658" y="302" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="644" y="287" font-size="10" fill="#7b241c" font-weight="bold">婁涿之山</text>
+<circle cx="627" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="623" y="302" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="609" y="314" font-size="10" fill="#7b241c" font-weight="bold">白石之山</text>
+<circle cx="580" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="576" y="302" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="562" y="287" font-size="10" fill="#7b241c" font-weight="bold">榖山</text>
+<circle cx="511" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="507" y="302" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="493" y="314" font-size="10" fill="#7b241c" font-weight="bold">密山</text>
+<circle cx="418" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="414" y="302" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="400" y="287" font-size="10" fill="#7b241c" font-weight="bold">長石之山</text>
+<circle cx="287" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="283" y="302" font-size="9" fill="#fff" font-weight="bold">10</text>
+<text x="269" y="314" font-size="10" fill="#7b241c" font-weight="bold">傅山</text>
+<circle cx="240" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="236" y="302" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="222" y="287" font-size="10" fill="#7b241c" font-weight="bold">橐山</text>
+<circle cx="158" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="154" y="302" font-size="9" fill="#fff" font-weight="bold">12</text>
+<text x="140" y="314" font-size="10" fill="#7b241c" font-weight="bold">常烝之山</text>
+<circle cx="73" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="69" y="302" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="55" y="287" font-size="10" fill="#7b241c" font-weight="bold">夸父之山</text>
+<circle cx="-11" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="-15" y="302" font-size="9" fill="#fff" font-weight="bold">14</text>
+<text x="-29" y="314" font-size="10" fill="#7b241c" font-weight="bold">陽華之山</text>
+<text x="349" y="451" font-size="9" fill="#8e44ad">雙受水：南坡→洛｜北坡→穀水/河（穀水/洛河分水嶺）</text>
+<text x="704" y="266" font-size="9" fill="#7a6540">蜂蜜之廬（養蜂風物·雄雞穰祭）</text>
+<text x="238" y="266" font-size="9" fill="#a07d1e">桃林廣員三百里多馬（黃土塬牧場）</text>
+<rect x="713" y="295" width="6" height="6" fill="#34495e"/>
+<text x="721" y="294" font-size="9" fill="#34495e">洛陽</text>
+<rect x="435" y="258" width="6" height="6" fill="#34495e"/>
+<text x="443" y="257" font-size="9" fill="#34495e">三門峽</text>
+<rect x="361" y="319" width="6" height="6" fill="#34495e"/>
+<text x="369" y="318" font-size="9" fill="#34495e">靈寶</text>
+<rect x="224" y="307" width="6" height="6" fill="#34495e"/>
+<text x="232" y="306" font-size="9" fill="#34495e">潼關</text>
+<line x1="149" y1="426" x2="1119" y2="426" stroke="#333" stroke-width="2"/>
+<line x1="149" y1="422" x2="149" y2="430" stroke="#333" stroke-width="1.5"/>
+<text x="141" y="442" font-size="9" fill="#333">0</text>
+<line x1="391" y1="422" x2="391" y2="430" stroke="#333" stroke-width="1.5"/>
+<text x="383" y="442" font-size="9" fill="#333">100</text>
+<line x1="634" y1="422" x2="634" y2="430" stroke="#333" stroke-width="1.5"/>
+<text x="626" y="442" font-size="9" fill="#333">200</text>
+<line x1="876" y1="422" x2="876" y2="430" stroke="#333" stroke-width="1.5"/>
+<text x="868" y="442" font-size="9" fill="#333">300</text>
+<line x1="1119" y1="422" x2="1119" y2="430" stroke="#333" stroke-width="1.5"/>
+<text x="1111" y="442" font-size="9" fill="#333">400</text>
+<text x="1127" y="430" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="171" y1="550" x2="171" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="163" y="564" font-size="9" fill="#999">110°E</text>
+<line x1="616" y1="550" x2="616" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="608" y="564" font-size="9" fill="#999">112°E</text>
+<line x1="60" y1="451" x2="1060" y2="451" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="454" font-size="9" fill="#999">34°N</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（14站；洛陽盆地西緣→豫陝界）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝起點拓撲錨（平逢之山）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#c89a2e" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">黃河（現代參照）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">洛/伊河（現代參照；借名標記）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#c9b18a"/>
+<text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：平逢之山（南望伊洛＋東望穀城）＋穀水/洛河雙受水——不依穀城/澗水同名（借名標記）。</text>
+<text x="1090" y="276" font-size="10" fill="#666">人魚＝大鯢（傅山/陽華两見）；旋龜＝鳥首鼈尾龜類神話；鳴石＝聲學礦物。</text>
+<text x="1090" y="295" font-size="10" fill="#666">「嶽在其中，以六月祭之，如諸嶽之祠法」——岳祭記錄。</text>
+<text x="1090" y="329.5" font-size="14" font-weight="bold" fill="#333">14 站 → 現實候選（審核中）</text>
+<text x="1090" y="352" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 平逢之山</tspan>　→ 洛陽盆地西緣·蜂蜜之廬（起點錨）</text>
+<text x="1090" y="373" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 縞羝之山</tspan>　→ 洛陽西·金玉（系名山）</text>
+<text x="1090" y="394" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 廆山</tspan>　→ 洛陽西·雙源分水（南洛北穀）</text>
+<text x="1090" y="415" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 瞻諸之山</tspan>　→ 洛陽西·雙源分水</text>
+<text x="1090" y="436" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 婁涿之山</tspan>　→ 宜陽方向·雙源（茈石文石）</text>
+<text x="1090" y="457" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 白石之山</tspan>　→ 宜陽方向·雙源（水玉/櫨丹）</text>
+<text x="1090" y="479" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 榖山</tspan>　→ 新安方向·榖桑（蠶桑）</text>
+<text x="1090" y="500" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 密山</tspan>　→ 宜陽—洛寧·旋龜</text>
+<text x="1090" y="521" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 長石之山</tspan>　→ 洛寧方向·鳴石（聲學礦物）</text>
+<text x="1090" y="542" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 傅山</tspan>　→ 盧氏方向·穀水源頭＋人魚</text>
+<text x="1090" y="564" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 橐山</tspan>　→ 靈寶東·北注河（轉換點）</text>
+<text x="1090" y="585" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 常烝之山</tspan>　→ 靈寶方向·雙源北注河</text>
+<text x="1090" y="606" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 夸父之山</tspan>　→ 靈寶—潼關·桃林多馬（借名）</text>
+<text x="1090" y="627" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 陽華之山</tspan>　→ 豫陝界—潼關·雙源終點（人魚/銅）</text>
+<text x="60" y="590" font-size="11" fill="#666">推理說明：自平逢之山（洛陽盆地西緣；南望伊洛＋東望穀城——拓撲錨，不依穀城同名）沿穀水/洛河分水嶺西行——廆/瞻諸/婁涿/白石四站雙源（南洛北穀）→傅山穀水源頭（東流注洛）→橐山以西受水體轉</text>
+<text x="60" y="606" font-size="11" fill="#666">黃河→陽華之山雙源終點（豫陝界—潼關方向）。</text>
+<text x="60" y="628" font-size="11" fill="#666">腿程 802 里≈309 km（0.385）vs 自記 790 里（層累 variant）；實距參照約 210 km——層累倍數≈1.47×。人魚＝大鯢兩見；鳴石＝聲學礦物；「嶽在其中」六月岳祭。所有對應為競爭假說，時代窗口</text>
+<text x="60" y="644" font-size="11" fill="#666"> 4000–1000 BCE。</text>
+</svg>

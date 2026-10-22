@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次三經》（萯山之首）時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-zhongci3-1 ｜ 終點拓撲錨：和山＝河之九都（九水合流北注河的五曲港山，鞏義河洛交匯方向）｜ 黃河南岸微型鏈 ｜ 全部映射 proposed_pending_review</text>
+<polyline points="-2250.3,409.0 -1991.7,503.0 -1733.1,221.0 -1560.7,-61.0 -1336.6,-202.0 -1129.7,-272.5 -991.7,-296.0 -888.3,-484.0 -784.8,-860.0 -681.4,-1142.0 -577.9,-1424.0 -457.2,-1706.0 -371.0,-1988.0 -198.6,-2270.0 -9.0,-2364.0 146.2,-2364.0 266.9,-2270.0 353.1,-2129.0 353.1,-1800.0 301.4,-1424.0 232.4,-1001.0 197.9,-578.0 172.1,-155.0 163.4,221.0 172.1,409.0 249.7,362.0 387.6,315.0 560.0,291.5 715.2,268.0 870.3,221.0 1025.5,80.0 1163.4,-61.0 1284.1,-390.0 1387.6,-719.0 1491.0,-907.0 1594.5,-1001.0" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
+<text x="508" y="103" font-size="10" fill="#a07d1e">黃河（現代參照）</text>
+<polyline points="-922.8,338.5 -698.6,362.0 -474.5,432.5 -267.6,456.0 -60.7,479.5 111.7,456.0 172.1,399.6" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="-509" y="353" font-size="9" fill="#2f7fbf">渭河</text>
+<polyline points="94.5,644.0 232.4,573.5 353.1,503.0 473.8,432.5 577.2,399.6 663.4,371.4" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="301" y="620" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
+<polyline points="301.4,785.0 387.6,644.0 482.4,479.5 560.0,409.0" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="336" y="738" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
+<polyline points="491.0,-1330.0 404.8,-954.0 335.9,-578.0 284.1,-296.0 232.4,-61.0 197.9,150.5" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="353" y="-813" font-size="9" fill="#2f7fbf">汾河（汾水——借名標記）</text>
+<ellipse cx="560" cy="324" rx="86" ry="70" fill="#c9b18a" opacity="0.4"/>
+<text x="536" y="327" font-size="10" fill="#7a6540">邙山</text>
+<polyline points="535.9,291.5 542.8,291.5 551.4,291.5 580.7,291.5 594.5,291.5" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="536" cy="291" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="532" y="295" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="518" y="280" font-size="10" fill="#7b241c" font-weight="bold">敖岸之山</text>
+<circle cx="543" cy="291" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="539" y="295" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="525" y="307" font-size="10" fill="#7b241c" font-weight="bold">青要之山</text>
+<circle cx="551" cy="291" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="547" y="295" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="533" y="280" font-size="10" fill="#7b241c" font-weight="bold">騩山</text>
+<circle cx="581" cy="291" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="577" y="295" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="563" y="307" font-size="10" fill="#7b241c" font-weight="bold">宜蘇之山</text>
+<circle cx="594" cy="291" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="590" y="295" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="576" y="271" font-size="10" fill="#7b241c" font-weight="bold">和山</text>
+<text x="526" y="244" font-size="9" fill="#8e44ad">九水合流北注河——「河之九都」五曲港山</text>
+<text x="474" y="362" font-size="9" fill="#7a6540">帝之密都·鯀化墠渚（神話層）</text>
+<rect x="497" y="397" width="6" height="6" fill="#34495e"/>
+<text x="505" y="396" font-size="9" fill="#34495e">洛陽</text>
+<rect x="588" y="335" width="6" height="6" fill="#34495e"/>
+<text x="596" y="334" font-size="9" fill="#34495e">鞏義</text>
+<rect x="497" y="303" width="6" height="6" fill="#34495e"/>
+<text x="505" y="302" font-size="9" fill="#34495e">孟津</text>
+<line x1="129" y1="315" x2="884" y2="315" stroke="#333" stroke-width="2"/>
+<line x1="129" y1="311" x2="129" y2="319" stroke="#333" stroke-width="1.5"/>
+<text x="121" y="331" font-size="9" fill="#333">0</text>
+<line x1="318" y1="311" x2="318" y2="319" stroke="#333" stroke-width="1.5"/>
+<text x="310" y="331" font-size="9" fill="#333">100</text>
+<line x1="506" y1="311" x2="506" y2="319" stroke="#333" stroke-width="1.5"/>
+<text x="498" y="331" font-size="9" fill="#333">200</text>
+<line x1="695" y1="311" x2="695" y2="319" stroke="#333" stroke-width="1.5"/>
+<text x="687" y="331" font-size="9" fill="#333">300</text>
+<line x1="884" y1="311" x2="884" y2="319" stroke="#333" stroke-width="1.5"/>
+<text x="876" y="331" font-size="9" fill="#333">400</text>
+<text x="892" y="319" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="77" y1="550" x2="77" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="69" y="564" font-size="9" fill="#999">110°E</text>
+<line x1="422" y1="550" x2="422" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="414" y="564" font-size="9" fill="#999">112°E</text>
+<line x1="767" y1="550" x2="767" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="759" y="564" font-size="9" fill="#999">114°E</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（5站；洛陽北→鞏義方向）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝終點拓撲錨（和山·河之九都）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#c89a2e" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">黃河（現代參照）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">洛/伊河（現代參照；借名標記）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#c9b18a"/>
+<text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：和山＝九水合流北注大河的五曲港山（河之九都）。</text>
+<text x="1090" y="276" font-size="10" fill="#666">里程自記440 vs 腿程80——5.5×為全書最大層累 variant 之一（F-0008）。</text>
+<text x="1090" y="295" font-size="10" fill="#666">武羅＝人面豹文細腰白齒穿耳戴鐲——紋身人物風物記錄（人文風物證據類）。</text>
+<text x="1090" y="329.5" font-size="14" font-weight="bold" fill="#333">5 站 → 現實候選（審核中）</text>
+<text x="1090" y="352" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 敖岸之山</tspan>　→ 洛陽北·北望河林·夫諸</text>
+<text x="1090" y="373" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 青要之山</tspan>　→ 帝之密都·鯀化墠渚·武羅</text>
+<text x="1090" y="394" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 騩山</tspan>　→ 孟津方向·美棗·飛魚（同名標記）</text>
+<text x="1090" y="415" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 宜蘇之山</tspan>　→ 孟津—鞏義·金玉·黃貝</text>
+<text x="1090" y="436" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 和山</tspan>　→ 河之九都·五曲九水北注河（終點錨）</text>
+<text x="60" y="590" font-size="11" fill="#666">推理說明：全鏈四腿皆東向（10/10/40/20 里），四水皆北注河（黃河）——黃河南岸微型鏈；自和山（河之九都，九水合流北注河）反向展開：宜蘇（黃貝）→騩山（美棗·飛魚）→青要（帝之密都·鯀化墠渚</text>
+<text x="60" y="606" font-size="11" fill="#666">·武羅紋身人像）→敖岸（北望河林·夫諸洪水兆獸）。</text>
+<text x="60" y="628" font-size="11" fill="#666">腿程 80 里≈31 km（0.385）；自記 440 里＝5.5× 層累 variant（F-0008，全書最大之一）。名稱不作錨（騩山與西一/西三同名異地）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
+</svg>
