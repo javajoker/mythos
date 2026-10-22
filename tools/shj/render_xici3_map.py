@@ -45,6 +45,24 @@ def Y(lat): return MY + (LAT1 - lat) / (LAT1 - LAT0) * MH
 
 def pts(seq): return " ".join(f"{X(lo):.1f},{Y(la):.1f}" for lo, la in seq)
 
+def _twidth(t, size):
+    return sum(size if ord(c) > 0x2E7F else size * 0.55 for c in t)
+
+def wrap_text(x, y, max_w, size, color, text, lh=None):
+    """CJK-aware character wrapping; returns next y after the block."""
+    lh = lh or size * 1.45
+    line, lines = "", []
+    for ch in text:
+        if _twidth(line + ch, size) > max_w:
+            lines.append(line); line = ch
+        else:
+            line += ch
+    if line:
+        lines.append(line)
+    for i, ln in enumerate(lines):
+        S.append(f'<text x="{x}" y="{y + i * lh:.0f}" font-size="{size}" fill="{color}">{ln}</text>')
+    return y + len(lines) * lh
+
 S = []
 S.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="880" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">')
 S.append(f'<rect x="0" y="0" width="1600" height="880" fill="#f7f3e8"/>')
@@ -85,7 +103,7 @@ S.append(f'<text x="{X(34.75):.0f}" y="{Y(28.5):.0f}" font-size="9" fill="#4a759
 
 # ---- Dead Sea ----
 S.append(f'<ellipse cx="{X(35.5):.0f}" cy="{Y(31.3):.0f}" rx="6" ry="16" fill="#9dc2dd" stroke="#7fa8c9"/>')
-S.append(f'<text x="{X(35.62):.0f}" y="{Y(31.3):.0f}" font-size="10" fill="#4a7596">死海（峚山·玉膏/瀝青）</text>')
+S.append(f'<text x="{X(34.85):.0f}" y="{Y(30.72):.0f}" font-size="9" fill="#4a7596">死海（峚山·玉膏瀝青）</text>')
 
 # ---- Nile (modern reference, solid) ----
 nile = [(32.7, 25.0), (32.65, 25.7), (32.3, 26.1), (31.9, 26.5), (31.5, 27.1), (31.25, 27.8),
@@ -155,7 +173,7 @@ def arrow(x1, y1, x2, y2, color, w=2.0, dash=""):
     S.append(f'<line x1="{x1:.0f}" y1="{y1:.0f}" x2="{x2:.0f}" y2="{y2:.0f}" stroke="{color}" stroke-width="{w}"{d} marker-end="url(#arr)"/>')
 S.append('<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker></defs>')
 arrow(gx + 14, gy + 8, X(32.0), Y(29.3), "#2f7fbf")     # 赤水 toward Red Sea
-S.append(f'<text x="{X(32.35):.0f}" y="{Y(28.8):.0f}" font-size="10" fill="#2f7fbf">赤水→紅海→氾天之水（阿拉伯海）</text>')
+S.append(f'<text x="{X(32.5):.0f}" y="{Y(28.8):.0f}" font-size="10" fill="#2f7fbf">赤水→紅海→氾天之水</text>')
 arrow(gx - 8, gy + 10, X(30.65), Y(29.5), "#2f9e8f")    # 洋水 to Faiyum
 S.append(f'<text x="{X(29.85):.0f}" y="{Y(29.5):.0f}" font-size="9" fill="#1f7a6e">洋水→醜塗之水</text>')
 arrow(gx - 14, gy + 2, X(29.3), Y(29.6), "#c0392b", dash="6 4")  # 黑水 west
@@ -241,8 +259,10 @@ for s in stations:
     ty += 21.2
 
 # ---- footer notes ----
-S.append(f'<text x="70" y="{Y(25.0)+40}" font-size="11" fill="#666">推理說明：自崇吾（米甸）向西北至死海（峚山·玉膏瀝青），轉西跨西奈（泰器·文鰩魚雙海）、三角洲東緣（槐江·南望昆侖其光熊熊），西南至吉薩（昆侖之丘）；自吉薩正西：奈特倫（樂遊）→蓋塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·積石·黑水）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原）→蘇爾特灣（泑山日落·翼望終點）。</text>')
-S.append(f'<text x="70" y="{Y(25.0)+58}" font-size="11" fill="#666">全鏈 6,640 里≈2,556 km（0.385）；吉薩→錫瓦 1,320 里，0.42 端＝554 km vs 實測 541 km。所有對應為競爭假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水不作否決。</text>')
+fy = wrap_text(70, Y(25.0) + 40, MW, 11, "#666",
+    "推理說明：自崇吾（米甸）向西北至死海（峚山·玉膏瀝青），轉西跨西奈（泰器·文鰩魚雙海）、三角洲東緣（槐江·南望昆侖其光熊熊），西南至吉薩（昆侖之丘）；自吉薩正西：奈特倫（樂遊）→蓋塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·積石·黑水）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原）→蘇爾特灣（泑山日落·翼望終點）。")
+fy = wrap_text(70, fy + 6, MW, 11, "#666",
+    "全鏈 6,640 里≈2,556 km（0.385）；吉薩→錫瓦 1,320 里，0.42 端＝554 km vs 實測 541 km。所有對應為競爭假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水不作否決。")
 
 S.append('</svg>')
 

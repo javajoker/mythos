@@ -11,7 +11,7 @@
 <polygon points="814.5,302.1 827.1,313.5 827.1,347.9 819.2,385.2 812.9,382.3 811.3,347.9 808.2,313.5" fill="#bcd6e8" stroke="#7fa8c9" stroke-width="1"/>
 <text x="821" y="359" font-size="9" fill="#4a7596">亞喀巴灣</text>
 <ellipse cx="845" cy="199" rx="6" ry="16" fill="#9dc2dd" stroke="#7fa8c9"/>
-<text x="848" y="199" font-size="10" fill="#4a7596">死海（峚山·玉膏/瀝青）</text>
+<text x="824" y="232" font-size="9" fill="#4a7596">死海（峚山·玉膏瀝青）</text>
 <polyline points="756.0,560.0 754.4,519.9 743.4,497.0 730.7,474.0 718.1,439.6 710.2,399.5 710.2,359.4 708.6,319.3 707.0,290.6 706.4,273.4" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
 <polyline points="706.4,273.4 702.3,244.8 683.3,196.0" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>
 <polyline points="706.4,273.4 718.1,239.0 718.1,187.4" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>
@@ -50,7 +50,7 @@
 <text x="540" y="251" font-size="9" fill="#8e44ad">弱水環之（運河→沼澤化）</text>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker></defs>
 <line x1="720" y1="283" x2="734" y2="314" stroke="#2f7fbf" stroke-width="2.0" marker-end="url(#arr)"/>
-<text x="745" y="342" font-size="10" fill="#2f7fbf">赤水→紅海→氾天之水（阿拉伯海）</text>
+<text x="750" y="342" font-size="10" fill="#2f7fbf">赤水→紅海→氾天之水</text>
 <line x1="698" y1="285" x2="691" y2="302" stroke="#2f9e8f" stroke-width="2.0" marker-end="url(#arr)"/>
 <text x="666" y="302" font-size="9" fill="#1f7a6e">洋水→醜塗之水</text>
 <line x1="692" y1="277" x2="649" y2="296" stroke="#c0392b" stroke-width="2.0" stroke-dasharray="6 4" marker-end="url(#arr)"/>
@@ -228,6 +228,8 @@
 <text x="1080" y="780.0000000000005" font-size="11" fill="#7b241c"><tspan font-weight="bold">21 天山</tspan>　→ 綠洲·湯谷溫泉</text>
 <text x="1080" y="801.2000000000005" font-size="11" fill="#7b241c"><tspan font-weight="bold">22 泑山</tspan>　→ 蘇爾特灣日落山·蓐收</text>
 <text x="1080" y="822.4000000000005" font-size="11" fill="#7b241c"><tspan font-weight="bold">23 翼望之山</tspan>　→ 蘇爾特灣西南岸（終點）</text>
-<text x="70" y="600.0" font-size="11" fill="#666">推理說明：自崇吾（米甸）向西北至死海（峚山·玉膏瀝青），轉西跨西奈（泰器·文鰩魚雙海）、三角洲東緣（槐江·南望昆侖其光熊熊），西南至吉薩（昆侖之丘）；自吉薩正西：奈特倫（樂遊）→蓋塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·積石·黑水）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原）→蘇爾特灣（泑山日落·翼望終點）。</text>
-<text x="70" y="618.0" font-size="11" fill="#666">全鏈 6,640 里≈2,556 km（0.385）；吉薩→錫瓦 1,320 里，0.42 端＝554 km vs 實測 541 km。所有對應為競爭假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水不作否決。</text>
+<text x="70" y="600" font-size="11" fill="#666">推理說明：自崇吾（米甸）向西北至死海（峚山·玉膏瀝青），轉西跨西奈（泰器·文鰩魚雙海）、三角洲東緣（槐江·南望昆侖其光熊熊），西南至吉薩（昆侖之丘）；自吉薩正西：奈特倫（樂遊）→蓋</text>
+<text x="70" y="616" font-size="11" fill="#666">塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·積石·黑水）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原）→蘇爾特灣（泑山日落·翼望終點）。</text>
+<text x="70" y="638" font-size="11" fill="#666">全鏈 6,640 里≈2,556 km（0.385）；吉薩→錫瓦 1,320 里，0.42 端＝554 km vs 實測 541 km。所有對應為競爭假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水</text>
+<text x="70" y="654" font-size="11" fill="#666">不作否決。</text>
 </svg>
