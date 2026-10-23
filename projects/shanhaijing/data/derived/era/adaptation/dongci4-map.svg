@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《東次四經》（北號山之首）時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-dongci4-1 ｜ 起點弱錨：北號之山（食水東北注海＋灣岸水產群）＝墨西哥灣北岸—密西西比三角洲方向 ｜ 短鏈 8 站 ｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<polyline points="1136.9,444.0 1021.5,360.0 867.7,259.2 675.4,231.2 521.5,276.0 352.3,298.4 136.9,276.0" fill="none" stroke="#5b97c4" stroke-width="2.4"/>
+<text x="483" y="349" font-size="10" fill="#5b97c4">墨西哥灣岸（現代參照）</text>
+<polyline points="352.3,298.4 367.7,220.0 406.2,136.0 367.7,-4.0" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="198" y="147" font-size="10" fill="#2f7fbf">密西西比河（現代參照）</text>
+<polyline points="1136.9,444.0 1175.4,500.0 1098.5,556.0" fill="none" stroke="#5b97c4" stroke-width="2"/>
+<text x="845" y="534" font-size="10" fill="#5b97c4">佛羅里達半島（現代參照）</text>
+<ellipse cx="498" cy="259" rx="123" ry="50" fill="#cfe0e8" opacity="0.35"/>
+<text x="474" y="262" font-size="10" fill="#7a6540">密西西比三角洲</text>
+<ellipse cx="714" cy="231" rx="169" ry="45" fill="#e2d9c8" opacity="0.35"/>
+<text x="690" y="234" font-size="10" fill="#7a6540">佛州西北丘陵</text>
+<polyline points="521.5,236.8 521.5,295.0 521.5,357.2 586.9,398.6 630.8,426.1 673.8,453.5 717.7,426.1 760.8,398.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="522" cy="237" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="518" y="241" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="504" y="217" font-size="10" fill="#7b241c" font-weight="bold">北號之山</text>
+<circle cx="522" cy="295" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="518" y="299" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="504" y="311" font-size="10" fill="#7b241c" font-weight="bold">旄山</text>
+<circle cx="522" cy="357" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="518" y="361" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="504" y="346" font-size="10" fill="#7b241c" font-weight="bold">東始之山</text>
+<circle cx="587" cy="399" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="583" y="403" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="569" y="415" font-size="10" fill="#7b241c" font-weight="bold">女烝之山</text>
+<circle cx="631" cy="426" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="627" y="430" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="613" y="415" font-size="10" fill="#7b241c" font-weight="bold">欽山</text>
+<circle cx="674" cy="454" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="670" y="458" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="656" y="470" font-size="10" fill="#7b241c" font-weight="bold">子桐之山</text>
+<circle cx="718" cy="426" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="714" y="430" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="700" y="415" font-size="10" fill="#7b241c" font-weight="bold">剡山</text>
+<circle cx="761" cy="399" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="757" y="403" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="743" y="415" font-size="10" fill="#7b241c" font-weight="bold">太山</text>
+<text x="98" y="164" font-size="9" fill="#a04040">食水與東一共名——共享/同名異水待裁</text>
+<text x="560" y="511" font-size="9" fill="#666">網格南段入灣（層累/水域迂回 variant）</text>
+<text x="98" y="584" font-size="9" fill="#8e44ad">對立候選：尤卡坦北岸（「臨于北海」讀法）</text>
+<rect x="434" y="245" width="6" height="6" fill="#34495e"/>
+<text x="442" y="244" font-size="9" fill="#34495e">新奧爾良</text>
+<rect x="880" y="223" width="6" height="6" fill="#34495e"/>
+<text x="888" y="222" font-size="9" fill="#34495e">塔拉哈西</text>
+</g>
+<line x1="137" y1="640" x2="137" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="129" y="656" font-size="9" fill="#999">-94°E</text>
+<line x1="291" y1="640" x2="291" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="283" y="656" font-size="9" fill="#999">-92°E</text>
+<line x1="445" y1="640" x2="445" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="437" y="656" font-size="9" fill="#999">-90°E</text>
+<line x1="598" y1="640" x2="598" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="590" y="656" font-size="9" fill="#999">-88°E</text>
+<line x1="752" y1="640" x2="752" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="744" y="656" font-size="9" fill="#999">-86°E</text>
+<line x1="906" y1="640" x2="906" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="898" y="656" font-size="9" fill="#999">-84°E</text>
+<line x1="60" y1="584" x2="1060" y2="584" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="587" font-size="9" fill="#999">24°N</text>
+<line x1="60" y1="528" x2="1060" y2="528" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="531" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="472" x2="1060" y2="472" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="475" font-size="9" fill="#999">26°N</text>
+<line x1="60" y1="416" x2="1060" y2="416" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="419" font-size="9" fill="#999">27°N</text>
+<line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="363" font-size="9" fill="#999">28°N</text>
+<line x1="60" y1="304" x2="1060" y2="304" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="307" font-size="9" fill="#999">29°N</text>
+<line x1="60" y1="248" x2="1060" y2="248" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="251" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="192" x2="1060" y2="192" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="195" font-size="9" fill="#999">31°N</text>
+<line x1="60" y1="136" x2="1060" y2="136" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="139" font-size="9" fill="#999">32°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="433" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="198" y1="558" x2="198" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="190" y="578" font-size="9" fill="#333">100</text>
+<line x1="277" y1="558" x2="277" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="269" y="578" font-size="9" fill="#333">200</text>
+<line x1="355" y1="558" x2="355" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="347" y="578" font-size="9" fill="#333">300</text>
+<line x1="433" y1="558" x2="433" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="425" y="578" font-size="9" fill="#333">400</text>
+<text x="441" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（8站；南→東南→東北淺弧）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝起點弱錨（北號之山）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#5b97c4" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">現代水體參照（灣岸）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">密西西比河（現代參照）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#c9b18a"/>
+<text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">起點弱錨：食水東北注海＋灣岸貝類/鱃魚水產群＋東西雙向排水（低地分水）；可信度 low-medium。</text>
+<text x="1090" y="276" font-size="10" fill="#666">里程：腿程 1,720 里＝自記（0% 偏差）；短鏈淺弧。網格南段入灣記 variant。</text>
+<text x="1090" y="295" font-size="10" fill="#666">對立候選：尤卡坦北岸（「臨于北海」＝灣在北的讀法）——待裁。</text>
+<text x="1090" y="314" font-size="10" fill="#666">蜚（太山）＝災疫獸；當康（欽山）＝豐年吉兆——災異序列互補。本經無神群/祀制記錄（層累差異 variant）</text>
+<text x="1090" y="328" font-size="10" fill="#666">。</text>
+<text x="1090" y="362.5" font-size="14" font-weight="bold" fill="#333">8 站 → 現實候選（審核中）</text>
+<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 北號之山</tspan>　→ 臨北海＋食水東北注海（起點弱錨）｜⛰灣北岸低丘·路易斯安那</text>
+<text x="1090" y="406" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 旄山</tspan>　→ 蒼體之水西流；鱃魚｜⛰灣岸沼澤·路易斯安那</text>
+<text x="1090" y="427" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 東始之山</tspan>　→ 𦬊樹汁如血；美貝｜⛰灣岸低丘·密西西比—阿拉巴馬</text>
+<text x="1090" y="448" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女烝之山</tspan>　→ 石膏水（礦物名直書）；薄魚｜⛰佛州西北丘陵</text>
+<text x="1090" y="469" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 欽山</tspan>　→ 文貝；當康＝豐年兆｜⛰佛州西北台地</text>
+<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 子桐之山</tspan>　→ 子桐之水西注；䱻魚有光｜⛰佛州半島北端丘陵</text>
+<text x="1090" y="512" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 剡山</tspan>　→ 合窳食人（大水兆）｜⛰佛州北部丘陵</text>
+<text x="1090" y="533" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 太山</tspan>　→ 蜚＝災疫獸（終點；借名）｜⛰佛州西北丘陵</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：自北號之山（密西西比三角洲方向，臨北海＋食水東北注海）沿灣北岸南行——路易斯安那灣岸（旄山·西向排水）→密西西比—阿拉巴馬（東始·𦬊樹汁如血＋美貝）→阿拉巴馬—佛</text>
+<text x="60" y="702" font-size="11" fill="#666">州西北（女烝·石膏水）→佛州西北（欽山·文貝＋當康豐年兆）→佛州半島北端（子桐·䱻魚有光）→東北折返（剡山·合窳食人）→太山（佛州西北終端·蜚災疫）。</text>
+<text x="60" y="724" font-size="11" fill="#666">腿程 1,720 里≈662 km（0.385）＝自記（0% 偏差）；東山經全書 46 山閉合（12+17+9+8）；自記 18,860 vs 腿程 18,460（+400 variant 待校）。所有對應為競爭假說，時代窗口 40</text>
+<text x="60" y="740" font-size="11" fill="#666">00–1000 BCE；食水共名待裁，尤卡坦北岸為對立候選。</text>
+</svg>
