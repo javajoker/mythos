@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《東山經之首》（樕𧑤山之首）時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-dongci1-1 ｜ 起點拓撲錨：樕𧑤之山（北臨乾昧＋食水東北注海）＝阿巴拉契亞北端 ｜ 純南向 12 站 ｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<polyline points="810.0,220.0 735.0,272.5 780.0,314.5 685.0,353.0 610.0,388.0 535.0,437.0 500.0,507.0 520.0,563.0 435.0,605.0 335.0,640.0 260.0,682.0 245.0,745.0" fill="none" stroke="#5b97c4" stroke-width="2.4"/>
+<text x="835" y="412" font-size="10" fill="#5b97c4">大西洋（海——現代參照）</text>
+<polyline points="735.0,62.5 660.0,97.5 585.0,157.0 520.0,206.0 485.0,255.0" fill="none" stroke="#5b97c4" stroke-width="1.8"/>
+<text x="630" y="105" font-size="10" fill="#5b97c4">聖勞倫斯（乾昧候選方向）</text>
+<polyline points="865.0,167.5 785.0,220.0 720.0,255.0 670.0,290.0 585.0,332.0 485.0,377.5 385.0,430.0 285.0,482.5 210.0,535.0 135.0,570.0 95.0,605.0" fill="none" stroke="#a07d1e" stroke-width="2"/>
+<text x="120" y="584" font-size="10" fill="#a07d1e">阿巴拉契亞主脊（簡化示意）</text>
+<ellipse cx="135" cy="255" rx="80" ry="35" fill="#cfe0e8" opacity="0.35"/>
+<text x="111" y="258" font-size="10" fill="#7a6540">五大湖（現代參照）</text>
+<ellipse cx="385" cy="272" rx="50" ry="24" fill="#cfe0e8" opacity="0.35"/>
+<polyline points="850.0,153.5 850.0,189.9 850.0,226.3 850.0,262.7 850.0,299.5 850.0,347.7 850.0,396.4 850.0,432.8 850.0,469.6 850.0,506.0 850.0,542.4 850.0,578.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="850" cy="154" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="158" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="832" y="134" font-size="10" fill="#7b241c" font-weight="bold">樕𧑤之山</text>
+<circle cx="850" cy="190" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="194" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="832" y="206" font-size="10" fill="#7b241c" font-weight="bold">藟山</text>
+<circle cx="850" cy="226" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="230" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="832" y="215" font-size="10" fill="#7b241c" font-weight="bold">栒狀之山</text>
+<circle cx="850" cy="263" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="267" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="832" y="279" font-size="10" fill="#7b241c" font-weight="bold">勃亝之山</text>
+<circle cx="850" cy="299" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="303" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="832" y="288" font-size="10" fill="#7b241c" font-weight="bold">番條之山</text>
+<circle cx="850" cy="348" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="352" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="832" y="364" font-size="10" fill="#7b241c" font-weight="bold">姑兒之山</text>
+<circle cx="850" cy="396" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="400" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="832" y="385" font-size="10" fill="#7b241c" font-weight="bold">高氏之山</text>
+<circle cx="850" cy="433" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="437" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="832" y="449" font-size="10" fill="#7b241c" font-weight="bold">嶽山</text>
+<circle cx="850" cy="470" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="474" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="832" y="459" font-size="10" fill="#7b241c" font-weight="bold">犲山</text>
+<circle cx="850" cy="506" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="510" font-size="9" fill="#fff" font-weight="bold">10</text>
+<text x="832" y="522" font-size="10" fill="#7b241c" font-weight="bold">獨山</text>
+<circle cx="850" cy="542" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="546" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="832" y="531" font-size="10" fill="#7b241c" font-weight="bold">泰山</text>
+<circle cx="850" cy="579" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="846" y="583" font-size="9" fill="#fff" font-weight="bold">12</text>
+<text x="832" y="595" font-size="10" fill="#7b241c" font-weight="bold">竹山</text>
+<text x="110" y="132" font-size="9" fill="#8e44ad">全鏈溪流東/東北注海注澤＝山鏈在大西洋西側——拓撲自證</text>
+<text x="95" y="518" font-size="9" fill="#a04040">泰山/江/沔＝借名標記（不作證）</text>
+<rect x="754" y="309" width="6" height="6" fill="#34495e"/>
+<text x="762" y="308" font-size="9" fill="#34495e">波士頓</text>
+<rect x="607" y="367" width="6" height="6" fill="#34495e"/>
+<text x="615" y="366" font-size="9" fill="#34495e">紐約</text>
+<rect x="457" y="431" width="6" height="6" fill="#34495e"/>
+<text x="465" y="430" font-size="9" fill="#34495e">華盛頓</text>
+</g>
+<line x1="110" y1="640" x2="110" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="102" y="656" font-size="9" fill="#999">-84°E</text>
+<line x1="210" y1="640" x2="210" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="202" y="656" font-size="9" fill="#999">-82°E</text>
+<line x1="310" y1="640" x2="310" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="302" y="656" font-size="9" fill="#999">-80°E</text>
+<line x1="410" y1="640" x2="410" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="402" y="656" font-size="9" fill="#999">-78°E</text>
+<line x1="510" y1="640" x2="510" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="502" y="656" font-size="9" fill="#999">-76°E</text>
+<line x1="610" y1="640" x2="610" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="602" y="656" font-size="9" fill="#999">-74°E</text>
+<line x1="710" y1="640" x2="710" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="702" y="656" font-size="9" fill="#999">-72°E</text>
+<line x1="810" y1="640" x2="810" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="802" y="656" font-size="9" fill="#999">-70°E</text>
+<line x1="910" y1="640" x2="910" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="902" y="656" font-size="9" fill="#999">-68°E</text>
+<line x1="1010" y1="640" x2="1010" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="1002" y="656" font-size="9" fill="#999">-66°E</text>
+<line x1="60" y1="605" x2="1060" y2="605" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="608" font-size="9" fill="#999">34°N</text>
+<line x1="60" y1="570" x2="1060" y2="570" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="573" font-size="9" fill="#999">35°N</text>
+<line x1="60" y1="535" x2="1060" y2="535" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="538" font-size="9" fill="#999">36°N</text>
+<line x1="60" y1="500" x2="1060" y2="500" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="503" font-size="9" fill="#999">37°N</text>
+<line x1="60" y1="465" x2="1060" y2="465" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="468" font-size="9" fill="#999">38°N</text>
+<line x1="60" y1="430" x2="1060" y2="430" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="433" font-size="9" fill="#999">39°N</text>
+<line x1="60" y1="395" x2="1060" y2="395" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="398" font-size="9" fill="#999">40°N</text>
+<line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="363" font-size="9" fill="#999">41°N</text>
+<line x1="60" y1="325" x2="1060" y2="325" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="328" font-size="9" fill="#999">42°N</text>
+<line x1="60" y1="290" x2="1060" y2="290" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="293" font-size="9" fill="#999">43°N</text>
+<line x1="60" y1="255" x2="1060" y2="255" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="258" font-size="9" fill="#999">44°N</text>
+<line x1="60" y1="220" x2="1060" y2="220" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="223" font-size="9" fill="#999">45°N</text>
+<line x1="60" y1="185" x2="1060" y2="185" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="188" font-size="9" fill="#999">46°N</text>
+<line x1="60" y1="150" x2="1060" y2="150" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="153" font-size="9" fill="#999">47°N</text>
+<line x1="60" y1="115" x2="1060" y2="115" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="118" font-size="9" fill="#999">48°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="358" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="180" y1="558" x2="180" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="172" y="578" font-size="9" fill="#333">100</text>
+<line x1="239" y1="558" x2="239" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="231" y="578" font-size="9" fill="#333">200</text>
+<line x1="299" y1="558" x2="299" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="291" y="578" font-size="9" fill="#333">300</text>
+<line x1="358" y1="558" x2="358" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="350" y="578" font-size="9" fill="#333">400</text>
+<text x="366" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（12站；純南向原始腿程展開）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝起點拓撲錨（樕𧑤之山）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#5b97c4" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">現代水體參照（大西洋/聖勞倫斯）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#a07d1e" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">阿巴拉契亞主脊（簡化示意）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#c9b18a"/>
+<text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：樕𧑤之山「北臨乾昧」＋食水東北流注于海——大水域在北＋溪流東北入海＝阿巴拉契亞北端—緬因方向</text>
+<text x="1090" y="272" font-size="10" fill="#666">；不依任何名稱。</text>
+<text x="1090" y="291" font-size="10" fill="#666">里程：腿程 3,500 里 vs 自記 3,600 里（+2.9% variant，層累極輕）；全鏈純南向。</text>
+<text x="1090" y="310" font-size="10" fill="#666">神群皆人身龍首；祠：毛用一犬祈、䎶用魚——犬牲＋魚祭＝濱海漁獵生業風物。</text>
+<text x="1090" y="328" font-size="10" fill="#666">泰山/江/沔與中國山水同名——借名標記，不作證。</text>
+<text x="1090" y="362.5" font-size="14" font-weight="bold" fill="#333">12 站 → 現實候選（審核中）</text>
+<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 樕𧑤之山</tspan>　→ 緬因北部（起點錨；北臨乾昧）｜⛰阿巴拉契亞·卡塔丁山方向</text>
+<text x="1090" y="406" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 藟山</tspan>　→ 緬因中部（湖水→食水；活師）｜⛰阿巴拉契亞·緬因段</text>
+<text x="1090" y="427" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 栒狀之山</tspan>　→ 新罕布什爾方向（箴魚＝頜針魚）｜⛰阿巴拉契亞·白山段</text>
+<text x="1090" y="448" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 勃亝之山</tspan>　→ 裸岩無水｜⛰阿巴拉契亞·佛蒙特綠山段</text>
+<text x="1090" y="469" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 番條之山</tspan>　→ 多沙；減水北注海｜⛰阿巴拉契亞·新英格蘭南段</text>
+<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 姑兒之山</tspan>　→ 漆桑柘（暖溫帶生業）｜⛰阿巴拉契亞·哈德遜高地段</text>
+<text x="1090" y="512" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 高氏之山</tspan>　→ 玉＋箴石；諸繩之水注澤｜⛰阿巴拉契亞·賓州嶺谷段</text>
+<text x="1090" y="533" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 嶽山</tspan>　→ 桑樗；濼水注澤｜⛰阿巴拉契亞·弗吉尼亞段</text>
+<text x="1090" y="554" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 犲山</tspan>　→ 下多水；夸父形彘毛獸（大水兆）｜⛰阿巴拉契亞·西弗吉尼亞段</text>
+<text x="1090" y="575" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 獨山</tspan>　→ 𧌁䗤（黃蛇魚翼有光·大旱兆）｜⛰阿巴拉契亞·藍嶺段</text>
+<text x="1090" y="597" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 泰山</tspan>　→ 狪狪（豚形有珠）；環水注江（泰山/江＝借名標記）｜⛰阿巴拉契亞·大霧山段</text>
+<text x="1090" y="618" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 竹山</tspan>　→ 錞于江；瑤碧；茈羸（終點）｜⛰阿巴拉契亞·南段（佐治亞—阿拉巴馬）</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：自樕𧑤之山（緬因北部，北臨乾昧＝聖勞倫斯灣方向大水域）沿阿巴拉契亞主脊南行——緬因（藟山湖水注食水）→新罕布什爾白山（栒狀·箴魚頜針魚河口）→裸岩段（勃亝）→新</text>
+<text x="60" y="702" font-size="11" fill="#666">英格蘭南段多沙（番條）→哈德遜高地（姑兒·漆桑柘）→賓州嶺谷（高氏·箴石）→弗吉尼亞（嶽山）→西弗吉尼亞（犲山·大水兆獸）→藍嶺（獨山·𧌁䗤旱兆）→大霧山（泰山·狪狪）→竹山</text>
+<text x="60" y="718" font-size="11" fill="#666">（錞于江·南端終點）。</text>
+<text x="60" y="740" font-size="11" fill="#666">腿程 3,500 里≈1,348 km（0.385）vs 自記 3,600 里（+2.9% variant）；阿巴拉契亞主脊緬因—佐治亞實距約 1,800 km——原始腿程與脊線長度同量級（未及 F-0008 下限，記為輕層</text>
+<text x="60" y="756" font-size="11" fill="#666">累＋走向簡化）。所有對應為競爭假說，時代窗口 4000–1000 BCE；後世同名（泰山/江/沔）不作反證。</text>
+</svg>
