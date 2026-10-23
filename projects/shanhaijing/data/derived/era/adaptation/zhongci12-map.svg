@@ -123,21 +123,21 @@
 <text x="1090" y="292" font-size="10" fill="#666">窗口東南延展至117°E/26.8°N：里程層累（F-0008）使鏈條東南端越出擬合區域，範圍判定以水係拓撲為主、里</text>
 <text x="1090" y="306" font-size="10" fill="#666">程為輔。</text>
 <text x="1090" y="340.5" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
-<text x="1090" y="362" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 篇遇之山</tspan>　→ 湘西—鄂西方向（起點）</text>
-<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 雲山</tspan>　→ 湘西·毒桂竹</text>
-<text x="1090" y="405" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 龜山</tspan>　→ 湘西—湘西北·青雄黃</text>
-<text x="1090" y="426" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 丙山</tspan>　→ 湘西北·金銅鐵無木</text>
-<text x="1090" y="447" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 風伯之山</tspan>　→ 沅陵方向·莽浮之林</text>
-<text x="1090" y="468" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 夫夫之山</tspan>　→ 常德方向·操蛇江神（冢）</text>
-<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 洞庭之山</tspan>　→ 洞庭湖區（拓撲錨·帝之二女）</text>
-<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 暴山</tspan>　→ 洞庭東·麋鹿竹箭</text>
-<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 即公之山</tspan>　→ 岳陽方向·蛫御火（冢）</text>
-<text x="1090" y="553" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 堯山</tspan>　→ 岳陽—臨湘（借名·冢）</text>
-<text x="1090" y="574" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 江浮之山</tspan>　→ 臨湘—赤壁方向·銀砥礪</text>
-<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 真陵之山</tspan>　→ 赤壁—咸寧方向</text>
-<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 陽帝之山</tspan>　→ 咸寧—通山·美銅麢麝（冢）</text>
-<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 柴桑之山</tspan>　→ 九江方向（借名）·白蛇飛蛇</text>
-<text x="1090" y="659" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 榮余之山</tspan>　→ 幕阜山—贛西北（神也·太牢）</text>
+<text x="1090" y="362" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 篇遇之山</tspan>　→ 湘西—鄂西方向（起點）｜⛰武陵山·北段</text>
+<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 雲山</tspan>　→ 湘西·毒桂竹｜⛰武陵山·湘西段</text>
+<text x="1090" y="405" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 龜山</tspan>　→ 湘西—湘西北·青雄黃｜⛰武陵山·湘西北段</text>
+<text x="1090" y="426" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 丙山</tspan>　→ 湘西北·金銅鐵無木｜⛰武陵山·北段</text>
+<text x="1090" y="447" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 風伯之山</tspan>　→ 沅陵方向·莽浮之林｜⛰武陵山·東段</text>
+<text x="1090" y="468" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 夫夫之山</tspan>　→ 常德方向·操蛇江神（冢）｜⛰武陵山·東麓</text>
+<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 洞庭之山</tspan>　→ 洞庭湖區（拓撲錨·帝之二女）｜⛰洞庭湖區·君山</text>
+<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 暴山</tspan>　→ 洞庭東·麋鹿竹箭｜⛰洞庭湖東岸山嶺</text>
+<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 即公之山</tspan>　→ 岳陽方向·蛫御火（冢）｜⛰岳陽·東南湖濱山嶺</text>
+<text x="1090" y="553" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 堯山</tspan>　→ 岳陽—臨湘（借名·冢）｜⛰幕阜山·北麓西段</text>
+<text x="1090" y="574" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 江浮之山</tspan>　→ 臨湘—赤壁方向·銀砥礪｜⛰幕阜山·北麓</text>
+<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 真陵之山</tspan>　→ 赤壁—咸寧方向｜⛰幕阜山·北麓</text>
+<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 陽帝之山</tspan>　→ 咸寧—通山·美銅麢麝（冢）｜⛰幕阜山·北麓</text>
+<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 柴桑之山</tspan>　→ 九江方向（借名）·白蛇飛蛇｜⛰廬山</text>
+<text x="1090" y="659" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 榮余之山</tspan>　→ 幕阜山—贛西北（神也·太牢）｜⛰幕阜山·主脊</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自篇遇之山（湘西—鄂西方向，無草木多黃金）東南行——湘西（雲山毒桂竹·龜山青雄黃·丙山金銅鐵）→沅陵—常德（風伯莽浮之林·夫夫操蛇江神）→洞庭湖區（拓撲錨：帝之二</text>
 <text x="60" y="702" font-size="11" fill="#666">女游于江淵，澧沅之風交瀟湘之淵，是在九江之閒）→洞庭東—岳陽（暴山·即公蛫御火·堯山）→臨湘—咸寧—九江（江浮·真陵·陽帝美銅·柴桑）→榮余之山（幕阜山—贛西北方向）。</text>
 <text x="60" y="724" font-size="11" fill="#666">腿程 1,849 里≈712 km（0.385）；擬合走廊實距約 480–550 km——層累約 1.3–1.5×（F-0008 區間 1.2–4× 內），鏈條東南端因此越出擬合區。自記 2,800 里 vs 腿程 -34%（va</text>

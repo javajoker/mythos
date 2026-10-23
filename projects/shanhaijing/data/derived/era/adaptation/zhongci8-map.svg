@@ -149,29 +149,29 @@
 <text x="1090" y="254" font-size="10" fill="#666">神群皆鳥身人面；驕山冢（羞酒少牢）。</text>
 <text x="1090" y="273" font-size="10" fill="#666">里程層累約2.4×——範圍以拓撲為主（F-0008）。</text>
 <text x="1090" y="307.5" font-size="14" font-weight="bold" fill="#333">23 站 → 現實候選（審核中）</text>
-<text x="1090" y="330" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 景山</tspan>　→ 保康荊山方向（起點·雎水注江）</text>
-<text x="1090" y="351" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 荊山</tspan>　→ 保康方向（漳水注雎）</text>
-<text x="1090" y="372" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 驕山</tspan>　→ 南漳方向（冢）</text>
-<text x="1090" y="393" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女几之山</tspan>　→ 南漳—宜城方向</text>
-<text x="1090" y="414" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 宜諸之山</tspan>　→ 宜城方向（洈水注漳）</text>
-<text x="1090" y="435" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 綸山</tspan>　→ 襄陽方向</text>
-<text x="1090" y="457" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 陸䣀之山</tspan>　→ 棗陽方向</text>
-<text x="1090" y="478" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 光山</tspan>　→ 桐柏方向（借名）</text>
-<text x="1090" y="499" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 岐山</tspan>　→ 桐柏方向（借名）</text>
-<text x="1090" y="520" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 銅山</tspan>　→ 桐柏—信陽方向</text>
-<text x="1090" y="542" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 美山</tspan>　→ 信陽方向</text>
-<text x="1090" y="563" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 大堯之山</tspan>　→ 信陽東方向</text>
-<text x="1090" y="584" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 靈山</tspan>　→ 羅山方向</text>
-<text x="1090" y="605" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 龍山</tspan>　→ 羅山—光山方向</text>
-<text x="1090" y="626" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 衡山</tspan>　→ 皖西霍山方向（借名）</text>
-<text x="1090" y="648" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 石山</tspan>　→ 皖西方向</text>
-<text x="1090" y="669" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 若山</tspan>　→ 皖西方向（南折）</text>
-<text x="1090" y="690" font-size="11" fill="#7b241c"><tspan font-weight="bold">18 彘山</tspan>　→ 大別山方向</text>
-<text x="1090" y="711" font-size="11" fill="#7b241c"><tspan font-weight="bold">19 玉山</tspan>　→ 大別山方向</text>
-<text x="1090" y="732" font-size="11" fill="#7b241c"><tspan font-weight="bold">20 讙山</tspan>　→ 大別山東方向</text>
-<text x="1090" y="754" font-size="11" fill="#7b241c"><tspan font-weight="bold">21 仁舉之山</tspan>　→ 皖西南方向</text>
-<text x="1090" y="775" font-size="11" fill="#7b241c"><tspan font-weight="bold">22 師每之山</tspan>　→ 皖西南方向</text>
-<text x="1090" y="796" font-size="11" fill="#7b241c"><tspan font-weight="bold">23 琴鼓之山</tspan>　→ 皖西—鄂東方向（終點）</text>
+<text x="1090" y="330" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 景山</tspan>　→ 保康荊山方向（起點·雎水注江）｜⛰荊山·北段</text>
+<text x="1090" y="351" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 荊山</tspan>　→ 保康方向（漳水注雎）｜⛰荊山·南段</text>
+<text x="1090" y="372" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 驕山</tspan>　→ 南漳方向（冢）｜⛰荊山·東麓</text>
+<text x="1090" y="393" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女几之山</tspan>　→ 南漳—宜城方向｜⛰荊山—宜城山嶺</text>
+<text x="1090" y="414" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 宜諸之山</tspan>　→ 宜城方向（洈水注漳）｜⛰荊山東麓·宜城西山嶺</text>
+<text x="1090" y="435" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 綸山</tspan>　→ 襄陽方向｜⛰荊山東麓余脈·襄陽西山嶺</text>
+<text x="1090" y="457" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 陸䣀之山</tspan>　→ 棗陽方向｜⛰桐柏山·西南麓</text>
+<text x="1090" y="478" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 光山</tspan>　→ 桐柏方向（借名）｜⛰桐柏山·西段</text>
+<text x="1090" y="499" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 岐山</tspan>　→ 桐柏方向（借名）｜⛰桐柏山·中段</text>
+<text x="1090" y="520" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 銅山</tspan>　→ 桐柏—信陽方向｜⛰桐柏山·東段</text>
+<text x="1090" y="542" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 美山</tspan>　→ 信陽方向｜⛰桐柏山—信陽山嶺</text>
+<text x="1090" y="563" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 大堯之山</tspan>　→ 信陽東方向｜⛰大別山·北麓西段</text>
+<text x="1090" y="584" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 靈山</tspan>　→ 羅山方向｜⛰靈山</text>
+<text x="1090" y="605" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 龍山</tspan>　→ 羅山—光山方向｜⛰大別山·北麓</text>
+<text x="1090" y="626" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 衡山</tspan>　→ 皖西霍山方向（借名）｜⛰大別山·霍山段</text>
+<text x="1090" y="648" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 石山</tspan>　→ 皖西方向｜⛰大別山·北麓</text>
+<text x="1090" y="669" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 若山</tspan>　→ 皖西方向（南折）｜⛰大別山·金寨—霍山段</text>
+<text x="1090" y="690" font-size="11" fill="#7b241c"><tspan font-weight="bold">18 彘山</tspan>　→ 大別山方向｜⛰大別山·主脊西段</text>
+<text x="1090" y="711" font-size="11" fill="#7b241c"><tspan font-weight="bold">19 玉山</tspan>　→ 大別山方向｜⛰大別山·主脊中段</text>
+<text x="1090" y="732" font-size="11" fill="#7b241c"><tspan font-weight="bold">20 讙山</tspan>　→ 大別山東方向｜⛰大別山·東段</text>
+<text x="1090" y="754" font-size="11" fill="#7b241c"><tspan font-weight="bold">21 仁舉之山</tspan>　→ 皖西南方向｜⛰大別山·南麓</text>
+<text x="1090" y="775" font-size="11" fill="#7b241c"><tspan font-weight="bold">22 師每之山</tspan>　→ 皖西南方向｜⛰大別山·南麓</text>
+<text x="1090" y="796" font-size="11" fill="#7b241c"><tspan font-weight="bold">23 琴鼓之山</tspan>　→ 皖西—鄂東方向（終點）｜⛰大別山·東南麓</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自景山（保康荊山方向；雎水東南注江）東北行——漳水注雎、洈水注漳（大江南岸三級嵌套）——過襄陽—桐柏—信陽，東轉東南入大別山方向，至琴鼓之山（皖西—鄂東方向）終</text>
 <text x="60" y="702" font-size="11" fill="#666">點。</text>
 <text x="60" y="724" font-size="11" fill="#666">腿程 3,080 里≈1,186 km（0.385；自記 2,890 里 variant）；層累約 2.4×（範圍以水系拓撲為主，F-0008）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>

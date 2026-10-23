@@ -108,15 +108,15 @@
 <text x="1090" y="336" font-size="10" fill="#666">文本疑點：總結段「至于玄扈之山」vs 正文末站「讙舉之山」（異文待裁）；浮濠之水「西流注于洛」（僅作無</text>
 <text x="1090" y="350" font-size="10" fill="#666">方向連接）。</text>
 <text x="1090" y="384.5" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
-<text x="1090" y="406" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 鹿蹄之山</tspan>　→ 洛陽西南·甘水北注洛（起點）</text>
-<text x="1090" y="428" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 扶豬之山</tspan>　→ 洛陽西南·虢水北注洛·䴦</text>
-<text x="1090" y="449" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 釐山</tspan>　→ 宜陽—嵩縣·滽滽之水南注伊（冠名）</text>
-<text x="1090" y="470" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 箕尾之山</tspan>　→ 嵩縣·㻬琈之玉（借名）</text>
-<text x="1090" y="491" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 柄山</tspan>　→ 嵩縣—欒川·滔雕之水注洛·茇毒魚</text>
-<text x="1090" y="512" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 白邊之山</tspan>　→ 欒川·金玉青雄黃</text>
-<text x="1090" y="534" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 熊耳之山</tspan>　→ 盧氏·漆椶·人魚（借名）</text>
-<text x="1090" y="555" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 牡山</tspan>　→ 商洛東·竹叢·洛閒西界</text>
-<text x="1090" y="576" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 讙舉之山</tspan>　→ 商洛—洛南·雒水注玄扈（終點錨）</text>
+<text x="1090" y="406" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 鹿蹄之山</tspan>　→ 洛陽西南·甘水北注洛（起點）｜⛰熊耳山·東段</text>
+<text x="1090" y="428" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 扶豬之山</tspan>　→ 洛陽西南·虢水北注洛·䴦｜⛰熊耳山·洛寧段</text>
+<text x="1090" y="449" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 釐山</tspan>　→ 宜陽—嵩縣·滽滽之水南注伊（冠名）｜⛰熊耳山·洛寧—盧氏段</text>
+<text x="1090" y="470" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 箕尾之山</tspan>　→ 嵩縣·㻬琈之玉（借名）｜⛰外方山·嵩縣段</text>
+<text x="1090" y="491" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 柄山</tspan>　→ 嵩縣—欒川·滔雕之水注洛·茇毒魚｜⛰外方山·南段</text>
+<text x="1090" y="512" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 白邊之山</tspan>　→ 欒川·金玉青雄黃｜⛰伏牛山·北麓欒川段</text>
+<text x="1090" y="534" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 熊耳之山</tspan>　→ 盧氏·漆椶·人魚（借名）｜⛰熊耳山·主脊盧氏段</text>
+<text x="1090" y="555" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 牡山</tspan>　→ 商洛東·竹叢·洛閒西界｜⛰蟒嶺</text>
+<text x="1090" y="576" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 讙舉之山</tspan>　→ 商洛—洛南·雒水注玄扈（終點錨）｜⛰秦嶺·草鏈嶺</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自鹿蹄之山（洛陽西南方向，甘水北注洛）西行——扶豬（虢水注洛）→釐山（冠名；滽滽之水南注伊＝洛/伊分水嶺）→箕尾→柄山（滔雕之水注洛·茇毒魚）→白邊（金玉青雄黃）</text>
 <text x="60" y="702" font-size="11" fill="#666">→熊耳（漆椶·浮濠之水人魚＝大鯢候選）→牡山（竹叢）→讙舉之山（雒水東北注玄扈之水；「此二山者，洛閒也」＝洛域閉合，商洛—洛南方向）。</text>
 <text x="60" y="724" font-size="11" fill="#666">腿程 1,670 里＝總結里程（0% 偏差，完全自洽）；1,670 里≈643 km（0.385）vs 洛陽—商洛實距約 250 km——層累約 2.6×（F-0008 variant）。所有對應為競爭假說，時代窗口 400</text>

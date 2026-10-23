@@ -146,21 +146,21 @@
 <text x="1090" y="291" font-size="10" fill="#666">名稱不作錨：朝歌/歷山/首山/苟林均為借名標記；證據順序＝水系拓扑→山勢走向→人文風物。</text>
 <text x="1090" y="310" font-size="10" fill="#666">凡十六山 vs 僅15站有文（缺一站，傳抄遺佚 variant）；苟林/苟牀異文。</text>
 <text x="1090" y="344.0" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
-<text x="1090" y="366" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 苟牀之山</tspan>　→ 東昆侖東段—河源區（起點·極西點帶98.8–100.7°E）</text>
-<text x="1090" y="387" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 首山</tspan>　→ 黃河首曲南緣·䰠級</text>
-<text x="1090" y="408" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 縣劚之山</tspan>　→ 甘南高原·文石</text>
-<text x="1090" y="430" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 蔥聾之山</tspan>　→ 甘南東—臨夏</text>
-<text x="1090" y="451" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 條谷之山</tspan>　→ 隴西—天水·芍藥虋冬</text>
-<text x="1090" y="472" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 超山</tspan>　→ 季節泉井（冬水夏竭）</text>
-<text x="1090" y="493" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 成侯之山</tspan>　→ 寶雞西北</text>
-<text x="1090" y="514" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 朝歌之山</tspan>　→ 關中西緣·美堊（借名）</text>
-<text x="1090" y="536" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 槐山</tspan>　→ 渭南—華陰·金錫</text>
-<text x="1090" y="557" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 歷山</tspan>　→ 渭南—華陰（借名）</text>
-<text x="1090" y="578" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 尸山</tspan>　→ 崤山方向·尸水合天祭</text>
-<text x="1090" y="599" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 良餘之山</tspan>　→ 崤山·雙源分水（河/洛）</text>
-<text x="1090" y="620" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 蠱尾之山</tspan>　→ 崤山·礪石赤銅</text>
-<text x="1090" y="642" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 升山</tspan>　→ 黃河南岸·冢級</text>
-<text x="1090" y="663" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 陽虛之山</tspan>　→ 三門峽方向·臨玄扈之水（終點錨）</text>
+<text x="1090" y="366" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 苟牀之山</tspan>　→ 東昆侖東段—河源區（起點·極西點帶98.8–100.7°E）｜⛰阿尼瑪卿山</text>
+<text x="1090" y="387" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 首山</tspan>　→ 黃河首曲南緣·䰠級｜⛰阿尼瑪卿山東段—瑪曲山嶺</text>
+<text x="1090" y="408" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 縣劚之山</tspan>　→ 甘南高原·文石｜⛰西傾山</text>
+<text x="1090" y="430" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 蔥聾之山</tspan>　→ 甘南東—臨夏｜⛰太子山</text>
+<text x="1090" y="451" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 條谷之山</tspan>　→ 隴西—天水·芍藥虋冬｜⛰西秦嶺·隴西—天水段</text>
+<text x="1090" y="472" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 超山</tspan>　→ 季節泉井（冬水夏竭）｜⛰西秦嶺·天水段</text>
+<text x="1090" y="493" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 成侯之山</tspan>　→ 寶雞西北｜⛰隴山·南段</text>
+<text x="1090" y="514" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 朝歌之山</tspan>　→ 關中西緣·美堊（借名）｜⛰渭北北山·九嵕山—嵯峨山段</text>
+<text x="1090" y="536" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 槐山</tspan>　→ 渭南—華陰·金錫｜⛰小秦嶺</text>
+<text x="1090" y="557" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 歷山</tspan>　→ 渭南—華陰（借名）｜⛰小秦嶺·華陰段</text>
+<text x="1090" y="578" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 尸山</tspan>　→ 崤山方向·尸水合天祭｜⛰崤山·西段</text>
+<text x="1090" y="599" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 良餘之山</tspan>　→ 崤山·雙源分水（河/洛）｜⛰崤山·主脊</text>
+<text x="1090" y="620" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 蠱尾之山</tspan>　→ 崤山·礪石赤銅｜⛰崤山·中段</text>
+<text x="1090" y="642" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 升山</tspan>　→ 黃河南岸·冢級｜⛰崤山·北段黃河南岸</text>
+<text x="1090" y="663" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 陽虛之山</tspan>　→ 三門峽方向·臨玄扈之水（終點錨）｜⛰崤山·東段</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自苟牀之山（東昆侖東南緣，無草木多怪石）沿黃河上游南岸東行——甘南（條谷藥草帶）→隴西天水（超山季節井）→關中（朝歌美堊·槐山金錫）→豫西崤山集群（尸山合天祭·良</text>
 <text x="60" y="702" font-size="11" fill="#666">餘雙源分水·升山冢）→陽虛之山臨玄扈之水（終點）。</text>
 <text x="60" y="724" font-size="11" fill="#666">腿程 2,990 里≈1,150 km（0.385）；起訖實測約 1,090 km——吻合約 97%。凡十六山 vs 15 站（傳抄遺佚 variant）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
