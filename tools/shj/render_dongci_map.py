@@ -101,6 +101,9 @@ def render(cfg):
     # ---- route chain ----
     route = [(s["lon"], s["lat"]) for s in stations]
     S.append(f'<polyline points="{pts(route)}" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>')
+    _dx_tot = abs(X(route[-1][0]) - X(route[0][0]))
+    _dy_tot = abs(Y(route[-1][1]) - Y(route[0][1]))
+    vertical_chain = _dy_tot > _dx_tot * 1.5
     anchor_idx = cfg.get("anchor_index", -1)
     for i, s in enumerate(stations):
         x, y = X(s["lon"]), Y(s["lat"])
@@ -108,10 +111,15 @@ def render(cfg):
         r = 8 if anchor else 5
         S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{"#e74c3c" if anchor else "#c0392b"}" stroke="#fff" stroke-width="1.5"/>')
         S.append(f'<text x="{x-4:.0f}" y="{y+4:.0f}" font-size="9" fill="#fff" font-weight="bold">{s["order"]}</text>')
-        dy = -11 if i % 2 == 0 else 16
-        if anchor:
-            dy = -20
-        S.append(f'<text x="{x-18:.0f}" y="{y+dy:.0f}" font-size="10" fill="#7b241c" font-weight="bold">{s["name"]}</text>')
+        # 南北走向鏈（縱向相鄰站）改用左右交替標註，避免上下標籤重合
+        if vertical_chain:
+            dxl = 9 if i % 2 == 0 else -int(_tw(s["name"], 10)) - 8
+            S.append(f'<text x="{x+dxl:.0f}" y="{y+4:.0f}" font-size="10" fill="#7b241c" font-weight="bold">{s["name"]}</text>')
+        else:
+            dy = -11 if i % 2 == 0 else 16
+            if anchor:
+                dy = -20
+            S.append(f'<text x="{x-18:.0f}" y="{y+dy:.0f}" font-size="10" fill="#7b241c" font-weight="bold">{s["name"]}</text>')
 
     # ---- annotations ----
     for text_, lo, la, color in cfg.get("annotations", []):

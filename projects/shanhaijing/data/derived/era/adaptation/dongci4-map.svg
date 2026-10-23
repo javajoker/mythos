@@ -39,7 +39,7 @@
 <circle cx="761" cy="399" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="757" y="403" font-size="9" fill="#fff" font-weight="bold">8</text>
 <text x="743" y="415" font-size="10" fill="#7b241c" font-weight="bold">太山</text>
-<text x="98" y="164" font-size="9" fill="#a04040">食水與東一共名——共享/同名異水待裁</text>
+<text x="91" y="158" font-size="9" fill="#8e44ad">食水＝灣岸東向河；與東一（聖勞倫斯河）/東二（北薩斯喀徹溫河）＝共名標記（類名）</text>
 <text x="560" y="511" font-size="9" fill="#666">網格南段入灣（層累/水域迂回 variant）</text>
 <text x="98" y="584" font-size="9" fill="#8e44ad">對立候選：尤卡坦北岸（「臨于北海」讀法）</text>
 <rect x="434" y="245" width="6" height="6" fill="#34495e"/>
@@ -104,20 +104,21 @@
 <text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">起點弱錨：食水東北注海＋灣岸貝類/鱃魚水產群＋東西雙向排水（低地分水）；可信度 low-medium。</text>
-<text x="1090" y="276" font-size="10" fill="#666">里程：腿程 1,720 里＝自記（0% 偏差）；短鏈淺弧。網格南段入灣記 variant。</text>
-<text x="1090" y="295" font-size="10" fill="#666">對立候選：尤卡坦北岸（「臨于北海」＝灣在北的讀法）——待裁。</text>
-<text x="1090" y="314" font-size="10" fill="#666">蜚（太山）＝災疫獸；當康（欽山）＝豐年吉兆——災異序列互補。本經無神群/祀制記錄（層累差異 variant）</text>
-<text x="1090" y="328" font-size="10" fill="#666">。</text>
-<text x="1090" y="362.5" font-size="14" font-weight="bold" fill="#333">8 站 → 現實候選（審核中）</text>
-<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 北號之山</tspan>　→ 臨北海＋食水東北注海（起點弱錨）｜⛰灣北岸低丘·路易斯安那</text>
-<text x="1090" y="406" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 旄山</tspan>　→ 蒼體之水西流；鱃魚｜⛰灣岸沼澤·路易斯安那</text>
-<text x="1090" y="427" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 東始之山</tspan>　→ 𦬊樹汁如血；美貝｜⛰灣岸低丘·密西西比—阿拉巴馬</text>
-<text x="1090" y="448" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女烝之山</tspan>　→ 石膏水（礦物名直書）；薄魚｜⛰佛州西北丘陵</text>
-<text x="1090" y="469" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 欽山</tspan>　→ 文貝；當康＝豐年兆｜⛰佛州西北台地</text>
-<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 子桐之山</tspan>　→ 子桐之水西注；䱻魚有光｜⛰佛州半島北端丘陵</text>
-<text x="1090" y="512" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 剡山</tspan>　→ 合窳食人（大水兆）｜⛰佛州北部丘陵</text>
-<text x="1090" y="533" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 太山</tspan>　→ 蜚＝災疫獸（終點；借名）｜⛰佛州西北丘陵</text>
+<text x="1090" y="258" font-size="10" fill="#666">起點弱錨：食水東北注海＋灣岸貝類/鱃魚水產群＋東西雙向排水（低地分水）；食水＝共名註冊（類名；本地落</text>
+<text x="1090" y="272" font-size="10" fill="#666">實＝灣岸東向河）。</text>
+<text x="1090" y="291" font-size="10" fill="#666">里程：腿程 1,720 里＝自記（0% 偏差）；短鏈淺弧。網格南段入灣記 variant。</text>
+<text x="1090" y="310" font-size="10" fill="#666">對立候選：尤卡坦北岸（「臨于北海」＝灣在北的讀法）——待裁。</text>
+<text x="1090" y="328" font-size="10" fill="#666">蜚（太山）＝災疫獸；當康（欽山）＝豐年吉兆——災異序列互補。本經無神群/祀制記錄（層累差異 variant）</text>
+<text x="1090" y="342" font-size="10" fill="#666">。</text>
+<text x="1090" y="377.0" font-size="14" font-weight="bold" fill="#333">8 站 → 現實候選（審核中）</text>
+<text x="1090" y="399" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 北號之山</tspan>　→ 臨北海＋食水東北注海（起點弱錨）｜⛰灣北岸低丘·路易斯安那</text>
+<text x="1090" y="420" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 旄山</tspan>　→ 蒼體之水西流；鱃魚｜⛰灣岸沼澤·路易斯安那</text>
+<text x="1090" y="441" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 東始之山</tspan>　→ 𦬊樹汁如血；美貝｜⛰灣岸低丘·密西西比—阿拉巴馬</text>
+<text x="1090" y="463" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女烝之山</tspan>　→ 石膏水（礦物名直書）；薄魚｜⛰佛州西北丘陵</text>
+<text x="1090" y="484" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 欽山</tspan>　→ 文貝；當康＝豐年兆｜⛰佛州西北台地</text>
+<text x="1090" y="505" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 子桐之山</tspan>　→ 子桐之水西注；䱻魚有光｜⛰佛州半島北端丘陵</text>
+<text x="1090" y="526" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 剡山</tspan>　→ 合窳食人（大水兆）｜⛰佛州北部丘陵</text>
+<text x="1090" y="547" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 太山</tspan>　→ 蜚＝災疫獸（終點；借名）｜⛰佛州西北丘陵</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自北號之山（密西西比三角洲方向，臨北海＋食水東北注海）沿灣北岸南行——路易斯安那灣岸（旄山·西向排水）→密西西比—阿拉巴馬（東始·𦬊樹汁如血＋美貝）→阿拉巴馬—佛</text>
 <text x="60" y="702" font-size="11" fill="#666">州西北（女烝·石膏水）→佛州西北（欽山·文貝＋當康豐年兆）→佛州半島北端（子桐·䱻魚有光）→東北折返（剡山·合窳食人）→太山（佛州西北終端·蜚災疫）。</text>
 <text x="60" y="724" font-size="11" fill="#666">腿程 1,720 里≈662 km（0.385）＝自記（0% 偏差）；東山經全書 46 山閉合（12+17+9+8）；自記 18,860 vs 腿程 18,460（+400 variant 待校）。所有對應為競爭假說，時代窗口 40</text>
