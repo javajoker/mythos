@@ -1,18 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
 <rect width="1700" height="900" fill="#f7f3e8"/>
-<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="470"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次一經》（薄山之首）時代假想推理 × 現代映射參照圖</text>
 <text x="60" y="56" font-size="12" fill="#666">adapt-zhongci1-1 ｜ 起點拓撲錨：甘棗之山（運城—中條山西段方向）｜ 鏈在大河（晉陝峽谷）東側並行 ｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
 <polyline points="-2106.7,516.4 -1856.7,550.0 -1606.7,449.3 -1440.0,348.6 -1223.3,298.2 -1023.3,273.0 -890.0,264.6 -790.0,197.5 -690.0,63.2 -590.0,-37.5 -490.0,-138.2 -373.3,-238.9 -290.0,-339.6 -123.3,-440.4 60.0,-473.9 210.0,-473.9 326.7,-440.4 410.0,-390.0 410.0,-272.5 360.0,-138.2 293.3,12.9 260.0,163.9 235.0,315.0 226.7,449.3 235.0,516.4 310.0,499.6 443.3,482.9 610.0,474.5 760.0,466.1 910.0,449.3 1060.0,398.9 1193.3,348.6 1310.0,231.1 1410.0,113.6 1510.0,46.4 1610.0,12.9" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
-<text x="627" y="441" font-size="10" fill="#a07d1e">黃河（現代參照）</text>
+<text x="302" y="231" font-size="10" fill="#a07d1e">黃河（現代參照）</text>
 <polyline points="-823.3,491.2 -606.7,499.6 -390.0,524.8 -190.0,533.2 10.0,541.6 176.7,533.2 235.0,513.1" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="-423" y="496" font-size="9" fill="#2f7fbf">渭河</text>
 <polyline points="160.0,600.4 293.3,575.2 410.0,550.0 526.7,524.8 626.7,513.1 710.0,503.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="360" y="592" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
 <polyline points="360.0,650.7 443.3,600.4 535.0,541.6 610.0,516.4" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
-<text x="393" y="634" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
 <polyline points="526.7,-171.8 560.0,-37.5 476.7,80.0 393.3,264.6 301.7,348.6 251.7,415.7" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
-<text x="410" y="80" font-size="9" fill="#2f7fbf">汾河（汾水——借名標記）</text>
 <ellipse cx="343" cy="424" rx="117" ry="42" fill="#c9b18a" opacity="0.4"/>
 <text x="319" y="427" font-size="10" fill="#7a6540">中條山</text>
 <ellipse cx="443" cy="198" rx="83" ry="50" fill="#c9b18a" opacity="0.4"/>
@@ -75,28 +72,32 @@
 <text x="435" y="182" font-size="9" fill="#34495e">霍州</text>
 <rect x="659" y="247" width="6" height="6" fill="#34495e"/>
 <text x="667" y="246" font-size="9" fill="#34495e">長治</text>
-<line x1="127" y1="466" x2="865" y2="466" stroke="#333" stroke-width="2"/>
-<line x1="127" y1="462" x2="127" y2="470" stroke="#333" stroke-width="1.5"/>
-<text x="119" y="482" font-size="9" fill="#333">0</text>
-<line x1="311" y1="462" x2="311" y2="470" stroke="#333" stroke-width="1.5"/>
-<text x="303" y="482" font-size="9" fill="#333">100</text>
-<line x1="496" y1="462" x2="496" y2="470" stroke="#333" stroke-width="1.5"/>
-<text x="488" y="482" font-size="9" fill="#333">200</text>
-<line x1="681" y1="462" x2="681" y2="470" stroke="#333" stroke-width="1.5"/>
-<text x="673" y="482" font-size="9" fill="#333">300</text>
-<line x1="865" y1="462" x2="865" y2="470" stroke="#333" stroke-width="1.5"/>
-<text x="857" y="482" font-size="9" fill="#333">400</text>
-<text x="873" y="470" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+</g>
 <line x1="143" y1="550" x2="143" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="135" y="564" font-size="9" fill="#999">110°E</text>
+<text x="135" y="566" font-size="9" fill="#999">110°E</text>
 <line x1="477" y1="550" x2="477" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="469" y="564" font-size="9" fill="#999">112°E</text>
+<text x="469" y="566" font-size="9" fill="#999">112°E</text>
 <line x1="810" y1="550" x2="810" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="802" y="564" font-size="9" fill="#999">114°E</text>
+<text x="802" y="566" font-size="9" fill="#999">114°E</text>
 <line x1="60" y1="449" x2="1060" y2="449" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="452" font-size="9" fill="#999">35°N</text>
 <line x1="60" y1="281" x2="1060" y2="281" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="284" font-size="9" fill="#999">36°N</text>
+<line x1="60" y1="114" x2="1060" y2="114" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="117" font-size="9" fill="#999">37°N</text>
+<rect x="60" y="80" width="1000" height="470" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="484" x2="489" y2="484" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="480" x2="120" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="500" font-size="9" fill="#333">0</text>
+<line x1="212" y1="480" x2="212" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="204" y="500" font-size="9" fill="#333">50</text>
+<line x1="305" y1="480" x2="305" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="297" y="500" font-size="9" fill="#333">100</text>
+<line x1="397" y1="480" x2="397" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="389" y="500" font-size="9" fill="#333">150</text>
+<line x1="489" y1="480" x2="489" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="481" y="500" font-size="9" fill="#333">200</text>
+<text x="497" y="488" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
@@ -114,26 +115,25 @@
 <text x="1090" y="258" font-size="10" fill="#666">拓撲錨：甘棗之山——鏈在大河東側並行（共水西注河/渠豬之水南注河/勞水西注潏水）。</text>
 <text x="1090" y="276" font-size="10" fill="#666">自記6,670 vs 腿程937＝全書最大里程層累（7.1×）——分部自記注水（F-0008）；範圍以拓撲為主。</text>
 <text x="1090" y="295" font-size="10" fill="#666">霍山/陰山/歷兒等名稱＝借名標記；天嬰（龍骨狀物）與朏朏（馴養解憂）風物待考。</text>
-<text x="1090" y="314" font-size="10" fill="#666">窗口經度跨度放寬至6°（109.5–115.5E）——避免內置400km比例尺注記溢出圖例面板（renderer既有行為，未改</text>
-<text x="1090" y="328" font-size="10" fill="#666">代碼）。</text>
-<text x="1090" y="362.5" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
-<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 甘棗之山</tspan>　→ 運城—中條山西段（起點錨）</text>
-<text x="1090" y="406" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 歷兒之山</tspan>　→ 中條山方向·冢也太牢</text>
-<text x="1090" y="427" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 渠豬之山</tspan>　→ 中條山方向·南注河</text>
-<text x="1090" y="448" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 蔥聾之山</tspan>　→ 中條山方向·三色堊土</text>
-<text x="1090" y="469" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 涹山</tspan>　→ 中條山方向·赤銅鐵</text>
-<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 脫扈之山</tspan>　→ 中條山方向·植楮</text>
-<text x="1090" y="512" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 金星之山</tspan>　→ 中條山方向·天嬰龍骨狀</text>
-<text x="1090" y="533" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 泰威之山</tspan>　→ 中條山方向·梟谷鐵</text>
-<text x="1090" y="554" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 橿谷之山</tspan>　→ 中條山方向·赤銅</text>
-<text x="1090" y="575" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 吳林之山</tspan>　→ 中條山東段·葌草</text>
-<text x="1090" y="597" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 牛首之山</tspan>　→ 北折點·勞水西注潏水</text>
-<text x="1090" y="618" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 霍山</tspan>　→ 霍州方向·朏朏馴養（借名）</text>
-<text x="1090" y="639" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 合谷之山</tspan>　→ 臨汾方向·薝棘</text>
-<text x="1090" y="660" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 陰山</tspan>　→ 臨汾—長治方向·少水（借名）</text>
-<text x="1090" y="681" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 鼓鐙之山</tspan>　→ 長治—太行南段（東北400里跳段）</text>
-<text x="60" y="590" font-size="11" fill="#666">推理說明：自甘棗之山（運城—中條山西段，共水西注河＝拓撲錨）沿中條山方向東行 10 站（380里；三色堊土、赤銅×2、鐵谷、天嬰龍骨狀物）→牛首之山北折（勞水西注潏水＝運城盆地水系候選）→北行</text>
-<text x="60" y="606" font-size="11" fill="#666"> 3 站（霍州—臨汾方向；朏朏馴養解憂）→東北 400 里跳段至鼓鐙之山（長治—太行南段方向，赤銅第三記）。</text>
-<text x="60" y="628" font-size="11" fill="#666">腿程 937 里≈361 km（0.385）；自記 6,670 里＝層累 7.1×（全書最大，F-0008 分部自記注水 variant）——網格按原始腿程展開，範圍判定以水係拓撲為主。所有對應為競爭假說，時代窗口 4000–10</text>
-<text x="60" y="644" font-size="11" fill="#666">00 BCE。</text>
+<text x="1090" y="314" font-size="10" fill="#666">窗口經度跨度 6°（109.5–115.5°E）；比例尺已改為自適應（50 km 段），不再溢出。</text>
+<text x="1090" y="348.0" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
+<text x="1090" y="370" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 甘棗之山</tspan>　→ 運城—中條山西段（起點錨）</text>
+<text x="1090" y="391" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 歷兒之山</tspan>　→ 中條山方向·冢也太牢</text>
+<text x="1090" y="412" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 渠豬之山</tspan>　→ 中條山方向·南注河</text>
+<text x="1090" y="434" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 蔥聾之山</tspan>　→ 中條山方向·三色堊土</text>
+<text x="1090" y="455" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 涹山</tspan>　→ 中條山方向·赤銅鐵</text>
+<text x="1090" y="476" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 脫扈之山</tspan>　→ 中條山方向·植楮</text>
+<text x="1090" y="497" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 金星之山</tspan>　→ 中條山方向·天嬰龍骨狀</text>
+<text x="1090" y="518" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 泰威之山</tspan>　→ 中條山方向·梟谷鐵</text>
+<text x="1090" y="540" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 橿谷之山</tspan>　→ 中條山方向·赤銅</text>
+<text x="1090" y="561" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 吳林之山</tspan>　→ 中條山東段·葌草</text>
+<text x="1090" y="582" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 牛首之山</tspan>　→ 北折點·勞水西注潏水</text>
+<text x="1090" y="603" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 霍山</tspan>　→ 霍州方向·朏朏馴養（借名）</text>
+<text x="1090" y="624" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 合谷之山</tspan>　→ 臨汾方向·薝棘</text>
+<text x="1090" y="646" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 陰山</tspan>　→ 臨汾—長治方向·少水（借名）</text>
+<text x="1090" y="667" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 鼓鐙之山</tspan>　→ 長治—太行南段（東北400里跳段）</text>
+<text x="60" y="596" font-size="11" fill="#666">推理說明：自甘棗之山（運城—中條山西段，共水西注河＝拓撲錨）沿中條山方向東行 10 站（380里；三色堊土、赤銅×2、鐵谷、天嬰龍骨狀物）→牛首之山北折（勞水西注潏水＝運城盆地水</text>
+<text x="60" y="612" font-size="11" fill="#666">系候選）→北行 3 站（霍州—臨汾方向；朏朏馴養解憂）→東北 400 里跳段至鼓鐙之山（長治—太行南段方向，赤銅第三記）。</text>
+<text x="60" y="634" font-size="11" fill="#666">腿程 937 里≈361 km（0.385）；自記 6,670 里＝層累 7.1×（全書最大，F-0008 分部自記注水 variant）——網格按原始腿程展開，範圍判定以水係拓撲為主。所有對應為競爭假說，時</text>
+<text x="60" y="650" font-size="11" fill="#666">代窗口 4000–1000 BCE。</text>
 </svg>

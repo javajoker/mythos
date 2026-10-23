@@ -29,7 +29,17 @@ def render(cfg):
     def X(lon): return MX + (lon - LON0) / (LON1 - LON0) * MW
     def Y(lat): return MY + (LAT1 - lat) / (LAT1 - LAT0) * MH
     def pts(seq): return " ".join(f"{X(lo):.1f},{Y(la):.1f}" for lo, la in seq)
-    def _tw(t, size): return sum(size if ord(c) > 0x2E7F else size * 0.55 for c in t)
+    def _tw(t, size):
+        # CJK 与全角符号按全宽；箭头/≈/×/破折号在 CJK 字体中亦为全宽
+        w = 0.0
+        for c in t:
+            o = ord(c)
+            if o > 0x2E7F or 0x2190 <= o <= 0x27BF or o in (0x00D7, 0x2248, 0x2013, 0x2014):
+                w += size
+            else:
+                w += size * 0.55
+        return w
+    def in_win(lo, la): return LON0 < lo < LON1 and LAT0 < la < LAT1
 
     S = []
     def wrap_text(x, y, max_w, size, color, text, lh=None):
@@ -49,9 +59,13 @@ def render(cfg):
     S.append('<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">')
     S.append('<rect width="1700" height="900" fill="#f7f3e8"/>')
     S.append('<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker>'
-             '<pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>')
+             '<pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern>'
+             f'<clipPath id="mapclip"><rect x="{MX}" y="{MY}" width="{MW}" height="{MH}"/></clipPath></defs>')
     S.append(f'<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">{cfg["title"]}</text>')
     S.append(f'<text x="60" y="56" font-size="12" fill="#666">{cfg["subtitle"]}</text>')
+
+    # ---- map content group: clipped to the main frame, nothing may spill ----
+    S.append('<g clip-path="url(#mapclip)">')
 
     # ---- Central China basemap (simplified) ----
     yellow = [(96.5,34.6),(98.0,34.4),(99.5,35.0),(100.5,35.6),(101.8,35.9),(103.0,36.05),(103.8,36.1),
@@ -61,27 +75,33 @@ def render(cfg):
               (113.7,34.9),(114.6,35.0),(115.5,35.3),(116.3,35.6),(117.0,36.3),(117.6,37.0),(118.2,37.4),(118.8,37.6)]
     if LON1 > 96 and LON0 < 119 and LAT1 > 34 and LAT0 < 41:
         S.append(f'<polyline points="{pts(yellow)}" fill="none" stroke="#c89a2e" stroke-width="2.4"/>')
-        S.append(f'<text x="{X(110.95):.0f}" y="{Y(36.3):.0f}" font-size="10" fill="#a07d1e">黃河（現代參照）</text>')
+        if in_win(110.95, 36.3):
+            S.append(f'<text x="{X(110.95):.0f}" y="{Y(36.3):.0f}" font-size="10" fill="#a07d1e">黃河（現代參照）</text>')
     wei = [(104.2,34.75),(105.5,34.7),(106.8,34.55),(108.0,34.5),(109.2,34.45),(110.2,34.5),(110.55,34.62)]
     if LON1 > 104 and LON0 < 111:
         S.append(f'<polyline points="{pts(wei)}" fill="none" stroke="#2f7fbf" stroke-width="2"/>')
-        S.append(f'<text x="{X(106.6):.0f}" y="{Y(34.72):.0f}" font-size="9" fill="#2f7fbf">渭河</text>')
+        if in_win(106.6, 34.72):
+            S.append(f'<text x="{X(106.6):.0f}" y="{Y(34.72):.0f}" font-size="9" fill="#2f7fbf">渭河</text>')
     luo = [(110.1,34.1),(110.9,34.25),(111.6,34.4),(112.3,34.55),(112.9,34.62),(113.4,34.68)]
     if LON1 > 110 and LON0 < 114:
         S.append(f'<polyline points="{pts(luo)}" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>')
-        S.append(f'<text x="{X(111.3):.0f}" y="{Y(34.15):.0f}" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>')
+        if in_win(111.3, 34.15):
+            S.append(f'<text x="{X(111.3):.0f}" y="{Y(34.15):.0f}" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>')
     yi = [(111.3,33.8),(111.8,34.1),(112.35,34.45),(112.8,34.6)]
     if LON1 > 111 and LON0 < 113:
         S.append(f'<polyline points="{pts(yi)}" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>')
-        S.append(f'<text x="{X(111.5):.0f}" y="{Y(33.9):.0f}" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>')
+        if in_win(111.5, 33.9):
+            S.append(f'<text x="{X(111.5):.0f}" y="{Y(33.9):.0f}" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>')
     fen = [(112.3,38.7),(112.5,37.9),(112.0,37.2),(111.5,36.1),(110.95,35.6),(110.65,35.2)]
     if LON1 > 110 and LON0 < 113 and LAT1 > 35:
         S.append(f'<polyline points="{pts(fen)}" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>')
-        S.append(f'<text x="{X(111.6):.0f}" y="{Y(37.2):.0f}" font-size="9" fill="#2f7fbf">汾河（汾水——借名標記）</text>')
+        if in_win(111.6, 37.2):
+            S.append(f'<text x="{X(111.6):.0f}" y="{Y(37.2):.0f}" font-size="9" fill="#2f7fbf">汾河（汾水——借名標記）</text>')
     han = [(106.8,33.0),(107.02,33.07),(108.0,32.8),(109.0,32.65),(110.4,32.6),(111.5,32.65),(112.14,32.04),(112.6,31.4),(113.0,30.9),(113.8,30.6),(114.3,30.55)]
     if LON1 > 106 and LAT0 < 33:
         S.append(f'<polyline points="{pts(han)}" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>')
-        S.append(f'<text x="{X(108.0):.0f}" y="{Y(32.6):.0f}" font-size="9" fill="#2f7fbf">漢江（漢水——借名標記）</text>')
+        if in_win(108.0, 32.6):
+            S.append(f'<text x="{X(108.0):.0f}" y="{Y(32.6):.0f}" font-size="9" fill="#2f7fbf">漢江（漢水——借名標記）</text>')
     yangtze = [(96.5,33.0),(97.5,32.6),(98.3,31.9),(98.9,30.9),(99.5,29.6),(99.9,26.9),
                (100.5,27.4),(101.5,26.6),(102.6,26.3),(103.8,27.0),(104.6,28.8),
                (105.2,28.9),(106.0,29.2),(106.6,29.5),(107.7,29.9),(108.8,29.8),(109.8,30.3),
@@ -89,7 +109,8 @@ def render(cfg):
                (116.0,29.7),(117.0,30.5),(118.0,31.0),(118.8,32.06)]
     if LON1 > 99 and LAT0 < 31.5:
         S.append(f'<polyline points="{pts(yangtze)}" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>')
-        S.append(f'<text x="{X(110.3):.0f}" y="{Y(30.15):.0f}" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>')
+        if in_win(110.3, 30.15):
+            S.append(f'<text x="{X(110.3):.0f}" y="{Y(30.15):.0f}" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>')
     # ranges shading
     for name, cx, cy, rx, ry in cfg.get("ranges", []):
         S.append(f'<ellipse cx="{X(cx):.0f}" cy="{Y(cy):.0f}" rx="{rx/ (LON1-LON0) * MW:.0f}" ry="{ry / (LAT1-LAT0) * MH:.0f}" fill="#c9b18a" opacity="0.4"/>')
@@ -133,24 +154,40 @@ def render(cfg):
         S.append(f'<rect x="{x-3:.0f}" y="{y-3:.0f}" width="6" height="6" fill="#34495e"/>')
         S.append(f'<text x="{x+5:.0f}" y="{y-4:.0f}" font-size="9" fill="#34495e">{name}</text>')
 
-    # ---- scale bar ----
-    latm = (LAT0 + LAT1) / 2
-    km_per_deg = 111.3 * math.cos(math.radians(latm))
-    bx, by = X(LON0 + 0.4), Y(LAT0 + 0.5)
-    px100 = 100 / km_per_deg * (MW / (LON1 - LON0))
-    S.append(f'<line x1="{bx:.0f}" y1="{by:.0f}" x2="{bx + 4*px100:.0f}" y2="{by:.0f}" stroke="#333" stroke-width="2"/>')
-    for k in range(5):
-        S.append(f'<line x1="{bx + k*px100:.0f}" y1="{by-4:.0f}" x2="{bx + k*px100:.0f}" y2="{by+4:.0f}" stroke="#333" stroke-width="1.5"/>')
-        S.append(f'<text x="{bx + k*px100 - 8:.0f}" y="{by+16:.0f}" font-size="9" fill="#333">{k*100}</text>')
-    S.append(f'<text x="{bx + 4*px100 + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>')
+    S.append('</g>')  # end mapclip group
 
     # ---- grid ----
-    for lon in range(int(LON0) + 1, int(LON1), 2):
-        S.append(f'<line x1="{X(lon):.0f}" y1="{Y(LAT0):.0f}" x2="{X(lon):.0f}" y2="{Y(LAT1):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
-        S.append(f'<text x="{X(lon)-8:.0f}" y="{Y(LAT0)+14:.0f}" font-size="9" fill="#999">{lon}°E</text>')
-    for lat in range(int(LAT0) + 1, int(LAT1)):
-        S.append(f'<line x1="{X(LON0):.0f}" y1="{Y(lat):.0f}" x2="{X(LON1):.0f}" y2="{Y(lat):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
-        S.append(f'<text x="{X(LON0)-26:.0f}" y="{Y(lat)+3:.0f}" font-size="9" fill="#999">{lat}°N</text>')
+    lon_span, lat_span = LON1 - LON0, LAT1 - LAT0
+    lon_step = 2 if lon_span >= 6 else (1 if lon_span >= 2.5 else 0.5)
+    lat_step = 1 if lat_span >= 2.5 else 0.5
+    v = math.ceil(LON0 / lon_step) * lon_step
+    if v <= LON0: v += lon_step
+    while v < LON1:
+        S.append(f'<line x1="{X(v):.0f}" y1="{Y(LAT0):.0f}" x2="{X(v):.0f}" y2="{Y(LAT1):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
+        S.append(f'<text x="{X(v)-8:.0f}" y="{Y(LAT0)+16:.0f}" font-size="9" fill="#999">{v:g}°E</text>')
+        v += lon_step
+    v = math.ceil(LAT0 / lat_step) * lat_step
+    if v <= LAT0: v += lat_step
+    while v < LAT1:
+        S.append(f'<line x1="{X(LON0):.0f}" y1="{Y(v):.0f}" x2="{X(LON1):.0f}" y2="{Y(v):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
+        S.append(f'<text x="{X(LON0)-26:.0f}" y="{Y(v)+3:.0f}" font-size="9" fill="#999">{v:g}°N</text>')
+        v += lat_step
+
+    # ---- main frame border (above grid, below scale bar) ----
+    S.append(f'<rect x="{MX}" y="{MY}" width="{MW}" height="{MH}" fill="none" stroke="#b8ad92" stroke-width="1.4"/>')
+
+    # ---- scale bar (adaptive segment length, never wider than 400 px) ----
+    latm = (LAT0 + LAT1) / 2
+    km_per_deg = 111.3 * math.cos(math.radians(latm))
+    px_per_km = (MW / lon_span) / km_per_deg
+    seg = next((s for s in (200, 100, 50, 25, 10) if 4 * s * px_per_km <= 400), 10)
+    pxs = seg * px_per_km
+    bx, by = X(LON0 + cfg.get("scale_bar_frac", 0.06) * lon_span), Y(LAT0 + 0.14 * lat_span)
+    S.append(f'<line x1="{bx:.0f}" y1="{by:.0f}" x2="{bx + 4*pxs:.0f}" y2="{by:.0f}" stroke="#333" stroke-width="2"/>')
+    for k in range(5):
+        S.append(f'<line x1="{bx + k*pxs:.0f}" y1="{by-4:.0f}" x2="{bx + k*pxs:.0f}" y2="{by+4:.0f}" stroke="#333" stroke-width="1.5"/>')
+        S.append(f'<text x="{bx + k*pxs - 8:.0f}" y="{by+16:.0f}" font-size="9" fill="#333">{k*seg}</text>')
+    S.append(f'<text x="{bx + 4*pxs + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>')
 
     # ---- panel ----
     px = PANEL_X
@@ -173,12 +210,22 @@ def render(cfg):
         ly = wrap_text(px, ly, 500, 10, "#666", note) + 4
     S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">{len(stations)} 站 → 現實候選（審核中）</text>')
     ty = ly + 38
-    for s in stations:
-        S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="#7b241c"><tspan font-weight="bold">{s["order"]:2d} {s["name"]}</tspan>　→ {short.get(s["name"], "")}</text>')
-        ty += 21.2
+    if len(stations) > 26:
+        # two-column compact list; entries trimmed to the column width
+        half = (len(stations) + 1) // 2
+        for idx, s in enumerate(stations):
+            col, row = (0, idx) if idx < half else (1, idx - half)
+            label = f'{s["order"]:2d} {s["name"]} → {short.get(s["name"], "")}'
+            while label and _tw(label, 9.5) > 262:
+                label = label[:-2] + '…'
+            S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="#7b241c">{label}</text>')
+    else:
+        for s in stations:
+            S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="#7b241c"><tspan font-weight="bold">{s["order"]:2d} {s["name"]}</tspan>　→ {short.get(s["name"], "")}</text>')
+            ty += 21.2
 
-    fy = wrap_text(60, Y(LAT0) + 40, MW, 11, "#666", cfg["footer1"])
-    fy = wrap_text(60, fy + 6, MW, 11, "#666", cfg["footer2"])
+    fy = wrap_text(60, Y(LAT0) + 46, MW - 60, 11, "#666", cfg["footer1"])
+    fy = wrap_text(60, fy + 6, MW - 60, 11, "#666", cfg["footer2"])
 
     S.append('</svg>')
     svg = "\n".join(S)
@@ -186,12 +233,21 @@ def render(cfg):
     with open(out, "w") as f:
         f.write(svg)
     bad = []
-    for m in re.finditer(r'<text x="([\d.-]+)" y="[\d.-]+" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
-        x, size, t = float(m.group(1)), float(m.group(2)), m.group(3)
+    for m in re.finditer(r'<text x="([\d.-]+)" y="([\d.-]+)" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
+        x, y, size, t = float(m.group(1)), float(m.group(2)), float(m.group(3)), m.group(4)
         end = x + _tw(t, size)
-        limit = 1700 if x >= PANEL_X - 12 else PANEL_X - 16
-        if end > limit:
-            bad.append((t[:24], int(x), int(end)))
+        if x < 0:
+            bad.append(("left-off", t[:20], int(x)))
+        elif y >= 65 and x < PANEL_X - 12 and end > MX + MW - 8:
+            bad.append(("past-frame", t[:20], int(end)))
+        elif x >= PANEL_X - 12 and end > 1630:
+            bad.append(("past-panel", t[:20], int(end)))
+        if y > 888:
+            bad.append(("bottom-off", t[:20], int(y)))
+    for m in re.finditer(r'<circle cx="([\d.-]+)" cy="([\d.-]+)" r="[\d.]+" fill="#(?:e74c3c|c0392b)" stroke="#fff"', svg):
+        cx, cy = float(m.group(1)), float(m.group(2))
+        if not (MX <= cx <= MX + MW and MY <= cy <= MY + MH):
+            bad.append(("station-off-frame", f"({cx:.0f},{cy:.0f})", 0))
     print("wrote", out, os.path.getsize(out), "bytes | overflow:", bad if bad else "none")
 
 if __name__ == "__main__":

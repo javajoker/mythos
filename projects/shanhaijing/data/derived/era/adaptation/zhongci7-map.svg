@@ -1,18 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
 <rect width="1700" height="900" fill="#f7f3e8"/>
-<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="470"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次七經》時代假想推理 × 現代映射參照圖</text>
 <text x="60" y="56" font-size="12" fill="#666">adapt-zhongci7-1 ｜ 拓撲錨：泰室之山＝三受水分水嶺（伊水西南／洛西／役水·汜水→河東北）｜ 名稱不作錨（太室/少室/大騩借名標記）｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
 <polyline points="-1654.3,362.0 -1440.0,409.0 -1225.7,268.0 -1082.9,127.0 -897.1,56.5 -725.7,21.2 -611.4,9.5 -525.7,-84.5 -440.0,-272.5 -354.3,-413.5 -268.6,-554.5 -168.6,-695.5 -97.1,-836.5 45.7,-977.5 202.9,-1024.5 331.4,-1024.5 431.4,-977.5 502.9,-907.0 502.9,-742.5 460.0,-554.5 402.9,-343.0 374.3,-131.5 352.9,80.0 345.7,268.0 352.9,362.0 417.1,338.5 531.4,315.0 674.3,303.2 802.9,291.5 931.4,268.0 1060.0,197.5 1174.3,127.0 1274.3,-37.5 1360.0,-202.0 1445.7,-296.0 1531.4,-343.0" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
-<text x="689" y="256" font-size="10" fill="#a07d1e">黃河（現代參照）</text>
 <polyline points="-554.3,326.7 -368.6,338.5 -182.9,373.8 -11.4,385.5 160.0,397.2 302.9,385.5 352.9,357.3" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="-211" y="334" font-size="9" fill="#2f7fbf">渭河</text>
 <polyline points="288.6,479.5 402.9,444.2 502.9,409.0 602.9,373.8 688.6,357.3 760.0,343.2" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
 <text x="460" y="468" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
 <polyline points="460.0,550.0 531.4,479.5 610.0,397.2 674.3,362.0" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
 <text x="489" y="526" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
 <polyline points="602.9,-601.5 631.4,-413.5 560.0,-249.0 488.6,9.5 410.0,127.0 367.1,221.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
-<text x="503" y="-249" font-size="9" fill="#2f7fbf">汾河（汾水——借名標記）</text>
 <ellipse cx="703" cy="385" rx="71" ry="59" fill="#c9b18a" opacity="0.4"/>
 <text x="679" y="388" font-size="10" fill="#7a6540">嵩山</text>
 <ellipse cx="503" cy="573" rx="143" ry="94" fill="#c9b18a" opacity="0.4"/>
@@ -87,26 +85,34 @@
 <text x="705" y="323" font-size="9" fill="#34495e">鞏義</text>
 <rect x="804" y="406" width="6" height="6" fill="#34495e"/>
 <text x="812" y="405" font-size="9" fill="#34495e">新鄭</text>
-<line x1="117" y1="432" x2="742" y2="432" stroke="#333" stroke-width="2"/>
-<line x1="117" y1="428" x2="117" y2="436" stroke="#333" stroke-width="1.5"/>
-<text x="109" y="448" font-size="9" fill="#333">0</text>
-<line x1="273" y1="428" x2="273" y2="436" stroke="#333" stroke-width="1.5"/>
-<text x="265" y="448" font-size="9" fill="#333">100</text>
-<line x1="430" y1="428" x2="430" y2="436" stroke="#333" stroke-width="1.5"/>
-<text x="422" y="448" font-size="9" fill="#333">200</text>
-<line x1="586" y1="428" x2="586" y2="436" stroke="#333" stroke-width="1.5"/>
-<text x="578" y="448" font-size="9" fill="#333">300</text>
-<line x1="742" y1="428" x2="742" y2="436" stroke="#333" stroke-width="1.5"/>
-<text x="734" y="448" font-size="9" fill="#333">400</text>
-<text x="750" y="436" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
-<line x1="131" y1="550" x2="131" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="123" y="564" font-size="9" fill="#999">109°E</text>
-<line x1="417" y1="550" x2="417" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="409" y="564" font-size="9" fill="#999">111°E</text>
-<line x1="703" y1="550" x2="703" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="695" y="564" font-size="9" fill="#999">113°E</text>
+</g>
+<line x1="274" y1="550" x2="274" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="266" y="566" font-size="9" fill="#999">110°E</text>
+<line x1="560" y1="550" x2="560" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="552" y="566" font-size="9" fill="#999">112°E</text>
+<line x1="846" y1="550" x2="846" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="838" y="566" font-size="9" fill="#999">114°E</text>
 <line x1="60" y1="503" x2="1060" y2="503" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="506" font-size="9" fill="#999">34°N</text>
+<line x1="60" y1="385" x2="1060" y2="385" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="388" font-size="9" fill="#999">34.5°N</text>
+<line x1="60" y1="268" x2="1060" y2="268" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="271" font-size="9" fill="#999">35°N</text>
+<line x1="60" y1="150" x2="1060" y2="150" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="153" font-size="9" fill="#999">35.5°N</text>
+<rect x="60" y="80" width="1000" height="470" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="484" x2="433" y2="484" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="480" x2="120" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="500" font-size="9" fill="#333">0</text>
+<line x1="198" y1="480" x2="198" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="190" y="500" font-size="9" fill="#333">50</text>
+<line x1="276" y1="480" x2="276" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="268" y="500" font-size="9" fill="#333">100</text>
+<line x1="354" y1="480" x2="354" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="346" y="500" font-size="9" fill="#333">150</text>
+<line x1="433" y1="480" x2="433" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="425" y="500" font-size="9" fill="#333">200</text>
+<text x="441" y="488" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
@@ -122,8 +128,8 @@
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
 <text x="1090" y="258" font-size="10" fill="#666">拓撲錨：泰室之山＝三受水分水嶺（伊水西南/洛西/役水汜水東北入河）——不依太室少室同名（借名標記）。</text>
-<text x="1090" y="276" font-size="10" fill="#666">腿程1,056 vs 自記1,184（variant）；里程層累——中原鏈腿程普遍超實距2-4×（F-0008），範圍以水系拓扑</text>
-<text x="1090" y="291" font-size="10" fill="#666">為主。</text>
+<text x="1090" y="276" font-size="10" fill="#666">腿程1,056 vs 自記1,184（variant）；里程層累——中原鏈腿程普遍超實距2-4×（F-0008），範圍以水系拓</text>
+<text x="1090" y="291" font-size="10" fill="#666">扑為主。</text>
 <text x="1090" y="310" font-size="10" fill="#666">雙神群：冢級人面三首 vs 餘山豕身人面。</text>
 <text x="1090" y="344.0" font-size="14" font-weight="bold" fill="#333">19 站 → 現實候選（審核中）</text>
 <text x="1090" y="366" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 休輿之山</tspan>　→ 鞏義—偃師西·帝臺之棋禱百神</text>
@@ -145,8 +151,8 @@
 <text x="1090" y="705" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 役山</tspan>　→ 鄭州東北·役水→河</text>
 <text x="1090" y="726" font-size="11" fill="#7b241c"><tspan font-weight="bold">18 敏山</tspan>　→ 中牟方向·㻬琈之玉東端</text>
 <text x="1090" y="748" font-size="11" fill="#7b241c"><tspan font-weight="bold">19 大騩之山</tspan>　→ 新鄭具茨山方向（借名）</text>
-<text x="60" y="590" font-size="11" fill="#666">推理說明：自休輿之山（帝臺之棋禱百神）東行——帝臺雙中心（休輿棋石/鼓鍾觴百神）→姑媱帝女化草→苦山（冠名冢級）→伊/洛雙受水（明水/狂水/來需→伊；合水/休水→洛；半石雙源分水）→泰室拓撲錨→</text>
-<text x="60" y="606" font-size="11" fill="#666">北折講山/嬰梁→東翼汜水→河、器難/太水/承水/末水→役→河（多水匯流）→終點大騩。</text>
-<text x="60" y="628" font-size="11" fill="#666">腿程 1,056 里≈407 km（0.385）vs 自記 1,184 里（+12%）；層累集中西段長腿（3–5×），東段密站接近實距（0.7–0.9×）。凡十九山＝19站閉合；三冢＋十六神＝19閉合。所有對應為競爭假說，時</text>
-<text x="60" y="644" font-size="11" fill="#666">代窗口 4000–1000 BCE。</text>
+<text x="60" y="596" font-size="11" fill="#666">推理說明：自休輿之山（帝臺之棋禱百神）東行——帝臺雙中心（休輿棋石/鼓鍾觴百神）→姑媱帝女化草→苦山（冠名冢級）→伊/洛雙受水（明水/狂水/來需→伊；合水/休水→洛；半石雙源</text>
+<text x="60" y="612" font-size="11" fill="#666">分水）→泰室拓撲錨→北折講山/嬰梁→東翼汜水→河、器難/太水/承水/末水→役→河（多水匯流）→終點大騩。</text>
+<text x="60" y="634" font-size="11" fill="#666">腿程 1,056 里≈407 km（0.385）vs 自記 1,184 里（+12%）；層累集中西段長腿（3–5×），東段密站接近實距（0.7–0.9×）。凡十九山＝19站閉合；三冢＋十六神＝19閉合。所有對應</text>
+<text x="60" y="650" font-size="11" fill="#666">為競爭假說，時代窗口 4000–1000 BCE。</text>
 </svg>

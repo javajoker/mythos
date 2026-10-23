@@ -1,20 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
 <rect width="1700" height="900" fill="#f7f3e8"/>
-<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="470"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次十一經》時代假想推理 × 現代映射參照圖</text>
 <text x="60" y="56" font-size="12" fill="#666">adapt-zhongci11-1 ｜ 起點拓撲錨：翼望之山雙受水（湍水→濟｜貺水→漢＝黃河/長江分水嶺）｜ 48站全書最大鏈 ｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
 <polyline points="-763.5,37.3 -675.3,65.8 -587.1,-19.7 -528.2,-105.2 -451.8,-147.9 -381.2,-169.2 -334.1,-176.4 -298.8,-233.3 -263.5,-347.3 -228.2,-432.7 -192.9,-518.2 -151.8,-603.6 -122.4,-689.1 -63.5,-774.5 1.2,-803.0 54.1,-803.0 95.3,-774.5 124.7,-731.8 124.7,-632.1 107.1,-518.2 83.5,-390.0 71.8,-261.8 62.9,-133.6 60.0,-19.7 62.9,37.3 89.4,23.0 136.5,8.8 195.3,1.7 248.2,-5.5 301.2,-19.7 354.1,-62.4 401.2,-105.2 442.4,-204.8 477.6,-304.5 512.9,-361.5 548.2,-390.0" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
-<text x="178" y="-55" font-size="10" fill="#a07d1e">黃河（現代參照）</text>
 <polyline points="-310.6,15.9 -234.1,23.0 -157.6,44.4 -87.1,51.5 -16.5,58.6 42.4,51.5 62.9,34.4" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="-169" y="20" font-size="9" fill="#2f7fbf">渭河</text>
 <polyline points="36.5,108.5 83.5,87.1 124.7,65.8 165.9,44.4 201.2,34.4 230.6,25.9" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
 <text x="107" y="101" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
 <polyline points="107.1,151.2 136.5,108.5 168.8,58.6 195.3,37.3" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
 <text x="119" y="137" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
-<polyline points="-157.6,265.2 -87.1,293.6 -16.5,322.1 54.1,343.5 112.9,357.7 165.9,364.8 218.8,379.1 265.9,393.3 295.3,421.8" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="-87" y="322" font-size="9" fill="#2f7fbf">漢江（漢水——借名標記）</text>
-<polyline points="-616.5,322.1 -528.2,436.1 -440.0,521.5 -345.9,564.2 -275.3,592.7 -204.7,635.5 -128.2,678.2 -57.6,720.9 1.2,706.7 42.4,649.7 89.4,621.2 136.5,592.7 183.5,607.0 230.6,635.5 277.6,635.5 318.8,621.2" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
-<text x="48" y="671" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>
+<polyline points="-157.6,265.2 -144.7,255.2 -87.1,293.6 -28.2,315.0 54.1,322.1 118.8,315.0 156.5,401.9 183.5,493.0 207.1,564.2 254.1,607.0 283.5,614.1" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<polyline points="-763.5,265.2 -704.7,322.1 -657.6,421.8 -622.4,564.2 -587.1,749.4 -563.5,1133.9 -528.2,1062.7 -469.4,1176.7 -404.7,1219.4 -334.1,1119.7 -287.1,863.3 -251.8,849.1 -204.7,806.4 -169.4,763.6 -104.7,706.7 -40.0,720.9 18.8,649.7 77.6,621.2 107.1,592.7 160.0,642.6 218.8,649.7 283.5,614.1 324.7,678.2 383.5,735.2 442.4,621.2 501.2,550.0 548.2,399.0" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
 <ellipse cx="142" cy="194" rx="53" ry="57" fill="#c9b18a" opacity="0.4"/>
 <text x="118" y="197" font-size="10" fill="#7a6540">伏牛山</text>
 <ellipse cx="225" cy="365" rx="35" ry="43" fill="#c9b18a" opacity="0.4"/>
@@ -178,38 +175,42 @@
 <text x="418" y="439" font-size="9" fill="#34495e">六安</text>
 <rect x="264" y="265" width="6" height="6" fill="#34495e"/>
 <text x="272" y="264" font-size="9" fill="#34495e">駐馬店</text>
-<line x1="84" y1="479" x2="335" y2="479" stroke="#333" stroke-width="2"/>
-<line x1="84" y1="475" x2="84" y2="483" stroke="#333" stroke-width="1.5"/>
-<text x="76" y="495" font-size="9" fill="#333">0</text>
-<line x1="146" y1="475" x2="146" y2="483" stroke="#333" stroke-width="1.5"/>
-<text x="138" y="495" font-size="9" fill="#333">100</text>
-<line x1="209" y1="475" x2="209" y2="483" stroke="#333" stroke-width="1.5"/>
-<text x="201" y="495" font-size="9" fill="#333">200</text>
-<line x1="272" y1="475" x2="272" y2="483" stroke="#333" stroke-width="1.5"/>
-<text x="264" y="495" font-size="9" fill="#333">300</text>
-<line x1="335" y1="475" x2="335" y2="483" stroke="#333" stroke-width="1.5"/>
-<text x="327" y="495" font-size="9" fill="#333">400</text>
-<text x="343" y="483" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
-<line x1="89" y1="550" x2="89" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="81" y="564" font-size="9" fill="#999">111°E</text>
-<line x1="207" y1="550" x2="207" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="199" y="564" font-size="9" fill="#999">113°E</text>
-<line x1="325" y1="550" x2="325" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="317" y="564" font-size="9" fill="#999">115°E</text>
-<line x1="442" y1="550" x2="442" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="434" y="564" font-size="9" fill="#999">117°E</text>
-<line x1="560" y1="550" x2="560" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="552" y="564" font-size="9" fill="#999">119°E</text>
-<line x1="678" y1="550" x2="678" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="670" y="564" font-size="9" fill="#999">121°E</text>
-<line x1="795" y1="550" x2="795" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="787" y="564" font-size="9" fill="#999">123°E</text>
-<line x1="913" y1="550" x2="913" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="905" y="564" font-size="9" fill="#999">125°E</text>
+</g>
+<line x1="148" y1="550" x2="148" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="140" y="566" font-size="9" fill="#999">112°E</text>
+<line x1="266" y1="550" x2="266" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="258" y="566" font-size="9" fill="#999">114°E</text>
+<line x1="384" y1="550" x2="384" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="376" y="566" font-size="9" fill="#999">116°E</text>
+<line x1="501" y1="550" x2="501" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="493" y="566" font-size="9" fill="#999">118°E</text>
+<line x1="619" y1="550" x2="619" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="611" y="566" font-size="9" fill="#999">120°E</text>
+<line x1="736" y1="550" x2="736" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="728" y="566" font-size="9" fill="#999">122°E</text>
+<line x1="854" y1="550" x2="854" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="846" y="566" font-size="9" fill="#999">124°E</text>
+<line x1="972" y1="550" x2="972" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="964" y="566" font-size="9" fill="#999">126°E</text>
 <line x1="60" y1="408" x2="1060" y2="408" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="411" font-size="9" fill="#999">32°N</text>
 <line x1="60" y1="265" x2="1060" y2="265" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="268" font-size="9" fill="#999">33°N</text>
+<line x1="60" y1="123" x2="1060" y2="123" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="126" font-size="9" fill="#999">34°N</text>
+<rect x="60" y="80" width="1000" height="470" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="484" x2="371" y2="484" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="480" x2="120" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="500" font-size="9" fill="#333">0</text>
+<line x1="183" y1="480" x2="183" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="175" y="500" font-size="9" fill="#333">100</text>
+<line x1="246" y1="480" x2="246" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="238" y="500" font-size="9" fill="#333">200</text>
+<line x1="308" y1="480" x2="308" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="300" y="500" font-size="9" fill="#333">300</text>
+<line x1="371" y1="480" x2="371" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="363" y="500" font-size="9" fill="#333">400</text>
+<text x="379" y="488" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
@@ -225,61 +226,61 @@
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
 <text x="1090" y="258" font-size="10" fill="#666">拓撲錨：翼望之山雙受水（濟｜漢）＝黃河/長江分水嶺——不依翼望/荊山同名（借名標記）。</text>
-<text x="1090" y="276" font-size="10" fill="#666">48站全書最大鏈；腿程4,225里 vs 自記3,732里（variant）；原始腿程展開後東段越出擬合區域——窗口已放寬</text>
-<text x="1090" y="291" font-size="10" fill="#666">至17°以容納全鏈（overflow none），擬合區域＝左側南陽—大別山段（約111.9–116.5°E），注記/現代點/山</text>
-<text x="1090" y="306" font-size="10" fill="#666">系均標於擬合區。</text>
+<text x="1090" y="276" font-size="10" fill="#666">48站全書最大鏈；腿程4,225里 vs 自記3,732里（variant）；原始腿程展開後東段越出擬合區域——窗口已放</text>
+<text x="1090" y="291" font-size="10" fill="#666">寬至17°以容納全鏈（overflow none），擬合區域＝左側南陽—大別山段（約111.9–116.5°E），注記/現代點</text>
+<text x="1090" y="306" font-size="10" fill="#666">/山系均標於擬合區。</text>
 <text x="1090" y="324" font-size="10" fill="#666">禾山帝也·堵山玉山冢也（倒祠規格）；彘身人首神群；帝臺之漿寒泉。</text>
 <text x="1090" y="358.5" font-size="14" font-weight="bold" fill="#333">48 站 → 現實候選（審核中）</text>
-<text x="1090" y="380" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 翼望之山</tspan>　→ 南陽盆地北緣·雙受水起點（湍→濟｜貺→漢）</text>
-<text x="1090" y="402" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 朝歌之山</tspan>　→ 方城方向·潕水→滎（借名）</text>
-<text x="1090" y="423" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 帝囷之山</tspan>　→ 方城—社旗·帝囷之水伏流</text>
-<text x="1090" y="444" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 視山</tspan>　→ 社旗方向·天井（夏水冬竭）</text>
-<text x="1090" y="465" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 前山</tspan>　→ 唐河方向·櫧柏金赭</text>
-<text x="1090" y="486" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 豐山（一）</tspan>　→ 唐河—桐柏·雍和/耕父/九鍾</text>
-<text x="1090" y="508" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 兔牀之山</tspan>　→ 桐柏方向（東北800里長腿＝層累主區）</text>
-<text x="1090" y="529" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 皮山</tspan>　→ 桐柏東·堊赭松柏</text>
-<text x="1090" y="550" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 瑤碧之山</tspan>　→ 桐柏東·鴆鳥</text>
-<text x="1090" y="571" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 支離之山</tspan>　→ 信陽西·濟水南注漢</text>
-<text x="1090" y="593" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 祑𥮐之山</tspan>　→ 信陽方向·松柏机桓</text>
-<text x="1090" y="614" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 堇理之山</tspan>　→ 信陽方向（西北100里折）·青耕禦疫</text>
-<text x="1090" y="635" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 依軲之山</tspan>　→ 信陽東·獜</text>
-<text x="1090" y="656" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 即谷之山</tspan>　→ 羅山方向·玄豹閭麈</text>
-<text x="1090" y="677" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 雞山</tspan>　→ 羅山—光山·梓桑韭</text>
-<text x="1090" y="699" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 高前之山</tspan>　→ 光山方向·帝臺之漿（寒泉）</text>
-<text x="1090" y="720" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 遊戲之山</tspan>　→ 光山東·封石</text>
-<text x="1090" y="741" font-size="11" fill="#7b241c"><tspan font-weight="bold">18 從山</tspan>　→ 潢川方向·從水伏流·三足鼈</text>
-<text x="1090" y="762" font-size="11" fill="#7b241c"><tspan font-weight="bold">19 嬰䃌之山</tspan>　→ 潢川方向·松柏梓櫄</text>
-<text x="1090" y="783" font-size="11" fill="#7b241c"><tspan font-weight="bold">20 畢山</tspan>　→ 潢川東·帝苑之水→視</text>
-<text x="1090" y="805" font-size="11" fill="#7b241c"><tspan font-weight="bold">21 樂馬之山</tspan>　→ 固始方向·𤟑（大疫）</text>
-<text x="1090" y="826" font-size="11" fill="#7b241c"><tspan font-weight="bold">22 葴山</tspan>　→ 固始方向·視水→汝水</text>
-<text x="1090" y="847" font-size="11" fill="#7b241c"><tspan font-weight="bold">23 嬰山</tspan>　→ 商城方向·青雘金玉</text>
-<text x="1090" y="868" font-size="11" fill="#7b241c"><tspan font-weight="bold">24 虎首之山</tspan>　→ 商城方向·苴椆椐</text>
-<text x="1090" y="889" font-size="11" fill="#7b241c"><tspan font-weight="bold">25 嬰侯之山</tspan>　→ 商城東·封石赤錫</text>
-<text x="1090" y="911" font-size="11" fill="#7b241c"><tspan font-weight="bold">26 大孰之山</tspan>　→ 皖西方向·殺水→視水</text>
-<text x="1090" y="932" font-size="11" fill="#7b241c"><tspan font-weight="bold">27 卑山</tspan>　→ 皖西方向·桃李苴梓</text>
-<text x="1090" y="953" font-size="11" fill="#7b241c"><tspan font-weight="bold">28 倚帝之山</tspan>　→ 皖西方向·狙如（大兵）</text>
-<text x="1090" y="974" font-size="11" fill="#7b241c"><tspan font-weight="bold">29 鯢山</tspan>　→ 皖西方向·鯢水伏流（大鯢風物）</text>
-<text x="1090" y="995" font-size="11" fill="#7b241c"><tspan font-weight="bold">30 雅山</tspan>　→ 皖西方向·澧水→視水</text>
-<text x="1090" y="1017" font-size="11" fill="#7b241c"><tspan font-weight="bold">31 宣山</tspan>　→ 皖西方向·淪水→視水·帝女之桑</text>
-<text x="1090" y="1038" font-size="11" fill="#7b241c"><tspan font-weight="bold">32 衡山</tspan>　→ 皖西霍山方向（借名）·鸜鵒</text>
-<text x="1090" y="1059" font-size="11" fill="#7b241c"><tspan font-weight="bold">33 豐山（二）</tspan>　→ 皖西方向·羊桃</text>
-<text x="1090" y="1080" font-size="11" fill="#7b241c"><tspan font-weight="bold">34 嫗山</tspan>　→ 皖西方向·美玉金</text>
-<text x="1090" y="1101" font-size="11" fill="#7b241c"><tspan font-weight="bold">35 鮮山</tspan>　→ 皖西方向·𤝻即（火）</text>
-<text x="1090" y="1123" font-size="11" fill="#7b241c"><tspan font-weight="bold">36 章山</tspan>　→ 皖西方向·臯水→豐水</text>
-<text x="1090" y="1144" font-size="11" fill="#7b241c"><tspan font-weight="bold">37 大支之山</tspan>　→ 皖西方向·無草木</text>
-<text x="1090" y="1165" font-size="11" fill="#7b241c"><tspan font-weight="bold">38 區吳之山</tspan>　→ 皖西方向（與南次二經同名標記）</text>
-<text x="1090" y="1186" font-size="11" fill="#7b241c"><tspan font-weight="bold">39 聲匈之山</tspan>　→ 皖西—鄂東方向</text>
-<text x="1090" y="1207" font-size="11" fill="#7b241c"><tspan font-weight="bold">40 大騩之山</tspan>　→ 鄂東方向（與中七同名標記）</text>
-<text x="1090" y="1229" font-size="11" fill="#7b241c"><tspan font-weight="bold">41 踵臼之山</tspan>　→ 鄂東方向·無草木</text>
-<text x="1090" y="1250" font-size="11" fill="#7b241c"><tspan font-weight="bold">42 歷石之山</tspan>　→ 鄂東方向·梁渠（大兵）</text>
-<text x="1090" y="1271" font-size="11" fill="#7b241c"><tspan font-weight="bold">43 求山</tspan>　→ 鄂東方向·求水伏流</text>
-<text x="1090" y="1292" font-size="11" fill="#7b241c"><tspan font-weight="bold">44 丑陽之山</tspan>　→ 鄂東方向·䳅鵌禦火</text>
-<text x="1090" y="1313" font-size="11" fill="#7b241c"><tspan font-weight="bold">45 奧山</tspan>　→ 鄂東方向·奧水→視水</text>
-<text x="1090" y="1335" font-size="11" fill="#7b241c"><tspan font-weight="bold">46 服山</tspan>　→ 鄂東方向·封石赤錫</text>
-<text x="1090" y="1356" font-size="11" fill="#7b241c"><tspan font-weight="bold">47 杳山</tspan>　→ 鄂東方向·嘉榮草</text>
-<text x="1090" y="1377" font-size="11" fill="#7b241c"><tspan font-weight="bold">48 几山</tspan>　→ 鄂東—大別山南麓方向（終點）·聞𧲂（大風）</text>
-<text x="60" y="590" font-size="11" fill="#666">推理說明：自翼望之山（南陽盆地北緣—伏牛山南麓；湍水東注濟＋貺水東南注漢＝河/江分水嶺）東南行——方城（朝歌·潕水→滎）→唐河桐柏（豐山耕父九鍾）→東北800里長腿（兔牀，層累主區）→信陽—光</text>
-<text x="60" y="606" font-size="11" fill="#666">山（高前之山帝臺之漿寒泉）→潢川—固始（視水/汝水系統）→皖西大別山北麓（澧/淪/奧水注視水）→鄂東—大別山南麓（几山，終點）。</text>
-<text x="60" y="628" font-size="11" fill="#666">腿程4,225里≈1,627km（0.385）vs 自記3,732里（+13.2% variant）；起訖擬合實距約500km——層累約3.2–3.4×（全書最大之一，F-0008範圍1.2–4×內）。網格按原始腿程展開（算術不縮放），範圍判</text>
-<text x="60" y="644" font-size="11" fill="#666">定以水係拓撲為主。所有對應為競爭假說，時代窗口4000–1000 BCE。</text>
+<text x="1090" y="380" font-size="9.5" fill="#7b241c"> 1 翼望之山 → 南陽盆地北緣·雙受水起點（湍→濟｜貺→…</text>
+<text x="1090" y="398" font-size="9.5" fill="#7b241c"> 2 朝歌之山 → 方城方向·潕水→滎（借名）</text>
+<text x="1090" y="416" font-size="9.5" fill="#7b241c"> 3 帝囷之山 → 方城—社旗·帝囷之水伏流</text>
+<text x="1090" y="433" font-size="9.5" fill="#7b241c"> 4 視山 → 社旗方向·天井（夏水冬竭）</text>
+<text x="1090" y="450" font-size="9.5" fill="#7b241c"> 5 前山 → 唐河方向·櫧柏金赭</text>
+<text x="1090" y="468" font-size="9.5" fill="#7b241c"> 6 豐山（一） → 唐河—桐柏·雍和/耕父/九鍾</text>
+<text x="1090" y="486" font-size="9.5" fill="#7b241c"> 7 兔牀之山 → 桐柏方向（東北800里長腿＝層累主區）</text>
+<text x="1090" y="503" font-size="9.5" fill="#7b241c"> 8 皮山 → 桐柏東·堊赭松柏</text>
+<text x="1090" y="520" font-size="9.5" fill="#7b241c"> 9 瑤碧之山 → 桐柏東·鴆鳥</text>
+<text x="1090" y="538" font-size="9.5" fill="#7b241c">10 支離之山 → 信陽西·濟水南注漢</text>
+<text x="1090" y="556" font-size="9.5" fill="#7b241c">11 祑𥮐之山 → 信陽方向·松柏机桓</text>
+<text x="1090" y="573" font-size="9.5" fill="#7b241c">12 堇理之山 → 信陽方向（西北100里折）·青耕禦疫</text>
+<text x="1090" y="590" font-size="9.5" fill="#7b241c">13 依軲之山 → 信陽東·獜</text>
+<text x="1090" y="608" font-size="9.5" fill="#7b241c">14 即谷之山 → 羅山方向·玄豹閭麈</text>
+<text x="1090" y="626" font-size="9.5" fill="#7b241c">15 雞山 → 羅山—光山·梓桑韭</text>
+<text x="1090" y="643" font-size="9.5" fill="#7b241c">16 高前之山 → 光山方向·帝臺之漿（寒泉）</text>
+<text x="1090" y="660" font-size="9.5" fill="#7b241c">17 遊戲之山 → 光山東·封石</text>
+<text x="1090" y="678" font-size="9.5" fill="#7b241c">18 從山 → 潢川方向·從水伏流·三足鼈</text>
+<text x="1090" y="696" font-size="9.5" fill="#7b241c">19 嬰䃌之山 → 潢川方向·松柏梓櫄</text>
+<text x="1090" y="713" font-size="9.5" fill="#7b241c">20 畢山 → 潢川東·帝苑之水→視</text>
+<text x="1090" y="730" font-size="9.5" fill="#7b241c">21 樂馬之山 → 固始方向·𤟑（大疫）</text>
+<text x="1090" y="748" font-size="9.5" fill="#7b241c">22 葴山 → 固始方向·視水→汝水</text>
+<text x="1090" y="766" font-size="9.5" fill="#7b241c">23 嬰山 → 商城方向·青雘金玉</text>
+<text x="1090" y="783" font-size="9.5" fill="#7b241c">24 虎首之山 → 商城方向·苴椆椐</text>
+<text x="1362" y="380" font-size="9.5" fill="#7b241c">25 嬰侯之山 → 商城東·封石赤錫</text>
+<text x="1362" y="398" font-size="9.5" fill="#7b241c">26 大孰之山 → 皖西方向·殺水→視水</text>
+<text x="1362" y="416" font-size="9.5" fill="#7b241c">27 卑山 → 皖西方向·桃李苴梓</text>
+<text x="1362" y="433" font-size="9.5" fill="#7b241c">28 倚帝之山 → 皖西方向·狙如（大兵）</text>
+<text x="1362" y="450" font-size="9.5" fill="#7b241c">29 鯢山 → 皖西方向·鯢水伏流（大鯢風物）</text>
+<text x="1362" y="468" font-size="9.5" fill="#7b241c">30 雅山 → 皖西方向·澧水→視水</text>
+<text x="1362" y="486" font-size="9.5" fill="#7b241c">31 宣山 → 皖西方向·淪水→視水·帝女之桑</text>
+<text x="1362" y="503" font-size="9.5" fill="#7b241c">32 衡山 → 皖西霍山方向（借名）·鸜鵒</text>
+<text x="1362" y="520" font-size="9.5" fill="#7b241c">33 豐山（二） → 皖西方向·羊桃</text>
+<text x="1362" y="538" font-size="9.5" fill="#7b241c">34 嫗山 → 皖西方向·美玉金</text>
+<text x="1362" y="556" font-size="9.5" fill="#7b241c">35 鮮山 → 皖西方向·𤝻即（火）</text>
+<text x="1362" y="573" font-size="9.5" fill="#7b241c">36 章山 → 皖西方向·臯水→豐水</text>
+<text x="1362" y="590" font-size="9.5" fill="#7b241c">37 大支之山 → 皖西方向·無草木</text>
+<text x="1362" y="608" font-size="9.5" fill="#7b241c">38 區吳之山 → 皖西方向（與南次二經同名標記）</text>
+<text x="1362" y="626" font-size="9.5" fill="#7b241c">39 聲匈之山 → 皖西—鄂東方向</text>
+<text x="1362" y="643" font-size="9.5" fill="#7b241c">40 大騩之山 → 鄂東方向（與中七同名標記）</text>
+<text x="1362" y="660" font-size="9.5" fill="#7b241c">41 踵臼之山 → 鄂東方向·無草木</text>
+<text x="1362" y="678" font-size="9.5" fill="#7b241c">42 歷石之山 → 鄂東方向·梁渠（大兵）</text>
+<text x="1362" y="696" font-size="9.5" fill="#7b241c">43 求山 → 鄂東方向·求水伏流</text>
+<text x="1362" y="713" font-size="9.5" fill="#7b241c">44 丑陽之山 → 鄂東方向·䳅鵌禦火</text>
+<text x="1362" y="730" font-size="9.5" fill="#7b241c">45 奧山 → 鄂東方向·奧水→視水</text>
+<text x="1362" y="748" font-size="9.5" fill="#7b241c">46 服山 → 鄂東方向·封石赤錫</text>
+<text x="1362" y="766" font-size="9.5" fill="#7b241c">47 杳山 → 鄂東方向·嘉榮草</text>
+<text x="1362" y="783" font-size="9.5" fill="#7b241c">48 几山 → 鄂東—大別山南麓方向（終點）·聞𧲂（大風）</text>
+<text x="60" y="596" font-size="11" fill="#666">推理說明：自翼望之山（南陽盆地北緣—伏牛山南麓；湍水東注濟＋貺水東南注漢＝河/江分水嶺）東南行——方城（朝歌·潕水→滎）→唐河桐柏（豐山耕父九鍾）→東北800里長腿（兔牀，層</text>
+<text x="60" y="612" font-size="11" fill="#666">累主區）→信陽—光山（高前之山帝臺之漿寒泉）→潢川—固始（視水/汝水系統）→皖西大別山北麓（澧/淪/奧水注視水）→鄂東—大別山南麓（几山，終點）。</text>
+<text x="60" y="634" font-size="11" fill="#666">腿程4,225里≈1,627km（0.385）vs 自記3,732里（+13.2% variant）；起訖擬合實距約500km——層累約3.2–3.4×（全書最大之一，F-0008範圍1.2–4×內）。網格按原始腿程展開（算</text>
+<text x="60" y="650" font-size="11" fill="#666">術不縮放），範圍判定以水係拓撲為主。所有對應為競爭假說，時代窗口4000–1000 BCE。</text>
 </svg>

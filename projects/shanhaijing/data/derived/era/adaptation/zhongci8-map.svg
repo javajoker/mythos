@@ -1,128 +1,138 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
 <rect width="1700" height="900" fill="#f7f3e8"/>
-<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="470"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次八經》時代假想推理 × 現代映射參照圖</text>
 <text x="60" y="56" font-size="12" fill="#666">adapt-zhongci8-1 ｜ 拓撲錨：景山（漳→雎→江三級嵌套，大江南岸）｜ 0.385 km/里（±150 km）｜ 全部映射 proposed_pending_review</text>
-<polyline points="-713.3,-162.8 -540.0,-155.0 -366.7,-131.5 -206.7,-123.7 -46.7,-115.8 86.7,-123.7 133.3,-142.5" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="-393" y="-158" font-size="9" fill="#2f7fbf">渭河</text>
-<polyline points="73.3,-61.0 180.0,-84.5 273.3,-108.0 366.7,-131.5 446.7,-142.5 513.3,-151.9" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="233" y="-69" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
-<polyline points="233.3,-14.0 300.0,-61.0 373.3,-115.8 433.3,-139.3" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
-<text x="260" y="-30" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
-<polyline points="-366.7,111.3 -337.3,100.4 -206.7,142.7 -73.3,166.2 113.3,174.0 260.0,166.2 345.3,261.7 406.7,362.0 460.0,440.3 566.7,487.3 633.3,495.2" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="-207" y="174" font-size="9" fill="#2f7fbf">漢江（漢水——借名標記）</text>
-<polyline points="-1740.0,111.3 -1606.7,174.0 -1500.0,283.7 -1420.0,440.3 -1340.0,644.0 -1286.7,1067.0 -1206.7,988.7 -1073.3,1114.0 -926.7,1161.0 -766.7,1051.3 -660.0,769.3 -580.0,753.7 -473.3,706.7 -393.3,659.7 -246.7,597.0 -100.0,612.7 33.3,534.3 166.7,503.0 233.3,471.7 353.3,526.5 486.7,534.3 633.3,495.2 726.7,565.7 860.0,628.3 993.3,503.0 1126.7,424.7 1233.3,258.6" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
-<text x="100" y="558" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>
-<ellipse cx="233" cy="315" rx="80" ry="47" fill="#c9b18a" opacity="0.4"/>
-<text x="209" y="318" font-size="10" fill="#7a6540">荊山</text>
-<ellipse cx="500" cy="221" rx="80" ry="47" fill="#c9b18a" opacity="0.4"/>
-<text x="476" y="224" font-size="10" fill="#7a6540">桐柏山</text>
-<ellipse cx="820" cy="378" rx="107" ry="63" fill="#c9b18a" opacity="0.4"/>
-<text x="796" y="381" font-size="10" fill="#7a6540">大別山</text>
-<polyline points="233.3,315.0 272.0,275.8 329.3,219.4 374.7,172.4 452.0,95.7 641.3,95.7 749.3,95.7 820.0,95.7 901.3,95.7 972.0,95.7 1010.7,58.1 1049.3,18.9 1164.0,-97.0 1190.7,-123.7 1209.3,-104.9 1237.3,-76.7 1237.3,-12.4 1282.7,34.6 1340.0,92.5 1366.7,119.2 1424.0,61.2 1452.0,61.2 1528.0,138.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
-<circle cx="233" cy="315" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
-<text x="229" y="319" font-size="9" fill="#fff" font-weight="bold">1</text>
-<text x="215" y="295" font-size="10" fill="#7b241c" font-weight="bold">景山</text>
-<circle cx="272" cy="276" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="268" y="280" font-size="9" fill="#fff" font-weight="bold">2</text>
-<text x="254" y="292" font-size="10" fill="#7b241c" font-weight="bold">荊山</text>
-<circle cx="329" cy="219" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="325" y="223" font-size="9" fill="#fff" font-weight="bold">3</text>
-<text x="311" y="208" font-size="10" fill="#7b241c" font-weight="bold">驕山</text>
-<circle cx="375" cy="172" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="371" y="176" font-size="9" fill="#fff" font-weight="bold">4</text>
-<text x="357" y="188" font-size="10" fill="#7b241c" font-weight="bold">女几之山</text>
-<circle cx="452" cy="96" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="448" y="100" font-size="9" fill="#fff" font-weight="bold">5</text>
-<text x="434" y="85" font-size="10" fill="#7b241c" font-weight="bold">宜諸之山</text>
-<circle cx="641" cy="96" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="637" y="100" font-size="9" fill="#fff" font-weight="bold">6</text>
-<text x="623" y="112" font-size="10" fill="#7b241c" font-weight="bold">綸山</text>
-<circle cx="749" cy="96" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="745" y="100" font-size="9" fill="#fff" font-weight="bold">7</text>
-<text x="731" y="85" font-size="10" fill="#7b241c" font-weight="bold">陸䣀之山</text>
-<circle cx="820" cy="96" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="816" y="100" font-size="9" fill="#fff" font-weight="bold">8</text>
-<text x="802" y="112" font-size="10" fill="#7b241c" font-weight="bold">光山</text>
-<circle cx="901" cy="96" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="897" y="100" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="883" y="85" font-size="10" fill="#7b241c" font-weight="bold">岐山</text>
-<circle cx="972" cy="96" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="968" y="100" font-size="9" fill="#fff" font-weight="bold">10</text>
-<text x="954" y="112" font-size="10" fill="#7b241c" font-weight="bold">銅山</text>
-<circle cx="1011" cy="58" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1007" y="62" font-size="9" fill="#fff" font-weight="bold">11</text>
-<text x="993" y="47" font-size="10" fill="#7b241c" font-weight="bold">美山</text>
-<circle cx="1049" cy="19" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1045" y="23" font-size="9" fill="#fff" font-weight="bold">12</text>
-<text x="1031" y="35" font-size="10" fill="#7b241c" font-weight="bold">大堯之山</text>
-<circle cx="1164" cy="-97" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1160" y="-93" font-size="9" fill="#fff" font-weight="bold">13</text>
-<text x="1146" y="-108" font-size="10" fill="#7b241c" font-weight="bold">靈山</text>
-<circle cx="1191" cy="-124" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1187" y="-120" font-size="9" fill="#fff" font-weight="bold">14</text>
-<text x="1173" y="-108" font-size="10" fill="#7b241c" font-weight="bold">龍山</text>
-<circle cx="1209" cy="-105" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1205" y="-101" font-size="9" fill="#fff" font-weight="bold">15</text>
-<text x="1191" y="-116" font-size="10" fill="#7b241c" font-weight="bold">衡山</text>
-<circle cx="1237" cy="-77" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1233" y="-73" font-size="9" fill="#fff" font-weight="bold">16</text>
-<text x="1219" y="-61" font-size="10" fill="#7b241c" font-weight="bold">石山</text>
-<circle cx="1237" cy="-12" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1233" y="-8" font-size="9" fill="#fff" font-weight="bold">17</text>
-<text x="1219" y="-23" font-size="10" fill="#7b241c" font-weight="bold">若山</text>
-<circle cx="1283" cy="35" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1279" y="39" font-size="9" fill="#fff" font-weight="bold">18</text>
-<text x="1265" y="51" font-size="10" fill="#7b241c" font-weight="bold">彘山</text>
-<circle cx="1340" cy="93" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1336" y="97" font-size="9" fill="#fff" font-weight="bold">19</text>
-<text x="1322" y="82" font-size="10" fill="#7b241c" font-weight="bold">玉山</text>
-<circle cx="1367" cy="119" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1363" y="123" font-size="9" fill="#fff" font-weight="bold">20</text>
-<text x="1349" y="135" font-size="10" fill="#7b241c" font-weight="bold">讙山</text>
-<circle cx="1424" cy="61" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1420" y="65" font-size="9" fill="#fff" font-weight="bold">21</text>
-<text x="1406" y="50" font-size="10" fill="#7b241c" font-weight="bold">仁舉之山</text>
-<circle cx="1452" cy="61" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1448" y="65" font-size="9" fill="#fff" font-weight="bold">22</text>
-<text x="1434" y="77" font-size="10" fill="#7b241c" font-weight="bold">師每之山</text>
-<circle cx="1528" cy="138" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1524" y="142" font-size="9" fill="#fff" font-weight="bold">23</text>
-<text x="1510" y="127" font-size="10" fill="#7b241c" font-weight="bold">琴鼓之山</text>
-<text x="140" y="393" font-size="9" fill="#2f7fbf">嵌套支流：漳→雎→江（大江南岸三級嵌套）</text>
-<text x="447" y="151" font-size="9" fill="#7a6540">荊山—桐柏—大別：東北轉東南走向</text>
-<rect x="342" y="259" width="6" height="6" fill="#34495e"/>
-<text x="350" y="258" font-size="9" fill="#34495e">襄陽</text>
-<rect x="229" y="469" width="6" height="6" fill="#34495e"/>
-<text x="237" y="468" font-size="9" fill="#34495e">宜昌</text>
-<rect x="600" y="242" width="6" height="6" fill="#34495e"/>
-<text x="608" y="241" font-size="9" fill="#34495e">信陽</text>
-<rect x="924" y="304" width="6" height="6" fill="#34495e"/>
-<text x="932" y="303" font-size="9" fill="#34495e">六安</text>
-<rect x="225" y="285" width="6" height="6" fill="#34495e"/>
-<text x="233" y="284" font-size="9" fill="#34495e">保康</text>
-<line x1="113" y1="472" x2="677" y2="472" stroke="#333" stroke-width="2"/>
-<line x1="113" y1="468" x2="113" y2="476" stroke="#333" stroke-width="1.5"/>
-<text x="105" y="488" font-size="9" fill="#333">0</text>
-<line x1="254" y1="468" x2="254" y2="476" stroke="#333" stroke-width="1.5"/>
-<text x="246" y="488" font-size="9" fill="#333">100</text>
-<line x1="395" y1="468" x2="395" y2="476" stroke="#333" stroke-width="1.5"/>
-<text x="387" y="488" font-size="9" fill="#333">200</text>
-<line x1="536" y1="468" x2="536" y2="476" stroke="#333" stroke-width="1.5"/>
-<text x="528" y="488" font-size="9" fill="#333">300</text>
-<line x1="677" y1="468" x2="677" y2="476" stroke="#333" stroke-width="1.5"/>
-<text x="669" y="488" font-size="9" fill="#333">400</text>
-<text x="685" y="476" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
-<line x1="193" y1="550" x2="193" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="185" y="564" font-size="9" fill="#999">111°E</text>
-<line x1="460" y1="550" x2="460" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="452" y="564" font-size="9" fill="#999">113°E</text>
-<line x1="727" y1="550" x2="727" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="719" y="564" font-size="9" fill="#999">115°E</text>
-<line x1="60" y1="425" x2="1060" y2="425" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="428" font-size="9" fill="#999">31°N</text>
-<line x1="60" y1="268" x2="1060" y2="268" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="271" font-size="9" fill="#999">32°N</text>
+<g clip-path="url(#mapclip)">
+<polyline points="-1084.1,100.4 -956.9,120.9 -829.8,59.6 -745.1,-1.7 -634.9,-32.4 -533.2,-47.7 -465.4,-52.8 -414.6,-93.7 -363.7,-175.4 -312.9,-236.7 -262.0,-298.0 -202.7,-359.3 -160.3,-420.7 -75.6,-482.0 17.6,-502.4 93.9,-502.4 153.2,-482.0 195.6,-451.3 195.6,-379.8 170.2,-298.0 136.3,-206.1 119.3,-114.1 106.6,-22.2 102.4,59.6 106.6,100.4 144.7,90.2 212.5,80.0 297.3,74.9 373.6,69.8 449.8,59.6 526.1,28.9 593.9,-1.7 653.2,-73.3 704.1,-144.8 754.9,-185.7 805.8,-206.1" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
+<polyline points="-431.5,85.1 -321.4,90.2 -211.2,105.5 -109.5,110.7 -7.8,115.8 76.9,110.7 106.6,98.4" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<polyline points="68.5,151.5 136.3,136.2 195.6,120.9 254.9,105.5 305.8,98.4 348.1,92.3" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="170" y="146" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
+<polyline points="170.2,182.2 212.5,151.5 259.2,115.8 297.3,100.4" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="187" y="172" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
+<polyline points="-211.2,263.9 -192.5,256.8 -109.5,284.3 -24.7,299.7 93.9,304.8 187.1,299.7 241.4,362.0 280.3,427.4 314.2,478.5 382.0,509.1 424.4,514.2" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<polyline points="-1084.1,263.9 -999.3,304.8 -931.5,376.3 -880.7,478.5 -829.8,611.3 -795.9,887.2 -745.1,836.1 -660.3,917.8 -567.1,948.5 -465.4,877.0 -397.6,693.0 -346.8,682.8 -279.0,652.2 -228.1,621.5 -134.9,580.7 -41.7,590.9 43.1,539.8 127.8,519.3 170.2,498.9 246.4,534.7 331.2,539.8 424.4,514.2 483.7,560.2 568.5,601.1 653.2,519.3 738.0,468.3 805.8,360.0" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<ellipse cx="170" cy="397" rx="51" ry="31" fill="#c9b18a" opacity="0.4"/>
+<text x="146" y="400" font-size="10" fill="#7a6540">荊山</text>
+<ellipse cx="340" cy="335" rx="51" ry="31" fill="#c9b18a" opacity="0.4"/>
+<text x="316" y="338" font-size="10" fill="#7a6540">桐柏山</text>
+<ellipse cx="543" cy="438" rx="68" ry="41" fill="#c9b18a" opacity="0.4"/>
+<text x="519" y="441" font-size="10" fill="#7a6540">大別山</text>
+<polyline points="170.2,396.7 194.7,371.2 231.2,334.4 260.0,303.8 309.2,253.7 429.5,253.7 498.1,253.7 543.1,253.7 594.7,253.7 639.7,253.7 664.2,229.2 688.8,203.6 761.7,128.0 778.6,110.7 790.5,122.9 808.3,141.3 808.3,183.2 837.1,213.8 873.6,251.7 890.5,269.0 926.9,231.2 944.7,231.2 993.1,281.3" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="170" cy="397" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="166" y="401" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="152" y="377" font-size="10" fill="#7b241c" font-weight="bold">景山</text>
+<circle cx="195" cy="371" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="191" y="375" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="177" y="387" font-size="10" fill="#7b241c" font-weight="bold">荊山</text>
+<circle cx="231" cy="334" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="227" y="338" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="213" y="323" font-size="10" fill="#7b241c" font-weight="bold">驕山</text>
+<circle cx="260" cy="304" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="256" y="308" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="242" y="320" font-size="10" fill="#7b241c" font-weight="bold">女几之山</text>
+<circle cx="309" cy="254" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="305" y="258" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="291" y="243" font-size="10" fill="#7b241c" font-weight="bold">宜諸之山</text>
+<circle cx="429" cy="254" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="425" y="258" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="411" y="270" font-size="10" fill="#7b241c" font-weight="bold">綸山</text>
+<circle cx="498" cy="254" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="494" y="258" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="480" y="243" font-size="10" fill="#7b241c" font-weight="bold">陸䣀之山</text>
+<circle cx="543" cy="254" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="539" y="258" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="525" y="270" font-size="10" fill="#7b241c" font-weight="bold">光山</text>
+<circle cx="595" cy="254" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="591" y="258" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="577" y="243" font-size="10" fill="#7b241c" font-weight="bold">岐山</text>
+<circle cx="640" cy="254" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="636" y="258" font-size="9" fill="#fff" font-weight="bold">10</text>
+<text x="622" y="270" font-size="10" fill="#7b241c" font-weight="bold">銅山</text>
+<circle cx="664" cy="229" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="660" y="233" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="646" y="218" font-size="10" fill="#7b241c" font-weight="bold">美山</text>
+<circle cx="689" cy="204" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="685" y="208" font-size="9" fill="#fff" font-weight="bold">12</text>
+<text x="671" y="220" font-size="10" fill="#7b241c" font-weight="bold">大堯之山</text>
+<circle cx="762" cy="128" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="758" y="132" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="744" y="117" font-size="10" fill="#7b241c" font-weight="bold">靈山</text>
+<circle cx="779" cy="111" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="775" y="115" font-size="9" fill="#fff" font-weight="bold">14</text>
+<text x="761" y="127" font-size="10" fill="#7b241c" font-weight="bold">龍山</text>
+<circle cx="791" cy="123" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="787" y="127" font-size="9" fill="#fff" font-weight="bold">15</text>
+<text x="773" y="112" font-size="10" fill="#7b241c" font-weight="bold">衡山</text>
+<circle cx="808" cy="141" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="804" y="145" font-size="9" fill="#fff" font-weight="bold">16</text>
+<text x="790" y="157" font-size="10" fill="#7b241c" font-weight="bold">石山</text>
+<circle cx="808" cy="183" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="804" y="187" font-size="9" fill="#fff" font-weight="bold">17</text>
+<text x="790" y="172" font-size="10" fill="#7b241c" font-weight="bold">若山</text>
+<circle cx="837" cy="214" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="833" y="218" font-size="9" fill="#fff" font-weight="bold">18</text>
+<text x="819" y="230" font-size="10" fill="#7b241c" font-weight="bold">彘山</text>
+<circle cx="874" cy="252" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="870" y="256" font-size="9" fill="#fff" font-weight="bold">19</text>
+<text x="856" y="241" font-size="10" fill="#7b241c" font-weight="bold">玉山</text>
+<circle cx="891" cy="269" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="887" y="273" font-size="9" fill="#fff" font-weight="bold">20</text>
+<text x="873" y="285" font-size="10" fill="#7b241c" font-weight="bold">讙山</text>
+<circle cx="927" cy="231" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="923" y="235" font-size="9" fill="#fff" font-weight="bold">21</text>
+<text x="909" y="220" font-size="10" fill="#7b241c" font-weight="bold">仁舉之山</text>
+<circle cx="945" cy="231" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="941" y="235" font-size="9" fill="#fff" font-weight="bold">22</text>
+<text x="927" y="247" font-size="10" fill="#7b241c" font-weight="bold">師每之山</text>
+<circle cx="993" cy="281" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="989" y="285" font-size="9" fill="#fff" font-weight="bold">23</text>
+<text x="975" y="270" font-size="10" fill="#7b241c" font-weight="bold">琴鼓之山</text>
+<text x="111" y="448" font-size="9" fill="#2f7fbf">嵌套支流：漳→雎→江（大江南岸三級嵌套）</text>
+<text x="306" y="289" font-size="9" fill="#7a6540">荊山—桐柏—大別：東北轉東南走向</text>
+<text x="391" y="116" font-size="9" fill="#a04040">東段算術展開越出擬合區（層累≈2.4×，不改映射）</text>
+<rect x="238" y="359" width="6" height="6" fill="#34495e"/>
+<text x="246" y="358" font-size="9" fill="#34495e">襄陽</text>
+<rect x="166" y="496" width="6" height="6" fill="#34495e"/>
+<text x="174" y="495" font-size="9" fill="#34495e">宜昌</text>
+<rect x="402" y="348" width="6" height="6" fill="#34495e"/>
+<text x="410" y="347" font-size="9" fill="#34495e">信陽</text>
+<rect x="608" y="389" width="6" height="6" fill="#34495e"/>
+<text x="616" y="388" font-size="9" fill="#34495e">六安</text>
+<rect x="164" y="376" width="6" height="6" fill="#34495e"/>
+<text x="172" y="375" font-size="9" fill="#34495e">保康</text>
+</g>
+<line x1="229" y1="550" x2="229" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="221" y="566" font-size="9" fill="#999">112°E</text>
+<line x1="399" y1="550" x2="399" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="391" y="566" font-size="9" fill="#999">114°E</text>
+<line x1="568" y1="550" x2="568" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="560" y="566" font-size="9" fill="#999">116°E</text>
+<line x1="738" y1="550" x2="738" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="730" y="566" font-size="9" fill="#999">118°E</text>
+<line x1="907" y1="550" x2="907" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="899" y="566" font-size="9" fill="#999">120°E</text>
+<line x1="60" y1="468" x2="1060" y2="468" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="471" font-size="9" fill="#999">31°N</text>
+<line x1="60" y1="366" x2="1060" y2="366" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="369" font-size="9" fill="#999">32°N</text>
+<line x1="60" y1="264" x2="1060" y2="264" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="267" font-size="9" fill="#999">33°N</text>
+<line x1="60" y1="162" x2="1060" y2="162" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="165" font-size="9" fill="#999">34°N</text>
+<rect x="60" y="80" width="1000" height="470" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="484" x2="481" y2="484" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="480" x2="120" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="500" font-size="9" fill="#333">0</text>
+<line x1="210" y1="480" x2="210" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="202" y="500" font-size="9" fill="#333">100</text>
+<line x1="301" y1="480" x2="301" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="293" y="500" font-size="9" fill="#333">200</text>
+<line x1="391" y1="480" x2="391" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="383" y="500" font-size="9" fill="#333">300</text>
+<line x1="481" y1="480" x2="481" y2="488" stroke="#333" stroke-width="1.5"/>
+<text x="473" y="500" font-size="9" fill="#333">400</text>
+<text x="489" y="488" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
@@ -162,6 +172,7 @@
 <text x="1090" y="754" font-size="11" fill="#7b241c"><tspan font-weight="bold">21 仁舉之山</tspan>　→ 皖西南方向</text>
 <text x="1090" y="775" font-size="11" fill="#7b241c"><tspan font-weight="bold">22 師每之山</tspan>　→ 皖西南方向</text>
 <text x="1090" y="796" font-size="11" fill="#7b241c"><tspan font-weight="bold">23 琴鼓之山</tspan>　→ 皖西—鄂東方向（終點）</text>
-<text x="60" y="590" font-size="11" fill="#666">推理說明：自景山（保康荊山方向；雎水東南注江）東北行——漳水注雎、洈水注漳（大江南岸三級嵌套）——過襄陽—桐柏—信陽，東轉東南入大別山方向，至琴鼓之山（皖西—鄂東方向）終點。</text>
-<text x="60" y="612" font-size="11" fill="#666">腿程 3,080 里≈1,186 km（0.385；自記 2,890 里 variant）；層累約 2.4×（範圍以水系拓撲為主，F-0008）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
+<text x="60" y="596" font-size="11" fill="#666">推理說明：自景山（保康荊山方向；雎水東南注江）東北行——漳水注雎、洈水注漳（大江南岸三級嵌套）——過襄陽—桐柏—信陽，東轉東南入大別山方向，至琴鼓之山（皖西—鄂東方向）終</text>
+<text x="60" y="612" font-size="11" fill="#666">點。</text>
+<text x="60" y="634" font-size="11" fill="#666">腿程 3,080 里≈1,186 km（0.385；自記 2,890 里 variant）；層累約 2.4×（範圍以水系拓撲為主，F-0008）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
 </svg>
