@@ -33,7 +33,7 @@ short = {
 LON0, LON1 = -11.5, 2.5
 LAT0, LAT1 = 26.5, 36.0
 MX, MY = 60, 80
-MW, MH = 1000, 500
+MW, MH = 1000, 560
 PANEL_X = MX + MW + 30
 
 def X(lon): return MX + (lon - LON0) / (LON1 - LON0) * MW
@@ -41,7 +41,14 @@ def Y(lat): return MY + (LAT1 - lat) / (LAT1 - LAT0) * MH
 def pts(seq): return " ".join(f"{X(lo):.1f},{Y(la):.1f}" for lo, la in seq)
 
 def _twidth(t, size):
-    return sum(size if ord(c) > 0x2E7F else size * 0.55 for c in t)
+    w = 0.0
+    for c in t:
+        o = ord(c)
+        if o > 0x2E7F or 0x2190 <= o <= 0x27BF or o in (0x00D7, 0x2248, 0x2013, 0x2014):
+            w += size
+        else:
+            w += size * 0.55
+    return w
 
 S = []
 def wrap_text(x, y, max_w, size, color, text, lh=None):
@@ -174,7 +181,8 @@ for lat in range(27, 37):
     S.append(f'<line x1="{X(LON0):.0f}" y1="{Y(lat):.0f}" x2="{X(LON1):.0f}" y2="{Y(lat):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
     S.append(f'<text x="{X(LON0)-26:.0f}" y="{Y(lat)+3:.0f}" font-size="9" fill="#999">{lat}°N</text>')
 
-# ---- panel ----
+# ---- frame border + panel ----
+S.append(f'<rect x="{MX}" y="{MY}" width="{MW}" height="{MH}" fill="none" stroke="#b8ad92" stroke-width="1.4"/>')
 px = PANEL_X
 S.append(f'<rect x="{px-12}" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>')
 S.append(f'<text x="{px}" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>')
@@ -212,9 +220,9 @@ for s in stations:
     ty += 21.2
 
 # ---- footer notes (wrapped to map width) ----
-fy = wrap_text(60, Y(LAT0) + 40, MW, 11, "#666",
+fy = wrap_text(60, Y(LAT0) + 40, MW - 60, 11, "#666",
     "推理說明：自陰山（紹拉河谷下游）正北七站跨撒哈拉阿特拉斯山前帶（西洛東河分水脊線），於白於之山轉西，經申首雪峯（冬夏有雪）、中阿特拉斯，抵高阿特拉斯主脊集水嶺（鳥鼠同穴：渭水東流、濫水西流），西南至崦嵫之山（日落山）——苕水西流注于海＝蘇斯河入大西洋。")
-fy = wrap_text(60, fy + 6, MW, 11, "#666",
+fy = wrap_text(60, fy + 6, MW - 60, 11, "#666",
     "腿程合計 3,205 里≈1,234 km（0.385；原文自記 3,680 里，差異記錄待校）。淨位移擬合約 97%。所有對應為競爭假說，時代窗口 4000–1000 BCE；內流水系已衰退、白色相動物群已退出，現代無水不作否決。")
 
 S.append('</svg>')
@@ -225,10 +233,15 @@ with open(OUT, "w") as f:
 
 # overflow audit
 bad = []
-for m in re.finditer(r'<text x="([\d.-]+)" y="[\d.-]+" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
-    x, size, t = float(m.group(1)), float(m.group(2)), m.group(3)
+for m in re.finditer(r'<text x="([\d.-]+)" y="([\d.-]+)" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
+    x, y, size, t = float(m.group(1)), float(m.group(2)), float(m.group(3)), m.group(4)
     end = x + _twidth(t, size)
-    limit = 1700 if x >= PANEL_X - 12 else PANEL_X - 16
-    if end > limit:
-        bad.append((t[:24], int(x), int(end)))
+    if x < 0:
+        bad.append(("left-off", t[:20], int(x)))
+    elif y >= 65 and x < PANEL_X - 12 and end > MX + MW - 8:
+        bad.append(("past-frame", t[:20], int(end)))
+    elif x >= PANEL_X - 12 and end > 1630:
+        bad.append(("past-panel", t[:20], int(end)))
+    if y > 888:
+        bad.append(("bottom-off", t[:20], int(y)))
 print("wrote", OUT, os.path.getsize(OUT), "bytes | overflow:", bad if bad else "none")

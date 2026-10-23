@@ -23,7 +23,7 @@ def render(cfg):
     short = cfg["stations_short"]
     W = cfg["window"]
     LON0, LON1, LAT0, LAT1 = W["lon0"], W["lon1"], W["lat0"], W["lat1"]
-    MX, MY, MW, MH = 60, 80, 1000, 470
+    MX, MY, MW, MH = 60, 80, 1000, 560
     PANEL_X = MX + MW + 30
 
     def X(lon): return MX + (lon - LON0) / (LON1 - LON0) * MW

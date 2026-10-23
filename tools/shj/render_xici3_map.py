@@ -37,7 +37,7 @@ short = {
 LON0, LON1 = 11.0, 42.0
 LAT0, LAT1 = 25.0, 33.2
 MX, MY = 70, 90
-MW, MH = 980, 470  # map pixel size
+MW, MH = 980, 560  # map pixel size
 PANEL_X = MX + MW + 30
 
 def X(lon): return MX + (lon - LON0) / (LON1 - LON0) * MW
@@ -46,7 +46,14 @@ def Y(lat): return MY + (LAT1 - lat) / (LAT1 - LAT0) * MH
 def pts(seq): return " ".join(f"{X(lo):.1f},{Y(la):.1f}" for lo, la in seq)
 
 def _twidth(t, size):
-    return sum(size if ord(c) > 0x2E7F else size * 0.55 for c in t)
+    w = 0.0
+    for c in t:
+        o = ord(c)
+        if o > 0x2E7F or 0x2190 <= o <= 0x27BF or o in (0x00D7, 0x2248, 0x2013, 0x2014):
+            w += size
+        else:
+            w += size * 0.55
+    return w
 
 def wrap_text(x, y, max_w, size, color, text, lh=None):
     """CJK-aware character wrapping; returns next y after the block."""
@@ -221,7 +228,8 @@ for lat in range(26, 34):
     S.append(f'<line x1="{X(LON0):.0f}" y1="{Y(lat):.0f}" x2="{X(LON1):.0f}" y2="{Y(lat):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
     S.append(f'<text x="{X(LON0)-26:.0f}" y="{Y(lat)+3:.0f}" font-size="9" fill="#999">{lat}°N</text>')
 
-# ---- right panel: legend + station table ----
+# ---- frame border + right panel: legend + station table ----
+S.append(f'<rect x="{MX}" y="{MY}" width="{MW}" height="{MH}" fill="none" stroke="#b8ad92" stroke-width="1.4"/>')
 px = PANEL_X
 S.append(f'<rect x="{px-12}" y="70" width="520" height="800" fill="#fffdf5" stroke="#cbb"/>')
 S.append(f'<text x="{px}" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>')
@@ -259,9 +267,9 @@ for s in stations:
     ty += 21.2
 
 # ---- footer notes ----
-fy = wrap_text(70, Y(25.0) + 40, MW, 11, "#666",
+fy = wrap_text(70, Y(25.0) + 40, MW - 60, 11, "#666",
     "推理說明：自崇吾（米甸）向西北至死海（峚山·玉膏瀝青），轉西跨西奈（泰器·文鰩魚雙海）、三角洲東緣（槐江·南望昆侖其光熊熊），西南至吉薩（昆侖之丘）；自吉薩正西：奈特倫（樂遊）→蓋塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·積石·黑水）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原）→蘇爾特灣（泑山日落·翼望終點）。")
-fy = wrap_text(70, fy + 6, MW, 11, "#666",
+fy = wrap_text(70, fy + 6, MW - 60, 11, "#666",
     "全鏈 6,640 里≈2,556 km（0.385）；吉薩→錫瓦 1,320 里，0.42 端＝554 km vs 實測 541 km。所有對應為競爭假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水不作否決。")
 
 S.append('</svg>')
@@ -272,10 +280,15 @@ with open(OUT, "w") as f:
 import re as _re
 svg = "\n".join(S)
 bad = []
-for m in _re.finditer(r'<text x="([\d.-]+)" y="[\d.-]+" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
-    x, size, t = float(m.group(1)), float(m.group(2)), m.group(3)
+for m in _re.finditer(r'<text x="([\d.-]+)" y="([\d.-]+)" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
+    x, y, size, t = float(m.group(1)), float(m.group(2)), float(m.group(3)), m.group(4)
     end = x + _twidth(t, size)
-    limit = 1600 if x >= PANEL_X - 12 else PANEL_X - 16
-    if end > limit:
-        bad.append((t[:24], int(x), int(end)))
+    if x < 0:
+        bad.append(("left-off", t[:20], int(x)))
+    elif y >= 85 and x < PANEL_X - 12 and end > MX + MW - 8:
+        bad.append(("past-frame", t[:20], int(end)))
+    elif x >= PANEL_X - 12 and end > 1580:
+        bad.append(("past-panel", t[:20], int(end)))
+    if y > 888:
+        bad.append(("bottom-off", t[:20], int(y)))
 print("wrote", OUT, os.path.getsize(OUT), "bytes | overflow:", bad if bad else "none")
