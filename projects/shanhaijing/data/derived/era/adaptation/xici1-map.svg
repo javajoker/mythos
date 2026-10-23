@@ -21,12 +21,12 @@
 <text x="142" y="380" font-size="10" fill="#2f6d9e">納木錯（西海候選A）</text>
 <ellipse cx="84" cy="275" rx="15" ry="8" fill="#9dc2dd" stroke="#7fa8c9" stroke-dasharray="4 3"/>
 <text x="63" y="254" font-size="9" fill="#2f6d9e">色林錯（候選B）</text>
-<polyline points="526.7,112.5 635.8,101.7 744.8,90.8 835.8,101.7 914.5,123.4 963.0,152.3 932.7,177.6 872.1,192.1 811.5,184.8" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
+<polyline points="508.5,43.8 593.3,51.1 696.4,69.2 805.5,83.6 908.5,116.2 938.8,141.5 872.1,130.6 835.8,87.2 841.8,-28.5 908.5,-42.9 987.3,-32.8" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
 <text x="672" y="86" font-size="10" fill="#a07d1e">黃河上游河曲（渭候選）</text>
 <polyline points="835.8,239.1 847.9,195.7 875.2,190.6" fill="none" stroke="#c89a2e" stroke-width="1.2"/>
 <polyline points="890.3,224.6 908.5,174.0" fill="none" stroke="#c89a2e" stroke-width="1.2"/>
 <text x="839" y="221" font-size="8" fill="#a07d1e">白河/黑河（北注渭格局）</text>
-<polyline points="975.2,217.4 984.2,268.0 993.3,311.4 999.4,354.8" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="975.2,217.4 976.4,268.0 976.4,333.1 1005.5,383.7 1035.8,492.2" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="599.4,246.3 690.3,289.7 769.1,340.3 841.8,398.2 896.4,437.9" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="647.9,260.8 690.3,340.3 732.7,419.8 769.1,484.9" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="593.3,318.6 590.3,405.4 611.5,477.7 672.1,510.2" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>

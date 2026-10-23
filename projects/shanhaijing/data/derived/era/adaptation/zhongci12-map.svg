@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次十二經》時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-zhongci12-1 ｜ 拓撲錨：洞庭之山＝湖—九河格局＋帝之二女湖神信仰（不依洞庭/柴桑/瀟湘同名——借名標記）｜ 全部映射 proposed_pending_review</text>
+<polyline points="-646.7,-433.3 -473.3,-427.1 -300.0,-408.6 -140.0,-402.4 20.0,-396.2 153.3,-402.4 200.0,-417.2" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="-327" y="-430" font-size="9" fill="#2f7fbf">渭河</text>
+<polyline points="140.0,-352.9 246.7,-371.4 340.0,-390.0 433.3,-408.6 513.3,-417.2 580.0,-424.6" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="300" y="-359" font-size="9" fill="#2f7fbf">洛河（洛——借名標記）</text>
+<polyline points="300.0,-315.8 366.7,-352.9 440.0,-396.2 500.0,-414.7" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="327" y="-328" font-size="9" fill="#2f7fbf">伊河（伊水——借名標記）</text>
+<polyline points="-300.0,-216.8 -140.0,-192.1 20.0,-167.4 180.0,-148.8 313.3,-136.4 433.3,-130.3 553.3,-117.9 660.0,-105.5 726.7,-80.8" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="-140" y="-167" font-size="9" fill="#2f7fbf">漢江（漢水——借名標記）</text>
+<polyline points="-1340.0,-167.4 -1140.0,-68.4 -940.0,5.8 -726.7,42.9 -566.7,67.6 -406.7,104.7 -233.3,141.8 -73.3,178.9 60.0,166.6 153.3,117.1 260.0,92.4 366.7,67.6 473.3,80.0 580.0,104.7 686.7,104.7 780.0,92.4" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="167" y="136" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>
+<ellipse cx="100" cy="290" rx="107" ry="62" fill="#c9b18a" opacity="0.4"/>
+<text x="76" y="293" font-size="10" fill="#7a6540">武陵山</text>
+<ellipse cx="193" cy="414" rx="80" ry="49" fill="#c9b18a" opacity="0.4"/>
+<text x="169" y="417" font-size="10" fill="#7a6540">雪峰山</text>
+<ellipse cx="727" cy="278" rx="67" ry="37" fill="#c9b18a" opacity="0.4"/>
+<text x="703" y="281" font-size="10" fill="#7a6540">幕阜山</text>
+<ellipse cx="500" cy="247" rx="80" ry="37" fill="#2f7fbf" opacity="0.35" stroke="#2f7fbf" stroke-dasharray="4 3"/>
+<text x="470" y="247" font-size="9" fill="#2f7fbf">洞庭湖澤區（湖—九河格局）</text>
+<polyline points="266.7,134.4 285.3,149.3 333.3,188.8 370.7,188.8 389.3,204.9 468.0,204.9 513.3,240.8 580.0,295.2 656.0,355.8 714.7,404.1 752.0,435.0 858.7,435.0 902.7,470.8 902.7,510.4 1024.0,510.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="267" cy="134" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="263" y="138" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="249" y="123" font-size="10" fill="#7b241c" font-weight="bold">篇遇之山</text>
+<circle cx="285" cy="149" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="281" y="153" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="267" y="165" font-size="10" fill="#7b241c" font-weight="bold">雲山</text>
+<circle cx="333" cy="189" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="329" y="193" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="315" y="178" font-size="10" fill="#7b241c" font-weight="bold">龜山</text>
+<circle cx="371" cy="189" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="367" y="193" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="353" y="205" font-size="10" fill="#7b241c" font-weight="bold">丙山</text>
+<circle cx="389" cy="205" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="385" y="209" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="371" y="194" font-size="10" fill="#7b241c" font-weight="bold">風伯之山</text>
+<circle cx="468" cy="205" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="464" y="209" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="450" y="221" font-size="10" fill="#7b241c" font-weight="bold">夫夫之山</text>
+<circle cx="513" cy="241" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="509" y="245" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="495" y="221" font-size="10" fill="#7b241c" font-weight="bold">洞庭之山</text>
+<circle cx="580" cy="295" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="576" y="299" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="562" y="311" font-size="10" fill="#7b241c" font-weight="bold">暴山</text>
+<circle cx="656" cy="356" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="652" y="360" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="638" y="345" font-size="10" fill="#7b241c" font-weight="bold">即公之山</text>
+<circle cx="715" cy="404" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="711" y="408" font-size="9" fill="#fff" font-weight="bold">10</text>
+<text x="697" y="420" font-size="10" fill="#7b241c" font-weight="bold">堯山</text>
+<circle cx="752" cy="435" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="748" y="439" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="734" y="424" font-size="10" fill="#7b241c" font-weight="bold">江浮之山</text>
+<circle cx="859" cy="435" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="855" y="439" font-size="9" fill="#fff" font-weight="bold">12</text>
+<text x="841" y="451" font-size="10" fill="#7b241c" font-weight="bold">真陵之山</text>
+<circle cx="903" cy="471" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="899" y="475" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="885" y="460" font-size="10" fill="#7b241c" font-weight="bold">陽帝之山</text>
+<circle cx="903" cy="510" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="899" y="514" font-size="9" fill="#fff" font-weight="bold">14</text>
+<text x="885" y="526" font-size="10" fill="#7b241c" font-weight="bold">柴桑之山</text>
+<circle cx="1024" cy="510" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="1020" y="514" font-size="9" fill="#fff" font-weight="bold">15</text>
+<text x="1006" y="499" font-size="10" fill="#7b241c" font-weight="bold">榮余之山</text>
+<text x="473" y="210" font-size="9" fill="#2f7fbf">湖—九河格局：多水匯入大湖澤區（借名標記下的拓撲）</text>
+<text x="433" y="284" font-size="9" fill="#8e44ad">帝之二女游于江淵——湖神信仰層</text>
+<text x="513" y="259" font-size="9" fill="#5a7a3a">柑橘（橘櫾）＝亞熱帶標誌風物</text>
+<rect x="350" y="271" width="6" height="6" fill="#34495e"/>
+<text x="358" y="270" font-size="9" fill="#34495e">常德</text>
+<rect x="541" y="229" width="6" height="6" fill="#34495e"/>
+<text x="549" y="228" font-size="9" fill="#34495e">岳陽</text>
+<rect x="922" y="187" width="6" height="6" fill="#34495e"/>
+<text x="930" y="186" font-size="9" fill="#34495e">九江</text>
+<rect x="700" y="171" width="6" height="6" fill="#34495e"/>
+<text x="708" y="170" font-size="9" fill="#34495e">咸寧</text>
+<line x1="113" y1="488" x2="660" y2="488" stroke="#333" stroke-width="2"/>
+<line x1="113" y1="484" x2="113" y2="492" stroke="#333" stroke-width="1.5"/>
+<text x="105" y="504" font-size="9" fill="#333">0</text>
+<line x1="250" y1="484" x2="250" y2="492" stroke="#333" stroke-width="1.5"/>
+<text x="242" y="504" font-size="9" fill="#333">100</text>
+<line x1="386" y1="484" x2="386" y2="492" stroke="#333" stroke-width="1.5"/>
+<text x="378" y="504" font-size="9" fill="#333">200</text>
+<line x1="523" y1="484" x2="523" y2="492" stroke="#333" stroke-width="1.5"/>
+<text x="515" y="504" font-size="9" fill="#333">300</text>
+<line x1="660" y1="484" x2="660" y2="492" stroke="#333" stroke-width="1.5"/>
+<text x="652" y="504" font-size="9" fill="#333">400</text>
+<text x="668" y="492" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="127" y1="550" x2="127" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="119" y="564" font-size="9" fill="#999">110°E</text>
+<line x1="393" y1="550" x2="393" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="385" y="564" font-size="9" fill="#999">112°E</text>
+<line x1="660" y1="550" x2="660" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="652" y="564" font-size="9" fill="#999">114°E</text>
+<line x1="927" y1="550" x2="927" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="919" y="564" font-size="9" fill="#999">116°E</text>
+<line x1="60" y1="525" x2="1060" y2="525" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="528" font-size="9" fill="#999">27°N</text>
+<line x1="60" y1="402" x2="1060" y2="402" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="405" font-size="9" fill="#999">28°N</text>
+<line x1="60" y1="278" x2="1060" y2="278" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="281" font-size="9" fill="#999">29°N</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（15站；湘西→洞庭→贛西北）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝拓撲錨（洞庭之山·湖—九河格局）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">長江（現代參照；借名標記）</text>
+<rect x="1098" y="179" width="8" height="8" fill="#c9b18a"/>
+<text x="1124" y="188" font-size="11" fill="#444">山系（簡化示意）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="210" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="236" font-size="10" fill="#666">拓撲錨：洞庭之山＝湖—九河格局＋帝之二女湖神信仰——不依洞庭/柴桑/瀟湘同名（借名標記）。</text>
+<text x="1090" y="254" font-size="10" fill="#666">「凡十萬山」異文（疑十五山）；腿程1,849 vs 自記2,800（variant）。</text>
+<text x="1090" y="273" font-size="10" fill="#666">柑橘亞熱帶風物＋操蛇怪神＝南方湖區文化層。</text>
+<text x="1090" y="292" font-size="10" fill="#666">窗口東南延展至117°E/26.8°N：里程層累（F-0008）使鏈條東南端越出擬合區域，範圍判定以水係拓撲為主、里</text>
+<text x="1090" y="306" font-size="10" fill="#666">程為輔。</text>
+<text x="1090" y="340.5" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
+<text x="1090" y="362" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 篇遇之山</tspan>　→ 湘西—鄂西方向（起點）</text>
+<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 雲山</tspan>　→ 湘西·毒桂竹</text>
+<text x="1090" y="405" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 龜山</tspan>　→ 湘西—湘西北·青雄黃</text>
+<text x="1090" y="426" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 丙山</tspan>　→ 湘西北·金銅鐵無木</text>
+<text x="1090" y="447" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 風伯之山</tspan>　→ 沅陵方向·莽浮之林</text>
+<text x="1090" y="468" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 夫夫之山</tspan>　→ 常德方向·操蛇江神（冢）</text>
+<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 洞庭之山</tspan>　→ 洞庭湖區（拓撲錨·帝之二女）</text>
+<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 暴山</tspan>　→ 洞庭東·麋鹿竹箭</text>
+<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 即公之山</tspan>　→ 岳陽方向·蛫御火（冢）</text>
+<text x="1090" y="553" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 堯山</tspan>　→ 岳陽—臨湘（借名·冢）</text>
+<text x="1090" y="574" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 江浮之山</tspan>　→ 臨湘—赤壁方向·銀砥礪</text>
+<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 真陵之山</tspan>　→ 赤壁—咸寧方向</text>
+<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 陽帝之山</tspan>　→ 咸寧—通山·美銅麢麝（冢）</text>
+<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 柴桑之山</tspan>　→ 九江方向（借名）·白蛇飛蛇</text>
+<text x="1090" y="659" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 榮余之山</tspan>　→ 幕阜山—贛西北（神也·太牢）</text>
+<text x="60" y="590" font-size="11" fill="#666">推理說明：自篇遇之山（湘西—鄂西方向，無草木多黃金）東南行——湘西（雲山毒桂竹·龜山青雄黃·丙山金銅鐵）→沅陵—常德（風伯莽浮之林·夫夫操蛇江神）→洞庭湖區（拓撲錨：帝之二女游于江淵，澧沅</text>
+<text x="60" y="606" font-size="11" fill="#666">之風交瀟湘之淵，是在九江之閒）→洞庭東—岳陽（暴山·即公蛫御火·堯山）→臨湘—咸寧—九江（江浮·真陵·陽帝美銅·柴桑）→榮余之山（幕阜山—贛西北方向）。</text>
+<text x="60" y="628" font-size="11" fill="#666">腿程 1,849 里≈712 km（0.385）；擬合走廊實距約 480–550 km——層累約 1.3–1.5×（F-0008 區間 1.2–4× 內），鏈條東南端因此越出擬合區。自記 2,800 里 vs 腿程 -34%（variant）；「凡十萬</text>
+<text x="60" y="644" font-size="11" fill="#666">山」異文（疑十五山）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
+</svg>

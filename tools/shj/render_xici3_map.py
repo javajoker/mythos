@@ -106,8 +106,8 @@ S.append(f'<ellipse cx="{X(35.5):.0f}" cy="{Y(31.3):.0f}" rx="6" ry="16" fill="#
 S.append(f'<text x="{X(34.85):.0f}" y="{Y(30.72):.0f}" font-size="9" fill="#4a7596">死海（峚山·玉膏瀝青）</text>')
 
 # ---- Nile (modern reference, solid) ----
-nile = [(32.7, 25.0), (32.65, 25.7), (32.3, 26.1), (31.9, 26.5), (31.5, 27.1), (31.25, 27.8),
-        (31.25, 28.5), (31.2, 29.2), (31.15, 29.7), (31.13, 30.0)]
+nile = [(32.7, 25.0), (32.65, 25.7), (32.3, 26.1), (31.6, 26.9), (31.4, 27.2), (31.2, 27.7),
+        (30.95, 28.2), (30.9, 28.7), (31.1, 29.2), (31.15, 29.7), (31.13, 30.0)]
 S.append(f'<polyline points="{pts(nile)}" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>')
 # delta branches
 S.append(f'<polyline points="{pts([(31.13,30.0),(31.0,30.5),(30.4,31.35)])}" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>')
@@ -119,7 +119,7 @@ S.append(f'<ellipse cx="{X(30.62):.0f}" cy="{Y(29.42):.0f}" rx="12" ry="8" fill=
 S.append(f'<text x="{X(30.3):.0f}" y="{Y(29.1):.0f}" font-size="10" fill="#2f6d9e">法雍湖（醜塗之水）</text>')
 
 # ---- Qattara (大杅) ----
-qx, qy = X(28.3), Y(29.55)
+qx, qy = X(27.7), Y(29.5)
 S.append(f'<ellipse cx="{qx:.0f}" cy="{qy:.0f}" rx="34" ry="15" fill="#e3d7b5" stroke="#b09050" stroke-width="1.4" stroke-dasharray="6 3"/>')
 S.append(f'<text x="{qx-52:.0f}" y="{qy+4:.0f}" font-size="11" fill="#8a6a2f">蓋塔拉窪地（大杅）</text>')
 
@@ -133,8 +133,8 @@ S.append(f'<ellipse cx="{X(33.9):.0f}" cy="{Y(30.75):.0f}" rx="26" ry="10" fill=
 S.append(f'<text x="{X(33.5):.0f}" y="{Y(30.45):.0f}" font-size="9" fill="#8a6a2f">北西奈沙丘（流沙）</text>')
 
 # ---- Haruj volcanic field ----
-S.append(f'<ellipse cx="{X(17.5):.0f}" cy="{Y(28.5):.0f}" rx="40" ry="18" fill="#6b5f52" opacity="0.5"/>')
-S.append(f'<text x="{X(16.55):.0f}" y="{Y(28.5):.0f}" font-size="10" fill="#3d352c">哈魯傑火山原（三危之山·廣員百里）</text>')
+S.append(f'<ellipse cx="{X(17.5):.0f}" cy="{Y(27.25):.0f}" rx="40" ry="18" fill="#6b5f52" opacity="0.5"/>')
+S.append(f'<text x="{X(16.3):.0f}" y="{Y(27.25):.0f}" font-size="10" fill="#3d352c">哈魯傑火山原（三危之山候選）</text>')
 
 # ---- Wadi Sirhan + 泑澤 paleolake ----
 S.append(f'<polyline points="{pts([(36.8,31.8),(37.4,30.8),(38.0,30.0),(38.7,29.3)])}" fill="none" stroke="#c47f2a" stroke-width="2" stroke-dasharray="7 4"/>')
@@ -268,4 +268,14 @@ S.append('</svg>')
 
 with open(OUT, "w") as f:
     f.write("\n".join(S))
-print("wrote", OUT, os.path.getsize(OUT), "bytes")
+
+import re as _re
+svg = "\n".join(S)
+bad = []
+for m in _re.finditer(r'<text x="([\d.-]+)" y="[\d.-]+" font-size="([\d.]+)"[^>]*>([^<]+)</text>', svg):
+    x, size, t = float(m.group(1)), float(m.group(2)), m.group(3)
+    end = x + _twidth(t, size)
+    limit = 1600 if x >= PANEL_X - 12 else PANEL_X - 16
+    if end > limit:
+        bad.append((t[:24], int(x), int(end)))
+print("wrote", OUT, os.path.getsize(OUT), "bytes | overflow:", bad if bad else "none")

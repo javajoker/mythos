@@ -29,8 +29,8 @@
 <text x="139" y="391" font-size="9" fill="#2f7fbf">蘇斯河（漢水→苕水→海）</text>
 <text x="210" y="298" font-size="9" fill="#2f7fbf">坦西夫特河（洋水）</text>
 <text x="756" y="427" font-size="9" fill="#2f7fbf">紹拉河＝洛（內流·消失於沙）</text>
-<ellipse cx="910" cy="259" rx="34" ry="16" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>
-<text x="856" y="280" font-size="9" fill="#5a7a3a">河＝高原鹽沼系統（濕期大湖）</text>
+<ellipse cx="903" cy="222" rx="34" ry="16" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>
+<text x="842" y="241" font-size="9" fill="#5a7a3a">河＝高原鹽沼系統（濕期大湖）</text>
 <ellipse cx="492" cy="304" rx="20" ry="10" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>
 <text x="446" y="288" font-size="9" fill="#5a7a3a">陵羊之澤（山前湖沼）</text>
 <path d="M692.0,313.36842105263156 L700.0,301.36842105263156 L708.0,313.36842105263156 Z" fill="#fff" stroke="#7fa8c9"/>

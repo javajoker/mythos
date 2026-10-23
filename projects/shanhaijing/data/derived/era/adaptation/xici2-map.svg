@@ -9,22 +9,22 @@
 <text x="425" y="518" font-size="13" fill="#5a7a3a" font-style="italic">恆河平原</text>
 <rect x="60" y="344" width="1000" height="102" fill="#cfe0b8" opacity="0.7"/>
 <text x="375" y="431" font-size="10" fill="#5a7a3a">特萊帶（山麓沖積林帶——犀牛/楠樟/沼鹿生態帶）</text>
-<polyline points="79.2,200.0 136.9,206.0 213.8,224.0 290.8,236.0 367.7,242.0 444.6,248.0 521.5,266.0 598.5,344.0 675.4,362.0 752.3,338.0 829.2,320.0 906.2,302.0 963.8,296.0 1040.8,284.0" fill="none" stroke="#a08a5a" stroke-width="10" opacity="0.4" stroke-linecap="round"/>
-<text x="98" y="206" font-size="11" fill="#7a6540">喜馬拉雅主脊（簡化示意）</text>
+<polyline points="156.2,122.0 233.1,146.0 310.0,206.0 386.9,248.0 463.8,272.0 540.8,350.0 598.5,374.0 656.2,380.0 733.1,386.0 790.8,368.0 867.7,320.0 936.9,302.0 979.2,290.0" fill="none" stroke="#a08a5a" stroke-width="10" opacity="0.4" stroke-linecap="round"/>
+<text x="168" y="167" font-size="11" fill="#7a6540">喜馬拉雅主脊（簡化示意）</text>
 <polyline points="444.6,266.0 540.8,278.0 636.9,290.0 733.1,296.0 829.2,296.0 925.4,296.0 960.0,302.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
-<polyline points="960.0,302.0 967.7,362.0 956.2,386.0 906.2,404.0 848.5,428.0 790.8,458.0 760.0,488.0 748.5,542.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="960.0,302.0 967.7,362.0 940.8,410.0 906.2,404.0 848.5,428.0 819.6,491.0 760.0,488.0 748.5,542.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="302.3,266.0 329.2,326.0 379.2,470.0 444.6,524.0 483.1,542.0 579.2,536.0 683.1,551.0 748.5,542.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
-<polyline points="275.4,248.0 260.0,344.0 286.9,404.0 348.5,464.0 386.9,494.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
-<polyline points="313.8,140.0 271.5,182.0 236.9,206.0 190.8,218.0 160.0,242.0" fill="none" stroke="#2f7fbf" stroke-width="1.6" stroke-dasharray="5 4"/>
-<polyline points="202.3,80.0 171.5,140.0 144.6,200.0 121.5,260.0 98.5,332.0 83.1,404.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="263.8,254.0 260.0,344.0 290.8,428.0 329.2,452.0 375.4,470.0 438.8,530.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="317.7,152.0 267.7,182.0 233.1,201.8 208.1,206.0 160.0,206.0 113.8,242.0 71.5,290.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="106.2,80.0 75.4,80.0 60.0,122.0 60.0,158.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="633.1,350.0 625.4,410.0 617.7,464.0 613.8,512.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="552.3,350.0 544.6,404.0 536.9,458.0 529.2,506.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <polyline points="460.0,320.0 448.5,356.0 440.8,410.0 433.1,464.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
 <text x="533" y="275" font-size="9" fill="#2f7fbf">雅魯藏布江（河候選B）</text>
 <text x="775" y="470" font-size="9" fill="#2f7fbf">布拉馬普特拉（河候選A東段）</text>
 <text x="491" y="524" font-size="9" fill="#2f7fbf">恆河（河候選A）</text>
-<text x="148" y="170" font-size="9" fill="#2f7fbf">薩特萊傑河（皇水方向·虛線＝間歇段）</text>
-<text x="66" y="362" font-size="9" fill="#2f7fbf">印度河（赤水候選）</text>
+<text x="183" y="158" font-size="9" fill="#2f7fbf">薩特萊傑河（皇水方向）</text>
+<text x="66" y="116" font-size="9" fill="#2f7fbf">印度河（赤水候選）</text>
 <text x="841" y="377" font-size="10" fill="#5a7a3a">東段：東/南注河·渭（恆河系統）→</text>
 <text x="137" y="377" font-size="10" fill="#8a4a2a">← 西段：西注赤水（印度河系統）</text>
 <polyline points="752.3,290.0 721.9,290.0 695.8,290.0 690.4,282.8 658.1,326.6 627.3,326.6 596.9,326.6 575.0,356.0 513.8,356.0 468.1,356.0 406.9,356.0 345.8,356.0 307.7,356.0 231.2,356.0 185.4,356.0 131.9,356.0 78.5,356.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>

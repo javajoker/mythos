@@ -114,8 +114,8 @@ S.append(f'<text x="{X(-9.4):.0f}" y="{Y(31.85):.0f}" font-size="9" fill="#2f7fb
 S.append(f'<text x="{X(-1.75):.0f}" y="{Y(29.4):.0f}" font-size="9" fill="#2f7fbf">紹拉河＝洛（內流·消失於沙）</text>')
 
 # ---- period hypothesis (dashed): 河 endorheic system, 陵羊之澤, 申水伏流 ----
-S.append(f'<ellipse cx="{X(0.4):.0f}" cy="{Y(32.6):.0f}" rx="34" ry="16" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>')
-S.append(f'<text x="{X(-0.35):.0f}" y="{Y(32.2):.0f}" font-size="9" fill="#5a7a3a">河＝高原鹽沼系統（濕期大湖）</text>')
+S.append(f'<ellipse cx="{X(0.3):.0f}" cy="{Y(33.3):.0f}" rx="34" ry="16" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>')
+S.append(f'<text x="{X(-0.55):.0f}" y="{Y(32.95):.0f}" font-size="9" fill="#5a7a3a">河＝高原鹽沼系統（濕期大湖）</text>')
 S.append(f'<ellipse cx="{X(-5.45):.0f}" cy="{Y(31.75):.0f}" rx="20" ry="10" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>')
 S.append(f'<text x="{X(-6.1):.0f}" y="{Y(32.05):.0f}" font-size="9" fill="#5a7a3a">陵羊之澤（山前湖沼）</text>')
 # snow peak marker at 申首之山 + karst note

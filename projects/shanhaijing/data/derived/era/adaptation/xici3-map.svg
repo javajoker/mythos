@@ -12,14 +12,14 @@
 <text x="821" y="359" font-size="9" fill="#4a7596">亞喀巴灣</text>
 <ellipse cx="845" cy="199" rx="6" ry="16" fill="#9dc2dd" stroke="#7fa8c9"/>
 <text x="824" y="232" font-size="9" fill="#4a7596">死海（峚山·玉膏瀝青）</text>
-<polyline points="756.0,560.0 754.4,519.9 743.4,497.0 730.7,474.0 718.1,439.6 710.2,399.5 710.2,359.4 708.6,319.3 707.0,290.6 706.4,273.4" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<polyline points="756.0,560.0 754.4,519.9 743.4,497.0 721.2,451.1 714.9,433.9 708.6,405.2 700.7,376.6 699.1,347.9 705.4,319.3 707.0,290.6 706.4,273.4" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
 <polyline points="706.4,273.4 702.3,244.8 683.3,196.0" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>
 <polyline points="706.4,273.4 718.1,239.0 718.1,187.4" fill="none" stroke="#2f7fbf" stroke-width="1.4"/>
 <text x="724" y="411" font-size="11" fill="#2f7fbf">尼羅河（河水→無逹·南方未至之地）</text>
 <ellipse cx="690" cy="307" rx="12" ry="8" fill="#9dc2dd" stroke="#5b97c4" stroke-dasharray="4 2"/>
 <text x="680" y="325" font-size="10" fill="#2f6d9e">法雍湖（醜塗之水）</text>
-<ellipse cx="617" cy="299" rx="34" ry="15" fill="#e3d7b5" stroke="#b09050" stroke-width="1.4" stroke-dasharray="6 3"/>
-<text x="565" y="303" font-size="11" fill="#8a6a2f">蓋塔拉窪地（大杅）</text>
+<ellipse cx="598" cy="302" rx="34" ry="15" fill="#e3d7b5" stroke="#b09050" stroke-width="1.4" stroke-dasharray="6 3"/>
+<text x="546" y="306" font-size="11" fill="#8a6a2f">蓋塔拉窪地（大杅）</text>
 <defs><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
 <polygon points="518.9,296.3 601.1,296.3 601.1,560.0 518.9,560.0" fill="url(#sand)" opacity="0.75"/>
 <text x="541" y="365" font-size="11" fill="#8a6a2f">大沙海</text>
@@ -27,8 +27,8 @@
 <text x="396" y="302" font-size="10" fill="#8a6a2f">卡蘭西奧沙海</text>
 <ellipse cx="794" cy="230" rx="26" ry="10" fill="url(#sand)" opacity="0.6"/>
 <text x="781" y="248" font-size="9" fill="#8a6a2f">北西奈沙丘（流沙）</text>
-<ellipse cx="275" cy="359" rx="40" ry="18" fill="#6b5f52" opacity="0.5"/>
-<text x="245" y="359" font-size="10" fill="#3d352c">哈魯傑火山原（三危之山·廣員百里）</text>
+<ellipse cx="275" cy="431" rx="40" ry="18" fill="#6b5f52" opacity="0.5"/>
+<text x="238" y="431" font-size="10" fill="#3d352c">哈魯傑火山原（三危之山候選）</text>
 <polyline points="885.6,170.2 904.6,227.6 923.5,273.4 945.7,313.5" fill="none" stroke="#c47f2a" stroke-width="2" stroke-dasharray="7 4"/>
 <ellipse cx="909" cy="311" rx="14" ry="8" fill="#d8e6c8" stroke="#7a9a5a" stroke-dasharray="4 3"/>
 <text x="892" y="325" font-size="10" fill="#5a7a3a">泑澤（西爾罕古湖·河水所潛）</text>
