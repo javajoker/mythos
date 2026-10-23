@@ -30,6 +30,8 @@ description: Runbook for producing the complete adaptation package of one Shanha
    - **山體必附現實山名（發起人 2026-10-23 裁定）**：每個 MTN 實體的主候選除區域方向外，必須給出可核驗的現代山體名稱（山脈/山嶺/山峰，如「伏牛山·老鴉岔堖」），寫入 `modern_mountain` 字段；只有方向性擬合而無法落到具體山體時，填「未定位——僅區域方向」並列入未知項，**不得編造山名**。水體同理給現代河/湖名（`modern_water`），遺址/消亡水體給最後可考的地理單元名。現實名稱是映射結果的表述，**不是證據**——證據順序仍為水系拓扑→山勢走向→人文風物。
 4. **適配報告**：方法、里程核算表、全站映射總表、水系統配置、跨卷證據彙編、演化邏輯摘要、衝突與未知、宏觀範圍修正（如有）、待審清單 → `<slug>-adaptation.md`。
 5. **逐句文檔**：每條目按固定四段式——原文引錄／逐句全要素展開（引用 KG 節點 ID）／時代映射表（4000–1000 BCE 坐標、考古-古生物分類、存續狀態）／4D 交叉驗證（地理相對屬性、人文、風物、歷史演化、跨卷證據）→ `<slug>-sentence-analysis.md`。文末附機器核對用節點引用索引。
+   - **時代映射表零遺漏（發起人 2026-10-23 裁定）**：該條目 KG 節點（含 §2 展開的全部山水人文風物——MTN/WAT/LND/CRE/PLA/MIN/PER/OBJ/AST/CLIM/POL）**全部**在時代映射表有行，機器核對（按 `first_entry` 前綴）不得有缺。基準動物/否定記錄/兆象/祀物亦入行——無現實映射者標「依附本站／framework」；判讀文字一律取自已核准的 mappings.jsonl 或 §2 展開文本，**不得生成碎片文本**。
+   - **配套零遺漏**：`<slug>-mappings.jsonl` 必須覆蓋本子經全部 MTN/WAT/LND 節點（含否定水文記錄與泛稱水體——否定/泛稱以 `period_state:"n/a"` 或低置信記）；CRE/PLA/MIN/PER 以文檔表格承載，不入 mappings.jsonl。
 6. **SVG 地圖**：由 `atlas-renderer` 依 `<slug>-station-grid.jsonl`＋`<slug>-mappings.jsonl` 渲染 → `<slug>-map.svg`。
 7. **findings**：覆蓋缺口（缺節點）、同名異水/異地衝突、原文內部差異記入 `projects/shanhaijing/findings/`。
 
