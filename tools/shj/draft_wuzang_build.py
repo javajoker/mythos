@@ -90,12 +90,13 @@ def parse_sentence_doc(path):
 def main():
     working = {e["entry_id"]: e for e in read_jsonl(WORKING) if e.get("entry_id")}
 
-    # mappings per entry per slug
+    # mappings per entry per slug (normalize composite/range entry keys to all SHJ ids)
     maps_by_entry = defaultdict(list)
     for path in sorted(ADJ.glob("*-mappings.jsonl")):
         for row in read_jsonl(path):
-            if row.get("node"):
-                maps_by_entry[row["entry"]].append(row)
+            if row.get("node") or row.get("disposition"):
+                for eid in re.findall(r"SHJ-\d{2}-\d+-\d{3}", row.get("entry", "")):
+                    maps_by_entry[eid].append(row)
     supp_by_node = {}
     supp_path = ADJ / "readings-supplement.jsonl"
     if supp_path.exists():

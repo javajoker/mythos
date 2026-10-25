@@ -1,0 +1,73 @@
+{"book": "book18", "entry": "SHJ-18-1-001", "src": "POL:SHJ-18-1-001#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "東海之内，北海之隅，有國名曰朝鮮"}
+{"book": "book18", "entry": "SHJ-18-1-001", "src": "POL:SHJ-18-1-001#2", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "東海之内，北海之隅，有國名曰朝鮮；天毒，其人水居", "note": "天毒與朝鮮同列東海之內、北海之隅"}
+{"book": "book18", "entry": "SHJ-18-1-002", "src": "POL:SHJ-18-1-002#1", "dst": "LND:SHJ-02-3-010#1", "type": "located_in", "layer": "textual", "quote": "流沙之中，有國名曰壑市"}
+{"book": "book18", "entry": "SHJ-18-1-002", "src": "POL:SHJ-18-1-002#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "西海之内，流沙之中，有國名曰壑市"}
+{"book": "book18", "entry": "SHJ-18-1-003", "src": "POL:SHJ-18-1-003#1", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之西，有國名曰氾葉", "bearing": "西"}
+{"book": "book18", "entry": "SHJ-18-1-003", "src": "POL:SHJ-18-1-003#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "西海之内，流沙之西，有國名曰氾葉"}
+{"book": "book18", "entry": "SHJ-18-1-004", "src": "MTN:SHJ-18-1-004#1", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之西，有鳥山者，三水出焉", "bearing": "西"}
+{"book": "book18", "entry": "SHJ-18-1-004", "src": "WAT:SHJ-18-1-004#1", "dst": "MTN:SHJ-18-1-004#1", "type": "rises_at", "layer": "textual", "quote": "流沙之西，有鳥山者，三水出焉"}
+{"book": "book18", "entry": "SHJ-18-1-004", "src": "MTN:SHJ-18-1-004#2", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之西，有鳥山者，三水出焉。爰有黄金、璿瑰、丹貨、銀鐵，皆流于此中。又有淮山，好水出焉", "note": "淮山承上「流沙之西」序列", "bearing": "西"}
+{"book": "book18", "entry": "SHJ-18-1-004", "src": "WAT:SHJ-18-1-004#2", "dst": "MTN:SHJ-18-1-004#2", "type": "rises_at", "layer": "textual", "quote": "又有淮山，好水出焉"}
+{"book": "book18", "entry": "SHJ-18-1-005", "src": "POL:SHJ-18-1-005#1", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之東，黑水之西，有朝雲之國、司彘之國", "bearing": "東"}
+{"book": "book18", "entry": "SHJ-18-1-005", "src": "POL:SHJ-18-1-005#1", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "流沙之東，黑水之西，有朝雲之國、司彘之國", "bearing": "西"}
+{"book": "book18", "entry": "SHJ-18-1-005", "src": "POL:SHJ-18-1-005#2", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之東，黑水之西，有朝雲之國、司彘之國", "bearing": "東"}
+{"book": "book18", "entry": "SHJ-18-1-005", "src": "POL:SHJ-18-1-005#2", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "流沙之東，黑水之西，有朝雲之國、司彘之國", "bearing": "西"}
+{"book": "book18", "entry": "SHJ-18-1-005", "src": "PER:SHJ-18-1-005#1", "dst": "WAT:SHJ-18-1-005#1", "type": "inhabits", "layer": "textual", "quote": "昌意降處若水", "note": "黃帝—顓頊系譜中昌意降居若水"}
+{"book": "book18", "entry": "SHJ-18-1-006", "src": "MTN:SHJ-18-1-006#1", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之東，黑水之閒，有山名不死之山", "bearing": "東"}
+{"book": "book18", "entry": "SHJ-18-1-006", "src": "MTN:SHJ-18-1-006#1", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "流沙之東，黑水之閒，有山名不死之山", "note": "「黑水之閒」，居其間，無方位字"}
+{"book": "book18", "entry": "SHJ-18-1-006", "src": "MTN:SHJ-18-1-006#1", "dst": "POL:SHJ-06-1-015#1", "type": "motif_of", "layer": "interpretive", "quote": "有山名不死之山", "note": "不死母題跨卷互見（海外南不死民；大荒南不死之國 POL:SHJ-15-1-010#1）"}
+{"book": "book18", "entry": "SHJ-18-1-007", "src": "MTN:SHJ-18-1-007#1", "dst": "MTN:SHJ-02-1-020#3", "type": "adjacent_to", "layer": "textual", "quote": "華山青水之東，有山名曰肇山", "bearing": "東"}
+{"book": "book18", "entry": "SHJ-18-1-007", "src": "MTN:SHJ-18-1-007#1", "dst": "WAT:SHJ-18-1-007#1", "type": "adjacent_to", "layer": "textual", "quote": "華山青水之東，有山名曰肇山", "bearing": "東"}
+{"book": "book18", "entry": "SHJ-18-1-007", "src": "PER:SHJ-18-1-007#1", "dst": "MTN:SHJ-18-1-007#1", "type": "related_to", "layer": "textual", "quote": "有人名曰柏子高，柏子高上下於此，至于天", "note": "柏子高於肇山上下至天（天梯母題）"}
+{"book": "book18", "entry": "SHJ-18-1-008", "src": "LND:SHJ-18-1-008#1", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "西南黑水之閒，有都廣之野，后稷葬焉", "note": "「黑水之閒」；黑水復用西三，同名異水假說並存"}
+{"book": "book18", "entry": "SHJ-18-1-008", "src": "PER:SHJ-18-1-008#1", "dst": "LND:SHJ-18-1-008#1", "type": "related_to", "layer": "textual", "quote": "西南黑水之閒，有都廣之野，后稷葬焉", "note": "后稷葬於都廣之野（葬地屬借名警示）"}
+{"book": "book18", "entry": "SHJ-18-1-008", "src": "CRE:SHJ-18-1-021#1", "dst": "LND:SHJ-18-1-008#1", "type": "inhabits", "layer": "textual", "quote": "鸞鳥自歌，鳯鳥自儛", "note": "都廣之野鸞歌鳳儛，與 021 互文"}
+{"book": "book18", "entry": "SHJ-18-1-008", "src": "PER:SHJ-18-1-008#1", "dst": "LND:SHJ-11-1-006#1", "type": "motif_of", "layer": "interpretive", "quote": "后稷葬焉", "note": "海內西經「后稷之葬」跨卷互見"}
+{"book": "book18", "entry": "SHJ-18-1-009", "src": "WAT:SHJ-18-1-005#1", "dst": "LND:SHJ-18-1-009#1", "type": "rises_at", "layer": "textual", "quote": "南海之内，黑水青水之閒，有水名曰若木，若水出焉", "note": "若水出於若木（水名/地標兩讀並存）"}
+{"book": "book18", "entry": "SHJ-18-1-009", "src": "LND:SHJ-18-1-009#1", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "南海之内，黑水青水之閒，有水名曰若木，若水出焉", "note": "「黑水青水之閒」，無方位字；黑水復用西三，南方系統假說並存"}
+{"book": "book18", "entry": "SHJ-18-1-009", "src": "LND:SHJ-18-1-009#1", "dst": "WAT:SHJ-18-1-007#1", "type": "adjacent_to", "layer": "textual", "quote": "南海之内，黑水青水之閒，有水名曰若木，若水出焉", "note": "「黑水青水之閒」，無方位字"}
+{"book": "book18", "entry": "SHJ-18-1-009", "src": "LND:SHJ-18-1-009#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "南海之内，黑水青水之閒，有水名曰若木，若水出焉"}
+{"book": "book18", "entry": "SHJ-18-1-009", "src": "LND:SHJ-18-1-009#1", "dst": "PLA:SHJ-17-1-030#1", "type": "motif_of", "layer": "interpretive", "quote": "有水名曰若木", "note": "大荒經若木神樹同名互見（此處作水名/地標）"}
+{"book": "book18", "entry": "SHJ-18-1-010", "src": "CRE:SHJ-18-1-010#1", "dst": "MTN:SHJ-18-1-010#1", "type": "inhabits", "layer": "textual", "quote": "有靈山，有赤蛇在木上，名曰蝡蛇，木食"}
+{"book": "book18", "entry": "SHJ-18-1-011", "src": "PER:SHJ-18-1-011#1", "dst": "POL:SHJ-18-1-011#1", "type": "inhabits", "layer": "textual", "quote": "有鹽長之國。有人焉鳥首，名曰鳥民", "note": "「有人焉」之焉指鹽長之國"}
+{"book": "book18", "entry": "SHJ-18-1-012", "src": "LND:SHJ-18-1-012#2", "dst": "LND:SHJ-18-1-012#1", "type": "located_in", "layer": "textual", "quote": "有九丘，以水絡之，名曰陶唐之丘、叔得之丘、孟盈之丘、昆吾之丘、黑白之丘、赤望之丘、參衛之丘、武夫之丘、神民之丘。有木，青葉紫莖，玄華黄實，名曰建木", "note": "建木承九丘段序列"}
+{"book": "book18", "entry": "SHJ-18-1-012", "src": "PER:SHJ-18-1-014#1", "dst": "LND:SHJ-18-1-012#2", "type": "related_to", "layer": "textual", "quote": "大皥爰過，黄帝所為", "note": "大皥經過建木（大皥見巴人始祖系譜節點）"}
+{"book": "book18", "entry": "SHJ-18-1-012", "src": "PER:SHJ-18-1-005#1", "dst": "LND:SHJ-18-1-012#2", "type": "related_to", "layer": "textual", "quote": "大皥爰過，黄帝所為", "note": "建木為黃帝所作（黃帝見黃帝—顓頊系譜節點）"}
+{"book": "book18", "entry": "SHJ-18-1-012", "src": "LND:SHJ-18-1-012#2", "dst": "LND:SHJ-10-1-014#1", "type": "motif_of", "layer": "interpretive", "quote": "名曰建木，百仭無枝", "note": "海外南經建木同名互見"}
+{"book": "book18", "entry": "SHJ-18-1-013", "src": "CRE:SHJ-18-1-013#1", "dst": "CRE:SHJ-11-1-002#1", "type": "motif_of", "layer": "interpretive", "quote": "有窫窳，龍首，是食人", "note": "窫窳跨卷互見：北山經 CRE:SHJ-03-1-018#2、海外南 CRE:SHJ-10-1-013#1、海內北 CRE:SHJ-12-1-002#1"}
+{"book": "book18", "entry": "SHJ-18-1-013", "src": "CRE:SHJ-18-1-013#2", "dst": "CRE:SHJ-01-1-001#2", "type": "motif_of", "layer": "interpretive", "quote": "有青獸，人面，名曰猩猩", "note": "與南一狌狌（人面）同型，南方靈長類記錄"}
+{"book": "book18", "entry": "SHJ-18-1-014", "src": "PER:SHJ-18-1-014#1", "dst": "POL:SHJ-18-1-014#1", "type": "related_to", "layer": "textual", "quote": "大皥生咸鳥，咸鳥生乘釐，乘釐生後照，後照是始為巴人", "note": "大皥—後照系譜為巴人族源敘事"}
+{"book": "book18", "entry": "SHJ-18-1-015", "src": "WAT:SHJ-18-1-015#1", "dst": "MTN:SHJ-18-1-015#1", "type": "rises_at", "layer": "textual", "quote": "有巴遂山，澠水出焉"}
+{"book": "book18", "entry": "SHJ-18-1-016", "src": "CRE:SHJ-18-1-016#1", "dst": "POL:SHJ-18-1-016#1", "type": "related_to", "layer": "interpretive", "quote": "又有朱卷之國。有黑蛇，青首，食象", "note": "黑蛇與朱卷之國同段並置，歸屬為序列推斷"}
+{"book": "book18", "entry": "SHJ-18-1-016", "src": "CRE:SHJ-18-1-016#1", "dst": "CRE:SHJ-10-1-016#1", "type": "motif_of", "layer": "interpretive", "quote": "有黑蛇，青首，食象", "note": "與海內南「巴蛇食象」同型記錄"}
+{"book": "book18", "entry": "SHJ-18-1-017", "src": "PER:SHJ-18-1-017#1", "dst": "POL:SHJ-10-1-006#1", "type": "motif_of", "layer": "interpretive", "quote": "南方有贑巨人，人面長脣，黑身有毛，反踵", "note": "與海內南梟陽國（人面長脣黑身有毛反踵）同型"}
+{"book": "book18", "entry": "SHJ-18-1-019", "src": "CRE:SHJ-18-1-019#1", "dst": "PER:SHJ-18-1-019#1", "type": "related_to", "layer": "textual", "quote": "有羸民，鳥足，有封豕", "note": "封豕與羸民同段並置（其地有封豕）"}
+{"book": "book18", "entry": "SHJ-18-1-020", "src": "CRE:SHJ-18-1-020#1", "dst": "PER:SHJ-18-1-020#1", "type": "inhabits", "layer": "textual", "quote": "有人曰苖民。有神焉，人首蛇身，長如轅，左右有首，衣紫衣，冠旃冠，名曰延維", "note": "「有神焉」之焉指苗民之地"}
+{"book": "book18", "entry": "SHJ-18-1-020", "src": "CRE:SHJ-18-1-020#1", "dst": "CRE:SHJ-15-1-003#2", "type": "motif_of", "layer": "interpretive", "quote": "名曰延維", "note": "大荒南經作委維，KG 已並記為同實（委維／延維）"}
+{"book": "book18", "entry": "SHJ-18-1-020", "src": "PER:SHJ-18-1-020#1", "dst": "POL:SHJ-17-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "有人曰苖民", "note": "大荒北苗民同名互見；海外南三苗國（POL:SHJ-06-1-011#1）同母題"}
+{"book": "book18", "entry": "SHJ-18-1-023", "src": "MTN:SHJ-18-1-023#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "南海之内有衡山，有菌山，有桂山。有山名三天子之都"}
+{"book": "book18", "entry": "SHJ-18-1-023", "src": "MTN:SHJ-18-1-023#2", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "南海之内有衡山，有菌山，有桂山。有山名三天子之都"}
+{"book": "book18", "entry": "SHJ-18-1-023", "src": "MTN:SHJ-18-1-023#3", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "南海之内有衡山，有菌山，有桂山。有山名三天子之都"}
+{"book": "book18", "entry": "SHJ-18-1-023", "src": "MTN:SHJ-18-1-023#4", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "南海之内有衡山，有菌山，有桂山。有山名三天子之都"}
+{"book": "book18", "entry": "SHJ-18-1-024", "src": "LND:SHJ-18-1-024#1", "dst": "LND:SHJ-15-1-003#1", "type": "motif_of", "layer": "interpretive", "quote": "南方蒼梧之丘，蒼梧之淵，其中有九嶷山，舜之所葬，在長沙零陵界中", "note": "大荒南蒼梧之野舜葬母題互見"}
+{"book": "book18", "entry": "SHJ-18-1-024", "src": "LND:SHJ-18-1-024#1", "dst": "LND:SHJ-10-1-007#1", "type": "motif_of", "layer": "interpretive", "quote": "南方蒼梧之丘，蒼梧之淵，其中有九嶷山，舜之所葬，在長沙零陵界中", "note": "海外南帝舜葬地跨卷互見（蒼梧—舜葬母題）"}
+{"book": "book18", "entry": "SHJ-18-1-025", "src": "WAT:SHJ-18-1-025#1", "dst": "MTN:SHJ-18-1-025#1", "type": "rises_at", "layer": "textual", "quote": "北海之内，有蛇山者，蛇水出焉，東入于海"}
+{"book": "book18", "entry": "SHJ-18-1-025", "src": "MTN:SHJ-18-1-025#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "北海之内，有蛇山者，蛇水出焉，東入于海"}
+{"book": "book18", "entry": "SHJ-18-1-025", "src": "CRE:SHJ-18-1-025#1", "dst": "MTN:SHJ-18-1-025#1", "type": "related_to", "layer": "interpretive", "quote": "有五彩之鳥，飛蔽一鄉，名曰翳鳥", "note": "翳鳥承蛇山段序列，棲所為推斷"}
+{"book": "book18", "entry": "SHJ-18-1-025", "src": "MTN:SHJ-18-1-025#2", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "北海之内，有蛇山者，蛇水出焉，東入于海。有五彩之鳥，飛蔽一鄉，名曰翳鳥。又有不鉅之山，巧倕葬其西", "note": "承「北海之內」序列"}
+{"book": "book18", "entry": "SHJ-18-1-025", "src": "PER:SHJ-18-1-037#1", "dst": "MTN:SHJ-18-1-025#2", "type": "related_to", "layer": "textual", "quote": "又有不鉅之山，巧倕葬其西", "note": "巧倕葬於不鉅之山之西"}
+{"book": "book18", "entry": "SHJ-18-1-026", "src": "PER:SHJ-18-1-026#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "北海之内，有反縛盗械，帶戈常倍之佐，名曰相顧之尸"}
+{"book": "book18", "entry": "SHJ-18-1-028", "src": "WAT:SHJ-18-1-028#1", "dst": "MTN:SHJ-03-3-047#3", "type": "rises_at", "layer": "textual", "quote": "北海之内，有山，名曰幽都之山，黑水出焉", "note": "幽都之山復用北三節點"}
+{"book": "book18", "entry": "SHJ-18-1-028", "src": "MTN:SHJ-03-3-047#3", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "北海之内，有山，名曰幽都之山", "note": "幽都之山復用北三節點"}
+{"book": "book18", "entry": "SHJ-18-1-028", "src": "MTN:SHJ-18-1-028#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有大玄之山", "note": "承「北海之內」幽都序列"}
+{"book": "book18", "entry": "SHJ-18-1-028", "src": "PER:SHJ-18-1-028#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有玄丘之民", "note": "承「北海之內」幽都序列"}
+{"book": "book18", "entry": "SHJ-18-1-028", "src": "POL:SHJ-18-1-028#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有大幽之國", "note": "承「北海之內」幽都序列"}
+{"book": "book18", "entry": "SHJ-18-1-028", "src": "PER:SHJ-18-1-028#2", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有赤脛之民", "note": "承「北海之內」幽都序列"}
+{"book": "book18", "entry": "SHJ-18-1-029", "src": "POL:SHJ-18-1-029#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有釘靈之國，其民從䣛已下有毛，馬蹏善走", "note": "承「北海之內」序列（026–029 段）"}
+{"book": "book18", "entry": "SHJ-18-1-037", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-037#1", "type": "related_to", "layer": "textual", "quote": "禹、鯀是始布土，均定九州", "note": "鯀見 031 系譜節點；禹為鯀之子（039 鯀復生禹）"}
+{"book": "book18", "entry": "SHJ-18-1-038", "src": "PER:SHJ-18-1-038#1", "dst": "WAT:SHJ-01-2-001#2", "type": "related_to", "layer": "textual", "quote": "炎帝之妻，赤水之子聽訞生炎居", "note": "炎帝妻族出赤水；赤水復用南二，同名多水假說並存"}
+{"book": "book18", "entry": "SHJ-18-1-038", "src": "PER:SHJ-18-1-038#1", "dst": "WAT:SHJ-05-9-002#1", "type": "inhabits", "layer": "textual", "quote": "祝融降處於江水", "note": "祝融降處江水；術器「是復土穰，以處江水」同"}
+{"book": "book18", "entry": "SHJ-18-1-039", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-039#2", "type": "related_to", "layer": "textual", "quote": "鯀竊帝之息壤以堙洪水，不待帝命"}
+{"book": "book18", "entry": "SHJ-18-1-039", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-039#1", "type": "related_to", "layer": "textual", "quote": "帝令祝融殺鯀于羽郊", "note": "鯀被殺於羽郊"}
+{"book": "book18", "entry": "SHJ-18-1-039", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-037#1", "type": "related_to", "layer": "textual", "quote": "帝乃命禹卒布土以定九州", "note": "禹為鯀復生之子，借 031 系譜節點"}
+{"book": "book18", "entry": "SHJ-18-1-039", "src": "PER:SHJ-18-1-038#1", "dst": "PER:SHJ-18-1-031#1", "type": "related_to", "layer": "textual", "quote": "帝令祝融殺鯀于羽郊", "note": "祝融（炎帝系譜節點）奉帝命殺鯀"}

@@ -30,6 +30,7 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-1-001#1` 甘棗之山 → 運城—中條山西段方向；⛰中條山·西段（解州—芮城段，主峰雪花山方向）（medium；living→living）
 - `WAT:SHJ-05-1-001#1` 共水 → 中條山西段西流溪（入河方向）（medium；living→living）
+- `WAT:SHJ-05-1-001#2` 河 → 黃河晉陝峽谷段（西受水）（medium_high；living→living）
 
 
 ### 【SHJ-05-1-002】歷兒之山（中條山方向，35.15°N 110.98°E）★冢級聖山
@@ -348,6 +349,10 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-2-002#1` 發視之山 → 嵩縣方向山地；⛰伏牛山·北麓嵩縣段（medium；living→living）
 - `WAT:SHJ-05-2-002#1` 即魚之水 → 發視之山西流溪（入伊方向）（medium；living→living）
+- `WAT:SHJ-05-2-002#2` 伊水 → 伊河系統（單受水扇形主受水體）（medium_high；living→living）
+
+#### 未決項
+- 衝突：伊水——伊水同名（借名標記）
 
 
 ### 【SHJ-05-2-003】豪山（嵩縣—欒川方向，34.06°N 110.65°E）
@@ -584,6 +589,7 @@
 - `MTN:SHJ-05-3-002#1` 青要之山 → 洛陽北方向（黃河南岸）；⛰邙山·青要山段（新安）（medium_high；living→living）
 - `WAT:SHJ-05-3-002#1` 墠渚 → 青要之山南側渚地（黃河南岸洲渚方向）（medium；living→changed）
 - `WAT:SHJ-05-3-002#2` 畛水 → 青要之山北流溪（入黃河方向）（medium；living→living）
+- `WAT:SHJ-05-3-002#3` 河 → 黃河（河洛段）（high；living→living）
 
 #### 未決項
 - 未知：青要之山——「宜女子」的確切功能（祭祀/風俗指向待考）
@@ -711,10 +717,12 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-4-001#1` 鹿蹄之山 → 豫西洛陽西南方向山地；⛰熊耳山·東段（宜陽—洛寧）（medium；living→living）
 - `WAT:SHJ-05-4-001#1` 甘水 → 鹿蹄之山北流溪（入洛方向）（medium；living→living）
+- `WAT:SHJ-05-4-001#2` 洛 → 洛河系統（北向主受水體）（medium_high；living→living）
 
 #### 未決項
 - 未知：鹿蹄之山——泠石確指
 - 未知：甘水——泠石確指
+- 衝突：洛——洛同名/通用字層（借名標記）
 
 
 ### 【SHJ-05-4-002】扶豬之山（豫西洛陽西南方向；算術網格 34.0°N 116.9°E）
@@ -1119,6 +1127,10 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-5-011#1` 尸山 → 豫西崤山方向；⛰崤山·西段（medium；living→living）
 - `WAT:SHJ-05-5-011#1` 尸水 → 崤山南向溪（入洛方向）（medium；living→living）
+- `WAT:SHJ-05-5-011#2` 洛水／洛 → 洛河系統（東南向受水體）（medium_high；living→living）
+
+#### 未決項
+- 衝突：洛水／洛——洛同名（借名標記）
 
 
 ### 【SHJ-05-5-012】良餘之山（崤山—黃河/洛河分水嶺，34.4°N 110.4°E）★雙源分水
@@ -1138,6 +1150,7 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-5-012#1` 良餘之山 → 豫西崤山—黃河/洛河分水嶺；⛰崤山·主脊（黃河—洛河分水嶺）（medium_high；living→living）
+- `WAT:SHJ-05-5-012#2` 河 → 黃河（豫西段）（medium_high；living→living）
 - `WAT:SHJ-05-5-012#1` 餘水 → 良餘之山北坡溪（medium；living→living）
 - `WAT:SHJ-05-5-012#3` 乳水 → 良餘之山南坡溪（medium；living→living）
 - `WAT:SHJ-05-5-012#4` 洛 → 洛河方向受水（medium；living→living）
@@ -1290,9 +1303,16 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-6-003#1` 廆山 → 洛陽西山地（穀水/洛河分水嶺東段）；⛰邙山西段—新安東山嶺（medium_high；living→living）
+- `WAT:SHJ-05-6-003#4` 穀水 → 穀水（洛陽西小河，東流注洛——洛河支流）（medium_high；living→changed）
+- `WAT:SHJ-05-6-003#2` 洛 → 洛河（南向受水體）（high；living→living）
 - `WAT:SHJ-05-6-003#1` 交觴之水 → 廆山南坡溪（入洛方向）（medium；living→living）
 - `WAT:SHJ-05-6-003#3` 俞隨之水 → 廆山北坡溪（入穀水方向）（medium；living→living）
 - `LND:SHJ-05-6-003#1` 雚谷 → 柳楮谷地（low；living→living）
+
+#### 未決項
+- 衝突：穀水——穀水同名（借名標記）
+- 未知：穀水——穀水古河道與今澗河的對應細節
+- 衝突：洛——洛同名（借名標記）
 
 
 ### 【SHJ-05-6-004】瞻諸之山（洛陽西·分水嶺，34.62°N 112.34°E）
@@ -1480,6 +1500,7 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-6-011#1` 橐山 → 靈寶東方向山地（黃河南岸）；⛰崤山·西北段（靈寶東）（medium_high；living→living）
+- `WAT:SHJ-05-6-011#2` 河 → 黃河（豫西段，北向受水體）（high；living→living）
 - `WAT:SHJ-05-6-011#1` 橐水 → 橐山北坡溪（入黃河方向）（medium；living→living）
 
 #### 未決項
@@ -1734,9 +1755,11 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-7-006#1` 放皋之山 → 鞏義—登封方向山地；⛰嵩山·北麓西段（鞏義—登封）（medium；living→living）
 - `WAT:SHJ-05-7-006#1` 明水 → 登封南方向入伊河支流（medium；living→living）
+- `WAT:SHJ-05-7-006#2` 伊水 → 伊河系統（西南受水體）（medium_high；living→living）
 
 #### 未決項
 - 未知：放皋之山——現實山名未定位
+- 衝突：伊水——伊水與現代伊河同名——借名標記
 
 
 ### 【SHJ-05-7-007】大𩇵之山（登封西，34.49°N 112.44°E）★狂水入伊·三足龜
@@ -1789,10 +1812,12 @@
 - `MTN:SHJ-05-7-008#1` 半石之山 → 登封西方向山地（伊/洛分水嶺）；⛰嵩山·西段（伊洛分水嶺）（medium_high；living→living）
 - `WAT:SHJ-05-7-008#1` 來需之水 → 登封西方向入伊河支流（medium；living→living）
 - `WAT:SHJ-05-7-008#2` 合水 → 登封西北方向入洛河支流（medium；living→living）
+- `WAT:SHJ-05-7-008#3` 洛 → 洛河系統（西/西北受水體）（medium_high；living→living）
 - `LND:SHJ-05-7-008#1` 逵 → 道路/水渚地標（low；living→living）
 
 #### 未決項
 - 未知：半石之山——嘉榮/鯩魚/鰧魚確指
+- 衝突：洛——洛與現代洛河同名——借名標記
 
 
 ### 【SHJ-05-7-009】少室之山（嵩山少室方向·借名，34.49°N 112.94°E）★冢級·休水入洛
@@ -1904,6 +1929,7 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-7-013#1` 浮戲之山 → 汜水河方向山地（滎陽西南）；⛰浮戲山（滎陽西南）（medium；living→living）
 - `WAT:SHJ-05-7-013#1` 汜水 → 汜水河方向（滎陽入黃河支流）（medium；living→living）
+- `WAT:SHJ-05-7-013#2` 河 → 黃河（豫中北緣段）（medium_high；living→living）
 - `LND:SHJ-05-7-013#1` 蛇谷 → 少辛谷（low；living→living）
 
 #### 未決項
@@ -1929,10 +1955,12 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-7-014#1` 少陘之山 → 滎陽—鄭州西方向山地；⛰黃土丘陵邊緣·滎陽西山嶺（medium；living→living）
 - `WAT:SHJ-05-7-014#1` 器難之水 → 滎陽—鄭州西方向入役水支流（medium；living→living）
+- `WAT:SHJ-05-7-014#2` 役水 → 鄭州東北小河系統→黃河（medium；living→living）
 
 #### 未決項
 - 未知：少陘之山——𦱌草確指
 - 未知：少陘之山——現實山名未定位
+- 未知：役水——役水現代確指
 
 
 ### 【SHJ-05-7-015】太山（鄭州方向，34.67°N 113.39°E）★雙源同注役水
@@ -2087,10 +2115,12 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-8-001#1` 景山 → 鄂西保康—荊山方向山地；⛰荊山·北段（保康）（medium；living→living）
+- `WAT:SHJ-05-8-001#1` 雎水 → 長江北岸支流（江漢平原北緣，東南入江）（medium；living→living）
 - `WAT:SHJ-05-8-001#2` 江 → 長江（中游段）（medium_high；living→living）
 
 #### 未決項
 - 未知：景山——文魚確指
+- 衝突：雎水——雎水同名（借名標記）
 
 
 ### 【SHJ-05-8-002】荊山（保康—南漳方向，32.0°N 111.6°E）
@@ -2111,11 +2141,14 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-8-002#1` 荊山 → 鄂西保康—南漳方向山地；⛰荊山·南段（南漳）（medium；living→living）
+- `WAT:SHJ-05-8-002#1` 漳水 → 雎水北岸支流（二級嵌套）（medium；living→living）
 
 #### 未決項
 - 衝突：荊山——荊山同名（借名標記）
 - 衝突：荊山——犛牛（高原種）出現於鄂西——物種記錄待裁
 - 未知：荊山——犛牛記錄的時代生態含義
+- 衝突：漳水——漳水同名（借名標記）
+- 未知：漳水——漳淵（008）與本水的空間關係——鏈條東延後神話地理延用待裁
 
 
 ### 【SHJ-05-8-003】驕山（南漳方向，32.3°N 112.0°E）★冢級聖山
@@ -2531,11 +2564,13 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-9-001#1` 女几之山 → 岷山北麓方向山地（鏈起點）；⛰岷山·北麓（松潘南）（medium；living→living）
 - `WAT:SHJ-05-9-001#1` 洛水（女几） → 女几之山東向溪（入江方向）（medium；living→living）
+- `WAT:SHJ-05-9-001#2` 江 → 長江（上游—中游幹流，全鏈南向受水體）（medium_high；living→living）
 
 #### 未決項
 - 衝突：女几之山——女几與河南宜陽女几山同名（借名標記，不作證）
 - 衝突：女几之山——洛水同名（借名標記）
 - 衝突：洛水（女几）——洛水同名（借名標記）
+- 衝突：江——江為通用大水語義（借名層注意）
 
 
 ### 【SHJ-05-9-002】岷山（岷江上游方向，31.6°N 103.8°E）★全經拓撲錨
@@ -2557,6 +2592,7 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-9-002#1` 岷山 → 岷江上游方向（大江源區山體）；⛰岷山·主脊（岷江源區）（medium_high；living→living）
+- `WAT:SHJ-05-9-002#1` 江水 → 長江上游源區諸水（岷山/崍山/崌山三出並記）（medium；living→living）
 - `WAT:SHJ-05-9-002#2` 海 → 東海方向（長江下游赴海方向）（low_medium；living→living）
 
 #### 未決項
@@ -3106,6 +3142,7 @@
 - `WAT:SHJ-05-11-001#1` 湍水 → 翼望之山北東坡溪（→濟方向）（medium；living→living）
 - `WAT:SHJ-05-11-001#2` 濟 → 黃河系候選受水體（古濟水/黃河上游段——待裁）（low_medium；living→living）
 - `WAT:SHJ-05-11-001#3` 貺水 → 翼望之山南東坡溪（→漢方向）（medium；living→living）
+- `WAT:SHJ-05-11-001#4` 漢 → 漢水（長江系受水體）（medium_high；living→living）
 
 #### 未決項
 - 衝突：翼望之山——翼望之山與西次三經終點同名（借名標記）
@@ -3472,6 +3509,11 @@
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-11-020#1` 畢山 → 潢川東方向；⛰大別山·北麓（潢川東段）（medium；living→living）
 - `WAT:SHJ-05-11-020#1` 帝苑之水 → 畢山東北溪（→視）（medium；living→living）
+- `WAT:SHJ-05-11-020#2` 視水／視 → 淮河中游支流系統候選——保持未知（medium；living→living）
+
+#### 未決項
+- 未知：視水／視——視水確指（保持未知）
+- 未知：視水／視——視山/視水名稱關係
 
 
 ### 【SHJ-05-11-021】樂馬之山（固始方向）
@@ -4101,6 +4143,7 @@
 
 #### 地理候選解釋（proposed_pending_review）
 - `MTN:SHJ-05-12-006#1` 夫夫之山 → 沅陵—常德方向山地；⛰武陵山·東麓（常德西）（medium；living→living）
+- `WAT:SHJ-05-12-006#1` 江淵 → 大江湖澤深淵（洞庭湖區水域）（medium；living→changed）
 
 #### 未決項
 - 未知：夫夫之山——雞鼓確指（草名）
@@ -4359,4 +4402,4 @@
 
 ---
 
-本卷條目 213；未決項 224 條（另見各子經適配報告 variant 記錄）。
+本卷條目 213；未決項 239 條（另見各子經適配報告 variant 記錄）。

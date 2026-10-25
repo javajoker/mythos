@@ -1,0 +1,30 @@
+{"book":"book07","entry":"SHJ-07-1-002","src":"CRE:SHJ-07-1-002#1","dst":"POL:SHJ-07-1-002#1","type":"adjacent_to","layer":"textual","quote":"滅蒙鳥在結匈國北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-003","src":"MTN:SHJ-07-1-003#1","dst":"CRE:SHJ-07-1-002#1","type":"adjacent_to","layer":"textual","quote":"大運山高三百仞，在滅蒙鳥北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-004","src":"LND:SHJ-07-1-004#1","dst":"MTN:SHJ-07-1-003#1","type":"adjacent_to","layer":"textual","quote":"在大運山北","note":"一曰大遺之野——異名已併入同一節點 canonical_name，不另建 same_entity_as 自環","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-005","src":"POL:SHJ-07-1-005#1","dst":"LND:SHJ-07-1-004#1","type":"adjacent_to","layer":"textual","quote":"三身國在夏后啟北","note":"夏后啟無節點；夏后啟于此（大樂之野）儛九代，以其地為方位基准","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-006","src":"POL:SHJ-07-1-006#1","dst":"POL:SHJ-07-1-005#1","type":"adjacent_to","layer":"textual","quote":"一臂國在其北","note":"其＝三身國（前條）","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-007","src":"POL:SHJ-07-1-007#1","dst":"POL:SHJ-07-1-006#1","type":"adjacent_to","layer":"textual","quote":"奇肱之國在其北","note":"其＝一臂國（前條）","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-008","src":"PER:SHJ-07-1-008#1","dst":"MTN:SHJ-07-1-008#1","type":"located_in","layer":"textual","quote":"帝斷其首，葬之常羊之山","note":"葬地"}
+{"book":"book07","entry":"SHJ-07-1-009","src":"PER:SHJ-07-1-009#1","dst":"PER:SHJ-07-1-008#1","type":"adjacent_to","layer":"textual","quote":"女祭、女戚在其北","note":"其＝刑天（前條，葬常羊之山）","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-010","src":"CRE:SHJ-07-1-010#1","dst":"PER:SHJ-07-1-009#1","type":"adjacent_to","layer":"textual","quote":"在女祭北","note":"一曰維鳥——異名同實，已併入同一節點","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-011","src":"POL:SHJ-07-1-011#1","dst":"CRE:SHJ-07-1-010#1","type":"adjacent_to","layer":"textual","quote":"丈夫國在維鳥北","note":"維鳥＝䳐鳥、𪆻鳥之一曰異名","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-012","src":"PER:SHJ-07-1-012#1","dst":"POL:SHJ-07-1-011#1","type":"adjacent_to","layer":"textual","quote":"在丈夫北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-013","src":"POL:SHJ-07-1-013#1","dst":"PER:SHJ-07-1-012#1","type":"adjacent_to","layer":"textual","quote":"巫咸國在女丑北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-013","src":"POL:SHJ-07-1-013#1","dst":"MTN:SHJ-07-1-013#1","type":"located_in","layer":"textual","quote":"在登葆山，群巫所從上下也"}
+{"book":"book07","entry":"SHJ-07-1-014","src":"CRE:SHJ-07-1-014#1","dst":"POL:SHJ-07-1-013#1","type":"adjacent_to","layer":"textual","quote":"并封在巫咸東","bearing":"東"}
+{"book":"book07","entry":"SHJ-07-1-015","src":"POL:SHJ-07-1-015#1","dst":"POL:SHJ-07-1-013#1","type":"adjacent_to","layer":"textual","quote":"女子國在巫咸北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-016","src":"MTN:SHJ-02-3-012#1","dst":"POL:SHJ-07-1-015#1","type":"adjacent_to","layer":"textual","quote":"在女子國北","note":"軒轅之國無本卷節點，按 book07-mappings 復用西三軒轅之丘節點（reuse 邊由主流程建）","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-017","src":"MTN:SHJ-07-1-017#1","dst":"MTN:SHJ-02-3-012#1","type":"adjacent_to","layer":"textual","quote":"窮山在其北","note":"其＝軒轅國；「在軒轅國北」為同義複述","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-017","src":"MTN:SHJ-07-1-017#1","dst":"MTN:SHJ-02-3-012#1","type":"related_to","layer":"textual","quote":"不敢西射，畏軒轅之丘","note":"方向禁忌（對軒轅之丘的敬畏）"}
+{"book":"book07","entry":"SHJ-07-1-018","src":"LND:SHJ-07-1-018#1","dst":"MTN:SHJ-02-3-012#1","type":"adjacent_to","layer":"textual","quote":"在四蛇北","note":"四蛇＝軒轅之丘「其丘方，四蛇相繞」之蛇環，以丘為方位基准","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-018","src":"CRE:SHJ-07-1-018#1","dst":"LND:SHJ-07-1-018#1","type":"inhabits","layer":"textual","quote":"鸞鳥自歌，鳳鳥自舞","note":"鸞鳳棲於諸夭之野"}
+{"book":"book07","entry":"SHJ-07-1-019","src":"CRE:SHJ-07-1-019#1","dst":"LND:SHJ-07-1-018#1","type":"adjacent_to","layer":"textual","quote":"龍魚陵居在其北","note":"其＝諸夭之野（前條）","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-019","src":"CRE:SHJ-07-1-019#1","dst":"LND:SHJ-07-1-018#1","type":"adjacent_to","layer":"textual","quote":"一曰鼈魚在夭野北","note":"一曰異文方位（鼈魚＝龍魚異名，同節點）","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-020","src":"POL:SHJ-07-1-020#1","dst":"CRE:SHJ-07-1-019#1","type":"adjacent_to","layer":"textual","quote":"白民之國在龍魚北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-020","src":"POL:SHJ-07-1-020#1","dst":"CRE:SHJ-07-1-020#1","type":"produces","layer":"textual","quote":"有乘黃，其狀如狐，其背上有角","note":"白民國出乘黃"}
+{"book":"book07","entry":"SHJ-07-1-021","src":"POL:SHJ-07-1-021#1","dst":"POL:SHJ-07-1-020#1","type":"adjacent_to","layer":"textual","quote":"肅慎之國在白民北","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-021","src":"POL:SHJ-07-1-021#1","dst":"PLA:SHJ-07-1-021#1","type":"produces","layer":"textual","quote":"有樹名曰雒棠","note":"肅慎國有雒棠樹；一曰雄常，異名同節點"}
+{"book":"book07","entry":"SHJ-07-1-022","src":"POL:SHJ-07-1-022#1","dst":"PLA:SHJ-07-1-021#1","type":"adjacent_to","layer":"textual","quote":"長股之國在雒棠北","note":"一曰長腳——異名已併入同一節點；異文雒棠／雄常同節點","bearing":"北"}
+{"book":"book07","entry":"SHJ-07-1-023","src":"PER:SHJ-07-1-023#1","dst":"PER:SHJ-06-1-023#1","type":"motif_of","layer":"interpretive","quote":"西方蓐收，左耳有蛇，乘兩龍","note":"四方神框架：西方蓐收與南方祝融（海外南）同構，均為卷末方位神"}
+{"book":"book07","entry":"SHJ-07-1-023","src":"PER:SHJ-07-1-023#1","dst":"PER:SHJ-08-1-022#1","type":"motif_of","layer":"interpretive","quote":"西方蓐收，左耳有蛇，乘兩龍","note":"四方神框架：與北方禺彊（海外北）同構"}
+{"book":"book07","entry":"SHJ-07-1-023","src":"PER:SHJ-07-1-023#1","dst":"PER:SHJ-09-1-016#1","type":"motif_of","layer":"interpretive","quote":"西方蓐收，左耳有蛇，乘兩龍","note":"四方神框架：與東方句芒（海外東）同構"}

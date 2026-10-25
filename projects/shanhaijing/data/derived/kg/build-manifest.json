@@ -167,5 +167,33 @@
     },
     "attributes_total": 7687,
     "review_status": "proposed_pending_review"
+  },
+  "kg_framework_v1": {
+    "assembled_by": "kg_framework_build.py",
+    "books": [
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "new_nodes": 739,
+    "by_disposition": {
+      "new_entity": 408,
+      "pending_anchor": 331
+    },
+    "reuse_links": 69,
+    "nodes_total": 4334,
+    "mentions_total": 4618,
+    "attributes_total": 9234,
+    "review_status": "proposed_pending_review"
   }
 }

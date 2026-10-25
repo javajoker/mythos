@@ -1,0 +1,91 @@
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "MTN:SHJ-17-1-001#1", "dst": "WAT:SHJ-03-3-002#2", "type": "located_in", "layer": "textual", "quote": "東北海之外，大荒之中，河水之閒，附禺之山", "note": "附禺之山在河水之閒；河＝山經河水節點復用"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "PER:SHJ-14-1-001#2", "dst": "MTN:SHJ-17-1-001#1", "type": "related_to", "layer": "textual", "quote": "附禺之山，帝顓頊與九嬪葬焉", "note": "顓頊葬於附禺之山；九嬪無節點"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "LND:SHJ-17-1-001#1", "dst": "MTN:SHJ-17-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "丘方圓三百里，丘南帝俊竹林在焉", "bearing": "南"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "WAT:SHJ-17-1-001#1", "dst": "LND:SHJ-17-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "竹南有赤澤水，名曰封淵", "bearing": "南"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "WAT:SHJ-17-1-001#2", "dst": "MTN:SHJ-17-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "丘西有沈淵，顓頊所浴", "bearing": "西"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "PER:SHJ-14-1-001#2", "dst": "WAT:SHJ-17-1-001#2", "type": "related_to", "layer": "textual", "quote": "丘西有沈淵，顓頊所浴", "note": "沈淵為顓頊所浴之地"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "MTN:SHJ-17-1-001#1", "dst": "MTN:SHJ-08-1-019#1", "type": "motif_of", "layer": "interpretive", "quote": "附禺之山，帝顓頊與九嬪葬焉", "note": "海外北經「務隅之山，帝顓頊葬於陽」——同名異寫（附禺/務隅）同葬地母題"}
+{"book": "book17", "entry": "SHJ-17-1-001", "src": "LND:SHJ-17-1-001#1", "dst": "PER:SHJ-14-1-002#2", "type": "motif_of", "layer": "interpretive", "quote": "丘南帝俊竹林在焉", "note": "竹林以帝俊冠名，屬冠名母題關聯"}
+{"book": "book17", "entry": "SHJ-17-1-003", "src": "POL:SHJ-17-1-003#1", "dst": "MTN:SHJ-17-1-003#1", "type": "located_in", "layer": "textual", "quote": "有山名曰不咸，有肅慎氏之國", "note": "肅慎氏之國繫於不咸山條下列記"}
+{"book": "book17", "entry": "SHJ-17-1-003", "src": "MTN:SHJ-17-1-003#1", "dst": "CRE:SHJ-17-1-003#1", "type": "produces", "layer": "textual", "quote": "有蜚蛭，四翼", "note": "不咸山域出產/棲息（同條列記）"}
+{"book": "book17", "entry": "SHJ-17-1-003", "src": "MTN:SHJ-17-1-003#1", "dst": "CRE:SHJ-17-1-003#2", "type": "produces", "layer": "textual", "quote": "有蟲，獸首蛇身，名曰琴蟲", "note": "不咸山域出產/棲息（同條列記）"}
+{"book": "book17", "entry": "SHJ-17-1-004", "src": "POL:SHJ-17-1-004#1", "dst": "CRE:SHJ-17-1-004#1", "type": "produces", "layer": "textual", "quote": "有大人之國，釐姓，黍食。有大青蛇，黄頭，食麈", "note": "大青蛇列於大人之國條內；麈無節點"}
+{"book": "book17", "entry": "SHJ-17-1-004", "src": "POL:SHJ-17-1-004#1", "dst": "POL:SHJ-09-1-003#1", "type": "motif_of", "layer": "interpretive", "quote": "有大人之國，釐姓，黍食", "note": "大人母題跨卷複見（海外東大人國）；同名多地分佈不強合"}
+{"book": "book17", "entry": "SHJ-17-1-004", "src": "POL:SHJ-17-1-004#1", "dst": "POL:SHJ-14-1-005#1", "type": "motif_of", "layer": "interpretive", "quote": "有大人之國，釐姓，黍食", "note": "大荒東經亦有大人之國；同名母題雙讀"}
+{"book": "book17", "entry": "SHJ-17-1-007", "src": "POL:SHJ-17-1-007#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "有叔歜國，顓頊之子，黍食", "note": "叔歜國為顓頊之子（譜系）"}
+{"book": "book17", "entry": "SHJ-17-1-007", "src": "POL:SHJ-17-1-007#1", "dst": "CRE:SHJ-17-1-007#1", "type": "produces", "layer": "textual", "quote": "有黒蟲如熊狀，名曰猎猎", "note": "猎猎列於叔歜國條內（同條列記）"}
+{"book": "book17", "entry": "SHJ-17-1-009", "src": "WAT:SHJ-03-3-002#2", "dst": "MTN:SHJ-17-1-009#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰先檻大逢之山，河濟所入，海北注焉", "note": "河水入（海）於此山之地"}
+{"book": "book17", "entry": "SHJ-17-1-009", "src": "WAT:SHJ-05-11-001#2", "dst": "MTN:SHJ-17-1-009#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰先檻大逢之山，河濟所入，海北注焉", "note": "濟水入（海）於此山之地"}
+{"book": "book17", "entry": "SHJ-17-1-009", "src": "LND:SHJ-17-1-013#1", "dst": "MTN:SHJ-17-1-009#1", "type": "flows_into", "layer": "textual", "quote": "海北注焉", "note": "「海」指本卷北海（泛稱節點）；海水向北注於先檻大逢之山"}
+{"book": "book17", "entry": "SHJ-17-1-009", "src": "MTN:SHJ-17-1-009#2", "dst": "MTN:SHJ-17-1-009#1", "type": "adjacent_to", "layer": "textual", "quote": "其西有山，名曰禹所積石", "bearing": "西"}
+{"book": "book17", "entry": "SHJ-17-1-009", "src": "MTN:SHJ-17-1-009#2", "dst": "MTN:SHJ-02-3-013#1", "type": "motif_of", "layer": "interpretive", "quote": "其西有山，名曰禹所積石", "note": "西次三經積石之山——同名異實雙假說（河湟積石 vs 西三系統），不裁決"}
+{"book": "book17", "entry": "SHJ-17-1-010", "src": "WAT:SHJ-17-1-010#1", "dst": "MTN:SHJ-17-1-010#2", "type": "rises_at", "layer": "textual", "quote": "有順山者，順水出焉"}
+{"book": "book17", "entry": "SHJ-17-1-010", "src": "MTN:SHJ-17-1-010#1", "dst": "MTN:SHJ-03-3-006#1", "type": "motif_of", "layer": "interpretive", "quote": "有陽山者", "note": "北次三經有同名陽山；本條無方位屬性可驗證，合併/分立雙讀"}
+{"book": "book17", "entry": "SHJ-17-1-012", "src": "POL:SHJ-17-1-012#1", "dst": "POL:SHJ-09-1-014#1", "type": "motif_of", "layer": "interpretive", "quote": "有毛民之國，依姓，食黍，使四鳥", "note": "海外東經毛民國同名母題跨卷（東方海上 vs 北方），雙讀並存"}
+{"book": "book17", "entry": "SHJ-17-1-013", "src": "PER:SHJ-17-1-013#1", "dst": "LND:SHJ-17-1-013#1", "type": "located_in", "layer": "textual", "quote": "北海之渚中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰禺彊"}
+{"book": "book17", "entry": "SHJ-17-1-013", "src": "POL:SHJ-17-1-013#1", "dst": "PER:SHJ-14-1-023#1", "type": "motif_of", "layer": "interpretive", "quote": "有儋耳之國，任姓，禺號子，食榖", "note": "禺號／大荒東禺䝞同名異寫，譜系母題關聯；禺號本身無節點"}
+{"book": "book17", "entry": "SHJ-17-1-013", "src": "POL:SHJ-17-1-013#1", "dst": "POL:SHJ-08-1-009#1", "type": "motif_of", "layer": "interpretive", "quote": "有儋耳之國，任姓，禺號子，食榖", "note": "儋耳／聶耳長耳母題跨卷複見（海外北聶耳之國）"}
+{"book": "book17", "entry": "SHJ-17-1-014", "src": "LND:SHJ-17-1-013#1", "dst": "MTN:SHJ-17-1-014#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰北極天櫃，海外北注焉", "note": "海水（北海）向北注於北極天櫃之山"}
+{"book": "book17", "entry": "SHJ-17-1-014", "src": "PER:SHJ-17-1-014#1", "dst": "MTN:SHJ-17-1-014#1", "type": "inhabits", "layer": "textual", "quote": "有神，九首人面鳥身，名曰九鳳", "note": "九鳳列於北極天櫃之山條內"}
+{"book": "book17", "entry": "SHJ-17-1-014", "src": "PER:SHJ-17-1-014#2", "dst": "MTN:SHJ-17-1-014#1", "type": "inhabits", "layer": "textual", "quote": "又有神衘蛇操蛇，其狀虎首人身，四蹏長肘，名曰彊良", "note": "彊良列於北極天櫃之山條內"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "MTN:SHJ-17-1-015#1", "type": "inhabits", "layer": "textual", "quote": "有山名曰成都載天。有人珥兩黄蛇，把兩黄蛇，名曰夸父"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "LND:SHJ-17-1-015#1", "type": "related_to", "layer": "textual", "quote": "夸父不量力，欲追日景，逮之于禺谷", "note": "夸父逐日，至禺谷（日入處）"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "AST:SHJ-01-2-017#1", "type": "related_to", "layer": "textual", "quote": "欲追日景", "note": "夸父追日"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "WAT:SHJ-03-3-002#2", "type": "related_to", "layer": "textual", "quote": "將飲河而不足也", "note": "夸父飲河"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "WAT:SHJ-17-1-011#1", "type": "related_to", "layer": "textual", "quote": "將走大澤，未至，死于此", "note": "夸父欲走大澤（011 方千里大澤），未至而死"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#2", "dst": "PER:SHJ-17-1-015#3", "type": "related_to", "layer": "textual", "quote": "應龍已殺蚩尤", "note": "應龍殺蚩尤"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#2", "dst": "PER:SHJ-17-1-015#1", "type": "related_to", "layer": "textual", "quote": "又殺夸父", "note": "應龍殺夸父（與逐日渴死敘事雙版本並存）"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "PER:SHJ-08-1-010#1", "type": "motif_of", "layer": "interpretive", "quote": "將飲河而不足也，將走大澤，未至，死于此", "note": "海外北經夸父逐日敘事（飲河渭、北飲大澤、道渴死）同一母題互文"}
+{"book": "book17", "entry": "SHJ-17-1-015", "src": "PER:SHJ-17-1-015#1", "dst": "MTN:SHJ-05-6-013#1", "type": "motif_of", "layer": "interpretive", "quote": "將飲河而不足也，將走大澤，未至，死于此", "note": "中次六經夸父之山＝夸父逐日母題的地理附著點（棄杖化鄧林）"}
+{"book": "book17", "entry": "SHJ-17-1-016", "src": "POL:SHJ-17-1-016#1", "dst": "POL:SHJ-17-1-026#1", "type": "motif_of", "layer": "interpretive", "quote": "又有無腸之國，是任姓。無繼子，食魚", "note": "「無繼子」與 026 無繼民互文——同族雙名/兩支雙讀"}
+{"book": "book17", "entry": "SHJ-17-1-016", "src": "POL:SHJ-17-1-016#1", "dst": "POL:SHJ-08-1-008#1", "type": "motif_of", "layer": "interpretive", "quote": "又有無腸之國，是任姓", "note": "海外北經無腸之國同名跨卷，方位相容（皆北）"}
+{"book": "book17", "entry": "SHJ-17-1-017", "src": "PER:SHJ-17-1-017#1", "dst": "PER:SHJ-08-1-006#2", "type": "related_to", "layer": "textual", "quote": "共工臣名曰相繇，九首蛇身，自環", "note": "相繇為共工之臣"}
+{"book": "book17", "entry": "SHJ-17-1-017", "src": "PER:SHJ-17-1-017#1", "dst": "LND:SHJ-17-1-017#1", "type": "inhabits", "layer": "textual", "quote": "食于九土", "note": "相繇食於九土（泛域）"}
+{"book": "book17", "entry": "SHJ-17-1-017", "src": "LND:SHJ-17-1-017#2", "dst": "MTN:SHJ-02-3-005#1", "type": "adjacent_to", "layer": "textual", "quote": "在崑崙之北", "note": "群帝之臺在昆侖之北（方位參照點復用西三昆侖節點）", "bearing": "北"}
+{"book": "book17", "entry": "SHJ-17-1-017", "src": "LND:SHJ-17-1-017#2", "dst": "PER:SHJ-17-1-017#1", "type": "related_to", "layer": "textual", "quote": "禹湮之，三仞三沮，乃以為池，羣帝因是以為臺", "note": "群帝之臺就禹殺相繇之地而築；禹無節點"}
+{"book": "book17", "entry": "SHJ-17-1-017", "src": "PER:SHJ-17-1-017#1", "dst": "CRE:SHJ-08-1-006#1", "type": "motif_of", "layer": "interpretive", "quote": "共工臣名曰相繇，九首蛇身，自環", "note": "相繇／相柳氏同名異寫，同一神話人物（海外北經：共工之臣曰相柳氏，九首）"}
+{"book": "book17", "entry": "SHJ-17-1-017", "src": "LND:SHJ-17-1-017#2", "dst": "LND:SHJ-08-1-006#1", "type": "motif_of", "layer": "interpretive", "quote": "禹湮之，三仞三沮，乃以為池，羣帝因是以為臺。在崑崙之北", "note": "海外北經共工之臺／眾帝之臺同在昆侖之北——臺群母題互文，合併雙讀"}
+{"book": "book17", "entry": "SHJ-17-1-019", "src": "LND:SHJ-17-1-013#1", "dst": "MTN:SHJ-17-1-019#1", "type": "flows_into", "layer": "textual", "quote": "有山名不句，海水北入焉", "note": "海水（北海）向北入於不句山；異文 北入／入"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "LND:SHJ-17-1-020#1", "dst": "MTN:SHJ-17-1-020#1", "type": "located_in", "layer": "textual", "quote": "有係昆之山者，有共工之臺，射者不敢北鄉"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "LND:SHJ-17-1-020#1", "dst": "PER:SHJ-08-1-006#2", "type": "related_to", "layer": "textual", "quote": "有共工之臺", "note": "共工之臺以共工冠名（紀念性臺地）"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-020#1", "dst": "MTN:SHJ-17-1-020#1", "type": "related_to", "layer": "textual", "quote": "有人衣青衣，名曰黄帝女魃", "note": "女魃列於係昆之山條內（同條列記）"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-020#1", "dst": "PER:SHJ-14-1-023#3", "type": "related_to", "layer": "textual", "quote": "名曰黄帝女魃", "note": "女魃為黃帝之女；黃帝節點取大荒東同敘事群節點"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-015#3", "dst": "PER:SHJ-14-1-023#3", "type": "related_to", "layer": "textual", "quote": "蚩尤作兵伐黄帝", "note": "蚩尤伐黃帝"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-015#2", "dst": "LND:SHJ-17-1-020#2", "type": "related_to", "layer": "textual", "quote": "黄帝乃令應龍攻之冀州之野", "note": "應龍攻蚩尤於冀州之野"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-015#2", "dst": "PER:SHJ-17-1-015#3", "type": "related_to", "layer": "textual", "quote": "黄帝乃令應龍攻之冀州之野。應龍畜水", "note": "應龍攻蚩尤；殺蚩尤見 015「應龍已殺蚩尤」"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-14-1-023#3", "dst": "PER:SHJ-17-1-020#1", "type": "related_to", "layer": "textual", "quote": "黄帝乃下天女曰魃，雨止，遂殺蚩尤", "note": "黃帝下天女魃止雨"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-020#1", "dst": "WAT:SHJ-02-3-008#3", "type": "adjacent_to", "layer": "textual", "quote": "後置之赤水之北", "note": "女魃被安置於赤水之北；赤水復用西三節點", "bearing": "北"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-020#2", "dst": "PER:SHJ-17-1-020#1", "type": "related_to", "layer": "textual", "quote": "叔均言之帝，後置之赤水之北", "note": "叔均言於帝，使女魃徙置赤水之北"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "LND:SHJ-17-1-020#1", "dst": "LND:SHJ-08-1-006#1", "type": "motif_of", "layer": "interpretive", "quote": "有係昆之山者，有共工之臺", "note": "海外北經亦有共工之臺（眾帝之臺）——同名同人物，合併雙讀"}
+{"book": "book17", "entry": "SHJ-17-1-020", "src": "PER:SHJ-17-1-020#1", "dst": "PER:SHJ-17-1-022#1", "type": "motif_of", "layer": "interpretive", "quote": "有人衣青衣，名曰黄帝女魃", "note": "與 022 赤水女子獻同衣青衣、同繫赤水——旱神母題同型對位"}
+{"book": "book17", "entry": "SHJ-17-1-021", "src": "POL:SHJ-17-1-021#1", "dst": "POL:SHJ-08-1-007#1", "type": "motif_of", "layer": "interpretive", "quote": "名曰深目民之國，昐姓，食魚", "note": "海外北經深目國同名跨卷，方位相容（皆北）"}
+{"book": "book17", "entry": "SHJ-17-1-022", "src": "PER:SHJ-17-1-022#1", "dst": "MTN:SHJ-02-3-004#2", "type": "inhabits", "layer": "textual", "quote": "有鍾山者，有女子衣青衣，名曰赤水女子獻", "note": "赤水女子獻居鍾山；鍾山復用西三節點（赤水旁）"}
+{"book": "book17", "entry": "SHJ-17-1-022", "src": "PER:SHJ-17-1-022#1", "dst": "WAT:SHJ-02-3-008#3", "type": "related_to", "layer": "textual", "quote": "名曰赤水女子獻", "note": "以赤水冠名（赤水女神）"}
+{"book": "book17", "entry": "SHJ-17-1-022", "src": "MTN:SHJ-02-3-004#2", "dst": "MTN:SHJ-08-1-003#1", "type": "motif_of", "layer": "interpretive", "quote": "有鍾山者", "note": "海外北經鍾山（燭陰所居）——同名；若與 032 章尾山合併則為燭龍/燭陰同一山系統"}
+{"book": "book17", "entry": "SHJ-17-1-023", "src": "WAT:SHJ-17-1-010#1", "dst": "MTN:SHJ-17-1-023#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰融父山，順水入焉", "note": "順水出順山（010）入融父山，本卷內部水系"}
+{"book": "book17", "entry": "SHJ-17-1-023", "src": "POL:SHJ-17-1-023#1", "dst": "PER:SHJ-14-1-023#3", "type": "related_to", "layer": "textual", "quote": "黄帝生苗龍，苗龍生融吾，融吾生弄明，弄明生白犬，白犬有牝牡，是為犬戎", "note": "犬戎出於黃帝譜系；中間環節苗龍/融吾/弄明/白犬無節點（譜系壓縮）"}
+{"book": "book17", "entry": "SHJ-17-1-023", "src": "POL:SHJ-17-1-023#1", "dst": "MTN:SHJ-17-1-023#1", "type": "related_to", "layer": "textual", "quote": "有山名曰融父山，順水入焉。有人名曰犬戎", "note": "犬戎列於融父山條內（同條列記）"}
+{"book": "book17", "entry": "SHJ-17-1-023", "src": "MTN:SHJ-17-1-023#1", "dst": "CRE:SHJ-17-1-023#1", "type": "produces", "layer": "textual", "quote": "有赤獸，馬狀，無首，名曰戎宣王尸", "note": "戎宣王尸列於融父山條內（有X句式）"}
+{"book": "book17", "entry": "SHJ-17-1-025", "src": "POL:SHJ-17-1-025#1", "dst": "PER:SHJ-14-1-001#1", "type": "related_to", "layer": "textual", "quote": "一曰是威姓，少昊之子，食黍", "note": "一目國為少昊之子（一曰異文譜系）"}
+{"book": "book17", "entry": "SHJ-17-1-025", "src": "POL:SHJ-17-1-025#1", "dst": "POL:SHJ-08-1-004#1", "type": "motif_of", "layer": "interpretive", "quote": "有人一目，當面中生", "note": "海外北經一目國同名跨卷，方位相容（皆北）"}
+{"book": "book17", "entry": "SHJ-17-1-026", "src": "POL:SHJ-17-1-026#1", "dst": "POL:SHJ-17-1-016#1", "type": "motif_of", "layer": "interpretive", "quote": "有無繼民，無繼民任姓，無骨子，食氣、魚", "note": "與 016 無腸之國同任姓同食魚——同族雙名/兩支雙讀（異文 無繼／繼無）"}
+{"book": "book17", "entry": "SHJ-17-1-026", "src": "POL:SHJ-17-1-026#1", "dst": "POL:SHJ-17-1-031#2", "type": "motif_of", "layer": "interpretive", "quote": "無骨子", "note": "「無骨子」與 031「有人無骨，儋耳之子」互文——無骨母題"}
+{"book": "book17", "entry": "SHJ-17-1-027", "src": "POL:SHJ-17-1-027#1", "dst": "LND:SHJ-03-1-013#1", "type": "adjacent_to", "layer": "textual", "quote": "西北海外，流沙之東，有國曰中䡢", "bearing": "東"}
+{"book": "book17", "entry": "SHJ-17-1-027", "src": "POL:SHJ-17-1-027#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "有國曰中䡢，顓頊之子，食黍", "note": "中䡢國為顓頊之子（譜系）"}
+{"book": "book17", "entry": "SHJ-17-1-028", "src": "PER:SHJ-17-1-028#1", "dst": "POL:SHJ-17-1-028#2", "type": "related_to", "layer": "textual", "quote": "有犬戎國。有神，人面獸身，名曰犬戎", "note": "犬戎神與犬戎國同名——族名＋保護神同名記錄"}
+{"book": "book17", "entry": "SHJ-17-1-028", "src": "POL:SHJ-17-1-028#2", "dst": "POL:SHJ-17-1-023#1", "type": "motif_of", "layer": "interpretive", "quote": "有犬戎國", "note": "與 023 犬戎（族）同源複見——族/國兩記，合併雙讀"}
+{"book": "book17", "entry": "SHJ-17-1-029", "src": "POL:SHJ-17-1-029#1", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "西北海外，黒水之北，有人有翼，名曰苗民", "bearing": "北"}
+{"book": "book17", "entry": "SHJ-17-1-029", "src": "PER:SHJ-15-1-027#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "顓頊生驩頭", "note": "驩頭為顓頊所生（譜系）"}
+{"book": "book17", "entry": "SHJ-17-1-029", "src": "POL:SHJ-17-1-029#1", "dst": "PER:SHJ-15-1-027#1", "type": "related_to", "layer": "textual", "quote": "驩頭生苗民", "note": "苗民為驩頭所生（譜系）"}
+{"book": "book17", "entry": "SHJ-17-1-029", "src": "POL:SHJ-17-1-029#1", "dst": "POL:SHJ-06-1-008#1", "type": "motif_of", "layer": "interpretive", "quote": "顓頊生驩頭，驩頭生苗民", "note": "海外南經讙頭國——驩頭/讙頭同源母題南北兩置，雙讀並存"}
+{"book": "book17", "entry": "SHJ-17-1-029", "src": "POL:SHJ-17-1-029#1", "dst": "POL:SHJ-06-1-011#1", "type": "motif_of", "layer": "interpretive", "quote": "名曰苗民", "note": "海外南經三苗國（三毛國）——苗民/三苗母題關聯"}
+{"book": "book17", "entry": "SHJ-17-1-029", "src": "POL:SHJ-17-1-029#1", "dst": "PER:SHJ-18-1-020#1", "type": "motif_of", "layer": "interpretive", "quote": "名曰苗民", "note": "海內經亦有苗民（驩頭生苗民）——同名跨卷"}
+{"book": "book17", "entry": "SHJ-17-1-030", "src": "MTN:SHJ-17-1-030#4", "dst": "PLA:SHJ-17-1-030#1", "type": "produces", "layer": "textual", "quote": "有衡石山、九陰山、灰野之山、泂野之山，上有赤樹，青葉赤華，名曰若木", "note": "「上有赤樹」承四山連列，就近繫於泂野之山；餘三山（衡石/九陰/灰野）同列並存"}
+{"book": "book17", "entry": "SHJ-17-1-030", "src": "PLA:SHJ-17-1-030#1", "dst": "LND:SHJ-18-1-009#1", "type": "motif_of", "layer": "interpretive", "quote": "名曰若木", "note": "海內經若木（黑水青水之間）同名神樹母題跨卷"}
+{"book": "book17", "entry": "SHJ-17-1-030", "src": "MTN:SHJ-17-1-030#2", "dst": "PER:SHJ-17-1-032#1", "type": "motif_of", "layer": "interpretive", "quote": "九陰山", "note": "032 燭龍「是燭九陰」——九陰為燭龍所照之極陰域，直接互文"}
+{"book": "book17", "entry": "SHJ-17-1-031", "src": "POL:SHJ-17-1-031#2", "dst": "POL:SHJ-17-1-013#1", "type": "related_to", "layer": "textual", "quote": "有人無骨，儋耳之子", "note": "無骨人為儋耳之子（譜系）"}
+{"book": "book17", "entry": "SHJ-17-1-032", "src": "MTN:SHJ-17-1-032#1", "dst": "WAT:SHJ-02-3-008#3", "type": "adjacent_to", "layer": "textual", "quote": "西北海外，赤水之北，有章尾山", "bearing": "北"}
+{"book": "book17", "entry": "SHJ-17-1-032", "src": "PER:SHJ-17-1-032#1", "dst": "MTN:SHJ-17-1-032#1", "type": "inhabits", "layer": "textual", "quote": "有神，人面蛇身而赤，直目正乘，其暝乃晦，其視乃明，不食不寢不息，風雨是謁。是燭九陰，是謂燭龍"}
+{"book": "book17", "entry": "SHJ-17-1-032", "src": "PER:SHJ-17-1-032#1", "dst": "PER:SHJ-08-1-003#1", "type": "motif_of", "layer": "interpretive", "quote": "有神，人面蛇身而赤，直目正乘，其暝乃晦，其視乃明", "note": "燭龍／燭陰同型神（人面蛇身而赤、暝晦視明、不食不寢不息）——同一母題異名"}
+{"book": "book17", "entry": "SHJ-17-1-032", "src": "MTN:SHJ-17-1-032#1", "dst": "MTN:SHJ-02-3-004#2", "type": "motif_of", "layer": "interpretive", "quote": "赤水之北，有章尾山", "note": "章尾山（燭龍所在）vs 西三鍾山（赤水旁，燭陰所居）——合併/競爭雙假說"}
+{"book": "book17", "entry": "SHJ-17-1-032", "src": "MTN:SHJ-17-1-032#1", "dst": "MTN:SHJ-08-1-003#1", "type": "motif_of", "layer": "interpretive", "quote": "有章尾山", "note": "海外北經鍾山（燭陰所居）——燭龍/燭陰母題的山體對應，合併雙讀"}

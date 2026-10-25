@@ -1,0 +1,47 @@
+{"book":"book08","entry":"SHJ-08-1-002","src":"POL:SHJ-08-1-002#1","dst":"POL:SHJ-08-1-002#2","type":"adjacent_to","layer":"textual","quote":"無啓之國在長股東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-003","src":"PER:SHJ-08-1-003#1","dst":"MTN:SHJ-08-1-003#1","type":"inhabits","layer":"textual","quote":"鍾山之神名曰燭陰……居鍾山下","note":"燭陰為鍾山之神，居鍾山下"}
+{"book":"book08","entry":"SHJ-08-1-003","src":"MTN:SHJ-08-1-003#1","dst":"POL:SHJ-08-1-002#1","type":"adjacent_to","layer":"textual","quote":"在無啓之東","note":"主語為鍾山之神燭陰，方位繫於鍾山","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-003","src":"PER:SHJ-08-1-003#1","dst":"PER:SHJ-17-1-032#1","type":"motif_of","layer":"interpretive","quote":"鍾山之神名曰燭陰，視為晝，瞑為夜，吹為冬，呼為夏","note":"與大荒北經章尾山燭龍為同一極北晝夜母题（音義皆近，mapping 記錄兩假說不裁決）"}
+{"book":"book08","entry":"SHJ-08-1-003","src":"MTN:SHJ-08-1-003#1","dst":"MTN:SHJ-17-1-032#1","type":"motif_of","layer":"interpretive","quote":"居鍾山下","note":"鍾山（燭陰所居）與章尾山（燭龍所居）為同一母题的卷際分化"}
+{"book":"book08","entry":"SHJ-08-1-004","src":"POL:SHJ-08-1-004#1","dst":"MTN:SHJ-08-1-003#1","type":"adjacent_to","layer":"textual","quote":"一目國在其東","note":"其＝鍾山（燭陰）","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-005","src":"POL:SHJ-08-1-005#1","dst":"POL:SHJ-08-1-004#1","type":"adjacent_to","layer":"textual","quote":"柔利國在一目東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"CRE:SHJ-08-1-006#1","dst":"PER:SHJ-08-1-006#2","type":"related_to","layer":"textual","quote":"共工之臣曰相柳氏","note":"臣屬關係"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"PER:SHJ-08-1-006#1","dst":"CRE:SHJ-08-1-006#1","type":"related_to","layer":"textual","quote":"禹殺相柳"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"PER:SHJ-08-1-006#1","dst":"LND:SHJ-08-1-006#1","type":"related_to","layer":"textual","quote":"禹厥之，三仞三沮，乃以為眾帝之臺","note":"禹治相柳死地築眾帝之臺（即共工之臺）"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"PER:SHJ-08-1-006#2","dst":"LND:SHJ-08-1-006#1","type":"related_to","layer":"textual","quote":"不敢北射，畏共工之臺","note":"臺歸屬共工，具禁忌權威"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"LND:SHJ-08-1-006#1","dst":"MTN:SHJ-02-3-005#1","type":"adjacent_to","layer":"textual","quote":"在昆侖之北","note":"昆侖復用西三昆侖之丘節點（跨卷方位錨）","bearing":"北"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"LND:SHJ-08-1-006#1","dst":"POL:SHJ-08-1-005#1","type":"adjacent_to","layer":"textual","quote":"在昆侖之北，柔利之東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-006","src":"CRE:SHJ-08-1-006#1","dst":"PER:SHJ-17-1-017#1","type":"motif_of","layer":"interpretive","quote":"相柳者，九首人面，蛇身而青","note":"疑與海內經相繇（九首蛇身）為同一母题異名（mapping 記錄）"}
+{"book":"book08","entry":"SHJ-08-1-007","src":"POL:SHJ-08-1-007#1","dst":"LND:SHJ-08-1-006#1","type":"adjacent_to","layer":"textual","quote":"深目國在其東","note":"其＝共工之臺","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-007","src":"POL:SHJ-08-1-007#1","dst":"LND:SHJ-08-1-006#1","type":"adjacent_to","layer":"textual","quote":"一曰在共工臺東","note":"異文明示方位（與正文「其」同指共工之臺）","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-008","src":"POL:SHJ-08-1-008#1","dst":"POL:SHJ-08-1-007#1","type":"adjacent_to","layer":"textual","quote":"無腸之國在深目東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-009","src":"POL:SHJ-08-1-009#1","dst":"POL:SHJ-08-1-008#1","type":"adjacent_to","layer":"textual","quote":"聶耳之國在無腸國東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-010","src":"PER:SHJ-08-1-010#1","dst":"WAT:SHJ-05-6-011#2","type":"related_to","layer":"textual","quote":"渴，欲得飲，飲於河、渭","note":"夸父飲河；河復用中六黃河節點"}
+{"book":"book08","entry":"SHJ-08-1-010","src":"PER:SHJ-08-1-010#1","dst":"WAT:SHJ-08-1-010#1","type":"related_to","layer":"textual","quote":"渴，欲得飲，飲於河、渭","note":"夸父飲渭"}
+{"book":"book08","entry":"SHJ-08-1-010","src":"PER:SHJ-08-1-010#1","dst":"WAT:SHJ-03-3-031#4","type":"related_to","layer":"textual","quote":"河、渭不足，北飲大澤","note":"大澤復用北三節點（方位性復用）"}
+{"book":"book08","entry":"SHJ-08-1-010","src":"PER:SHJ-08-1-010#1","dst":"LND:SHJ-05-6-013#1","type":"related_to","layer":"textual","quote":"棄其杖，化為鄧林","note":"鄧林復用中六桃林節點（鄧/桃音轉，mapping 記錄雙讀）"}
+{"book":"book08","entry":"SHJ-08-1-011","src":"MTN:SHJ-05-6-013#1","dst":"POL:SHJ-08-1-009#1","type":"adjacent_to","layer":"textual","quote":"夸父國在聶耳東","note":"夸父國無獨立節點，依 mapping 復用夸父之山節點（同名夸父母题錨）","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-011","src":"LND:SHJ-05-6-013#1","dst":"MTN:SHJ-05-6-013#1","type":"adjacent_to","layer":"textual","quote":"鄧林在其東，二樹木","note":"其＝夸父國（復用夸父之山節點）；鄧林復用桃林節點","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-011","src":"PER:SHJ-08-1-010#1","dst":"MTN:SHJ-05-6-013#1","type":"motif_of","layer":"interpretive","quote":"其為人大，右手操青蛇，左手操黃蛇。鄧林在其東，二樹木。一曰博父","note":"夸父國（一曰博父）操蛇巨人形象與逐日敘事夸父、中六夸父之山同母题"}
+{"book":"book08","entry":"SHJ-08-1-012","src":"MTN:SHJ-08-1-012#1","dst":"MTN:SHJ-05-6-013#1","type":"adjacent_to","layer":"textual","quote":"禹所積石之山在其東","note":"其＝夸父國（復用夸父之山節點）","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-012","src":"WAT:SHJ-05-6-011#2","dst":"MTN:SHJ-08-1-012#1","type":"related_to","layer":"textual","quote":"禹所積石之山在其東，河水所入","note":"河水所入之地（山地非受水體，不取 flows_into）"}
+{"book":"book08","entry":"SHJ-08-1-013","src":"POL:SHJ-08-1-013#1","dst":"MTN:SHJ-08-1-012#1","type":"adjacent_to","layer":"textual","quote":"拘癭之國在其東","note":"其＝禹所積石之山","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-014","src":"LND:SHJ-08-1-014#1","dst":"POL:SHJ-08-1-013#1","type":"adjacent_to","layer":"textual","quote":"尋木長千里，在拘癭南","bearing":"南"}
+{"book":"book08","entry":"SHJ-08-1-014","src":"LND:SHJ-08-1-014#1","dst":"WAT:SHJ-05-6-011#2","type":"adjacent_to","layer":"textual","quote":"生河上西北","note":"雙方位錨之二：生於河上西北","bearing":"西北"}
+{"book":"book08","entry":"SHJ-08-1-015","src":"POL:SHJ-08-1-015#1","dst":"POL:SHJ-08-1-013#1","type":"adjacent_to","layer":"textual","quote":"跂踵國在拘癭南","bearing":"南"}
+{"book":"book08","entry":"SHJ-08-1-015","src":"POL:SHJ-08-1-015#1","dst":"POL:SHJ-08-1-013#1","type":"adjacent_to","layer":"textual","quote":"跂踵國在拘癭南","note":"異文「南／東」，一曰在拘癭東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-016","src":"LND:SHJ-08-1-016#1","dst":"POL:SHJ-08-1-015#1","type":"adjacent_to","layer":"textual","quote":"歐絲之野在反踵東","note":"反踵＝跂踵異稱（一曰反踵）","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-017","src":"LND:SHJ-08-1-017#1","dst":"LND:SHJ-08-1-016#1","type":"adjacent_to","layer":"textual","quote":"三桑無枝，在歐絲東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-018","src":"LND:SHJ-08-1-018#1","dst":"LND:SHJ-08-1-017#1","type":"adjacent_to","layer":"textual","quote":"范林方三百里，在三桑東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-019","src":"PER:SHJ-14-1-001#2","dst":"MTN:SHJ-08-1-019#1","type":"related_to","layer":"textual","quote":"務隅之山，帝顓頊葬于陽","note":"帝顓頊葬於山陽（借名記錄，不反證山位）；顓頊復用海內經節點"}
+{"book":"book08","entry":"SHJ-08-1-019","src":"MTN:SHJ-08-1-019#1","dst":"MTN:SHJ-17-1-001#1","type":"motif_of","layer":"interpretive","quote":"務隅之山，帝顓頊葬于陽。九嬪葬于陰","note":"與大荒北經附禺之山同名異文（務隅/附禺），兩卷重錄同一帝顓頊葬地借名記錄"}
+{"book":"book08","entry":"SHJ-08-1-020","src":"LND:SHJ-08-1-020#1","dst":"LND:SHJ-08-1-017#1","type":"adjacent_to","layer":"textual","quote":"平丘在三桑東","bearing":"東"}
+{"book":"book08","entry":"SHJ-08-1-021","src":"WAT:SHJ-03-2-016#1","dst":"CRE:SHJ-08-1-021#1","type":"produces","layer":"textual","quote":"北海內有獸，其狀如馬，名曰騊駼","note":"北海復用北二節點（貝加爾方向）"}
+{"book":"book08","entry":"SHJ-08-1-021","src":"WAT:SHJ-03-2-016#1","dst":"CRE:SHJ-08-1-021#2","type":"produces","layer":"textual","quote":"有獸焉，其名曰駮，狀如白馬，鋸牙，食虎豹"}
+{"book":"book08","entry":"SHJ-08-1-021","src":"WAT:SHJ-03-2-016#1","dst":"CRE:SHJ-08-1-021#3","type":"produces","layer":"textual","quote":"有素獸焉，狀如馬，名曰蛩蛩"}
+{"book":"book08","entry":"SHJ-08-1-021","src":"WAT:SHJ-03-2-016#1","dst":"CRE:SHJ-08-1-021#4","type":"produces","layer":"textual","quote":"有青獸焉，狀如虎，名曰羅羅"}
+{"book":"book08","entry":"SHJ-08-1-022","src":"PER:SHJ-08-1-022#1","dst":"LND:SHJ-08-1-001#1","type":"located_in","layer":"textual","quote":"北方禺彊","note":"北方之神繫於本卷海外北框架"}
+{"book":"book08","entry":"SHJ-08-1-022","src":"PER:SHJ-08-1-022#1","dst":"PER:SHJ-06-1-023#1","type":"motif_of","layer":"interpretive","quote":"北方禺彊，人面鳥身，珥兩青蛇。踐兩青蛇","note":"四方神體系：與海外南祝融配套"}
+{"book":"book08","entry":"SHJ-08-1-022","src":"PER:SHJ-08-1-022#1","dst":"PER:SHJ-07-1-023#1","type":"motif_of","layer":"interpretive","quote":"北方禺彊，人面鳥身，珥兩青蛇。踐兩青蛇","note":"四方神體系：與海外西蓐收配套"}
+{"book":"book08","entry":"SHJ-08-1-022","src":"PER:SHJ-08-1-022#1","dst":"PER:SHJ-09-1-016#1","type":"motif_of","layer":"interpretive","quote":"北方禺彊，人面鳥身，珥兩青蛇。踐兩青蛇","note":"四方神體系：與海外東句芒配套"}
+{"book":"book08","entry":"SHJ-08-1-022","src":"PER:SHJ-08-1-022#1","dst":"PER:SHJ-14-1-023#2","type":"motif_of","layer":"interpretive","quote":"北方禺彊","note":"禺彊/禺京同神格異名（大荒諸卷，海神—風神雙格）"}

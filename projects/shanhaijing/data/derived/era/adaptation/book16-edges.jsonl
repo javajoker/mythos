@@ -1,0 +1,105 @@
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-02-3-003#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "西北海之外，大荒之隅，有山而不合，名曰不周"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-02-3-003#1", "dst": "WAT:SHJ-02-3-007#2", "type": "adjacent_to", "layer": "textual", "quote": "西北海之外，大荒之隅，有山而不合，名曰不周", "note": "西北海之外", "bearing": "西北"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "CRE:SHJ-16-1-001#1", "dst": "MTN:SHJ-02-3-003#1", "type": "related_to", "layer": "textual", "quote": "有兩黄獸守之", "note": "兩黃獸守衛不周山"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "WAT:SHJ-16-1-001#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "有水曰寒暑之水", "note": "在「西北海之外，大荒之隅」框架內"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-16-1-001#1", "dst": "WAT:SHJ-16-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "水西有濕山", "bearing": "西"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-16-1-001#2", "dst": "WAT:SHJ-16-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "水東有幕山", "bearing": "東"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-16-1-001#3", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "有禹攻共工國山", "note": "同在大荒之隅框架內"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-16-1-001#3", "dst": "PER:SHJ-08-1-006#2", "type": "related_to", "layer": "textual", "quote": "有禹攻共工國山", "note": "山名記禹攻共工之役"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-16-1-001#3", "dst": "PER:SHJ-08-1-006#1", "type": "related_to", "layer": "textual", "quote": "有禹攻共工國山", "note": "山名記禹攻共工之役"}
+{"book": "book16", "entry": "SHJ-16-1-001", "src": "MTN:SHJ-16-1-001#3", "dst": "MTN:SHJ-02-3-003#1", "type": "motif_of", "layer": "interpretive", "quote": "有禹攻共工國山", "note": "共工觸不周山神話互證：禹攻共工與不周同條並出"}
+{"book": "book16", "entry": "SHJ-16-1-002", "src": "POL:SHJ-16-1-002#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "有國名曰淑士，顓頊之子", "note": "系譜：淑士為顓頊之子"}
+{"book": "book16", "entry": "SHJ-16-1-003", "src": "PER:SHJ-16-1-003#1", "dst": "LND:SHJ-16-1-003#1", "type": "inhabits", "layer": "textual", "quote": "化為神，處栗廣之野，横道而處"}
+{"book": "book16", "entry": "SHJ-16-1-006", "src": "POL:SHJ-16-1-006#1", "dst": "MTN:SHJ-16-1-006#1", "type": "related_to", "layer": "textual", "quote": "有大澤之長山，有白民之國", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-006", "src": "POL:SHJ-16-1-006#1", "dst": "POL:SHJ-07-1-020#1", "type": "motif_of", "layer": "interpretive", "quote": "有白民之國", "note": "同名之國跨卷呼應（海外西經）"}
+{"book": "book16", "entry": "SHJ-16-1-006", "src": "POL:SHJ-16-1-006#1", "dst": "POL:SHJ-14-1-016#1", "type": "motif_of", "layer": "interpretive", "quote": "有白民之國", "note": "同名之國跨卷呼應（大荒東經）"}
+{"book": "book16", "entry": "SHJ-16-1-007", "src": "POL:SHJ-16-1-007#1", "dst": "WAT:SHJ-02-3-008#3", "type": "adjacent_to", "layer": "textual", "quote": "赤水之東，有長脛之國", "bearing": "東"}
+{"book": "book16", "entry": "SHJ-16-1-007", "src": "POL:SHJ-16-1-007#1", "dst": "WAT:SHJ-02-3-007#2", "type": "adjacent_to", "layer": "textual", "quote": "西北海之外，赤水之東", "note": "西北海之外", "bearing": "西北"}
+{"book": "book16", "entry": "SHJ-16-1-007", "src": "POL:SHJ-16-1-007#1", "dst": "POL:SHJ-07-1-022#1", "type": "motif_of", "layer": "interpretive", "quote": "有長脛之國", "note": "長脛或即長股之異名"}
+{"book": "book16", "entry": "SHJ-16-1-008", "src": "POL:SHJ-16-1-008#1", "dst": "PER:SHJ-16-1-008#1", "type": "related_to", "layer": "textual", "quote": "有西周之國，姬姓，食榖。有人方耕，名曰叔均", "note": "叔均為西周之國人"}
+{"book": "book16", "entry": "SHJ-16-1-008", "src": "PER:SHJ-16-1-008#1", "dst": "PER:SHJ-14-1-002#2", "type": "related_to", "layer": "textual", "quote": "帝俊生后稷", "note": "系譜：帝俊生后稷"}
+{"book": "book16", "entry": "SHJ-16-1-008", "src": "PER:SHJ-16-1-008#1", "dst": "PER:SHJ-18-1-008#1", "type": "motif_of", "layer": "interpretive", "quote": "叔均是代其父及稷播百榖，始作耕", "note": "海內經「后稷是播百穀」「叔均始作牛耕」互證"}
+{"book": "book16", "entry": "SHJ-16-1-008", "src": "POL:SHJ-16-1-008#1", "dst": "POL:SHJ-16-1-008#2", "type": "related_to", "layer": "textual", "quote": "有赤國妻氏", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-008", "src": "POL:SHJ-16-1-008#1", "dst": "MTN:SHJ-16-1-008#1", "type": "related_to", "layer": "textual", "quote": "有雙山", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-009", "src": "MTN:SHJ-16-1-009#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "西海之外，大荒之中，有方山者"}
+{"book": "book16", "entry": "SHJ-16-1-009", "src": "MTN:SHJ-16-1-009#1", "dst": "WAT:SHJ-02-3-006#2", "type": "adjacent_to", "layer": "textual", "quote": "西海之外，大荒之中，有方山者", "note": "西海之外", "bearing": "西"}
+{"book": "book16", "entry": "SHJ-16-1-009", "src": "MTN:SHJ-16-1-009#1", "dst": "PLA:SHJ-16-1-009#1", "type": "produces", "layer": "textual", "quote": "上有青樹，名曰柜格之松"}
+{"book": "book16", "entry": "SHJ-16-1-009", "src": "MTN:SHJ-16-1-009#1", "dst": "MTN:SHJ-16-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "日月所出入也", "note": "日月所出入山母題群（以日月山天樞為樞紐）"}
+{"book": "book16", "entry": "SHJ-16-1-010", "src": "POL:SHJ-16-1-010#1", "dst": "WAT:SHJ-02-3-008#3", "type": "adjacent_to", "layer": "textual", "quote": "赤水之西，有天民之國", "bearing": "西"}
+{"book": "book16", "entry": "SHJ-16-1-010", "src": "POL:SHJ-16-1-010#1", "dst": "WAT:SHJ-02-3-007#2", "type": "adjacent_to", "layer": "textual", "quote": "西北海之外，赤水之西", "note": "西北海之外", "bearing": "西北"}
+{"book": "book16", "entry": "SHJ-16-1-011", "src": "POL:SHJ-16-1-011#1", "dst": "PER:SHJ-02-3-004#1", "type": "related_to", "layer": "textual", "quote": "黄帝之孫曰始均，始均生北狄", "note": "系譜：黃帝之孫始均生北狄"}
+{"book": "book16", "entry": "SHJ-16-1-012", "src": "MTN:SHJ-16-1-012#1", "dst": "MTN:SHJ-16-1-012#2", "type": "related_to", "layer": "textual", "quote": "有芒山。有桂山。", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-012", "src": "MTN:SHJ-16-1-012#2", "dst": "MTN:SHJ-16-1-012#3", "type": "related_to", "layer": "textual", "quote": "有桂山。有榣山", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-012", "src": "MTN:SHJ-16-1-012#3", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "顓頊生老童，老童生祝融，祝融生太子長琴，是處榣山", "note": "系譜：處榣山之太子長琴為顓頊曾孫；老童/祝融/太子長琴無獨立節點"}
+{"book": "book16", "entry": "SHJ-16-1-015", "src": "MTN:SHJ-16-1-015#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰豐沮玉門"}
+{"book": "book16", "entry": "SHJ-16-1-015", "src": "MTN:SHJ-16-1-015#1", "dst": "MTN:SHJ-16-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "日月所入", "note": "日月所入山母題群"}
+{"book": "book16", "entry": "SHJ-16-1-016", "src": "PER:SHJ-16-1-016#1", "dst": "MTN:SHJ-16-1-016#1", "type": "inhabits", "layer": "textual", "quote": "巫咸、巫即、巫朌、巫彭、巫姑、巫真、巫禮、巫抵、巫謝、巫羅十巫，從此升降", "note": "十巫從靈山升降；百藥爰在"}
+{"book": "book16", "entry": "SHJ-16-1-016", "src": "MTN:SHJ-16-1-016#1", "dst": "MTN:SHJ-07-1-013#1", "type": "motif_of", "layer": "interpretive", "quote": "從此升降，百藥爰在", "note": "群巫升降母題：海外西經登葆山「群巫所從上下」互證"}
+{"book": "book16", "entry": "SHJ-16-1-017", "src": "MTN:SHJ-02-3-011#1", "dst": "MTN:SHJ-16-1-017#1", "type": "related_to", "layer": "textual", "quote": "西有王母之山、壑山、海山", "note": "同條並舉；王母之山復用西三玉山節點"}
+{"book": "book16", "entry": "SHJ-16-1-017", "src": "MTN:SHJ-16-1-017#1", "dst": "MTN:SHJ-16-1-017#2", "type": "related_to", "layer": "textual", "quote": "西有王母之山、壑山、海山", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-017", "src": "POL:SHJ-16-1-017#1", "dst": "MTN:SHJ-02-3-011#1", "type": "related_to", "layer": "textual", "quote": "有沃民之國，沃民是處", "note": "沃民處王母之山一帶"}
+{"book": "book16", "entry": "SHJ-16-1-017", "src": "POL:SHJ-16-1-017#1", "dst": "MIN:SHJ-16-1-017#1", "type": "produces", "layer": "textual", "quote": "爰有甘華、甘柤、白栁、視肉、三騅、璇瑰、瑶碧、白木、琅玕、白丹、青丹，多銀鐵", "note": "另有「鳳鳥之卵是食，甘露是飲」同屬沃之野物產"}
+{"book": "book16", "entry": "SHJ-16-1-018", "src": "CRE:SHJ-02-3-018#1", "dst": "PER:SHJ-02-3-011#1", "type": "motif_of", "layer": "interpretive", "quote": "有三青鳥，赤首黒目，一名曰大鵹，一名少鵹，一名曰青鳥", "note": "三青鳥為西王母取食母題（海內北經）；本卷037西王母同見"}
+{"book": "book16", "entry": "SHJ-16-1-019", "src": "MTN:SHJ-02-3-012#1", "dst": "POL:SHJ-16-1-027#1", "type": "motif_of", "layer": "interpretive", "quote": "有軒轅之臺，射者不敢西鄉", "note": "軒轅母題本卷內呼應（019臺／027國）"}
+{"book": "book16", "entry": "SHJ-16-1-020", "src": "MTN:SHJ-16-1-020#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有龍山"}
+{"book": "book16", "entry": "SHJ-16-1-020", "src": "MTN:SHJ-16-1-020#1", "dst": "MTN:SHJ-16-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "日月所入", "note": "日月所入山母題群"}
+{"book": "book16", "entry": "SHJ-16-1-021", "src": "PER:SHJ-16-1-021#1", "dst": "WAT:SHJ-16-1-021#1", "type": "inhabits", "layer": "textual", "quote": "有三澤水，名曰三淖，昆吾之所食也", "note": "昆吾食于三淖"}
+{"book": "book16", "entry": "SHJ-16-1-022", "src": "PER:SHJ-16-1-022#1", "dst": "PER:SHJ-07-1-012#1", "type": "motif_of", "layer": "interpretive", "quote": "有人衣青，以袂蔽面，名曰女丑之尸", "note": "同名跨卷，或同一女丑（海外西經十日炙殺）"}
+{"book": "book16", "entry": "SHJ-16-1-022", "src": "PER:SHJ-16-1-022#1", "dst": "PER:SHJ-14-1-026#1", "type": "motif_of", "layer": "interpretive", "quote": "名曰女丑之尸", "note": "大荒東經女丑同名呼應"}
+{"book": "book16", "entry": "SHJ-16-1-023", "src": "POL:SHJ-16-1-023#1", "dst": "POL:SHJ-07-1-015#1", "type": "motif_of", "layer": "interpretive", "quote": "有女子之國", "note": "同名之國跨卷呼應（海外西經女子國）"}
+{"book": "book16", "entry": "SHJ-16-1-024", "src": "MTN:SHJ-16-1-024#1", "dst": "MTN:SHJ-16-1-024#2", "type": "related_to", "layer": "textual", "quote": "有桃山。有䖟山。", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-024", "src": "MTN:SHJ-16-1-024#2", "dst": "MTN:SHJ-16-1-012#2", "type": "related_to", "layer": "textual", "quote": "有䖟山。有桂山。", "note": "同條並舉；桂山復用012節點"}
+{"book": "book16", "entry": "SHJ-16-1-024", "src": "MTN:SHJ-16-1-012#2", "dst": "MTN:SHJ-16-1-024#3", "type": "related_to", "layer": "textual", "quote": "有桂山。有于土山。", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-025", "src": "POL:SHJ-16-1-025#1", "dst": "POL:SHJ-07-1-011#1", "type": "motif_of", "layer": "interpretive", "quote": "有丈夫之國", "note": "同名之國跨卷呼應（海外西經丈夫國）"}
+{"book": "book16", "entry": "SHJ-16-1-026", "src": "CRE:SHJ-16-1-026#1", "dst": "MTN:SHJ-16-1-026#1", "type": "inhabits", "layer": "textual", "quote": "有弇州之山，五采之鳥仰天，名曰鳴鳥"}
+{"book": "book16", "entry": "SHJ-16-1-026", "src": "CRE:SHJ-16-1-026#1", "dst": "CRE:SHJ-16-1-013#1", "type": "motif_of", "layer": "interpretive", "quote": "五采之鳥仰天，名曰鳴鳥", "note": "五采鳥母題（013五采鳥三名：皇/鸞/鳳）"}
+{"book": "book16", "entry": "SHJ-16-1-027", "src": "POL:SHJ-16-1-027#1", "dst": "MTN:SHJ-16-1-027#1", "type": "adjacent_to", "layer": "textual", "quote": "江山之南棲為吉", "bearing": "南"}
+{"book": "book16", "entry": "SHJ-16-1-028", "src": "PER:SHJ-16-1-028#1", "dst": "WAT:SHJ-02-3-006#2", "type": "located_in", "layer": "textual", "quote": "西海陼中，有神，人面鳥身，珥兩青蛇，踐兩赤蛇，名曰弇茲", "note": "陼＝海中洲"}
+{"book": "book16", "entry": "SHJ-16-1-029", "src": "MTN:SHJ-16-1-029#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰日月山，天樞也"}
+{"book": "book16", "entry": "SHJ-16-1-029", "src": "PER:SHJ-16-1-029#1", "dst": "MTN:SHJ-16-1-029#1", "type": "related_to", "layer": "textual", "quote": "有神，人面無臂，兩足反屬于頭上，名曰嘘", "note": "同條並舉：神嘘在日月山條"}
+{"book": "book16", "entry": "SHJ-16-1-029", "src": "PER:SHJ-16-1-029#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "顓頊生老童，老童生重及黎", "note": "系譜：重、黎為顓頊之孫"}
+{"book": "book16", "entry": "SHJ-16-1-031", "src": "PER:SHJ-16-1-031#1", "dst": "PER:SHJ-14-1-002#2", "type": "related_to", "layer": "textual", "quote": "帝俊妻常羲，生月十二，此始浴之", "note": "常羲為帝俊妻，生月十二"}
+{"book": "book16", "entry": "SHJ-16-1-031", "src": "PER:SHJ-16-1-031#1", "dst": "PER:SHJ-14-1-002#1", "type": "motif_of", "layer": "interpretive", "quote": "有女子方浴月", "note": "常羲浴月與羲和浴日（大荒東經）對應母題，皆帝俊妻"}
+{"book": "book16", "entry": "SHJ-16-1-032", "src": "CRE:SHJ-16-1-032#1", "dst": "MTN:SHJ-16-1-032#1", "type": "inhabits", "layer": "textual", "quote": "有玄丹之山。有五色之鳥，人面有髮。爰有青鴍、黄鷔、青鳥、黄鳥", "note": "其所集者其國亡（占兆）"}
+{"book": "book16", "entry": "SHJ-16-1-033", "src": "WAT:SHJ-16-1-033#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "有池，名孟翼之攻顓頊之池", "note": "池名記孟翼攻顓頊之事；孟翼無節點"}
+{"book": "book16", "entry": "SHJ-16-1-034", "src": "MTN:SHJ-16-1-034#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山，名曰鏖鏊鉅"}
+{"book": "book16", "entry": "SHJ-16-1-034", "src": "MTN:SHJ-16-1-034#1", "dst": "MTN:SHJ-16-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "日月所入者", "note": "日月所入山母題群"}
+{"book": "book16", "entry": "SHJ-16-1-035", "src": "CRE:SHJ-16-1-035#1", "dst": "CRE:SHJ-07-1-014#1", "type": "motif_of", "layer": "interpretive", "quote": "有獸，左右有首，名曰屏蓬", "note": "屏蓬左右有首與并封（海外西經）前後有首同母題"}
+{"book": "book16", "entry": "SHJ-16-1-036", "src": "MTN:SHJ-16-1-036#1", "dst": "MTN:SHJ-16-1-017#1", "type": "related_to", "layer": "textual", "quote": "有巫山者。有壑山者。", "note": "同條並舉；壑山復用017節點"}
+{"book": "book16", "entry": "SHJ-16-1-036", "src": "MTN:SHJ-16-1-017#1", "dst": "MTN:SHJ-16-1-036#2", "type": "related_to", "layer": "textual", "quote": "有壑山者。有金門之山", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-036", "src": "PER:SHJ-16-1-036#1", "dst": "MTN:SHJ-16-1-036#2", "type": "inhabits", "layer": "textual", "quote": "有金門之山，有人名曰黄姖之尸"}
+{"book": "book16", "entry": "SHJ-16-1-036", "src": "CRE:SHJ-16-1-036#1", "dst": "MTN:SHJ-16-1-036#2", "type": "related_to", "layer": "textual", "quote": "有比翼之鳥，有白鳥，青翼，黄尾，玄喙。有赤犬，名曰天犬", "note": "同條並舉；天犬「其所下者有兵」（占兆）"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "MTN:SHJ-02-3-005#1", "dst": "WAT:SHJ-02-3-006#2", "type": "adjacent_to", "layer": "textual", "quote": "西海之南，流沙之濱，赤水之後，黒水之前，有大山，名曰崑崙之丘", "bearing": "南"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "MTN:SHJ-02-3-005#1", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "西海之南，流沙之濱，赤水之後，黒水之前，有大山，名曰崑崙之丘", "note": "流沙之濱（濱＝畔，無方位字）"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "MTN:SHJ-02-3-005#1", "dst": "WAT:SHJ-02-3-008#3", "type": "adjacent_to", "layer": "textual", "quote": "西海之南，流沙之濱，赤水之後，黒水之前，有大山，名曰崑崙之丘", "note": "赤水之後（後作北解）", "bearing": "北"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "MTN:SHJ-02-3-005#1", "dst": "WAT:SHJ-02-3-008#7", "type": "adjacent_to", "layer": "textual", "quote": "西海之南，流沙之濱，赤水之後，黒水之前，有大山，名曰崑崙之丘", "note": "黒水之前（前作南解）", "bearing": "南"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "CRE:SHJ-16-1-037#1", "dst": "MTN:SHJ-02-3-005#1", "type": "inhabits", "layer": "textual", "quote": "有神，人面虎身，有文有尾，皆白，處之"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "WAT:SHJ-16-1-037#1", "dst": "MTN:SHJ-02-3-005#1", "type": "related_to", "layer": "textual", "quote": "其下有弱水之淵環之", "note": "弱水之淵環繞崑崙之丘"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "MTN:SHJ-16-1-037#1", "dst": "MTN:SHJ-02-3-005#1", "type": "related_to", "layer": "textual", "quote": "其外有炎火之山，投物輒然", "note": "在弱水之淵外"}
+{"book": "book16", "entry": "SHJ-16-1-037", "src": "PER:SHJ-02-3-011#1", "dst": "MTN:SHJ-02-3-005#1", "type": "inhabits", "layer": "textual", "quote": "有人，戴勝，虎齒，有豹尾，穴處，名曰西王母"}
+{"book": "book16", "entry": "SHJ-16-1-038", "src": "MTN:SHJ-16-1-038#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰常陽之山"}
+{"book": "book16", "entry": "SHJ-16-1-038", "src": "MTN:SHJ-16-1-038#1", "dst": "MTN:SHJ-16-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "日月所入", "note": "日月所入山母題群"}
+{"book": "book16", "entry": "SHJ-16-1-039", "src": "PER:SHJ-16-1-039#1", "dst": "POL:SHJ-16-1-039#1", "type": "related_to", "layer": "textual", "quote": "有寒荒之國。有二人女祭、女薎", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-040", "src": "PER:SHJ-16-1-040#1", "dst": "MTN:SHJ-16-1-040#1", "type": "related_to", "layer": "textual", "quote": "南嶽娶州山女，名曰女虔", "note": "南嶽娶州山女生女虔"}
+{"book": "book16", "entry": "SHJ-16-1-040", "src": "POL:SHJ-16-1-040#1", "dst": "PER:SHJ-16-1-040#1", "type": "related_to", "layer": "textual", "quote": "女虔生季格，季格生壽麻", "note": "系譜：國以壽麻得名"}
+{"book": "book16", "entry": "SHJ-16-1-041", "src": "MTN:SHJ-16-1-041#1", "dst": "MTN:SHJ-16-1-036#1", "type": "related_to", "layer": "textual", "quote": "耕既立，無首，走厥咎，乃降于巫山", "note": "夏耕之尸降于巫山"}
+{"book": "book16", "entry": "SHJ-16-1-041", "src": "MTN:SHJ-16-1-041#1", "dst": "PER:SHJ-07-1-008#1", "type": "motif_of", "layer": "interpretive", "quote": "有人無首，操戈盾立，名曰夏耕之尸", "note": "無首操戈盾母題與刑天（海外西經）同"}
+{"book": "book16", "entry": "SHJ-16-1-043", "src": "POL:SHJ-16-1-043#1", "dst": "PLA:SHJ-16-1-043#1", "type": "produces", "layer": "textual", "quote": "有樹，赤皮支幹，青葉，名曰朱木"}
+{"book": "book16", "entry": "SHJ-16-1-044", "src": "POL:SHJ-16-1-044#1", "dst": "POL:SHJ-07-1-006#1", "type": "motif_of", "layer": "interpretive", "quote": "有一臂民", "note": "一臂母題跨卷呼應（海外西經一臂國）"}
+{"book": "book16", "entry": "SHJ-16-1-045", "src": "MTN:SHJ-16-1-045#1", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰大荒之山"}
+{"book": "book16", "entry": "SHJ-16-1-045", "src": "MTN:SHJ-16-1-045#1", "dst": "MTN:SHJ-16-1-029#1", "type": "motif_of", "layer": "interpretive", "quote": "日月所入", "note": "日月所入山母題群"}
+{"book": "book16", "entry": "SHJ-16-1-045", "src": "PER:SHJ-16-1-045#1", "dst": "MTN:SHJ-16-1-045#1", "type": "inhabits", "layer": "textual", "quote": "有人焉三面，是顓頊之子"}
+{"book": "book16", "entry": "SHJ-16-1-045", "src": "PER:SHJ-16-1-045#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "是顓頊之子", "note": "系譜：三面人為顓頊之子"}
+{"book": "book16", "entry": "SHJ-16-1-046", "src": "PER:SHJ-16-1-046#1", "dst": "WAT:SHJ-02-3-007#2", "type": "adjacent_to", "layer": "textual", "quote": "西南海之外", "note": "西南海之外（四海框架節點）", "bearing": "西南"}
+{"book": "book16", "entry": "SHJ-16-1-046", "src": "PER:SHJ-16-1-046#1", "dst": "WAT:SHJ-02-3-008#3", "type": "adjacent_to", "layer": "textual", "quote": "赤水之南", "bearing": "南"}
+{"book": "book16", "entry": "SHJ-16-1-046", "src": "PER:SHJ-16-1-046#1", "dst": "LND:SHJ-02-3-010#1", "type": "adjacent_to", "layer": "textual", "quote": "流沙之西", "bearing": "西"}
+{"book": "book16", "entry": "SHJ-16-1-046", "src": "PER:SHJ-16-1-046#1", "dst": "LND:SHJ-16-1-046#1", "type": "related_to", "layer": "textual", "quote": "此天穆之野，髙二千仞，開焉得始歌九招", "note": "夏后開於天穆之野始歌九招"}
+{"book": "book16", "entry": "SHJ-16-1-046", "src": "PER:SHJ-16-1-046#1", "dst": "PER:SHJ-16-1-028#1", "type": "motif_of", "layer": "interpretive", "quote": "有人珥兩青蛇，乗兩龍，名曰夏后開", "note": "珥兩青蛇母題與028弇茲同"}
+{"book": "book16", "entry": "SHJ-16-1-047", "src": "POL:SHJ-16-1-047#1", "dst": "PER:SHJ-03-3-022#1", "type": "related_to", "layer": "textual", "quote": "炎帝之孫名曰靈恝，靈恝生氐人", "note": "系譜：炎帝之孫靈恝生氐人"}
+{"book": "book16", "entry": "SHJ-16-1-047", "src": "POL:SHJ-16-1-047#1", "dst": "POL:SHJ-10-1-015#1", "type": "motif_of", "layer": "interpretive", "quote": "有氐人之國", "note": "同名跨卷呼應（海內南經氐人國；本卷異文互人）"}
+{"book": "book16", "entry": "SHJ-16-1-048", "src": "CRE:SHJ-16-1-048#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "顓頊死即復蘇。風道北来，天乃大水泉，蛇乃化為魚，是謂魚婦", "note": "魚婦為顓頊死而復蘇所化"}
+{"book": "book16", "entry": "SHJ-16-1-050", "src": "MTN:SHJ-16-1-036#1", "dst": "MTN:SHJ-16-1-050#1", "type": "related_to", "layer": "textual", "quote": "有大巫山。有金之山。", "note": "同條並舉；大巫山復用036巫山節點"}
+{"book": "book16", "entry": "SHJ-16-1-050", "src": "MTN:SHJ-16-1-050#2", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "西南，大荒之隅，有偏句、常羊之山", "note": "大荒西南隅"}
+{"book": "book16", "entry": "SHJ-16-1-050", "src": "MTN:SHJ-16-1-050#3", "dst": "LND:SHJ-16-1-001#1", "type": "located_in", "layer": "textual", "quote": "西南，大荒之隅，有偏句、常羊之山", "note": "大荒西南隅"}
+{"book": "book16", "entry": "SHJ-16-1-050", "src": "MTN:SHJ-16-1-050#2", "dst": "MTN:SHJ-16-1-050#3", "type": "related_to", "layer": "textual", "quote": "有偏句、常羊之山", "note": "同條並舉"}
+{"book": "book16", "entry": "SHJ-16-1-050", "src": "MTN:SHJ-16-1-050#3", "dst": "MTN:SHJ-07-1-008#1", "type": "motif_of", "layer": "interpretive", "quote": "有偏句、常羊之山", "note": "同名，或即刑天葬首之常羊之山（海外西經）"}

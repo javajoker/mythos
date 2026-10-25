@@ -33,3 +33,10 @@ description: Runbook for adapting Shanhaijing Books 6–18 (海外/海內/大荒
 - mappings 逐行 json.loads；本卷全部地理提及（國/山/水/地標）在 mappings 有記錄（零遺漏）。
 - 地圖渲染審計無越界＋瀏覽器目檢。
 - 文明證據按需更新 `projects/shanhaijing/docs/civilization-coverage.md`。
+
+## 圖譜入庫（適配完成後）
+
+1. `tools/shj/kg_framework_build.py`：框架書實體入 KG——reuse 行＝提及掛山經節點＋framework_reference 屬性；pending_anchor/new_entity 行＝新節點（status=pending_anchor；非本體類型歸一並保留 original_kind）；mappings 全行入庫零遺漏。
+2. 關係抽取（LLM）：每卷 `<slug>-edges.jsonl`（rises_at/flows_into/adjacent_to+bearing/located_in/produces/inhabits/worships/invented_by/same_entity_as/motif_of/related_to；動態流向保留原文於 quote；異文方位全建邊）；`tools/shj/kg_edges_build.py` 入庫（REL:FW 前綴，冪等）。
+3. 新關係類型/層/域按開放式註冊先入 `data/kg-ontology.json`；`kg_validate.py` 必須通過。
+4. 草稿重建：`tools/shj/draft_wuzang_build.py`——框架書 mapping 實體名在草稿中零遺漏（腳本核對）。

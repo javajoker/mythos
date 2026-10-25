@@ -1,0 +1,24 @@
+{"book":"book10","entry":"SHJ-10-1-003","src":"MTN:SHJ-10-1-003#1","dst":"POL:SHJ-10-1-002#2","type":"adjacent_to","layer":"textual","quote":"三天子鄣山在閩西海北","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-004","src":"LND:SHJ-10-1-004#1","dst":"POL:SHJ-10-1-004#1","type":"adjacent_to","layer":"textual","quote":"桂林八樹在番隅東","bearing":"東"}
+{"book":"book10","entry":"SHJ-10-1-005","src":"POL:SHJ-10-1-005#1","dst":"WAT:SHJ-10-1-005#1","type":"adjacent_to","layer":"textual","quote":"伯慮國、離耳國、雕題國、北朐國皆在鬱水南","bearing":"南"}
+{"book":"book10","entry":"SHJ-10-1-005","src":"POL:SHJ-10-1-005#2","dst":"WAT:SHJ-10-1-005#1","type":"adjacent_to","layer":"textual","quote":"伯慮國、離耳國、雕題國、北朐國皆在鬱水南","bearing":"南"}
+{"book":"book10","entry":"SHJ-10-1-005","src":"POL:SHJ-10-1-005#3","dst":"WAT:SHJ-10-1-005#1","type":"adjacent_to","layer":"textual","quote":"伯慮國、離耳國、雕題國、北朐國皆在鬱水南","bearing":"南"}
+{"book":"book10","entry":"SHJ-10-1-005","src":"POL:SHJ-10-1-005#4","dst":"WAT:SHJ-10-1-005#1","type":"adjacent_to","layer":"textual","quote":"伯慮國、離耳國、雕題國、北朐國皆在鬱水南","bearing":"南"}
+{"book":"book10","entry":"SHJ-10-1-005","src":"WAT:SHJ-10-1-005#1","dst":"LND:SHJ-10-1-005#1","type":"rises_at","layer":"textual","quote":"鬱水出湘陵南海","note":"句讀作「出湘陵，南入海」；南海無節點，flows_into 未建"}
+{"book":"book10","entry":"SHJ-10-1-006","src":"POL:SHJ-10-1-006#1","dst":"POL:SHJ-10-1-005#4","type":"adjacent_to","layer":"textual","quote":"梟陽國在北朐之西","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-007","src":"CRE:SHJ-10-1-007#1","dst":"LND:SHJ-10-1-007#1","type":"adjacent_to","layer":"textual","quote":"兕在舜葬東，湘水南","bearing":"東"}
+{"book":"book10","entry":"SHJ-10-1-007","src":"CRE:SHJ-10-1-007#1","dst":"WAT:SHJ-05-12-007#2","type":"adjacent_to","layer":"textual","quote":"兕在舜葬東，湘水南","note":"湘水復用中十二瀟湘之淵節點","bearing":"南"}
+{"book":"book10","entry":"SHJ-10-1-008","src":"LND:SHJ-10-1-007#1","dst":"MTN:SHJ-10-1-008#1","type":"located_in","layer":"textual","quote":"蒼梧之山，帝舜葬于陽","note":"帝舜葬于蒼梧之山之陽"}
+{"book":"book10","entry":"SHJ-10-1-009","src":"LND:SHJ-10-1-009#1","dst":"MTN:SHJ-01-1-001#2","type":"adjacent_to","layer":"textual","quote":"氾林方三百里，在狌狌東","note":"狌狌復用南一招搖之山節點","bearing":"東"}
+{"book":"book10","entry":"SHJ-10-1-010","src":"MTN:SHJ-01-1-001#2","dst":"LND:SHJ-10-1-007#1","type":"adjacent_to","layer":"textual","quote":"狌狌知人名，其為獸如豕而人面，在舜葬西","note":"狌狌復用南一招搖之山節點","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-011","src":"CRE:SHJ-10-1-011#1","dst":"MTN:SHJ-01-1-001#2","type":"adjacent_to","layer":"textual","quote":"狌狌西北有犀牛，其狀如牛而黑","note":"狌狌復用南一招搖之山節點","bearing":"西北"}
+{"book":"book10","entry":"SHJ-10-1-012","src":"PER:SHJ-10-1-012#1","dst":"POL:SHJ-10-1-012#1","type":"related_to","layer":"textual","quote":"是司神于巴","note":"孟涂為夏后啟之臣，於巴司神判之職"}
+{"book":"book10","entry":"SHJ-10-1-012","src":"PER:SHJ-10-1-012#1","dst":"MTN:SHJ-10-1-012#1","type":"adjacent_to","layer":"textual","quote":"居山上，在丹山西","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-013","src":"CRE:SHJ-10-1-013#1","dst":"WAT:SHJ-10-1-013#1","type":"located_in","layer":"textual","quote":"居弱水中"}
+{"book":"book10","entry":"SHJ-10-1-013","src":"CRE:SHJ-10-1-013#1","dst":"MTN:SHJ-01-1-001#2","type":"adjacent_to","layer":"textual","quote":"在狌狌之西","note":"狌狌復用南一招搖之山節點","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-014","src":"LND:SHJ-10-1-014#1","dst":"CRE:SHJ-10-1-013#1","type":"adjacent_to","layer":"textual","quote":"在窫窳西弱水上","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-014","src":"LND:SHJ-10-1-014#1","dst":"WAT:SHJ-10-1-013#1","type":"located_in","layer":"textual","quote":"在窫窳西弱水上","note":"建木在弱水上"}
+{"book":"book10","entry":"SHJ-10-1-015","src":"POL:SHJ-10-1-015#1","dst":"LND:SHJ-10-1-014#1","type":"adjacent_to","layer":"textual","quote":"氐人國在建木西","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-016","src":"CRE:SHJ-10-1-016#1","dst":"CRE:SHJ-10-1-011#1","type":"adjacent_to","layer":"textual","quote":"在犀牛西","note":"方位在異文「一曰黑蛇青首」句內","bearing":"西"}
+{"book":"book10","entry":"SHJ-10-1-017","src":"CRE:SHJ-10-1-017#1","dst":"CRE:SHJ-10-1-016#1","type":"adjacent_to","layer":"textual","quote":"在巴蛇西北，高山南","bearing":"西北"}
+{"book":"book10","entry":"SHJ-10-1-017","src":"CRE:SHJ-10-1-017#1","dst":"MTN:SHJ-02-2-004#1","type":"adjacent_to","layer":"textual","quote":"在巴蛇西北，高山南","note":"高山復用西二高山節點","bearing":"南"}

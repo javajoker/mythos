@@ -1,0 +1,69 @@
+{"book": "book14", "entry": "SHJ-14-1-001", "src": "LND:SHJ-14-1-001#1", "dst": "WAT:SHJ-14-1-001#1", "type": "located_in", "layer": "textual", "quote": "東海之外大壑", "note": "大壑在東海之外海域"}
+{"book": "book14", "entry": "SHJ-14-1-001", "src": "POL:SHJ-14-1-001#1", "dst": "LND:SHJ-14-1-001#1", "type": "located_in", "layer": "textual", "quote": "東海之外大壑，少昊之國"}
+{"book": "book14", "entry": "SHJ-14-1-001", "src": "PER:SHJ-14-1-001#1", "dst": "POL:SHJ-14-1-001#1", "type": "related_to", "layer": "textual", "quote": "少昊之國", "note": "國以少昊名"}
+{"book": "book14", "entry": "SHJ-14-1-001", "src": "PER:SHJ-14-1-001#1", "dst": "PER:SHJ-14-1-001#2", "type": "related_to", "layer": "textual", "quote": "少昊孺帝顓頊于此，棄其琴瑟", "note": "孺＝養育；于此＝少昊之國所在"}
+{"book": "book14", "entry": "SHJ-14-1-001", "src": "WAT:SHJ-14-1-001#2", "dst": "MTN:SHJ-14-1-001#1", "type": "rises_at", "layer": "textual", "quote": "有甘山者，甘水出焉"}
+{"book": "book14", "entry": "SHJ-14-1-001", "src": "WAT:SHJ-14-1-001#2", "dst": "WAT:SHJ-14-1-001#3", "type": "flows_into", "layer": "textual", "quote": "甘水出焉，生甘淵", "note": "生＝匯生，甘水匯為甘淵"}
+{"book": "book14", "entry": "SHJ-14-1-002", "src": "POL:SHJ-14-1-002#1", "dst": "WAT:SHJ-14-1-002#1", "type": "located_in", "layer": "textual", "quote": "東海之外，甘水之閒，有羲和之國"}
+{"book": "book14", "entry": "SHJ-14-1-002", "src": "POL:SHJ-14-1-002#1", "dst": "WAT:SHJ-14-1-001#2", "type": "located_in", "layer": "textual", "quote": "東海之外，甘水之閒，有羲和之國", "note": "甘水之閒；甘水用001條節點（002條無專屬甘水節點）"}
+{"book": "book14", "entry": "SHJ-14-1-002", "src": "PER:SHJ-14-1-002#1", "dst": "POL:SHJ-14-1-002#1", "type": "related_to", "layer": "textual", "quote": "有羲和之國。有女子名曰羲和", "note": "國以羲和名"}
+{"book": "book14", "entry": "SHJ-14-1-002", "src": "PER:SHJ-14-1-002#1", "dst": "WAT:SHJ-14-1-002#2", "type": "related_to", "layer": "textual", "quote": "方浴日于甘淵", "note": "浴日（日出觀測/祭儀）於甘淵"}
+{"book": "book14", "entry": "SHJ-14-1-002", "src": "PER:SHJ-14-1-002#1", "dst": "PER:SHJ-14-1-002#2", "type": "related_to", "layer": "textual", "quote": "羲和者，帝俊之妻", "note": "妻"}
+{"book": "book14", "entry": "SHJ-14-1-002", "src": "PER:SHJ-14-1-002#1", "dst": "AST:SHJ-14-1-002#1", "type": "related_to", "layer": "textual", "quote": "是生十日", "note": "生十日"}
+{"book": "book14", "entry": "SHJ-14-1-004", "src": "MTN:SHJ-14-1-004#1", "dst": "WAT:SHJ-14-1-004#1", "type": "located_in", "layer": "textual", "quote": "東海之外，大荒之中，有山名曰大言，日月所出", "note": "東海之外；「大荒之中」之大荒無節點，不另建邊"}
+{"book": "book14", "entry": "SHJ-14-1-005", "src": "POL:SHJ-14-1-005#1", "dst": "MTN:SHJ-14-1-005#1", "type": "located_in", "layer": "textual", "quote": "有波谷山者，有大人之國"}
+{"book": "book14", "entry": "SHJ-14-1-005", "src": "LND:SHJ-14-1-005#1", "dst": "POL:SHJ-14-1-005#1", "type": "located_in", "layer": "textual", "quote": "有大人之市，名曰大人之堂", "note": "大人之市即大人之堂，在市在大人之國"}
+{"book": "book14", "entry": "SHJ-14-1-008", "src": "WAT:SHJ-14-1-008#1", "dst": "MTN:SHJ-14-1-008#1", "type": "rises_at", "layer": "textual", "quote": "有潏山，楊水出焉"}
+{"book": "book14", "entry": "SHJ-14-1-011", "src": "PER:SHJ-14-1-002#2", "dst": "POL:SHJ-14-1-011#1", "type": "related_to", "layer": "textual", "quote": "帝俊生中容", "note": "生（方國始祖系譜）；帝俊用002條節點"}
+{"book": "book14", "entry": "SHJ-14-1-012", "src": "POL:SHJ-14-1-012#1", "dst": "MTN:SHJ-14-1-012#1", "type": "located_in", "layer": "textual", "quote": "有東口之山。有君子之國，其人衣冠帶劍", "note": "文本並置，山為國之依託"}
+{"book": "book14", "entry": "SHJ-14-1-013", "src": "PER:SHJ-14-1-002#2", "dst": "PER:SHJ-14-1-013#1", "type": "related_to", "layer": "textual", "quote": "帝俊生晏龍", "note": "生（系譜）"}
+{"book": "book14", "entry": "SHJ-14-1-013", "src": "PER:SHJ-14-1-013#1", "dst": "POL:SHJ-14-1-013#1", "type": "related_to", "layer": "textual", "quote": "晏龍生司幽", "note": "生（方國始祖系譜）"}
+{"book": "book14", "entry": "SHJ-14-1-016", "src": "PER:SHJ-14-1-002#2", "dst": "PER:SHJ-14-1-016#1", "type": "related_to", "layer": "textual", "quote": "帝俊生帝鴻", "note": "生（系譜）"}
+{"book": "book14", "entry": "SHJ-14-1-016", "src": "PER:SHJ-14-1-016#1", "dst": "POL:SHJ-14-1-016#1", "type": "related_to", "layer": "textual", "quote": "帝鴻生白民", "note": "生（方國始祖系譜）"}
+{"book": "book14", "entry": "SHJ-14-1-017", "src": "CRE:SHJ-14-1-017#1", "dst": "MTN:SHJ-01-1-008#1", "type": "inhabits", "layer": "textual", "quote": "有青丘之國，有狐，九尾", "note": "青丘之國復用南一青丘之山節點；九尾狐棲於青丘"}
+{"book": "book14", "entry": "SHJ-14-1-018", "src": "POL:SHJ-14-1-018#1", "dst": "POL:SHJ-14-1-018#2", "type": "same_entity_as", "layer": "textual", "quote": "有柔僕民，是維嬴土之國", "note": "「是維」明示柔僕民即嬴土之國（民名/國名雙層）"}
+{"book": "book14", "entry": "SHJ-14-1-019", "src": "PER:SHJ-14-1-002#2", "dst": "POL:SHJ-14-1-019#1", "type": "related_to", "layer": "textual", "quote": "帝俊生黑齒", "note": "生（方國始祖系譜）"}
+{"book": "book14", "entry": "SHJ-14-1-022", "src": "PER:SHJ-14-1-022#1", "dst": "MTN:SHJ-14-1-022#2", "type": "inhabits", "layer": "textual", "quote": "處東極以出入風", "note": "折丹處東極，司東風出入"}
+{"book": "book14", "entry": "SHJ-14-1-023", "src": "PER:SHJ-14-1-023#1", "dst": "LND:SHJ-14-1-023#1", "type": "inhabits", "layer": "textual", "quote": "東海之渚中，有神，人面鳥身，珥兩黃蛇，踐兩黃蛇，名曰禺䝞"}
+{"book": "book14", "entry": "SHJ-14-1-023", "src": "PER:SHJ-14-1-023#3", "dst": "PER:SHJ-14-1-023#1", "type": "related_to", "layer": "textual", "quote": "黃帝生禺禺䝞", "note": "生（系譜）；原文重文「禺禺䝞」"}
+{"book": "book14", "entry": "SHJ-14-1-023", "src": "PER:SHJ-14-1-023#1", "dst": "PER:SHJ-14-1-023#2", "type": "related_to", "layer": "textual", "quote": "禺禺䝞生禺京", "note": "生（系譜）"}
+{"book": "book14", "entry": "SHJ-14-1-023", "src": "PER:SHJ-14-1-023#2", "dst": "WAT:SHJ-14-1-023#1", "type": "inhabits", "layer": "textual", "quote": "禺京處北海"}
+{"book": "book14", "entry": "SHJ-14-1-023", "src": "PER:SHJ-14-1-023#1", "dst": "WAT:SHJ-14-1-001#1", "type": "inhabits", "layer": "textual", "quote": "禺䝞處東海，是為海神", "note": "東海用001條框架海節點（023條無專屬東海節點）"}
+{"book": "book14", "entry": "SHJ-14-1-024", "src": "WAT:SHJ-14-1-024#1", "dst": "MTN:SHJ-01-1-001#2", "type": "rises_at", "layer": "textual", "quote": "有招搖山，融水出焉", "note": "招搖山復用南一招搖之山節點"}
+{"book": "book14", "entry": "SHJ-14-1-024", "src": "POL:SHJ-14-1-024#1", "dst": "MTN:SHJ-01-1-001#2", "type": "located_in", "layer": "textual", "quote": "有招搖山，融水出焉。有國曰玄股，黍食，使四鳥", "note": "文本並置，玄股之國依招搖山"}
+{"book": "book14", "entry": "SHJ-14-1-025", "src": "PER:SHJ-14-1-025#1", "dst": "POL:SHJ-14-1-025#1", "type": "located_in", "layer": "textual", "quote": "有困民國，勾姓，黍食。有人曰王亥", "note": "「有人曰」繫於本條之國"}
+{"book": "book14", "entry": "SHJ-14-1-025", "src": "PER:SHJ-14-1-025#1", "dst": "POL:SHJ-14-1-025#2", "type": "related_to", "layer": "textual", "quote": "王亥托于有易、河伯僕牛", "note": "托（寄託僕牛）於有易"}
+{"book": "book14", "entry": "SHJ-14-1-025", "src": "PER:SHJ-14-1-025#1", "dst": "PER:SHJ-14-1-025#2", "type": "related_to", "layer": "textual", "quote": "王亥托于有易、河伯僕牛", "note": "僕牛託於河伯"}
+{"book": "book14", "entry": "SHJ-14-1-025", "src": "POL:SHJ-14-1-025#2", "dst": "PER:SHJ-14-1-025#1", "type": "related_to", "layer": "textual", "quote": "有易殺王亥，取僕牛", "note": "殺"}
+{"book": "book14", "entry": "SHJ-14-1-025", "src": "PER:SHJ-14-1-025#2", "dst": "POL:SHJ-14-1-025#2", "type": "related_to", "layer": "textual", "quote": "河伯念有易", "note": "念（哀護）"}
+{"book": "book14", "entry": "SHJ-14-1-025", "src": "POL:SHJ-14-1-025#2", "dst": "POL:SHJ-14-1-025#3", "type": "related_to", "layer": "textual", "quote": "有易潛出，為國于獸，方食之，名曰搖民", "note": "有易遺民潛出建搖民之國"}
+{"book": "book14", "entry": "SHJ-14-1-026", "src": "PER:SHJ-14-1-026#1", "dst": "CRE:SHJ-14-1-026#1", "type": "related_to", "layer": "textual", "quote": "女丑有大蟹", "note": "有（持有）"}
+{"book": "book14", "entry": "SHJ-14-1-027", "src": "MTN:SHJ-14-1-027#1", "dst": "PLA:SHJ-14-1-027#1", "type": "produces", "layer": "textual", "quote": "大荒之中，有山名曰孽搖頵羝，上有扶木，柱三百里，其葉如芥", "note": "上有扶木（神樹所立）"}
+{"book": "book14", "entry": "SHJ-14-1-027", "src": "LND:SHJ-14-1-027#1", "dst": "MTN:SHJ-14-1-027#1", "type": "located_in", "layer": "textual", "quote": "有谷曰溫源谷", "note": "文本並置，溫源谷依孽搖頵羝山"}
+{"book": "book14", "entry": "SHJ-14-1-027", "src": "WAT:SHJ-14-1-027#1", "dst": "PLA:SHJ-14-1-027#1", "type": "produces", "layer": "textual", "quote": "湯谷上有扶木"}
+{"book": "book14", "entry": "SHJ-14-1-027", "src": "AST:SHJ-14-1-002#1", "dst": "PLA:SHJ-14-1-027#1", "type": "inhabits", "layer": "textual", "quote": "一日方至，一日方出，皆載于烏", "note": "日（十日）輪值於扶木；十日用002條節點"}
+{"book": "book14", "entry": "SHJ-14-1-029", "src": "CRE:SHJ-14-1-029#1", "dst": "PER:SHJ-14-1-002#2", "type": "related_to", "layer": "textual", "quote": "惟帝俊下友", "note": "五采之鳥為帝俊下界之友"}
+{"book": "book14", "entry": "SHJ-14-1-029", "src": "CRE:SHJ-14-1-029#1", "dst": "LND:SHJ-14-1-029#1", "type": "related_to", "layer": "textual", "quote": "帝下兩壇，采鳥是司", "note": "司（掌管）帝下兩壇"}
+{"book": "book14", "entry": "SHJ-14-1-029", "src": "LND:SHJ-14-1-029#1", "dst": "PER:SHJ-14-1-002#2", "type": "related_to", "layer": "textual", "quote": "帝下兩壇", "note": "帝俊下界之壇"}
+{"book": "book14", "entry": "SHJ-14-1-030", "src": "POL:SHJ-14-1-030#1", "dst": "MTN:SHJ-14-1-030#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名猗天蘇門，日月所生。有壎民之國", "note": "文本並置，壎民之國依猗天蘇門山"}
+{"book": "book14", "entry": "SHJ-14-1-032", "src": "POL:SHJ-14-1-032#1", "dst": "MTN:SHJ-14-1-032#1", "type": "located_in", "layer": "textual", "quote": "東荒之中，有山名曰壑明俊疾，日月所出。有中容之國", "note": "文本並置，中容之國依壑明俊疾山"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "CRE:SHJ-14-1-033#1", "type": "produces", "layer": "textual", "quote": "東北海外，又有三青馬、三騅、甘華"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "CRE:SHJ-14-1-033#2", "type": "produces", "layer": "textual", "quote": "東北海外，又有三青馬、三騅、甘華。爰有遺玉、三青鳥、三騅、視肉、甘華、甘柤，百穀所在"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "CRE:SHJ-14-1-033#3", "type": "produces", "layer": "textual", "quote": "東北海外，又有三青馬、三騅、甘華。爰有遺玉、三青鳥、三騅、視肉、甘華、甘柤，百穀所在"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "MIN:SHJ-14-1-033#1", "type": "produces", "layer": "textual", "quote": "爰有遺玉、三青鳥、三騅、視肉、甘華、甘柤，百穀所在"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "CRE:SHJ-14-1-033#4", "type": "produces", "layer": "textual", "quote": "爰有遺玉、三青鳥、三騅、視肉、甘華、甘柤，百穀所在"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "CRE:SHJ-14-1-033#5", "type": "produces", "layer": "textual", "quote": "爰有遺玉、三青鳥、三騅、視肉、甘華、甘柤，百穀所在"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "CRE:SHJ-14-1-033#6", "type": "produces", "layer": "textual", "quote": "爰有遺玉、三青鳥、三騅、視肉、甘華、甘柤，百穀所在"}
+{"book": "book14", "entry": "SHJ-14-1-033", "src": "LND:SHJ-14-1-033#1", "dst": "WAT:SHJ-14-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "東北海外", "bearing": "東北", "note": "在東海之東北外；東海用001條框架海節點"}
+{"book": "book14", "entry": "SHJ-14-1-034", "src": "PER:SHJ-14-1-034#1", "dst": "POL:SHJ-14-1-034#1", "type": "inhabits", "layer": "textual", "quote": "有女和月母之國。有人名曰𪂧", "note": "「有人曰」繫於本條之國"}
+{"book": "book14", "entry": "SHJ-14-1-035", "src": "PER:SHJ-14-1-035#1", "dst": "LND:SHJ-14-1-035#1", "type": "related_to", "layer": "textual", "quote": "應龍出南極", "note": "出南極（異文 出／處）"}
+{"book": "book14", "entry": "SHJ-14-1-035", "src": "PER:SHJ-14-1-035#1", "dst": "PER:SHJ-14-1-035#2", "type": "related_to", "layer": "textual", "quote": "殺蚩尤與夸父", "note": "殺"}
+{"book": "book14", "entry": "SHJ-14-1-035", "src": "PER:SHJ-14-1-035#1", "dst": "PER:SHJ-14-1-035#3", "type": "related_to", "layer": "textual", "quote": "殺蚩尤與夸父", "note": "殺"}
+{"book": "book14", "entry": "SHJ-14-1-035", "src": "PER:SHJ-14-1-035#1", "dst": "MTN:SHJ-14-1-035#1", "type": "inhabits", "layer": "interpretive", "quote": "大荒東北隅中，有山名曰凶犁土丘。應龍出南極，殺蚩尤與夸父，不得復上", "note": "應龍敘事附於凶犁土丘條；「不得復上」後居於下，傳統讀法繫於此山（郭璞注），原文未明言處此山，故列 interpretive"}
+{"book": "book14", "entry": "SHJ-14-1-035", "src": "PER:SHJ-14-1-035#3", "dst": "MTN:SHJ-05-6-013#1", "type": "motif_of", "layer": "interpretive", "quote": "殺蚩尤與夸父", "note": "夸父戰死敘事與中六夸父之山（夸父逐日母題命名地）屬同一夸父母題群；不裁決實體同一性"}
+{"book": "book14", "entry": "SHJ-14-1-036", "src": "MTN:SHJ-14-1-036#1", "dst": "WAT:SHJ-14-1-001#1", "type": "located_in", "layer": "textual", "quote": "東海中有流波山，入海七千里", "note": "東海用001條框架海節點（036條無專屬東海節點）"}
+{"book": "book14", "entry": "SHJ-14-1-036", "src": "MTN:SHJ-14-1-036#1", "dst": "CRE:SHJ-14-1-036#1", "type": "produces", "layer": "textual", "quote": "其上有獸，狀如牛，蒼身而無角，一足，出入水則必風雨，其光如日月，其聲如雷，其名曰夔", "note": "其上有獸（夔棲於流波山）"}
+{"book": "book14", "entry": "SHJ-14-1-036", "src": "PER:SHJ-14-1-023#3", "dst": "CRE:SHJ-14-1-036#1", "type": "related_to", "layer": "textual", "quote": "黃帝得之，以其皮為鼓", "note": "黃帝得夔、以皮為鼓；黃帝用023條節點"}
+{"book": "book14", "entry": "SHJ-14-1-036", "src": "CRE:SHJ-14-1-036#2", "dst": "CRE:SHJ-14-1-036#1", "type": "related_to", "layer": "textual", "quote": "橛以雷獸之骨，聲聞五百里，以威天下", "note": "以雷獸骨為橛擊夔皮鼓"}
+{"book": "book14", "entry": "SHJ-14-1-022", "src": "PER:SHJ-14-1-034#1", "dst": "PER:SHJ-14-1-022#1", "type": "motif_of", "layer": "interpretive", "quote": "東方曰折，來風曰俊", "note": "四方風名系統同型：022折丹司東風（俊）／034𪂧司北風（𤟇），皆處極隅司風與日月；跨條目母題關聯"}
+{"book": "book14", "entry": "SHJ-14-1-027", "src": "WAT:SHJ-14-1-027#1", "dst": "WAT:SHJ-14-1-001#3", "type": "motif_of", "layer": "interpretive", "quote": "湯谷上有扶木。一日方至，一日方出", "note": "湯谷（日出、扶木）與甘淵（羲和浴日）同為日出神話地點，疑同一日出地異名；mapping 未知項保留，僅作母題關聯不裁決"}

@@ -134,7 +134,7 @@ def main():
             errors.append(f"node {node['id']}: invalid status")
         if node_type in ontology["geography_types"]:
             book = int(entry.split("-")[1])
-            if book not in ontology["base_books"]:
+            if book not in ontology["base_books"] and node.get("status") != "pending_anchor":
                 errors.append(f"node {node['id']}: v1 geography node outside books 1-5")
 
     for mention in mentions:

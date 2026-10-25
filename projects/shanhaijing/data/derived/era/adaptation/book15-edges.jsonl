@@ -1,0 +1,87 @@
+{"book": "book15", "entry": "SHJ-15-1-001", "src": "CRE:SHJ-15-1-001#1", "dst": "WAT:SHJ-01-2-001#2", "type": "adjacent_to", "layer": "textual", "quote": "赤水之西，流沙之東，有獸，左右有首，名曰䟣踢", "bearing": "西"}
+{"book": "book15", "entry": "SHJ-15-1-001", "src": "CRE:SHJ-15-1-001#1", "dst": "LND:SHJ-15-1-001#1", "type": "adjacent_to", "layer": "textual", "quote": "赤水之西，流沙之東，有獸，左右有首，名曰䟣踢", "bearing": "東"}
+{"book": "book15", "entry": "SHJ-15-1-001", "src": "CRE:SHJ-15-1-001#1", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "南海之外，赤水之西，流沙之東，有獸", "note": "在南海之外"}
+{"book": "book15", "entry": "SHJ-15-1-001", "src": "CRE:SHJ-15-1-001#2", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "有三青獸相並，名曰雙雙", "note": "承上「南海之外」方位框架"}
+{"book": "book15", "entry": "SHJ-15-1-002", "src": "MTN:SHJ-15-1-002#2", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "南海之中，有汜天之山", "note": "在南海之中"}
+{"book": "book15", "entry": "SHJ-15-1-002", "src": "WAT:SHJ-01-2-001#2", "dst": "MTN:SHJ-15-1-002#2", "type": "related_to", "layer": "textual", "quote": "有汜天之山，赤水窮焉", "note": "赤水盡於汜天之山（窮焉＝水終於山）"}
+{"book": "book15", "entry": "SHJ-15-1-003", "src": "LND:SHJ-15-1-003#1", "dst": "WAT:SHJ-01-2-001#2", "type": "adjacent_to", "layer": "textual", "quote": "赤水之東，有蒼梧之野", "bearing": "東"}
+{"book": "book15", "entry": "SHJ-15-1-003", "src": "PER:SHJ-15-1-003#1", "dst": "LND:SHJ-15-1-003#1", "type": "related_to", "layer": "textual", "quote": "舜與叔均之所葬也", "note": "舜、叔均葬於蒼梧之野（帝系葬地）"}
+{"book": "book15", "entry": "SHJ-15-1-003", "src": "LND:SHJ-15-1-003#1", "dst": "CRE:SHJ-15-1-003#3", "type": "produces", "layer": "textual", "quote": "爰有文貝、離俞、𩿨久、鷹、賈、委維、熊、羆、象、虎、豹、狼、視肉"}
+{"book": "book15", "entry": "SHJ-15-1-003", "src": "LND:SHJ-15-1-003#1", "dst": "CRE:SHJ-15-1-003#2", "type": "produces", "layer": "textual", "quote": "爰有文貝、離俞、𩿨久、鷹、賈、委維、熊、羆、象、虎、豹、狼、視肉"}
+{"book": "book15", "entry": "SHJ-15-1-003", "src": "LND:SHJ-15-1-003#1", "dst": "CRE:SHJ-15-1-003#1", "type": "produces", "layer": "textual", "quote": "爰有文貝、離俞、𩿨久、鷹、賈、委維、熊、羆、象、虎、豹、狼、視肉"}
+{"book": "book15", "entry": "SHJ-15-1-004", "src": "WAT:SHJ-15-1-004#1", "dst": "MTN:SHJ-15-1-004#1", "type": "rises_at", "layer": "textual", "quote": "有榮山，榮水出焉"}
+{"book": "book15", "entry": "SHJ-15-1-004", "src": "CRE:SHJ-15-1-004#1", "dst": "WAT:SHJ-01-3-009#1", "type": "adjacent_to", "layer": "textual", "quote": "黑水之南，有玄蛇，食麈", "bearing": "南"}
+{"book": "book15", "entry": "SHJ-15-1-005", "src": "CRE:SHJ-15-1-005#1", "dst": "MTN:SHJ-05-9-015#1", "type": "adjacent_to", "layer": "textual", "quote": "有巫山者，西有黃鳥", "bearing": "西"}
+{"book": "book15", "entry": "SHJ-15-1-005", "src": "CRE:SHJ-15-1-005#1", "dst": "CRE:SHJ-15-1-004#1", "type": "related_to", "layer": "textual", "quote": "黃鳥于巫山，司此玄蛇", "note": "黃鳥司（監守）玄蛇"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "MTN:SHJ-15-1-006#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有不庭之山"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "WAT:SHJ-15-1-004#1", "dst": "MTN:SHJ-15-1-006#1", "type": "related_to", "layer": "textual", "quote": "有不庭之山，榮水窮焉", "note": "榮水盡於不庭之山（與004「榮水出焉」構成首尾）"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "PER:SHJ-15-1-003#1", "dst": "POL:SHJ-15-1-006#1", "type": "related_to", "layer": "textual", "quote": "帝俊妻娥皇，生此三身之國", "note": "帝俊—娥皇生三身之國（神話譜系）"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "POL:SHJ-15-1-006#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有不庭之山，榮水窮焉。有人三身", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "WAT:SHJ-15-1-006#1", "dst": "WAT:SHJ-01-3-009#1", "type": "adjacent_to", "layer": "textual", "quote": "北屬黑水，南屬大荒，北旁名曰少和之淵", "bearing": "北", "note": "四方之淵北旁，北屬黑水"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "WAT:SHJ-15-1-006#2", "dst": "LND:SHJ-15-1-006#1", "type": "adjacent_to", "layer": "textual", "quote": "南屬大荒，北旁名曰少和之淵，南旁名曰從淵", "bearing": "南", "note": "四方之淵南旁，南屬大荒"}
+{"book": "book15", "entry": "SHJ-15-1-006", "src": "PER:SHJ-15-1-003#1", "dst": "WAT:SHJ-15-1-006#2", "type": "related_to", "layer": "textual", "quote": "南旁名曰從淵，舜之所浴也", "note": "舜浴於從淵"}
+{"book": "book15", "entry": "SHJ-15-1-007", "src": "WAT:SHJ-15-1-007#1", "dst": "MTN:SHJ-01-2-008#1", "type": "related_to", "layer": "textual", "quote": "又有成山，甘水窮焉", "note": "甘水盡於成山"}
+{"book": "book15", "entry": "SHJ-15-1-007", "src": "PER:SHJ-15-1-003#1", "dst": "POL:SHJ-15-1-007#1", "type": "related_to", "layer": "textual", "quote": "有季禺之國，顓頊之子，食黍", "note": "顓頊之子為季禺國祖（神話譜系）"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有不姜之山"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "WAT:SHJ-01-3-009#1", "dst": "MTN:SHJ-15-1-008#1", "type": "related_to", "layer": "textual", "quote": "有不姜之山，黑水窮焉", "note": "黑水盡於不姜之山"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "WAT:SHJ-15-1-008#1", "dst": "MTN:SHJ-15-1-008#2", "type": "rises_at", "layer": "textual", "quote": "又有賈山，汔水出焉"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "WAT:SHJ-15-1-008#2", "dst": "MTN:SHJ-15-1-008#6", "type": "rises_at", "layer": "textual", "quote": "又有蒲山，澧水出焉"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#2", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "又有賈山，汔水出焉", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#3", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "又有言山", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#4", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "又有登備之山", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#5", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "有恝恝之山", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#6", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "又有蒲山，澧水出焉", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#7", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "又有隗山，其西有丹，其東有玉", "note": "承上「大荒之中」框架；丹、玉無KG節點，產物邊從略"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#8", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "有尾山", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-008", "src": "MTN:SHJ-15-1-008#9", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "有翠山", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-010", "src": "POL:SHJ-15-1-010#1", "dst": "CRE:SHJ-15-1-010#1", "type": "related_to", "layer": "textual", "quote": "有不死之國，阿姓，甘木是食", "note": "不死國民食甘木"}
+{"book": "book15", "entry": "SHJ-15-1-011", "src": "MTN:SHJ-15-1-011#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰去痓"}
+{"book": "book15", "entry": "SHJ-15-1-012", "src": "PER:SHJ-15-1-012#1", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "南海渚中，有神，人面，珥兩青蛇，踐兩赤蛇，曰不廷胡余", "note": "在南海渚中"}
+{"book": "book15", "entry": "SHJ-15-1-013", "src": "PER:SHJ-15-1-013#1", "dst": "LND:SHJ-15-1-013#1", "type": "inhabits", "layer": "textual", "quote": "處南極以出入風"}
+{"book": "book15", "entry": "SHJ-15-1-014", "src": "PER:SHJ-15-1-003#1", "dst": "POL:SHJ-15-1-014#1", "type": "related_to", "layer": "textual", "quote": "帝俊生季釐，故曰季釐之國", "note": "帝俊生季釐（神話譜系）"}
+{"book": "book15", "entry": "SHJ-15-1-014", "src": "PER:SHJ-15-1-003#1", "dst": "WAT:SHJ-15-1-014#1", "type": "inhabits", "layer": "textual", "quote": "少昊生倍伐，倍伐降處緡淵", "note": "倍伐降居緡淵（譜系群節點含少昊、倍伐）"}
+{"book": "book15", "entry": "SHJ-15-1-015", "src": "PER:SHJ-15-1-003#1", "dst": "POL:SHJ-15-1-015#1", "type": "related_to", "layer": "textual", "quote": "帝舜生無淫，降臷處，是謂巫臷民", "note": "帝舜生無淫，無淫降臷為巫臷民（神話譜系）"}
+{"book": "book15", "entry": "SHJ-15-1-015", "src": "POL:SHJ-15-1-015#1", "dst": "CRE:SHJ-15-1-015#1", "type": "produces", "layer": "textual", "quote": "爰有歌舞之鳥，鸞鳥自歌，鳳鳥自舞"}
+{"book": "book15", "entry": "SHJ-15-1-016", "src": "MTN:SHJ-15-1-016#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰融天"}
+{"book": "book15", "entry": "SHJ-15-1-016", "src": "WAT:SHJ-01-3-009#2", "dst": "MTN:SHJ-15-1-016#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰融天，海水南入焉", "note": "海水（南海）南入融天之山——海侵海岸記錄"}
+{"book": "book15", "entry": "SHJ-15-1-017", "src": "PER:SHJ-15-1-003#1", "dst": "PER:SHJ-15-1-017#1", "type": "related_to", "layer": "textual", "quote": "有人曰鑿齒，羿殺之", "note": "羿殺鑿齒（譜系群節點含羿）"}
+{"book": "book15", "entry": "SHJ-15-1-018", "src": "POL:SHJ-15-1-018#1", "dst": "MTN:SHJ-15-1-018#1", "type": "located_in", "layer": "textual", "quote": "有蜮山者，有蜮民之國", "note": "國以山名，同處"}
+{"book": "book15", "entry": "SHJ-15-1-019", "src": "MTN:SHJ-15-1-019#1", "dst": "CRE:SHJ-15-1-019#1", "type": "produces", "layer": "textual", "quote": "有宋山者，有赤蛇，名曰育蛇"}
+{"book": "book15", "entry": "SHJ-15-1-019", "src": "MTN:SHJ-15-1-019#1", "dst": "PLA:SHJ-15-1-019#1", "type": "produces", "layer": "textual", "quote": "有木生山上，名曰楓木"}
+{"book": "book15", "entry": "SHJ-15-1-019", "src": "PLA:SHJ-15-1-019#1", "dst": "PER:SHJ-15-1-003#1", "type": "invented_by", "layer": "textual", "quote": "楓木，蚩尤所棄其桎梏，是爲楓木", "note": "楓木為蚩尤所棄桎梏所化（是爲＝起源）"}
+{"book": "book15", "entry": "SHJ-15-1-022", "src": "MTN:SHJ-15-1-022#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名㱙塗之山"}
+{"book": "book15", "entry": "SHJ-15-1-022", "src": "WAT:SHJ-15-1-022#1", "dst": "MTN:SHJ-15-1-022#1", "type": "related_to", "layer": "textual", "quote": "有山名㱙塗之山，青水窮焉", "note": "青水盡於㱙塗之山"}
+{"book": "book15", "entry": "SHJ-15-1-022", "src": "MTN:SHJ-15-1-022#2", "dst": "CRE:SHJ-15-1-022#1", "type": "produces", "layer": "textual", "quote": "有雲雨之山，有木名曰欒"}
+{"book": "book15", "entry": "SHJ-15-1-022", "src": "MTN:SHJ-15-1-022#2", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "有雲雨之山，有木名曰欒", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-023", "src": "PER:SHJ-15-1-003#1", "dst": "MTN:SHJ-15-1-022#2", "type": "related_to", "layer": "textual", "quote": "禹攻雲雨", "note": "禹攻雲雨之山（禹蹟記錄）"}
+{"book": "book15", "entry": "SHJ-15-1-023", "src": "PER:SHJ-15-1-003#1", "dst": "CRE:SHJ-15-1-022#1", "type": "related_to", "layer": "textual", "quote": "有赤石焉生欒，黃本，赤枝，青葉，群帝焉取藥", "note": "群帝取欒木為藥（赤石無KG節點）"}
+{"book": "book15", "entry": "SHJ-15-1-024", "src": "PER:SHJ-15-1-003#1", "dst": "POL:SHJ-15-1-024#1", "type": "related_to", "layer": "textual", "quote": "有國曰伯服，顓頊生伯服，食黍", "note": "顓頊生伯服（神話譜系；異文「有國曰顓頊，生伯服」同指）"}
+{"book": "book15", "entry": "SHJ-15-1-024", "src": "WAT:SHJ-15-1-024#1", "dst": "MTN:SHJ-15-1-024#7", "type": "rises_at", "layer": "textual", "quote": "又有白水山，白水出焉"}
+{"book": "book15", "entry": "SHJ-15-1-024", "src": "WAT:SHJ-15-1-024#1", "dst": "WAT:SHJ-15-1-024#2", "type": "related_to", "layer": "textual", "quote": "白水出焉，而生白淵", "note": "白水生白淵"}
+{"book": "book15", "entry": "SHJ-15-1-024", "src": "PER:SHJ-16-1-021#1", "dst": "WAT:SHJ-15-1-024#2", "type": "related_to", "layer": "interpretive", "quote": "而生白淵，昆吾之師所浴也", "note": "「昆吾之師」浴於白淵——昆吾之衆跨卷關聯卷16昆吾節點，實體消解為推定"}
+{"book": "book15", "entry": "SHJ-15-1-025", "src": "PER:SHJ-15-1-025#1", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "有人名曰張弘，在海上捕魚", "note": "在南海之上"}
+{"book": "book15", "entry": "SHJ-15-1-025", "src": "POL:SHJ-15-1-025#1", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "海中有張弘之國", "note": "在南海之中"}
+{"book": "book15", "entry": "SHJ-15-1-025", "src": "PER:SHJ-15-1-025#1", "dst": "POL:SHJ-15-1-025#1", "type": "related_to", "layer": "textual", "quote": "有人名曰張弘，在海上捕魚。海中有張弘之國", "note": "張弘與張弘之國同名關聯"}
+{"book": "book15", "entry": "SHJ-15-1-026", "src": "PER:SHJ-15-1-026#1", "dst": "WAT:SHJ-01-3-009#2", "type": "located_in", "layer": "textual", "quote": "有人焉，鳥喙，有翼，方捕魚于海", "note": "在南海捕魚"}
+{"book": "book15", "entry": "SHJ-15-1-027", "src": "PER:SHJ-15-1-027#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有人名曰驩頭"}
+{"book": "book15", "entry": "SHJ-15-1-027", "src": "PER:SHJ-15-1-027#1", "dst": "WAT:SHJ-01-3-009#2", "type": "inhabits", "layer": "textual", "quote": "驩頭人面鳥喙，有翼，食海中魚", "note": "食於海（南海）"}
+{"book": "book15", "entry": "SHJ-15-1-027", "src": "PER:SHJ-15-1-027#1", "dst": "POL:SHJ-15-1-027#1", "type": "related_to", "layer": "textual", "quote": "有驩頭之國", "note": "驩頭與驩頭之國同名關聯"}
+{"book": "book15", "entry": "SHJ-15-1-027", "src": "POL:SHJ-15-1-027#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "有驩頭之國", "note": "承上「大荒之中」框架"}
+{"book": "book15", "entry": "SHJ-15-1-028", "src": "PER:SHJ-15-1-003#1", "dst": "MTN:SHJ-15-1-028#1", "type": "related_to", "layer": "textual", "quote": "帝堯、帝嚳、帝舜葬于岳山", "note": "三帝葬於岳山（帝系葬地層累）"}
+{"book": "book15", "entry": "SHJ-15-1-028", "src": "MTN:SHJ-15-1-028#1", "dst": "CRE:SHJ-15-1-003#3", "type": "produces", "layer": "textual", "quote": "爰有文貝、離俞、𩿨久、鷹、賈、延維、視肉、熊、羆、虎、豹"}
+{"book": "book15", "entry": "SHJ-15-1-028", "src": "MTN:SHJ-15-1-028#1", "dst": "CRE:SHJ-15-1-003#2", "type": "produces", "layer": "textual", "quote": "爰有文貝、離俞、𩿨久、鷹、賈、延維、視肉、熊、羆、虎、豹", "note": "延維＝003委維之異名，同節點"}
+{"book": "book15", "entry": "SHJ-15-1-028", "src": "MTN:SHJ-15-1-028#1", "dst": "CRE:SHJ-15-1-003#1", "type": "produces", "layer": "textual", "quote": "爰有文貝、離俞、𩿨久、鷹、賈、延維、視肉、熊、羆、虎、豹"}
+{"book": "book15", "entry": "SHJ-15-1-028", "src": "MTN:SHJ-15-1-028#1", "dst": "CRE:SHJ-15-1-028#1", "type": "produces", "layer": "textual", "quote": "朱木，赤枝，青華，玄實"}
+{"book": "book15", "entry": "SHJ-15-1-029", "src": "MTN:SHJ-15-1-029#1", "dst": "LND:SHJ-15-1-006#1", "type": "located_in", "layer": "textual", "quote": "大荒之中，有山名曰天臺", "note": "異文「天臺高山」同指一山，同節點"}
+{"book": "book15", "entry": "SHJ-15-1-029", "src": "WAT:SHJ-01-3-009#2", "dst": "MTN:SHJ-15-1-029#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰天臺，海水南入焉", "note": "海水（南海）南入天臺之山——與016融天同構"}
+{"book": "book15", "entry": "SHJ-15-1-030", "src": "POL:SHJ-15-1-030#1", "dst": "WAT:SHJ-01-3-009#2", "type": "adjacent_to", "layer": "textual", "quote": "東南海之外，甘水之間，有羲和之國", "bearing": "東南"}
+{"book": "book15", "entry": "SHJ-15-1-030", "src": "POL:SHJ-15-1-030#1", "dst": "WAT:SHJ-15-1-007#1", "type": "adjacent_to", "layer": "textual", "quote": "東南海之外，甘水之間，有羲和之國", "note": "在甘水之間（非單一方位字）"}
+{"book": "book15", "entry": "SHJ-15-1-030", "src": "PER:SHJ-15-1-030#1", "dst": "WAT:SHJ-15-1-030#1", "type": "related_to", "layer": "textual", "quote": "有女子名曰羲和，方浴日於甘淵", "note": "羲和浴日於甘淵"}
+{"book": "book15", "entry": "SHJ-15-1-030", "src": "PER:SHJ-15-1-030#1", "dst": "PER:SHJ-15-1-003#1", "type": "related_to", "layer": "textual", "quote": "羲和者，帝俊之妻，生十日", "note": "羲和為帝俊之妻（十日無KG節點，生十日邊從略）"}
+{"book": "book15", "entry": "SHJ-15-1-031", "src": "MTN:SHJ-15-1-031#1", "dst": "CRE:SHJ-15-1-031#2", "type": "produces", "layer": "textual", "quote": "其上有甘柤，枝幹皆赤，黃葉，白華，黑實。東又有甘華"}
+{"book": "book15", "entry": "SHJ-15-1-031", "src": "MTN:SHJ-15-1-031#1", "dst": "CRE:SHJ-15-1-031#1", "type": "produces", "layer": "textual", "quote": "有青馬，有赤馬，名曰三騅"}
+{"book": "book15", "entry": "SHJ-15-1-031", "src": "MTN:SHJ-15-1-031#1", "dst": "CRE:SHJ-15-1-003#1", "type": "produces", "layer": "textual", "quote": "有視肉"}
+{"book": "book15", "entry": "SHJ-15-1-033", "src": "MTN:SHJ-15-1-033#1", "dst": "CRE:SHJ-15-1-031#1", "type": "produces", "layer": "textual", "quote": "爰有遺玉、青馬、三騅、視肉、甘華，百穀所在"}
+{"book": "book15", "entry": "SHJ-15-1-033", "src": "MTN:SHJ-15-1-033#1", "dst": "CRE:SHJ-15-1-003#1", "type": "produces", "layer": "textual", "quote": "爰有遺玉、青馬、三騅、視肉、甘華，百穀所在"}
+{"book": "book15", "entry": "SHJ-15-1-033", "src": "MTN:SHJ-15-1-033#1", "dst": "CRE:SHJ-15-1-031#2", "type": "produces", "layer": "textual", "quote": "爰有遺玉、青馬、三騅、視肉、甘華，百穀所在", "note": "甘華屬甘柤·甘華節點"}
+{"book": "book15", "entry": "SHJ-15-1-030", "src": "WAT:SHJ-15-1-030#1", "dst": "WAT:SHJ-14-1-001#3", "type": "motif_of", "layer": "interpretive", "quote": "有女子名曰羲和，方浴日於甘淵", "note": "羲和浴日／十日母題與卷14大荒東甘淵跨卷互證（同名神話層水域）"}
