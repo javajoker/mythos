@@ -202,7 +202,7 @@ def render(cfg):
         ly = wrap_text(px, ly, 500, 10, "#666", note) + 4
     S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">{len(stations)} 站 → 現實候選（審核中）</text>')
     ty = ly + 38
-    if len(stations) > 26:
+    if len(stations) > 26 or ty + len(stations) * 21.2 > 850:
         # two-column compact list; entries trimmed to the column width
         half = (len(stations) + 1) // 2
         for idx, s in enumerate(stations):
@@ -238,6 +238,13 @@ def render(cfg):
             bad.append(("past-panel", t[:20], int(end)))
         if y > 888:
             bad.append(("bottom-off", t[:20], int(y)))
+    # position-only audit for <text> elements with child markup (e.g. tspan rows)
+    for m in re.finditer(r'<text x="([\d.-]+)" y="([\d.-]+)" font-size="([\d.]+)"[^>]*><', svg):
+        x, y = float(m.group(1)), float(m.group(2))
+        if x < 0:
+            bad.append(("left-off", "tspan-row", int(x)))
+        if y > 888:
+            bad.append(("bottom-off", "tspan-row", int(y)))
     for m in re.finditer(r'<circle cx="([\d.-]+)" cy="([\d.-]+)" r="[\d.]+" fill="#(?:e74c3c|c0392b)" stroke="#fff"', svg):
         cx, cy = float(m.group(1)), float(m.group(2))
         if not (MX <= cx <= MX + MW and MY <= cy <= MY + MH):
