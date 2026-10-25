@@ -32,7 +32,7 @@ description: Runbook for producing the complete adaptation package of one Shanha
 5. **逐句文檔**：每條目按固定四段式——原文引錄／逐句全要素展開（引用 KG 節點 ID）／時代映射表（4000–1000 BCE 坐標、考古-古生物分類、存續狀態）／4D 交叉驗證（地理相對屬性、人文、風物、歷史演化、跨卷證據）→ `<slug>-sentence-analysis.md`。文末附機器核對用節點引用索引。
    - **時代映射表零遺漏（發起人 2026-10-23 裁定）**：該條目 KG 節點（含 §2 展開的全部山水人文風物——MTN/WAT/LND/CRE/PLA/MIN/PER/OBJ/AST/CLIM/POL）**全部**在時代映射表有行，機器核對（按 `first_entry` 前綴）不得有缺。基準動物/否定記錄/兆象/祀物亦入行——無現實映射者標「依附本站／framework」；判讀文字一律取自已核准的 mappings.jsonl 或 §2 展開文本，**不得生成碎片文本**。
    - **配套零遺漏**：`<slug>-mappings.jsonl` 必須覆蓋本子經全部 MTN/WAT/LND 節點（含否定水文記錄與泛稱水體——否定/泛稱以 `period_state:"n/a"` 或低置信記）；CRE/PLA/MIN/PER 以文檔表格承載，不入 mappings.jsonl。
-6. **SVG 地圖**：由 `atlas-renderer` 依 `<slug>-station-grid.jsonl`＋`<slug>-mappings.jsonl` 渲染 → `<slug>-map.svg`。
+6. **SVG 地圖**：由 `atlas-renderer` 依 `specs/<slug>-map.json`（spec 為唯一事實源；底圖/假想特徵/注記全入 spec）＋ `<slug>-station-grid.jsonl` 渲染 → `<slug>-map.svg`；算術網格與擬合走廊大幅背離時用 spec 的 `fit_coords`（僅繪圖覆蓋）並記 variant。概要圖（每經一張＋五臧總體一張）由 `render_overview_map.py` 依 `specs/<name>-overview.json` 生成。
 7. **findings**：覆蓋缺口（缺節點）、同名異水/異地衝突、原文內部差異記入 `projects/shanhaijing/findings/`。
 
 ## 命名與位置
