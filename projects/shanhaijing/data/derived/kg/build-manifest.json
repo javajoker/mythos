@@ -108,5 +108,41 @@
   },
   "reading_statuses": [
     "unreviewed"
-  ]
+  ],
+  "kg_v1": {
+    "assembled_by": "kg_v1_assemble.py",
+    "packages": [
+      "beici1",
+      "beici2",
+      "beici3",
+      "dongci1",
+      "dongci2",
+      "dongci3",
+      "dongci4",
+      "nanci1",
+      "nanci2",
+      "nanci3",
+      "xici1",
+      "xici2",
+      "xici3",
+      "xici4",
+      "zhongci1",
+      "zhongci10",
+      "zhongci11",
+      "zhongci12",
+      "zhongci2",
+      "zhongci3",
+      "zhongci4",
+      "zhongci5",
+      "zhongci6",
+      "zhongci7",
+      "zhongci8",
+      "zhongci9"
+    ],
+    "mapping_attributes": 2037,
+    "geo_nodes_covered": 980,
+    "geo_nodes_total": 980,
+    "attributes_total": 2065,
+    "review_status": "proposed_pending_review"
+  }
 }
