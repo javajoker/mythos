@@ -4,6 +4,16 @@
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次九經》時代假想推理 × 現代映射參照圖</text>
 <text x="60" y="56" font-size="12" fill="#666">adapt-zhongci9-1 ｜ 拓撲錨：岷山（大江源區＋全鏈溪流南注江）｜ 與西山首經v2東端傳播鄰接｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
+<polyline points="218.8,-75.6 295.3,-69.3 371.8,-50.7 442.4,-44.4 512.9,-38.2 571.8,-44.4 592.4,-59.4" fill="none" stroke="#2f7fbf" stroke-width="2.0"/>
+<text x="442" y="192" font-size="10" fill="#2f7fbf">漢江（漢水——借名標記）</text>
+<polyline points="565.9,5.3 612.9,-13.3 654.1,-32.0 695.3,-50.7 730.6,-59.4 760.0,-66.8" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="442" y="192" font-size="10" fill="#2f7fbf">漢江（漢水——借名標記）</text>
+<polyline points="636.5,42.7 665.9,5.3 698.2,-38.2 724.7,-56.9" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="442" y="192" font-size="10" fill="#2f7fbf">漢江（漢水——借名標記）</text>
+<polyline points="371.8,142.2 384.7,133.5 442.4,167.1 501.2,185.8 583.5,192.0 648.2,185.8 685.9,261.7 712.9,341.3 736.5,403.6 783.5,440.9 812.9,447.1" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="442" y="192" font-size="10" fill="#2f7fbf">漢江（漢水——借名標記）</text>
+<polyline points="-234.1,142.2 -175.3,192.0 -128.2,279.1 -92.9,403.6 -57.6,565.3 -34.1,901.3 1.2,839.1 60.0,938.7 124.7,976.0 195.3,888.9 242.4,664.9 277.6,652.4 324.7,615.1 360.0,577.8 424.7,528.0 489.4,540.4 548.2,478.2 607.1,453.3 636.5,428.4 689.4,472.0 748.2,478.2 812.9,447.1 854.1,503.1 912.9,552.9 971.8,453.3 1030.6,391.1 1077.6,259.2" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="578" y="497" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>
 <ellipse cx="166" cy="242" rx="47" ry="62" fill="#c9b18a" opacity="0.4"/>
 <text x="142" y="245" font-size="10" fill="#7a6540">岷山</text>
 <ellipse cx="231" cy="466" rx="18" ry="25" fill="#c9b18a" opacity="0.4"/>
