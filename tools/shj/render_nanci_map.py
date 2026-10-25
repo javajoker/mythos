@@ -238,13 +238,21 @@ def render(cfg):
             bad.append(("past-panel", t[:20], int(end)))
         if y > 888:
             bad.append(("bottom-off", t[:20], int(y)))
-    # position-only audit for <text> elements with child markup (e.g. tspan rows)
-    for m in re.finditer(r'<text x="([\d.-]+)" y="([\d.-]+)" font-size="([\d.]+)"[^>]*><', svg):
-        x, y = float(m.group(1)), float(m.group(2))
+    # tspan rows: strip child markup, audit position AND width
+    for m in re.finditer(r'<text x="([\d.-]+)" y="([\d.-]+)" font-size="([\d.]+)"[^>]*>(.*?)</text>', svg):
+        x, y, size, inner = float(m.group(1)), float(m.group(2)), float(m.group(3)), m.group(4)
+        if '<' not in inner:
+            continue
+        t = re.sub(r'<[^>]+>', '', inner)
+        end = x + _tw(t, size)
         if x < 0:
-            bad.append(("left-off", "tspan-row", int(x)))
+            bad.append(("left-off", t[:20], int(x)))
+        elif y >= 65 and x < PANEL_X - 12 and end > MX + MW - 8:
+            bad.append(("past-frame", t[:20], int(end)))
+        elif x >= PANEL_X - 12 and end > 1630:
+            bad.append(("past-panel", t[:20], int(end)))
         if y > 888:
-            bad.append(("bottom-off", "tspan-row", int(y)))
+            bad.append(("bottom-off", t[:20], int(y)))
     for m in re.finditer(r'<circle cx="([\d.-]+)" cy="([\d.-]+)" r="[\d.]+" fill="#(?:e74c3c|c0392b)" stroke="#fff"', svg):
         cx, cy = float(m.group(1)), float(m.group(2))
         if not (MX <= cx <= MX + MW and MY <= cy <= MY + MH):
