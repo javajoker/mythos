@@ -74,7 +74,7 @@ def render(cfg):
         S.append(f'<text x="{X(cx)-24:.0f}" y="{Y(cy)+3:.0f}" font-size="10" fill="#7a6540">{name}</text>')
 
     # ---- chains ----
-    for ch in cfg["chains"]:
+    for ch in cfg.get("chains", []):
         slug = re.sub(r"-station-grid\.jsonl$", "", ch["grid"])
         stations = []
         for line in open(os.path.join(HERE, ch["grid"])):
@@ -90,9 +90,13 @@ def render(cfg):
                 for s in stations:
                     if s["order"] in fit:
                         s["lon"], s["lat"] = fit[s["order"]]
-        color = ch.get("color", "#c0392b")
+        context = bool(ch.get("context"))
+        color = "#b7a98c" if context else ch.get("color", "#c0392b")
+        width = 1.4 if context else 2.6
         route = [(s["lon"], s["lat"]) for s in stations]
-        S.append(f'<polyline points="{pts(route)}" fill="none" stroke="{color}" stroke-width="2.6" opacity="0.85"/>')
+        S.append(f'<polyline points="{pts(route)}" fill="none" stroke="{color}" stroke-width="{width}" opacity="0.85"/>')
+        if context:
+            continue
         for i, s in enumerate(stations):
             x, y = X(s["lon"]), Y(s["lat"])
             r = 5 if i in (0, len(stations) - 1) else 3
@@ -110,6 +114,24 @@ def render(cfg):
 
     for text_, lo, la, color in cfg.get("annotations", []):
         S.append(f'<text x="{X(lo):.0f}" y="{Y(la):.0f}" font-size="9" fill="{color}">{text_}</text>')
+
+    # ---- point markers (framework-book patch maps: regions/cultures/pending anchors) ----
+    for p in cfg.get("points", []):
+        x, y = X(p["lon"]), Y(p["lat"])
+        color = p.get("color", "#8e44ad")
+        status = p.get("status", "mapped")
+        if status == "pending_anchor":
+            S.append(f'<rect x="{x-5:.0f}" y="{y-5:.0f}" width="10" height="10" fill="none" stroke="{color}" stroke-width="2" stroke-dasharray="3 2"/>')
+        elif status == "region":
+            S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="7" fill="{color}" opacity="0.45" stroke="{color}" stroke-width="1.5"/>')
+        else:
+            S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="5.5" fill="{color}" stroke="#fff" stroke-width="1.2"/>')
+        if p.get("label_pos"):
+            lx, ly = X(p["label_pos"][0]), Y(p["label_pos"][1])
+        else:
+            lx, ly = x + 8, y + 4
+        S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="10" font-weight="bold" fill="{color}">{p["name"]}</text>')
+
     for name, lo, la in cfg.get("modern", []):
         x, y = X(lo), Y(la)
         S.append(f'<rect x="{x-3:.0f}" y="{y-3:.0f}" width="6" height="6" fill="#34495e"/>')
@@ -168,31 +190,53 @@ def render(cfg):
     ly += 8
     for note in cfg.get("panel_notes", []):
         ly = wrap_text(px, ly, 500, 10, "#666", note) + 4
-    S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>')
-    ty = ly + 38
-    nch = len(cfg["chains"])
-    if ty + nch * 21.2 > 850:
-        half = (nch + 1) // 2
-        for idx, ch in enumerate(cfg["chains"]):
-            col, row = (0, idx) if idx < half else (1, idx - half)
-            n = sum(1 for l in open(os.path.join(HERE, ch["grid"])) if '"station"' in l)
-            label = f'{ch["label"]}（{n}）→ {ch.get("short","")}'
-            while label and _tw(label, 9.5) > 262:
-                label = label[:-2] + '…'
-            S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{ch.get("color","#c0392b")}">{label}</text>')
-    else:
-        for ch in cfg["chains"]:
-            n = sum(1 for l in open(os.path.join(HERE, ch["grid"])) if '"station"' in l)
-            label = f'{ch["label"]}（{n} 站）→ {ch.get("short","")}'
-            trimmed = False
-            while label and _tw(label, 11) > 530:
-                label = label[:-2] + '…'
-                trimmed = True
-            if trimmed:
-                S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}">{label}</text>')
-            else:
-                S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}"><tspan font-weight="bold">{ch["label"]}</tspan>（{n} 站）→ {ch.get("short","")}</text>')
-            ty += 21.2
+    chains = [c for c in cfg.get("chains", []) if not c.get("context")]
+    points = cfg.get("points", [])
+    if points:
+        S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>')
+        ty = ly + 38
+        rows_p = points
+        if ty + len(rows_p) * 21.2 > 850:
+            half = (len(rows_p) + 1) // 2
+            for idx, p in enumerate(rows_p):
+                col, row = (0, idx) if idx < half else (1, idx - half)
+                label = f'{p["name"]} → {p.get("note","")}'
+                while label and _tw(label, 9.5) > 262:
+                    label = label[:-2] + '…'
+                S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{p.get("color","#8e44ad")}">{label}</text>')
+        else:
+            for p in rows_p:
+                label = f'{p["name"]} → {p.get("note","")}'
+                while label and _tw(label, 11) > 530:
+                    label = label[:-2] + '…'
+                S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{p.get("color","#8e44ad")}">{label}</text>')
+                ty += 21.2
+    if chains:
+        S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>')
+        ty = ly + 38
+        nch = len(chains)
+        if ty + nch * 21.2 > 850:
+            half = (nch + 1) // 2
+            for idx, ch in enumerate(chains):
+                col, row = (0, idx) if idx < half else (1, idx - half)
+                n = sum(1 for l in open(os.path.join(HERE, ch["grid"])) if '"station"' in l)
+                label = f'{ch["label"]}（{n}）→ {ch.get("short","")}'
+                while label and _tw(label, 9.5) > 262:
+                    label = label[:-2] + '…'
+                S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{ch.get("color","#c0392b")}">{label}</text>')
+        else:
+            for ch in chains:
+                n = sum(1 for l in open(os.path.join(HERE, ch["grid"])) if '"station"' in l)
+                label = f'{ch["label"]}（{n} 站）→ {ch.get("short","")}'
+                trimmed = False
+                while label and _tw(label, 11) > 530:
+                    label = label[:-2] + '…'
+                    trimmed = True
+                if trimmed:
+                    S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}">{label}</text>')
+                else:
+                    S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}"><tspan font-weight="bold">{ch["label"]}</tspan>（{n} 站）→ {ch.get("short","")}</text>')
+                ty += 21.2
 
     fy = wrap_text(60, Y(LAT0) + 46, MW - 60, 11, "#666", cfg["footer1"])
     fy = wrap_text(60, fy + 6, MW - 60, 11, "#666", cfg["footer2"])
