@@ -33,7 +33,8 @@ def render(cfg):
     def in_win(lo, la): return LON0 < lo < LON1 and LAT0 < la < LAT1
 
     S = []
-    def wrap_text(x, y, max_w, size, color, text, lh=None):
+    def wrap_text(x, y, max_w, size, color, text, lh=None, tgt=None):
+        tgt = S if tgt is None else tgt
         lh = lh or size * 1.45
         line, lines = "", []
         for ch in text:
@@ -44,7 +45,7 @@ def render(cfg):
         if line:
             lines.append(line)
         for i, ln in enumerate(lines):
-            S.append(f'<text x="{x}" y="{y + i * lh:.0f}" font-size="{size}" fill="{color}">{ln}</text>')
+            tgt.append(f'<text x="{x}" y="{y + i * lh:.0f}" font-size="{size}" fill="{color}">{ln}</text>')
         return y + len(lines) * lh
 
     S.append('<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">')
@@ -172,28 +173,28 @@ def render(cfg):
     S.append(f'<text x="{bx + 4*pxs + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>')
 
     # ---- panel ----
+    P = []
     px = PANEL_X
-    S.append(f'<rect x="{px-12}" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>')
-    S.append(f'<text x="{px}" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>')
+    P.append(f'<text x="{px}" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>')
     ly = 118
     for color, style, label in cfg["legend"]:
         if style == "solid":
-            S.append(f'<line x1="{px}" y1="{ly}" x2="{px+26}" y2="{ly}" stroke="{color}" stroke-width="2.5"/>')
+            P.append(f'<line x1="{px}" y1="{ly}" x2="{px+26}" y2="{ly}" stroke="{color}" stroke-width="2.5"/>')
         elif style == "dash":
-            S.append(f'<line x1="{px}" y1="{ly}" x2="{px+26}" y2="{ly}" stroke="{color}" stroke-width="2" stroke-dasharray="6 4"/>')
+            P.append(f'<line x1="{px}" y1="{ly}" x2="{px+26}" y2="{ly}" stroke="{color}" stroke-width="2" stroke-dasharray="6 4"/>')
         elif style == "sq":
-            S.append(f'<rect x="{px+8}" y="{ly-5}" width="8" height="8" fill="{color}"/>')
+            P.append(f'<rect x="{px+8}" y="{ly-5}" width="8" height="8" fill="{color}"/>')
         elif style == "star":
-            S.append(f'<circle cx="{px+13}" cy="{ly}" r="8" fill="{color}"/>')
-        S.append(f'<text x="{px+34}" y="{ly+4}" font-size="11" fill="#444">{label}</text>')
+            P.append(f'<circle cx="{px+13}" cy="{ly}" r="8" fill="{color}"/>')
+        P.append(f'<text x="{px+34}" y="{ly+4}" font-size="11" fill="#444">{label}</text>')
         ly += 22
     ly += 8
     for note in cfg.get("panel_notes", []):
-        ly = wrap_text(px, ly, 500, 10, "#666", note) + 4
+        ly = wrap_text(px, ly, 500, 10, "#666", note, tgt=P) + 4
     chains = [c for c in cfg.get("chains", []) if not c.get("context")]
     points = cfg.get("points", [])
     if points:
-        S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>')
+        P.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>')
         ty = ly + 38
         rows_p = points
         if ty + len(rows_p) * 21.2 > 850:
@@ -203,16 +204,17 @@ def render(cfg):
                 label = f'{p["name"]} → {p.get("note","")}'
                 while label and _tw(label, 9.5) > 262:
                     label = label[:-2] + '…'
-                S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{p.get("color","#8e44ad")}">{label}</text>')
+                P.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{p.get("color","#8e44ad")}">{label}</text>')
+            ty = ty + half * 17.5
         else:
             for p in rows_p:
                 label = f'{p["name"]} → {p.get("note","")}'
                 while label and _tw(label, 11) > 530:
                     label = label[:-2] + '…'
-                S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{p.get("color","#8e44ad")}">{label}</text>')
+                P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{p.get("color","#8e44ad")}">{label}</text>')
                 ty += 21.2
     if chains:
-        S.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>')
+        P.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>')
         ty = ly + 38
         nch = len(chains)
         if ty + nch * 21.2 > 850:
@@ -223,7 +225,8 @@ def render(cfg):
                 label = f'{ch["label"]}（{n}）→ {ch.get("short","")}'
                 while label and _tw(label, 9.5) > 262:
                     label = label[:-2] + '…'
-                S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{ch.get("color","#c0392b")}">{label}</text>')
+                P.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{ch.get("color","#c0392b")}">{label}</text>')
+            ty = ty + half * 17.5
         else:
             for ch in chains:
                 n = sum(1 for l in open(os.path.join(HERE, ch["grid"])) if '"station"' in l)
@@ -233,11 +236,16 @@ def render(cfg):
                     label = label[:-2] + '…'
                     trimmed = True
                 if trimmed:
-                    S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}">{label}</text>')
+                    P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}">{label}</text>')
                 else:
-                    S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}"><tspan font-weight="bold">{ch["label"]}</tspan>（{n} 站）→ {ch.get("short","")}</text>')
+                    P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}"><tspan font-weight="bold">{ch["label"]}</tspan>（{n} 站）→ {ch.get("short","")}</text>')
                 ty += 21.2
 
+
+    panel_bottom = ty if (points or chains) else ly
+    ph = min(820, max(800, int(panel_bottom - 70 + 18)))
+    S.append(f'<rect x="{px-12}" y="70" width="560" height="{ph}" fill="#fffdf5" stroke="#cbb"/>')
+    S.extend(P)
     fy = wrap_text(60, Y(LAT0) + 46, MW - 60, 11, "#666", cfg["footer1"])
     fy = wrap_text(60, fy + 6, MW - 60, 11, "#666", cfg["footer2"])
 
