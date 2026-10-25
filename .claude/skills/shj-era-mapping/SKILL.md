@@ -20,7 +20,7 @@ description: Runbook for the Shanhaijing v4 iterative pipeline from working text
 4. `civilization-scout`／`palaeo-geographer`：完成有年代、來源和對立候選的時代世界卡。
 5. `semantic-matcher`：在水體映射確認後，遮蔽生成競爭候選與語義擬合屬性；以未確認錨點初始化搜索，迭代校準後再形成地標共識。
 5a. `classic-adapter`／`atlas-renderer`：按 `classic-adaptation` runbook 為單個子經產出適配包——里程網格、逐實體映射、適配報告、逐句文檔與 SVG 地圖（工作範例：`xici3-*`）。
-6. `entity-extractor`：組成 KG v1——基礎圖（nodes/mentions/edges/attributes）＋26 子經適配包的時代映射屬性，由 `tools/shj/kg_v1_assemble.py` 組裝（era.candidate 主/對立候選＋era.state；冪等重建；MTN/WAT/LND 覆蓋必須 100%）；運行 `kg_validate.py`（屬性衝突僅報告，留待 LLM 裁決階段）。
+6. `entity-extractor`：組成 KG v1——基礎圖（nodes/mentions/edges/attributes）＋26 子經適配包的時代映射屬性（地理實體，由 `tools/shj/kg_v1_assemble.py` 組裝：era.candidate 主/對立候選＋era.state；MTN/WAT/LND 覆蓋必須 100%）＋人文風物識別讀法（由 `tools/shj/kg_readings_build.py` 從逐句文檔 §2/§3 結構化，配 `readings-supplement.jsonl` 補充；非 DOC 節點零遺漏）；運行 `kg_validate.py`（屬性衝突僅報告，留待 LLM 裁決階段）。屬性與關係為開放式註冊制：新謂詞/關係類型先在本體註冊再入庫。
 7. `shj-lead`：重新生成五臧山經草稿，保留未決項。
 8. `entity-extractor`／`semantic-matcher`：補充 associative 和 deductive 屬性。
 9. `shj-lead`：重新生成卷六至十八草稿並更新圖譜。

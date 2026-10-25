@@ -21,5 +21,6 @@ description: Extract entities, mentions, name semantics and textual relations fr
 8. 合併與拆分不是字符串操作：程序發現候選衝突，LLM 依證據裁決並保留首發 ID 和全部提及。
 9. 執行結構、引用、類型和覆蓋檢查，不能用自動補齊隱藏漏抽。
 10. 全部水體必須有映射記錄。共享同一水體的山體及其關係 ID 保留為跨山語義錨點；不得由程序拆分、合併或指定現實位置。
+11. **開放式屬性與關係**：所有識別、映射與讀法由 LLM 產生，KG 只負責結構化保存。新的屬性謂詞或關係類型按需擴展——先在本體（`data/kg-ontology.json` 或語料指定位置）註冊，再入庫；不得硬編碼封閉詞表，也不得為了遷就現有詞表而丟棄 LLM 讀法。人文風物資源（CRE/PLA/MIN/PER/OBJ/POL/CLIM/AST）的 LLM 識別讀法由 `kg_readings_build.py` 從逐句文檔 §2/§3 結構化入庫（`era.candidate` role=identification＋`era.state`），無結構可恢復者由 LLM 撰寫 `readings-supplement.jsonl` 補充——目標是全類型節點零遺漏。
 
 輸出為 `nodes.jsonl`、`mentions.jsonl`、`edges.jsonl`、`attributes.jsonl`。語料專用的地理復用規則只從其規格與 ontology 讀取，不複製到公共 skill。

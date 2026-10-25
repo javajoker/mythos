@@ -1,0 +1,22 @@
+{"package": "beici1", "node": "CRE:SHJ-03-1-002#5", "role": "identification", "name": "形態基準（牛）", "fit": "牛＝形態/比較基準（觀察描述用——基準動物）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "CRE:SHJ-03-1-003#7", "role": "identification", "name": "聲音基準（鵲）", "fit": "鵲＝聲音基準（「其音如鵲」——觀察描述用）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "MIN:SHJ-03-1-004#1", "role": "identification", "name": "礦物產出（青雄黃）", "fit": "青雄黃＝礦物產出記錄（雄黃類——硫化砷礦物泛稱）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "CRE:SHJ-03-1-006#4", "role": "identification", "name": "形態基準（鳥）", "fit": "鳥＝形態基準（泛稱——觀察描述用）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "CRE:SHJ-03-1-006#5", "role": "identification", "name": "形態基準（羊）", "fit": "羊＝形態基準（觀察描述用——基準動物）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "CRE:SHJ-03-1-008#5", "role": "identification", "name": "獆犬（犬類泛稱）", "fit": "獆犬＝犬類泛稱/獒犬方向（守衛犬泛化——確指待考）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "OBJ:SHJ-03-1-016#1", "role": "identification", "name": "祀制用品（鼓柝）", "fit": "鼓柝＝祠制用品（擊鼓/柝——儀式用具記錄，見 §2）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "CRE:SHJ-03-1-020#6", "role": "identification", "name": "形態基準（犬）", "fit": "犬＝形態基準（觀察描述用——基準動物）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "OBJ:SHJ-03-1-026#1", "role": "identification", "name": "祀制用品（珪）", "fit": "珪＝祠制玉器（吉玉用一珪——北方祀制，見 §2）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "OBJ:SHJ-03-1-026#2", "role": "identification", "name": "祀制用品（糈）", "fit": "糈＝祠用穀米（「瘞而為不糈」——不用糈＝北方祀制差異記錄）。", "review_status": "proposed_pending_review"}
+{"package": "beici1", "node": "PER:SHJ-03-1-026#2", "role": "identification", "name": "生食不火人群（生業錨）", "fit": "其山北人皆生食不火之物＝亞寒帶狩獵採集生業錨（與北三-048「此皆不火食」互證；古愛斯基摩/西伯利亞同域候選）。", "review_status": "proposed_pending_review"}
+{"package": "beici2", "node": "MIN:SHJ-03-2-005#1", "role": "identification", "name": "礦物產出（白玉）", "fit": "白沙山鮪水伏流多白玉＝礦物產出記錄（白玉——透閃石玉泛稱）。", "review_status": "proposed_pending_review"}
+{"package": "beici2", "node": "MIN:SHJ-03-2-007#1", "role": "identification", "name": "礦物產出（美玉）", "fit": "美玉＝礦物產出記錄（基準礦物）。", "review_status": "proposed_pending_review"}
+{"package": "beici2", "node": "PER:SHJ-03-2-012#1", "role": "identification", "name": "形態基準（夸父——神話人物）", "fit": "「其狀如夸父」＝神話人物作形態參照（夸父逐日母題跨卷存在——形態基準用法）。", "review_status": "proposed_pending_review"}
+{"package": "beici2", "node": "OBJ:SHJ-03-2-017#3", "role": "identification", "name": "祀制用品（糈）", "fit": "糈＝祠用穀米記錄（見 §2——祀制對照）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "MIN:SHJ-05-13-001#1", "role": "identification", "name": "礦物產出統計（銅）", "fit": "總結段「出銅之山四百六十七」——經濟地理統計記錄（銅礦產出山統計）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "MIN:SHJ-05-13-001#2", "role": "identification", "name": "礦物產出統計（鐵）", "fit": "總結段「出鐵之山三千六百九十」——經濟地理統計記錄（鐵礦產出山統計；數字層累/夸飾記 variant）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "OBJ:SHJ-05-13-001#1", "role": "identification", "name": "兵器記錄（戈矛）", "fit": "總結段「戈矛之所發也」——兵器/征伐記錄（framework 級）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "OBJ:SHJ-05-13-001#2", "role": "identification", "name": "兵器記錄（刀鎩）", "fit": "總結段「刀鎩之所起也」——兵器記錄（framework 級）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "PER:SHJ-05-13-001#1", "role": "identification", "name": "敘述者標記（禹曰）", "fit": "總結段「禹曰」——文獻敘述者標記（禹＝治水敘事層；不作地理實體）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "PLA:SHJ-05-13-001#1", "role": "identification", "name": "農業記錄（樹穀）", "fit": "總結段「此天地之所分壤樹穀也」——農業生業記錄（穀＝穀物泛稱）。", "review_status": "proposed_pending_review"}
+{"package": "zhongci12", "node": "POL:SHJ-05-13-001#1", "role": "identification", "name": "封禪記錄（七十二家）", "fit": "總結段「封于太山，禪于梁父，七十二家」——封禪傳統記錄（借名警示：後世封禪叙事不作反證）。", "review_status": "proposed_pending_review"}

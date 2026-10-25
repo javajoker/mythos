@@ -144,5 +144,17 @@
     "geo_nodes_total": 980,
     "attributes_total": 2065,
     "review_status": "proposed_pending_review"
+  },
+  "kg_v1_readings": {
+    "assembled_by": "kg_readings_build.py",
+    "source": "era/adaptation/*-sentence-analysis.md (LLM-authored §2/§3)",
+    "records": 5056,
+    "identified": 2606,
+    "state_only": 15,
+    "no_reading": 0,
+    "skipped_geo": 1018,
+    "not_in_kg": 12,
+    "attributes_total": 7121,
+    "review_status": "proposed_pending_review"
   }
 }
