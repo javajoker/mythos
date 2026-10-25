@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
+<defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《海內東經》（卷13）時代假想推理 × 現代映射參照圖（補丁地圖）</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-book13-1 ｜ 四層分讀：東北海疆／異文西域（F-0007）／二十六水（戰國—漢編輯層）／海中風物 ｜ 復用山經節點11處 ｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<polyline points="88.6,283.8 160.0,281.6 217.1,263.7 260.0,245.8 317.1,227.8 360.0,192.0 388.6,187.5 368.6,225.6 360.0,259.2 388.6,290.6 431.4,304.0 474.3,306.2 531.4,290.6 574.3,259.2 608.6,243.5" fill="none" stroke="#c89a2e" stroke-width="2.2"/>
+<text x="460" y="315" font-size="10" fill="#c89a2e">黃河（現代參照）</text>
+<polyline points="160.0,398.1 188.6,420.5 225.7,433.9 254.3,425.0 288.6,407.0 345.7,398.1 388.6,402.6 445.7,418.2 502.9,413.8 551.4,393.6 602.9,380.2 645.7,369.0 674.3,375.7" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="331" y="418" font-size="10" fill="#2f7fbf">長江（現代參照）</text>
+<ellipse cx="617" cy="230" rx="46" ry="20" fill="#cfe0e8" opacity="0.35"/>
+<text x="593" y="233" font-size="10" fill="#7a6540">渤海</text>
+<ellipse cx="703" cy="293" rx="71" ry="40" fill="#cfe0e8" opacity="0.35"/>
+<text x="679" y="296" font-size="10" fill="#7a6540">黃海</text>
+<ellipse cx="431" cy="606" rx="71" ry="27" fill="#cfe0e8" opacity="0.35"/>
+<text x="407" y="609" font-size="10" fill="#7a6540">南海</text>
+<polyline points="144.0,396.7 168.6,380.2 180.0,372.5 197.4,372.5 232.3,372.5 278.6,372.5 336.6,372.5 361.4,356.0 390.3,356.0 425.1,356.0 442.6,356.0 458.9,345.0 476.3,345.0 492.6,345.0 515.7,345.0 535.4,345.0" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<polyline points="375.7,412.4 379.7,415.1 390.0,422.3 398.0,422.3 402.0,425.2 418.9,425.2 428.6,431.7 442.9,441.5 459.1,452.5 471.7,461.2 479.7,466.8 502.6,466.8 512.0,473.3 512.0,480.5 538.0,480.5" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<polyline points="336.9,315.4 372.9,315.4 396.9,315.4 399.1,315.4 402.3,315.4 408.6,315.4 415.4,315.4 423.7,315.4 429.7,315.4 433.4,315.4 433.4,313.2 433.4,310.7 437.1,310.7 441.7,310.7 442.6,311.4 445.1,311.4 448.0,311.4 452.3,311.4 456.0,311.4" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<text x="189" y="96" font-size="9" fill="#8e44ad">二十六水目錄層＝戰國—漢編輯層（長城/郡縣名內證）</text>
+<text x="71" y="268" font-size="9" fill="#7f8c8d">異文西域屬F-0007體系→方向性置西緣</text>
+<text x="183" y="396" font-size="9" fill="#c0392b">岷三江＝中九江水三出同構互證</text>
+<circle cx="169" cy="380" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="177" y="384" font-size="10" font-weight="bold" fill="#c0392b">岷山·汶山（復用中九）</text>
+<circle cx="430" cy="315" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="443" y="323" font-size="10" font-weight="bold" fill="#c0392b">少室山（復用中七）</text>
+<circle cx="429" cy="432" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="437" y="436" font-size="10" font-weight="bold" fill="#c0392b">洞庭（復用中十二）</text>
+<circle cx="349" cy="326" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="357" y="330" font-size="10" font-weight="bold" fill="#c0392b">洛水（復用中四雒水）</text>
+<circle cx="400" cy="248" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="408" y="252" font-size="10" font-weight="bold" fill="#c0392b">汾水（復用北二）</text>
+<circle cx="409" cy="275" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="354" y="292" font-size="10" font-weight="bold" fill="#c0392b">沁水（復用北三）</text>
+<circle cx="449" cy="275" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="469" y="265" font-size="10" font-weight="bold" fill="#c0392b">漳水（復用北三）</text>
+<rect x="175" y="297" width="10" height="10" fill="none" stroke="#c89a2e" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="188" y="306" font-size="10" font-weight="bold" fill="#c89a2e">渭水·鳥鼠同穴山</text>
+<circle cx="251" cy="291" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="259" y="295" font-size="10" font-weight="bold" fill="#2f7fbf">涇水·長城北山</text>
+<circle cx="240" cy="347" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="248" y="351" font-size="10" font-weight="bold" fill="#2f7fbf">漢水·鮒魚山</text>
+<circle cx="206" cy="358" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="214" y="362" font-size="10" font-weight="bold" fill="#2f7fbf">白水</text>
+<circle cx="440" cy="362" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="448" y="366" font-size="10" font-weight="bold" fill="#2f7fbf">淮水·餘山</text>
+<circle cx="414" cy="333" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="390" y="339" font-size="10" font-weight="bold" fill="#2f7fbf">汝水·天息山</text>
+<circle cx="383" cy="508" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="391" y="512" font-size="10" font-weight="bold" fill="#2f7fbf">湘水</text>
+<circle cx="346" cy="470" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="354" y="474" font-size="10" font-weight="bold" fill="#2f7fbf">沅水</text>
+<circle cx="503" cy="499" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="511" y="503" font-size="10" font-weight="bold" fill="#2f7fbf">贛水</text>
+<circle cx="523" cy="429" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="531" y="433" font-size="10" font-weight="bold" fill="#2f7fbf">彭澤（彭蠡）</text>
+<rect x="558" y="420" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="534" y="413" font-size="10" font-weight="bold" fill="#8e44ad">廬江·三天子都</text>
+<circle cx="594" cy="432" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="602" y="436" font-size="10" font-weight="bold" fill="#2f7fbf">淅江</text>
+<circle cx="411" cy="302" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="419" y="306" font-size="10" font-weight="bold" fill="#2f7fbf">濟水·共山</text>
+<circle cx="457" cy="230" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="465" y="234" font-size="10" font-weight="bold" fill="#2f7fbf">虖沲水</text>
+<circle cx="706" cy="158" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="714" y="162" font-size="10" font-weight="bold" fill="#2f7fbf">潦水</text>
+<circle cx="546" cy="306" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="554" y="310" font-size="10" font-weight="bold" fill="#2f7fbf">西泗水</text>
+<circle cx="331" cy="568" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="339" y="572" font-size="10" font-weight="bold" fill="#2f7fbf">鬱水</text>
+<circle cx="423" cy="524" r="7" fill="#2f7fbf" opacity="0.45" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="431" y="528" font-size="10" font-weight="bold" fill="#2f7fbf">潢水</text>
+<circle cx="611" cy="179" r="7" fill="#c89a2e" opacity="0.45" stroke="#c89a2e" stroke-width="1.5"/>
+<text x="619" y="183" font-size="10" font-weight="bold" fill="#c89a2e">鉅燕</text>
+<rect x="809" y="205" width="10" height="10" fill="none" stroke="#c89a2e" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="829" y="200" font-size="10" font-weight="bold" fill="#c89a2e">朝鮮（借名）</text>
+<rect x="746" y="187" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="759" y="196" font-size="10" font-weight="bold" fill="#8e44ad">列陽</text>
+<rect x="786" y="167" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="799" y="176" font-size="10" font-weight="bold" fill="#8e44ad">蓋國</text>
+<circle cx="934" cy="335" r="7" fill="#c89a2e" opacity="0.45" stroke="#c89a2e" stroke-width="1.5"/>
+<text x="942" y="339" font-size="10" font-weight="bold" fill="#c89a2e">倭（借名）</text>
+<rect x="498" y="292" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="511" y="301" font-size="10" font-weight="bold" fill="#8e44ad">雷澤</text>
+<circle cx="617" cy="311" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="625" y="315" font-size="10" font-weight="bold" fill="#8e44ad">都州（郁州）</text>
+<rect x="624" y="283" width="10" height="10" fill="none" stroke="#c89a2e" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="637" y="292" font-size="10" font-weight="bold" fill="#c89a2e">琅邪臺（借名）</text>
+<rect x="669" y="230" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="683" y="224" font-size="10" font-weight="bold" fill="#8e44ad">列姑射</text>
+<rect x="644" y="241" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="623" y="254" font-size="10" font-weight="bold" fill="#8e44ad">姑射國</text>
+<rect x="666" y="245" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="689" y="257" font-size="10" font-weight="bold" fill="#8e44ad">蓬萊山（神話層）</text>
+<rect x="644" y="319" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="657" y="328" font-size="10" font-weight="bold" fill="#8e44ad">韓鴈</text>
+<rect x="701" y="330" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="714" y="339" font-size="10" font-weight="bold" fill="#8e44ad">始鳩</text>
+<rect x="729" y="303" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="742" y="312" font-size="10" font-weight="bold" fill="#8e44ad">明組邑</text>
+<rect x="758" y="263" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="771" y="272" font-size="10" font-weight="bold" fill="#8e44ad">大人之市</text>
+<rect x="644" y="413" width="10" height="10" fill="none" stroke="#c89a2e" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="657" y="422" font-size="10" font-weight="bold" fill="#c89a2e">會稽山（借名）</text>
+<rect x="392" y="519" width="10" height="10" fill="none" stroke="#c89a2e" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="371" y="535" font-size="10" font-weight="bold" fill="#c89a2e">蒼梧（借名）</text>
+<rect x="69" y="131" width="10" height="10" fill="none" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="82" y="140" font-size="10" font-weight="bold" fill="#7f8c8d">西胡白玉山（異文）</text>
+<rect x="66" y="167" width="10" height="10" fill="none" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="79" y="176" font-size="10" font-weight="bold" fill="#7f8c8d">大夏·月支（異文）</text>
+<rect x="69" y="203" width="10" height="10" fill="none" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="82" y="212" font-size="10" font-weight="bold" fill="#7f8c8d">昆侖虛（異文復用西三）</text>
+<rect x="72" y="236" width="10" height="10" fill="none" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="85" y="245" font-size="10" font-weight="bold" fill="#7f8c8d">埻端·璽㬇（異文）</text>
+<rect x="311" y="317" width="6" height="6" fill="#34495e"/>
+<text x="319" y="316" font-size="9" fill="#34495e">西安</text>
+<rect x="411" y="310" width="6" height="6" fill="#34495e"/>
+<text x="419" y="309" font-size="9" fill="#34495e">洛陽</text>
+<rect x="414" y="236" width="6" height="6" fill="#34495e"/>
+<text x="422" y="235" font-size="9" fill="#34495e">太原</text>
+<rect x="546" y="263" width="6" height="6" fill="#34495e"/>
+<text x="554" y="262" font-size="9" fill="#34495e">濟南</text>
+<rect x="594" y="366" width="6" height="6" fill="#34495e"/>
+<text x="602" y="365" font-size="9" fill="#34495e">南京</text>
+<rect x="426" y="453" width="6" height="6" fill="#34495e"/>
+<text x="434" y="452" font-size="9" fill="#34495e">長沙</text>
+<rect x="437" y="568" width="6" height="6" fill="#34495e"/>
+<text x="445" y="567" font-size="9" fill="#34495e">廣州</text>
+<rect x="794" y="211" width="6" height="6" fill="#34495e"/>
+<text x="802" y="210" font-size="9" fill="#34495e">平壤</text>
+<rect x="174" y="400" width="6" height="6" fill="#34495e"/>
+<text x="182" y="399" font-size="9" fill="#34495e">成都</text>
+</g>
+<line x1="203" y1="640" x2="203" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="195" y="656" font-size="9" fill="#999">105°E</text>
+<line x1="346" y1="640" x2="346" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="338" y="656" font-size="9" fill="#999">110°E</text>
+<line x1="489" y1="640" x2="489" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="481" y="656" font-size="9" fill="#999">115°E</text>
+<line x1="631" y1="640" x2="631" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="623" y="656" font-size="9" fill="#999">120°E</text>
+<line x1="774" y1="640" x2="774" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="766" y="656" font-size="9" fill="#999">125°E</text>
+<line x1="917" y1="640" x2="917" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="909" y="656" font-size="9" fill="#999">130°E</text>
+<line x1="60" y1="528" x2="1060" y2="528" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="531" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="416" x2="1060" y2="416" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="419" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="304" x2="1060" y2="304" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="307" font-size="9" fill="#999">35°N</text>
+<line x1="60" y1="192" x2="1060" y2="192" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="195" font-size="9" fill="#999">40°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="363" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="181" y1="558" x2="181" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="173" y="578" font-size="9" fill="#333">200</text>
+<line x1="242" y1="558" x2="242" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="234" y="578" font-size="9" fill="#333">400</text>
+<line x1="303" y1="558" x2="303" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="295" y="578" font-size="9" fill="#333">600</text>
+<line x1="363" y1="558" x2="363" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="355" y="578" font-size="9" fill="#333">800</text>
+<text x="371" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<circle cx="1103" cy="118" r="8" fill="#c0392b"/>
+<text x="1124" y="122" font-size="11" fill="#444">山經節點復用（11處）</text>
+<circle cx="1103" cy="140" r="8" fill="#2f7fbf"/>
+<text x="1124" y="144" font-size="11" fill="#444">後世層水系（戰國—漢編輯層定向）</text>
+<circle cx="1103" cy="162" r="8" fill="#c89a2e"/>
+<text x="1124" y="166" font-size="11" fill="#444">借名警示（燕/朝鮮/倭/會稽/蒼梧/琅邪）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#8e44ad" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1124" y="188" font-size="11" fill="#444">待定錨（海中島嶼/國族）</text>
+<line x1="1090" y1="206" x2="1116" y2="206" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1124" y="210" font-size="11" fill="#444">異文西域層（F-0007方向性西緣）</text>
+<line x1="1090" y1="228" x2="1116" y2="228" stroke="#b7a98c" stroke-width="2.5"/>
+<text x="1124" y="232" font-size="11" fill="#444">山經鏈淺灰參照（中七/中九/中十二）</text>
+<text x="1090" y="258" font-size="10" fill="#666">本卷定性：011–036水系目錄＝戰國—漢編輯層（「長城」/象郡/郡縣名內證；044題記＝6 BCE劉歆校治）——</text>
+<text x="1090" y="272" font-size="10" fill="#666">後世層定向高置信，不反證窗口期；與山經同構者方可上溯。</text>
+<text x="1090" y="291" font-size="10" fill="#666">conflict雙假說6組：姑射vs東二；鳥鼠同穴vs西四；會稽vs南二；鮒魚山vs西一嶓塚；渭水vs西四；昆侖虛F-</text>
+<text x="1090" y="306" font-size="10" fill="#666">0007。</text>
+<text x="1090" y="324" font-size="10" fill="#666">借名警示：燕/朝鮮/倭/吳/楚越/閩/會稽/蒼梧/舜葬/顓頊葬/琅邪/大夏/月支——後世名不作窗口期因果證據。</text>
+<text x="1090" y="342" font-size="10" fill="#666">異文西域層（埻端/璽㬇/大夏/豎沙/居繇/月支/白玉山）為方向性記錄置圖西緣，不編坐標。</text>
+<text x="1090" y="377.0" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
+<text x="1090" y="399" font-size="9.5" fill="#c0392b">岷山·汶山（復用中九） → 岷山主脊·江水三出</text>
+<text x="1090" y="416" font-size="9.5" fill="#c0392b">少室山（復用中七） → 嵩山少室·潁水源</text>
+<text x="1090" y="434" font-size="9.5" fill="#c0392b">洞庭（復用中十二） → 洞庭湖區·湘沅所合</text>
+<text x="1090" y="452" font-size="9.5" fill="#c0392b">洛水（復用中四雒水） → 草鏈嶺洛河源區</text>
+<text x="1090" y="469" font-size="9.5" fill="#c0392b">汾水（復用北二） → 管涔出·西南注河</text>
+<text x="1090" y="486" font-size="9.5" fill="#c0392b">沁水（復用北三） → 謁戾出·注河</text>
+<text x="1090" y="504" font-size="9.5" fill="#c0392b">漳水（復用北三） → 發鳩出·後世改注渤海</text>
+<text x="1090" y="522" font-size="9.5" fill="#c89a2e">渭水·鳥鼠同穴山 → 渭源（cf.西四同名conflict)</text>
+<text x="1090" y="539" font-size="9.5" fill="#2f7fbf">涇水·長城北山 → 六盤山方向·「長城」後世層內證</text>
+<text x="1090" y="556" font-size="9.5" fill="#2f7fbf">漢水·鮒魚山 → 嶓冢山方向·顓頊葬借名</text>
+<text x="1090" y="574" font-size="9.5" fill="#2f7fbf">白水 → 白水江—嘉陵江上源·入江州</text>
+<text x="1090" y="592" font-size="9.5" fill="#2f7fbf">淮水·餘山 → 桐柏山方向·入海淮浦北</text>
+<text x="1090" y="609" font-size="9.5" fill="#2f7fbf">汝水·天息山 → 伏牛山東段·入淮</text>
+<text x="1090" y="626" font-size="9.5" fill="#2f7fbf">湘水 → 海洋山方向·舜葬借名</text>
+<text x="1090" y="644" font-size="9.5" fill="#2f7fbf">沅水 → 黔東—沅陵方向·合洞庭</text>
+<text x="1090" y="662" font-size="9.5" fill="#2f7fbf">贛水 → 贛南—彭蠡方向</text>
+<text x="1090" y="679" font-size="9.5" fill="#2f7fbf">彭澤（彭蠡） → 鄱陽湖方向·廬江贛水所入</text>
+<text x="1090" y="696" font-size="9.5" fill="#8e44ad">廬江·三天子都 → 徽州—贛東北山地候選</text>
+<text x="1090" y="714" font-size="9.5" fill="#2f7fbf">淅江 → 新安江—錢塘方向·入海餘暨南</text>
+<text x="1090" y="732" font-size="9.5" fill="#2f7fbf">濟水·共山 → 王屋方向·今湮</text>
+<text x="1090" y="749" font-size="9.5" fill="#2f7fbf">虖沲水 → 滹沱河·出晉陽城南</text>
+<text x="1090" y="766" font-size="9.5" fill="#2f7fbf">潦水 → 遼河方向·入遼陽</text>
+<text x="1090" y="784" font-size="9.5" fill="#2f7fbf">西泗水 → 泗水·入淮陰北·今湮</text>
+<text x="1362" y="399" font-size="9.5" fill="#2f7fbf">鬱水 → 鬱江—西江方向·注南海</text>
+<text x="1362" y="416" font-size="9.5" fill="#2f7fbf">潢水 → 粵北入北江（假設C）</text>
+<text x="1362" y="434" font-size="9.5" fill="#c89a2e">鉅燕 → 遼西—冀北方向（燕借名）</text>
+<text x="1362" y="452" font-size="9.5" fill="#c89a2e">朝鮮（借名） → 半島北·海北山南</text>
+<text x="1362" y="469" font-size="9.5" fill="#8e44ad">列陽 → 遼東方向</text>
+<text x="1362" y="486" font-size="9.5" fill="#8e44ad">蓋國 → 蓋馬大山—鴨綠江方向</text>
+<text x="1362" y="504" font-size="9.5" fill="#c89a2e">倭（借名） → 列島方向·「倭屬燕」後世層</text>
+<text x="1362" y="522" font-size="9.5" fill="#8e44ad">雷澤 → 雷夏澤—菏澤方向·雷神神話層</text>
+<text x="1362" y="539" font-size="9.5" fill="#8e44ad">都州（郁州） → 海州灣郁洲島方向</text>
+<text x="1362" y="556" font-size="9.5" fill="#c89a2e">琅邪臺（借名） → 膠南·「渤海閒」疑誤</text>
+<text x="1362" y="574" font-size="9.5" fill="#8e44ad">列姑射 → 廟島島鏈方向·cf.東二conflict</text>
+<text x="1362" y="592" font-size="9.5" fill="#8e44ad">姑射國 → 海中島嶼聚落·山環之</text>
+<text x="1362" y="609" font-size="9.5" fill="#8e44ad">蓬萊山（神話層） → 海市蜃樓神格化</text>
+<text x="1362" y="626" font-size="9.5" fill="#8e44ad">韓鴈 → 都州南·海中</text>
+<text x="1362" y="644" font-size="9.5" fill="#8e44ad">始鳩 → 轅厲南·海中</text>
+<text x="1362" y="662" font-size="9.5" fill="#8e44ad">明組邑 → 海中島嶼聚落</text>
+<text x="1362" y="679" font-size="9.5" fill="#8e44ad">大人之市 → 海市·大人國母題</text>
+<text x="1362" y="696" font-size="9.5" fill="#c89a2e">會稽山（借名） → 大楚南·cf.南二會稽conflict</text>
+<text x="1362" y="714" font-size="9.5" fill="#c89a2e">蒼梧（借名） → 九疑—湘桂走廊方向·舜葬借名</text>
+<text x="1362" y="732" font-size="9.5" fill="#7f8c8d">西胡白玉山（異文） → →天山—帕米爾方向（圖外西）</text>
+<text x="1362" y="749" font-size="9.5" fill="#7f8c8d">大夏·月支（異文） → →流沙外·中亞方向（圖外西）</text>
+<text x="1362" y="766" font-size="9.5" fill="#7f8c8d">昆侖虛（異文復用西三） → →吉薩方向（圖外極西）·F-00…</text>
+<text x="1362" y="784" font-size="9.5" fill="#7f8c8d">埻端·璽㬇（異文） → 流沙中·昆侖虛東南方向</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：本卷四層——①東北海疆層（鉅燕—蓋國—朝鮮—列陽—倭＝遼西→遼東→半島→列島方向序列）；②異文西域層（流沙中埻端璽㬇／流沙外大夏豎沙居繇月支／西胡白玉山——F-00</text>
+<text x="60" y="702" font-size="11" fill="#666">07中亞方向）；③二十六水目錄層＝戰國—漢編輯層，與山經同構者復用上溯（岷三江＝中九江水三出；少室潁源＝中七；雒水＝中四；汾沁漳＝北二北三；洞庭＝中十二）；④海中風物層（姑</text>
+<text x="60" y="718" font-size="11" fill="#666">射島鏈／大蟹陵魚大鯾／蓬萊大人之市＝海市蜃樓神格化）。</text>
+<text x="60" y="740" font-size="11" fill="#666">借名警示：燕／朝鮮／倭／吳／楚越／閩／會稽／蒼梧／舜葬／顓頊葬／琅邪／大夏／月支／番禺——後世名一律不作4000–1000 BCE因果證據。conflict雙假說6組並存不裁決。全部映射pro</text>
+<text x="60" y="756" font-size="11" fill="#666">posed_pending_review；pending_anchor點為方向性邊緣位置，坐標未編造。</text>
+</svg>

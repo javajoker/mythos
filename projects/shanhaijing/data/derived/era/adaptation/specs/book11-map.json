@@ -1,0 +1,77 @@
+{
+  "out": "book11-map.svg",
+  "title": "《山海經》卷11 海內西經 — 適配補丁地圖（book11）",
+  "subtitle": "海內西南陬以北｜復用西三昆侖水系＋北三鴈門｜借名警示與 conflict 雙假說並存｜全部映射 proposed_pending_review｜2026-10-26",
+  "window": {"lon0": 10, "lon1": 44, "lat0": 16, "lat1": 40},
+  "basemap": [
+    ["blob", 23.5, 33.6, 13, 2.4, "#9fc5e8", "地中海"],
+    ["blob", 21.0, 27.6, 8, 2.6, "#e0c98f", "西部沙漠·沙海"],
+    ["line", [[31.3, 30.0], [31.0, 28.0], [31.2, 26.0], [32.0, 24.0], [32.5, 22.5]], "#7fb3d5", 2.2, "尼羅河（河水）", [32.4, 25.3]],
+    ["line", [[31.3, 30.0], [31.0, 31.0], [30.5, 31.5]], "#7fb3d5", 2.2, "", null],
+    ["line", [[34.8, 28.0], [36.0, 25.5], [38.0, 22.5], [40.5, 19.5]], "#7fb3d5", 2.2, "紅海（赤水）", [36.3, 24.0]]
+  ],
+  "chains": [
+    {"grid": "xici3-station-grid.jsonl", "label": "西三鏈", "short": "參照", "context": true}
+  ],
+  "points": [
+    {"name": "鍾山", "lon": 34.3, "lat": 31.0, "color": "#8e44ad", "note": "復用西三＝南黎凡特丘陵", "status": "mapped", "label_pos": [33.6, 31.8]},
+    {"name": "昆侖之虛", "lon": 31.13, "lat": 29.98, "color": "#8e44ad", "note": "帝之下都＝吉薩（虛/丘競合）", "status": "mapped", "label_pos": [29.6, 30.6]},
+    {"name": "流沙", "lon": 28.1, "lat": 30.05, "color": "#8e44ad", "note": "復用西三＝蓋塔拉東緣沙沼", "status": "mapped", "label_pos": [27.8, 30.65]},
+    {"name": "玉山·西王母", "lon": 25.9, "lat": 29.9, "color": "#8e44ad", "note": "復用西三玉山＝錫瓦綠洲", "status": "mapped", "label_pos": [24.6, 29.35]},
+    {"name": "積石山", "lon": 22.8, "lat": 30.0, "color": "#8e44ad", "note": "復用西三＝卡蘭西奧古河道", "status": "mapped", "label_pos": [22.4, 30.55]},
+    {"name": "章莪·畢方", "lon": 20.8, "lat": 30.0, "color": "#8e44ad", "note": "復用西三＝錫爾特盆地東緣", "status": "mapped", "label_pos": [20.2, 29.4]},
+    {"name": "三危·三青鳥", "lon": 18.0, "lat": 29.9, "color": "#8e44ad", "note": "復用西三＝哈魯傑火山原", "status": "mapped", "label_pos": [17.2, 30.5]},
+    {"name": "赤水", "lon": 35.5, "lat": 27.3, "color": "#2471a3", "note": "復用西三＝紅海", "status": "mapped"},
+    {"name": "河水", "lon": 31.6, "lat": 30.6, "color": "#2471a3", "note": "復用西三＝尼羅河", "status": "mapped", "label_pos": [32.1, 30.75]},
+    {"name": "洋水", "lon": 30.8, "lat": 29.3, "color": "#2471a3", "note": "復用西三＝法雍支汊", "status": "mapped", "label_pos": [30.9, 28.85]},
+    {"name": "黑水", "lon": 27.0, "lat": 29.7, "color": "#2471a3", "note": "復用西三＝西部沙漠古河道", "status": "mapped", "label_pos": [26.6, 30.25]},
+    {"name": "弱水", "lon": 27.5, "lat": 28.7, "color": "#c0392b", "note": "吉薩環淵 vs 西四弱水雙假說", "status": "pending_anchor", "label_pos": [25.3, 28.6]},
+    {"name": "青水", "lon": 28.6, "lat": 28.2, "color": "#c0392b", "note": "昆侖西南隅水；法雍南緣候選", "status": "pending_anchor"},
+    {"name": "渤海", "lon": 33.3, "lat": 32.6, "color": "#c0392b", "note": "同名異實；地中海灣方向候選", "status": "pending_anchor", "label_pos": [32.9, 33.15]},
+    {"name": "南海", "lon": 38.5, "lat": 19.5, "color": "#2e86c1", "note": "赤水所注＝阿拉伯海方向", "status": "region", "label_pos": [37.3, 19.5]},
+    {"name": "厭火國", "lon": 41.5, "lat": 21.0, "color": "#2e86c1", "note": "跨卷引用（海外南）；南海之東", "status": "region", "label_pos": [40.3, 21.0]},
+    {"name": "羽民國", "lon": 40.0, "lat": 23.5, "color": "#2e86c1", "note": "跨卷引用（海外南）；黑水入海之南", "status": "region", "label_pos": [38.7, 23.5]},
+    {"name": "黑水之山", "lon": 24.5, "lat": 25.8, "color": "#c0392b", "note": "流沙西南入海處山體（句讀兩可）", "status": "pending_anchor", "label_pos": [24.2, 25.3]},
+    {"name": "昆侖南淵", "lon": 30.0, "lat": 29.05, "color": "#c0392b", "note": "昆侖南側深淵（三百仞誇飾）", "status": "pending_anchor", "label_pos": [28.0, 29.0]},
+    {"name": "蛇巫之山", "lon": 29.9, "lat": 32.4, "color": "#c0392b", "note": "一曰龜山；操柸人東向立", "status": "pending_anchor", "label_pos": [29.4, 32.95]},
+    {"name": "埻端·璽蓉", "lon": 33.0, "lat": 28.6, "color": "#c0392b", "note": "流沙中國，在昆侖虛東南", "status": "pending_anchor", "label_pos": [32.6, 28.1]},
+    {"name": "大夏", "lon": 43.0, "lat": 37.6, "color": "#2e86c1", "note": "流沙外；巴克特里亞方向（借名）", "status": "region", "label_pos": [41.6, 37.6]},
+    {"name": "月支", "lon": 42.2, "lat": 36.3, "color": "#2e86c1", "note": "流沙外；河西—中亞方向（借名）", "status": "region", "label_pos": [40.9, 36.3]},
+    {"name": "豎沙·居繇", "lon": 40.8, "lat": 35.2, "color": "#c0392b", "note": "流沙外諸國，地望未明", "status": "pending_anchor", "label_pos": [39.0, 35.2]},
+    {"name": "西胡·白玉山", "lon": 43.0, "lat": 33.8, "color": "#2e86c1", "note": "白玉山＝天山方向候選（F-0007）", "status": "region", "label_pos": [41.0, 33.8]},
+    {"name": "蒼梧", "lon": 41.8, "lat": 32.4, "color": "#c0392b", "note": "白玉山西南；舜葬借名雙假說", "status": "pending_anchor", "label_pos": [40.6, 32.4]},
+    {"name": "昆侖山", "lon": 37.5, "lat": 38.3, "color": "#c0392b", "note": "西胡西；與昆侖虛競合雙假說", "status": "pending_anchor", "label_pos": [37.0, 38.85]},
+    {"name": "鴈門之山", "lon": 42.8, "lat": 38.9, "color": "#c0392b", "note": "復用北三（借名）；實位圖外東北", "status": "pending_anchor", "label_pos": [41.1, 38.85]},
+    {"name": "高柳", "lon": 41.6, "lat": 39.3, "color": "#c0392b", "note": "在代北（借名警示）", "status": "pending_anchor", "label_pos": [40.5, 39.3]},
+    {"name": "大澤", "lon": 43.2, "lat": 39.5, "color": "#c0392b", "note": "方百里群鳥所生；在鴈門北", "status": "pending_anchor", "label_pos": [42.1, 39.5]},
+    {"name": "疏屬之山", "lon": 39.8, "lat": 30.6, "color": "#c0392b", "note": "在開題西北；貳負危刑罰山", "status": "pending_anchor", "label_pos": [38.1, 30.6]},
+    {"name": "開題", "lon": 40.6, "lat": 29.6, "color": "#c0392b", "note": "海內南跨卷方位樁", "status": "pending_anchor", "label_pos": [39.6, 29.6]},
+    {"name": "氐國", "lon": 41.8, "lat": 28.6, "color": "#c0392b", "note": "海內南跨卷方位樁", "status": "pending_anchor", "label_pos": [40.8, 28.6]},
+    {"name": "后稷之葬", "lon": 40.2, "lat": 27.6, "color": "#c0392b", "note": "氐國西；山水環之（借名）", "status": "pending_anchor", "label_pos": [38.9, 27.6]},
+    {"name": "流黃酆氏", "lon": 41.2, "lat": 26.6, "color": "#c0392b", "note": "后稷葬西；有塗四方中有山", "status": "pending_anchor", "label_pos": [39.9, 26.6]}
+  ],
+  "annotations": [
+    ["借名·遠域方向示意（非定位）", 36.0, 36.9, "#a04030"],
+    ["昆侖水系核心區（西三互證）", 15.0, 32.3, "#7a6540"]
+  ],
+  "modern": [
+    ["開羅", 31.24, 30.04],
+    ["亞歷山大", 29.92, 31.2],
+    ["錫瓦", 25.52, 29.2]
+  ],
+  "legend": [
+    ["#8e44ad", "star", "復用山經節點（mapped）"],
+    ["#2471a3", "star", "復用山經水體（mapped）"],
+    ["#2e86c1", "star", "區域/族群方向（region）"],
+    ["#c0392b", "sq", "待定錨 pending_anchor（虛框，方向示意）"],
+    ["#b7a98c", "solid", "西三鏈（淺灰參照）"]
+  ],
+  "panel_notes": [
+    "本卷為區域調查非里程鏈：實點＝復用西三/北三山經節點；虛框＝方向性待定錨（非定位）。",
+    "借名警示：大夏、月支、鴈門、高柳、代、蒼梧、后稷、「禹所導」積石——後世地名/傳說不反證本文地理。",
+    "異文（009 東胡/夷人、010 貊國/漢水/燕、011 孟鳥）帶戰國—漢注文色彩，單列待審。",
+    "昆侖虛（帝之下都）與西三昆侖之丘＝吉薩：合併/競爭雙假說並存（F-0007 核心），本層不裁決。"
+  ],
+  "footer1": "資料：reference/shanhaijing/text/11-海內西經.md（24 條目）；復用 geo-reuse-index.jsonl＋xici3 適配鏈；實點＝山經節點實坐標，虛框＝方向性示意（非定位）。",
+  "footer2": "借名警示：大夏/月支/鴈門/高柳/代/蒼梧/后稷/「禹所導」積石/異文東胡·夷人·貊國——後世地名不反證本文；核心衝突：昆侖虛 vs 西三昆侖之丘（競合雙假說）、弱水（吉薩環淵 vs 西四）、渤海（同名異實）。"
+}

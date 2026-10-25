@@ -1,0 +1,69 @@
+{
+ "out": "book12-map.svg",
+ "title": "《山海經》卷12 海內北經 補丁圖：西北陬以東——族群·地標·昆侖虛雙假說",
+ "subtitle": "復用：西三昆侖之丘（吉薩 ANC-01）／北一河原／北三鴈門之山（借名）｜ 待定錨：疏屬山·四帝臺·氾林·從極之淵·陽汙·淩門·大澤·高柳 ｜ 族群帶：匈奴—犬封—鬼國—東胡—貊 ｜ 全部 proposed_pending_review",
+ "window": {"lon0": 20, "lon1": 136, "lat0": 20, "lat1": 58},
+ "scale_bar_frac": 0.35,
+ "basemap": [
+  ["line", [[106.5, 41.0], [109.0, 40.8], [111.0, 40.2], [112.3, 39.3], [112.8, 38.0], [111.8, 36.5], [110.8, 35.3]], "#b9a06b", 1.2, "大河（示意）", [114.7, 36.1]],
+  ["blob", 105, 46.5, 7, 3.5, "#d9c9a3", ""]
+ ],
+ "chains": [
+  {"grid": "xici3-station-grid.jsonl", "label": "西三", "short": "參照", "context": true},
+  {"grid": "beici1-station-grid.jsonl", "label": "北一", "short": "參照", "context": true},
+  {"grid": "beici2-station-grid.jsonl", "label": "北二", "short": "參照", "context": true},
+  {"grid": "beici3-station-grid.jsonl", "label": "北三", "short": "參照", "context": true, "fit": true}
+ ],
+ "points": [
+  {"name": "昆侖虛", "lon": 31.13, "lat": 29.98, "color": "#6c3483", "note": "復用西三昆侖之丘＝吉薩；競爭/合併雙假說", "status": "mapped", "label_pos": [28.5, 28.2]},
+  {"name": "河·河原", "lon": 100.2, "lat": 47.3, "color": "#b7950b", "note": "復用北一『實惟河原』大河源區", "status": "mapped"},
+  {"name": "鴈門山", "lon": 112.9, "lat": 39.4, "color": "#b7950b", "note": "復用北三鴈門之山（借名標記）", "status": "mapped", "label_pos": [110.3, 37.6]},
+  {"name": "匈奴", "lon": 105.0, "lat": 46.0, "color": "#a0653a", "note": "借名警示·蒙古高原草原帶", "status": "region"},
+  {"name": "開題之國", "lon": 99.5, "lat": 44.5, "color": "#a0653a", "note": "西北", "status": "region", "label_pos": [96.8, 43.0]},
+  {"name": "列人之國", "lon": 102.0, "lat": 45.0, "color": "#a0653a", "note": "西北", "status": "region"},
+  {"name": "犬封國", "lon": 110.0, "lat": 45.5, "color": "#a0653a", "note": "犬戎別名層·蒙古高原東緣方向", "status": "region"},
+  {"name": "鬼國", "lon": 106.0, "lat": 50.0, "color": "#a0653a", "note": "一目·貳負尸北·西伯利亞南緣方向", "status": "region"},
+  {"name": "林氏國", "lon": 103.0, "lat": 43.5, "color": "#a0653a", "note": "騶吾·西北集群", "status": "region"},
+  {"name": "代", "lon": 114.5, "lat": 39.6, "color": "#a0653a", "note": "借名警示·晉北—冀西北", "status": "region", "label_pos": [115.6, 38.5]},
+  {"name": "燕", "lon": 116.3, "lat": 40.1, "color": "#a0653a", "note": "借名警示（西周初窗口邊緣）", "status": "region", "label_pos": [118.6, 40.6]},
+  {"name": "東胡", "lon": 118.5, "lat": 43.5, "color": "#a0653a", "note": "借名警示·大澤東·西拉木倫方向", "status": "region"},
+  {"name": "夷人", "lon": 121.0, "lat": 44.0, "color": "#a0653a", "note": "東胡東·松嫩—遼東方向", "status": "region"},
+  {"name": "貊國", "lon": 124.5, "lat": 40.5, "color": "#a0653a", "note": "漢水東北（水名存疑）·近燕", "status": "region"},
+  {"name": "四帝臺", "lon": 33.0, "lat": 31.3, "color": "#8e44ad", "note": "堯嚳丹朱舜臺·借名警示·昆侖東北", "status": "pending_anchor"},
+  {"name": "氾林", "lon": 31.6, "lat": 28.9, "color": "#8e44ad", "note": "昆侖虛南·方三百里", "status": "pending_anchor"},
+  {"name": "疏屬之山", "lon": 97.5, "lat": 45.5, "color": "#c0392b", "note": "梏危之山·開題西北", "status": "pending_anchor", "label_pos": [94.8, 46.7]},
+  {"name": "陽汙之山", "lon": 108.5, "lat": 40.8, "color": "#c0392b", "note": "河出其中·陽紆互證方向（L2）", "status": "pending_anchor", "label_pos": [105.8, 41.8]},
+  {"name": "淩門之山", "lon": 110.6, "lat": 35.8, "color": "#c0392b", "note": "河出其中·龍門峽谷方向（L2）", "status": "pending_anchor"},
+  {"name": "從極之淵", "lon": 108.0, "lat": 39.6, "color": "#c0392b", "note": "冰夷（河伯）所都·大河深淵", "status": "pending_anchor"},
+  {"name": "大澤", "lon": 107.5, "lat": 53.2, "color": "#c0392b", "note": "群鳥所生所解·貝加爾湖方向", "status": "pending_anchor", "label_pos": [109.5, 54.6]},
+  {"name": "高柳", "lon": 113.9, "lat": 40.3, "color": "#c0392b", "note": "借名警示·晉北方向", "status": "pending_anchor", "label_pos": [115.4, 41.4]},
+  {"name": "孟鳥", "lon": 127.5, "lat": 42.0, "color": "#c0392b", "note": "貊國東北", "status": "pending_anchor"}
+ ],
+ "annotations": [
+  ["西北陬以東：族群—地標記錄帶", 60, 44, "#8a6d3b"],
+  ["大澤—東胡—貊：北方—東北亞方向", 110, 55.5, "#8a6d3b"],
+  ["昆侖虛雙假說區", 24, 33.5, "#6c3483"]
+ ],
+ "modern": [
+  ["開羅", 31.2, 30.0],
+  ["烏蘭巴托", 106.9, 47.9],
+  ["伊爾庫茨克", 104.3, 52.3]
+ ],
+ "legend": [
+  ["#6c3483", "star", "復用山經節點（mapped）"],
+  ["#b7950b", "star", "復用北系山名/水系（mapped）"],
+  ["#a0653a", "sq", "族群/區域指向（region）"],
+  ["#c0392b", "dash", "待定錨 pending_anchor（方向性候選）"],
+  ["#b7a98c", "solid", "山經鏈淺灰參照（西三/北一/北二/北三）"]
+ ],
+ "panel_notes": [
+  "時代窗口 4000–1000 BCE；全部映射 proposed_pending_review。",
+  "借名警示：匈奴·犬戎·東胡·貊·燕·代·高柳·四帝臺帝名皆為後世名稱層疊加，不作定位依據。",
+  "昆侖虛＝復用西三昆侖之丘（吉薩 ANC-01），與『海內自有西北聖山』競爭假說並存（與卷11 F-0007 處理一致）。",
+  "大澤＝貝加爾湖方向候選：群鳥所生所解（繁殖＋換羽）＋方百里＋在鴈門北三重相容；名稱不同於北二『北海』（＝貝加爾湖，medium_high），保留獨立待錨。",
+  "漢水（貊國條）與山經漢水體系方位不相容，記 conflict（訛文/錯簡雙假說）。",
+  "清本共 27 條目；傳世本卷首西王母/三青鳥與卷末蓋國/鉅燕/朝鮮/列陽不在本清本之內（版本說明見分析文檔）。"
+ ],
+ "footer1": "本圖為卷12海內北經補丁圖：清本 27 條目地理提及全覆蓋（mappings 49 行：復用 3／待定錨 24／新增實體 22，人文風物實體不上圖）；pending_anchor 僅示方向，坐標為方向性邊緣位，不得反讀為定點。",
+ "footer2": "歷史演變優先：不以今果為因——匈奴/東胡/燕/代/高柳/犬戎等後世名稱僅作名稱層標記；內容層以候鳥物候（鴈—大澤—孟鳥）與北方大河敘事（河原—從極之淵—陽汙/淩門）為骨架。"
+}

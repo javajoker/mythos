@@ -1,0 +1,69 @@
+{
+  "out": "book08-map.svg",
+  "title": "《海外北經》時代假想推理 × 現代映射補丁圖（book08）",
+  "subtitle": "adapt-book08-1 ｜ 框架＝北山經之外以北（蒙古—西伯利亞—極北）｜ 復用 6 · 待定錨 3 · 新實體 27 ｜ 全部映射 proposed_pending_review",
+  "window": {"lon0": 60, "lon1": 160, "lat0": 30, "lat1": 72},
+  "basemap": [
+    ["line", [[101, 36.2], [103.5, 36.5], [106, 38], [107.5, 40], [110.5, 40.3], [111, 38], [110.6, 36], [111, 34.9], [114, 34.8]], "#c89a2e", 2.2, "黃河（現代參照）", [108.5, 41.2]],
+    ["line", [[104.5, 34.6], [107, 34.4], [109.5, 34.5], [110.3, 34.6]], "#c89a2e", 1.4, "渭河", [105, 34.15]],
+    ["blob", 107.5, 53.5, 3.0, 1.2, "#cfe0e8", "貝加爾湖"],
+    ["line", [[90, 51], [95, 52], [100, 51.5]], "#a07d1e", 1.6, "薩彥嶺（示意）", [93, 52.9]],
+    ["line", [[120, 55], [130, 56], [140, 57.5]], "#a07d1e", 1.6, "外興安嶺（示意）", [126.5, 57.9]]
+  ],
+  "chains": [
+    {"grid": "beici1-station-grid.jsonl", "label": "北一", "short": "參照", "context": true},
+    {"grid": "beici2-station-grid.jsonl", "label": "北二", "short": "參照", "context": true}
+  ],
+  "points": [
+    {"name": "無啓之國", "lon": 78, "lat": 55, "color": "#8e44ad", "note": "承長股東·族群鏈首站", "status": "region", "label_pos": [77, 56.3]},
+    {"name": "鍾山（燭陰）", "lon": 90, "lat": 66, "color": "#d35400", "note": "極晝極夜母题·與西三鍾山同名 conflict", "status": "pending_anchor", "label_pos": [88, 64.3]},
+    {"name": "一目國", "lon": 96, "lat": 57, "color": "#8e44ad", "note": "中西伯利亞方向族群", "status": "region", "label_pos": [94.5, 55.5]},
+    {"name": "柔利國", "lon": 102, "lat": 58, "color": "#8e44ad", "note": "一手一足反厀·留利別本", "status": "region", "label_pos": [100.5, 59.5]},
+    {"name": "共工之臺", "lon": 107.5, "lat": 59, "color": "#d35400", "note": "在昆侖之北柔利東·四方臺蛇飾", "status": "pending_anchor", "label_pos": [105, 60.6]},
+    {"name": "深目國", "lon": 113, "lat": 58, "color": "#8e44ad", "note": "深目舉一手·共工臺東", "status": "region", "label_pos": [111.5, 56.5]},
+    {"name": "無腸國", "lon": 119, "lat": 57.5, "color": "#8e44ad", "note": "長而無腸·飲食轉寫", "status": "region", "label_pos": [117.5, 59]},
+    {"name": "聶耳國", "lon": 125, "lat": 56, "color": "#8e44ad", "note": "縣居海水中·掌水域奇物", "status": "region", "label_pos": [123.5, 54.5]},
+    {"name": "夸父國（博父）", "lon": 131, "lat": 55, "color": "#8e44ad", "note": "母题復用中六夸父之山·conflict", "status": "region", "label_pos": [128, 53.4]},
+    {"name": "鄧林（二樹木）", "lon": 134.5, "lat": 55.5, "color": "#d35400", "note": "鄧林=桃林音轉 vs 在地二樹木·雙讀", "status": "pending_anchor", "label_pos": [133, 57]},
+    {"name": "拘癭國", "lon": 138, "lat": 52.5, "color": "#8e44ad", "note": "一手把癭·癭/纓兩讀", "status": "region", "label_pos": [136.5, 51]},
+    {"name": "尋木", "lon": 132, "lat": 49, "color": "#d35400", "note": "千里巨木·生河上西北", "status": "pending_anchor", "label_pos": [130.5, 47.5]},
+    {"name": "跂踵國", "lon": 136.5, "lat": 49.5, "color": "#8e44ad", "note": "兩足皆支·與東三跂踵山同名 conflict", "status": "region", "label_pos": [135, 51]},
+    {"name": "歐絲之野", "lon": 141.5, "lat": 49.8, "color": "#8e44ad", "note": "女子跪樹歐絲·桑蠶母题", "status": "region", "label_pos": [140, 48.2]},
+    {"name": "三桑", "lon": 146, "lat": 50.2, "color": "#8e44ad", "note": "三桑無枝百仞", "status": "region", "label_pos": [144.5, 51.7]},
+    {"name": "范林", "lon": 150, "lat": 50.5, "color": "#8e44ad", "note": "方三百里·洲環其下", "status": "region", "label_pos": [148.5, 48.9]},
+    {"name": "平丘", "lon": 155, "lat": 50, "color": "#8e44ad", "note": "兩山夾谷雙丘·百果所生", "status": "region", "label_pos": [153.5, 51.5]},
+    {"name": "務隅之山", "lon": 128, "lat": 61, "color": "#d35400", "note": "顓頊葬＝借名警示·無方位語", "status": "pending_anchor", "label_pos": [125.5, 62.5]},
+    {"name": "北海（貝加爾）", "lon": 107.5, "lat": 53.3, "color": "#2e7d32", "note": "復用北二北海·四獸動物群", "status": "mapped", "label_pos": [102, 54.8]},
+    {"name": "河·豫西段", "lon": 111.5, "lat": 34.9, "color": "#2e7d32", "note": "夸父飲河·復用中六河系", "status": "mapped", "label_pos": [112.5, 33.9]},
+    {"name": "渭·關中方向", "lon": 108.2, "lat": 34.3, "color": "#d35400", "note": "夸父飲渭·渭河候選待定錨", "status": "pending_anchor", "label_pos": [101.5, 33.2]},
+    {"name": "大澤", "lon": 105, "lat": 44, "color": "#2e7d32", "note": "夸父北飲大澤·復用北三（低置信）", "status": "mapped", "label_pos": [103.5, 42.5]},
+    {"name": "夸父之山·桃林（中六錨）", "lon": 109.56, "lat": 34.62, "color": "#2e7d32", "note": "豫西崤山·夸父/鄧林母题錨", "status": "mapped", "label_pos": [110.5, 35.7]},
+    {"name": "禹所積石之山", "lon": 102.5, "lat": 35.9, "color": "#d35400", "note": "河水所入·河湟方向·與西三積石 conflict", "status": "pending_anchor", "label_pos": [98.5, 36.8]},
+    {"name": "禺彊", "lon": 110, "lat": 69, "color": "#d35400", "note": "北方之神·神話層方位", "status": "pending_anchor", "label_pos": [108.5, 70.4]}
+  ],
+  "annotations": [
+    ["← 昆侖之丘（西三·吉薩）在窗外西南——「在昆侖之北」跨卷參照", 61, 31.3, "#8a6d3b"],
+    ["北冰洋／極圈方向 →", 96, 71.2, "#7a6540"]
+  ],
+  "modern": [
+    ["北京", 116.4, 39.9],
+    ["伊爾庫茨克", 104.3, 52.3],
+    ["雅庫茨克", 129.7, 62.0]
+  ],
+  "legend": [
+    ["#2e7d32", "star", "mapped＝復用山經錨點"],
+    ["#8e44ad", "star", "region＝族群/區域新實體"],
+    ["#d35400", "sq", "pending_anchor＝待定錨（方向性）"],
+    ["#b7a98c", "solid", "北山經北一/北二鏈（淺灰參照）"]
+  ],
+  "panel_notes": [
+    "本卷＝區域調查（非里程鏈）：方位幅＝北山經之外以北。條目內序自西向東（各條「在其東」），與題署「自東北陬至西北陬」相反——已知文本問題，存疑不裁。",
+    "conflict 雙假說並存：鍾山（vs 西三鍾山）／禹所積石之山（vs 西三積石）／鄧林·夸父國（vs 中六夸父之山·桃林母题）／跂踵國（vs 東三跂踵之山）。",
+    "借名警示：務隅之山「帝顓頊葬于陽·九嬪葬于陰」＝帝系敘事後置附會，不反證山位。",
+    "「在昆侖之北」（共工臺條）＝跨卷參照西三昆侖之丘（吉薩，窗外西南），自身不作本地錨。",
+    "族群鏈（無啓→一目→柔利→深目→無腸→聶耳→夸父→拘癭→跂踵）＝極北—西伯利亞風物記錄，點位為方向性示意。",
+    "北三鏈（大澤復用源）網格東延至遠東（138–170°E），未疊加以免與本卷族群鏈視覺混淆；大澤以綠點單獨標出。"
+  ],
+  "footer1": "方法：名稱永不作錨；復用山經節點須同名＋方位＋屬性相容；無法對齊者標 pending_anchor（方向性候選，不編造坐標）；同名異實記 conflict 雙假說並存；神話/敘事層（燭陰·相柳·禹·夸父逐日·禺彊）不反證地理。",
+  "footer2": "本圖為補丁圖（points 模式）：綠＝復用錨（河·大澤·北海·夸父之山/桃林），紫＝族群新實體（方向性區域），橙虛框＝待定錨。點位非里程坐標，僅表方向與相對序。全部映射 proposed_pending_review。"
+}

@@ -1,0 +1,68 @@
+{
+  "out": "book06-map.svg",
+  "title": "《山海經》卷06·海外南經——適配補丁地圖（book06）",
+  "subtitle": "區域調查卷：自西南陬至東南陬 · 復用錨定＋區域指向 · 假說A（南弧）與假說B（F-0007吉薩體系）並存 · 4000–1000 BCE",
+  "window": {"lon0": 12, "lon1": 126, "lat0": -2, "lat1": 38},
+  "basemap": [
+    ["line", [[31.3, 30.2], [32.3, 26.5], [32.9, 22.5], [33.5, 19.0]], "#2e6da4", 1.8, "尼羅河（西三河水）", [34.2, 24.0]],
+    ["line", [[38.0, 27.0], [36.8, 23.0], [38.5, 18.0], [41.5, 13.5]], "#b03a5b", 2.0, "紅海（西三赤水）", [39.5, 20.5]],
+    ["line", [[102.5, 25.3], [103.8, 23.0], [105.3, 21.4], [106.6, 20.4]], "#b03a5b", 1.8, "紅河（南二赤水方向）", [100.0, 25.9]],
+    ["blob", 114.0, 9.0, 7.0, 7.0, "#a9cce3", "南海"],
+    ["blob", 89.0, 15.5, 6.0, 6.0, "#a9cce3", "孟加拉灣"]
+  ],
+  "chains": [
+    {"grid": "nanci2-station-grid.jsonl", "label": "南二", "short": "滇東—東海島鏈", "context": true},
+    {"grid": "nanci3-station-grid.jsonl", "label": "南三", "short": "嶺南—南海方向", "context": true},
+    {"grid": "xici3-station-grid.jsonl", "label": "西三", "short": "吉薩—錫爾特", "context": true}
+  ],
+  "annotations": [
+    ["假說A：南山經以南—中南半島—南洋群島族群弧", 95.0, 27.5, "#8e44ad"],
+    ["假說B（F-0007）：復用西三吉薩體系", 13.5, 33.5, "#0e7c66"],
+    ["南方祝融＝四方神格（神話層，不落地）", 99.0, 0.2, "#7a6540"],
+    ["葬地＝借名警示", 111.5, 3.2, "#b03a5b"]
+  ],
+  "points": [
+    {"name": "畢方鳥", "lon": 20.8, "lat": 30.0, "color": "#0e7c66", "status": "mapped", "note": "復用西三·章莪之山（錫爾特東緣）", "label_pos": [19.0, 31.2]},
+    {"name": "昆侖虛", "lon": 31.13, "lat": 29.98, "color": "#0e7c66", "status": "mapped", "note": "復用西三·昆侖之丘＝吉薩（H1/H2並存）", "label_pos": [28.2, 31.0]},
+    {"name": "青水", "lon": 30.5, "lat": 29.2, "color": "#8e44ad", "status": "pending_anchor", "note": "待定錨·昆侖西南隅水（法雍方向）", "label_pos": [29.3, 27.4]},
+    {"name": "壽華之野", "lon": 32.3, "lat": 30.1, "color": "#8e44ad", "status": "pending_anchor", "note": "待定錨·昆侖虛東（羿殺鑿齒＝神話層）", "label_pos": [33.4, 30.6]},
+    {"name": "赤水·三株樹", "lon": 103.8, "lat": 23.0, "color": "#0e7c66", "status": "mapped", "note": "復用南二赤水＝紅河方向（共名F-0011）", "label_pos": [101.8, 24.3]},
+    {"name": "結匈國", "lon": 97.0, "lat": 18.0, "color": "#8e44ad", "status": "pending_anchor", "note": "西南陬起點族群（方向性）"},
+    {"name": "南山", "lon": 100.5, "lat": 21.5, "color": "#8e44ad", "status": "pending_anchor", "note": "待定錨·結匈東南（與西一南山共名）", "label_pos": [99.6, 22.8]},
+    {"name": "比翼鳥", "lon": 102.0, "lat": 21.0, "color": "#8e44ad", "status": "pending_anchor", "note": "新增風物鳥（南山東）", "label_pos": [102.4, 19.9]},
+    {"name": "羽民國", "lon": 102.5, "lat": 16.5, "color": "#8e44ad", "status": "pending_anchor", "note": "羽飾族群（南島方向同域候選）"},
+    {"name": "二八神", "lon": 104.5, "lat": 15.0, "color": "#8e44ad", "status": "pending_anchor", "note": "司夜神格群（神話層）"},
+    {"name": "讙頭國", "lon": 105.0, "lat": 13.0, "color": "#8e44ad", "status": "pending_anchor", "note": "漁撈族群（讙朱＝借名警示）"},
+    {"name": "厭火國", "lon": 107.5, "lat": 10.0, "color": "#8e44ad", "status": "pending_anchor", "note": "火風物族群（火山帶方向候選）"},
+    {"name": "三苗國", "lon": 105.5, "lat": 23.2, "color": "#8e44ad", "status": "pending_anchor", "note": "赤水東族群（三苗史名借名警示）", "label_pos": [106.7, 23.6]},
+    {"name": "臷國", "lon": 106.5, "lat": 21.5, "color": "#8e44ad", "status": "pending_anchor", "note": "善射族群"},
+    {"name": "貫匈國", "lon": 108.0, "lat": 20.0, "color": "#8e44ad", "status": "pending_anchor", "note": "胸飾穿孔習俗族群"},
+    {"name": "交脛國", "lon": 109.0, "lat": 18.5, "color": "#8e44ad", "status": "pending_anchor", "note": "腿部風俗族群"},
+    {"name": "不死民", "lon": 110.0, "lat": 16.5, "color": "#8e44ad", "status": "pending_anchor", "note": "長壽傳聞族群（黑膚）"},
+    {"name": "反舌國", "lon": 111.0, "lat": 14.5, "color": "#8e44ad", "status": "pending_anchor", "note": "語俗族群（反/岐/支舌異文）"},
+    {"name": "三首國", "lon": 112.5, "lat": 12.5, "color": "#8e44ad", "status": "pending_anchor", "note": "多首賦形族群"},
+    {"name": "周饒國", "lon": 114.0, "lat": 10.0, "color": "#8e44ad", "status": "pending_anchor", "note": "短身冠帶族群（焦僥借名警示）"},
+    {"name": "長臂國", "lon": 116.5, "lat": 8.0, "color": "#8e44ad", "status": "pending_anchor", "note": "島嶼漁民（東南陬端點）"},
+    {"name": "狄山·湯山", "lon": 118.5, "lat": 5.5, "color": "#8e44ad", "status": "pending_anchor", "note": "待定錨·葬地借名警示＋范林三百里", "label_pos": [116.8, 4.0]}
+  ],
+  "modern": [
+    ["昆明", 102.7, 25.03],
+    ["曼谷", 100.5, 13.76],
+    ["新加坡", 103.85, 1.35]
+  ],
+  "legend": [
+    ["#0e7c66", "star", "復用山經節點（mapped）"],
+    ["#8e44ad", "sq", "待定錨／族群指向（pending_anchor·方向性位置）"],
+    ["#b7a98c", "solid", "山經鏈淺灰參照（context）"],
+    ["#2e6da4", "solid", "水系參照：尼羅河（西三河水）"],
+    ["#b03a5b", "solid", "水系參照：紅海（西三赤水）／紅河（南二赤水）"]
+  ],
+  "panel_notes": [
+    "假說A（本位）：南山經以南調查——中南半島—南洋群島族群弧；赤水復用南二＝紅河方向。",
+    "假說B（F-0007）：畢方·青水·昆侖虛·壽華復用西三吉薩體系（海內西互證）——與A並存不裁決。",
+    "帝堯/帝嚳/文王葬地＝借名警示；羿殺鑿齒·二八神·祝融＝神話層。",
+    "全部映射 proposed_pending_review。"
+  ],
+  "footer1": "《海外南經》補丁地圖：自西南陬至東南陬——紫虛方＝待定錨（方向性位置，非精確坐標）；綠點＝復用五臧山經節點；淺灰線＝南二/南三/西三山經鏈參照。",
+  "footer2": "雙假說並圖：東部族群弧（假說A）＋西部吉薩復用簇（假說B·F-0007）；葬地/譜系名＝借名警示。生成 2026-10-25；全部映射 proposed_pending_review。"
+}
