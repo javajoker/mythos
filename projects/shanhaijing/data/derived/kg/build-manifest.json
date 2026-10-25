@@ -185,15 +185,15 @@
       "17",
       "18"
     ],
-    "new_nodes": 739,
+    "new_nodes": 741,
     "by_disposition": {
       "new_entity": 408,
-      "pending_anchor": 331
+      "pending_anchor": 333
     },
-    "reuse_links": 69,
-    "nodes_total": 4334,
+    "reuse_links": 67,
+    "nodes_total": 4336,
     "mentions_total": 4618,
-    "attributes_total": 9234,
+    "attributes_total": 9236,
     "review_status": "proposed_pending_review"
   }
 }

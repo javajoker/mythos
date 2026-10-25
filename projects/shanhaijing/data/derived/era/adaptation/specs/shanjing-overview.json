@@ -3490,10 +3490,10 @@
   },
   {
    "name": "赤水",
-   "lon": 38.8,
-   "lat": 23.5,
-   "status": "region",
-   "color": "#b7950b",
+   "lon": 138.0,
+   "lat": 62.0,
+   "status": "pending_anchor",
+   "color": "#c0392b",
    "note": "赤水（book17）",
    "label": false,
    "size": 3.5
@@ -3510,20 +3510,20 @@
   },
   {
    "name": "鍾山",
-   "lon": 34.28,
-   "lat": 30.96,
-   "status": "mapped",
-   "color": "#2e86c1",
+   "lon": 136.0,
+   "lat": 62.8,
+   "status": "pending_anchor",
+   "color": "#c0392b",
    "note": "鍾山（book17）",
    "label_pos": [
-    42.0,
-    38.5
+    130.0,
+    63.6
    ]
   },
   {
    "name": "章尾山·燭龍",
-   "lon": 35.2,
-   "lat": 32.2,
+   "lon": 140.0,
+   "lat": 65.0,
    "status": "pending_anchor",
    "color": "#c0392b",
    "note": "章尾山·燭龍（book17）",
@@ -3582,8 +3582,8 @@
   },
   {
    "name": "女魃所居",
-   "lon": 35.8,
-   "lat": 30.2,
+   "lon": 109.0,
+   "lat": 44.4,
    "status": "pending_anchor",
    "color": "#c0392b",
    "note": "女魃所居（book17）",

@@ -4231,8 +4231,10 @@
 {"id": "LND:SHJ-17-1-020#1", "type": "LND", "canonical_name": "共工之臺", "first_entry": "SHJ-17-1-020", "names": [{"value": "共工之臺", "entry": "SHJ-17-1-020"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-17-1-020#2", "type": "LND", "canonical_name": "冀州之野", "first_entry": "SHJ-17-1-020", "names": [{"value": "冀州之野", "entry": "SHJ-17-1-020"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-17-1-020#1", "type": "PER", "canonical_name": "女魃（黃帝女魃）", "first_entry": "SHJ-17-1-020", "names": [{"value": "女魃（黃帝女魃）", "entry": "SHJ-17-1-020"}], "status": "pending_anchor"}
+{"id": "WAT:SHJ-17-1-020#1", "type": "WAT", "canonical_name": "赤水（赤水之北）", "first_entry": "SHJ-17-1-020", "names": [{"value": "赤水（赤水之北）", "entry": "SHJ-17-1-020"}, {"value": "赤水（赤水之北）", "entry": "SHJ-17-1-032"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-17-1-020#2", "type": "PER", "canonical_name": "叔均", "first_entry": "SHJ-17-1-020", "names": [{"value": "叔均", "entry": "SHJ-17-1-020"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-17-1-021#1", "type": "POL", "canonical_name": "深目民之國", "first_entry": "SHJ-17-1-021", "names": [{"value": "深目民之國", "entry": "SHJ-17-1-021"}], "status": "pending_anchor"}
+{"id": "MTN:SHJ-17-1-022#1", "type": "MTN", "canonical_name": "鍾山", "first_entry": "SHJ-17-1-022", "names": [{"value": "鍾山", "entry": "SHJ-17-1-022"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-17-1-022#1", "type": "PER", "canonical_name": "赤水女子獻", "first_entry": "SHJ-17-1-022", "names": [{"value": "赤水女子獻", "entry": "SHJ-17-1-022"}], "status": "pending_anchor"}
 {"id": "MTN:SHJ-17-1-023#1", "type": "MTN", "canonical_name": "融父山", "first_entry": "SHJ-17-1-023", "names": [{"value": "融父山", "entry": "SHJ-17-1-023"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-17-1-023#1", "type": "POL", "canonical_name": "犬戎（族）", "first_entry": "SHJ-17-1-023", "names": [{"value": "犬戎（族）", "entry": "SHJ-17-1-023"}, {"value": "犬戎（族）", "entry": "SHJ-17-1-028"}], "status": "pending_anchor"}

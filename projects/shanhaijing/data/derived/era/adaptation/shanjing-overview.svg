@@ -883,17 +883,17 @@
 <circle cx="600" cy="439" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
 <circle cx="644" cy="417" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
 <circle cx="623" cy="391" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
-<circle cx="657" cy="433" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
+<rect x="935" y="148" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <circle cx="635" cy="386" r="3.5" fill="#2e86c1" stroke="#fff" stroke-width="1.2"/>
-<circle cx="644" cy="378" r="5.5" fill="#2e86c1" stroke="#fff" stroke-width="1.2"/>
-<text x="666" y="324" font-size="10" font-weight="bold" fill="#2e86c1">鍾山</text>
-<rect x="641" y="364" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<rect x="929" y="142" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="917" y="141" font-size="10" font-weight="bold" fill="#c0392b">鍾山</text>
+<rect x="941" y="126" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <circle cx="627" cy="372" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
 <rect x="625" y="359" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <rect x="631" y="362" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <rect x="628" y="350" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <circle cx="641" cy="359" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
-<rect x="643" y="379" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<rect x="852" y="276" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <circle cx="844" cy="289" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
 <circle cx="854" cy="278" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>
 <circle cx="843" cy="267" r="7" fill="#b7950b" opacity="0.45" stroke="#b7950b" stroke-width="1.5"/>

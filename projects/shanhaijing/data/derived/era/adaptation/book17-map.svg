@@ -21,16 +21,17 @@
 <text x="310" y="463" font-size="9" fill="#b03a2e">借名警示層：顓頊葬/北齊姜姓/冀州/禹所積石/成都/肅慎/犬戎</text>
 <text x="798" y="105" font-size="9" fill="#e67e22">極北天柱母題＋燭九陰永夜觀念群</text>
 <text x="710" y="424" font-size="9" fill="#2f7fbf">河濟入海（北流故道認知）</text>
+<text x="685" y="95" font-size="9" fill="#c0392b">ADJ-003：章尾山燭龍＝極晝極夜＋極光（60–70°N 觀測帶）</text>
 <circle cx="104" cy="500" r="7" fill="#1e8449" opacity="0.45" stroke="#1e8449" stroke-width="1.5"/>
 <text x="194" y="563" font-size="10" font-weight="bold" fill="#1e8449">黑水</text>
-<circle cx="178" cy="556" r="7" fill="#1e8449" opacity="0.45" stroke="#1e8449" stroke-width="1.5"/>
-<text x="163" y="588" font-size="10" font-weight="bold" fill="#1e8449">赤水</text>
+<rect x="792" y="173" width="10" height="10" fill="none" stroke="#1e8449" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="751" y="186" font-size="10" font-weight="bold" fill="#1e8449">赤水</text>
 <circle cx="130" cy="493" r="5.5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
 <text x="191" y="485" font-size="10" font-weight="bold" fill="#1e8449">昆侖之丘</text>
-<circle cx="149" cy="483" r="5.5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
-<text x="198" y="409" font-size="10" font-weight="bold" fill="#1e8449">鍾山</text>
-<rect x="150" y="466" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
-<text x="216" y="387" font-size="10" font-weight="bold" fill="#c0392b">章尾山·燭龍</text>
+<rect x="780" y="165" width="10" height="10" fill="none" stroke="#1e8449" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="748" y="163" font-size="10" font-weight="bold" fill="#1e8449">鍾山</text>
+<rect x="805" y="144" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="785" y="137" font-size="10" font-weight="bold" fill="#c0392b">章尾山·燭龍</text>
 <circle cx="114" cy="475" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
 <text x="190" y="539" font-size="10" font-weight="bold" fill="#8e44ad">苗民</text>
 <rect x="115" y="459" width="10" height="10" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="3 2"/>
@@ -41,8 +42,8 @@
 <text x="194" y="432" font-size="10" font-weight="bold" fill="#e67e22">若木山群</text>
 <circle cx="142" cy="457" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
 <text x="234" y="498" font-size="10" font-weight="bold" fill="#8e44ad">牛黎國</text>
-<rect x="154" y="486" width="10" height="10" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="3 2"/>
-<text x="204" y="365" font-size="10" font-weight="bold" fill="#e67e22">女魃所居</text>
+<rect x="611" y="346" width="10" height="10" fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="585" y="339" font-size="10" font-weight="bold" fill="#e67e22">女魃所居</text>
 <circle cx="588" cy="363" r="7" fill="#1e8449" opacity="0.45" stroke="#1e8449" stroke-width="1.5"/>
 <text x="596" y="367" font-size="10" font-weight="bold" fill="#1e8449">流沙</text>
 <circle cx="609" cy="347" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
@@ -204,17 +205,17 @@
 <text x="1090" y="412" font-size="10" fill="#666">北一/北二/北三站點網格為示意格（經度壓縮），未疊加；西三鏈為實坐標錨定，淺灰疊加供赤水/黑水/鍾山復</text>
 <text x="1090" y="426" font-size="10" fill="#666">用參照。</text>
 <text x="1090" y="461.0" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
-<text x="1090" y="483" font-size="9.5" fill="#1e8449">黑水 → 復用西三＝西沙漠古河道</text>
-<text x="1090" y="500" font-size="9.5" fill="#1e8449">赤水 → 復用西三＝紅海</text>
+<text x="1090" y="483" font-size="9.5" fill="#1e8449">黑水 → 復用西三＝西沙漠古河道（類名實例之一；北方實…</text>
+<text x="1090" y="500" font-size="9.5" fill="#1e8449">赤水 → ADJ-005 北方類名實例（紅色外觀之水）；紅海復…</text>
 <text x="1090" y="518" font-size="9.5" fill="#1e8449">昆侖之丘 → 復用西三＝吉薩（在昆侖之北參照）</text>
-<text x="1090" y="536" font-size="9.5" fill="#1e8449">鍾山 → 復用西三·赤水女子獻</text>
-<text x="1090" y="553" font-size="9.5" fill="#c0392b">章尾山·燭龍 → 赤水之北·與鍾山燭陰雙假說</text>
-<text x="1090" y="570" font-size="9.5" fill="#8e44ad">苗民 → 黑水之北·有翼釐姓</text>
+<text x="1090" y="536" font-size="9.5" fill="#1e8449">鍾山 → ADJ-003：北方鍾山（赤水女子獻/燭龍同簇）；西…</text>
+<text x="1090" y="553" font-size="9.5" fill="#c0392b">章尾山·燭龍 → ADJ-003：極晝極夜＋極光讀法→上揚斯克…</text>
+<text x="1090" y="570" font-size="9.5" fill="#8e44ad">苗民 → 黑水之北·有翼釐姓（黑水類名實例歸屬待裁 ADJ-0…</text>
 <text x="1090" y="588" font-size="9.5" fill="#e67e22">章山 → 苗民條·中十一章山分立</text>
 <text x="1090" y="606" font-size="9.5" fill="#e67e22">群帝之臺 → 昆侖之北·禹殺相繇</text>
 <text x="1090" y="623" font-size="9.5" fill="#e67e22">若木山群 → 衡石/九陰/灰野/泂野·若木</text>
 <text x="1090" y="640" font-size="9.5" fill="#8e44ad">牛黎國 → 儋耳之子無骨</text>
-<text x="1090" y="658" font-size="9.5" fill="#e67e22">女魃所居 → 赤水之北·旱神</text>
+<text x="1090" y="658" font-size="9.5" fill="#e67e22">女魃所居 → 旱神·係昆山簇（ADJ-003 北方框架）</text>
 <text x="1090" y="676" font-size="9.5" fill="#1e8449">流沙 → 復用北一·蒙古沙帶</text>
 <text x="1090" y="693" font-size="9.5" fill="#8e44ad">中䡢國 → 流沙之東·顓頊子食黍</text>
 <text x="1090" y="710" font-size="9.5" fill="#8e44ad">賴丘國/犬戎國 → 西北海外·犬圖騰</text>

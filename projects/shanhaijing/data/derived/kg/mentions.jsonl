@@ -4503,11 +4503,11 @@
 {"id": "MEN:SHJ-17-1-020#4", "entry": "SHJ-17-1-020", "surface": "共工之臺", "type": "LND", "node": "LND:SHJ-17-1-020#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-020#5", "entry": "SHJ-17-1-020", "surface": "冀州之野", "type": "LND", "node": "LND:SHJ-17-1-020#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-020#6", "entry": "SHJ-17-1-020", "surface": "女魃（黃帝女魃）", "type": "PER", "node": "PER:SHJ-17-1-020#1", "status": "linked", "quote": "", "presence": "present"}
-{"id": "MEN:SHJ-17-1-020#7", "entry": "SHJ-17-1-020", "surface": "赤水（赤水之北）", "type": "WAT", "node": "WAT:SHJ-02-3-008#3", "status": "linked", "quote": "", "presence": "framework_reference"}
-{"id": "MEN:SHJ-17-1-032#1", "entry": "SHJ-17-1-032", "surface": "赤水（赤水之北）", "type": "WAT", "node": "WAT:SHJ-02-3-008#3", "status": "linked", "quote": "", "presence": "framework_reference"}
+{"id": "MEN:SHJ-17-1-020#7", "entry": "SHJ-17-1-020", "surface": "赤水（赤水之北）", "type": "WAT", "node": "WAT:SHJ-17-1-020#1", "status": "linked", "quote": "", "presence": "present"}
+{"id": "MEN:SHJ-17-1-032#1", "entry": "SHJ-17-1-032", "surface": "赤水（赤水之北）", "type": "WAT", "node": "WAT:SHJ-17-1-020#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-020#8", "entry": "SHJ-17-1-020", "surface": "叔均", "type": "PER", "node": "PER:SHJ-17-1-020#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-021#1", "entry": "SHJ-17-1-021", "surface": "深目民之國", "type": "POL", "node": "POL:SHJ-17-1-021#1", "status": "linked", "quote": "", "presence": "present"}
-{"id": "MEN:SHJ-17-1-022#1", "entry": "SHJ-17-1-022", "surface": "鍾山", "type": "MTN", "node": "MTN:SHJ-02-3-004#2", "status": "linked", "quote": "", "presence": "framework_reference"}
+{"id": "MEN:SHJ-17-1-022#1", "entry": "SHJ-17-1-022", "surface": "鍾山", "type": "MTN", "node": "MTN:SHJ-17-1-022#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-022#2", "entry": "SHJ-17-1-022", "surface": "赤水女子獻", "type": "PER", "node": "PER:SHJ-17-1-022#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-023#2", "entry": "SHJ-17-1-023", "surface": "融父山", "type": "MTN", "node": "MTN:SHJ-17-1-023#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-17-1-023#3", "entry": "SHJ-17-1-023", "surface": "犬戎（族）", "type": "POL", "node": "POL:SHJ-17-1-023#1", "status": "linked", "quote": "", "presence": "present"}
