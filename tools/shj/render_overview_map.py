@@ -126,12 +126,13 @@ def render(cfg):
         elif status == "region":
             S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="7" fill="{color}" opacity="0.45" stroke="{color}" stroke-width="1.5"/>')
         else:
-            S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="5.5" fill="{color}" stroke="#fff" stroke-width="1.2"/>')
-        if p.get("label_pos"):
-            lx, ly = X(p["label_pos"][0]), Y(p["label_pos"][1])
-        else:
-            lx, ly = x + 8, y + 4
-        S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="10" font-weight="bold" fill="{color}">{p["name"]}</text>')
+            S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{p.get("size", 5.5)}" fill="{color}" stroke="#fff" stroke-width="1.2"/>')
+        if p.get("label", True):
+            if p.get("label_pos"):
+                lx, ly = X(p["label_pos"][0]), Y(p["label_pos"][1])
+            else:
+                lx, ly = x + 8, y + 4
+            S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="10" font-weight="bold" fill="{color}">{p["name"]}</text>')
 
     for name, lo, la in cfg.get("modern", []):
         x, y = X(lo), Y(la)
@@ -193,7 +194,7 @@ def render(cfg):
         ly = wrap_text(px, ly, 500, 10, "#666", note, tgt=P) + 4
     chains = [c for c in cfg.get("chains", []) if not c.get("context")]
     points = cfg.get("points", [])
-    if points:
+    if points and cfg.get("points_panel", True):
         P.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>')
         ty = ly + 38
         rows_p = points
