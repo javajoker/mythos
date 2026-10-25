@@ -99,27 +99,42 @@ def render(cfg):
                 S.append(f'<text x="{X(cx)-30:.0f}" y="{Y(cy):.0f}" font-size="9" fill="{color}">{label}</text>')
 
     # ---- route chain ----
+    # fit_coords (optional): {"order": [lon, lat]} plotting-only overrides for scrolls whose
+    # raw arithmetic grid diverges grossly from the semantic corridor (documented variant).
+    fit = {int(k): tuple(v) for k, v in cfg.get("fit_coords", {}).items()}
+    for s in stations:
+        if s["order"] in fit:
+            s["lon"], s["lat"] = fit[s["order"]]
     route = [(s["lon"], s["lat"]) for s in stations]
     S.append(f'<polyline points="{pts(route)}" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>')
     _dx_tot = abs(X(route[-1][0]) - X(route[0][0]))
     _dy_tot = abs(Y(route[-1][1]) - Y(route[0][1]))
     vertical_chain = _dy_tot > _dx_tot * 1.5
     anchor_idx = cfg.get("anchor_index", -1)
+    # key_labels (optional): only these station orders get name labels; compact markers elsewhere
+    key_labels = set(cfg.get("key_labels", []))
+    compact = bool(key_labels)
+    ki = 0
     for i, s in enumerate(stations):
         x, y = X(s["lon"]), Y(s["lat"])
         anchor = (i == anchor_idx)
-        r = 8 if anchor else 5
+        is_key = (not compact) or (s["order"] in key_labels)
+        r = 8 if anchor else (5 if is_key else 3)
         S.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r}" fill="{"#e74c3c" if anchor else "#c0392b"}" stroke="#fff" stroke-width="1.5"/>')
-        S.append(f'<text x="{x-4:.0f}" y="{y+4:.0f}" font-size="9" fill="#fff" font-weight="bold">{s["order"]}</text>')
+        if is_key:
+            S.append(f'<text x="{x-4:.0f}" y="{y+4:.0f}" font-size="9" fill="#fff" font-weight="bold">{s["order"]}</text>')
         # 南北走向鏈（縱向相鄰站）改用左右交替標註，避免上下標籤重合
+        if not is_key:
+            continue
         if vertical_chain:
-            dxl = 9 if i % 2 == 0 else -int(_tw(s["name"], 10)) - 8
+            dxl = 9 if ki % 2 == 0 else -int(_tw(s["name"], 10)) - 8
             S.append(f'<text x="{x+dxl:.0f}" y="{y+4:.0f}" font-size="10" fill="#7b241c" font-weight="bold">{s["name"]}</text>')
         else:
-            dy = -11 if i % 2 == 0 else 16
+            dy = -11 if ki % 2 == 0 else 16
             if anchor:
                 dy = -20
             S.append(f'<text x="{x-18:.0f}" y="{y+dy:.0f}" font-size="10" fill="#7b241c" font-weight="bold">{s["name"]}</text>')
+        ki += 1
 
     # ---- annotations ----
     for text_, lo, la, color in cfg.get("annotations", []):
@@ -192,13 +207,15 @@ def render(cfg):
         half = (len(stations) + 1) // 2
         for idx, s in enumerate(stations):
             col, row = (0, idx) if idx < half else (1, idx - half)
-            label = f'{s["order"]:2d} {s["name"]} → {short.get(s["name"], "")}'
+            skey = f"{s['name']}#{s['order']}"
+            label = f'{s["order"]:2d} {s["name"]} → {short.get(skey, short.get(s["name"], ""))}'
             while label and _tw(label, 9.5) > 262:
                 label = label[:-2] + '…'
             S.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="#7b241c">{label}</text>')
     else:
         for s in stations:
-            S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="#7b241c"><tspan font-weight="bold">{s["order"]:2d} {s["name"]}</tspan>　→ {short.get(s["name"], "")}</text>')
+            skey = f"{s['name']}#{s['order']}"
+            S.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="#7b241c"><tspan font-weight="bold">{s["order"]:2d} {s["name"]}</tspan>　→ {short.get(skey, short.get(s["name"], ""))}</text>')
             ty += 21.2
 
     fy = wrap_text(60, Y(LAT0) + 46, MW - 60, 11, "#666", cfg["footer1"])
