@@ -156,5 +156,16 @@
     "not_in_kg": 12,
     "attributes_total": 7121,
     "review_status": "proposed_pending_review"
+  },
+  "kg_v1_assoc_ded": {
+    "assembled_by": "kg_assoc_ded_build.py",
+    "packages": 26,
+    "records": 566,
+    "by_predicate": {
+      "deductive.utility": 153,
+      "associative.symbolism": 413
+    },
+    "attributes_total": 7687,
+    "review_status": "proposed_pending_review"
   }
 }

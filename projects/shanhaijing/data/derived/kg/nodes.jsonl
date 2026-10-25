@@ -3591,3 +3591,5 @@
 {"id": "WAT:SHJ-05-9-008#1", "type": "WAT", "canonical_name": "徐之水", "first_entry": "SHJ-05-9-008", "names": [{"value": "徐之水", "entry": "SHJ-05-9-008"}], "status": "active"}
 {"id": "WAT:SHJ-05-9-009#1", "type": "WAT", "canonical_name": "減水", "first_entry": "SHJ-05-9-009", "names": [{"value": "減水", "entry": "SHJ-05-9-009"}], "status": "active"}
 {"id": "WAT:SHJ-05-9-011#1", "type": "WAT", "canonical_name": "宣余之水", "first_entry": "SHJ-05-9-011", "names": [{"value": "宣余之水", "entry": "SHJ-05-9-011"}], "status": "active"}
+{"id": "CRE:SHJ-01-1-008#7", "type": "CRE", "canonical_name": "九尾狐", "first_entry": "SHJ-01-1-008", "names": [{"value": "九尾狐", "entry": "SHJ-01-1-008"}], "status": "active"}
+{"id": "CRE:SHJ-02-4-019#9", "type": "CRE", "canonical_name": "人面鳥", "first_entry": "SHJ-02-4-019", "names": [{"value": "人面鳥", "entry": "SHJ-02-4-019"}], "status": "active"}
