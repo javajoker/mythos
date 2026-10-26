@@ -112,13 +112,13 @@ const SHJMap = (() => {
         const [x, y] = pts[i];
         const dot = el('circle', {
           cx: x, cy: y, r: 3, fill: '#fff', stroke: c.color, 'stroke-width': 1.6,
-          'pointer-events': 'none', class: 'shj-icon', 'data-base': 3,
+          'pointer-events': 'none', class: 'shj-icon', 'data-base': 3, 'vector-effect': 'non-scaling-stroke',
         });
         g.appendChild(dot);
         if (c.anchor_index === i) { // 錨站：雙圈
           g.appendChild(el('circle', {
             cx: x, cy: y, r: 6, fill: 'none', stroke: c.color, 'stroke-width': 1.4, 'pointer-events': 'none',
-            class: 'shj-icon', 'data-base': 6,
+            class: 'shj-icon', 'data-base': 6, 'vector-effect': 'non-scaling-stroke',
           }));
         }
         // 透明擴大熱區，便於點選
@@ -147,12 +147,12 @@ const SHJMap = (() => {
       if (p.status === 'pending_anchor') { // 紅虛框
         node = el('rect', {
           x: x - r, y: y - r, width: r * 2, height: r * 2,
-          fill: 'rgba(192,57,43,0.12)', stroke: '#c0392b', 'stroke-width': 1.2, 'stroke-dasharray': '3,2',
+          fill: 'rgba(192,57,43,0.12)', stroke: '#c0392b', 'stroke-width': 1.2, 'stroke-dasharray': '3,2', 'vector-effect': 'non-scaling-stroke',
           class: 'shj-icon-rect', 'data-cx': x, 'data-cy': y, 'data-base': r,
         });
       } else {
         node = el('circle', { cx: x, cy: y, r, fill: p.color, opacity: 0.9, stroke: '#fff', 'stroke-width': 0.8,
-          class: 'shj-icon', 'data-base': r });
+          class: 'shj-icon', 'data-base': r, 'vector-effect': 'non-scaling-stroke' });
       }
       node.setAttribute('pointer-events', 'none');
       layers.points.appendChild(node);
@@ -167,7 +167,7 @@ const SHJMap = (() => {
     // ── 現代參照點 ──
     for (const [name, lon, lat] of (base.modern || [])) {
       const [x, y] = project(lon, lat);
-      layers.modern.appendChild(el('circle', { cx: x, cy: y, r: 2.4, fill: '#7f8c8d', stroke: '#fff', 'stroke-width': 0.6, class: 'shj-icon', 'data-base': 2.4 }));
+      layers.modern.appendChild(el('circle', { cx: x, cy: y, r: 2.4, fill: '#7f8c8d', stroke: '#fff', 'stroke-width': 0.6, class: 'shj-icon', 'data-base': 2.4, 'vector-effect': 'non-scaling-stroke' }));
       const t = el('text', { x: x + 4, y: y - 3, 'font-size': 9.5, class: 'shj-label' });
       t.dataset.fs = 9.5;
       t.textContent = name;
@@ -208,6 +208,8 @@ const SHJMap = (() => {
         const b = parseFloat(rc.dataset.base) / scale, cx = parseFloat(rc.dataset.cx), cy = parseFloat(rc.dataset.cy);
         rc.setAttribute('x', cx - b); rc.setAttribute('y', cy - b);
         rc.setAttribute('width', b * 2); rc.setAttribute('height', b * 2);
+        const d = 3 / scale;  // dash 恆定（3,2 世界單位 → 屏幕恆定）
+        rc.setAttribute('stroke-dasharray', `${d},${(2 / 3 * d).toFixed(2)}`);
       }
       updateScaleBar();
       drawGrid();
