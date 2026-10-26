@@ -39,8 +39,26 @@ const Store = (() => {
     return cache[name];
   }
 
+  // ── 覆核隊列（localStorage）──
+  const RKEY = 'shj-review-actions';
+  function reviewQueue() {
+    try { return JSON.parse(localStorage.getItem(RKEY) || '{}'); } catch { return {}; }
+  }
+  function reviewSet(attrId, decision, note) {
+    const q = reviewQueue();
+    q[attrId] = { attribute_id: attrId, decision, note: note || '', date: new Date().toISOString().slice(0, 10) };
+    localStorage.setItem(RKEY, JSON.stringify(q));
+    return q;
+  }
+  function reviewClear() { localStorage.removeItem(RKEY); }
+  function reviewExport() {
+    const q = reviewQueue();
+    return Object.values(q).map(a => JSON.stringify(a)).join('\n') + '\n';
+  }
+
   return {
     load,
+    reviewQueue, reviewSet, reviewClear, reviewExport,
     entries: () => load('entries'),
     graph: () => load('graph'),
     mapChains: () => load('map-chains'),

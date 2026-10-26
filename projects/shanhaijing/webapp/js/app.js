@@ -228,7 +228,7 @@ const App = (() => {
   function chrome(active) {
     const nav = [
       ['index.html', '世界地圖'], ['book.html', '卷目錄'], ['entities.html', '實體庫'],
-      ['adjudications.html', '裁決與發現'], ['about.html', '關於'],
+      ['adjudications.html', '裁決與發現'], ['review.html', '覆核中心'], ['about.html', '關於'],
     ];
     const header = document.querySelector('.site-header');
     if (header) {
@@ -260,11 +260,13 @@ document.addEventListener('DOMContentLoaded', () => {
     : page === 'book' ? 'book.html'
     : page === 'entities' || page === 'entity' ? 'entities.html'
     : page === 'adjudications' ? 'adjudications.html'
+    : page === 'review' ? 'review.html'
     : page === 'about' ? 'about.html' : '');
   if (page === 'index') bootIndex();
   else if (page === 'book') bootBook();
   else if (page === 'entities') bootEntities();
   else if (page === 'entity') bootEntity();
+  else if (page === 'review') bootReview();
   else if (page === 'adjudications') bootAdjudications();
   else if (page === 'about') bootAbout();
 });
@@ -541,6 +543,36 @@ async function bootEntities() {
 }
 
 /* ── 實體詳情 ───────────────────────────── */
+/* ── 覆核中心 ──────────────────────────── */
+async function bootReview() {
+  const main = document.getElementById('review-main');
+  const NAMES = { accepted: '採納', contested: '存疑', rejected: '否決' };
+  function render() {
+    const q = Object.values(Store.reviewQueue());
+    main.innerHTML = `<h1>覆核中心</h1>
+      <p class="muted">在實體頁對候選屬性點「採納／存疑／否決」後在此匯出覆核包（JSONL），
+      放入倉庫後執行 <span class="mono">python3 tools/shj/apply_review.py &lt;文件&gt;</span> 回寫 KG（status: accepted/contested/rejected）。</p>
+      <p>隊列中：<strong>${q.length}</strong> 條</p>
+      ${q.length ? `<table class="attr-table"><thead><tr><th>屬性 ID</th><th>決定</th><th>日期</th></tr></thead><tbody>` +
+        q.map(a => `<tr><td class="mono">${App.esc(a.attribute_id)}</td><td>${NAMES[a.decision] || a.decision}</td><td>${App.esc(a.date)}</td></tr>`).join('') +
+        '</tbody></table>' : '<p class="muted">（空——到實體庫逐條覆核）</p>'}
+      <p style="margin-top:14px">
+        <button id="rev-export" class="rev-btn on" ${q.length ? '' : 'disabled'}>導出覆核包（review-actions.jsonl）</button>
+        <button id="rev-clear" class="rev-btn" ${q.length ? '' : 'disabled'}>清空隊列</button></p>`;
+    const ex = document.getElementById('rev-export');
+    if (ex) ex.onclick = () => {
+      const blob = new Blob([Store.reviewExport()], { type: 'application/jsonl' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'review-actions.jsonl';
+      a.click();
+    };
+    const cl = document.getElementById('rev-clear');
+    if (cl) cl.onclick = () => { Store.reviewClear(); render(); };
+  }
+  render();
+}
+
 async function bootEntity() {
   const main = document.getElementById('entity-main');
   const id = new URLSearchParams(location.search).get('id');
@@ -584,14 +616,17 @@ async function bootEntity() {
 
   // 屬性表
   h += `<h2 class="sub-head">屬性（${n.attrs.length}）</h2>
-    <table class="attr-table"><thead><tr><th>謂詞</th><th>值</th><th>類型</th><th>置信度</th></tr></thead><tbody>` +
+    <table class="attr-table"><thead><tr><th>謂詞</th><th>值</th><th>類型</th><th>置信度</th><th>覆核</th></tr></thead><tbody>` +
     n.attrs.map(a => {
       let v;
       if (typeof a.value === 'string') v = App.esc(a.value);
       else v = Object.entries(a.value).map(([k, val]) =>
         `<div class="kv"><b>${App.esc(App.ATTR_KEY_NAMES[k] || k)}：</b>${App.esc(typeof val === 'string' ? val : JSON.stringify(val, null, 0))}</div>`).join('');
+      const cur = (Store.reviewQueue()[a.id] || {}).decision || '';
+      const btn = d => `<button class="rev-btn${cur === d ? ' on' : ''}" data-attr="${App.esc(a.id)}" data-dec="${d}">${{ accepted: '採納', contested: '存疑', rejected: '否決' }[d]}</button>`;
       return `<tr><td class="mono">${App.esc(a.predicate)}</td><td>${v}</td>
-        <td>${App.esc(a.kind)}</td><td>${App.confBadge(a.confidence)}</td></tr>`;
+        <td>${App.esc(a.kind)}</td><td>${App.confBadge(a.confidence)}</td>
+        <td class="rev-cell">${btn('accepted')}${btn('contested')}${btn('rejected')}</td></tr>`;
     }).join('') + '</tbody></table>';
 
   // 關係邊
@@ -611,6 +646,10 @@ async function bootEntity() {
       }).join('') + '</ul>';
   }
   main.innerHTML = h;
+  main.querySelectorAll('.rev-btn').forEach(b => b.addEventListener('click', () => {
+    Store.reviewSet(b.dataset.attr, b.dataset.dec);
+    main.querySelectorAll(`.rev-btn[data-attr="${b.dataset.attr}"]`).forEach(x => x.classList.toggle('on', x.dataset.dec === b.dataset.dec));
+  }));
 }
 
 /* ── 裁決與發現 ─────────────────────────── */

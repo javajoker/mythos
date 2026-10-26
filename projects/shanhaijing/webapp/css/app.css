@@ -263,3 +263,10 @@ details.adj-item .adj-body th, details.adj-item .adj-body td { border: 1px solid
 .map-scalebar { position: absolute; right: 14px; bottom: 12px; z-index: 5; background: rgba(255,253,245,0.92); border: 1px solid #cbb; border-radius: 4px; padding: 4px 8px; font-size: 11px; color: #444; display: flex; align-items: center; gap: 8px; }
 .map-scalebar .bar { height: 6px; border: 1.5px solid #333; border-top: none; box-sizing: border-box; }
 .map-scalebar span { white-space: nowrap; }
+
+/* 覆核按鈕 */
+.rev-btn { font-size: 11px; padding: 1px 8px; margin-right: 4px; border: 1px solid #cbb; border-radius: 4px; background: #fffdf5; cursor: pointer; color: #666; }
+.rev-btn:hover { border-color: #873600; color: #873600; }
+.rev-btn.on { background: #873600; color: #fffdf5; border-color: #873600; }
+.rev-btn[disabled] { opacity: 0.45; cursor: default; }
+.rev-cell { white-space: nowrap; }
