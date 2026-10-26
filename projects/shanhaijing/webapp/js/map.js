@@ -43,36 +43,18 @@ const SHJMap = (() => {
     const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': '山海經現實映射世界地圖（太平洋中心）' });
     const vp = el('g', { id: 'shj-viewport' });
     svg.appendChild(vp);
+    const gridOv = el('g', { id: 'shj-grid-overlay', 'pointer-events': 'none' });
+    svg.appendChild(gridOv);  // 屏幕坐標疊加層：經緯網格（不隨 vp 變換，數值隨視圖更新）
 
     const layers = {
-      grid: el('g', {}), basemap: el('g', {}), chains: el('g', {}), points: el('g', {}),
+      basemap: el('g', {}), chains: el('g', {}), points: el('g', {}),
       annotations: el('g', {}), modern: el('g', {}),
     };
-    vp.appendChild(layers.grid);
     vp.appendChild(layers.basemap);
     vp.appendChild(layers.annotations);
     vp.appendChild(layers.chains);
     vp.appendChild(layers.points);
     vp.appendChild(layers.modern);
-
-    // ── 經緯網格（世界坐標，隨圖平移；標籤恆定字號）──
-    for (let lon = Math.ceil(win.lon0 / 30) * 30; lon < win.lon1; lon += 30) {
-      const [x1, y1] = project(lon, win.lat0), [x2, y2] = project(lon, win.lat1);
-      layers.grid.appendChild(el('line', { x1, y1, x2, y2, stroke: '#d9d2c0', 'stroke-width': 0.8 }));
-      const trueLon = lon > 180 ? lon - 360 : lon;
-      const t = el('text', { x: x1 + 3, y: y1 - 6, 'font-size': 9, fill: '#999', class: 'shj-label' });
-      t.dataset.fs = 9;
-      t.textContent = `${Math.abs(trueLon)}°${trueLon < 0 ? 'W' : 'E'}`;
-      layers.grid.appendChild(t);
-    }
-    for (let lat = Math.ceil(win.lat0 / 10) * 10; lat < win.lat1; lat += 10) {
-      const [x1, y1] = project(win.lon0, lat), [x2, y2] = project(win.lon1, lat);
-      layers.grid.appendChild(el('line', { x1, y1, x2, y2, stroke: '#d9d2c0', 'stroke-width': 0.8 }));
-      const t = el('text', { x: x1 + 3, y: y1 - 4, 'font-size': 9, fill: '#999', class: 'shj-label' });
-      t.dataset.fs = 9;
-      t.textContent = `${Math.abs(lat)}°${lat < 0 ? 'S' : 'N'}`;
-      layers.grid.appendChild(t);
-    }
 
     // ── 底圖 ──
     for (const item of base.basemap) {
@@ -83,7 +65,7 @@ const SHJMap = (() => {
           return (i ? 'L' : 'M') + x.toFixed(1) + ',' + y.toFixed(1);
         }).join(' ');
         layers.basemap.appendChild(el('path', {
-          d, fill: 'none', stroke: color, 'stroke-width': width || 1.2, 'stroke-linejoin': 'round',
+          d, fill: 'none', stroke: color, 'stroke-width': width || 1.2, 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
         }));
         if (name && labelPos) {
           const [x, y] = project(labelPos[0], labelPos[1]);
@@ -124,7 +106,7 @@ const SHJMap = (() => {
       const pts = c.points.map(p => project(p.lon, p.lat));
       const d = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' ');
       g.appendChild(el('path', {
-        d, fill: 'none', stroke: c.color, 'stroke-width': 2, opacity: 0.85, 'stroke-linejoin': 'round',
+        d, fill: 'none', stroke: c.color, 'stroke-width': 2, opacity: 0.85, 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke',
       }));
       c.points.forEach((p, i) => {
         const [x, y] = pts[i];
@@ -212,8 +194,8 @@ const SHJMap = (() => {
     const latMid = (win.lat0 + win.lat1) / 2;
     const kmPerDeg = 111.3 * Math.cos(latMid * Math.PI / 180);
     function updateScaleBar() {
-      const r = svg.getBoundingClientRect();
-      const pxPerDeg = (r.width / W) * scale;
+      const { s: cssScale } = viewMetrics();
+      const pxPerDeg = cssScale * (W / (win.lon1 - win.lon0)) * scale;
       const pxPerKm = pxPerDeg / kmPerDeg;
       const seg = [25, 50, 100, 200, 500, 1000, 2000, 4000].find(k => k * pxPerKm >= 60 && k * pxPerKm <= 220) || 1000;
       scaleBar.innerHTML = `<div class="bar" style="width:${(seg * pxPerKm).toFixed(0)}px"></div><span>${seg} km</span>`;
@@ -228,6 +210,41 @@ const SHJMap = (() => {
         rc.setAttribute('width', b * 2); rc.setAttribute('height', b * 2);
       }
       updateScaleBar();
+      drawGrid();
+    }
+    // 屏幕疊加網格：經緯線覆蓋視口、邊緣標註隨視圖更新數值
+    function drawGrid() {
+      const { s: cssScale } = viewMetrics();
+      const wx0 = (0 - tx) / scale, wx1 = (W - tx) / scale;
+      const wy0 = (0 - ty) / scale, wy1 = (H - ty) / scale;
+      const dLon0 = wx0 / W * (win.lon1 - win.lon0) + win.lon0;
+      const dLon1 = wx1 / W * (win.lon1 - win.lon0) + win.lon0;
+      const latTop = win.lat1 - wy0 / H * (win.lat1 - win.lat0);
+      const latBot = win.lat1 - wy1 / H * (win.lat1 - win.lat0);
+      const pxPerLon = W / (win.lon1 - win.lon0) * scale * cssScale;
+      const pxPerLat = H / (win.lat1 - win.lat0) * scale * cssScale;
+      const lonStep = [1, 2, 5, 10, 15, 30, 45].find(st => st * pxPerLon >= 70) || 45;
+      const latStep = [1, 2, 5, 10, 15, 30].find(st => st * pxPerLat >= 60) || 30;
+      gridOv.innerHTML = '';
+      for (let d = Math.ceil(dLon0 / lonStep) * lonStep; d <= dLon1; d += lonStep) {
+        const wx = (d - win.lon0) / (win.lon1 - win.lon0) * W;
+        const sx = wx * scale + tx;
+        if (sx < -5 || sx > W + 5) continue;
+        gridOv.appendChild(el('line', { x1: sx, y1: 0, x2: sx, y2: H, stroke: '#c9c2b0', 'stroke-width': 0.8 }));
+        const trueLon = d > 180 ? d - 360 : d;
+        const t = el('text', { x: sx + 3, y: H - 8, 'font-size': 9, fill: '#999' });
+        t.textContent = `${Math.abs(trueLon)}°${trueLon < 0 ? 'W' : 'E'}`;
+        gridOv.appendChild(t);
+      }
+      for (let lat = Math.ceil(latBot / latStep) * latStep; lat <= latTop; lat += latStep) {
+        const wy = (win.lat1 - lat) / (win.lat1 - win.lat0) * H;
+        const sy = wy * scale + ty;
+        if (sy < -5 || sy > H + 5) continue;
+        gridOv.appendChild(el('line', { x1: 0, y1: sy, x2: W, y2: sy, stroke: '#c9c2b0', 'stroke-width': 0.8 }));
+        const t = el('text', { x: 4, y: sy - 3, 'font-size': 9, fill: '#999' });
+        t.textContent = `${Math.abs(lat)}°${lat < 0 ? 'S' : 'N'}`;
+        gridOv.appendChild(t);
+      }
     }
     // 延遲收集（渲染完成後一次性抓取）
     setTimeout(() => {
@@ -236,11 +253,16 @@ const SHJMap = (() => {
       iconRects.push(...vp.querySelectorAll('.shj-icon-rect'));
       updateScaleBar();
     }, 0);
-    function toWorld(cx, cy) {
+    function viewMetrics() {
       const r = svg.getBoundingClientRect();
+      const s = Math.min(r.width / W, r.height / H);   // meet：等比縮放＋居中留白
+      return { r, s, ox: (r.width - W * s) / 2, oy: (r.height - H * s) / 2 };
+    }
+    function toWorld(cx, cy) {
+      const { r, s, ox, oy } = viewMetrics();
       return {
-        x: (cx - r.left) / r.width * W,
-        y: (cy - r.top) / r.height * H,
+        x: (cx - r.left - ox) / s,
+        y: (cy - r.top - oy) / s,
       };
     }
     function zoomAt(cx, cy, factor) {
@@ -332,8 +354,8 @@ const SHJMap = (() => {
       if (moved || !opts.onSelect) return;
       const p = toWorld(e.clientX, e.clientY);
       const wx = (p.x - tx) / scale, wy = (p.y - ty) / scale;
-      const r = svg.getBoundingClientRect();
-      const thresh = 14 / (r.width / W) / scale; // 屏幕 14px → 世界單位
+      const { s: cssScale } = viewMetrics();
+      const thresh = 14 / cssScale / scale; // 屏幕 14px → 世界單位
       let best = null, bestD = thresh;
       for (const h of hitTargets) {
         const d = Math.hypot(h.x - wx, h.y - wy);
