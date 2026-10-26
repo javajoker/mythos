@@ -23,9 +23,9 @@ description: Generate masked rival candidates and judge period correspondences a
 - 無資料時記 `null`，不以缺失代替矛盾；今名相似與名氣不得分。
 - 比例尺只在語料區間內擬合，並與其他模型比較敏感度。
 
-## 全量水體映射
+## 整包地理映射
 
-先由 LLM 為每個 WAT 節點建立真實世界候選並交項目發起人確認，再進行其他錨點校準。保留共享山體與跨山系錨定關係。每個水體均須比較改道、消亡、萎縮、沼澤化、人工渠道遺址和性狀改變；未知狀態標為未知，不得以現代水文直接否決。
+由 LLM 按子經整包為全部 MTN/WAT/LND 節點建立真實世界候選（山/水/地標同包），並交項目發起人確認。共享水體保留為跨山系單一錨定候選；水名為性狀類名（ADJ-005），多地實例合法。每個水體均須比較改道、消亡、萎縮、沼澤化、人工渠道遺址和性狀改變；未知狀態標為未知，不得以現代水文直接否決。
 
 ## 取樣與紀錄
 
@@ -35,4 +35,4 @@ description: Generate masked rival candidates and judge period correspondences a
 - 每批混入 5% 誘餌；高分配上熱門候選時交紅隊。
 - 初始屬性寫 `semantic_fit/proposed`，經衝突與紅隊審查後才可接受。
 
-輸出使用資料模型中的 `candidates.jsonl`、`judgments.jsonl`、`relation-judgments.jsonl` 和 `attributes.jsonl`，不由腳本生成理由或結論。
+輸出落於 `attributes.jsonl`（由 kg_v1_assemble/kg_readings_build/kg_assoc_ded_build 自適配包組裝）；早期資料模型中的 `candidates.jsonl`/`judgments.jsonl`/`relation-judgments.jsonl` 已廢止，判斷記錄以適配包 mappings 與 findings/ADJ 記錄承載。不由腳本生成理由或結論。

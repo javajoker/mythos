@@ -1,6 +1,7 @@
 # Mythos 清理與方法決策記錄 / Cleanup and Method Decision Record
 
 > 狀態：D01–D29 已由項目發起人於 2026-10-21 裁決並落實為框架 v4。本文保留決策依據，不再是待審清單。
+> 時點標注（2026-10-26）：文中引用的舊映射組產物文件（water-mappings/mountain-mappings/mapping-review 等）已隨適配流水線取代而刪除；相關決策內容仍以本文文字為準。
 
 ## 1. 清理結果 / Cleanup outcome
 

@@ -16,9 +16,9 @@ description: Runbook for the Shanhaijing v4 iterative pipeline from working text
 
 1. `textual-critic`：確認 working text 的次序與正式證據讀法。
 2. `entity-extractor`：建立全書實體、提及、名稱語義和文本關係；代碼只保存結構與核對覆蓋。
-3. `semantic-matcher`／`palaeo-geographer`：由 LLM 完成全部水體的真實世界映射，保留共享水體與歷史狀態，先交項目發起人確認。
+3. `semantic-matcher`／`palaeo-geographer`：由 LLM 按子經整包完成全部 MTN/WAT/LND 的真實世界映射（山/水/地標同包），保留共享水體與歷史狀態，逐包交項目發起人確認；水名按 ADJ-005 性狀類名處理。
 4. `civilization-scout`／`palaeo-geographer`：完成有年代、來源和對立候選的時代世界卡。
-5. `semantic-matcher`：在水體映射確認後，遮蔽生成競爭候選與語義擬合屬性；以未確認錨點初始化搜索，迭代校準後再形成地標共識。
+5. `semantic-matcher`：在整包映射確認後，遮蔽生成競爭候選與語義擬合屬性；以未確認錨點初始化搜索，迭代校準後再形成地標共識。
 5a. `classic-adapter`／`atlas-renderer`：按 `classic-adaptation` runbook 為單個子經產出適配包——里程網格、逐實體映射、適配報告、逐句文檔與 SVG 地圖（工作範例：`xici3-*`）。
 6. `entity-extractor`：組成 KG v1——基礎圖（nodes/mentions/edges/attributes）＋26 子經適配包的時代映射屬性（地理實體，由 `tools/shj/kg_v1_assemble.py` 組裝：era.candidate 主/對立候選＋era.state；MTN/WAT/LND 覆蓋必須 100%）＋人文風物識別讀法（由 `tools/shj/kg_readings_build.py` 從逐句文檔 §2/§3 結構化，配 `readings-supplement.jsonl` 補充；非 DOC 節點零遺漏）；運行 `kg_validate.py`（屬性衝突僅報告，留待 LLM 裁決階段）。屬性與關係為開放式註冊制：新謂詞/關係類型先在本體註冊再入庫。
 7. `shj-lead`：重新生成五臧山經草稿，保留未決項。

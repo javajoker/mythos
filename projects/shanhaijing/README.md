@@ -21,18 +21,19 @@
 
 ## 目前狀態 / Current state
 
-- 已完成：舊解釋草稿、地圖、渲染器與舊圖譜清理；框架、規格和本體 v4。
-- 已生成：三個見證本快照 manifest、869 條 base entries、working text、對勘、移段、異文分類、447 個山經站點與 26 個篇末總數。
-- 注意：working text 的 base 讀法目前仍為 `unreviewed`，不能宣稱所有正式讀法已確認。
-- 第一輪已完成：五臧山經 481 段實體抽取，3,781 條提及、3,593 個節點、1,019 條關係邊；另有 488 個山體與 452 個水體節點。
-- 首輪映射已完成：452 個水體與 488 個山體各有獨立映射記錄，見 [water-mappings.jsonl](data/derived/era/water-mappings.jsonl) 和 [mountain-mappings.jsonl](data/derived/era/mountain-mappings.jsonl)。
-- 審核入口：[mapping-review.md](data/derived/review/mapping-review.md)。935 個節點為待審候選，5 個聚合類保持未定位；所有結果仍待你確認，水體審核先於其他錨點校準。
-- 待完成：全量時代世界卡與其餘語義判斷、KG v1 定稿、新草稿、紅隊和地圖。
-- 時代世界庫仍是種子資料；`sites.jsonl` 與 `palaeo-coast.json` 尚未建立。
+> 2026-10-26 更新。全部映射與裁決為競爭假說（`proposed_pending_review`），待發起人覆核。
+
+- 文本層：三見證本快照 manifest、869 條 working text（base 讀法仍 `unreviewed`）、對勘/移段/異文分類、447 個山經站點與 26 個篇末總數。
+- 適配層：五臧山經 26 子經五件套（站點網格/逐實體映射/適配報告/逐句文檔/SVG 地圖，見 `data/derived/era/adaptation/`）＋卷六至十八 13 卷框架書三件套＋補丁圖；概要圖 7 張（分經 5＋五臧總體＋全書太平洋中心視圖）。
+- 圖譜：KG v1 = 4,334 節點／4,618 提及／1,805 邊／9,234 屬性（地理映射全覆蓋＋人文風物讀法＋associative/deductive＋框架書待定錨與關係）。
+- 草稿：`deliverables/draft-v1/`（結構版）與 `deliverables/draft-v2/`（白話通順版，869 條目、111 張本地配圖、各卷嵌地圖）。
+- 裁決：ADJ-002 昆侖虛＝撒哈拉之眼；ADJ-003 燭龍＝極晝極夜＋極光；ADJ-004 兩河採納 F-0007；ADJ-005 名類判別（見 `findings/`）。
+- 待完成：發起人覆核全部適配與裁決；紅隊審查；web app。
 
 ## 重現文本層 / Reproduce the text layer
 
 ```bash
+# 文本層
 python3 -I tools/shj/fetch_sources.py --manifest-only
 python3 -I tools/shj/ingest.py
 python3 -I tools/shj/collate.py
@@ -41,12 +42,20 @@ python3 -I tools/shj/classify_variants.py
 python3 -I tools/shj/extract_routes.py
 python3 -I tools/shj/era_frame.py
 python3 -I tools/shj/kg_build.py
-python3 -I tools/shj/kg_export_geography.py
-python3 -I tools/shj/kg_water_registry.py
-python3 -I tools/shj/kg_mapping_build.py
-python3 -I tools/shj/kg_mapping_review.py
+# 適配與圖譜（語義內容由 LLM 產生於 era/adaptation/，工具只做組裝與核對）
+python3 tools/shj/kg_v1_assemble.py        # 山經地理映射屬性
+python3 tools/shj/kg_readings_build.py     # 人文風物讀法
+python3 tools/shj/kg_assoc_ded_build.py    # 賦義/功用層
+python3 tools/shj/kg_framework_build.py    # 卷六至十八實體
+python3 tools/shj/kg_edges_build.py        # 框架書關係邊
 python3 -I tools/shj/kg_validate.py --require-graph
+# 地圖與草稿
+python3 tools/shj/render_nanci_map.py <specs/…-map.json>     # 子經圖
+python3 tools/shj/render_overview_map.py <specs/…json>       # 概要/補丁圖
+python3 tools/shj/build_shanjing_overview.py                 # 全書概要 spec
+python3 tools/shj/draft_wuzang_build.py                      # draft-v1
 ```
+
 
 只在明確需要更新上游見證本時，不帶 `--manifest-only` 執行 `fetch_sources.py`。更新後必須重新審查所有受影響的對勘、判斷與衍生資料。
 

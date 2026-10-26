@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Generic Nanshan-classic SVG map renderer (SE Asia basemap).
+"""Generic spec-driven per-scroll SVG map renderer.
 
-Usage: render_zhongci_map.py <config.json>
-Config: {slug, title, subtitle, grid, stations_short{station: short}, anchor_note,
-         window {lon0,lon1,lat0,lat1}, annotations [[text, lon, lat, color]...],
-         features_extra [...], out}
-Basemap (North America coasts/rivers/ranges) is spec-driven simplified示意 geometry.
-Overflow audit built in. All mappings proposed_pending_review.
+Usage: render_nanci_map.py <config.json>  (specs in era/adaptation/specs/)
+Spec is the single source of truth: window, basemap/ranges/features_extra,
+stations_short, legend, annotations, modern points, panel notes, footers.
+Supports fit_coords (plotting-only overrides for divergent arithmetic grids),
+key_labels/compact markers for dense clusters, name#order keys for duplicate
+station names, auto two-column station list, and a full overflow audit
+(plain-text and tspan rows, position and width). All mappings
+proposed_pending_review.
 """
 import json, math, os, re, sys
 

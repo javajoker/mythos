@@ -78,9 +78,9 @@
 
 | 檔案 / File | 必要內容 / Required content |
 |---|---|
-| `candidates.jsonl` | 實體、候選、年代、當時狀態、物理屬性、一般性來源與對立候選組 |
-| `judgments.jsonl` | 遮蔽輸入雜湊、模型、提示版本、樣本、逐維分數、證據與理由 |
-| `relation-judgments.jsonl` | 兩個候選之間的關係是否成立、證據、樣本與理由 |
+| `candidates.jsonl（已廢止，ADJ-2026-10-26：判斷記錄改由適配包 mappings＋attributes.jsonl 承載）` | 實體、候選、年代、當時狀態、物理屬性、一般性來源與對立候選組 |
+| `judgments.jsonl（已廢止，同上）` | 遮蔽輸入雜湊、模型、提示版本、樣本、逐維分數、證據與理由 |
+| `relation-judgments.jsonl（已廢止，同上）` | 兩個候選之間的關係是否成立、證據、樣本與理由 |
 | `water-hypotheses.jsonl` | LLM／發起人提出的水體候選假說，可含分段、部分重合、消失、改道與人工渠道狀態 |
 | `semantic-referents.jsonl` | 名稱相近但指稱不同的對象、scope、來源條目與未決候選；位於 `data/derived/review/` |
 | `mapping-groups.jsonl` | LLM 授權的篇段與錨點映射組，含競爭候選、歷史狀態、理由與限制 |

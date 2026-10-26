@@ -63,10 +63,16 @@ docs/                 公共方法與規範，不含語料專用固定答案
 | `era_frame.py` | 各篇獨立相對幾何、概況與里程差異報告 |
 | `cn_numerals.py` | 中文數字解析 |
 | `kg_build.py` | 將 LLM 抽取記錄展開為圖譜；無方向邊只接受已有 LLM 審核的輸出 |
-| `kg_export_geography.py` | 導出山水與水體關係供人工審核，不選擇位置 |
-| `kg_water_registry.py` | 建立全部水體的 pending 映射與共享山體登記，不產生候選 |
-| `kg_mapping_build.py` | 將 LLM 映射組展開到全部山水節點，只匹配顯示範圍並檢查覆蓋 |
-| `kg_mapping_review.py` | 將 LLM 映射組格式化為審核報告，不排序或裁決 |
+| `kg_v1_assemble.py` | 山經適配包映射 → era.candidate/era.state 屬性（冪等；覆蓋必須 100%） |
+| `kg_readings_build.py` | 逐句文檔的人文風物 LLM 讀法 → era.candidate/era.state（非 DOC 節點零遺漏） |
+| `kg_assoc_ded_build.py` | 賦義/功用（associative/deductive）記錄入庫 |
+| `kg_framework_build.py` | 卷六至十八實體入庫（pending_anchor 節點＋復用提及＋屬性） |
+| `kg_edges_build.py` | 框架書關係邊入庫（REL:FW；動態流向保留原文於 quote） |
+| `render_nanci_map.py` | 通用 spec 驅動子經地圖渲染（fit_coords/key_labels/雙列/溢出審計） |
+| `render_overview_map.py` | 概要圖與框架書補丁圖（多鏈/點位/context 鏈/經度環繞太平洋中心視圖） |
+| `build_shanjing_overview.py` | 全書概要 spec 彙編（26 鏈＋框架書點位） |
+| `draft_wuzang_build.py` | 草稿 draft-v1 組裝（18 卷；實體零遺漏核對） |
+| `localize_draft_images.py` / `embed_draft_maps.py` | 草稿配圖本地化／地圖嵌入 |
 | `kg_validate.py` | 本體、schema、引用、類型及第一版地理約束校驗；只報告語義衝突 |
 
 語義候選生成、判斷、合併與草稿推理由 agent 產生結構化記錄；不得以硬編碼腳本代替。後續需要的任務生成、求解、交付與地圖工具，須在相應資料契約可用後新增，不引用已刪除的舊工具名。
