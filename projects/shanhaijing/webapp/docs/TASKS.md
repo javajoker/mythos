@@ -9,30 +9,30 @@
 
 ## 階段 1：數據導出
 
-- [ ] `tools/shj/webapp_export.py`：graph.json（KG 全量）
-- [ ] entries.json（869 條目：原文＋白話＋未決＋配圖引用）
-- [ ] map-chains.json（26 鏈，含 fit_coords 與色族）
-- [ ] map-points.json（402 框架書點位）
-- [ ] basemap.json（太平洋中心海岸線）
-- [ ] adjudications.json（ADJ/F 系列）
-- [ ] manifest.json 計數對賬（4,334/1,805/9,234/869/111/45）
-- [ ] images/ 與 maps/ 複製引用到位
+- [x] `tools/shj/webapp_export.py`：graph.json（KG 全量）（7a9c3ff）
+- [x] entries.json（869 條目全匹配：原文＋白話＋未決＋配圖引用）（7a9c3ff）
+- [x] map-chains.json（26 鏈，含 fit_coords 與色族）（7a9c3ff）
+- [x] map-points.json（402 框架書點位）（7a9c3ff）
+- [x] basemap.json（太平洋中心海岸線）（7a9c3ff）
+- [x] adjudications.json（ADJ/F 系列）（7a9c3ff）
+- [x] manifest.json 計數對賬（7a9c3ff；實際計數以 manifest 為準）
+- [x] images/ 與 maps/ 複製引用到位（7a9c3ff）
 
 ## 階段 2：前端核心
 
-- [ ] index.html 世界地圖（SVG 渲染＋pan/zoom＋經度環繞投影）
-- [ ] 圖層開關（鏈/點/現代點/底圖地名）
-- [ ] 點選 → 詳情卡（條目級：原文/白話/候選/配圖/置信度/未決/標記）
-- [ ] book.html 卷頁（導覽＋補丁圖＋條目列表）
-- [ ] entities.html + entity.html（類型樹/搜索/類名聚合頁）
-- [ ] adjudications.html、about.html
+- [x] index.html 世界地圖（SVG＋pan/zoom＋環繞投影）（cde02a4）
+- [x] 圖層開關（cde02a4）
+- [x] 點選 → 詳情卡（cde02a4）
+- [x] book.html 卷頁＋hash 深鏈（cde02a4）
+- [x] entities/entity（含赤水 5 實例聚合）（cde02a4）
+- [x] adjudications.html、about.html（cde02a4）
 
 ## 階段 3：完善與驗收
 
-- [ ] 置信度過濾、關係視圖、鍵盤導航、移動端抽屜
-- [ ] 離線驗收（file:// 全功能）
-- [ ] 鏈接完整性腳本＋瀏覽器目檢（首頁/卷頁/實體頁）
-- [ ] 性能：首屏 ≤3 MB
+- [x] 關係視圖、鍵盤導航、移動端抽屜（cde02a4）；置信度過濾待條目級結構化字段（後置）
+- [ ] 離線驗收（file://）——回退機制已實現（data/*.js 包裝），待真實瀏覽器雙擊複核
+- [x] check_refs.py 通過＋逐頁目檢（cde02a4）
+- [x] 首屏約 1.3 MB（cde02a4）
 - [ ] 發起人驗收覆核工作流試用
 
 ## 階段 4：交付

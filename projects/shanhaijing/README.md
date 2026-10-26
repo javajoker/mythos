@@ -28,7 +28,8 @@
 - 圖譜：KG v1 = 4,334 節點／4,618 提及／1,805 邊／9,234 屬性（地理映射全覆蓋＋人文風物讀法＋associative/deductive＋框架書待定錨與關係）。
 - 草稿：`deliverables/draft-v1/`（結構版）與 `deliverables/draft-v2/`（白話通順版，869 條目、111 張本地配圖、各卷嵌地圖）。
 - 裁決：ADJ-002 昆侖虛＝撒哈拉之眼；ADJ-003 燭龍＝極晝極夜＋極光；ADJ-004 兩河採納 F-0007；ADJ-005 名類判別（見 `findings/`）。
-- 待完成：發起人覆核全部適配與裁決；紅隊審查；web app。
+- Web App：`webapp/`（文檔在 `webapp/docs/`；本地 `python3 -m http.server` 於 webapp/ 後開 index.html——世界地圖/卷目錄/實體庫/裁決記錄）。
+- 待完成：發起人覆核全部適配與裁決；紅隊審查。
 
 ## 重現文本層 / Reproduce the text layer
 
