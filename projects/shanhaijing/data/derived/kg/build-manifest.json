@@ -198,15 +198,15 @@
       "17",
       "18"
     ],
-    "new_nodes": 741,
+    "new_nodes": 745,
     "by_disposition": {
       "new_entity": 408,
-      "pending_anchor": 333
+      "pending_anchor": 337
     },
-    "reuse_links": 67,
-    "nodes_total": 4336,
+    "reuse_links": 63,
+    "nodes_total": 4340,
     "mentions_total": 4618,
-    "attributes_total": 9545,
+    "attributes_total": 9549,
     "review_status": "proposed_pending_review"
   }
 }

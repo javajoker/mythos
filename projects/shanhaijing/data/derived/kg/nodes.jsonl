@@ -3771,6 +3771,7 @@
 {"id": "WAT:SHJ-11-1-016#1", "type": "WAT", "canonical_name": "弱水", "first_entry": "SHJ-11-1-016", "names": [{"value": "弱水", "entry": "SHJ-11-1-016"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-11-1-016#2", "type": "WAT", "canonical_name": "青水", "first_entry": "SHJ-11-1-016", "names": [{"value": "青水", "entry": "SHJ-11-1-016"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-11-1-017#1", "type": "WAT", "canonical_name": "昆侖南淵", "first_entry": "SHJ-11-1-017", "names": [{"value": "昆侖南淵", "entry": "SHJ-11-1-017"}], "status": "pending_anchor"}
+{"id": "CRE:SHJ-11-1-012#1", "type": "CRE", "canonical_name": "開明獸", "first_entry": "SHJ-11-1-012", "names": [{"value": "開明獸", "entry": "SHJ-11-1-012"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-11-1-018#1", "type": "CRE", "canonical_name": "鳳皇·鸞鳥（戴蛇踐蛇）", "first_entry": "SHJ-11-1-018", "names": [{"value": "鳳皇·鸞鳥（戴蛇踐蛇）", "entry": "SHJ-11-1-018"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-11-1-019#1", "type": "CRE", "canonical_name": "視肉", "first_entry": "SHJ-11-1-019", "names": [{"value": "視肉", "entry": "SHJ-11-1-019"}], "status": "pending_anchor"}
 {"id": "PLA:SHJ-11-1-019#1", "type": "PLA", "canonical_name": "珠樹·文玉樹·玗琪樹·不死樹", "first_entry": "SHJ-11-1-019", "names": [{"value": "珠樹·文玉樹·玗琪樹·不死樹", "entry": "SHJ-11-1-019"}], "status": "pending_anchor"}
@@ -3814,6 +3815,7 @@
 {"id": "LND:SHJ-12-1-007#2", "type": "LND", "canonical_name": "帝嚳臺", "first_entry": "SHJ-12-1-007", "names": [{"value": "帝嚳臺", "entry": "SHJ-12-1-007"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-12-1-007#3", "type": "LND", "canonical_name": "帝丹朱臺", "first_entry": "SHJ-12-1-007", "names": [{"value": "帝丹朱臺", "entry": "SHJ-12-1-007"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-12-1-007#4", "type": "LND", "canonical_name": "帝舜臺", "first_entry": "SHJ-12-1-007", "names": [{"value": "帝舜臺", "entry": "SHJ-12-1-007"}], "status": "pending_anchor"}
+{"id": "MTN:SHJ-12-1-007#1", "type": "MTN", "canonical_name": "昆侖（昆侖虛）", "first_entry": "SHJ-12-1-007", "names": [{"value": "昆侖（昆侖虛）", "entry": "SHJ-12-1-007"}, {"value": "昆侖（昆侖虛）", "entry": "SHJ-12-1-009"}, {"value": "昆侖（昆侖虛）", "entry": "SHJ-12-1-016"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-12-1-008#1", "type": "CRE", "canonical_name": "大蠭", "first_entry": "SHJ-12-1-008", "names": [{"value": "大蠭", "entry": "SHJ-12-1-008"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-12-1-008#2", "type": "CRE", "canonical_name": "朱蛾", "first_entry": "SHJ-12-1-008", "names": [{"value": "朱蛾", "entry": "SHJ-12-1-008"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-12-1-009#1", "type": "CRE", "canonical_name": "蟜", "first_entry": "SHJ-12-1-009", "names": [{"value": "蟜", "entry": "SHJ-12-1-009"}], "status": "pending_anchor"}
@@ -3855,6 +3857,8 @@
 {"id": "LND:SHJ-13-1-004#1", "type": "LND", "canonical_name": "列姑射", "first_entry": "SHJ-13-1-004", "names": [{"value": "列姑射", "entry": "SHJ-13-1-004"}, {"value": "列姑射", "entry": "SHJ-13-1-037"}], "status": "pending_anchor"}
 {"id": "MTN:SHJ-13-1-004#1", "type": "MTN", "canonical_name": "西胡白玉山", "first_entry": "SHJ-13-1-004", "names": [{"value": "西胡白玉山", "entry": "SHJ-13-1-004"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-13-1-004#2", "type": "LND", "canonical_name": "蒼梧", "first_entry": "SHJ-13-1-004", "names": [{"value": "蒼梧", "entry": "SHJ-13-1-004"}], "status": "pending_anchor"}
+{"id": "LND:SHJ-13-1-003#1", "type": "LND", "canonical_name": "昆侖虛", "first_entry": "SHJ-13-1-003", "names": [{"value": "昆侖虛", "entry": "SHJ-13-1-003"}], "status": "pending_anchor"}
+{"id": "MTN:SHJ-13-1-004#2", "type": "MTN", "canonical_name": "昆侖山", "first_entry": "SHJ-13-1-004", "names": [{"value": "昆侖山", "entry": "SHJ-13-1-004"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-13-1-005#1", "type": "WAT", "canonical_name": "雷澤", "first_entry": "SHJ-13-1-005", "names": [{"value": "雷澤", "entry": "SHJ-13-1-005"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-13-1-005#1", "type": "PER", "canonical_name": "雷神", "first_entry": "SHJ-13-1-005", "names": [{"value": "雷神", "entry": "SHJ-13-1-005"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-13-1-005#1", "type": "POL", "canonical_name": "吳（方位詞）", "first_entry": "SHJ-13-1-005", "names": [{"value": "吳（方位詞）", "entry": "SHJ-13-1-005"}, {"value": "吳（方位詞）", "entry": "SHJ-13-1-026"}], "status": "pending_anchor"}

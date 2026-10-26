@@ -3981,7 +3981,7 @@
 {"id": "MEN:SHJ-11-1-016#2", "entry": "SHJ-11-1-016", "surface": "青水", "type": "WAT", "node": "WAT:SHJ-11-1-016#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-016#3", "entry": "SHJ-11-1-016", "surface": "畢方鳥", "type": "MTN", "node": "MTN:SHJ-02-3-015#1", "status": "linked", "quote": "", "presence": "framework_reference"}
 {"id": "MEN:SHJ-11-1-017#1", "entry": "SHJ-11-1-017", "surface": "昆侖南淵", "type": "WAT", "node": "WAT:SHJ-11-1-017#1", "status": "linked", "quote": "", "presence": "present"}
-{"id": "MEN:SHJ-11-1-012#3", "entry": "SHJ-11-1-012", "surface": "開明獸", "type": "MTN", "node": "MTN:SHJ-02-3-005#1", "status": "linked", "quote": "", "presence": "framework_reference"}
+{"id": "MEN:SHJ-11-1-012#3", "entry": "SHJ-11-1-012", "surface": "開明獸", "type": "CRE", "node": "CRE:SHJ-11-1-012#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-018#1", "entry": "SHJ-11-1-018", "surface": "鳳皇·鸞鳥（戴蛇踐蛇）", "type": "CRE", "node": "CRE:SHJ-11-1-018#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-019#1", "entry": "SHJ-11-1-019", "surface": "視肉", "type": "CRE", "node": "CRE:SHJ-11-1-019#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-019#2", "entry": "SHJ-11-1-019", "surface": "珠樹·文玉樹·玗琪樹·不死樹", "type": "PLA", "node": "PLA:SHJ-11-1-019#1", "status": "linked", "quote": "", "presence": "present"}
@@ -4029,9 +4029,9 @@
 {"id": "MEN:SHJ-12-1-007#2", "entry": "SHJ-12-1-007", "surface": "帝嚳臺", "type": "LND", "node": "LND:SHJ-12-1-007#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-12-1-007#3", "entry": "SHJ-12-1-007", "surface": "帝丹朱臺", "type": "LND", "node": "LND:SHJ-12-1-007#3", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-12-1-007#4", "entry": "SHJ-12-1-007", "surface": "帝舜臺", "type": "LND", "node": "LND:SHJ-12-1-007#4", "status": "linked", "quote": "", "presence": "present"}
-{"id": "MEN:SHJ-12-1-007#5", "entry": "SHJ-12-1-007", "surface": "昆侖（昆侖虛）", "type": "MTN", "node": "MTN:SHJ-02-3-005#1", "status": "linked", "quote": "", "presence": "framework_reference"}
-{"id": "MEN:SHJ-12-1-009#1", "entry": "SHJ-12-1-009", "surface": "昆侖（昆侖虛）", "type": "MTN", "node": "MTN:SHJ-02-3-005#1", "status": "linked", "quote": "", "presence": "framework_reference"}
-{"id": "MEN:SHJ-12-1-016#1", "entry": "SHJ-12-1-016", "surface": "昆侖（昆侖虛）", "type": "MTN", "node": "MTN:SHJ-02-3-005#1", "status": "linked", "quote": "", "presence": "framework_reference"}
+{"id": "MEN:SHJ-12-1-007#5", "entry": "SHJ-12-1-007", "surface": "昆侖（昆侖虛）", "type": "MTN", "node": "MTN:SHJ-12-1-007#1", "status": "linked", "quote": "", "presence": "present"}
+{"id": "MEN:SHJ-12-1-009#1", "entry": "SHJ-12-1-009", "surface": "昆侖（昆侖虛）", "type": "MTN", "node": "MTN:SHJ-12-1-007#1", "status": "linked", "quote": "", "presence": "present"}
+{"id": "MEN:SHJ-12-1-016#1", "entry": "SHJ-12-1-016", "surface": "昆侖（昆侖虛）", "type": "MTN", "node": "MTN:SHJ-12-1-007#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-12-1-008#1", "entry": "SHJ-12-1-008", "surface": "大蠭", "type": "CRE", "node": "CRE:SHJ-12-1-008#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-12-1-008#2", "entry": "SHJ-12-1-008", "surface": "朱蛾", "type": "CRE", "node": "CRE:SHJ-12-1-008#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-12-1-009#2", "entry": "SHJ-12-1-009", "surface": "蟜", "type": "CRE", "node": "CRE:SHJ-12-1-009#1", "status": "linked", "quote": "", "presence": "present"}
@@ -4080,8 +4080,8 @@
 {"id": "MEN:SHJ-13-1-004#2", "entry": "SHJ-13-1-004", "surface": "西胡白玉山", "type": "MTN", "node": "MTN:SHJ-13-1-004#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-13-1-004#3", "entry": "SHJ-13-1-004", "surface": "蒼梧", "type": "LND", "node": "LND:SHJ-13-1-004#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-13-1-003#11", "entry": "SHJ-13-1-003", "surface": "流沙", "type": "LND", "node": "LND:SHJ-02-3-010#1", "status": "linked", "quote": "", "presence": "framework_reference"}
-{"id": "MEN:SHJ-13-1-003#12", "entry": "SHJ-13-1-003", "surface": "昆侖虛", "type": "MTN", "node": "MTN:SHJ-02-3-005#1", "status": "linked", "quote": "", "presence": "framework_reference"}
-{"id": "MEN:SHJ-13-1-004#4", "entry": "SHJ-13-1-004", "surface": "昆侖山", "type": "MTN", "node": "MTN:SHJ-02-3-005#1", "status": "linked", "quote": "", "presence": "framework_reference"}
+{"id": "MEN:SHJ-13-1-003#12", "entry": "SHJ-13-1-003", "surface": "昆侖虛", "type": "LND", "node": "LND:SHJ-13-1-003#1", "status": "linked", "quote": "", "presence": "present"}
+{"id": "MEN:SHJ-13-1-004#4", "entry": "SHJ-13-1-004", "surface": "昆侖山", "type": "MTN", "node": "MTN:SHJ-13-1-004#2", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-13-1-005#1", "entry": "SHJ-13-1-005", "surface": "雷澤", "type": "WAT", "node": "WAT:SHJ-13-1-005#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-13-1-005#2", "entry": "SHJ-13-1-005", "surface": "雷神", "type": "PER", "node": "PER:SHJ-13-1-005#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-13-1-005#3", "entry": "SHJ-13-1-005", "surface": "吳（方位詞）", "type": "POL", "node": "POL:SHJ-13-1-005#1", "status": "linked", "quote": "", "presence": "present"}
