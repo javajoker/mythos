@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>山海經現實映射 — 世界地圖</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body data-page="index">
+<header class="site-header"></header>
+<main class="full">
+  <div id="map">
+    <div class="layer-panel">
+      <div class="lp-title">圖層</div>
+      <label><input type="checkbox" data-layer="chains" checked> 山經鏈（五經色族）</label>
+      <label><input type="checkbox" data-layer="points" checked> 框架書點位</label>
+      <label><input type="checkbox" data-layer="modern" checked> 現代參照點</label>
+      <label><input type="checkbox" data-layer="annotations" checked> 底圖地名注記</label>
+      <label><input type="checkbox" data-layer="basemap" checked> 海岸線／地貌</label>
+      <button id="map-reset" style="margin-top:4px">重置視圖</button>
+    </div>
+    <div class="map-legend">
+      <div><b>五經色族</b></div>
+      <div><span class="swatch" style="background:#6c3483"></span>西山經（紫）
+           <span class="swatch" style="background:#c0392b"></span>中山經（紅）</div>
+      <div><span class="swatch" style="background:#a07d1e"></span>北山經（金棕）
+           <span class="swatch" style="background:#1e8449"></span>東山經（綠）
+           <span class="swatch" style="background:#2e86c1"></span>南山經（藍）</div>
+      <div style="margin-top:4px"><b>點位</b></div>
+      <div><span class="dot" style="background:#2e86c1"></span>復用錨定
+           <span class="dot" style="background:#b7950b"></span>區域方向
+           <span class="sq"></span>待定錨（紅虛框）</div>
+      <div>鏈上雙圈＝錨站。點選鏈站或點位查看條目詳情。</div>
+    </div>
+  </div>
+</main>
+<footer class="site-footer"></footer>
+<script src="js/store.js"></script>
+<script src="js/map.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>關於 — 山海經現實映射</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body data-page="about">
+<header class="site-header"></header>
+<main>
+  <h1>方法與誠實性聲明</h1>
+
+  <h2 class="sub-head">這是什麼</h2>
+  <p>本站把《山海經》時代假想推理研究做成可探索的交互界面：以太平洋中心世界地圖為主視圖，
+  展示五藏山經 26 條里程鏈與框架書 402 個點位在現實世界的映射，
+  以及地理、人文、動植物、資源特產的時代讀法。</p>
+
+  <h2 class="sub-head">誠實性硬性約束</h2>
+  <ul>
+    <li><strong>全部對應為競爭假說（proposed_pending_review）</strong>，不是定論；
+      「方向性猜測／待考」與「很可靠／較可靠」同屏可見，置信度一律附文字徽章，不只靠顏色。</li>
+    <li><strong>時代窗口 4000–1000 BCE</strong>：所有候選均針對該窗口的地理與生態，不以現代地名直接反推。</li>
+    <li><strong>借名警示</strong>（紫斜紋框）：後世同名／沿襲地名（如朝鮮、會稽、泰山封禪）不得作為定位證據。</li>
+    <li><strong>神話層分離</strong>（灰藍標籤）：十日、精衛填海、鯀禹洪水等神話層內容與地理層分開呈現，不作現實定位。</li>
+    <li><strong>配圖全部為真實照片</strong>（已本地化），禁止 AI 生成圖；每張附 alt 與來源。</li>
+  </ul>
+
+  <h2 class="sub-head">方法</h2>
+  <p>推理鏈：經文（繁體照錄）→ 知識圖譜（節點／邊／屬性）→ 時代候選（era.candidate，含契合論證、衝突與未知）
+  → 置信度分級（很可靠／較可靠／方向性／待考）→ 未決項與對立候選保留可見。
+  地圖坐標為擬合值；太平洋中心投影（顯示經度 = lon &lt; -25 ? lon + 360 : lon，equirectangular）。</p>
+
+  <h2 class="sub-head">數據規模</h2>
+  <div id="about-stats"><p class="muted">統計加載中…</p></div>
+
+  <h2 class="sub-head">數據下載（JSON）</h2>
+  <ul>
+    <li><a href="data/entries.json">entries.json</a> — 869 條目（原文＋白話解讀＋未決項＋配圖引用）</li>
+    <li><a href="data/graph.json">graph.json</a> — KG 全量（節點／邊／屬性）</li>
+    <li><a href="data/map-chains.json">map-chains.json</a> — 26 條山經鏈坐標</li>
+    <li><a href="data/map-points.json">map-points.json</a> — 402 個框架書點位</li>
+    <li><a href="data/basemap.json">basemap.json</a> — 太平洋中心底圖</li>
+    <li><a href="data/adjudications.json">adjudications.json</a> — 裁決與發現清單</li>
+    <li><a href="data/manifest.json">manifest.json</a> — 導出計數對賬</li>
+  </ul>
+
+  <p class="notice">本站為純靜態站：無後端、無賬號、無追蹤；全部數據與圖片本地化，斷網可用。</p>
+</main>
+<footer class="site-footer"></footer>
+<script src="js/store.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
