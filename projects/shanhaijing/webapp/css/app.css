@@ -97,11 +97,11 @@ main.full { max-width: none; padding: 0; }
 
 /* 地圖 SVG 元素 */
 .shj-label { font-family: var(--sans); fill: var(--ink-soft); pointer-events: none; }
-.shj-chain-label { font-weight: 700; paint-order: stroke; stroke: #f7f3e8; stroke-width: 3px; }
+.shj-chain-label { font-weight: 700; paint-order: stroke; stroke: #f7f3e8; stroke-width: 3px; vector-effect: non-scaling-stroke; }
 .shj-station { cursor: pointer; }
-.shj-station:hover { stroke: #000; stroke-width: 1.2; }
+.shj-station:hover { stroke: #000; stroke-width: 1.2; vector-effect: non-scaling-stroke; }
 .shj-point { cursor: pointer; }
-.shj-point:hover { stroke: #000; stroke-width: 1.2; }
+.shj-point:hover { stroke: #000; stroke-width: 1.2; vector-effect: non-scaling-stroke; }
 
 /* ── 詳情卡（右側欄 / 移動端底部抽屜）────────── */
 .detail-card {
