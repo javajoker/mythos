@@ -92,17 +92,17 @@
 <text x="635" y="372" font-size="9" fill="#34495e">新奧爾良</text>
 </g>
 <line x1="203" y1="640" x2="203" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="195" y="656" font-size="9" fill="#999">-120°W</text>
+<text x="195" y="656" font-size="9" fill="#999">120°W</text>
 <line x1="346" y1="640" x2="346" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="338" y="656" font-size="9" fill="#999">-110°W</text>
+<text x="338" y="656" font-size="9" fill="#999">110°W</text>
 <line x1="489" y1="640" x2="489" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="481" y="656" font-size="9" fill="#999">-100°W</text>
+<text x="481" y="656" font-size="9" fill="#999">100°W</text>
 <line x1="631" y1="640" x2="631" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="623" y="656" font-size="9" fill="#999">-90°W</text>
+<text x="623" y="656" font-size="9" fill="#999">90°W</text>
 <line x1="774" y1="640" x2="774" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="766" y="656" font-size="9" fill="#999">-80°W</text>
+<text x="766" y="656" font-size="9" fill="#999">80°W</text>
 <line x1="917" y1="640" x2="917" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="909" y="656" font-size="9" fill="#999">-70°W</text>
+<text x="909" y="656" font-size="9" fill="#999">70°W</text>
 <line x1="60" y1="587" x2="1060" y2="587" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="590" font-size="9" fill="#999">10°N</text>
 <line x1="60" y1="534" x2="1060" y2="534" stroke="#d9d2c0" stroke-width="0.6"/>

@@ -31,7 +31,7 @@ def write_jsonl(path, rows):
 def main():
     nodes = read_jsonl(KG / "nodes.jsonl")
     node_by_id = {n["id"]: n for n in nodes}
-    geo_nodes = {n["id"] for n in nodes if n["type"] in GEO_TYPES}
+    geo_nodes = {n["id"] for n in nodes if n["type"] in GEO_TYPES and n["first_entry"].split("-")[1] in {"01","02","03","04","05"}}  # 框架書 geo 節點由 kg_framework_build 覆蓋
 
     mappings = []
     for path in sorted(ADJ.glob("*-mappings.jsonl")):

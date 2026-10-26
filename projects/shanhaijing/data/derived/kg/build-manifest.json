@@ -115,6 +115,19 @@
       "beici1",
       "beici2",
       "beici3",
+      "book06",
+      "book07",
+      "book08",
+      "book09",
+      "book10",
+      "book11",
+      "book12",
+      "book13",
+      "book14",
+      "book15",
+      "book16",
+      "book17",
+      "book18",
       "dongci1",
       "dongci2",
       "dongci3",
@@ -139,22 +152,22 @@
       "zhongci8",
       "zhongci9"
     ],
-    "mapping_attributes": 2037,
-    "geo_nodes_covered": 980,
+    "mapping_attributes": 2171,
+    "geo_nodes_covered": 982,
     "geo_nodes_total": 980,
-    "attributes_total": 2065,
+    "attributes_total": 9545,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_readings": {
     "assembled_by": "kg_readings_build.py",
     "source": "era/adaptation/*-sentence-analysis.md (LLM-authored §2/§3)",
-    "records": 5056,
-    "identified": 2606,
+    "records": 5231,
+    "identified": 2702,
     "state_only": 15,
     "no_reading": 0,
-    "skipped_geo": 1018,
-    "not_in_kg": 12,
-    "attributes_total": 7121,
+    "skipped_geo": 1107,
+    "not_in_kg": 57,
+    "attributes_total": 9545,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_assoc_ded": {
@@ -165,7 +178,7 @@
       "deductive.utility": 153,
       "associative.symbolism": 413
     },
-    "attributes_total": 7687,
+    "attributes_total": 9545,
     "review_status": "proposed_pending_review"
   },
   "kg_framework_v1": {
@@ -193,7 +206,7 @@
     "reuse_links": 67,
     "nodes_total": 4336,
     "mentions_total": 4618,
-    "attributes_total": 9236,
+    "attributes_total": 9545,
     "review_status": "proposed_pending_review"
   }
 }

@@ -98,7 +98,7 @@
 <text x="757" y="309" font-size="9" fill="#34495e">錫瓦</text>
 </g>
 <line x1="160" y1="640" x2="160" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="152" y="656" font-size="9" fill="#999">-10°W</text>
+<text x="152" y="656" font-size="9" fill="#999">10°W</text>
 <line x1="327" y1="640" x2="327" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="319" y="656" font-size="9" fill="#999">0°E</text>
 <line x1="493" y1="640" x2="493" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>

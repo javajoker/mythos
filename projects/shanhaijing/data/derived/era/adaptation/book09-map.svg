@@ -74,7 +74,6 @@
 <line x1="881" y1="640" x2="881" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="873" y="656" font-size="9" fill="#999">150°E</text>
 <line x1="1030" y1="640" x2="1030" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="1022" y="656" font-size="9" fill="#999">160°E</text>
 <line x1="60" y1="618" x2="1060" y2="618" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="621" font-size="9" fill="#999">10°N</text>
 <line x1="60" y1="562" x2="1060" y2="562" stroke="#d9d2c0" stroke-width="0.6"/>

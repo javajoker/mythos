@@ -77,7 +77,7 @@
 <text x="909" y="589" font-size="9" fill="#34495e">新加坡</text>
 </g>
 <line x1="102" y1="640" x2="102" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="94" y="656" font-size="9" fill="#999">-10°W</text>
+<text x="94" y="656" font-size="9" fill="#999">10°W</text>
 <line x1="173" y1="640" x2="173" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="165" y="656" font-size="9" fill="#999">0°E</text>
 <line x1="243" y1="640" x2="243" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>

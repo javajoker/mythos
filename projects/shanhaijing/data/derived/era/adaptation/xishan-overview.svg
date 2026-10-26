@@ -128,7 +128,7 @@
 <text x="276" y="144" font-size="9" fill="#34495e">突尼斯</text>
 </g>
 <line x1="108" y1="640" x2="108" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="100" y="656" font-size="9" fill="#999">-10°W</text>
+<text x="100" y="656" font-size="9" fill="#999">10°W</text>
 <line x1="189" y1="640" x2="189" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="181" y="656" font-size="9" fill="#999">0°E</text>
 <line x1="270" y1="640" x2="270" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
