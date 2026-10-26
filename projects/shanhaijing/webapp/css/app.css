@@ -250,3 +250,11 @@ table.attr-table th { background: var(--paper-2); white-space: nowrap; }
   .layer-panel { font-size: 12px; padding: 6px 9px; max-width: 62vw; }
   .map-legend { display: none; }
 }
+
+/* 裁決與發現：內嵌全文 */
+details.adj-item { margin: 10px 0; border: 1px solid #cbb; border-radius: 6px; padding: 8px 14px; background: #fffdf5; }
+details.adj-item summary { cursor: pointer; font-size: 14px; }
+details.adj-item summary .file { color: #999; font-size: 11px; margin-left: 8px; }
+details.adj-item .adj-body { margin-top: 10px; font-size: 13px; line-height: 1.7; }
+details.adj-item .adj-body table { border-collapse: collapse; }
+details.adj-item .adj-body th, details.adj-item .adj-body td { border: 1px solid #d9d2c0; padding: 3px 8px; font-size: 12px; }

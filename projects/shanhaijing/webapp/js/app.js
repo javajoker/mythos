@@ -620,14 +620,12 @@ async function bootAdjudications() {
   try { list = await Store.adjudications(); }
   catch (err) { main.innerHTML = `<p class="notice">加載失敗：${App.esc(err.message)}</p>`; return; }
   main.innerHTML = `<h1>裁決與發現（ADJ / F 系列）</h1>
-    <p class="muted">共 ${list.length} 份。文件位於倉庫 <span class="mono">projects/shanhaijing/findings/</span>；
-    若用 http.server 以 webapp/ 為根，相對鏈接不可用，請直接在檔案系統打開。</p>
-    <ul class="adj-list">` +
-    list.map(a => {
-      const base = a.file.split('/').pop();
-      return `<li><a href="../../${App.esc(a.file)}" target="_blank" rel="noopener">${App.esc(a.title)}</a>
-        <div class="file">${App.esc(a.file)}</div></li>`;
-    }).join('') + '</ul>';
+    <p class="muted">共 ${list.length} 份。源文件位於倉庫 <span class="mono">projects/shanhaijing/findings/</span>（此處為內嵌全文渲染，可離線閱讀）。</p>` +
+    list.map(a => `
+      <details class="adj-item">
+        <summary><strong>${App.esc(a.title)}</strong> <span class="file">${App.esc(a.file)}</span></summary>
+        <div class="adj-body">${App.md(a.content || '')}</div>
+      </details>`).join('');
 }
 
 /* ── 關於 ──────────────────────────────── */

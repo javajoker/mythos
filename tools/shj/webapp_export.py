@@ -162,7 +162,8 @@ def main():
     adjs = []
     for f in sorted((SHJ / "findings").glob("*.md")):
         head = f.read_text(encoding="utf-8").split("\n")[0].lstrip("# ").strip()
-        adjs.append({"file": f"findings/{f.name}", "title": head})
+        adjs.append({"file": f"findings/{f.name}", "title": head,
+                     "content": f.read_text(encoding="utf-8")})
     (DATA / "adjudications.json").write_text(json.dumps(adjs, ensure_ascii=False), encoding="utf-8")
     manifest["adjudications"] = len(adjs)
 
