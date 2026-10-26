@@ -68,6 +68,7 @@ const SHJMap = (() => {
         if (name && labelPos) {
           const [x, y] = project(labelPos[0], labelPos[1]);
           const t = el('text', { x, y, 'font-size': 11, class: 'shj-label' });
+          t.dataset.fs = 11;
           t.textContent = name;
           layers.annotations.appendChild(t);
         }
@@ -81,6 +82,7 @@ const SHJMap = (() => {
         }));
         if (name) {
           const t = el('text', { x, y, 'font-size': 10, 'text-anchor': 'middle', class: 'shj-label' });
+          t.dataset.fs = 10;
           t.textContent = name;
           layers.annotations.appendChild(t);
         }
@@ -91,6 +93,7 @@ const SHJMap = (() => {
     for (const [text, lon, lat, color] of (base.annotations || [])) {
       const [x, y] = project(lon, lat);
       const t = el('text', { x, y, 'font-size': 10.5, fill: color || '#666', class: 'shj-label' });
+      t.dataset.fs = 10.5;
       t.textContent = text;
       layers.annotations.appendChild(t);
     }
@@ -126,6 +129,7 @@ const SHJMap = (() => {
       if (c.label_pos) {
         const [x, y] = project(c.label_pos[0], c.label_pos[1]);
         const t = el('text', { x, y, 'font-size': 12, fill: c.color, class: 'shj-label shj-chain-label' });
+        t.dataset.fs = 12;
         t.textContent = `${c.label}｜${c.short || ''}`;
         g.appendChild(t);
       }
@@ -160,6 +164,7 @@ const SHJMap = (() => {
       const [x, y] = project(lon, lat);
       layers.modern.appendChild(el('circle', { cx: x, cy: y, r: 2.4, fill: '#7f8c8d', stroke: '#fff', 'stroke-width': 0.6 }));
       const t = el('text', { x: x + 4, y: y - 3, 'font-size': 9.5, class: 'shj-label' });
+      t.dataset.fs = 9.5;
       t.textContent = name;
       layers.modern.appendChild(t);
     }
@@ -174,7 +179,13 @@ const SHJMap = (() => {
     const pointers = new Map();
     let pinchDist = 0, moved = false;
 
-    function apply() { vp.setAttribute('transform', `translate(${tx},${ty}) scale(${scale})`); }
+    const labelEls = [];
+    function apply() {
+      vp.setAttribute('transform', `translate(${tx},${ty}) scale(${scale})`);
+      for (const t of labelEls) t.style.fontSize = (parseFloat(t.dataset.fs) / scale) + 'px';
+    }
+    // 延遲收集（渲染完成後一次性抓取）
+    setTimeout(() => { labelEls.push(...vp.querySelectorAll('.shj-label')); }, 0);
     function toWorld(cx, cy) {
       const r = svg.getBoundingClientRect();
       return {
