@@ -45,14 +45,34 @@ const SHJMap = (() => {
     svg.appendChild(vp);
 
     const layers = {
-      basemap: el('g', {}), chains: el('g', {}), points: el('g', {}),
+      grid: el('g', {}), basemap: el('g', {}), chains: el('g', {}), points: el('g', {}),
       annotations: el('g', {}), modern: el('g', {}),
     };
+    vp.appendChild(layers.grid);
     vp.appendChild(layers.basemap);
     vp.appendChild(layers.annotations);
     vp.appendChild(layers.chains);
     vp.appendChild(layers.points);
     vp.appendChild(layers.modern);
+
+    // ── 經緯網格（世界坐標，隨圖平移；標籤恆定字號）──
+    for (let lon = Math.ceil(win.lon0 / 30) * 30; lon < win.lon1; lon += 30) {
+      const [x1, y1] = project(lon, win.lat0), [x2, y2] = project(lon, win.lat1);
+      layers.grid.appendChild(el('line', { x1, y1, x2, y2, stroke: '#d9d2c0', 'stroke-width': 0.8 }));
+      const trueLon = lon > 180 ? lon - 360 : lon;
+      const t = el('text', { x: x1 + 3, y: y1 - 6, 'font-size': 9, fill: '#999', class: 'shj-label' });
+      t.dataset.fs = 9;
+      t.textContent = `${Math.abs(trueLon)}°${trueLon < 0 ? 'W' : 'E'}`;
+      layers.grid.appendChild(t);
+    }
+    for (let lat = Math.ceil(win.lat0 / 10) * 10; lat < win.lat1; lat += 10) {
+      const [x1, y1] = project(win.lon0, lat), [x2, y2] = project(win.lon1, lat);
+      layers.grid.appendChild(el('line', { x1, y1, x2, y2, stroke: '#d9d2c0', 'stroke-width': 0.8 }));
+      const t = el('text', { x: x1 + 3, y: y1 - 4, 'font-size': 9, fill: '#999', class: 'shj-label' });
+      t.dataset.fs = 9;
+      t.textContent = `${Math.abs(lat)}°${lat < 0 ? 'S' : 'N'}`;
+      layers.grid.appendChild(t);
+    }
 
     // ── 底圖 ──
     for (const item of base.basemap) {
@@ -110,18 +130,19 @@ const SHJMap = (() => {
         const [x, y] = pts[i];
         const dot = el('circle', {
           cx: x, cy: y, r: 3, fill: '#fff', stroke: c.color, 'stroke-width': 1.6,
-          'pointer-events': 'none',
+          'pointer-events': 'none', class: 'shj-icon', 'data-base': 3,
         });
         g.appendChild(dot);
         if (c.anchor_index === i) { // 錨站：雙圈
           g.appendChild(el('circle', {
             cx: x, cy: y, r: 6, fill: 'none', stroke: c.color, 'stroke-width': 1.4, 'pointer-events': 'none',
+            class: 'shj-icon', 'data-base': 6,
           }));
         }
         // 透明擴大熱區，便於點選
         const hit = el('circle', {
           cx: x, cy: y, r: 9, fill: 'rgba(0,0,0,0)',
-          class: 'shj-station', 'data-chain': c.label, 'data-name': p.n, 'data-idx': i,
+          class: 'shj-station shj-icon', 'data-base': 9, 'data-chain': c.label, 'data-name': p.n, 'data-idx': i,
         });
         hit.appendChild(el('title', {})).textContent = `${c.label} ${p.n}`;
         g.appendChild(hit);
@@ -145,15 +166,17 @@ const SHJMap = (() => {
         node = el('rect', {
           x: x - r, y: y - r, width: r * 2, height: r * 2,
           fill: 'rgba(192,57,43,0.12)', stroke: '#c0392b', 'stroke-width': 1.2, 'stroke-dasharray': '3,2',
+          class: 'shj-icon-rect', 'data-cx': x, 'data-cy': y, 'data-base': r,
         });
       } else {
-        node = el('circle', { cx: x, cy: y, r, fill: p.color, opacity: 0.9, stroke: '#fff', 'stroke-width': 0.8 });
+        node = el('circle', { cx: x, cy: y, r, fill: p.color, opacity: 0.9, stroke: '#fff', 'stroke-width': 0.8,
+          class: 'shj-icon', 'data-base': r });
       }
       node.setAttribute('pointer-events', 'none');
       layers.points.appendChild(node);
       const hit = el('circle', {
         cx: x, cy: y, r: Math.max(r + 4, 9), fill: 'rgba(0,0,0,0)',
-        class: 'shj-point', 'data-idx': idx, 'data-name': p.name,
+        class: 'shj-point shj-icon', 'data-base': Math.max(r + 4, 9), 'data-idx': idx, 'data-name': p.name,
       });
       hit.appendChild(el('title', {})).textContent = p.note || p.name;
       layers.points.appendChild(hit);
@@ -162,7 +185,7 @@ const SHJMap = (() => {
     // ── 現代參照點 ──
     for (const [name, lon, lat] of (base.modern || [])) {
       const [x, y] = project(lon, lat);
-      layers.modern.appendChild(el('circle', { cx: x, cy: y, r: 2.4, fill: '#7f8c8d', stroke: '#fff', 'stroke-width': 0.6 }));
+      layers.modern.appendChild(el('circle', { cx: x, cy: y, r: 2.4, fill: '#7f8c8d', stroke: '#fff', 'stroke-width': 0.6, class: 'shj-icon', 'data-base': 2.4 }));
       const t = el('text', { x: x + 4, y: y - 3, 'font-size': 9.5, class: 'shj-label' });
       t.dataset.fs = 9.5;
       t.textContent = name;
@@ -180,12 +203,39 @@ const SHJMap = (() => {
     let pinchDist = 0, moved = false;
 
     const labelEls = [];
+    const iconEls = [];
+    const iconRects = [];
+    // 比例尺（屏幕固定疊加層）
+    const scaleBar = document.createElement('div');
+    scaleBar.className = 'map-scalebar';
+    container.appendChild(scaleBar);
+    const latMid = (win.lat0 + win.lat1) / 2;
+    const kmPerDeg = 111.3 * Math.cos(latMid * Math.PI / 180);
+    function updateScaleBar() {
+      const r = svg.getBoundingClientRect();
+      const pxPerDeg = (r.width / W) * scale;
+      const pxPerKm = pxPerDeg / kmPerDeg;
+      const seg = [25, 50, 100, 200, 500, 1000, 2000, 4000].find(k => k * pxPerKm >= 60 && k * pxPerKm <= 220) || 1000;
+      scaleBar.innerHTML = `<div class="bar" style="width:${(seg * pxPerKm).toFixed(0)}px"></div><span>${seg} km</span>`;
+    }
     function apply() {
       vp.setAttribute('transform', `translate(${tx},${ty}) scale(${scale})`);
       for (const t of labelEls) t.style.fontSize = (parseFloat(t.dataset.fs) / scale) + 'px';
+      for (const c of iconEls) c.setAttribute('r', parseFloat(c.dataset.base) / scale);
+      for (const rc of iconRects) {
+        const b = parseFloat(rc.dataset.base) / scale, cx = parseFloat(rc.dataset.cx), cy = parseFloat(rc.dataset.cy);
+        rc.setAttribute('x', cx - b); rc.setAttribute('y', cy - b);
+        rc.setAttribute('width', b * 2); rc.setAttribute('height', b * 2);
+      }
+      updateScaleBar();
     }
     // 延遲收集（渲染完成後一次性抓取）
-    setTimeout(() => { labelEls.push(...vp.querySelectorAll('.shj-label')); }, 0);
+    setTimeout(() => {
+      labelEls.push(...vp.querySelectorAll('.shj-label'));
+      iconEls.push(...vp.querySelectorAll('.shj-icon'));
+      iconRects.push(...vp.querySelectorAll('.shj-icon-rect'));
+      updateScaleBar();
+    }, 0);
     function toWorld(cx, cy) {
       const r = svg.getBoundingClientRect();
       return {
@@ -202,6 +252,8 @@ const SHJMap = (() => {
       scale = ns;
       apply();
     }
+
+    window.addEventListener('resize', updateScaleBar);
 
     svg.addEventListener('wheel', e => {
       e.preventDefault();
