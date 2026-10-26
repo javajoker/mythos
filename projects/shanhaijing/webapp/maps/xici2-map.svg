@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《西次二經》時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-xici2-2 ｜ 錨點傳播鏈：開羅→西三→本經（無獨立錨點）｜ 0.385 km/里（±150 km）｜ 物種鎖最西＝印度河｜ proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<ellipse cx="560" cy="189" rx="500" ry="108" fill="#e8e0d0" opacity="0.35"/>
+<ellipse cx="560" cy="574" rx="500" ry="66" fill="#dce8cf" opacity="0.35"/>
+<ellipse cx="560" cy="448" rx="500" ry="60" fill="#cfe0b8" opacity="0.35"/>
+<polyline points="156.2,129.0 233.1,157.0 310.0,227.0 386.9,276.0 463.8,304.0 540.8,395.0 598.5,423.0 656.2,430.0 733.1,437.0 790.8,416.0 867.7,360.0 936.9,339.0 979.2,325.0" fill="none" stroke="#a08a5a" stroke-width="10"/>
+<text x="168" y="181" font-size="10" fill="#a08a5a">喜馬拉雅主脊（簡化示意）</text>
+<polyline points="444.6,297.0 540.8,311.0 636.9,325.0 733.1,332.0 829.2,332.0 925.4,332.0 960.0,339.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="533" y="308" font-size="10" fill="#2f7fbf">雅魯藏布江（河候選B）</text>
+<polyline points="960.0,339.0 967.7,409.0 940.8,465.0 906.2,458.0 848.5,486.0 819.6,559.5 760.0,556.0 748.5,619.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="775" y="535" font-size="10" fill="#2f7fbf">布拉馬普特拉（河候選A東段）</text>
+<polyline points="302.3,297.0 329.2,367.0 379.2,535.0 444.6,598.0 483.1,619.0 579.2,612.0 683.1,629.5 748.5,619.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="491" y="598" font-size="10" fill="#2f7fbf">恆河（河候選A）</text>
+<polyline points="263.8,283.0 260.0,388.0 290.8,486.0 329.2,514.0 375.4,535.0 438.8,605.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="317.7,164.0 267.7,199.0 233.1,222.1 208.1,227.0 160.0,227.0 113.8,269.0 71.5,325.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="183" y="171" font-size="10" fill="#2f7fbf">薩特萊傑河（皇水方向）</text>
+<polyline points="106.2,80.0 75.4,80.0 60.0,129.0 60.0,171.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<text x="66" y="122" font-size="10" fill="#2f7fbf">印度河（赤水候選）</text>
+<polyline points="633.1,395.0 625.4,465.0 617.7,528.0 613.8,584.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="552.3,395.0 544.6,458.0 536.9,521.0 529.2,577.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<polyline points="460.0,360.0 448.5,402.0 440.8,465.0 433.1,528.0" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<ellipse cx="575" cy="402" rx="11" ry="11" fill="#8e44ad" opacity="0.35" stroke="#8e44ad" stroke-dasharray="4 3"/>
+<ellipse cx="231" cy="402" rx="11" ry="11" fill="#8e44ad" opacity="0.35" stroke="#8e44ad" stroke-dasharray="4 3"/>
+<polyline points="752.3,325.0 721.9,325.0 695.8,325.0 690.4,316.6 658.1,367.7 627.3,367.7 596.9,367.7 575.0,402.0 513.8,402.0 468.1,402.0 406.9,402.0 345.8,402.0 307.7,402.0 231.2,402.0 185.4,402.0 131.9,402.0 78.5,402.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="752" cy="325" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="748" y="329" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="734" y="305" font-size="10" fill="#7b241c" font-weight="bold">鈐山</text>
+<circle cx="722" cy="325" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="718" y="329" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="704" y="341" font-size="10" fill="#7b241c" font-weight="bold">㤗冒之山</text>
+<circle cx="696" cy="325" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="692" y="329" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="678" y="314" font-size="10" fill="#7b241c" font-weight="bold">數歷之山</text>
+<circle cx="690" cy="317" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="686" y="321" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="672" y="333" font-size="10" fill="#7b241c" font-weight="bold">高山</text>
+<circle cx="658" cy="368" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="654" y="372" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="640" y="357" font-size="10" fill="#7b241c" font-weight="bold">女牀之山</text>
+<circle cx="627" cy="368" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="623" y="372" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="609" y="384" font-size="10" fill="#7b241c" font-weight="bold">龍首之山</text>
+<circle cx="597" cy="368" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="593" y="372" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="579" y="357" font-size="10" fill="#7b241c" font-weight="bold">鹿臺之山</text>
+<circle cx="575" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="571" y="406" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="557" y="418" font-size="10" fill="#7b241c" font-weight="bold">鳥危之山</text>
+<circle cx="514" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="510" y="406" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="496" y="391" font-size="10" fill="#7b241c" font-weight="bold">小次之山</text>
+<circle cx="468" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="464" y="406" font-size="9" fill="#fff" font-weight="bold">10</text>
+<text x="450" y="418" font-size="10" fill="#7b241c" font-weight="bold">大次之山</text>
+<circle cx="407" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="403" y="406" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="389" y="391" font-size="10" fill="#7b241c" font-weight="bold">薰吳之山</text>
+<circle cx="346" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="342" y="406" font-size="9" fill="#fff" font-weight="bold">12</text>
+<text x="328" y="418" font-size="10" fill="#7b241c" font-weight="bold">厎陽之山</text>
+<circle cx="308" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="304" y="406" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="290" y="391" font-size="10" fill="#7b241c" font-weight="bold">眾獸之山</text>
+<circle cx="231" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="227" y="406" font-size="9" fill="#fff" font-weight="bold">14</text>
+<text x="213" y="418" font-size="10" fill="#7b241c" font-weight="bold">皇人之山</text>
+<circle cx="185" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="181" y="406" font-size="9" fill="#fff" font-weight="bold">15</text>
+<text x="167" y="391" font-size="10" fill="#7b241c" font-weight="bold">中皇之山</text>
+<circle cx="132" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="128" y="406" font-size="9" fill="#fff" font-weight="bold">16</text>
+<text x="114" y="418" font-size="10" fill="#7b241c" font-weight="bold">西皇之山</text>
+<circle cx="78" cy="402" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="74" y="406" font-size="9" fill="#fff" font-weight="bold">17</text>
+<text x="60" y="391" font-size="10" fill="#7b241c" font-weight="bold">萊山</text>
+<text x="156" y="178" font-size="9" fill="#8a7d5f">青藏高原（藏南谷地）</text>
+<text x="425" y="591" font-size="9" fill="#5a7a3a">恆河平原</text>
+<text x="375" y="490" font-size="9" fill="#5a7a3a">特萊帶（山麓沖積林帶——犀牛/楠樟/沼鹿生態帶）</text>
+<text x="841" y="426" font-size="9" fill="#5a7a3a">東段：東/南注河·渭（恆河系統）→</text>
+<text x="137" y="426" font-size="9" fill="#8a4a2a">← 西段：西注赤水（印度河系統）</text>
+<text x="722" y="490" font-size="9" fill="#8e44ad">紫圈＝水系轉向點（東西分水）</text>
+<rect x="257" y="385" width="6" height="6" fill="#34495e"/>
+<text x="265" y="384" font-size="9" fill="#34495e">德里</text>
+<rect x="569" y="447" width="6" height="6" fill="#34495e"/>
+<text x="577" y="446" font-size="9" fill="#34495e">加德滿都</text>
+<rect x="734" y="464" width="6" height="6" fill="#34495e"/>
+<text x="742" y="463" font-size="9" fill="#34495e">廷布</text>
+<rect x="682" y="494" width="6" height="6" fill="#34495e"/>
+<text x="690" y="493" font-size="9" fill="#34495e">大吉嶺</text>
+<rect x="415" y="212" width="6" height="6" fill="#34495e"/>
+<text x="423" y="211" font-size="9" fill="#34495e">岡仁波齊</text>
+<rect x="256" y="210" width="6" height="6" fill="#34495e"/>
+<text x="264" y="209" font-size="9" fill="#34495e">西姆拉</text>
+</g>
+<line x1="137" y1="640" x2="137" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="129" y="656" font-size="9" fill="#999">74°E</text>
+<line x1="214" y1="640" x2="214" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="206" y="656" font-size="9" fill="#999">76°E</text>
+<line x1="291" y1="640" x2="291" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="283" y="656" font-size="9" fill="#999">78°E</text>
+<line x1="368" y1="640" x2="368" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="360" y="656" font-size="9" fill="#999">80°E</text>
+<line x1="445" y1="640" x2="445" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="437" y="656" font-size="9" fill="#999">82°E</text>
+<line x1="522" y1="640" x2="522" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="514" y="656" font-size="9" fill="#999">84°E</text>
+<line x1="598" y1="640" x2="598" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="590" y="656" font-size="9" fill="#999">86°E</text>
+<line x1="675" y1="640" x2="675" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="667" y="656" font-size="9" fill="#999">88°E</text>
+<line x1="752" y1="640" x2="752" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="744" y="656" font-size="9" fill="#999">90°E</text>
+<line x1="829" y1="640" x2="829" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="821" y="656" font-size="9" fill="#999">92°E</text>
+<line x1="906" y1="640" x2="906" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="898" y="656" font-size="9" fill="#999">94°E</text>
+<line x1="983" y1="640" x2="983" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="975" y="656" font-size="9" fill="#999">96°E</text>
+<line x1="60" y1="570" x2="1060" y2="570" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="573" font-size="9" fill="#999">26°N</text>
+<line x1="60" y1="500" x2="1060" y2="500" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="503" font-size="9" fill="#999">27°N</text>
+<line x1="60" y1="430" x2="1060" y2="430" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="433" font-size="9" fill="#999">28°N</text>
+<line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="363" font-size="9" fill="#999">29°N</text>
+<line x1="60" y1="290" x2="1060" y2="290" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="293" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="220" x2="1060" y2="220" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="223" font-size="9" fill="#999">31°N</text>
+<line x1="60" y1="150" x2="1060" y2="150" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="153" font-size="9" fill="#999">32°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="75" y1="562" x2="391" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="75" y1="558" x2="75" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="67" y="578" font-size="9" fill="#333">0</text>
+<line x1="154" y1="558" x2="154" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="146" y="578" font-size="9" fill="#333">200</text>
+<line x1="233" y1="558" x2="233" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="225" y="578" font-size="9" fill="#333">400</text>
+<line x1="312" y1="558" x2="312" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="304" y="578" font-size="9" fill="#333">600</text>
+<line x1="391" y1="558" x2="391" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="383" y="578" font-size="9" fill="#333">800</text>
+<text x="399" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（17站，紅圈數字＝站序；幾乎純西向）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝東端：鈐山（錨點傳播自開羅）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">現代水體參照（河流）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#8e44ad" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1124" y="188" font-size="11" fill="#444">水系轉向點（東注河渭→西注赤水）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#cfe0b8"/>
+<text x="1124" y="210" font-size="11" fill="#444">特萊帶（山麓沖積林帶）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#a08a5a"/>
+<text x="1124" y="232" font-size="11" fill="#444">喜馬拉雅主脊（簡化示意）</text>
+<rect x="1098" y="245" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="254" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="280" font-size="10" fill="#666">決定性證據＝南亞亞熱帶生物群：鸚鵡（3站）、孔雀候選（5站）、犀牛三見（5/12/13站）、原雞（7站）、葉</text>
+<text x="1090" y="294" font-size="10" fill="#666">猴（9站）、沼鹿（16站）、竹棕檀楠樟。犀牛西界止於印度河——物種鎖定最西位置。</text>
+<text x="1090" y="313" font-size="10" fill="#666">借名警示：河/渭/涇/苕/楚與中國水名同名，後世借名方向。赤水＝印度河候選（同名異水待裁）。伊朗—兩河</text>
+<text x="1090" y="328" font-size="10" fill="#666">空檔（72.5°E→38.4°E）由卷六至十八框架地理承擔（F-0007）。</text>
+<text x="1090" y="362.0" font-size="14" font-weight="bold" fill="#333">17 站 → 現實候選（審核中）</text>
+<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 鈐山</tspan>　→ 錫金—不丹東緣（東端）｜⛰喜馬拉雅·東段</text>
+<text x="1090" y="405" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 㤗冒之山</tspan>　→ 不丹東·白蛇｜⛰喜馬拉雅·不丹東部山麓</text>
+<text x="1090" y="426" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 數歷之山</tspan>　→ 不丹東—錫金·鸚鵡·白珠｜⛰喜馬拉雅·不丹—錫金山麓</text>
+<text x="1090" y="448" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 高山</tspan>　→ 錫金·棕竹·磬石｜⛰喜馬拉雅·錫金段</text>
+<text x="1090" y="469" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 女牀之山</tspan>　→ 尼泊爾東·孔雀候選＋犀牛｜⛰喜馬拉雅·尼泊爾東段山麓</text>
+<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 龍首之山</tspan>　→ 尼泊爾東·苕水｜⛰喜馬拉雅·尼泊爾東部山麓</text>
+<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 鹿臺之山</tspan>　→ 尼泊爾中東·原雞人面化｜⛰喜馬拉雅·尼泊爾中東部山麓</text>
+<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 鳥危之山</tspan>　→ 尼泊爾中·西注赤水（轉向一）｜⛰喜馬拉雅·加德滿都谷地緣</text>
+<text x="1090" y="554" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 小次之山</tspan>　→ 尼中西·葉猴｜⛰喜馬拉雅·尼泊爾中西部山麓</text>
+<text x="1090" y="575" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 大次之山</tspan>　→ 尼泊爾西·羚羊｜⛰喜馬拉雅·尼泊爾西部山麓</text>
+<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 薰吳之山</tspan>　→ 尼西緣·金玉｜⛰喜馬拉雅·尼泊爾西緣山麓</text>
+<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 厎陽之山</tspan>　→ 庫馬盎·楠樟＋犀牛｜⛰喜馬拉雅·庫馬盎山麓</text>
+<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 眾獸之山</tspan>　→ 庫馬盎西·犀牛三見｜⛰喜馬拉雅·庫馬盎西—喜馬偕爾東緣</text>
+<text x="1090" y="660" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 皇人之山</tspan>　→ 喜馬偕爾·皇水西注赤水（轉向二）｜⛰喜馬拉雅·喜馬偕爾山麓</text>
+<text x="1090" y="681" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 中皇之山</tspan>　→ 喜馬偕爾西·蕙棠｜⛰西瓦利克山·喜馬偕爾西—旁遮普東緣</text>
+<text x="1090" y="702" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 西皇之山</tspan>　→ 旁遮普東緣·沼鹿｜⛰西瓦利克山·旁遮普東緣段</text>
+<text x="1090" y="723" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 萊山</tspan>　→ 印度河中游—哈拉帕心臟帶（終點）｜⛰鹽嶺</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：自鈐山（錫金—不丹東緣）沿喜馬拉雅南麓/特萊帶西行——尼泊爾（孔雀候選·犀牛·葉猴·楠樟）、庫馬盎—喜馬偕爾（皇水西注赤水＝印度河），至萊山（印度河中游—哈拉帕心臟</text>
+<text x="60" y="702" font-size="11" fill="#666">帶；犀牛西界止於印度河，物種鎖定最西位置）。</text>
+<text x="60" y="724" font-size="11" fill="#666">腿程合計 4,570 里≈1,759 km（0.385；原文自記 4,140 里，+10.4% 差異待校）。所有對應為競爭假說，時代窗口 4000–1000 BCE；犀牛/沼鹿/葉猴分布後期收縮，退出不作否決。</text>
+</svg>

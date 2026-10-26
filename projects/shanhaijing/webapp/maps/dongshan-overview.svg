@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
+<defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《東山經》概要圖：四子經鏈 時代假想推理 × 現代映射參照</text>
+<text x="60" y="56" font-size="12" fill="#666">東一＝阿巴拉契亞（緬因→佐治亞）｜ 東二＝落基山東麓→大平原→墨西哥灣 ｜ 東三＝加勒比—中美島鏈 ｜ 東四＝灣北岸短鏈 ｜ 食水＝類名共名（F-0011）｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<polyline points="131.4,185.7 145.7,249.1 188.6,312.5 245.7,354.7 317.1,397.0 402.9,460.4 488.6,502.6 560.0,529.1" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="174" y="275" font-size="10" fill="#2f7fbf">太平洋岸（簡化）</text>
+<polyline points="131.4,111.7 231.4,143.4 317.1,185.7 374.3,249.1 402.9,323.0 417.1,397.0" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
+<text x="339" y="223" font-size="10" fill="#a07d1e">落基山（簡化示意）</text>
+<polyline points="860.0,212.1 874.3,238.5 845.7,270.2 817.1,301.9 831.4,333.6 788.6,365.3 760.0,407.5" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
+<text x="824" y="244" font-size="10" fill="#a07d1e">阿巴拉契亞（簡化示意）</text>
+<polyline points="831.4,217.4 860.0,270.2 831.4,333.6 774.3,375.8 760.0,418.1 717.1,381.1 645.7,381.1 574.3,391.7 531.4,428.7 560.0,481.5 617.1,497.4" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="731" y="349" font-size="10" fill="#2f7fbf">大西洋岸—墨西哥灣岸（簡化）</text>
+<polyline points="617.1,497.4 660.0,534.3 702.9,566.0 745.7,592.5 788.6,603.0" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="660" y="522" font-size="10" fill="#2f7fbf">中美地峽海岸</text>
+<polyline points="774.3,449.8 817.1,470.9 860.0,486.8 902.9,502.6" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="810" y="460" font-size="10" fill="#2f7fbf">加勒比島鏈</text>
+<polyline points="631.4,196.2 610.0,249.1 602.9,301.9 617.1,354.7 624.3,386.4" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="586" y="286" font-size="10" fill="#2f7fbf">密西西比河</text>
+<ellipse cx="317" cy="228" rx="86" ry="42" fill="#e2d9c8" opacity="0.35"/>
+<text x="293" y="231" font-size="10" fill="#7a6540">大平原—高寒帶（冬夏有雪群）</text>
+<polyline points="905.7,215.2 905.7,226.2 905.7,237.2 905.7,248.2 905.7,259.3 905.7,273.9 905.7,288.6 905.7,299.6 905.7,310.7 905.7,321.6 905.7,332.6 905.7,343.6" fill="none" stroke="#1e8449" stroke-width="2.6" opacity="0.85"/>
+<circle cx="906" cy="215" r="5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="226" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="237" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="248" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="259" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="274" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="289" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="300" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="311" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="322" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="333" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="344" r="5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
+<circle cx="906" cy="215" r="9" fill="none" stroke="#1e8449" stroke-width="2.5"/>
+<text x="913" y="202" font-size="11" font-weight="bold" fill="#1e8449">東一·樕𧑤鏈</text>
+<polyline points="317.1,117.0 317.1,139.0 293.1,149.3 293.1,178.7 293.1,192.6 293.1,206.6 293.1,217.6 293.1,228.6 293.1,239.5 293.1,253.5 293.1,268.2 293.1,279.2 293.1,290.3 293.1,308.5 293.1,319.5 293.1,337.9 293.1,356.2" fill="none" stroke="#27ae60" stroke-width="2.6" opacity="0.85"/>
+<circle cx="317" cy="117" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="317" cy="139" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="149" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="179" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="193" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="207" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="218" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="229" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="240" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="253" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="268" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="279" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="290" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="309" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="320" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="338" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="293" cy="356" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="317" cy="117" r="9" fill="none" stroke="#27ae60" stroke-width="2.5"/>
+<text x="267" y="103" font-size="11" font-weight="bold" fill="#27ae60">東二·空桑鏈</text>
+<polyline points="681.3,381.8 681.3,411.1 681.3,436.8 681.3,462.5 731.4,462.5 731.4,488.2 731.4,524.8 731.4,557.8 731.4,587.2" fill="none" stroke="#196f3d" stroke-width="2.6" opacity="0.85"/>
+<circle cx="681" cy="382" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="681" cy="411" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="681" cy="437" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="681" cy="462" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="731" cy="462" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="731" cy="488" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="731" cy="525" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="731" cy="558" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="731" cy="587" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="731" cy="587" r="9" fill="none" stroke="#196f3d" stroke-width="2.5"/>
+<text x="663" y="365" font-size="11" font-weight="bold" fill="#196f3d">東三·尸胡鏈</text>
+<polyline points="645.7,373.7 645.7,384.7 645.7,396.5 657.9,404.3 666.0,409.4 674.0,414.6 682.1,409.4 690.1,404.3" fill="none" stroke="#52be80" stroke-width="2.6" opacity="0.85"/>
+<circle cx="646" cy="374" r="5" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="646" cy="385" r="3" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="646" cy="396" r="3" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="658" cy="404" r="3" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="666" cy="409" r="3" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="674" cy="415" r="3" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="682" cy="409" r="3" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="690" cy="404" r="5" fill="#52be80" stroke="#fff" stroke-width="1.2"/>
+<circle cx="646" cy="374" r="9" fill="none" stroke="#52be80" stroke-width="2.5"/>
+<text x="581" y="367" font-size="11" font-weight="bold" fill="#52be80">東四·北號鏈</text>
+<text x="89" y="619" font-size="9" fill="#8e44ad">食水共名（F-0011 類名）：東一＝聖勞倫斯河／東二＝北薩斯喀徹溫河／東四＝灣岸東向河</text>
+<text x="203" y="397" font-size="9" fill="#196f3d">犰狳主讀＝負鼠（裝死行為＋育兒袋「蛇尾」誤記候選）</text>
+<text x="631" y="561" font-size="9" fill="#666">瑪雅前古典期（2000 BCE 起）在窗口內；北美 Archaic 期相容</text>
+<rect x="857" y="260" width="6" height="6" fill="#34495e"/>
+<text x="865" y="259" font-size="9" fill="#34495e">紐約</text>
+<rect x="414" y="270" width="6" height="6" fill="#34495e"/>
+<text x="422" y="269" font-size="9" fill="#34495e">丹佛</text>
+<rect x="498" y="485" width="6" height="6" fill="#34495e"/>
+<text x="506" y="484" font-size="9" fill="#34495e">墨西哥城</text>
+<rect x="627" y="373" width="6" height="6" fill="#34495e"/>
+<text x="635" y="372" font-size="9" fill="#34495e">新奧爾良</text>
+</g>
+<line x1="203" y1="640" x2="203" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="195" y="656" font-size="9" fill="#999">-120°W</text>
+<line x1="346" y1="640" x2="346" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="338" y="656" font-size="9" fill="#999">-110°W</text>
+<line x1="489" y1="640" x2="489" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="481" y="656" font-size="9" fill="#999">-100°W</text>
+<line x1="631" y1="640" x2="631" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="623" y="656" font-size="9" fill="#999">-90°W</text>
+<line x1="774" y1="640" x2="774" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="766" y="656" font-size="9" fill="#999">-80°W</text>
+<line x1="917" y1="640" x2="917" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="909" y="656" font-size="9" fill="#999">-70°W</text>
+<line x1="60" y1="587" x2="1060" y2="587" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="590" font-size="9" fill="#999">10°N</text>
+<line x1="60" y1="534" x2="1060" y2="534" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="537" font-size="9" fill="#999">15°N</text>
+<line x1="60" y1="482" x2="1060" y2="482" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="485" font-size="9" fill="#999">20°N</text>
+<line x1="60" y1="429" x2="1060" y2="429" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="432" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="376" x2="1060" y2="376" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="379" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="323" x2="1060" y2="323" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="326" font-size="9" fill="#999">35°N</text>
+<line x1="60" y1="270" x2="1060" y2="270" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="273" font-size="9" fill="#999">40°N</text>
+<line x1="60" y1="217" x2="1060" y2="217" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="220" font-size="9" fill="#999">45°N</text>
+<line x1="60" y1="165" x2="1060" y2="165" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="168" font-size="9" fill="#999">50°N</text>
+<line x1="60" y1="112" x2="1060" y2="112" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="115" font-size="9" fill="#999">55°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="421" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="195" y1="558" x2="195" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="187" y="578" font-size="9" fill="#333">500</text>
+<line x1="271" y1="558" x2="271" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="263" y="578" font-size="9" fill="#333">1000</text>
+<line x1="346" y1="558" x2="346" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="338" y="578" font-size="9" fill="#333">1500</text>
+<line x1="421" y1="558" x2="421" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="413" y="578" font-size="9" fill="#333">2000</text>
+<text x="429" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#1e8449" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">子經里程鏈（綠系＝東山經 4 鏈）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝起點/終點錨</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">現代河流/海岸參照</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#a07d1e" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">現代山系（簡化示意）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#e2d9c8"/>
+<text x="1124" y="210" font-size="11" fill="#444">平原—高寒候選帶</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">東一「食水出焉」與東二「北臨食水」共享食水類名——首經在次二經之東（發起人裁定：邏輯方向符合）。</text>
+<text x="1090" y="276" font-size="10" fill="#666">東二里程自記 vs 腿程偏差最大（大平原迂迴記 variant）；東三水行島鏈里程與 F-0008 陸行層累分開記。</text>
+<text x="1090" y="295" font-size="10" fill="#666">全部四鏈經緯度已核對（避免張冠李戴）：東一 33–45°N/70.8°W；東二 32–54.5°N/112–113.7°W；東三 1</text>
+<text x="1090" y="310" font-size="10" fill="#666">0–29.4°N/83–86.5°W；東四 26.3–30.2°N/85.9–89°W。</text>
+<text x="1090" y="344.0" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>
+<text x="1090" y="366" font-size="11" fill="#1e8449">東一·樕𧑤鏈（12 站）→ 阿巴拉契亞山系（緬因卡塔丁→佐治亞；食水＝聖勞倫斯河；人身龍首＋犬牲魚…</text>
+<text x="1090" y="387" font-size="11" fill="#27ae60">東二·空桑鏈（17 站）→ 落基山東麓→大平原→墨西哥灣（犰狳主讀＝負鼠·裝死；食水＝北薩斯喀徹溫河…</text>
+<text x="1090" y="408" font-size="11" fill="#196f3d">東三·尸胡鏈（9 站）→ 加勒比—中美島鏈（佛州海峽→巴哈馬→牙買加→哥斯達黎加；蠵龜✓；鱣鮪→大…</text>
+<text x="1090" y="430" font-size="11" fill="#52be80"><tspan font-weight="bold">東四·北號鏈</tspan>（8 站）→ 灣北岸短鏈（路易斯安那—佛州西北；蜚/當康；食水＝灣岸東向河）</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：《東山經》四鏈覆蓋美洲——東一自樕𧑤之山（緬因卡塔丁）沿阿巴拉契亞南行十二站至竹山（佐治亞），食水＝聖勞倫斯河（東北注大西洋）；東二自空桑之山（加拿大落基山東麓</text>
+<text x="60" y="702" font-size="11" fill="#666">）沿東麓—大平原南行十七站至䃌山（墨西哥灣岸），食水＝北薩斯喀徹溫河、黃水＝密蘇里河；東三自尸胡之山（佛州海峽）水行島鏈九站——巴哈馬→古巴東—伊斯帕尼奧拉→牙買加→尼加</text>
+<text x="60" y="718" font-size="11" fill="#666">拉瓜—哥斯達黎加（無皋之山）；東四為灣北岸短鏈八站（北號之山→太山）。</text>
+<text x="60" y="740" font-size="11" fill="#666">概要圖站位＝各子經算術網格（層累已記於各經 variant）；食水＝類名共名（F-0011），共享水體 vs 同名異水待裁。所有對應為競爭假說，時代窗口 4000–1000 BCE；物種讀法按古漢語</text>
+<text x="60" y="756" font-size="11" fill="#666">通用詞義（犰狳＝負鼠主讀；獸身人面＝造像/泛化）。</text>
+</svg>

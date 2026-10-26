@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
+<defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《山海經》卷06·海外南經——適配補丁地圖（book06）</text>
+<text x="60" y="56" font-size="12" fill="#666">區域調查卷：自西南陬至東南陬 · 復用錨定＋區域指向 · 假說A（南弧）與假說B（F-0007吉薩體系）並存 · 4000–1000 BCE</text>
+<g clip-path="url(#mapclip)">
+<polyline points="393.1,189.2 400.1,241.0 404.4,297.0 408.6,346.0" fill="none" stroke="#2e6da4" stroke-width="1.8"/>
+<text x="414" y="276" font-size="10" fill="#2e6da4">尼羅河（西三河水）</text>
+<polyline points="440.3,234.0 431.8,290.0 443.8,360.0 464.9,423.0" fill="none" stroke="#b03a5b" stroke-width="2.0"/>
+<text x="451" y="325" font-size="10" fill="#b03a5b">紅海（西三赤水）</text>
+<polyline points="894.5,257.8 903.7,290.0 914.2,312.4 923.4,326.4" fill="none" stroke="#b03a5b" stroke-width="1.8"/>
+<text x="877" y="249" font-size="10" fill="#b03a5b">紅河（南二赤水方向）</text>
+<ellipse cx="975" cy="486" rx="49" ry="98" fill="#a9cce3" opacity="0.35"/>
+<text x="951" y="489" font-size="10" fill="#7a6540">南海</text>
+<ellipse cx="799" cy="395" rx="42" ry="84" fill="#a9cce3" opacity="0.35"/>
+<text x="775" y="398" font-size="10" fill="#7a6540">孟加拉灣</text>
+<ellipse cx="92" cy="317" rx="18" ry="22" fill="#e2d9c8" opacity="0.35"/>
+<text x="68" y="320" font-size="10" fill="#7a6540">理查特構造（撒哈拉之眼）</text>
+<polyline points="903.7,264.8 912.2,280.2 921.3,280.2 930.7,280.2 940.6,280.2 951.4,280.2 964.8,280.2 978.2,280.2 991.6,280.2 1005.1,280.2 1018.5,280.2 1031.9,280.2 1042.6,280.2 1053.4,280.2 1066.8,280.2 1080.2,280.2 1093.6,280.2" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<polyline points="915.6,273.2 929.0,273.2 942.3,273.2 955.7,273.2 966.4,273.2 977.0,273.2 990.4,273.2 1003.7,273.2 1017.1,273.2 1027.8,273.2 1037.7,273.2 1053.2,273.2 1068.7,273.2" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<polyline points="443.9,230.5 438.0,220.1 430.6,207.4 422.3,193.0 413.9,178.6 408.9,178.6 399.9,178.6 391.9,192.3 381.5,192.3 370.3,192.3 364.6,192.3 354.8,192.3 341.3,192.3 332.9,192.3 327.3,192.3 319.4,192.3 310.9,192.3 305.3,192.3 299.2,192.3 293.8,192.3 283.9,192.3 275.8,192.3 273.0,192.3" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<text x="842" y="227" font-size="9" fill="#8e44ad">假說A：南山經以南—中南半島—南洋群島族群弧</text>
+<text x="268" y="143" font-size="9" fill="#0e7c66">假說B（F-0007）：復用西三吉薩體系</text>
+<text x="870" y="609" font-size="9" fill="#7a6540">南方祝融＝四方神格（神話層，不落地）</text>
+<text x="958" y="567" font-size="9" fill="#b03a5b">葬地＝借名警示</text>
+<text x="64" y="623" font-size="9" fill="#8e44ad">ADJ-002：昆侖虛西移至撒哈拉之眼；本圖西部＝假說B簇</text>
+<circle cx="319" cy="192" r="5.5" fill="#0e7c66" stroke="#fff" stroke-width="1.2"/>
+<text x="306" y="175" font-size="10" font-weight="bold" fill="#0e7c66">畢方鳥</text>
+<rect x="87" y="312" width="10" height="10" fill="none" stroke="#0e7c66" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="64" y="300" font-size="10" font-weight="bold" fill="#0e7c66">昆侖虛</text>
+<rect x="78" y="335" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="64" y="356" font-size="10" font-weight="bold" fill="#8e44ad">青水</text>
+<rect x="115" y="305" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="127" y="293" font-size="10" font-weight="bold" fill="#8e44ad">壽華之野</text>
+<circle cx="904" cy="290" r="5.5" fill="#0e7c66" stroke="#fff" stroke-width="1.2"/>
+<text x="890" y="272" font-size="10" font-weight="bold" fill="#0e7c66">赤水·三株樹</text>
+<rect x="851" y="355" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="864" y="364" font-size="10" font-weight="bold" fill="#8e44ad">結匈國</text>
+<rect x="875" y="306" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="874" y="293" font-size="10" font-weight="bold" fill="#8e44ad">南山</text>
+<rect x="886" y="313" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="894" y="333" font-size="10" font-weight="bold" fill="#8e44ad">比翼鳥</text>
+<rect x="890" y="376" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="903" y="385" font-size="10" font-weight="bold" fill="#8e44ad">羽民國</text>
+<rect x="904" y="397" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="917" y="406" font-size="10" font-weight="bold" fill="#8e44ad">二八神</text>
+<rect x="907" y="425" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="920" y="434" font-size="10" font-weight="bold" fill="#8e44ad">讙頭國</text>
+<rect x="925" y="467" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="938" y="476" font-size="10" font-weight="bold" fill="#8e44ad">厭火國</text>
+<rect x="911" y="282" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="924" y="282" font-size="10" font-weight="bold" fill="#8e44ad">三苗國</text>
+<rect x="918" y="306" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="931" y="315" font-size="10" font-weight="bold" fill="#8e44ad">臷國</text>
+<rect x="928" y="327" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="941" y="336" font-size="10" font-weight="bold" fill="#8e44ad">貫匈國</text>
+<rect x="935" y="348" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="948" y="357" font-size="10" font-weight="bold" fill="#8e44ad">交脛國</text>
+<rect x="942" y="376" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="955" y="385" font-size="10" font-weight="bold" fill="#8e44ad">不死民</text>
+<rect x="949" y="404" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="962" y="413" font-size="10" font-weight="bold" fill="#8e44ad">反舌國</text>
+<rect x="960" y="432" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="973" y="441" font-size="10" font-weight="bold" fill="#8e44ad">三首國</text>
+<rect x="970" y="467" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="983" y="476" font-size="10" font-weight="bold" fill="#8e44ad">周饒國</text>
+<rect x="988" y="495" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="1001" y="504" font-size="10" font-weight="bold" fill="#8e44ad">長臂國</text>
+<rect x="1002" y="530" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="995" y="556" font-size="10" font-weight="bold" fill="#8e44ad">狄山·湯山</text>
+<rect x="893" y="259" width="6" height="6" fill="#34495e"/>
+<text x="901" y="258" font-size="9" fill="#34495e">昆明</text>
+<rect x="877" y="416" width="6" height="6" fill="#34495e"/>
+<text x="885" y="415" font-size="9" fill="#34495e">曼谷</text>
+<rect x="901" y="590" width="6" height="6" fill="#34495e"/>
+<text x="909" y="589" font-size="9" fill="#34495e">新加坡</text>
+</g>
+<line x1="102" y1="640" x2="102" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="94" y="656" font-size="9" fill="#999">-10°W</text>
+<line x1="173" y1="640" x2="173" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="165" y="656" font-size="9" fill="#999">0°E</text>
+<line x1="243" y1="640" x2="243" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="235" y="656" font-size="9" fill="#999">10°E</text>
+<line x1="314" y1="640" x2="314" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="306" y="656" font-size="9" fill="#999">20°E</text>
+<line x1="384" y1="640" x2="384" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="376" y="656" font-size="9" fill="#999">30°E</text>
+<line x1="454" y1="640" x2="454" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="446" y="656" font-size="9" fill="#999">40°E</text>
+<line x1="525" y1="640" x2="525" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="517" y="656" font-size="9" fill="#999">50°E</text>
+<line x1="595" y1="640" x2="595" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="587" y="656" font-size="9" fill="#999">60°E</text>
+<line x1="666" y1="640" x2="666" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="658" y="656" font-size="9" fill="#999">70°E</text>
+<line x1="736" y1="640" x2="736" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="728" y="656" font-size="9" fill="#999">80°E</text>
+<line x1="806" y1="640" x2="806" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="798" y="656" font-size="9" fill="#999">90°E</text>
+<line x1="877" y1="640" x2="877" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="869" y="656" font-size="9" fill="#999">100°E</text>
+<line x1="947" y1="640" x2="947" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="939" y="656" font-size="9" fill="#999">110°E</text>
+<line x1="1018" y1="640" x2="1018" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="1010" y="656" font-size="9" fill="#999">120°E</text>
+<line x1="60" y1="612" x2="1060" y2="612" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="615" font-size="9" fill="#999">0°N</text>
+<line x1="60" y1="542" x2="1060" y2="542" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="545" font-size="9" fill="#999">5°N</text>
+<line x1="60" y1="472" x2="1060" y2="472" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="475" font-size="9" fill="#999">10°N</text>
+<line x1="60" y1="402" x2="1060" y2="402" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="405" font-size="9" fill="#999">15°N</text>
+<line x1="60" y1="332" x2="1060" y2="332" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="335" font-size="9" fill="#999">20°N</text>
+<line x1="60" y1="262" x2="1060" y2="262" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="265" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="192" x2="1060" y2="192" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="195" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="122" x2="1060" y2="122" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="125" font-size="9" fill="#999">35°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="386" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="187" y1="558" x2="187" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="179" y="578" font-size="9" fill="#333">1000</text>
+<line x1="253" y1="558" x2="253" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="245" y="578" font-size="9" fill="#333">2000</text>
+<line x1="320" y1="558" x2="320" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="312" y="578" font-size="9" fill="#333">3000</text>
+<line x1="386" y1="558" x2="386" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="378" y="578" font-size="9" fill="#333">4000</text>
+<text x="394" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<circle cx="1103" cy="118" r="8" fill="#0e7c66"/>
+<text x="1124" y="122" font-size="11" fill="#444">復用山經節點（mapped）</text>
+<rect x="1098" y="135" width="8" height="8" fill="#8e44ad"/>
+<text x="1124" y="144" font-size="11" fill="#444">待定錨／族群指向（pending_anchor·方向性位置）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#b7a98c" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">山經鏈淺灰參照（context）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#2e6da4" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">水系參照：尼羅河（西三河水）</text>
+<line x1="1090" y1="206" x2="1116" y2="206" stroke="#b03a5b" stroke-width="2.5"/>
+<text x="1124" y="210" font-size="11" fill="#444">水系參照：紅海（西三赤水）／紅河（南二赤水）</text>
+<text x="1090" y="236" font-size="10" fill="#666">假說A（本位）：南山經以南調查——中南半島—南洋群島族群弧；赤水復用南二＝紅河方向。</text>
+<text x="1090" y="254" font-size="10" fill="#666">假說B（F-0007）：畢方·青水·壽華復用西三吉薩體系；昆侖虛經 ADJ-002 裁決＝撒哈拉之眼（理查特構造），</text>
+<text x="1090" y="269" font-size="10" fill="#666">已移出吉薩簇。</text>
+<text x="1090" y="288" font-size="10" fill="#666">帝堯/帝嚳/文王葬地＝借名警示；羿殺鑿齒·二八神·祝融＝神話層。</text>
+<text x="1090" y="306" font-size="10" fill="#666">全部映射 proposed_pending_review。</text>
+<text x="1090" y="340.5" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
+<text x="1090" y="362" font-size="11" fill="#0e7c66">畢方鳥 → 復用西三·章莪之山（錫爾特東緣）</text>
+<text x="1090" y="384" font-size="11" fill="#0e7c66">昆侖虛 → ADJ-002＝理查特構造（撒哈拉之眼）主候選；吉薩合併否決</text>
+<text x="1090" y="405" font-size="11" fill="#8e44ad">青水 → 昆侖虛西南隅水（ADJ-002 隨理查特西移）</text>
+<text x="1090" y="426" font-size="11" fill="#8e44ad">壽華之野 → 昆侖虛（理查特）以東原野方向（羿殺鑿齒＝神話層）</text>
+<text x="1090" y="447" font-size="11" fill="#0e7c66">赤水·三株樹 → 復用南二赤水＝紅河方向（共名F-0011）</text>
+<text x="1090" y="468" font-size="11" fill="#8e44ad">結匈國 → 西南陬起點族群（方向性）</text>
+<text x="1090" y="490" font-size="11" fill="#8e44ad">南山 → 待定錨·結匈東南（與西一南山共名）</text>
+<text x="1090" y="511" font-size="11" fill="#8e44ad">比翼鳥 → 新增風物鳥（南山東）</text>
+<text x="1090" y="532" font-size="11" fill="#8e44ad">羽民國 → 羽飾族群（南島方向同域候選）</text>
+<text x="1090" y="553" font-size="11" fill="#8e44ad">二八神 → 司夜神格群（神話層）</text>
+<text x="1090" y="574" font-size="11" fill="#8e44ad">讙頭國 → 漁撈族群（讙朱＝借名警示）</text>
+<text x="1090" y="596" font-size="11" fill="#8e44ad">厭火國 → 火風物族群（火山帶方向候選）</text>
+<text x="1090" y="617" font-size="11" fill="#8e44ad">三苗國 → 赤水東族群（三苗史名借名警示）</text>
+<text x="1090" y="638" font-size="11" fill="#8e44ad">臷國 → 善射族群</text>
+<text x="1090" y="659" font-size="11" fill="#8e44ad">貫匈國 → 胸飾穿孔習俗族群</text>
+<text x="1090" y="681" font-size="11" fill="#8e44ad">交脛國 → 腿部風俗族群</text>
+<text x="1090" y="702" font-size="11" fill="#8e44ad">不死民 → 長壽傳聞族群（黑膚）</text>
+<text x="1090" y="723" font-size="11" fill="#8e44ad">反舌國 → 語俗族群（反/岐/支舌異文）</text>
+<text x="1090" y="744" font-size="11" fill="#8e44ad">三首國 → 多首賦形族群</text>
+<text x="1090" y="765" font-size="11" fill="#8e44ad">周饒國 → 短身冠帶族群（焦僥借名警示）</text>
+<text x="1090" y="787" font-size="11" fill="#8e44ad">長臂國 → 島嶼漁民（東南陬端點）</text>
+<text x="1090" y="808" font-size="11" fill="#8e44ad">狄山·湯山 → 待定錨·葬地借名警示＋范林三百里</text>
+<text x="60" y="686" font-size="11" fill="#666">《海外南經》補丁地圖：自西南陬至東南陬——紫虛方＝待定錨（方向性位置，非精確坐標）；綠點＝復用五臧山經節點；淺灰線＝南二/南三/西三山經鏈參照。</text>
+<text x="60" y="708" font-size="11" fill="#666">雙假說並圖：東部族群弧（假說A）＋西部吉薩復用簇（假說B·F-0007）；葬地/譜系名＝借名警示。生成 2026-10-25；全部映射 proposed_pending_review。</text>
+</svg>

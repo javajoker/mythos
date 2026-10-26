@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次二經》（濟山之首）時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-zhongci2-1 ｜ 起點拓撲錨：煇諸之山＝洛陽南—伊洛盆地南緣（單受水：伊水→洛）｜ 里程層累≈4×（原始腿程展開）｜ 全部 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<polyline points="-951.6,266.7 -777.2,320.0 -602.8,160.0 -486.5,-0.0 -335.3,-80.0 -195.8,-120.0 -102.8,-133.3 -33.0,-240.0 36.7,-453.3 106.5,-613.3 176.3,-773.3 257.7,-933.3 315.8,-1093.3 432.1,-1253.3 560.0,-1306.7 664.7,-1306.7 746.0,-1253.3 804.2,-1173.3 804.2,-986.7 769.3,-773.3 722.8,-533.3 699.5,-293.3 682.1,-53.3 676.3,160.0 682.1,266.7 734.4,240.0 827.4,213.3 943.7,200.0 1048.4,186.7 1153.0,160.0 1257.7,80.0 1350.7,-0.0 1432.1,-186.7 1501.9,-373.3 1571.6,-480.0 1641.4,-533.3" fill="none" stroke="#c89a2e" stroke-width="2.4"/>
+<polyline points="-56.3,226.7 94.9,240.0 246.0,280.0 385.6,293.3 525.1,306.7 641.4,293.3 682.1,261.3" fill="none" stroke="#2f7fbf" stroke-width="2.0"/>
+<text x="223" y="235" font-size="10" fill="#2f7fbf">渭河</text>
+<polyline points="629.8,400.0 722.8,360.0 804.2,320.0 885.6,280.0 955.3,261.3 1013.5,245.3" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="769" y="387" font-size="10" fill="#2f7fbf">洛河（洛——借名標記）</text>
+<polyline points="769.3,480.0 827.4,400.0 891.4,306.7 943.7,266.7" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
+<text x="793" y="453" font-size="10" fill="#2f7fbf">伊河（伊水——借名標記）</text>
+<polyline points="885.6,-826.7 908.8,-613.3 850.7,-426.7 792.6,-133.3 728.6,-0.0 693.7,106.7" fill="none" stroke="#2f7fbf" stroke-width="1.6"/>
+<ellipse cx="827" cy="533" rx="116" ry="107" fill="#c9b18a" opacity="0.4"/>
+<text x="803" y="536" font-size="10" fill="#7a6540">伏牛山</text>
+<ellipse cx="781" cy="373" rx="58" ry="80" fill="#c9b18a" opacity="0.4"/>
+<text x="757" y="376" font-size="10" fill="#7a6540">熊耳山</text>
+<polyline points="908.8,280.0 840.2,410.7 693.7,410.7 547.2,410.7 400.7,410.7 303.0,410.7 243.7,410.7 170.5,410.7 112.3,410.7" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="909" cy="280" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="905" y="284" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="891" y="260" font-size="10" fill="#7b241c" font-weight="bold">煇諸之山</text>
+<circle cx="840" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="836" y="415" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="822" y="427" font-size="10" fill="#7b241c" font-weight="bold">發視之山</text>
+<circle cx="694" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="690" y="415" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="676" y="400" font-size="10" fill="#7b241c" font-weight="bold">豪山</text>
+<circle cx="547" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="543" y="415" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="529" y="427" font-size="10" fill="#7b241c" font-weight="bold">鮮山</text>
+<circle cx="401" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="397" y="415" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="383" y="400" font-size="10" fill="#7b241c" font-weight="bold">陽山</text>
+<circle cx="303" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="299" y="415" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="285" y="427" font-size="10" fill="#7b241c" font-weight="bold">昆吾之山</text>
+<circle cx="244" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="240" y="415" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="226" y="400" font-size="10" fill="#7b241c" font-weight="bold">葌山</text>
+<circle cx="170" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="166" y="415" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="152" y="427" font-size="10" fill="#7b241c" font-weight="bold">獨蘇之山</text>
+<circle cx="112" cy="411" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="108" y="415" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="94" y="400" font-size="10" fill="#7b241c" font-weight="bold">蔓渠之山</text>
+<text x="688" y="560" font-size="9" fill="#8e44ad">單受水扇形：全鏈溪流同注伊水→洛（伊河上游南向支流帶）</text>
+<text x="886" y="293" font-size="9" fill="#7a6540">鶡＝褐馬雞（豫西—晉南標誌物種）</text>
+<rect x="900" y="258" width="6" height="6" fill="#34495e"/>
+<text x="908" y="257" font-size="9" fill="#34495e">洛陽</text>
+<rect x="857" y="389" width="6" height="6" fill="#34495e"/>
+<text x="865" y="388" font-size="9" fill="#34495e">嵩縣</text>
+<rect x="801" y="482" width="6" height="6" fill="#34495e"/>
+<text x="809" y="481" font-size="9" fill="#34495e">欒川</text>
+</g>
+<line x1="153" y1="640" x2="153" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="145" y="656" font-size="9" fill="#999">106°E</text>
+<line x1="386" y1="640" x2="386" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="378" y="656" font-size="9" fill="#999">108°E</text>
+<line x1="618" y1="640" x2="618" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="610" y="656" font-size="9" fill="#999">110°E</text>
+<line x1="851" y1="640" x2="851" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="843" y="656" font-size="9" fill="#999">112°E</text>
+<line x1="60" y1="560" x2="1060" y2="560" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="563" font-size="9" fill="#999">33.5°N</text>
+<line x1="60" y1="427" x2="1060" y2="427" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="430" font-size="9" fill="#999">34°N</text>
+<line x1="60" y1="293" x2="1060" y2="293" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="296" font-size="9" fill="#999">34.5°N</text>
+<line x1="60" y1="160" x2="1060" y2="160" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="163" font-size="9" fill="#999">35°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="373" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="183" y1="558" x2="183" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="175" y="578" font-size="9" fill="#333">50</text>
+<line x1="246" y1="558" x2="246" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="238" y="578" font-size="9" fill="#333">100</text>
+<line x1="310" y1="558" x2="310" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="302" y="578" font-size="9" fill="#333">150</text>
+<line x1="373" y1="558" x2="373" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="365" y="578" font-size="9" fill="#333">200</text>
+<text x="381" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（9站；原始腿程展開——層累≈4×）</text>
+<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
+<text x="1124" y="144" font-size="11" fill="#444">大圈＝起點拓撲錨（煇諸之山）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#c89a2e" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">黃河（現代參照）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">伊/洛河（現代參照；借名標記）</text>
+<rect x="1098" y="201" width="8" height="8" fill="#c9b18a"/>
+<text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：煇諸之山＋全鏈單受水（伊水→洛）扇形——不依昆吾等同名。</text>
+<text x="1090" y="276" font-size="10" fill="#666">里程層累 4×——範圍以水系拓扑為主。</text>
+<text x="1090" y="295" font-size="10" fill="#666">神皆人面鳥身（神群記錄）。</text>
+<text x="1090" y="329.5" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
+<text x="1090" y="352" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 煇諸之山</tspan>　→ 洛陽南—伊洛盆地南緣（起點錨；桑·麂·褐馬雞）｜⛰萬安山</text>
+<text x="1090" y="373" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 發視之山</tspan>　→ 嵩縣方向（金玉·砥礪；即魚之水西注伊）｜⛰伏牛山·北麓嵩縣段</text>
+<text x="1090" y="394" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 豪山</tspan>　→ 嵩縣—欒川方向（金玉裸岩）｜⛰伏牛山·北麓嵩縣—欒川段</text>
+<text x="1090" y="415" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 鮮山</tspan>　→ 欒川方向（鮮水北注伊；鳴蛇→大旱）｜⛰伏牛山·欒川段</text>
+<text x="1090" y="436" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 陽山</tspan>　→ 欒川西方向（陽水北注伊；化蛇→大水）｜⛰伏牛山·欒川西段</text>
+<text x="1090" y="457" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 昆吾之山</tspan>　→ 伏牛山方向（赤銅；蠪蛭；借名）｜⛰伏牛山·欒川—西峽段</text>
+<text x="1090" y="479" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 葌山</tspan>　→ 伏牛山方向（葌水北注伊；青雄黃·芒草毒魚）｜⛰伏牛山·西峽段</text>
+<text x="1090" y="500" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 獨蘇之山</tspan>　→ 伏牛山西方向（無草木多水）｜⛰伏牛山·西段老界嶺方向</text>
+<text x="1090" y="521" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 蔓渠之山</tspan>　→ 伏牛山西緣·伊水源（東注洛；馬腹）｜⛰伏牛山·伊河源區</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：自煇諸之山（洛陽南，桑＋麂＋褐馬雞）西南行入伊河上游南向支流帶——發視（金玉砥礪）→豪山→鮮山（鳴蛇→大旱）→陽山（化蛇→大水）→昆吾（赤銅，借名）→葌山（青雄</text>
+<text x="60" y="702" font-size="11" fill="#666">黃·芒草毒魚）→獨蘇（多水）→蔓渠（伊水之源，東注洛；馬腹食人）。</text>
+<text x="60" y="724" font-size="11" fill="#666">腿程 1,690 里≈650 km（0.385）vs 洛陽—欒川實距約 150 km——層累≈4×（F-0008 上限）；總結 1,670 里異文（+20 里）。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
+</svg>

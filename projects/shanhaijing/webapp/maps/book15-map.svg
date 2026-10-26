@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
+<defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《大荒南經》（卷15）補丁地圖 — 華南—南海—南島方向</text>
+<text x="60" y="56" font-size="12" fill="#666">框架書區域調查：復用錨定（赤水=南二紅河方向 / 黑水·南海=南三 / 成山=南二南嶺 / 巫山=中九鏈三峽方向）＋待錨指向 | 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<ellipse cx="588" cy="453" rx="250" ry="124" fill="#bcd6e8" opacity="0.35"/>
+<text x="564" y="456" font-size="10" fill="#7a6540">南海</text>
+<polyline points="337.8,291.6 365.6,310.2 393.3,324.2 415.6,347.6" fill="none" stroke="#7f9ec9" stroke-width="1.6"/>
+<text x="371" y="329" font-size="10" fill="#7f9ec9">紅河下游方向</text>
+<polyline points="462.8,305.6 512.8,325.8 546.1,307.1 596.1,294.7 648.9,288.4 698.9,276.0 754.4,257.3 798.9,235.6" fill="none" stroke="#8a9a7b" stroke-width="1.6"/>
+<text x="688" y="254" font-size="10" fill="#8a9a7b">南海北岸（示意）</text>
+<polyline points="332.2,254.2 365.8,271.3 401.9,271.3 438.9,271.3 478.1,271.3 520.6,271.3 573.3,271.3 626.4,271.3 679.2,271.3 732.2,271.3 785.0,271.3 838.1,271.3 880.3,271.3 922.8,271.3 975.6,271.3 1028.6,271.3 1081.4,271.3" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<polyline points="379.4,263.6 432.2,263.6 484.7,263.6 537.5,263.6 579.7,263.6 621.7,263.6 674.4,263.6 726.9,263.6 779.7,263.6 821.9,263.6 860.8,263.6 921.9,263.6 983.1,263.6" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<text x="129" y="103" font-size="9" fill="#8e44ad">借名警示區：蒼梧·岳山（帝系葬地層累，後世命名不反證）</text>
+<text x="129" y="122" font-size="9" fill="#16a085">藥草—長生母題群：巫山(帝藥)—雲雨(取藥)—不死國(甘木)</text>
+<text x="129" y="141" font-size="9" fill="#8e44ad">鳥圖騰族群鏈：羽民—卵民—驩頭—鳥喙人（南島方向）</text>
+<circle cx="327" cy="282" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="252" y="273" font-size="10" font-weight="bold" fill="#c0392b">赤水（復用南二·紅河方向）</text>
+<rect x="236" y="223" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="82" y="217" font-size="10" font-weight="bold" fill="#c0392b">汜天之山（赤水窮焉·待錨）</text>
+<circle cx="532" cy="298" r="5.5" fill="#2c3e50" stroke="#fff" stroke-width="1.2"/>
+<text x="402" y="310" font-size="10" font-weight="bold" fill="#2c3e50">黑水（復用南三·南流注海）</text>
+<circle cx="585" cy="246" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="599" y="231" font-size="10" font-weight="bold" fill="#c0392b">成山（復用南二·南嶺中段）</text>
+<circle cx="504" cy="158" r="5.5" fill="#16a085" stroke="#fff" stroke-width="1.2"/>
+<text x="346" y="148" font-size="10" font-weight="bold" fill="#16a085">巫山（復用中九鏈·三峽方向）</text>
+<rect x="541" y="257" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="560" y="278" font-size="10" font-weight="bold" fill="#8e44ad">蒼梧之野（待錨·借名警示）</text>
+<rect x="133" y="285" width="10" height="10" fill="none" stroke="#b7950b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="77" y="304" font-size="10" font-weight="bold" fill="#b7950b">流沙（待錨·赤水以西）</text>
+<rect x="430" y="347" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="288" y="360" font-size="10" font-weight="bold" fill="#8e44ad">三身之國（新增）</text>
+<circle cx="393" cy="321" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="241" y="326" font-size="10" font-weight="bold" fill="#8e44ad">臷民之國（新增·百穀所聚）</text>
+<circle cx="754" cy="414" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="768" y="397" font-size="10" font-weight="bold" fill="#8e44ad">羽民之國（新增）</text>
+<circle cx="685" cy="477" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="699" y="463" font-size="10" font-weight="bold" fill="#8e44ad">卵民之國（新增）</text>
+<rect x="597" y="495" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="477" y="512" font-size="10" font-weight="bold" fill="#8e44ad">不死之國（新增·甘木）</text>
+<rect x="652" y="378" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="541" y="391" font-size="10" font-weight="bold" fill="#8e44ad">驩頭之國（新增·食海中魚）</text>
+<rect x="791" y="363" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="810" y="354" font-size="10" font-weight="bold" fill="#8e44ad">張弘之國（新增·海中食魚）</text>
+<rect x="347" y="394" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="235" y="407" font-size="10" font-weight="bold" fill="#8e44ad">焦僥之國（新增·小人）</text>
+<rect x="847" y="441" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="866" y="433" font-size="10" font-weight="bold" fill="#8e44ad">菌人（新增·小人）</text>
+<rect x="888" y="332" width="10" height="10" fill="none" stroke="#d35400" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="824" y="320" font-size="10" font-weight="bold" fill="#d35400">羲和之國·甘淵（新增·神話層）</text>
+<rect x="597" y="223" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="616" y="212" font-size="10" font-weight="bold" fill="#8e44ad">岳山（待錨·借名警示）</text>
+<rect x="486" y="335" width="10" height="10" fill="none" stroke="#2e86c1" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="360" y="343" font-size="10" font-weight="bold" fill="#2e86c1">融天山（待錨·海水南入）</text>
+<rect x="777" y="223" width="10" height="10" fill="none" stroke="#2e86c1" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="796" y="211" font-size="10" font-weight="bold" fill="#2e86c1">天臺山（待錨·海水南入）</text>
+<rect x="458" y="273" width="10" height="10" fill="none" stroke="#16a085" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="343" y="267" font-size="10" font-weight="bold" fill="#16a085">雲雨之山（待錨·群帝取藥）</text>
+<rect x="361" y="371" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="238" y="382" font-size="10" font-weight="bold" fill="#8e44ad">南類之山（待錨·百穀所在）</text>
+<rect x="499" y="596" width="10" height="10" fill="none" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="377" y="609" font-size="10" font-weight="bold" fill="#7f8c8d">南極（待錨·因乎出入風）</text>
+<rect x="624" y="448" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="643" y="439" font-size="10" font-weight="bold" fill="#8e44ad">不廷胡余（新增·南海渚中神）</text>
+<rect x="593" y="278" width="6" height="6" fill="#34495e"/>
+<text x="601" y="277" font-size="9" fill="#34495e">廣州</text>
+<rect x="385" y="310" width="6" height="6" fill="#34495e"/>
+<text x="393" y="309" font-size="9" fill="#34495e">河內</text>
+<rect x="510" y="326" width="6" height="6" fill="#34495e"/>
+<text x="518" y="325" font-size="9" fill="#34495e">海口</text>
+<rect x="807" y="410" width="6" height="6" fill="#34495e"/>
+<text x="815" y="409" font-size="9" fill="#34495e">馬尼拉</text>
+</g>
+<line x1="88" y1="640" x2="88" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="80" y="656" font-size="9" fill="#999">95°E</text>
+<line x1="227" y1="640" x2="227" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="219" y="656" font-size="9" fill="#999">100°E</text>
+<line x1="366" y1="640" x2="366" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="358" y="656" font-size="9" fill="#999">105°E</text>
+<line x1="504" y1="640" x2="504" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="496" y="656" font-size="9" fill="#999">110°E</text>
+<line x1="643" y1="640" x2="643" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="635" y="656" font-size="9" fill="#999">115°E</text>
+<line x1="782" y1="640" x2="782" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="774" y="656" font-size="9" fill="#999">120°E</text>
+<line x1="921" y1="640" x2="921" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="913" y="656" font-size="9" fill="#999">125°E</text>
+<line x1="60" y1="562" x2="1060" y2="562" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="565" font-size="9" fill="#999">5°N</text>
+<line x1="60" y1="484" x2="1060" y2="484" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="487" font-size="9" fill="#999">10°N</text>
+<line x1="60" y1="407" x2="1060" y2="407" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="410" font-size="9" fill="#999">15°N</text>
+<line x1="60" y1="329" x2="1060" y2="329" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="332" font-size="9" fill="#999">20°N</text>
+<line x1="60" y1="251" x2="1060" y2="251" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="254" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="173" x2="1060" y2="173" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="176" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="96" x2="1060" y2="96" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="99" font-size="9" fill="#999">35°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="330" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="172" y1="558" x2="172" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="164" y="578" font-size="9" fill="#333">200</text>
+<line x1="225" y1="558" x2="225" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="217" y="578" font-size="9" fill="#333">400</text>
+<line x1="277" y1="558" x2="277" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="269" y="578" font-size="9" fill="#333">600</text>
+<line x1="330" y1="558" x2="330" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="322" y="578" font-size="9" fill="#333">800</text>
+<text x="338" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<circle cx="1103" cy="118" r="8" fill="#c0392b"/>
+<text x="1124" y="122" font-size="11" fill="#444">復用錨（山經節點）</text>
+<line x1="1090" y1="140" x2="1116" y2="140" stroke="#8e44ad" stroke-width="2.5"/>
+<text x="1124" y="144" font-size="11" fill="#444">新增族群/神格（待錨或區域）</text>
+<line x1="1090" y1="162" x2="1116" y2="162" stroke="#2e86c1" stroke-width="2.5"/>
+<text x="1124" y="166" font-size="11" fill="#444">海岸山地（海水南入）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#16a085" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">藥草—長生母題</text>
+<line x1="1090" y1="206" x2="1116" y2="206" stroke="#b7950b" stroke-width="2.5"/>
+<text x="1124" y="210" font-size="11" fill="#444">流沙（方向性待錨）</text>
+<line x1="1090" y1="228" x2="1116" y2="228" stroke="#7f8c8d" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1124" y="232" font-size="11" fill="#444">四極框架（南極風神）</text>
+<line x1="1090" y1="250" x2="1116" y2="250" stroke="#b7a98c" stroke-width="2.5"/>
+<text x="1124" y="254" font-size="11" fill="#444">南二/南三山經鏈（淺灰參照）</text>
+<text x="1090" y="280" font-size="10" fill="#666">框架書方法：本卷無里程鏈，以復用錨定＋區域指向組織。復用 5 項：赤水（南二·紅河方向）、黑水（南三·南</text>
+<text x="1090" y="294" font-size="10" fill="#666">流注海）、南海（南三受水）、成山（南二·南嶺中段）、巫山（中九鏈·三峽方向，鏈級對齊低置信）。</text>
+<text x="1090" y="313" font-size="10" fill="#666">待錨 48 項：山群（不姜/賈/言/登備/恝恝/蒲/隗/尾/翠等）＋水系（榮水/汔水/澧水/漂水/甘水/青水/白水等</text>
+<text x="1090" y="328" font-size="10" fill="#666">）＋蒼梧之野/流沙/岳山等，方向性候選詳 mappings，未編造坐標。</text>
+<text x="1090" y="346" font-size="10" fill="#666">新增 44 項：族群（三身/羽民/卵民/盈民/不死/季釐/臷民/蜮民/焦僥/伯服/鼬姓/張弘/驩頭/羲和/菌人等）＋</text>
+<text x="1090" y="360" font-size="10" fill="#666">神格（不廷胡余/因因乎/羲和）＋風物（視肉/三騅/甘木/欒木/楓木等）。</text>
+<text x="1090" y="379" font-size="10" fill="#666">借名警示：蒼梧（舜與叔均葬）、岳山（堯嚳舜葬——與蒼梧舜葬多說並存）、從淵（舜浴）、雲雨（禹攻）、楓</text>
+<text x="1090" y="394" font-size="10" fill="#666">木（蚩尤）、鑿齒（羿殺）——帝系層累，後世命名不反證。</text>
+<text x="1090" y="412" font-size="10" fill="#666">共名/同名異實：赤水·黑水·流沙（西三/北一/東三系統）·甘水（中四）·澧水（東二/中十一）·翠山（西一）—</text>
+<text x="1090" y="426" font-size="10" fill="#666">—雙假說並存，本層不裁決。</text>
+<text x="1090" y="461.0" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
+<text x="1090" y="483" font-size="9.5" fill="#c0392b">赤水（復用南二·紅河方向） → 紅河水系方向</text>
+<text x="1090" y="500" font-size="9.5" fill="#c0392b">汜天之山（赤水窮焉·待錨） → 赤水上源方向</text>
+<text x="1090" y="518" font-size="9.5" fill="#2c3e50">黑水（復用南三·南流注海） → 南三黑水</text>
+<text x="1090" y="536" font-size="9.5" fill="#c0392b">成山（復用南二·南嶺中段） → 南嶺中段方向</text>
+<text x="1090" y="553" font-size="9.5" fill="#16a085">巫山（復用中九鏈·三峽方向） → 帝藥八齋·鏈級對齊</text>
+<text x="1090" y="570" font-size="9.5" fill="#8e44ad">蒼梧之野（待錨·借名警示） → 舜與叔均葬=層累</text>
+<text x="1090" y="588" font-size="9.5" fill="#b7950b">流沙（待錨·赤水以西） → 滇西—緬北方向</text>
+<text x="1090" y="606" font-size="9.5" fill="#8e44ad">三身之國（新增） → 姚姓黍食使四鳥</text>
+<text x="1090" y="623" font-size="9.5" fill="#8e44ad">臷民之國（新增·百穀所聚） → 豐饒母題</text>
+<text x="1090" y="640" font-size="9.5" fill="#8e44ad">羽民之國（新增） → 南島族群方向</text>
+<text x="1090" y="658" font-size="9.5" fill="#8e44ad">卵民之國（新增） → 卵生族源</text>
+<text x="1090" y="676" font-size="9.5" fill="#8e44ad">不死之國（新增·甘木） → 長生母題</text>
+<text x="1362" y="483" font-size="9.5" fill="#8e44ad">驩頭之國（新增·食海中魚） → 卷6讙頭同母題</text>
+<text x="1362" y="500" font-size="9.5" fill="#8e44ad">張弘之國（新增·海中食魚） → 使四鳥</text>
+<text x="1362" y="518" font-size="9.5" fill="#8e44ad">焦僥之國（新增·小人） → 幾姓嘉穀</text>
+<text x="1362" y="536" font-size="9.5" fill="#8e44ad">菌人（新增·小人） → 小人母題</text>
+<text x="1362" y="553" font-size="9.5" fill="#d35400">羲和之國·甘淵（新增·神話層） → 浴日生十日</text>
+<text x="1362" y="570" font-size="9.5" fill="#8e44ad">岳山（待錨·借名警示） → 堯嚳舜葬=層累</text>
+<text x="1362" y="588" font-size="9.5" fill="#2e86c1">融天山（待錨·海水南入） → 海岸海侵記錄</text>
+<text x="1362" y="606" font-size="9.5" fill="#2e86c1">天臺山（待錨·海水南入） → 東南海岸方向</text>
+<text x="1362" y="623" font-size="9.5" fill="#16a085">雲雨之山（待錨·群帝取藥） → 禹攻=借名</text>
+<text x="1362" y="640" font-size="9.5" fill="#8e44ad">南類之山（待錨·百穀所在） → 全卷收尾豐饒山</text>
+<text x="1362" y="658" font-size="9.5" fill="#7f8c8d">南極（待錨·因乎出入風） → 四方風神·南方</text>
+<text x="1362" y="676" font-size="9.5" fill="#8e44ad">不廷胡余（新增·南海渚中神） → 珥蛇踐蛇</text>
+<text x="60" y="686" font-size="11" fill="#666">《大荒南經》33 條：地理提及零遺漏（97 條映射記錄：復用 5 / 待錨 48 / 新增 44）。窗口 94–130°E, 0–36°N。</text>
+<text x="60" y="708" font-size="11" fill="#666">方向性判讀：赤水=紅河方向（西）、南嶺—三峽=內陸北緣、南海—南島=族群與神話層主場。全部映射 proposed_pending_review，待審核。</text>
+</svg>

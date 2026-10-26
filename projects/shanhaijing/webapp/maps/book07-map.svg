@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
+<defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《海外西經》（卷七）時代假想推理 × 現代映射參照圖</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-book07-1 ｜ 硬錨：軒轅之丘＝西三復用（大沙海北緣丘台）｜ 走向：努比亞—利比亞沙漠綠洲帶→昔蘭尼加—中地中海西北岸（方向性假設）｜ 全部映射 proposed_pending_review</text>
+<g clip-path="url(#mapclip)">
+<polyline points="792.4,379.4 783.5,344.9 774.7,316.9 760.0,284.6 742.4,252.3 733.5,224.3" fill="none" stroke="#2f7fbf" stroke-width="2.0"/>
+<text x="781" y="306" font-size="10" fill="#2f7fbf">尼羅河（現代參照）</text>
+<polyline points="751.2,222.2 692.4,224.3 633.5,220.0 574.7,213.5 515.9,204.9 442.4,202.8 383.5,230.8 324.7,232.9 280.6,207.1 221.8,194.2 162.9,179.1 118.8,168.3" fill="none" stroke="#7fa6c9" stroke-width="1.8"/>
+<text x="545" y="193" font-size="10" fill="#7fa6c9">地中海·南岸（現代參照）</text>
+<ellipse cx="575" cy="332" rx="94" ry="39" fill="#e2d9c8" opacity="0.35"/>
+<text x="551" y="335" font-size="10" fill="#7a6540">大沙海（利比亞沙漠）</text>
+<polyline points="957.6,311.5 932.9,295.6 902.1,276.0 867.4,253.8 832.4,231.6 811.2,231.6 773.5,231.6 740.3,252.7 697.1,252.7 650.0,252.7 626.5,252.7 585.3,252.7 529.1,252.7 493.8,252.7 470.3,252.7 437.4,252.7 402.1,252.7 378.5,252.7 352.9,252.7 330.6,252.7 289.4,252.7 255.3,252.7 243.5,252.7" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<text x="619" y="231" font-size="9" fill="#8e44ad">本卷硬錨：軒轅之丘（西三復用）——「不敢西射」＝自東側觀測的方向禁忌</text>
+<text x="119" y="160" font-size="9" fill="#b03a2e">肅慎：後世東北亞族名——借名警示</text>
+<text x="266" y="334" font-size="9" fill="#7a6540">奇肱＝西部遠方機巧族群傳說</text>
+<rect x="673" y="581" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="604" y="593" font-size="10" font-weight="bold" fill="#2f9e8f">結匈國</text>
+<rect x="629" y="495" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="548" y="504" font-size="10" font-weight="bold" fill="#2f9e8f">滅蒙鳥</text>
+<rect x="570" y="415" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="495" y="425" font-size="10" font-weight="bold" fill="#2f9e8f">大運山</text>
+<rect x="505" y="370" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="428" y="379" font-size="10" font-weight="bold" fill="#2f9e8f">大樂之野</text>
+<circle cx="492" cy="347" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="413" y="351" font-size="10" font-weight="bold" fill="#8e44ad">三身國</text>
+<circle cx="484" cy="326" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="404" y="330" font-size="10" font-weight="bold" fill="#8e44ad">一臂國</text>
+<circle cx="475" cy="308" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="395" y="313" font-size="10" font-weight="bold" fill="#8e44ad">奇肱國</text>
+<rect x="502" y="286" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="431" y="301" font-size="10" font-weight="bold" fill="#2f9e8f">常羊之山</text>
+<circle cx="519" cy="280" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="431" y="290" font-size="10" font-weight="bold" fill="#8e44ad">女祭女戚</text>
+<rect x="523" y="267" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="431" y="279" font-size="10" font-weight="bold" fill="#2f9e8f">維鳥居山</text>
+<circle cx="539" cy="270" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="598" y="273" font-size="10" font-weight="bold" fill="#8e44ad">丈夫國</text>
+<rect x="546" y="259" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="598" y="263" font-size="10" font-weight="bold" fill="#2f9e8f">女丑之屍</text>
+<circle cx="504" cy="263" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="431" y="267" font-size="10" font-weight="bold" fill="#8e44ad">巫咸國·登葆山</text>
+<circle cx="572" cy="262" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="598" y="254" font-size="10" font-weight="bold" fill="#8e44ad">并封</text>
+<circle cx="519" cy="258" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="431" y="257" font-size="10" font-weight="bold" fill="#8e44ad">女子國</text>
+<circle cx="544" cy="257" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="598" y="246" font-size="10" font-weight="bold" fill="#c0392b">軒轅之國</text>
+<circle cx="529" cy="253" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="431" y="246" font-size="10" font-weight="bold" fill="#c0392b">軒轅之丘</text>
+<rect x="493" y="230" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="498" y="228" font-size="10" font-weight="bold" fill="#2f9e8f">窮山</text>
+<rect x="446" y="227" width="10" height="10" fill="none" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="460" y="219" font-size="10" font-weight="bold" fill="#2f9e8f">諸夭之野</text>
+<circle cx="407" cy="224" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="366" y="211" font-size="10" font-weight="bold" fill="#8e44ad">龍魚</text>
+<circle cx="339" cy="216" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="351" y="223" font-size="10" font-weight="bold" fill="#8e44ad">白民國</text>
+<circle cx="251" cy="203" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="263" y="218" font-size="10" font-weight="bold" fill="#8e44ad">肅慎國</text>
+<circle cx="178" cy="188" r="7" fill="#8e44ad" opacity="0.45" stroke="#8e44ad" stroke-width="1.5"/>
+<text x="136" y="179" font-size="10" font-weight="bold" fill="#8e44ad">長股國</text>
+<rect x="739" y="249" width="6" height="6" fill="#34495e"/>
+<text x="747" y="248" font-size="9" fill="#34495e">開羅</text>
+<rect x="789" y="376" width="6" height="6" fill="#34495e"/>
+<text x="797" y="375" font-size="9" fill="#34495e">阿斯旺</text>
+<rect x="413" y="204" width="6" height="6" fill="#34495e"/>
+<text x="421" y="203" font-size="9" fill="#34495e">班加西</text>
+<rect x="210" y="187" width="6" height="6" fill="#34495e"/>
+<text x="218" y="186" font-size="9" fill="#34495e">的黎波里</text>
+</g>
+<line x1="119" y1="640" x2="119" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="111" y="656" font-size="9" fill="#999">10°E</text>
+<line x1="266" y1="640" x2="266" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="258" y="656" font-size="9" fill="#999">15°E</text>
+<line x1="413" y1="640" x2="413" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="405" y="656" font-size="9" fill="#999">20°E</text>
+<line x1="560" y1="640" x2="560" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="552" y="656" font-size="9" fill="#999">25°E</text>
+<line x1="707" y1="640" x2="707" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="699" y="656" font-size="9" fill="#999">30°E</text>
+<line x1="854" y1="640" x2="854" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="846" y="656" font-size="9" fill="#999">35°E</text>
+<line x1="1001" y1="640" x2="1001" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="993" y="656" font-size="9" fill="#999">40°E</text>
+<line x1="60" y1="575" x2="1060" y2="575" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="578" font-size="9" fill="#999">15°N</text>
+<line x1="60" y1="468" x2="1060" y2="468" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="471" font-size="9" fill="#999">20°N</text>
+<line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="363" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="252" x2="1060" y2="252" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="255" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="145" x2="1060" y2="145" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="148" font-size="9" fill="#999">35°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="353" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="178" y1="558" x2="178" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="170" y="578" font-size="9" fill="#333">200</text>
+<line x1="237" y1="558" x2="237" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="229" y="578" font-size="9" fill="#333">400</text>
+<line x1="295" y1="558" x2="295" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="287" y="578" font-size="9" fill="#333">600</text>
+<line x1="353" y1="558" x2="353" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="345" y="578" font-size="9" fill="#333">800</text>
+<text x="361" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<circle cx="1103" cy="118" r="8" fill="#c0392b"/>
+<text x="1124" y="122" font-size="11" fill="#444">mapped＝復用山經節點（西三軒轅之丘）</text>
+<circle cx="1103" cy="140" r="8" fill="#8e44ad"/>
+<text x="1124" y="144" font-size="11" fill="#444">region＝族群/區域記錄（新實體）</text>
+<rect x="1098" y="157" width="8" height="8" fill="#2f9e8f"/>
+<text x="1124" y="166" font-size="11" fill="#444">pending_anchor＝待定錨（方向性）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#b7a98c" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">淺灰線＝西三里程鏈（context 參照）</text>
+<line x1="1090" y1="206" x2="1116" y2="206" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="210" font-size="11" fill="#444">尼羅河（現代參照）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="258" font-size="10" fill="#666">復用錨：軒轅之丘＝西三 MTN:SHJ-02-3-012#1（大沙海—卡蘭西奧沙海北緣丘台）；本卷三次錨用——軒轅國</text>
+<text x="1090" y="272" font-size="10" fill="#666">鄰接、窮山「不敢西射」、諸夭「在四蛇北」。</text>
+<text x="1090" y="291" font-size="10" fill="#666">走向假設（假設級別：方向性）：南段＝努比亞—利比亞沙漠綠洲帶北行線；北段＝昔蘭尼加—中地中海西北岸；</text>
+<text x="1090" y="306" font-size="10" fill="#666">起點結匈國待 book06 錨定。</text>
+<text x="1090" y="324" font-size="10" fill="#666">借名警示：夏后啟（傳說帝王，不作年代錨）／肅慎（後世東北亞族名）／巫咸（巫名東西兩見）／軒轅（北三軒</text>
+<text x="1090" y="338" font-size="10" fill="#666">轅之山同名異實）——雙假說並存，本層不裁。</text>
+<text x="1090" y="357" font-size="10" fill="#666">神話層：刑天與帝爭神／女丑十日炙殺／夏后啟儛九代／西方蓐收（四方神框架）——不作族群遷徙或年代實錄。</text>
+<text x="1090" y="391.5" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
+<text x="1090" y="414" font-size="9.5" fill="#2f9e8f">結匈國 → book06 西端錨（待裁）</text>
+<text x="1090" y="431" font-size="9.5" fill="#2f9e8f">滅蒙鳥 → 結匈北；青身赤尾</text>
+<text x="1090" y="448" font-size="9.5" fill="#2f9e8f">大運山 → 撒哈拉孤高地方向</text>
+<text x="1090" y="466" font-size="9.5" fill="#2f9e8f">大樂之野 → 庫夫拉綠洲方向·神話層</text>
+<text x="1090" y="484" font-size="9.5" fill="#8e44ad">三身國 → 綠洲帶族群</text>
+<text x="1090" y="501" font-size="9.5" fill="#8e44ad">一臂國 → 體貌圖騰記錄</text>
+<text x="1090" y="518" font-size="9.5" fill="#8e44ad">奇肱國 → 機巧族群傳說</text>
+<text x="1090" y="536" font-size="9.5" fill="#2f9e8f">常羊之山 → 刑天葬地（神話層）</text>
+<text x="1090" y="554" font-size="9.5" fill="#8e44ad">女祭女戚 → 兩水閒祭司群</text>
+<text x="1090" y="571" font-size="9.5" fill="#2f9e8f">維鳥居山 → 人面鳥禁忌（一曰維鳥）</text>
+<text x="1090" y="588" font-size="9.5" fill="#8e44ad">丈夫國 → 衣冠帶劍族群</text>
+<text x="1090" y="606" font-size="9.5" fill="#2f9e8f">女丑之屍 → 十日炙殺（神話層）</text>
+<text x="1362" y="414" font-size="9.5" fill="#8e44ad">巫咸國·登葆山 → 群巫聖山（登葆山）</text>
+<text x="1362" y="431" font-size="9.5" fill="#8e44ad">并封 → 雙首彘（巫咸東）</text>
+<text x="1362" y="448" font-size="9.5" fill="#8e44ad">女子國 → 環水聚落</text>
+<text x="1362" y="466" font-size="9.5" fill="#c0392b">軒轅之國 → 復用西三軒轅之丘</text>
+<text x="1362" y="484" font-size="9.5" fill="#c0392b">軒轅之丘 → 西三復用錨（硬錨）</text>
+<text x="1362" y="501" font-size="9.5" fill="#2f9e8f">窮山 → 軒轅國北邊界山</text>
+<text x="1362" y="518" font-size="9.5" fill="#2f9e8f">諸夭之野 → 昔蘭尼加綠帶方向</text>
+<text x="1362" y="536" font-size="9.5" fill="#8e44ad">龍魚 → 海岸兩棲大魚</text>
+<text x="1362" y="554" font-size="9.5" fill="#8e44ad">白民國 → 白身披髮族群</text>
+<text x="1362" y="571" font-size="9.5" fill="#8e44ad">肅慎國 → 西北陬（借名警示）</text>
+<text x="1362" y="588" font-size="9.5" fill="#8e44ad">長股國 → 西北陬終點族群</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：海外自西南陬至西北陬——起於結匈國（book06 西端跨界錨，待裁）北之滅蒙鳥，經大運山（撒哈拉孤高地方向）→大樂之野（庫夫拉綠洲方向；夏后啟儛九代＝神話層）→體貌型</text>
+<text x="60" y="702" font-size="11" fill="#666">國群（三身→一臂→奇肱——機巧傳說族群）→刑天葬常羊之山（神話插段）→巫儀主題帶（女祭女戚居兩水閒→䳐𪆻人面鳥→丈夫國衣冠帶劍→女丑十日炙殺→巫咸國登葆山群巫上下；并封在</text>
+<text x="60" y="718" font-size="11" fill="#666">巫咸東）→女子國（水周之）→軒轅之國／軒轅之丘（本卷硬錨，復用西三——人面蛇身、其丘方四蛇相繞、不敢西射）→北段：窮山→諸夭之野（鸞歌鳳舞、鳳卵甘露——昔蘭尼加綠帶方向）</text>
+<text x="60" y="734" font-size="11" fill="#666">→龍魚陵居（海岸兩棲）→白民國→肅慎國（雒棠取衣；後世東北亞族名借名警示）→長股國（西北陬終點）→西方蓐收收束（四方神框架）。</text>
+<text x="60" y="756" font-size="11" fill="#666">方法：框架書區域調查——復用錨定＋方向性指向取代里程算術；全卷唯一硬錨＝軒轅之丘（西三復用，被本卷三次錨用）；pending_anchor 點僅示方向不編坐標；所有對應為競爭假說，時代</text>
+<text x="60" y="772" font-size="11" fill="#666">窗口 4000–1000 BCE；後世同名（肅慎、巫咸、軒轅北三層）不反證時代記錄（借名警示）；神話層（刑天/女丑/啟/蓐收）不作實錄。</text>
+</svg>

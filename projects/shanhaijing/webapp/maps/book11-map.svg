@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+<rect width="1700" height="900" fill="#f7f3e8"/>
+<clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
+<defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
+<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《山海經》卷11 海內西經 — 適配補丁地圖（book11）</text>
+<text x="60" y="56" font-size="12" fill="#666">海內西南陬以北｜復用西三昆侖水系＋北三鴈門｜借名警示與 conflict 雙假說並存｜全部映射 proposed_pending_review｜2026-10-26</text>
+<g clip-path="url(#mapclip)">
+<ellipse cx="718" cy="218" rx="217" ry="52" fill="#9fc5e8" opacity="0.35"/>
+<text x="694" y="221" font-size="10" fill="#7a6540">地中海</text>
+<ellipse cx="677" cy="347" rx="133" ry="56" fill="#e0c98f" opacity="0.35"/>
+<text x="653" y="350" font-size="10" fill="#7a6540">西部沙漠·沙海</text>
+<polyline points="848.3,295.4 843.3,338.5 846.7,381.5 860.0,424.6 868.3,456.9" fill="none" stroke="#7fb3d5" stroke-width="2.2"/>
+<text x="867" y="397" font-size="10" fill="#7fb3d5">尼羅河（河水）</text>
+<polyline points="848.3,295.4 843.3,273.8 835.0,263.1" fill="none" stroke="#7fb3d5" stroke-width="2.2"/>
+<polyline points="906.7,338.5 926.7,392.3 960.0,456.9 1001.7,521.5" fill="none" stroke="#7fb3d5" stroke-width="2.2"/>
+<text x="932" y="425" font-size="10" fill="#7fb3d5">紅海（赤水）</text>
+<ellipse cx="137" cy="487" rx="42" ry="34" fill="#e2d9c8" opacity="0.35"/>
+<text x="113" y="490" font-size="10" fill="#7a6540">阿德拉爾高原·理查特構造（撒哈拉之眼）</text>
+<polyline points="968.7,354.6 954.7,338.7 937.2,319.1 917.5,296.9 897.7,274.7 885.7,274.7 864.3,274.7 845.5,295.8 821.0,295.8 794.3,295.8 781.0,295.8 757.7,295.8 725.8,295.8 705.8,295.8 692.5,295.8 673.8,295.8 653.8,295.8 640.5,295.8 626.0,295.8 613.3,295.8 590.0,295.8 570.7,295.8 564.0,295.8" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
+<text x="927" y="147" font-size="9" fill="#a04030">借名·遠域方向示意（非定位）</text>
+<text x="577" y="246" font-size="9" fill="#7a6540">昆侖水系核心區（西三互證）</text>
+<text x="68" y="614" font-size="9" fill="#8e44ad">ADJ-002：昆侖虛＝撒哈拉之眼（理查特構造）；流沙路徑西行橫貫北非西南入大西洋</text>
+<circle cx="898" cy="274" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="887" y="257" font-size="10" font-weight="bold" fill="#8e44ad">鍾山</text>
+<circle cx="137" cy="487" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="68" y="446" font-size="10" font-weight="bold" fill="#8e44ad">昆侖之虛</text>
+<circle cx="795" cy="294" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="790" y="281" font-size="10" font-weight="bold" fill="#8e44ad">流沙</text>
+<circle cx="758" cy="298" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="737" y="309" font-size="10" font-weight="bold" fill="#8e44ad">玉山·西王母</text>
+<circle cx="707" cy="295" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="700" y="284" font-size="10" font-weight="bold" fill="#8e44ad">積石山</text>
+<circle cx="673" cy="295" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="663" y="308" font-size="10" font-weight="bold" fill="#8e44ad">章莪·畢方</text>
+<circle cx="627" cy="298" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="613" y="285" font-size="10" font-weight="bold" fill="#8e44ad">三危·三青鳥</text>
+<circle cx="918" cy="354" r="5.5" fill="#2471a3" stroke="#fff" stroke-width="1.2"/>
+<text x="926" y="358" font-size="10" font-weight="bold" fill="#2471a3">赤水</text>
+<circle cx="853" cy="282" r="5.5" fill="#2471a3" stroke="#fff" stroke-width="1.2"/>
+<text x="862" y="279" font-size="10" font-weight="bold" fill="#2471a3">河水</text>
+<circle cx="840" cy="310" r="5.5" fill="#2471a3" stroke="#fff" stroke-width="1.2"/>
+<text x="842" y="320" font-size="10" font-weight="bold" fill="#2471a3">洋水</text>
+<circle cx="777" cy="302" r="5.5" fill="#2471a3" stroke="#fff" stroke-width="1.2"/>
+<text x="770" y="290" font-size="10" font-weight="bold" fill="#2471a3">黑水</text>
+<rect x="780" y="318" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="748" y="326" font-size="10" font-weight="bold" fill="#c0392b">弱水</text>
+<rect x="108" y="514" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="68" y="539" font-size="10" font-weight="bold" fill="#c0392b">青水</text>
+<rect x="877" y="234" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="875" y="228" font-size="10" font-weight="bold" fill="#c0392b">渤海</text>
+<circle cx="968" cy="522" r="7" fill="#2e86c1" opacity="0.45" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="948" y="522" font-size="10" font-weight="bold" fill="#2e86c1">南海</text>
+<circle cx="1018" cy="489" r="7" fill="#2e86c1" opacity="0.45" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="998" y="489" font-size="10" font-weight="bold" fill="#2e86c1">厭火國</text>
+<circle cx="993" cy="435" r="7" fill="#2e86c1" opacity="0.45" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="972" y="435" font-size="10" font-weight="bold" fill="#2e86c1">羽民國</text>
+<rect x="730" y="381" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="730" y="397" font-size="10" font-weight="bold" fill="#c0392b">黑水之山</text>
+<rect x="133" y="508" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="185" y="532" font-size="10" font-weight="bold" fill="#c0392b">昆侖南淵</text>
+<rect x="820" y="239" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="817" y="232" font-size="10" font-weight="bold" fill="#c0392b">蛇巫之山</text>
+<rect x="213" y="501" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="235" y="526" font-size="10" font-weight="bold" fill="#c0392b">埻端·璽蓉</text>
+<circle cx="1043" cy="132" r="7" fill="#2e86c1" opacity="0.45" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="1020" y="132" font-size="10" font-weight="bold" fill="#2e86c1">大夏</text>
+<circle cx="1030" cy="160" r="7" fill="#2e86c1" opacity="0.45" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="1008" y="160" font-size="10" font-weight="bold" fill="#2e86c1">月支</text>
+<rect x="1002" y="178" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="977" y="183" font-size="10" font-weight="bold" fill="#c0392b">豎沙·居繇</text>
+<circle cx="1043" cy="214" r="7" fill="#2e86c1" opacity="0.45" stroke="#2e86c1" stroke-width="1.5"/>
+<text x="952" y="201" font-size="10" font-weight="bold" fill="#2e86c1">西胡·白玉山</text>
+<rect x="1018" y="239" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="1003" y="244" font-size="10" font-weight="bold" fill="#c0392b">蒼梧</text>
+<rect x="222" y="269" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="68" y="261" font-size="10" font-weight="bold" fill="#c0392b">昆侖山</text>
+<rect x="1035" y="99" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="1012" y="105" font-size="10" font-weight="bold" fill="#c0392b">鴈門之山</text>
+<rect x="1015" y="90" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="1002" y="95" font-size="10" font-weight="bold" fill="#c0392b">高柳</text>
+<rect x="1042" y="86" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="1028" y="91" font-size="10" font-weight="bold" fill="#c0392b">大澤</text>
+<rect x="985" y="277" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="962" y="282" font-size="10" font-weight="bold" fill="#c0392b">疏屬之山</text>
+<rect x="998" y="299" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="987" y="304" font-size="10" font-weight="bold" fill="#c0392b">開題</text>
+<rect x="1018" y="321" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="1007" y="326" font-size="10" font-weight="bold" fill="#c0392b">氐國</text>
+<rect x="992" y="342" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="975" y="347" font-size="10" font-weight="bold" fill="#c0392b">后稷之葬</text>
+<rect x="1008" y="364" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
+<text x="992" y="369" font-size="10" font-weight="bold" fill="#c0392b">流黃酆氏</text>
+<rect x="844" y="292" width="6" height="6" fill="#34495e"/>
+<text x="852" y="291" font-size="9" fill="#34495e">開羅</text>
+<rect x="822" y="267" width="6" height="6" fill="#34495e"/>
+<text x="830" y="266" font-size="9" fill="#34495e">亞歷山大</text>
+<rect x="749" y="310" width="6" height="6" fill="#34495e"/>
+<text x="757" y="309" font-size="9" fill="#34495e">錫瓦</text>
+</g>
+<line x1="160" y1="640" x2="160" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="152" y="656" font-size="9" fill="#999">-10°W</text>
+<line x1="327" y1="640" x2="327" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="319" y="656" font-size="9" fill="#999">0°E</text>
+<line x1="493" y1="640" x2="493" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="485" y="656" font-size="9" fill="#999">10°E</text>
+<line x1="660" y1="640" x2="660" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="652" y="656" font-size="9" fill="#999">20°E</text>
+<line x1="827" y1="640" x2="827" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="819" y="656" font-size="9" fill="#999">30°E</text>
+<line x1="993" y1="640" x2="993" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="985" y="656" font-size="9" fill="#999">40°E</text>
+<line x1="60" y1="618" x2="1060" y2="618" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="621" font-size="9" fill="#999">15°N</text>
+<line x1="60" y1="511" x2="1060" y2="511" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="514" font-size="9" fill="#999">20°N</text>
+<line x1="60" y1="403" x2="1060" y2="403" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="406" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="295" x2="1060" y2="295" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="298" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="188" x2="1060" y2="188" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="191" font-size="9" fill="#999">35°N</text>
+<rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
+<line x1="120" y1="562" x2="456" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="112" y="578" font-size="9" fill="#333">0</text>
+<line x1="204" y1="558" x2="204" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="196" y="578" font-size="9" fill="#333">500</text>
+<line x1="288" y1="558" x2="288" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="280" y="578" font-size="9" fill="#333">1000</text>
+<line x1="372" y1="558" x2="372" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="364" y="578" font-size="9" fill="#333">1500</text>
+<line x1="456" y1="558" x2="456" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="448" y="578" font-size="9" fill="#333">2000</text>
+<text x="464" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
+<text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
+<circle cx="1103" cy="118" r="8" fill="#8e44ad"/>
+<text x="1124" y="122" font-size="11" fill="#444">復用山經節點（mapped）</text>
+<circle cx="1103" cy="140" r="8" fill="#2471a3"/>
+<text x="1124" y="144" font-size="11" fill="#444">復用山經水體（mapped）</text>
+<circle cx="1103" cy="162" r="8" fill="#2e86c1"/>
+<text x="1124" y="166" font-size="11" fill="#444">區域/族群方向（region）</text>
+<rect x="1098" y="179" width="8" height="8" fill="#c0392b"/>
+<text x="1124" y="188" font-size="11" fill="#444">待定錨 pending_anchor（虛框，方向示意）</text>
+<line x1="1090" y1="206" x2="1116" y2="206" stroke="#b7a98c" stroke-width="2.5"/>
+<text x="1124" y="210" font-size="11" fill="#444">西三鏈（淺灰參照）</text>
+<text x="1090" y="236" font-size="10" fill="#666">本卷為區域調查非里程鏈：實點＝復用西三/北三山經節點；虛框＝方向性待定錨（非定位）。</text>
+<text x="1090" y="254" font-size="10" fill="#666">借名警示：大夏、月支、鴈門、高柳、代、蒼梧、后稷、「禹所導」積石——後世地名/傳說不反證本文地理。</text>
+<text x="1090" y="273" font-size="10" fill="#666">異文（009 東胡/夷人、010 貊國/漢水/燕、011 孟鳥）帶戰國—漢注文色彩，單列待審。</text>
+<text x="1090" y="292" font-size="10" fill="#666">昆侖虛＝ADJ-002 裁決主候選：理查特構造（撒哈拉之眼）——流沙路徑拓撲否決吉薩合併說；聖城語彙（開明</text>
+<text x="1090" y="306" font-size="10" fill="#666">獸/九門/帝之下都）判為晚層轉寫；隅位水系隨之改指阿德拉爾放射狀古水系方向（待重估）。</text>
+<text x="1090" y="340.5" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
+<text x="1090" y="362" font-size="9.5" fill="#8e44ad">鍾山 → 復用西三＝南黎凡特丘陵</text>
+<text x="1090" y="380" font-size="9.5" fill="#8e44ad">昆侖之虛 → ADJ-002 主候選＝理查特構造（撒哈拉之眼）…</text>
+<text x="1090" y="398" font-size="9.5" fill="#8e44ad">流沙 → 復用西三＝蓋塔拉東緣沙沼</text>
+<text x="1090" y="415" font-size="9.5" fill="#8e44ad">玉山·西王母 → 復用西三玉山＝錫瓦綠洲</text>
+<text x="1090" y="432" font-size="9.5" fill="#8e44ad">積石山 → 復用西三＝卡蘭西奧古河道</text>
+<text x="1090" y="450" font-size="9.5" fill="#8e44ad">章莪·畢方 → 復用西三＝錫爾特盆地東緣</text>
+<text x="1090" y="468" font-size="9.5" fill="#8e44ad">三危·三青鳥 → 復用西三＝哈魯傑火山原</text>
+<text x="1090" y="485" font-size="9.5" fill="#2471a3">赤水 → 復用西三＝紅海</text>
+<text x="1090" y="502" font-size="9.5" fill="#2471a3">河水 → 復用西三＝尼羅河</text>
+<text x="1090" y="520" font-size="9.5" fill="#2471a3">洋水 → 復用西三＝法雍支汊</text>
+<text x="1090" y="538" font-size="9.5" fill="#2471a3">黑水 → 復用西三＝西部沙漠古河道</text>
+<text x="1090" y="555" font-size="9.5" fill="#c0392b">弱水 → 吉薩環淵 vs 西四弱水雙假說</text>
+<text x="1090" y="572" font-size="9.5" fill="#c0392b">青水 → 昆侖虛西南隅水；阿德拉爾西南古河道方向</text>
+<text x="1090" y="590" font-size="9.5" fill="#c0392b">渤海 → 同名異實；地中海灣方向候選</text>
+<text x="1090" y="608" font-size="9.5" fill="#2e86c1">南海 → 赤水所注＝阿拉伯海方向</text>
+<text x="1090" y="625" font-size="9.5" fill="#2e86c1">厭火國 → 跨卷引用（海外南）；南海之東</text>
+<text x="1090" y="642" font-size="9.5" fill="#2e86c1">羽民國 → 跨卷引用（海外南）；黑水入海之南</text>
+<text x="1090" y="660" font-size="9.5" fill="#c0392b">黑水之山 → 流沙西南入海處山體（句讀兩可）</text>
+<text x="1362" y="362" font-size="9.5" fill="#c0392b">昆侖南淵 → 理查特南緣環間深窪方向</text>
+<text x="1362" y="380" font-size="9.5" fill="#c0392b">蛇巫之山 → 一曰龜山；操柸人東向立</text>
+<text x="1362" y="398" font-size="9.5" fill="#c0392b">埻端·璽蓉 → 流沙中國；昆侖虛（理查特）東南＝撒哈拉中…</text>
+<text x="1362" y="415" font-size="9.5" fill="#2e86c1">大夏 → 流沙外；巴克特里亞方向（借名）</text>
+<text x="1362" y="432" font-size="9.5" fill="#2e86c1">月支 → 流沙外；河西—中亞方向（借名）</text>
+<text x="1362" y="450" font-size="9.5" fill="#c0392b">豎沙·居繇 → 流沙外諸國，地望未明</text>
+<text x="1362" y="468" font-size="9.5" fill="#2e86c1">西胡·白玉山 → 白玉山＝天山方向候選（F-0007）</text>
+<text x="1362" y="485" font-size="9.5" fill="#c0392b">蒼梧 → 白玉山西南；舜葬借名雙假說</text>
+<text x="1362" y="502" font-size="9.5" fill="#c0392b">昆侖山 → 「在西胡西」＝阿特拉斯方向候選；與昆侖虛分…</text>
+<text x="1362" y="520" font-size="9.5" fill="#c0392b">鴈門之山 → 復用北三（借名）；實位圖外東北</text>
+<text x="1362" y="538" font-size="9.5" fill="#c0392b">高柳 → 在代北（借名警示）</text>
+<text x="1362" y="555" font-size="9.5" fill="#c0392b">大澤 → 方百里群鳥所生；在鴈門北</text>
+<text x="1362" y="572" font-size="9.5" fill="#c0392b">疏屬之山 → 在開題西北；貳負危刑罰山</text>
+<text x="1362" y="590" font-size="9.5" fill="#c0392b">開題 → 海內南跨卷方位樁</text>
+<text x="1362" y="608" font-size="9.5" fill="#c0392b">氐國 → 海內南跨卷方位樁</text>
+<text x="1362" y="625" font-size="9.5" fill="#c0392b">后稷之葬 → 氐國西；山水環之（借名）</text>
+<text x="1362" y="642" font-size="9.5" fill="#c0392b">流黃酆氏 → 后稷葬西；有塗四方中有山</text>
+<text x="60" y="686" font-size="11" fill="#666">資料：reference/shanhaijing/text/11-海內西經.md（24 條目）；復用 geo-reuse-index.jsonl＋xici3 適配鏈；實點＝山經節點實坐標，虛框＝方向性示意（非定位）。</text>
+<text x="60" y="708" font-size="11" fill="#666">借名警示：大夏/月支/鴈門/高柳/代/蒼梧/后稷/「禹所導」積石/異文東胡·夷人·貊國——後世地名不反證本文；核心裁決：昆侖虛＝撒哈拉之眼（ADJ-002 主候選；吉薩合併說否決）、弱水</text>
+<text x="60" y="724" font-size="11" fill="#666">（吉薩環淵 vs 西四）、渤海（同名異實）。</text>
+</svg>
