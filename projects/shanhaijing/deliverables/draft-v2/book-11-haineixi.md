@@ -15,6 +15,8 @@
 ---
 
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book11-map.svg)
+
 ### 1. 开篇框架句：从海内西南角往北数
 
 > **【經文原文】**
@@ -143,7 +145,7 @@
 
 **配图**
 
-![昆仑之虚的现实主候选：理查特构造（撒哈拉之眼），毛里塔尼亚阿德拉尔高原的同心环状穹窿——环状山脊如废弃环城，正合「虚＝墟」之象](https://commons.wikimedia.org/wiki/Special:FilePath/ISS-42_Richat_Structure.jpg?width=800)（图：Wikimedia Commons）
+![昆仑之虚的现实主候选：理查特构造（撒哈拉之眼），毛里塔尼亚阿德拉尔高原的同心环状穹窿——环状山脊如废弃环城，正合「虚＝墟」之象](images/ISS-42_Richat_Structure.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 衝突：昆侖之虛——H1（合併＝吉薩）：ADJ-002 否決（流沙路徑拓撲＋虛/丘用字＋11-011 昆侖虛與昆侖山並列分書）
@@ -169,7 +171,7 @@
 
 **配图**
 
-![赤水的现实对应（西三旧框架）：红海——Envisat 卫星影像中的红海全貌](https://commons.wikimedia.org/wiki/Special:FilePath/Envisat_image_over_the_Red_Sea_ESA209860.jpg?width=800)（图：Wikimedia Commons）
+![赤水的现实对应（西三旧框架）：红海——Envisat 卫星影像中的红海全貌](images/Envisat_image_over_the_Red_Sea_ESA209860.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 衝突：南海——與南三「海」（WAT:SHJ-01-3-009#2，中國南海方向）同名異域——「南海」為通用海域詞，各卷依框架處理
@@ -185,7 +187,7 @@
 
 **配图**
 
-![河水的现实对应：尼罗河三角洲——MODIS 卫星真彩色影像（2024-07），绿色扇形即三角洲](https://commons.wikimedia.org/wiki/Special:FilePath/Nile_River_Delta_(MODIS_2024-07-23).jpg?width=800)（图：Wikimedia Commons）
+![河水的现实对应：尼罗河三角洲——MODIS 卫星真彩色影像（2024-07），绿色扇形即三角洲](images/Nile_River_Delta__MODIS_2024-07-23_.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 衝突：河水——ADJ-002（2026-10-26 裁決）：昆侖虛＝理查特構造（撒哈拉之眼）為主候選，吉薩合併說否決——本記錄方位框架隨之西移，方向性重估待覆核——原吉薩復用撤銷
@@ -237,7 +239,7 @@
 
 **配图**
 
-![开明兽的现实对应（转写层素材）：吉萨狮身人面像——「身大類虎」「人面」「東嚮立」三者皆合](https://commons.wikimedia.org/wiki/Special:FilePath/Great_Sphinx_of_Giza_-_20080716a.jpg?width=800)（图：Wikimedia Commons）
+![开明兽的现实对应（转写层素材）：吉萨狮身人面像——「身大類虎」「人面」「東嚮立」三者皆合](images/Great_Sphinx_of_Giza_-_20080716a.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 未知：昆侖南淵——與大荒西「弱水之淵環之」的關係
@@ -253,7 +255,7 @@
 
 **配图**
 
-![「戴蛇」的现实对应（转写层素材）：图坦卡蒙黄金面具前额的眼镜蛇与鹫——埃及王权的乌拉埃乌斯圣蛇标](https://commons.wikimedia.org/wiki/Special:FilePath/Tutanchamun_Maske.jpg?width=800)（图：Wikimedia Commons）
+![「戴蛇」的现实对应（转写层素材）：图坦卡蒙黄金面具前额的眼镜蛇与鹫——埃及王权的乌拉埃乌斯圣蛇标](images/Tutanchamun_Maske.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 未知：鳳皇·鸞鳥（戴蛇踐蛇）——鳳皇/鸞鳥的鳥類基底（鷺鷥/鴕鳥/朱鷺？）
@@ -334,7 +336,7 @@
 
 **配图**
 
-![西王母的现实对应：埃及锡瓦绿洲——西部沙漠中距利比亚边境约 50 公里的大绿洲，阿蒙神谕所所在地](https://commons.wikimedia.org/wiki/Special:FilePath/Siwa_Oasis,_Sahara_Desert,_Egypt.jpg?width=800)（图：Wikimedia Commons）
+![西王母的现实对应：埃及锡瓦绿洲——西部沙漠中距利比亚边境约 50 公里的大绿洲，阿蒙神谕所所在地](images/Siwa_Oasis__Sahara_Desert__Egypt.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 未知：西王母——方位差：本卷「在昆侖虛北」vs 西三玉山在昆侖西 1,320 里——北/西異文或另一西王母據點，待審
@@ -396,7 +398,7 @@
 
 **配图**
 
-![白玉山的方向性候选：天山山脉——「玉出昆侖」玉料认知的早期层位，中为汗腾格里峰（6995 m）](https://commons.wikimedia.org/wiki/Special:FilePath/Central_Tian_Shan_mountains.jpg?width=800)（图：Wikimedia Commons）
+![白玉山的方向性候选：天山山脉——「玉出昆侖」玉料认知的早期层位，中为汗腾格里峰（6995 m）](images/Central_Tian_Shan_mountains.jpg)（图：Wikimedia Commons）
 
 #### 未决项
 - 衝突：西胡——「胡」為後世族群泛稱語彙（借名警示）

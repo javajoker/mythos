@@ -16,6 +16,8 @@
 ## 中山经·首（zhongci1）——中条山到太行南段
 
 
+![zhongci1 地圖](../../data/derived/era/adaptation/zhongci1-map.svg)
+
 ### 甘枣之山：全卷第一站，中条山西段、运城以东
 
 > **原文**：《中山經》薄山之首，曰甘棗之山。共水出焉，而西流注于河。其上多杻木，其下有草焉，葵本而杏葉，黃華而莢實，名曰籜，可以已瞢。有獸焉，其狀如𤠢鼠而文題，其名曰㔮，食之已癭。
@@ -145,6 +147,8 @@
 ## 中山经·次二（zhongci2）——伊河支流扇形水系
 
 
+![zhongci2 地圖](../../data/derived/era/adaptation/zhongci2-map.svg)
+
 ### 煇诸之山：洛阳南缘的起点，桑树与褐马鸡
 
 > **原文**：《中次二經》濟山之首，曰煇諸之山，其上多桑，其獸多閭麋，其鳥多鶡。
@@ -153,7 +157,7 @@
 
 **配图**：
 
-![褐马鸡（Crossoptilon mantchuricum）——「其鳥多鶡」的鶡，豫西—晋南山地的标志物种](https://commons.wikimedia.org/wiki/Special:FilePath/Crossoptilon%20mantchuricum%20-USA%20-captive-8a.jpg?width=800)（图：Wikimedia Commons）
+![褐马鸡（Crossoptilon mantchuricum）——「其鳥多鶡」的鶡，豫西—晋南山地的标志物种](images/Crossoptilon_mantchuricum_-USA_-captive-8a.jpg)（图：Wikimedia Commons）
 
 ### 发视之山：伊水在全卷第一次出现
 
@@ -237,6 +241,8 @@
 ## 中山经·次三（zhongci3）——黄河南岸邙山一线
 
 
+![zhongci3 地圖](../../data/derived/era/adaptation/zhongci3-map.svg)
+
 ### 敖岸之山：邙山西段，北望大河之林
 
 > **原文**：《中次三經》萯山之首，曰敖岸之山，其陽多㻬琈之玉，其陰多赭、黃金。神熏池居之。是常出美玉。北望河林，其狀如莤如舉。有獸焉，其狀如白鹿而四角，名曰夫諸，見則其邑大水。
@@ -298,6 +304,8 @@
 
 ## 中山经·次四（zhongci4）——熊耳山—洛河上游
 
+
+![zhongci4 地圖](../../data/derived/era/adaptation/zhongci4-map.svg)
 
 ### 鹿蹄之山：厘山系的首站（但冠名山不在首位）
 
@@ -362,7 +370,7 @@
 
 **配图**：
 
-![大鲵（Andrias davidianus，布拉格动物园）——《山海经》多处「人鱼」的现实对应，洛河—伊河流域历史上有分布](https://commons.wikimedia.org/wiki/Special:FilePath/Velemlok%20%C4%8D%C3%ADnsk%C3%BD%20zoo%20praha%201.jpg?width=800)（图：Wikimedia Commons）
+![大鲵（Andrias davidianus，布拉格动物园）——《山海经》多处「人鱼」的现实对应，洛河—伊河流域历史上有分布](images/Velemlok_čínský_zoo_praha_1.jpg)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 衝突：熊耳之山——熊耳同名（借名標記）
@@ -407,6 +415,8 @@
 
 ## 中山经·次五（zhongci5）——黄河源区到三门峡
 
+
+![zhongci5 地圖](../../data/derived/era/adaptation/zhongci5-map.svg)
 
 ### 苟床之山：从黄河源区出发
 
@@ -530,6 +540,8 @@
 
 ## 中山经·次六（zhongci6）——洛阳西分水岭到潼关
 
+
+![zhongci6 地圖](../../data/derived/era/adaptation/zhongci6-map.svg)
 
 ### 平逢之山：蜜蜂之神的圣所
 
@@ -668,6 +680,8 @@
 ## 中山经·次七（zhongci7）——嵩山枢纽到郑州、新郑
 
 
+![zhongci7 地圖](../../data/derived/era/adaptation/zhongci7-map.svg)
+
 ### 休舆之山：帝台的五色棋石
 
 > **原文**：《中次七經》苦山之首，曰休輿之山。其上有石焉，名曰帝臺之棋，五色而文，其狀如鶉卵，帝臺之石，所以禱百神者也，服之不蠱。有草焉，其狀如蓍，赤葉而本叢生，名曰夙條，可以為簳。
@@ -761,7 +775,7 @@
 
 **配图**：
 
-![嵩山（河南登封，太室、少室所在的五岳之中岳）——泰室/少室之山的现实对应方向](https://commons.wikimedia.org/wiki/Special:FilePath/Song%20Shan%2002.jpg?width=800)（图：Wikimedia Commons）
+![嵩山（河南登封，太室、少室所在的五岳之中岳）——泰室/少室之山的现实对应方向](images/Song_Shan_02.jpg)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 衝突：泰室之山——泰室/太室與嵩山太室峰同名——借名標記
@@ -865,6 +879,8 @@
 ## 中山经·次八（zhongci8）——荆山、桐柏山到大别山
 
 
+![zhongci8 地圖](../../data/derived/era/adaptation/zhongci8-map.svg)
+
 ### 景山：荆山系起点，雎水东南入江
 
 > **原文**：《中次八經》荊山之首，曰景山，其上多金玉，其木多杼、檀。雎水出焉，東南流注于江，其中多丹粟，多文魚。
@@ -960,7 +976,7 @@
 
 **配图**：
 
-![印度犀（Rhinoceros unicornis，卡齐兰加国家公园）——「兕」「白犀」所指的犀类，历史上曾分布于中国南方](https://commons.wikimedia.org/wiki/Special:FilePath/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg?width=800)（图：Wikimedia Commons）
+![印度犀（Rhinoceros unicornis，卡齐兰加国家公园）——「兕」「白犀」所指的犀类，历史上曾分布于中国南方](images/Great-Indian-one-horned-rhinoceros-at-Kaziranga-national-park-in-Assam-India.jpg)（图：Wikimedia Commons）
 
 ### 大尧之山：桑竹并记的豫南物产
 
@@ -1063,6 +1079,8 @@
 ## 中山经·次九（zhongci9）——岷山到三峡
 
 
+![zhongci9 地圖](../../data/derived/era/adaptation/zhongci9-map.svg)
+
 ### 女几之山（中九）：岷山系起点
 
 > **原文**：《中次九經》岷山之首，曰女几之山，其上多石涅，其木多杻橿，其草多菊𦬸。洛水出焉，東注于江，其中多雄黃，其獸多虎豹。
@@ -1083,9 +1101,9 @@
 
 **配图**：
 
-![扬子鳄（Alligator sinensis）——「多鼉」的鼍，长江流域特有](https://commons.wikimedia.org/wiki/Special:FilePath/Alligator%20sinensis.jpg?width=800)（图：Wikimedia Commons）
+![扬子鳄（Alligator sinensis）——「多鼉」的鼍，长江流域特有](images/Alligator_sinensis.jpg)（图：Wikimedia Commons）
 
-![亚洲象（Elephas maximus，班迪普尔）——「其獸多犀象」的象，全新世暖期曾广泛分布于中国南方](https://commons.wikimedia.org/wiki/Special:FilePath/Elephas%20maximus%20(Bandipur).jpg?width=800)（图：Wikimedia Commons）
+![亚洲象（Elephas maximus，班迪普尔）——「其獸多犀象」的象，全新世暖期曾广泛分布于中国南方](images/Elephas_maximus_Bandipur_.jpg)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 衝突：岷山——岷山同名（借名標記）
@@ -1189,7 +1207,7 @@
 
 **配图**：
 
-![巫峡（长江三峡之一，重庆—湖北段）——葛山所对的巫山中段，古今柑橘带所在](https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B7%AB%E5%B3%A1.jpg?width=800)（图：Wikimedia Commons）
+![巫峡（长江三峡之一，重庆—湖北段）——葛山所对的巫山中段，古今柑橘带所在](images/巫峡.jpg)（图：Wikimedia Commons）
 
 ### 贾超之山：终点，柑橘带东延到宜昌
 
@@ -1212,6 +1230,8 @@
 
 ## 中山经·次十（zhongci10）——甘南短链
 
+
+![zhongci10 地圖](../../data/derived/era/adaptation/zhongci10-map.svg)
 
 ### 首阳之山：弱锚起点
 
@@ -1306,6 +1326,8 @@
 
 ## 中山经·次十一（zhongci11）——伏牛山南麓到大别山东端（48 站）
 
+
+![zhongci11 地圖](../../data/derived/era/adaptation/zhongci11-map.svg)
 
 ### 翼望之山：一山分注黄河、长江两系
 
@@ -1708,6 +1730,8 @@
 ## 中山经·次十二（zhongci12）——洞庭湖区到幕阜山
 
 
+![zhongci12 地圖](../../data/derived/era/adaptation/zhongci12-map.svg)
+
 ### 篇遇之山：洞庭山系起点
 
 > **原文**：《中次十二經》洞庭山之首，曰篇遇之山，無草木，多黃金。
@@ -1765,7 +1789,7 @@
 
 **配图**：
 
-![岳阳楼（湖南岳阳，临洞庭湖而建）——洞庭之山所对的洞庭湖区人文地标](https://commons.wikimedia.org/wiki/Special:FilePath/Frontal%20view%20of%20Yueyang%20Tower,%20Hunan,%20China1.jpg?width=800)（图：Wikimedia Commons）
+![岳阳楼（湖南岳阳，临洞庭湖而建）——洞庭之山所对的洞庭湖区人文地标](images/Frontal_view_of_Yueyang_Tower_Hunan_China1.jpg)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 衝突：洞庭之山——洞庭同名（借名標記——後世洞庭湖名層不作證）

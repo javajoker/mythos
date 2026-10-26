@@ -71,16 +71,18 @@ def main():
                     q["label_pos"] = p["label_pos"]
             points.append(q)
 
+    wz_full = json.load(open(SPECS / "wuzang-overview.json"))
     cfg = {
         "out": "shanjing-overview.svg",
         "title": "《山海經》全書概要圖：五臧山經 26 鏈 × 框架書 13 卷 時代假想推理 × 世界映射參照",
         "subtitle": "鏈＝山經里程鏈（西紫/中紅/北金棕/東綠/南藍）｜點＝框架書地理提及（藍＝復用錨定／金＝區域方向／紅虛框＝待定錨）｜全部映射 proposed_pending_review",
-        "window": {"lon0": -170, "lon1": 180, "lat0": -5, "lat1": 72},
-        "scale_bar_frac": 0.04,
+        "window": wz_full["window"],
+        "lon_wrap_below": wz_full.get("lon_wrap_below"),
+        "scale_bar_frac": wz_full.get("scale_bar_frac", 0.04),
         "chains": chains,
         "points": points,
         "points_panel": False,
-        "basemap": BASEMAP,
+        "basemap": wz_full["basemap"],
         "legend": [
             ["#6c3483", "solid", "西山經 4 鏈（藏東→阿特拉斯）"],
             ["#c0392b", "solid", "中山經 12 鏈（昆侖源頭→中原→江南）"],
@@ -99,7 +101,7 @@ def main():
             ["北三終點＝楚科奇；白令＝延伸對立候選", 118, 69.5, "#7d6608"],
             ["東山經＝美洲四鏈", -98, 38.0, "#196f3d"],
             ["大荒東＝日月所出觀測鏈", 128, 8.0, "#196f3d"],
-            ["五經分域＋框架書 13 卷區域調查", -60, 3.0, "#666"],
+            ["五經分域＋框架書 13 卷區域調查", 30, -33, "#666"],
         ],
         "modern": [
             ["開羅", 31.2, 30.0], ["巴格達", 44.4, 33.3], ["德里", 77.2, 28.6],

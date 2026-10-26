@@ -20,6 +20,8 @@
 
 ## 北山经·首（beici1，25 山＋总结段）
 
+
+![beici1 地圖](../../data/derived/era/adaptation/beici1-map.svg)
 ### 【SHJ-03-1-001】单狐之山：全经起点，青海南部阿尼玛卿山北麓方向
 
 > 北山經之首，曰單狐之山，多机木，其上多華草。漨水出焉，而西流注于泑水，其中多茈石文石。
@@ -70,7 +72,7 @@
 
 **配图**
 
-![双峰驼（Camelus bactrianus，摄于蒙古国西部科布多省）——「其兽多橐驼」的现实对应，蒙古高原标志性物种](https://commons.wikimedia.org/wiki/Special:FilePath/Camelus_bactrianus_in_western_Mongolia_06.jpg?width=800)（图：Wikimedia Commons）
+![双峰驼（Camelus bactrianus，摄于蒙古国西部科布多省）——「其兽多橐驼」的现实对应，蒙古高原标志性物种](images/Camelus_bactrianus_in_western_Mongolia_06.jpg)（图：Wikimedia Commons）
 
 ### 【SHJ-03-1-007】虢山之尾：同一条山脉的另一端
 
@@ -86,7 +88,7 @@
 
 **配图**
 
-![西伯利亚鼯鼠（Pteromys volans）——「以其尾飞」的耳鼠与「状如鼠而鸟翼」的寓，都是鼯鼠滑翔的观察记录](https://commons.wikimedia.org/wiki/Special:FilePath/Pteromys_volans.jpg?width=800)（图：Wikimedia Commons）
+![西伯利亚鼯鼠（Pteromys volans）——「以其尾飞」的耳鼠与「状如鼠而鸟翼」的寓，都是鼯鼠滑翔的观察记录](images/Pteromys_volans.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：丹熏之山——䪥確指
@@ -126,7 +128,7 @@
 
 **配图**
 
-![浑善达克沙地（内蒙古锡林郭勒）——「其下多流沙」的沙质草原—沙丘地貌候选](https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B5%91%E5%96%84%E8%BE%BE%E5%85%8B%E6%B2%99%E5%9C%B0_-_panoramio.jpg?width=400)（图：Wikimedia Commons）
+![浑善达克沙地（内蒙古锡林郭勒）——「其下多流沙」的沙质草原—沙丘地貌候选](images/浑善达克沙地_-_panoramio.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：灌題之山——磁石確指
@@ -139,7 +141,7 @@
 
 **配图**
 
-![牦牛（Bos grunniens）——「或曰旄牛」的现实对应，高原畜种](https://commons.wikimedia.org/wiki/Special:FilePath/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg?width=400)（图：Wikimedia Commons）
+![牦牛（Bos grunniens）——「或曰旄牛」的现实对应，高原畜种](images/Bos_grunniens_at_Letdar_on_Annapurna_Circuit.jpg)（图：Wikimedia Commons）
 
 ### 【SHJ-03-1-015】小咸之山：冬夏有雪
 
@@ -161,7 +163,7 @@
 
 **配图**
 
-![哲罗鲑（Hucho taimen，摄于蒙古国西北部乌尔河）——「其中多赤鲑」的现实对应，蒙古—西伯利亚大河的巨型鲑鱼](https://commons.wikimedia.org/wiki/Special:FilePath/Hucho_taimen_June_2007_Uur_River.jpg?width=800)（图：Wikimedia Commons）
+![哲罗鲑（Hucho taimen，摄于蒙古国西北部乌尔河）——「其中多赤鲑」的现实对应，蒙古—西伯利亚大河的巨型鲑鱼](images/Hucho_taimen_June_2007_Uur_River.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：敦薨之山——「河原」讀法（色楞格 vs 黃河——見待裁）
@@ -236,6 +238,8 @@
 
 ## 北山经·次二（beici2，16 山＋总结段）
 
+
+![beici2 地圖](../../data/derived/era/adaptation/beici2-map.svg)
 ### 【SHJ-03-2-001】管涔之山：在河之东、其首枕汾
 
 > 《北次二經》之首，在河之東，其首枕汾，其名曰管涔之山。其上無木而多草，其下多玉。汾水出焉，而西流注于河。
@@ -355,7 +359,7 @@
 
 **配图**
 
-![贝加尔湖冬景——「是錞于北海」的北海，本卷判断为贝加尔湖（世界最深的湖泊）](https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Baikal_in_winter.jpg?width=800)（图：Wikimedia Commons）
+![贝加尔湖冬景——「是錞于北海」的北海，本卷判断为贝加尔湖（世界最深的湖泊）](images/Lake_Baikal_in_winter.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：敦題之山——北海＝貝加爾 vs 北冰洋
@@ -370,6 +374,8 @@
 
 ## 北山经·次三（beici3，47 站＋总结段＋全书总结）
 
+
+![beici3 地圖](../../data/derived/era/adaptation/beici3-map.svg)
 ### 【SHJ-03-3-001】归山：太行之首，中条山南段
 
 > 《北次三經》之首，曰太行之山。其首曰歸山，其上有金玉，其下有碧。有獸焉，其狀如麢羊而四角，馬尾而有距，其名曰䮝，善還，其名自訆。有鳥焉，其狀如鵲，白身、赤尾、六足，其名曰䴅，是善驚，其鳴自詨。
@@ -387,7 +393,7 @@
 
 **配图**
 
-![大鲵（Andrias davidianus，娃娃鱼）——「其状如䱱鱼，四足，其音如婴儿」的人鱼](https://commons.wikimedia.org/wiki/Special:FilePath/2009_Andrias_davidianus.JPG?width=400)（图：Wikimedia Commons）
+![大鲵（Andrias davidianus，娃娃鱼）——「其状如䱱鱼，四足，其音如婴儿」的人鱼](images/2009_Andrias_davidianus_1.JPG)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：龍侯之山——人魚＝大鯢讀法
@@ -455,7 +461,7 @@
 
 **配图**
 
-![运城盐湖（山西运城，2010 年摄）——「南望盐贩之泽」的现实对应，全书最强单点定位证据](https://commons.wikimedia.org/wiki/Special:FilePath/%E8%BF%90%E5%9F%8E%E7%9B%90%E6%B9%96-2010_-_panoramio.jpg?width=800)（图：Wikimedia Commons）
+![运城盐湖（山西运城，2010 年摄）——「南望盐贩之泽」的现实对应，全书最强单点定位证据](images/运城盐湖-2010_-_panoramio.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：景山——鹽販之澤確指
@@ -723,7 +729,7 @@
 
 **配图**
 
-![贝加尔湖奥尔洪岛布尔罕角（萨满岩）——「泰泽中有山焉，广员百里」的帝都之山候选](https://commons.wikimedia.org/wiki/Special:FilePath/Baikal%2C_Cape_Burhan%2C_Olkhon_Island%2C_Lake_Baikal%2C_Russia.jpg?width=800)（图：Wikimedia Commons）
+![贝加尔湖奥尔洪岛布尔罕角（萨满岩）——「泰泽中有山焉，广员百里」的帝都之山候选](images/Baikal__Cape_Burhan__Olkhon_Island__Lake_Baikal__Russia.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：帝都之山——帝都＝奧爾洪島讀法

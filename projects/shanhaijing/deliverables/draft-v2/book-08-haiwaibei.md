@@ -18,6 +18,8 @@
 
 ## 海外北经 · 全卷（book08）
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book08-map.svg)
+
 ### 1. 本卷的框架句：海外北调查幅
 
 > **【经文原文】**
@@ -51,9 +53,9 @@
 
 **配图**
 
-![极光——烛阴「视为昼，瞑为夜」「蛇身赤色」对应的极圈光象（ADJ-003 裁决：烛龙/烛阴＝极昼极夜＋极光的复合人格化）](https://commons.wikimedia.org/wiki/Special:FilePath/Aurora%20borealis%20over%20Eielson%20Air%20Force%20Base,%20Alaska.jpg?width=800)（图：Wikimedia Commons）
+![极光——烛阴「视为昼，瞑为夜」「蛇身赤色」对应的极圈光象（ADJ-003 裁决：烛龙/烛阴＝极昼极夜＋极光的复合人格化）](images/Aurora_borealis_over_Eielson_Air_Force_Base_Alaska.jpg)（图：Wikimedia Commons）
 
-![极昼（午夜太阳）——「吹为冬，呼为夏」背后的高纬度季节光照经验](https://commons.wikimedia.org/wiki/Special:FilePath/Midnight%20sun.jpg?width=800)（图：Wikimedia Commons）
+![极昼（午夜太阳）——「吹为冬，呼为夏」背后的高纬度季节光照经验](images/Midnight_sun.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 衝突：鍾山（燭陰所居）——{'type': '同名異實', 'with': 'MTN:SHJ-02-3-004#2 鍾山（西三·南黎凡特海岸丘陵—加沙走廊）', 'hypotheses': ['合併假說：與西三鍾山同源，神話層跨卷漂移/同名投射', '競爭假說：本卷鍾山為極北實指山地，與西三鍾山僅同名；大荒北章尾山燭龍為同一母题第三見']}
@@ -97,7 +99,7 @@
 
 **配图**
 
-![吉萨金字塔群——「在昆仑之北」的昆仑即山经昆仑之丘，我们判定为吉萨高地金字塔—陵寝群（跨卷方位参照）](https://commons.wikimedia.org/wiki/Special:FilePath/All%20Gizah%20Pyramids.jpg?width=800)（图：Wikimedia Commons）
+![吉萨金字塔群——「在昆仑之北」的昆仑即山经昆仑之丘，我们判定为吉萨高地金字塔—陵寝群（跨卷方位参照）](images/All_Gizah_Pyramids.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：共工之臺（眾帝之臺）——臺之實指（神話地標 vs 真實紀念構築）
@@ -287,9 +289,9 @@
 
 **配图**
 
-![贝加尔湖——「北海内有兽」的北海，我们判定为贝加尔湖（很可靠，复用北二「是錞于北海」定锚）](https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Baikal%20in%20winter.jpg?width=800)（图：Wikimedia Commons）
+![贝加尔湖——「北海内有兽」的北海，我们判定为贝加尔湖（很可靠，复用北二「是錞于北海」定锚）](images/Lake_Baikal_in_winter_sp.jpg)（图：Wikimedia Commons）
 
-![普氏野马——騊駼「其状如马」对应的蒙古—西伯利亚马系（较可靠）](https://commons.wikimedia.org/wiki/Special:FilePath/Przewalskis%20horse%2002.jpg?width=800)（图：Wikimedia Commons）
+![普氏野马——騊駼「其状如马」对应的蒙古—西伯利亚马系（较可靠）](images/Przewalskis_horse_02.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：北海——北海在東山經（SHJ-04-4-001 北號之山所臨北海）為另一框架同名水體，不互相反證

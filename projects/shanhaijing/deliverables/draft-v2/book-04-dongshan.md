@@ -20,6 +20,8 @@
 ## 东山经·首（dongci1）——阿巴拉契亚山脉纵贯线
 
 
+
+![dongci1 地圖](../../data/derived/era/adaptation/dongci1-map.svg)
 ### 【SHJ-04-1-001】樕𧑤之山：全卷起点，山在湾南、河向东北入海
 
 > **【經文原文】**
@@ -29,9 +31,9 @@
 
 **配图**：
 
-![樕𧑤之山对应方向：缅因州卡塔丁山（阿巴拉契亚山脉北端，美国国家公园管理局摄）](https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Katahdin%20from%20Togue%20Pond.jpg?width=800)（图：Wikimedia Commons）
+![樕𧑤之山对应方向：缅因州卡塔丁山（阿巴拉契亚山脉北端，美国国家公园管理局摄）](images/Mount_Katahdin_from_Togue_Pond.jpg)（图：Wikimedia Commons）
 
-![食水＝圣劳伦斯河：魁北克里穆斯基段的圣劳伦斯河，正是「东北流注于海」的大河](https://commons.wikimedia.org/wiki/Special:FilePath/The%20Saint%20Lawrence%20River%20in%20Rimouski%202.jpg?width=800)（图：Wikimedia Commons）
+![食水＝圣劳伦斯河：魁北克里穆斯基段的圣劳伦斯河，正是「东北流注于海」的大河](images/The_Saint_Lawrence_River_in_Rimouski_2.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：樕𧑤之山——乾昧確指（聖勞倫斯灣候選）待校
@@ -54,7 +56,7 @@
 
 **配图**：
 
-![箴鱼＝頜针鱼（针喙鱼）：巴哈马加勒比海域的頜针鱼，细长针状喙与「其喙如箴」完全对应](https://commons.wikimedia.org/wiki/Special:FilePath/Needlefish%20viewed%20from%20above%20water%20in%20Bahamas%200541.jpg?width=800)（图：Wikimedia Commons）
+![箴鱼＝頜针鱼（针喙鱼）：巴哈马加勒比海域的頜针鱼，细长针状喙与「其喙如箴」完全对应](images/Needlefish_viewed_from_above_water_in_Bahamas_0541.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：栒狀之山——箴魚確指
@@ -131,7 +133,7 @@
 
 **配图**：
 
-![泰山对应方向：大雾山（大烟山）全景——阿巴拉契亚南段，北卡—田纳西交界](https://commons.wikimedia.org/wiki/Special:FilePath/Smoky%20Mountains%20panorama%20(82683p).jpg?width=800)（图：Wikimedia Commons）
+![泰山对应方向：大雾山（大烟山）全景——阿巴拉契亚南段，北卡—田纳西交界](images/Smoky_Mountains_panorama_82683p_.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：泰山——狪狪「有珠」確指
@@ -160,6 +162,8 @@
 ## 东山经·次二（dongci2）——落基山东麓—大平原—湾岸纵贯线
 
 
+
+![dongci2 地圖](../../data/derived/era/adaptation/dongci2-map.svg)
 ### 【SHJ-04-2-001】空桑之山：北临大河、四望湖泽的草原起点
 
 > **【經文原文】**
@@ -169,7 +173,7 @@
 
 **配图**：
 
-![空桑之山「北临食水」：落基山中的北萨斯喀彻温河（亚伯拉罕湖附近）](https://commons.wikimedia.org/wiki/Special:FilePath/North%20Saskatchewan%20River%20in%20the%20Rockies.jpg?width=800)（图：Wikimedia Commons）
+![空桑之山「北临食水」：落基山中的北萨斯喀彻温河（亚伯拉罕湖附近）](images/North_Saskatchewan_River_in_the_Rockies.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：空桑之山——沮吳/沙陵/湣澤確指
@@ -225,7 +229,7 @@
 
 **配图**：
 
-![犰狳主读＝北美负鼠（Didelphis virginiana）：尖吻、黑眼圈、鳞质裸尾，遇险装死——「见人则眠」](https://commons.wikimedia.org/wiki/Special:FilePath/Opossum%202.jpg?width=800)（图：Wikimedia Commons）
+![犰狳主读＝北美负鼠（Didelphis virginiana）：尖吻、黑眼圈、鳞质裸尾，遇险装死——「见人则眠」](images/Opossum_2.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：餘峩之山——負鼠時代分佈北緣（暖期）
@@ -323,7 +327,7 @@
 
 **配图**：
 
-![䃌山「南临䃌水」：国际空间站拍摄的墨西哥湾与美国湾岸——湾在南的格局](https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20over%20the%20gulf%20of%20Mexico%20-%20iss042e034066.jpg?width=800)（图：Wikimedia Commons／NASA）
+![䃌山「南临䃌水」：国际空间站拍摄的墨西哥湾与美国湾岸——湾在南的格局](images/Sunset_over_the_gulf_of_Mexico_-_iss042e034066.jpg)（图：Wikimedia Commons／NASA）
 
 **未决项**：
 - 未知：䃌山——狡客確指
@@ -341,6 +345,8 @@
 ## 东山经·次三（dongci3）——巴哈马—加勒比—中美跳岛链
 
 
+
+![dongci3 地圖](../../data/derived/era/adaptation/dongci3-map.svg)
 ### 【SHJ-04-3-001】尸胡之山：水行链的北端起点
 
 > **【經文原文】**
@@ -402,7 +408,7 @@
 
 **配图**：
 
-![鱣鲔主读＝大西洋大海鲢（Megalops atlanticus）：加勒比—中美洄游的银色大鱼](https://commons.wikimedia.org/wiki/Special:FilePath/Megalops%20atlanticus.jpg?width=800)（图：Wikimedia Commons）
+![鱣鲔主读＝大西洋大海鲢（Megalops atlanticus）：加勒比—中美洄游的银色大鱼](images/Megalops_atlanticus.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：孟子之山——鱣鮪泛化讀法
@@ -417,7 +423,7 @@
 
 **配图**：
 
-![蠵龟＝赤蠵龟（Caretta caretta）：加勒比暖水大海龟，「深泽多蠵龟」的海洋风物实证](https://commons.wikimedia.org/wiki/Special:FilePath/Loggerhead%20sea%20turtle.jpg?width=800)（图：Wikimedia Commons）
+![蠵龟＝赤蠵龟（Caretta caretta）：加勒比暖水大海龟，「深泽多蠵龟」的海洋风物实证](images/Loggerhead_sea_turtle.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：跂踵之山——深澤湧泉確指
@@ -454,6 +460,8 @@
 ## 东山经·次四（dongci4）——墨西哥湾北岸：路易斯安那—佛罗里达
 
 
+
+![dongci4 地圖](../../data/derived/era/adaptation/dongci4-map.svg)
 ### 【SHJ-04-4-001】北號之山：起点，食人兽双记
 
 > **【經文原文】**

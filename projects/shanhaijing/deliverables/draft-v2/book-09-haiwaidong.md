@@ -10,6 +10,8 @@
 
 ---
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book09-map.svg)
+
 ### 1. 全卷开场：海外东方，从东南角到东北角
 
 > 海外自东南陬至东北陬者。
@@ -27,7 +29,7 @@
 
 **配图**
 
-![西沙群岛邓肯岛（永兴岛附近）航拍——𨲠丘的候选方向：南海北部岛丘，两山夹峙、草木繁茂（方向性猜测）](https://commons.wikimedia.org/wiki/Special:FilePath/Duncan%20Island%20-%20December%202012.jpg?width=800)（图：Wikimedia Commons）
+![西沙群岛邓肯岛（永兴岛附近）航拍——𨲠丘的候选方向：南海北部岛丘，两山夹峙、草木繁茂（方向性猜测）](images/Duncan_Island_-_December_2012.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：𨲠丘（一曰嗟丘）——岛丘具体对应待同域考古评估
@@ -46,7 +48,7 @@
 
 **配图**
 
-![台湾东岸清水断崖——大人国的候选方向：台湾—吕宋岛链，「坐而削船」的航海族群生息之地（方向性猜测）](https://commons.wikimedia.org/wiki/Special:FilePath/Taroko%20National%20Park%20Qingshui%20Cliff%20(Huaiwun).jpg?width=800)（图：Wikimedia Commons）
+![台湾东岸清水断崖——大人国的候选方向：台湾—吕宋岛链，「坐而削船」的航海族群生息之地（方向性猜测）](images/Taroko_National_Park_Qingshui_Cliff_Huaiwun_.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：大人国——「大人」为体质记录抑或部族称号未知
@@ -68,9 +70,9 @@
 
 **配图**
 
-![冲绳万座毛海岸——君子国的候选方向：琉球诸岛方向（方向性猜测）](https://commons.wikimedia.org/wiki/Special:FilePath/Onna%20Okinawa%20Japan%20Cape-Manzamo-01.jpg?width=800)（图：Wikimedia Commons）
+![冲绳万座毛海岸——君子国的候选方向：琉球诸岛方向（方向性猜测）](images/Onna_Okinawa_Japan_Cape-Manzamo-01.jpg)（图：Wikimedia Commons）
 
-![孟加拉虎——「使二文虎在旁」的文虎即带斑纹的虎（物种高置信；驯虎还是仪卫象征待考）](https://commons.wikimedia.org/wiki/Special:FilePath/Bengal%20tiger%20(Panthera%20tigris%20tigris)%20female%203.jpg?width=800)（图：Wikimedia Commons）
+![孟加拉虎——「使二文虎在旁」的文虎即带斑纹的虎（物种高置信；驯虎还是仪卫象征待考）](images/Bengal_tiger_Panthera_tigris_tigris_female_3.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：君子国——「使二文虎」为驯虎实录抑或仪卫象征未知
@@ -90,7 +92,7 @@
 
 **配图**
 
-![宫崎县日向滩的鹈户神宫——朝阳之谷的候选方向：九州东岸朝东迎日出的海岸谷地（方向性偏可靠）](https://commons.wikimedia.org/wiki/Special:FilePath/Udo-jingu%20Main-shrine.jpg?width=800)（图：Wikimedia Commons）
+![宫崎县日向滩的鹈户神宫——朝阳之谷的候选方向：九州东岸朝东迎日出的海岸谷地（方向性偏可靠）](images/Udo-jingu_Main-shrine.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：朝阳之谷——「两水」具体水道未识
@@ -124,7 +126,7 @@
 
 **配图**
 
-![日本「お歯黒」（染黑齿）用具——黑齿国「为人黑」的染齿习俗，后世在东亚—东南亚广泛留存（习俗高置信，本条目方位为方向性猜测）](https://commons.wikimedia.org/wiki/Special:FilePath/Blackening%20Teeth%20(Ohaguro)%20Tools.jpg?width=800)（图：Wikimedia Commons）
+![日本「お歯黒」（染黑齿）用具——黑齿国「为人黑」的染齿习俗，后世在东亚—东南亚广泛留存（习俗高置信，本条目方位为方向性猜测）](images/Blackening_Teeth_Ohaguro_Tools.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 冲突：黑齿国——{'hypothesis': '云贵—中南半岛黑齿习俗带候选', 'basis': '《华阳国志》等后世文献记云贵黑齿/漆齿部族——后世记录不反证窗口期状态，仅作对立候选登记'}
@@ -158,7 +160,7 @@
 
 **配图**
 
-![岐阜长良川的鸬鹚捕鱼（鹈饲）——玄股之国「使两鸟夹之」最可能的实物对应：鸬鹚渔捞（习俗高置信）](https://commons.wikimedia.org/wiki/Special:FilePath/Ukai%20gifu%201.jpg?width=800)（图：Wikimedia Commons）
+![岐阜长良川的鸬鹚捕鱼（鹈饲）——玄股之国「使两鸟夹之」最可能的实物对应：鸬鹚渔捞（习俗高置信）](images/Ukai_gifu_1.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：玄股之国——异文「其为人衣鱼食䳼」脱「股黑」——两读并存
@@ -171,7 +173,7 @@
 
 **配图**
 
-![阿伊努人合影（历史照片）——毛民之国「身生毛」的候选对应方向：北海道—北日本的多毛体征族群（方向性偏可靠）](https://commons.wikimedia.org/wiki/Special:FilePath/AinuGroup.JPG?width=800)（图：Wikimedia Commons）
+![阿伊努人合影（历史照片）——毛民之国「身生毛」的候选对应方向：北海道—北日本的多毛体征族群（方向性偏可靠）](images/AinuGroup.JPG)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：毛民之国——多毛为体质实录抑或服饰（毛皮）观察未知
@@ -184,7 +186,7 @@
 
 **配图**
 
-![千岛群岛择捉岛（Iturup）卡萨托卡湾——劳民国的候选方向：千岛—堪察加岛链，本卷「东北陬」的终端（方向性猜测）](https://commons.wikimedia.org/wiki/Special:FilePath/Iturup%20Kasatka%20bay.jpg?width=800)（图：Wikimedia Commons）
+![千岛群岛择捉岛（Iturup）卡萨托卡湾——劳民国的候选方向：千岛—堪察加岛链，本卷「东北陬」的终端（方向性猜测）](images/Iturup_Kasatka_bay.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：劳民国（或曰教民）——劳民／教民 异名关系未定

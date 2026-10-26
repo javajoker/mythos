@@ -15,6 +15,8 @@
 
 ---
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book06-map.svg)
+
 ### 总序：这套书的世界观开场白
 
 > **【經文原文】**
@@ -137,7 +139,7 @@
 
 **配图**
 
-![红河（假说A下"赤水"的对应：红河水系因红色铁铝氧化物水土而水色浑红，是"赤水"这一类名的典型实例。图为河内段红河）](https://commons.wikimedia.org/wiki/Special:FilePath/Along_the_Red_River_in_Hanoi_26.jpg?width=800)（图：Wikimedia Commons）
+![红河（假说A下"赤水"的对应：红河水系因红色铁铝氧化物水土而水色浑红，是"赤水"这一类名的典型实例。图为河内段红河）](images/Along_the_Red_River_in_Hanoi_26.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：三株樹——葉皆為珠的具體所指
@@ -233,9 +235,9 @@
 
 **配图**
 
-![撒哈拉之眼（理查特构造）地形图——昆仑虚的裁决落点（ADJ-002）：直径约40公里的同心环状穹窿，外观如废弃环城，正合"虚（墟）"字](https://commons.wikimedia.org/wiki/Special:FilePath/Richat_Structure_-_SRTM.jpg?width=800)（图：Wikimedia Commons）
+![撒哈拉之眼（理查特构造）地形图——昆仑虚的裁决落点（ADJ-002）：直径约40公里的同心环状穹窿，外观如废弃环城，正合"虚（墟）"字](images/Richat_Structure_-_SRTM.jpg)（图：Wikimedia Commons）
 
-![国际空间站拍摄的撒哈拉之眼——环带被放射状干谷切割成多段残丘，与"面有九门、在八隅之岩"的描述可以对照](https://commons.wikimedia.org/wiki/Special:FilePath/ISS-42_Richat_Structure.jpg?width=800)（图：Wikimedia Commons）
+![国际空间站拍摄的撒哈拉之眼——环带被放射状干谷切割成多段残丘，与"面有九门、在八隅之岩"的描述可以对照](images/ISS-42_Richat_Structure.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 衝突：昆侖虛（海外南）——ADJ-002（2026-10-26 裁決）：昆侖虛＝理查特構造（撒哈拉之眼）為主候選，吉薩合併說否決；「虛四方」與圓形環帶的張力項保留
@@ -291,7 +293,7 @@
 
 **配图**
 
-![白掌长臂猿（泰国岗卡章国家公园）——"长臂"赋形的一种待考原型猜想：南洋渔民与长臂猿共域，长臂善捕的形象可能被嫁接到族群传闻上（原型未确认）](https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates_lar_-_Kaeng_Krachan.jpg?width=800)（图：Wikimedia Commons）
+![白掌长臂猿（泰国岗卡章国家公园）——"长臂"赋形的一种待考原型猜想：南洋渔民与长臂猿共域，长臂善捕的形象可能被嫁接到族群传闻上（原型未确认）](images/Hylobates_lar_-_Kaeng_Krachan.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：長臂國——長臂賦形原型（長臂猿共域？）

@@ -14,6 +14,8 @@
 ## 海內南經·全卷（book10）
 
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book10-map.svg)
+
 ### 01｜開場白：這一卷管「海內東南角以西」
 
 > **【經文原文】**
@@ -98,7 +100,7 @@
 
 **配圖**：
 
-![兕「如牛、蒼黑、一角」＝印度犀（Rhinoceros unicornis），圖為印度卡齊蘭加國家公園的印度犀——華南全新世本有犀科分布，此為其現存近緣代表](https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20rhinoceros%20in%20Kaziranga%20National%20Park%20March%202025%20by%20Tisha%20Mukherjee%2002.jpg?width=800)（图：Wikimedia Commons）
+![兕「如牛、蒼黑、一角」＝印度犀（Rhinoceros unicornis），圖為印度卡齊蘭加國家公園的印度犀——華南全新世本有犀科分布，此為其現存近緣代表](images/Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jp)（图：Wikimedia Commons）
 
 #### 未決項
 - 未知：兕之地——兕的確指種（印度犀 vs 蘇門犀）
@@ -137,7 +139,7 @@
 
 **配圖**：
 
-![狌狌假說一的候選——白掌長臂猿（Hylobates lar），攝於泰國岗卡章國家公園；若開山脈—緬印邊境一帶正是長臂猿分布區](https://commons.wikimedia.org/wiki/Special:FilePath/Hylobates%20lar%20-%20Kaeng%20Krachan%20WB.jpg?width=800)（图：Wikimedia Commons）
+![狌狌假說一的候選——白掌長臂猿（Hylobates lar），攝於泰國岗卡章國家公園；若開山脈—緬印邊境一帶正是長臂猿分布區](images/Hylobates_lar_-_Kaeng_Krachan_WB.jpg)（图：Wikimedia Commons）
 
 #### 未決項
 - 衝突：狌狌之地——{'hypotheses': ['H1 同名同實：南一狌狌（禺形白耳·長臂猿候選）與本卷狌狌為同種記錄', 'H2 同名異實：本卷「如豕而人面、知人名」＝猩猩/野人母題（《海內經》「有青獸人面名曰猩猩」同類），與南一長臂猿形象分層'], 'note': '形態描述差異顯著，兩假說並存，不在本層裁決'}
@@ -153,7 +155,7 @@
 
 **配圖**：
 
-![犀牛之地對應緬北—孟加拉東—阿薩姆的犀科歷史分布帶；圖為爪哇犀（Rhinoceros sondaicus），1874 年攝於倫敦動物園——東南亞犀牛的珍貴早期影像](https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoceros%20sondaicus%20in%20London%20Zoo.jpg?width=800)（图：Wikimedia Commons）
+![犀牛之地對應緬北—孟加拉東—阿薩姆的犀科歷史分布帶；圖為爪哇犀（Rhinoceros sondaicus），1874 年攝於倫敦動物園——東南亞犀牛的珍貴早期影像](images/Rhinoceros_sondaicus_in_London_Zoo.jpg)（图：Wikimedia Commons）
 
 #### 未決項
 - 未知：犀牛之地——犀牛確指種
@@ -220,7 +222,7 @@
 
 **配圖**：
 
-![巴蛇的現實原型候選——緬甸蟒（Python bivittatus），南亞—東南亞廣布的大型蟒蛇，能吞食大型獵物，「食象」為其誇飾頂點](https://commons.wikimedia.org/wiki/Special:FilePath/Python%20bivittatus%2001.jpg?width=800)（图：Wikimedia Commons）
+![巴蛇的現實原型候選——緬甸蟒（Python bivittatus），南亞—東南亞廣布的大型蟒蛇，能吞食大型獵物，「食象」為其誇飾頂點](images/Python_bivittatus_01.jpg)（图：Wikimedia Commons）
 
 #### 未決項
 - 未知：巴蛇之地——巴蛇確指種
@@ -236,7 +238,7 @@
 
 **配圖**：
 
-![高山＝喜馬拉雅錫金段；圖為從大吉嶺遠眺干城章嘉峰（Kangchenjunga，世界第三高峰）——旄馬即在此山以南的高原—山麓帶](https://commons.wikimedia.org/wiki/Special:FilePath/Kangchenjunga%20from%20Darjeeling.jpg?width=800)（图：Wikimedia Commons）
+![高山＝喜馬拉雅錫金段；圖為從大吉嶺遠眺干城章嘉峰（Kangchenjunga，世界第三高峰）——旄馬即在此山以南的高原—山麓帶](images/Kangchenjunga_from_Darjeeling.jpg)（图：Wikimedia Commons）
 
 #### 未決項
 - 未知：旄馬之地——旄馬確指

@@ -19,6 +19,8 @@
 ## 南山经·首（南次一，䧿山系：若开山脉→长山山脉）
 
 
+![nanci1 地圖](../../data/derived/era/adaptation/nanci1-map.svg)
+
 ### 招摇之山——全经起点，西临大海的肉桂之乡
 
 > **【原文】**
@@ -30,7 +32,7 @@
 
 风物也对得上：山上「多桂」，肉桂正是南亚—东南亚一带的特产（`PLA:…#1`）；还有金矿、玉矿。两种带神异功效的植物——祝余（像韭菜开青花，吃了不饿，`PLA:…#3`）和迷榖（像构树、黑纹理、花能四照，佩戴不迷路，`PLA:…#5`）——是「充饥」「防迷路」的民间赋义记录。最亮眼的是狌狌：像猴、白耳朵、既能趴着走又能直立行走——这正是**长臂猿**（白掌/白眉长臂猿一类）的写照，东南亚特有灵长类，物种判断**很可靠**（`CRE:…#2`）。水里的「育沛」是某种可佩戴防肿的珠玉类矿物（`MIN:…#3`，待考）。「䧿山」本身是这列山系的总名（方向性猜测）。
 
-![白眉长臂猿（Hoolock hoolock）——招摇之山「狌狌」的现实原型：白耳（白眉）、能直立行走，东南亚特有](https://commons.wikimedia.org/wiki/Special:FilePath/Hoolock_hoolock_001.jpg?width=800)（图：Wikimedia Commons）
+![白眉长臂猿（Hoolock hoolock）——招摇之山「狌狌」的现实原型：白耳（白眉）、能直立行走，东南亚特有](images/Hoolock_hoolock_001.jpg)（图：Wikimedia Commons）
 
 
 ### 堂庭之山——白猿与黄金之地
@@ -113,7 +115,7 @@
 
 英水从这里发源向南注入即翼之泽（注意：这条「英水」与南次二柜山的英水同名——按 ADJ-005 裁决，**水名是性状类名，两地同名各立，不算冲突**）。泽里的赤鱬「鱼身人面、叫声像鸳鸯」——人面鱼，我们判断是**儒艮**（海牛目，东南亚海域真实存在，正是「美人鱼」传说的原型），物种方向**较可靠**（`CRE:…#6` `WAT:…#1` `WAT:…#2`）。位置在**老挝—长山北段方向**，较可靠（`MTN:SHJ-01-1-008#1`）。
 
-![儒艮（Dugong dugon）——青丘之山「赤鱬」的现实原型候选：人面鱼的「美人鱼」真身](https://commons.wikimedia.org/wiki/Special:FilePath/Dugong.jpg?width=800)（图：Wikimedia Commons）
+![儒艮（Dugong dugon）——青丘之山「赤鱬」的现实原型候选：人面鱼的「美人鱼」真身](images/Dugong.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：青丘之山——赤鱬＝儒艮讀法
@@ -146,6 +148,8 @@
 ## 南山经·次二（南次二，柜山系：滇东高原→东海岛链）
 
 
+![nanci2 地圖](../../data/derived/era/adaptation/nanci2-map.svg)
+
 ### 柜山——赤水（红河）方向的起航点
 
 > **【原文】**
@@ -157,7 +161,7 @@
 
 两只带「兆象」的动物：貍力像小猪、脚上有距、叫声像狗，它出现的地方就会大动土木工程（`CRE:…#2`）；鴸像猫头鹰却长着人手，它出现的地方就多被流放的士人——一条难得的**人文记录**（流放者人群，`PER:…#1` `CRE:…#4`）。位置在**滇东高原（昆明—曲靖山岭方向）**，很可靠方向（`MTN:SHJ-01-2-001#1`）。
 
-![红河（Sông Hồng）流经河内——柜山「赤水」的对应方向：红土染红的河水，正是「赤水」这个性状类名的由来](https://commons.wikimedia.org/wiki/Special:FilePath/Vietnam%2C_Hanoi%2C_Panoramic_view_of_Red_River.jpg?width=800)（图：Wikimedia Commons）
+![红河（Sông Hồng）流经河内——柜山「赤水」的对应方向：红土染红的河水，正是「赤水」这个性状类名的由来](images/Vietnam__Hanoi__Panoramic_view_of_Red_River.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：柜山——流黃確指
@@ -354,6 +358,8 @@
 ## 南山经·次三（南次三，天虞山系：桂西→闽南—粤东沿海）
 
 
+![nanci3 地圖](../../data/derived/era/adaptation/nanci3-map.svg)
+
 ### 天虞之山——水乡泽国的起点
 
 > **【原文】**
@@ -375,9 +381,9 @@
 
 还有一只人面鸟瞿如：像池鹭、白头、三只脚、人脸，叫声就是自己的名字（`CRE:…#5`）。泿水发源**向南流入大海**（左江/红河水系方向候选），水里的虎蛟鱼身蛇尾、叫声像鸳鸯，是大型水生动物的泛化记录（鳄类候选），据说吃了不肿、能治痔疮（`WAT:…#1` `WAT:…#2` `CRE:…#8`）。位置在**桂西—滇东南的热带动物群带**，很可靠方向（`MTN:SHJ-01-3-002#1`）。
 
-![印度犀（Rhinoceros unicornis）——祷过之山「多犀」的现实原型：窗口期岭南—滇南确有亚洲犀分布](https://commons.wikimedia.org/wiki/Special:FilePath/Indian_rhinoceros_(Rhinoceros_unicornis).jpg?width=800)（图：Wikimedia Commons）
+![印度犀（Rhinoceros unicornis）——祷过之山「多犀」的现实原型：窗口期岭南—滇南确有亚洲犀分布](images/Indian_rhinoceros__Rhinoceros_unicornis_.jpg)（图：Wikimedia Commons）
 
-![亚洲象（Elephas maximus）——「多象」的现实原型：与犀同期同域分布的热带巨兽](https://commons.wikimedia.org/wiki/Special:FilePath/Indian_elephant_(Elephas_maximus_indicus).jpg?width=800)（图：Wikimedia Commons）
+![亚洲象（Elephas maximus）——「多象」的现实原型：与犀同期同域分布的热带巨兽](images/Indian_elephant__Elephas_maximus_indicus_.jpg)（图：Wikimedia Commons）
 
 **未决项**
 - 未知：禱過之山——虎蛟確指

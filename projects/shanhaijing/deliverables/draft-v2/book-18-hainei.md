@@ -17,6 +17,8 @@
 ## 海內經·全卷（book18）
 
 
+
+![本卷補丁地圖](../../data/derived/era/adaptation/book18-map.svg)
 ### 【SHJ-18-1-001】朝鲜与天毒：东北隅的两个「借名」国
 
 > **【經文原文】**
@@ -40,7 +42,7 @@
 
 **配图**：
 
-![流沙＝盖塔拉洼地：埃及西北这片低于海平面百余米的洼地（图左上深色区），湿期为湖沼、旱季为盐沼，是「流沙之中有国」的最佳对应地貌](https://commons.wikimedia.org/wiki/Special:FilePath/Qattara%20depression%20map.png?width=800)（图：Wikimedia Commons）
+![流沙＝盖塔拉洼地：埃及西北这片低于海平面百余米的洼地（图左上深色区），湿期为湖沼、旱季为盐沼，是「流沙之中有国」的最佳对应地貌](images/Qattara_depression_map.png)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：流沙——北一流沙（蒙古—貝加爾）、東三流沙為同名異實，本卷語境鎖定西三體系
@@ -127,7 +129,7 @@
 
 **配图**：
 
-![都广之野假说A＝成都平原：三星堆出土的青铜面具（三星堆博物馆藏，Gary Todd 摄）。宝墩—三星堆文明的稻作与青铜成就，是「百穀自生」落在上游天府的考古旁证](https://commons.wikimedia.org/wiki/Special:FilePath/Bronze%20Animal%20Mask%20from%20Sanxingdui%203.jpg?width=800)（图：Wikimedia Commons）
+![都广之野假说A＝成都平原：三星堆出土的青铜面具（三星堆博物馆藏，Gary Todd 摄）。宝墩—三星堆文明的稻作与青铜成就，是「百穀自生」落在上游天府的考古旁证](images/Bronze_Animal_Mask_from_Sanxingdui_3.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 衝突：都廣之野——{'hypothesis': 'A 成都平原說', 'note': '稻作百穀＋中九鄰接＋「西南」方位（相對中原視角）'}
@@ -192,7 +194,7 @@
 
 **配图**：
 
-![猩猩＝南方大型灵长类：婆罗洲红猩猩（Pongo pygmaeus）。「青獸人面」的观察记录与现代汉语「猩猩」的所指一脉相承](https://commons.wikimedia.org/wiki/Special:FilePath/Pongo%20pygmaeus%20(orangutang).jpg?width=800)（图：Wikimedia Commons）
+![猩猩＝南方大型灵长类：婆罗洲红猩猩（Pongo pygmaeus）。「青獸人面」的观察记录与现代汉语「猩猩」的所指一脉相承](images/Pongo_pygmaeus_orangutang_.jpg)（图：Wikimedia Commons）
 
 
 ### 【SHJ-18-1-014】巴国：方位与后世名字双保险的族群
@@ -204,7 +206,7 @@
 
 **配图**：
 
-![巴国方向＝川东—三峡：长江瞿塘峡（夔门）段。巴人活动的核心走廊正是这条峡谷水道](https://commons.wikimedia.org/wiki/Special:FilePath/Qutang%20Gorge%20on%20Changjiang.jpg?width=800)（图：Wikimedia Commons）
+![巴国方向＝川东—三峡：长江瞿塘峡（夔门）段。巴人活动的核心走廊正是这条峡谷水道](images/Qutang_Gorge_on_Changjiang.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：巴國——巴國實體的最早層位
@@ -230,7 +232,7 @@
 
 **配图**：
 
-![「食象」的象＝亚洲象（Elephas maximus，摄于印度班迪普尔）。窗口期象群北界约当岭南—滇南，是本书南方段最硬的生物地理指标](https://commons.wikimedia.org/wiki/Special:FilePath/Elephas%20maximus%20(Bandipur).jpg?width=800)（图：Wikimedia Commons）
+![「食象」的象＝亚洲象（Elephas maximus，摄于印度班迪普尔）。窗口期象群北界约当岭南—滇南，是本书南方段最硬的生物地理指标](images/Elephas_maximus_Bandipur_.jpg)（图：Wikimedia Commons）
 
 
 ### 【SHJ-18-1-017】赣巨人：会笑的长唇巨人
@@ -285,7 +287,7 @@
 
 **配图**：
 
-![孔鸟＝孔雀：蓝孔雀（Pavo cristatus）开屏。「孔」取「大」义，孔鸟即大尾丽鸟，是南亚—东南亚风物进入本书的直接证据](https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20Plumage.jpg?width=800)（图：Wikimedia Commons）
+![孔鸟＝孔雀：蓝孔雀（Pavo cristatus）开屏。「孔」取「大」义，孔鸟即大尾丽鸟，是南亚—东南亚风物进入本书的直接证据](images/Peacock_Plumage.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：𡹤狗/翠鳥/孔鳥——𡹤狗具體所指
@@ -300,7 +302,7 @@
 
 **配图**：
 
-![衡山（南海之内）候选＝南岳衡山：湖南衡山祝融峰山脊。南岳说是本条两假说之一；祝融峰的名字又与 038 的炎帝—祝融系谱遥相呼应](https://commons.wikimedia.org/wiki/Special:FilePath/Hunan%20Hengshan%20summit%20ridge%20banner.jpg?width=800)（图：Wikimedia Commons）
+![衡山（南海之内）候选＝南岳衡山：湖南衡山祝融峰山脊。南岳说是本条两假说之一；祝融峰的名字又与 038 的炎帝—祝融系谱遥相呼应](images/Hunan_Hengshan_summit_ridge_banner.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 衝突：衡山（南海之內）——{'hypothesis': '南嶽衡山（湖南）', 'note': '南海之內方位相容，但屬後世五嶽定名層'}
@@ -375,7 +377,7 @@
 
 **配图**：
 
-![钉灵＝丁零方向：冬季的贝加尔湖。音译链若成立，钉灵—丁零的活动区就在贝加尔—萨彦草原，是本书北方信息源深度的旁证](https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Baikal%20in%20winter.jpg?width=800)（图：Wikimedia Commons）
+![钉灵＝丁零方向：冬季的贝加尔湖。音译链若成立，钉灵—丁零的活动区就在贝加尔—萨彦草原，是本书北方信息源深度的旁证](images/Lake_Baikal_in_winter_sp.jpg)（图：Wikimedia Commons）
 
 **未决项**：
 - 未知：釘靈之國——音譯鏈層位

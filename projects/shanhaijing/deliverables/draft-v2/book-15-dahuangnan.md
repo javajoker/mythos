@@ -15,6 +15,8 @@
 ## 大荒南经·全卷（book15）
 
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book15-map.svg)
+
 ### 1 南海之外：赤水与流沙之间的双头兽（SHJ-15-1-001）
 
 > **原文**
@@ -51,9 +53,9 @@
 
 **白话解读**：赤水以东有一片"苍梧之野"，传说是舜和叔均下葬的地方。【借名警示】舜葬苍梧是后世层层叠加的传说（汉代以后才系于九嶷山），不能拿它做定位锚；叔均又见于海内经"叔均始作耕"，跨卷人物关系备考（`PER:book15`）。真正有价值的是后面那份物产清单：文贝（有花纹的海贝，应是宝螺一类）、离俞、𩿨久、鹰、贾（几种鸟兽，确指待考）、委维（神蛇，028 条写作延维）、熊罴象虎豹狼——一套标准的华南动物群，和"赤水以东的南方原野"方位相容（清单中等偏上可靠，独立于舜葬成立）；苍梧之野本身的方向性候选是滇东—桂西—南岭以南一带（`LND:book15`）。视肉是奇幻物产，本卷出现四次，待考（`CRE:book15`）。
 
-![象＝亚洲象：苍梧之野物产清单中的"象"，与华南—东南亚亚洲象分布相容](https://commons.wikimedia.org/wiki/Special:FilePath/Elephas_maximus_%28Bandipur%29.jpg?width=800)（图：Wikimedia Commons）
+![象＝亚洲象：苍梧之野物产清单中的"象"，与华南—东南亚亚洲象分布相容](images/Elephas_maximus__Bandipur_.jpg)（图：Wikimedia Commons）
 
-![文貝＝虎斑宝螺（Cypraea tigris）：有花纹的海贝，南方海滨物产](https://commons.wikimedia.org/wiki/Special:FilePath/Cypraea_tigris_01.JPG?width=800)（图：Wikimedia Commons）
+![文貝＝虎斑宝螺（Cypraea tigris）：有花纹的海贝，南方海滨物产](images/Cypraea_tigris_01.JPG)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 未知：蒼梧之野——蒼梧本名與後世九嶷的關係
@@ -72,7 +74,7 @@
 
 **白话解读**：荣山发源荣水——这与第 6 条不庭之山"荣水穷焉"首尾呼应，是一条完整河流的两端记录（河流本身待锚，方向性 `MTN:book15`/`WAT:book15`）。黑水复用南三黑水（南流注海方向，较可靠 `WAT:SHJ-01-3-009#1`），"黑水之南"即南三终点以南、南海北岸方向。最有意思的是"玄蛇食麈"：能吞下麂鹿的大蛇，就是南方巨蟒的真实生态记录——华南蟒蛇吞麂有实证（较可靠的生态读法，`CRE:book15`）；第 5 条黄鸟"司此玄蛇"正与此钩连。
 
-![玄蛇食麈＝南方巨蟒吞鹿：缅甸蟒（Python bivittatus）捕食斑鹿的实拍，"食麈"生态读法的现实图景](https://commons.wikimedia.org/wiki/Special:FilePath/A%20chital%20doe%20%28Axis%20axis%29%20nabbed%20by%20a%20burmese%20python%20%28Python%20bivittatus%29%20at%20Pilibhit%20tiger%20reserve.jpg?width=800)（图：Wikimedia Commons）
+![玄蛇食麈＝南方巨蟒吞鹿：缅甸蟒（Python bivittatus）捕食斑鹿的实拍，"食麈"生态读法的现实图景](images/A_chital_doe_Axis_axis_nabbed_by_a_burmese_python_Python_bivittatus_at_Pilibhit_)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 衝突：黑水——{'with': 'WAT:SHJ-02-3-008#7', 'note': '西三黑水（昆侖四水之一＝西部沙漠古河道）同名異實——雙假說並存，本層不裁決'}（按 ADJ-005：黑水為類名，多實例合法）
@@ -275,7 +277,7 @@
 
 **白话解读**：宋山（待锚 `MTN:book15`）上有一种红色的蛇，叫育蛇（待考 `CRE:book15`）；山上生枫木。枫木就是枫香树——华南常见树种，风物层很可靠（`PLA:book15`）。"蚩尤所弃其桎梏，是为枫木"：蚩尤被擒后扔掉的枷锁化成了枫树——这是战败者刑具变植物的名源神话，属神话层借名（`PER:book15`）；枫香作为华南原生树种成立，并不依赖蚩尤传说。
 
-![楓木＝楓香（Liquidambar formosana）：华南常见树种，"蚩尤桎梏化木"叙事的风物底层](https://commons.wikimedia.org/wiki/Special:FilePath/Liquidambar%20formosana%20%E6%A5%93%E9%A6%99.jpg?width=800)（图：Wikimedia Commons）
+![楓木＝楓香（Liquidambar formosana）：华南常见树种，"蚩尤桎梏化木"叙事的风物底层](images/Liquidambar_formosana_楓香.jpg)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 未知：宋山——宋山確指
@@ -311,7 +313,7 @@
 
 **白话解读**：㱙涂山是青水的尽头（山、水均待锚 `MTN:book15`/`WAT:book15`）。山经里没有青水这个节点，但海内经（卷十八）"若木……黑水青水之间"与之呼应——大荒与海内经可能共享同一套南方水系名册（中等假设）。云雨之山上生栾木（山待锚）——栾木就是栾树，华南常见，很可靠（`PLA:book15`），并接下一条"群帝取药"。
 
-![欒木＝欒樹（Koelreuteria paniculata）的花序与果实：云雨山"群帝取药"的风物底层](https://commons.wikimedia.org/wiki/Special:FilePath/%28MHNT%29%20Koelreuteria%20paniculata%20-%20inflorescences%20and%20fruits%20-%20Palais%20Niel.jpg?width=800)（图：Wikimedia Commons）
+![欒木＝欒樹（Koelreuteria paniculata）的花序与果实：云雨山"群帝取药"的风物底层](images/MHNT_Koelreuteria_paniculata_-_inflorescences_and_fruits_-_Palais_Niel.jpg)（图：Wikimedia Commons）
 
 **未决项**（照录 draft-v1）：
 - 未知：㱙塗之山——㱙塗確指

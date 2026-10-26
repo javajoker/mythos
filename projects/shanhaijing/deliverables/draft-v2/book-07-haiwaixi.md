@@ -15,6 +15,8 @@
 ---
 
 
+![本卷補丁地圖](../../data/derived/era/adaptation/book07-map.svg)
+
 ### 01｜開場：海外，從西南角說到西北角（SHJ-07-1-001）
 
 > **原文**：海外自西南陬至西北陬者。
@@ -45,7 +47,7 @@
 
 **配圖**：
 
-![烏韋納特山（Jebel Uweinat，利比亞—埃及—蘇丹交界）——大運山「高三百仞」的方向性候選：撒哈拉東部突兀而起的孤立高地](https://commons.wikimedia.org/wiki/Special:FilePath/Jebel%20Uweinat.jpg?width=800)（圖：Wikimedia Commons）
+![烏韋納特山（Jebel Uweinat，利比亞—埃及—蘇丹交界）——大運山「高三百仞」的方向性候選：撒哈拉東部突兀而起的孤立高地](images/Jebel_Uweinat.jpg)（圖：Wikimedia Commons）
 
 **未決項**（照錄 draft-v1）：
 - 未知：大運山——三百仞為虛指高度；無水系互證；大運名義未解
@@ -59,7 +61,7 @@
 
 **配圖**：
 
-![庫夫拉綠洲（Kufra Oasis，利比亞東南部）——大樂之野「野＝沙漠中的可居綠洲平地」的方向性候選](https://commons.wikimedia.org/wiki/Special:FilePath/Kufra%20Oasis.jpg?width=800)（圖：Wikimedia Commons）
+![庫夫拉綠洲（Kufra Oasis，利比亞東南部）——大樂之野「野＝沙漠中的可居綠洲平地」的方向性候選](images/Kufra_Oasis.jpg)（圖：Wikimedia Commons）
 
 **未決項**（照錄 draft-v1）：
 - 未知：大樂之野（一曰大遺之野）——夏后啟于此儛九代＝神話層事件（啟為傳說帝王，不作年代錨、不作因果倒置的葬地/都城推理）
@@ -209,7 +211,7 @@
 
 **配圖**：
 
-![大沙海線性沙丘（衛星影像，埃及西南部）——軒轅之丘所在的大沙海—卡蘭西奧沙海環境；「不敢西射，畏軒轅之丘」的沙海禁地即此方向](https://commons.wikimedia.org/wiki/Special:FilePath/ISS-31%20Linear%20dunes%20in%20the%20Great%20Sand%20Sea%20in%20southwest%20Egypt.jpg?width=800)（圖：Wikimedia Commons）
+![大沙海線性沙丘（衛星影像，埃及西南部）——軒轅之丘所在的大沙海—卡蘭西奧沙海環境；「不敢西射，畏軒轅之丘」的沙海禁地即此方向](images/ISS-31_Linear_dunes_in_the_Great_Sand_Sea_in_southwest_Egypt.jpg)（圖：Wikimedia Commons）
 
 **未決項**（照錄 draft-v1）：
 - 衝突：軒轅之丘——{'hypotheses': ['復用西三軒轅之丘（本卷採用）', '北三軒轅之山（太行山·陵川段）同名異實——時代層待裁'], 'note': '同軒轅之國衝突記錄'}
@@ -225,9 +227,9 @@
 
 **配圖**：
 
-![昔蘭尼加綠山（Jebel Akhdar，利比亞東北部，近昔蘭尼）——諸夭之野「百獸群居」沃野的方向性候選：北非著名濕潤綠帶](https://commons.wikimedia.org/wiki/Special:FilePath/Jabal%20Akhdar%20near%20Cyrene%20Eastern%20Libya.jpg?width=800)（圖：Wikimedia Commons）
+![昔蘭尼加綠山（Jebel Akhdar，利比亞東北部，近昔蘭尼）——諸夭之野「百獸群居」沃野的方向性候選：北非著名濕潤綠帶](images/Jabal_Akhdar_near_Cyrene_Eastern_Libya.jpg)（圖：Wikimedia Commons）
 
-![鴕鳥蛋（突尼斯 Dghoumes 國家公園）——「鳳皇卵，民食之」的現實底子：北非鴕鳥蛋採食是舊石器—新石器時代的常見生業](https://commons.wikimedia.org/wiki/Special:FilePath/Ostrich%20eggs%20-%20Dghoumes%20National%20Park.jpg?width=800)（圖：Wikimedia Commons）
+![鴕鳥蛋（突尼斯 Dghoumes 國家公園）——「鳳皇卵，民食之」的現實底子：北非鴕鳥蛋採食是舊石器—新石器時代的常見生業](images/Ostrich_eggs_-_Dghoumes_National_Park.jpg)（圖：Wikimedia Commons）
 
 **未決項**（照錄 draft-v1）：
 - 未知：諸夭之野——「所欲自從」＝理想化賦義層
@@ -243,7 +245,7 @@
 
 **配圖**：
 
-![地中海僧海豹（Monachus monachus）——龍魚「陵居大魚」的候選讀法之一（海豹讀法）；其出現提示鏈條已接近中地中海岸](https://commons.wikimedia.org/wiki/Special:FilePath/Monachus%20monachus%2098924517.jpg?width=800)（圖：Wikimedia Commons）
+![地中海僧海豹（Monachus monachus）——龍魚「陵居大魚」的候選讀法之一（海豹讀法）；其出現提示鏈條已接近中地中海岸](images/Monachus_monachus_98924517.jpg)（圖：Wikimedia Commons）
 
 **未決項**（照錄 draft-v1）：
 - 未知：龍魚（一曰鰕；一曰鼈魚）——鰕／鼈魚／狸狀三種形態描述＝異文系統並存
@@ -257,7 +259,7 @@
 
 **配圖**：
 
-![耳廓狐（Vulpes zerda，撒哈拉沙漠狐）——乘黃「狀如狐、背上有角」的候選現實底子之一](https://commons.wikimedia.org/wiki/Special:FilePath/Fennec%20Fox%20Peek.jpg?width=800)（圖：Wikimedia Commons）
+![耳廓狐（Vulpes zerda，撒哈拉沙漠狐）——乘黃「狀如狐、背上有角」的候選現實底子之一](images/Fennec_Fox_Peek.jpg)（圖：Wikimedia Commons）
 
 **未決項**（照錄 draft-v1）：
 - 衝突：白民之國——{'hypotheses': ['海外西白民國（本卷）', '大荒東經白民之國（帝俊後裔＝神話層系譜，book14 待裁）'], 'note': '跨卷同名，同實或借名待裁'}

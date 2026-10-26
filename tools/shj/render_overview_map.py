@@ -17,8 +17,12 @@ def render(cfg):
     LON0, LON1, LAT0, LAT1 = W["lon0"], W["lon1"], W["lat0"], W["lat1"]
     MX, MY, MW, MH = 60, 80, 1000, 560
     PANEL_X = MX + MW + 30
+    WRAP = cfg.get("lon_wrap_below")  # e.g. -25: longitudes below this display +360 (Pacific-centered view)
 
-    def X(lon): return MX + (lon - LON0) / (LON1 - LON0) * MW
+    def X(lon):
+        if WRAP is not None and lon < WRAP:
+            lon += 360
+        return MX + (lon - LON0) / (LON1 - LON0) * MW
     def Y(lat): return MY + (LAT1 - lat) / (LAT1 - LAT0) * MH
     def pts(seq): return " ".join(f"{X(lo):.1f},{Y(la):.1f}" for lo, la in seq)
     def _tw(t, size):
@@ -143,13 +147,15 @@ def render(cfg):
 
     # ---- grid ----
     lon_span, lat_span = LON1 - LON0, LAT1 - LAT0
-    lon_step = 10 if lon_span >= 60 else (5 if lon_span >= 20 else 2)
+    lon_step = 30 if lon_span >= 180 else (10 if lon_span >= 60 else (5 if lon_span >= 20 else 2))
     lat_step = 5 if lat_span >= 20 else 2
     v = math.ceil(LON0 / lon_step) * lon_step
     if v <= LON0: v += lon_step
     while v < LON1:
         S.append(f'<line x1="{X(v):.0f}" y1="{Y(LAT0):.0f}" x2="{X(v):.0f}" y2="{Y(LAT1):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
-        S.append(f'<text x="{X(v)-8:.0f}" y="{Y(LAT0)+16:.0f}" font-size="9" fill="#999">{v:g}°{"W" if v<0 else "E"}</text>')
+        true_lon = v - 360 if (WRAP is not None and v > 180) else v
+        if X(v) + 30 < MX + MW - 8:
+            S.append(f'<text x="{X(v)-8:.0f}" y="{Y(LAT0)+16:.0f}" font-size="9" fill="#999">{abs(true_lon):g}°{"W" if true_lon<0 else "E"}</text>')
         v += lon_step
     v = math.ceil(LAT0 / lat_step) * lat_step
     if v <= LAT0: v += lat_step

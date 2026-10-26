@@ -27,3 +27,11 @@
 | 卷十八 海內經 | [book-18-hainei.md](book-18-hainei.md) | 39 | 8 |
 
 共 869 條目、111 張配圖。結構化版本（含 KG 節點表）見 `../draft-v1/`；地圖見 `data/derived/era/adaptation/`（子經詳圖 26＋框架書補丁圖 13＋概要圖 7）。
+
+## 概要地圖
+
+- [《山海經》全書概要圖（26 鏈 × 框架書 402 點）](../../data/derived/era/adaptation/shanjing-overview.svg)
+- [五臧山經總體概要圖](../../data/derived/era/adaptation/wuzang-overview.svg)
+- 分經概要：[西山經](../../data/derived/era/adaptation/xishan-overview.svg)｜[中山經](../../data/derived/era/adaptation/zhongshan-overview.svg)｜[北山經](../../data/derived/era/adaptation/beishan-overview.svg)｜[東山經](../../data/derived/era/adaptation/dongshan-overview.svg)｜[南山經](../../data/derived/era/adaptation/nanshan-overview.svg)
+
+各卷內文已嵌入對應子經詳圖／本卷補丁圖（SVG，同目錄相對鏈接）。
