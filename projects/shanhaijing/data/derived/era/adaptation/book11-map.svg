@@ -28,7 +28,7 @@
 <text x="790" y="281" font-size="10" font-weight="bold" fill="#8e44ad">流沙</text>
 <circle cx="758" cy="298" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
 <text x="737" y="309" font-size="10" font-weight="bold" fill="#8e44ad">玉山·西王母</text>
-<circle cx="707" cy="295" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<rect x="702" y="290" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="700" y="284" font-size="10" font-weight="bold" fill="#8e44ad">積石山</text>
 <circle cx="673" cy="295" r="5.5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
 <text x="663" y="308" font-size="10" font-weight="bold" fill="#8e44ad">章莪·畢方</text>
@@ -154,7 +154,7 @@
 <text x="1090" y="380" font-size="9.5" fill="#8e44ad">昆侖之虛 → ADJ-002 主候選＝理查特構造（撒哈拉之眼）…</text>
 <text x="1090" y="398" font-size="9.5" fill="#8e44ad">流沙 → 復用西三＝蓋塔拉東緣沙沼</text>
 <text x="1090" y="415" font-size="9.5" fill="#8e44ad">玉山·西王母 → 復用西三玉山＝錫瓦綠洲</text>
-<text x="1090" y="432" font-size="9.5" fill="#8e44ad">積石山 → 復用西三＝卡蘭西奧古河道</text>
+<text x="1090" y="432" font-size="9.5" fill="#8e44ad">積石山 → F-0017 已裁決（2026-10-27）：「禹所導積石…</text>
 <text x="1090" y="450" font-size="9.5" fill="#8e44ad">章莪·畢方 → 復用西三＝錫爾特盆地東緣</text>
 <text x="1090" y="468" font-size="9.5" fill="#8e44ad">三危·三青鳥 → 復用西三＝哈魯傑火山原</text>
 <text x="1090" y="485" font-size="9.5" fill="#2471a3">赤水 → 復用西三＝紅海</text>

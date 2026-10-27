@@ -110,8 +110,8 @@
 <text x="737" y="394" font-size="9" fill="#4a7596">蘇伊士灣</text>
 <text x="826" y="401" font-size="9" fill="#4a7596">亞喀巴灣</text>
 <text x="829" y="249" font-size="9" fill="#4a7596">死海（峚山·玉膏瀝青）</text>
-<text x="683" y="360" font-size="9" fill="#2f6d9e">法雍湖（黑水〔a讀〕受水·大杅候選；原醜塗之水候選——F-0013）</text>
-<text x="545" y="337" font-size="9" fill="#8a6a2f">蓋塔拉窪地（大杅）</text>
+<text x="683" y="360" font-size="9" fill="#2f6d9e">法雍窪地·莫里斯湖（大杅＝黑水受水——2026-10-27 確指；窗口期遠大於今）</text>
+<text x="545" y="337" font-size="9" fill="#8a6a2f">蓋塔拉窪地（大杅對立候選存冊——黑水 b 讀）</text>
 <text x="541" y="408" font-size="9" fill="#8a6a2f">大沙海</text>
 <text x="392" y="333" font-size="9" fill="#8a6a2f">卡蘭西奧沙海</text>
 <text x="786" y="268" font-size="9" fill="#8a6a2f">北西奈沙丘（流沙）</text>
@@ -119,15 +119,16 @@
 <text x="899" y="360" font-size="9" fill="#5a7a3a">泑澤（西爾罕古湖·河水所潛）</text>
 <text x="550" y="357" font-size="9" fill="#c0392b">黑水（法雍—西部沙漠古水系·雙讀，F-0013）</text>
 <text x="491" y="316" font-size="9" fill="#c0392b">洵水南注黑水</text>
-<text x="373" y="348" font-size="9" fill="#2f7fbf">河水冒以西流（石門復湧）</text>
+<text x="373" y="348" font-size="9" fill="#2f7fbf">積石鏈位（卡蘭西奧存檔；石門→阿斯旺第一瀑布 F-0017）</text>
 <text x="620" y="281" font-size="9" fill="#1f7a6e">濕期湖鏈（「水行四百里」）</text>
 <text x="321" y="360" font-size="9" fill="#5a7a3a">蕃澤（古湖·文貝）</text>
 <text x="194" y="346" font-size="9" fill="#a04040">湯谷（溫泉）</text>
 <text x="660" y="244" font-size="9" fill="#2f6d9e">大澤（后稷所潛）</text>
 <text x="540" y="276" font-size="9" fill="#8e44ad">弱水環之（運河→沼澤化）</text>
 <text x="754" y="380" font-size="9" fill="#2f7fbf">赤水→紅海→氾天之水</text>
-<text x="668" y="333" font-size="9" fill="#1f7a6e">洋水→醜塗之水（消亡古水道，F-0013）</text>
-<text x="723" y="360" font-size="9" fill="#2f7fbf">河水（南流＝向南溯源延伸）→無逹（待定）</text>
+<text x="668" y="333" font-size="9" fill="#1f7a6e">洋水→醜塗之水＝乍得湖 Mega-Chad（Wadi Howar 消亡古水道）</text>
+<text x="723" y="360" font-size="9" fill="#2f7fbf">河水→無達＝地中海（尼羅三角洲受水·2026-10-27）</text>
+<text x="689" y="616" font-size="9" fill="#2f7fbf">阿斯旺第一瀑布（積石·石門——F-0017）</text>
 <rect x="706" y="293" width="6" height="6" fill="#34495e"/>
 <text x="714" y="292" font-size="9" fill="#34495e">開羅/吉薩</text>
 <rect x="525" y="350" width="6" height="6" fill="#34495e"/>
@@ -219,7 +220,7 @@
 <line x1="1090" y1="250" x2="1116" y2="250" stroke="#7a9a5a" stroke-width="2" stroke-dasharray="6 4"/>
 <text x="1124" y="254" font-size="11" fill="#444">時代假想：古湖沼（泑澤/蕃澤，已涸）</text>
 <line x1="1090" y1="272" x2="1116" y2="272" stroke="#b09050" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="1124" y="276" font-size="11" fill="#444">蓋塔拉窪地（大杅）/沙丘帶（流沙）</text>
+<text x="1124" y="276" font-size="11" fill="#444">蓋塔拉窪地（大杅對立存冊）/沙丘帶（流沙）</text>
 <rect x="1098" y="289" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="298" font-size="11" fill="#444">現代地點參照點</text>
 <text x="1090" y="340" font-size="14" font-weight="bold" fill="#333">23 站 → 現實候選（審核中）</text>
@@ -236,7 +237,7 @@
 <text x="1090" y="574" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 蠃母之山</tspan>　→ 蓋塔拉西緣台地｜⛰蓋塔拉窪地西緣台地</text>
 <text x="1090" y="595" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 玉山</tspan>　→ 錫瓦綠洲（西王母）｜⛰錫瓦綠洲台地</text>
 <text x="1090" y="616" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 軒轅之丘</tspan>　→ 大沙海北緣丘台</text>
-<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 積石之山</tspan>　→ 卡蘭西奧古河道·石門｜⛰卡蘭西奧—薩里爾古河道區台地</text>
+<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 積石之山</tspan>　→ 石門＝阿斯旺第一瀑布峽門（F-0017）｜鏈位卡蘭西奧存檔</text>
 <text x="1090" y="659" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 長留之山</tspan>　→ 蜃景台地（反景）｜⛰利比亞沙漠中部台地</text>
 <text x="1090" y="680" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 章莪之山</tspan>　→ 錫爾特東緣裸岩｜⛰錫爾特盆地東緣裸岩帶</text>
 <text x="1090" y="701" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 陰山</tspan>　→ 古湖盆北緣·文貝｜⛰利比亞古湖盆北緣</text>
@@ -247,7 +248,8 @@
 <text x="1090" y="807" font-size="11" fill="#7b241c"><tspan font-weight="bold">22 泑山</tspan>　→ 蘇爾特灣日落山·蓐收｜⛰蘇爾特灣南岸山地</text>
 <text x="1090" y="828" font-size="11" fill="#7b241c"><tspan font-weight="bold">23 翼望之山</tspan>　→ 蘇爾特灣西南岸（終點）｜⛰蘇爾特灣西南岸山地</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自崇吾（米甸）向西北至死海（峚山·玉膏瀝青），轉西跨西奈（泰器·文鰩魚雙海）、三角洲東緣（槐江·南望昆侖其光熊熊），西南至吉薩（昆侖之丘）；自吉薩正西：奈特倫（樂</text>
-<text x="60" y="702" font-size="11" fill="#666">遊）→蓋塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·積石·黑水）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原）→蘇爾特灣（泑山日落·翼望終點）。</text>
-<text x="60" y="724" font-size="11" fill="#666">全鏈 6,640 里≈2,324/2,556/2,789 km（0.35/0.385/0.42 三檔並列——G-4）；吉薩→錫瓦 1,320 里≈462/508/554 km vs 實測約 550 km（原「實測 541」更正）。所有對應為競爭</text>
-<text x="60" y="740" font-size="11" fill="#666">假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水不作否決。</text>
+<text x="60" y="702" font-size="11" fill="#666">遊）→蓋塔拉（流沙·水行）→錫瓦（玉山·西王母）→沙海古河道（軒轅之丘·黑水；積石鏈位存檔——石門＝阿斯旺第一瀑布峽門 F-0017）→利比亞綠洲帶（陰山文貝·符愓致雨·三危火山原</text>
+<text x="60" y="718" font-size="11" fill="#666">）→蘇爾特灣（泑山日落·翼望終點）。四受水體確指（2026-10-27）：無達＝地中海／氾天之水＝阿拉伯海／醜塗之水＝乍得湖 Mega-Chad／大杅＝法雍窪地莫里斯湖。</text>
+<text x="60" y="740" font-size="11" fill="#666">全鏈 6,640 里≈2,324/2,556/2,789 km（0.35/0.385/0.42 三檔並列——G-4）；吉薩→錫瓦 1,320 里≈462/508/554 km vs 實測約 550 km（原「實測 541」更正）。所有對應為競爭</text>
+<text x="60" y="756" font-size="11" fill="#666">假說，時代窗口 4000–1000 BCE；虛線水體可能已改道、消亡、沼澤化，現代無水不作否決。</text>
 </svg>
