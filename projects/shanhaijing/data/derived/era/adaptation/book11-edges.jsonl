@@ -43,7 +43,7 @@
 {"book": "book11", "entry": "SHJ-11-1-013", "src": "WAT:SHJ-11-1-013#1", "dst": "POL:SHJ-11-1-013#1", "type": "adjacent_to", "layer": "textual", "quote": "西南流注南海厭火東", "bearing": "東", "note": "句讀存疑：「注南海，厭火東」（入海口在厭火國東）／「南海厭火」連讀"}
 {"book": "book11", "entry": "SHJ-11-1-014", "src": "WAT:SHJ-11-1-014#1", "dst": "LND:SHJ-11-1-012#1", "type": "rises_at", "layer": "textual", "quote": "河水出東北隅，以行其北", "note": "河水出昆侖之虛東北隅"}
 {"book": "book11", "entry": "SHJ-11-1-014", "src": "WAT:SHJ-11-1-014#1", "dst": "WAT:SHJ-11-1-014#2", "type": "flows_into", "layer": "textual", "quote": "西南又入渤海", "note": "河水入渤海"}
-{"book": "book11", "entry": "SHJ-11-1-014", "src": "WAT:SHJ-11-1-014#1", "dst": "MTN:SHJ-02-3-013#1", "type": "flows_into", "layer": "textual", "quote": "又出海外，即西而北，入禹所導積石山", "note": "河水入禹所導積石山；積石山＝西三積石之山復用節點；「禹所導」禹跡層，禹無節點"}
+{"book": "book11", "entry": "SHJ-11-1-014", "src": "WAT:SHJ-11-1-014#1", "dst": "MTN:SHJ-02-3-013#1", "type": "flows_into", "layer": "textual", "quote": "又出海外，即西而北，入禹所導積石山", "note": "河水入禹所導積石山——F-0017 已裁決（2026-10-27）：「禹所導積石」＝晚層編纂（禹導河戰國層投影，與「入渤海」同層），不作定位；原西三積石復用撤銷，dst 節點引用僅保留為文本層記錄"}
 {"book": "book11", "entry": "SHJ-11-1-015", "src": "WAT:SHJ-11-1-015#1", "dst": "LND:SHJ-11-1-012#1", "type": "rises_at", "layer": "textual", "quote": "洋水、黑水出西北隅", "note": "洋水出昆侖之虛西北隅"}
 {"book": "book11", "entry": "SHJ-11-1-015", "src": "WAT:SHJ-11-1-008#1", "dst": "LND:SHJ-11-1-012#1", "type": "rises_at", "layer": "textual", "quote": "洋水、黑水出西北隅", "note": "黑水出昆侖之虛西北隅"}
 {"book": "book11", "entry": "SHJ-11-1-015", "src": "WAT:SHJ-11-1-015#1", "dst": "POL:SHJ-11-1-015#1", "type": "related_to", "layer": "textual", "quote": "南入海，羽民南", "note": "洋水南入海，入海口在羽民國南；所入之「海」泛稱無節點"}

@@ -2,4 +2,3 @@ __pycache__/
 *.pyc
 .DS_Store
 projects/shanhaijing/data/derived/era/*/runs/
-projects/shanhaijing/deliverables/draft-v2/_pdf_build/

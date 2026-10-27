@@ -18,7 +18,7 @@
 {"book": "book17", "entry": "SHJ-17-1-009", "src": "WAT:SHJ-05-11-001#2", "dst": "MTN:SHJ-17-1-009#1", "type": "flows_into", "layer": "textual", "quote": "有山名曰先檻大逢之山，河濟所入，海北注焉", "note": "濟水入（海）於此山之地"}
 {"book": "book17", "entry": "SHJ-17-1-009", "src": "LND:SHJ-17-1-013#1", "dst": "MTN:SHJ-17-1-009#1", "type": "flows_into", "layer": "textual", "quote": "海北注焉", "note": "「海」指本卷北海（泛稱節點）；海水向北注於先檻大逢之山"}
 {"book": "book17", "entry": "SHJ-17-1-009", "src": "MTN:SHJ-17-1-009#2", "dst": "MTN:SHJ-17-1-009#1", "type": "adjacent_to", "layer": "textual", "quote": "其西有山，名曰禹所積石", "bearing": "西"}
-{"book": "book17", "entry": "SHJ-17-1-009", "src": "MTN:SHJ-17-1-009#2", "dst": "MTN:SHJ-02-3-013#1", "type": "motif_of", "layer": "interpretive", "quote": "其西有山，名曰禹所積石", "note": "西次三經積石之山——同名異實雙假說（河湟積石 vs 西三系統），不裁決"}
+{"book": "book17", "entry": "SHJ-17-1-009", "src": "MTN:SHJ-17-1-009#2", "dst": "MTN:SHJ-02-3-013#1", "type": "motif_of", "layer": "interpretive", "quote": "其西有山，名曰禹所積石", "note": "西次三經積石之山——F-0017 已裁決（2026-10-27）：三址分立——西三積石＝阿斯旺第一瀑布花崗岩峽門方向；本條禹所積石＝晚層編纂不作定位（河湟晚層存冊）；原名同異實雙假說結案"}
 {"book": "book17", "entry": "SHJ-17-1-010", "src": "WAT:SHJ-17-1-010#1", "dst": "MTN:SHJ-17-1-010#2", "type": "rises_at", "layer": "textual", "quote": "有順山者，順水出焉"}
 {"book": "book17", "entry": "SHJ-17-1-010", "src": "MTN:SHJ-17-1-010#1", "dst": "MTN:SHJ-03-3-006#1", "type": "motif_of", "layer": "interpretive", "quote": "有陽山者", "note": "北次三經有同名陽山；本條無方位屬性可驗證，合併/分立雙讀"}
 {"book": "book17", "entry": "SHJ-17-1-012", "src": "POL:SHJ-17-1-012#1", "dst": "POL:SHJ-09-1-014#1", "type": "motif_of", "layer": "interpretive", "quote": "有毛民之國，依姓，食黍，使四鳥", "note": "海外東經毛民國同名母題跨卷（東方海上 vs 北方），雙讀並存"}

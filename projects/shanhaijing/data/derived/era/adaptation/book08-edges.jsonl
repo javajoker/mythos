@@ -24,7 +24,7 @@
 {"book":"book08","entry":"SHJ-08-1-011","src":"LND:SHJ-05-6-013#1","dst":"MTN:SHJ-05-6-013#1","type":"adjacent_to","layer":"textual","quote":"鄧林在其東，二樹木","note":"其＝夸父國（復用夸父之山節點）；鄧林復用桃林節點","bearing":"東"}
 {"book":"book08","entry":"SHJ-08-1-011","src":"PER:SHJ-08-1-010#1","dst":"MTN:SHJ-05-6-013#1","type":"motif_of","layer":"interpretive","quote":"其為人大，右手操青蛇，左手操黃蛇。鄧林在其東，二樹木。一曰博父","note":"夸父國（一曰博父）操蛇巨人形象與逐日敘事夸父、中六夸父之山同母题"}
 {"book":"book08","entry":"SHJ-08-1-012","src":"MTN:SHJ-08-1-012#1","dst":"MTN:SHJ-05-6-013#1","type":"adjacent_to","layer":"textual","quote":"禹所積石之山在其東","note":"其＝夸父國（復用夸父之山節點）","bearing":"東"}
-{"book":"book08","entry":"SHJ-08-1-012","src":"WAT:SHJ-05-6-011#2","dst":"MTN:SHJ-08-1-012#1","type":"related_to","layer":"textual","quote":"禹所積石之山在其東，河水所入","note":"河水所入之地（山地非受水體，不取 flows_into）"}
+{"book": "book08", "entry": "SHJ-08-1-012", "src": "WAT:SHJ-05-6-011#2", "dst": "MTN:SHJ-08-1-012#1", "type": "related_to", "layer": "textual", "quote": "禹所積石之山在其東，河水所入", "note": "河水所入之地（山地非受水體，不取 flows_into）——F-0017 已裁決（2026-10-27）：禹所積石＝晚層編纂（禹導河戰國層投影），不作定位；河湟候選晚層存冊"}
 {"book":"book08","entry":"SHJ-08-1-013","src":"POL:SHJ-08-1-013#1","dst":"MTN:SHJ-08-1-012#1","type":"adjacent_to","layer":"textual","quote":"拘癭之國在其東","note":"其＝禹所積石之山","bearing":"東"}
 {"book":"book08","entry":"SHJ-08-1-014","src":"LND:SHJ-08-1-014#1","dst":"POL:SHJ-08-1-013#1","type":"adjacent_to","layer":"textual","quote":"尋木長千里，在拘癭南","bearing":"南"}
 {"book":"book08","entry":"SHJ-08-1-014","src":"LND:SHJ-08-1-014#1","dst":"WAT:SHJ-05-6-011#2","type":"adjacent_to","layer":"textual","quote":"生河上西北","note":"雙方位錨之二：生於河上西北","bearing":"西北"}
