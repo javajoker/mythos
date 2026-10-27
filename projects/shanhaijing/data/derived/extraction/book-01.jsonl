@@ -5,7 +5,7 @@
 {"entry":"SHJ-01-1-005","entities":[["柢山","MTN"],["水","WAT"],["草","PLA",null,"absent"],["木","PLA",null,"absent"],["鯥","CRE"],["牛","CRE"],["陵","LND"],["蛇","CRE"],["留牛","CRE"]],"relations":[]}
 {"entry":"SHJ-01-1-006","entities":[["亶爰之山","MTN"],["水","WAT"],["草","PLA",null,"absent"],["木","PLA",null,"absent"],["類","CRE"],["狸","CRE"]],"relations":[]}
 {"entry":"SHJ-01-1-007","entities":[["基山","MTN"],["玉","MIN"],["怪木","PLA"],["羊","CRE"],["猼訑","CRE"],["雞","CRE"],["𪁺𩿧","CRE"]],"relations":[]}
-{"entry":"SHJ-01-1-008","entities":[["青丘之山","MTN"],["玉","MIN"],["青雘","MIN"],["狐","CRE"],["鳩","CRE"],["灌灌","CRE"],["英水","WAT"],["即翼之澤","WAT"],["赤鱬","CRE"],["魚","CRE"],["鴛鴦","CRE"]],"relations":[["英水","rises_at","青丘之山"],["英水","flows_into","即翼之澤"]]}
+{"entry": "SHJ-01-1-008", "entities": [["青丘之山", "MTN"], ["玉", "MIN"], ["青雘", "MIN"], ["狐", "CRE"], ["鳩", "CRE"], ["灌灌", "CRE"], ["英水", "WAT"], ["即翼之澤", "WAT"], ["赤鱬", "CRE"], ["魚", "CRE"], ["鴛鴦", "CRE"], ["九尾狐", "CRE"]], "relations": [["英水", "rises_at", "青丘之山"], ["英水", "flows_into", "即翼之澤"]]}
 {"entry":"SHJ-01-1-009","entities":[["箕尾之山","MTN","MTN:南首-箕尾"],["東海","WAT"],["沙石","MIN"],["汸水","WAT"],["淯","WAT"],["白玉","MIN"]],"relations":[["汸水","rises_at","箕尾之山"],["汸水","flows_into","淯"]]}
 {"entry":"SHJ-01-1-010","entities":[["招搖之山","MTN","MTN:南首-招搖"],["箕尾之山","MTN","MTN:南首-箕尾"],["神","PER"],["璋玉","OBJ"],["糈","OBJ"],["稌米","PLA"],["璧","OBJ"],["稻米","PLA"],["白菅","PLA"],["席","OBJ"]],"relations":[]}
 {"entry":"SHJ-01-2-001","entities":[["柜山","MTN","MTN:南二-柜山"],["流黃","LND"],["諸毗","MTN","MTN:南二-諸毗"],["長右","MTN"],["英水","WAT"],["赤水","WAT"],["白玉","MIN"],["丹粟","MIN"],["貍力","CRE"],["豚","CRE"],["鴸","CRE"],["鴟","CRE"],["縣","POL"],["放士","PER"]],"relations":[["英水","rises_at","柜山"],["英水","flows_into","赤水"]]}

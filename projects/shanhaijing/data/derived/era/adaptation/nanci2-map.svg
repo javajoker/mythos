@@ -2,7 +2,7 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《南次二經》（柜山之首）時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-nanci2-1 ｜ 起點拓撲錨：柜山（英水西南注赤水＝紅河方向）＝滇東高原 ｜ 滇東→南嶺→武夷→東海島鏈 17 站 ｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-nanci2-1 ｜ 起點拓撲錨：柜山（英水西南注赤水＝滇東西南向大河；紅河/紅水河待裁——RT-N8）＝滇東高原 ｜ 滇東→南嶺→武夷→東海島鏈 17 站 ｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
 <polyline points="226.7,546.7 257.0,608.9 302.4,671.1 332.7,733.3" fill="none" stroke="#5b97c4" stroke-width="2"/>
 <text x="187" y="621" font-size="10" fill="#5b97c4">北部灣岸（現代參照）</text>
@@ -11,7 +11,7 @@
 <polyline points="711.5,316.4 741.8,254.2 787.3,279.1 847.9,328.9 923.6,353.8 984.2,391.1" fill="none" stroke="#5b97c4" stroke-width="1.8"/>
 <text x="863" y="248" font-size="10" fill="#5b97c4">東海島鏈（舟山—琉球；現代參照）</text>
 <polyline points="175.2,341.3 166.1,422.2 150.9,496.9 181.2,565.3" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="127" y="466" font-size="10" fill="#2f7fbf">紅河（赤水候選）</text>
+<text x="127" y="466" font-size="10" fill="#2f7fbf">紅河／紅水河（赤水候選待裁——RT-N8）</text>
 <polyline points="423.6,360.0 432.7,266.7 438.8,173.3 447.9,92.4" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
 <text x="378" y="173" font-size="10" fill="#2f7fbf">湘江—洞庭（具區候選方向）</text>
 <ellipse cx="212" cy="341" rx="76" ry="75" fill="#e2d9c8" opacity="0.35"/>
@@ -72,7 +72,7 @@
 <circle cx="992" cy="410" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="988" y="414" font-size="9" fill="#fff" font-weight="bold">17</text>
 <text x="974" y="399" font-size="10" fill="#7b241c" font-weight="bold">漆吳之山</text>
-<text x="75" y="173" font-size="9" fill="#8e44ad">赤水＝紅河方向（英水西南注 ✓ 強拓扑）；與西三赤水＝共名標記</text>
+<text x="75" y="173" font-size="9" fill="#8e44ad">赤水＝滇東西南向大河（英水西南注 ✓ 強拓撲；紅河/紅水河待裁——RT-N8）；與西三赤水＝共名標記</text>
 <text x="75" y="254" font-size="9" fill="#a04040">會稽/羽山/區吳/具區/苕水＝借名標記（不作證）</text>
 <text x="908" y="497" font-size="9" fill="#666">網格東端入海（層累 variant）</text>
 <rect x="142" y="326" width="6" height="6" fill="#34495e"/>
@@ -159,14 +159,14 @@
 <text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：柜山「英水西南流注于赤水」＝紅河方向——滇東西南向大河；不依名稱。</text>
+<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：柜山「英水西南流注于赤水」＝滇東西南向大河（不依名稱；紅河/紅水河對立待裁——RT-N8）。</text>
 <text x="1090" y="276" font-size="10" fill="#666">里程：自記 7,200＝腿程 7,210（+0.1%）；0.385 檔≈2,776 km vs 滇東—閩東實距約 2,000 km——層累</text>
 <text x="1090" y="291" font-size="10" fill="#666">約 1.4×（F-0008 帶內）。</text>
 <text x="1090" y="310" font-size="10" fill="#666">南島同域：東段閩台—東海島鏈＝大坌坑文化（5000–4000 BP，窗口內）——漆吳「日次」島鏈端點與南島擴</text>
 <text x="1090" y="324" font-size="10" fill="#666">散起點方向相容——候選級。</text>
 <text x="1090" y="342" font-size="10" fill="#666">神群皆龍身鳥首（與南一鳥身龍首鏡像對仗）；祠：璧瘞＋稌米。</text>
 <text x="1090" y="377.0" font-size="14" font-weight="bold" fill="#333">17 站 → 現實候選（審核中）</text>
-<text x="1090" y="399" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 柜山</tspan>　→ 滇東（起點錨；赤水＝紅河方向）｜⛰雲貴高原·滇東</text>
+<text x="1090" y="399" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 柜山</tspan>　→ 滇東（起點錨；赤水＝西南向大河，紅河/紅水河待裁——RT-N8）｜⛰雲貴高原·滇東</text>
 <text x="1090" y="420" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 長右之山</tspan>　→ 滇東南（長右四耳·大水兆）｜⛰雲貴高原·滇東南</text>
 <text x="1090" y="441" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 堯光之山</tspan>　→ 桂西北（猾褢穴居冬蟄）｜⛰雲貴高原東緣—桂西北</text>
 <text x="1090" y="463" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 羽山</tspan>　→ 桂西—桂中（多雨蝮虫；借名）｜⛰桂西—桂中山地</text>
@@ -183,9 +183,9 @@
 <text x="1090" y="696" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 區吳之山</tspan>　→ 閩東沿海（鹿水注滂水；借名）｜⛰閩東沿海丘陵</text>
 <text x="1090" y="717" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 鹿吳之山</tspan>　→ 浙南—閩東（蠱雕食人）｜⛰浙南—閩東沿海丘陵</text>
 <text x="1090" y="738" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 漆吳之山</tspan>　→ 東海島鏈（日次·終點）｜⛰東海島鏈（舟山—琉球方向）</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：自柜山（滇東，英水西南注赤水＝紅河方向；鴸放士記錄）東南下高原（長右·大水兆）——桂西北（堯光·猾褢穴居冬蟄）→桂西—桂中（羽山·多雨蝮虫）→桂東北—湘南（浮玉·北</text>
-<text x="60" y="702" font-size="11" fill="#666">望具區·彘＝虎食人）→南嶺中段（成山·四方三壇；會稽·四方借名）→贛南—閩西（夷山·僕勾·咸陰）→武夷（洵山·䍺無口獸）→閩江方向（虖勺·滂水東注海）→閩東—浙南沿海（區吳·鹿吳</text>
-<text x="60" y="718" font-size="11" fill="#666">·蠱雕食人）→漆吳之山（東海島鏈終點：處于東海·是惟日次）。</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：自柜山（滇東，英水西南注赤水＝西南向大河待裁——RT-N8；鴸放士記錄）東南下高原（長右·大水兆）——桂西北（堯光·猾褢穴居冬蟄）→桂西—桂中（羽山·多雨蝮虫）→桂東北</text>
+<text x="60" y="702" font-size="11" fill="#666">—湘南（浮玉·北望具區·彘＝虎食人）→南嶺中段（成山·四方三壇；會稽·四方借名）→贛南—閩西（夷山·僕勾·咸陰）→武夷（洵山·䍺無口獸）→閩江方向（虖勺·滂水東注海）→閩東—浙南</text>
+<text x="60" y="718" font-size="11" fill="#666">沿海（區吳·鹿吳·蠱雕食人）→漆吳之山（東海島鏈終點：處于東海·是惟日次）。</text>
 <text x="60" y="740" font-size="11" fill="#666">腿程 7,210 里≈2,776 km（0.385）≈自記 7,200（+0.1%）；網格東端越出陸域記 variant。所有對應為競爭假說，時代窗口 4000–1000 BCE；後世同名（會稽/具區等）不作反證；赤水</text>
 <text x="60" y="756" font-size="11" fill="#666">/英水共名標記（F-0011 規則）。</text>
 </svg>

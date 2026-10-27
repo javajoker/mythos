@@ -4,10 +4,10 @@
   "source": "working-text.jsonl",
   "source_sha256": "4da155f60de8808c5f6b76ce406d65c9c340f8b2a53c8f8849a73b9c02070224",
   "extraction_sha256": {
-    "book-01.jsonl": "257ac57e7e11106892cb7cf78290db7c583dea19aa0cb207774593b6d032aef0",
-    "book-02.jsonl": "d76e817e88e7b22ee6f7c5d031a00fb4c5d20937669944f6e2007fdcc3a2da18",
+    "book-01.jsonl": "27453a4dec699e23497732608274bf3fe360c956edb46c41fe0d8a282b953137",
+    "book-02.jsonl": "a932be5fe8b20517507eb3e0b2b89af65538eca80faa35a2e3e0311880adfce2",
     "book-03.jsonl": "53beee54e421c28d3acbbdd080be681d157350d739df4a44580e9649b67a990f",
-    "book-04.jsonl": "b543e16783f00cad7526f32527bf62cf4fa29309de2386c516e1f5c1e7e082d2",
+    "book-04.jsonl": "3e4a6b4fe867b46eafef218a06029746d858e752b2cee6a4eb8854b9a853a3c6",
     "book-05.jsonl": "c3f4774bd344dca357a1ee360c7e7352f9e4289c5ef31f8831ff17c45cfa921e"
   },
   "books": [
@@ -18,17 +18,17 @@
     5
   ],
   "entries": 481,
-  "nodes": 3593,
-  "mentions": 3781,
-  "edges": 1019,
+  "nodes": 3597,
+  "mentions": 3785,
+  "edges": 517,
   "attributes": 28,
   "initialization_anchors": 5,
   "mention_types": {
     "AST": 7,
     "CLIM": 86,
-    "CRE": 784,
+    "CRE": 786,
     "DOC": 7,
-    "LND": 40,
+    "LND": 42,
     "MIN": 697,
     "MTN": 554,
     "OBJ": 91,
@@ -41,7 +41,7 @@
     "1": {
       "AST": 1,
       "CLIM": 5,
-      "CRE": 76,
+      "CRE": 77,
       "DOC": 1,
       "LND": 5,
       "MIN": 52,
@@ -55,7 +55,7 @@
     "2": {
       "AST": 6,
       "CLIM": 20,
-      "CRE": 206,
+      "CRE": 207,
       "DOC": 1,
       "LND": 7,
       "MIN": 131,
@@ -83,7 +83,7 @@
       "CLIM": 15,
       "CRE": 101,
       "DOC": 1,
-      "LND": 6,
+      "LND": 8,
       "MIN": 52,
       "MTN": 55,
       "OBJ": 3,
@@ -152,10 +152,10 @@
       "zhongci8",
       "zhongci9"
     ],
-    "mapping_attributes": 2171,
-    "geo_nodes_covered": 982,
-    "geo_nodes_total": 980,
-    "attributes_total": 9545,
+    "mapping_attributes": 3115,
+    "geo_nodes_covered": 984,
+    "geo_nodes_total": 982,
+    "attributes_total": 10322,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_readings": {
@@ -165,9 +165,9 @@
     "identified": 2702,
     "state_only": 15,
     "no_reading": 0,
-    "skipped_geo": 1107,
+    "skipped_geo": 1109,
     "not_in_kg": 57,
-    "attributes_total": 9545,
+    "attributes_total": 10494,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_assoc_ded": {
@@ -178,7 +178,7 @@
       "deductive.utility": 153,
       "associative.symbolism": 413
     },
-    "attributes_total": 9545,
+    "attributes_total": 10494,
     "review_status": "proposed_pending_review"
   },
   "kg_framework_v1": {
@@ -198,15 +198,15 @@
       "17",
       "18"
     ],
-    "new_nodes": 745,
+    "new_nodes": 746,
     "by_disposition": {
-      "new_entity": 408,
+      "new_entity": 409,
       "pending_anchor": 337
     },
-    "reuse_links": 63,
-    "nodes_total": 4340,
-    "mentions_total": 4618,
-    "attributes_total": 9549,
+    "reuse_links": 62,
+    "nodes_total": 4343,
+    "mentions_total": 4620,
+    "attributes_total": 10494,
     "review_status": "proposed_pending_review"
   }
 }

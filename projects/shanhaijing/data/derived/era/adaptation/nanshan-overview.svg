@@ -3,7 +3,7 @@
 <clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
 <defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《南山經》概要圖：三子經鏈 時代假想推理 × 現代映射參照</text>
-<text x="60" y="56" font-size="12" fill="#666">南一＝中南半島（若開→撣邦→長山）｜ 南二＝滇東→南嶺→武夷→東海島鏈（赤水＝紅河方向錨）｜ 南三＝嶺南丘陵（雷州—瓊北火山候選）｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">南一＝中南半島（若開→撣邦→長山；−0.75× 縮水列反例待重審——RT-N3）｜ 南二＝滇東→南嶺→武夷→東海島鏈（赤水＝西南向大河待裁）｜ 南三＝嶺南丘陵 ｜ 南二/南三覆蓋衝突待裁 F-0014，兩鏈封頂 low_medium</text>
 <g clip-path="url(#mapclip)">
 <polyline points="155.2,453.3 202.9,523.3 274.3,616.7 333.8,628.3 369.5,593.3 417.1,616.7 464.8,570.0 512.4,500.0 536.2,430.0 500.5,360.0" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
 <text x="191" y="547" font-size="10" fill="#2f7fbf">中南半島海岸（簡化）</text>
@@ -12,7 +12,7 @@
 <polyline points="821.9,243.3 869.5,208.3 917.1,161.7 976.7,115.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
 <text x="858" y="183" font-size="10" fill="#2f7fbf">琉球島鏈方向（東海島鏈）</text>
 <polyline points="321.9,301.7 369.5,325.0 429.0,341.3 452.9,353.0" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="305" y="323" font-size="10" fill="#2f7fbf">紅河（赤水候選——拓扑錨）</text>
+<text x="305" y="323" font-size="10" fill="#2f7fbf">紅河／紅水河方向（赤水候選待裁——RT-N8）</text>
 <polyline points="321.9,360.0 345.7,430.0 393.3,500.0 417.1,581.7" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
 <text x="358" y="465" font-size="10" fill="#2f7fbf">湄公河（現代參照）</text>
 <polyline points="226.7,360.0 274.3,313.3 345.7,278.3 417.1,266.7" fill="none" stroke="#a07d1e" stroke-width="2"/>
@@ -22,7 +22,7 @@
 <ellipse cx="584" cy="512" rx="119" ry="70" fill="#cfe0e8" opacity="0.35"/>
 <text x="560" y="515" font-size="10" fill="#7a6540">南海</text>
 <ellipse cx="543" cy="360" rx="17" ry="9" fill="#e2d9c8" opacity="0.35"/>
-<text x="519" y="363" font-size="10" fill="#7a6540">雷州—瓊北火山群（令丘多火候選）</text>
+<text x="519" y="363" font-size="10" fill="#7a6540">雷州—瓊北火山群（現代參照；令丘「多火」候選已撤——RT-N5）</text>
 <polyline points="143.3,348.3 169.8,348.3 203.1,348.3 235.7,348.3 262.1,348.3 297.1,348.3 323.6,348.3 350.0,348.3 380.7,348.3" fill="none" stroke="#2e86c1" stroke-width="2.6" opacity="0.85"/>
 <circle cx="143" cy="348" r="5" fill="#2e86c1" stroke="#fff" stroke-width="1.2"/>
 <circle cx="170" cy="348" r="3" fill="#2e86c1" stroke="#fff" stroke-width="1.2"/>
@@ -71,9 +71,9 @@
 <circle cx="946" cy="262" r="5" fill="#5dade2" stroke="#fff" stroke-width="1.2"/>
 <circle cx="429" cy="262" r="9" fill="none" stroke="#5dade2" stroke-width="2.5"/>
 <text x="643" y="309" font-size="11" font-weight="bold" fill="#5dade2">南三·天虞鏈</text>
-<text x="155" y="269" font-size="9" fill="#2874a6">赤水＝紅河方向（拓扑錨；紅海讀法已否決——F-0011 附錄：無跨海腿）</text>
+<text x="155" y="269" font-size="9" fill="#2874a6">赤水＝滇東西南向大河（拓撲錨；紅河/紅水河待裁——RT-N8；紅海讀法已否決——F-0011 附錄：無跨海腿）</text>
 <text x="203" y="605" font-size="9" fill="#8e44ad">「西山經以南」已落實＝中南半島＋華南；印度半島/撒哈拉以南非洲留白（v1.4 裁定）</text>
-<text x="727" y="323" font-size="9" fill="#2874a6">漆吳之山「日次」＝東海島鏈端點（大坌坑文化同域 5000–4000 BP）</text>
+<text x="727" y="323" font-size="9" fill="#2874a6">漆吳「日次」＝島鏈端點候選（128–133°E 擺動——RT-N3）</text>
 <rect x="434" y="334" width="6" height="6" fill="#34495e"/>
 <text x="442" y="333" font-size="9" fill="#34495e">河內</text>
 <rect x="359" y="240" width="6" height="6" fill="#34495e"/>
@@ -136,17 +136,19 @@
 <text x="1124" y="210" font-size="11" fill="#444">海域/湖澤</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">南一「凡十山」佚一站、南三「凡十四山」佚旄山之首——variant 已記；里程自記 vs 腿程見各經適配檔。</text>
-<text x="1090" y="276" font-size="10" fill="#666">邊界裁定（v1.4）：長臂猿生物群鎖定東南亞；南二拓扑（赤水/具區/東海島鏈）與南三（雷州火山窗口期 vs </text>
-<text x="1090" y="291" font-size="10" fill="#666">德干死火山）否決印度讀法。</text>
-<text x="1090" y="310" font-size="10" fill="#666">南島文明方向同域候選級：班清（中南半島）/大坌坑（閩台）/嶺南百越均在窗口內 ✓。</text>
-<text x="1090" y="344.0" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>
-<text x="1090" y="366" font-size="11" fill="#2e86c1">南一·招搖鏈（9 站）→ 中南半島（若開山→撣邦高原→長山山脈；肉桂＋白耳長臂猿＋赤鱬儒艮；青丘九…</text>
-<text x="1090" y="387" font-size="11" fill="#2874a6">南二·柜山鏈（17 站）→ 滇東→南嶺→武夷山→東海島鏈（赤水＝紅河方向拓扑錨；漆吳日次＝島鏈端點·…</text>
-<text x="1090" y="408" font-size="11" fill="#5dade2">南三·天虞鏈（13 站）→ 嶺南山系（桂西—滇東南→嶺南丘陵→雷州—瓊北火山候選→閩粵沿海；犀兕象…</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：《南山經》三鏈——南一自招搖之山（若開山脈）東行九站穿撣邦高原至箕尾之山（長山山脈，其尾踆于東海）；南二自柜山（滇東）東北行十七站——南嶺→武夷山→漆吳之山（東</text>
-<text x="60" y="702" font-size="11" fill="#666">海島鏈端點，「處於東海，望丘山，其光載出載入，是惟日次」）；南三自天虞之山（桂西—滇東南）東行十三站——嶺南丘陵（犀兕象＋鳳皇五德文）→令丘之山（多火＝雷州—瓊北火山群候</text>
-<text x="60" y="718" font-size="11" fill="#666">選）→南禺之山（閩粵沿海，佐水出焉而東南流注于海）。</text>
-<text x="60" y="740" font-size="11" fill="#666">概要圖站位＝各子經算術網格（東向層累已記於各經 variant）；赤水類名註冊（F-0011）：南二赤水＝紅河方向，與西三赤水＝紅海候選分屬不同子經類名。所有對應為競爭假說，時代窗口 </text>
-<text x="60" y="756" font-size="11" fill="#666">4000–1000 BCE。</text>
+<text x="1090" y="258" font-size="10" fill="#666">南一「凡十山」佚一站、南三「凡十四山」佚旄山之首——variant 已記，缺站加深而非解釋里程問題（RT-N7</text>
+<text x="1090" y="272" font-size="10" fill="#666">）；里程自記 vs 腿程見各經適配檔（三鏈帶符號並列：南一 −0.75×／南二 +1.4×／南三 +1.8×）。</text>
+<text x="1090" y="291" font-size="10" fill="#666">邊界裁定（v1.4）：長臂猿生物群鎖定東南亞；南二拓撲（赤水/具區/東海島鏈）否決印度讀法。南三雷州火山</text>
+<text x="1090" y="306" font-size="10" fill="#666">否決論證已撤（RT-N5）；具區專名待裁 F-0015，江南讀法已列南二正式對立候選（RT-N2）。</text>
+<text x="1090" y="324" font-size="10" fill="#666">南島文明方向同域候選級：班清（中南半島）/嶺南百越在窗口內；大坌坑（閩台）引用已收束——鏈是否過台灣</text>
+<text x="1090" y="338" font-size="10" fill="#666">未決（RT-N6）。</text>
+<text x="1090" y="373.0" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>
+<text x="1090" y="395" font-size="11" fill="#2e86c1">南一·招搖鏈（9 站）→ 中南半島（若開山→撣邦高原→長山山脈；肉桂＋長臂猿科泛化（白耳對應勉強—…</text>
+<text x="1090" y="416" font-size="11" fill="#2874a6">南二·柜山鏈（17 站）→ 滇東→南嶺→武夷山→東海島鏈（赤水＝西南向大河拓撲錨，紅河/紅水河待裁—…</text>
+<text x="1090" y="437" font-size="11" fill="#5dade2">南三·天虞鏈（13 站）→ 嶺南山系（桂西—滇東南→嶺南丘陵→閩粵沿海；犀兕象＝非定位性證據——RT-…</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：《南山經》三鏈——南一自招搖之山（若開山脈）東行九站穿撣邦高原至箕尾之山（長山山脈，「其尾踆于東海」降 variant——RT-N7）；南二自柜山（滇東）東北行十七站——南</text>
+<text x="60" y="702" font-size="11" fill="#666">嶺→武夷山→漆吳之山（東海島鏈端點候選，「處於東海，望丘山，其光載出載入，是惟日次」）；南三自天虞之山（桂西—滇東南）東行十三站——嶺南丘陵（犀兕象＝非定位性證據＋鳳皇五</text>
+<text x="60" y="718" font-size="11" fill="#666">德文）→令丘之山（「多火」列 unknown——RT-N5）→南禺之山（閩粵沿海，佐水出焉而東南流注于海）。南二/南三走廊覆蓋衝突待裁（F-0014）。</text>
+<text x="60" y="740" font-size="11" fill="#666">概要圖站位＝各子經算術網格（東向層累已記於各經 variant）；赤水類名註冊（F-0011）：南二赤水＝滇東西南向大河（紅河/紅水河待裁——RT-N8），與西三赤水＝紅海候選分屬不同子經</text>
+<text x="60" y="756" font-size="11" fill="#666">類名。所有對應為競爭假說，時代窗口 4000–1000 BCE。</text>
 </svg>

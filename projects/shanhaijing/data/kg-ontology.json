@@ -733,6 +733,22 @@
    "layers": [
     "interpretive"
    ]
+  },
+  "genealogy": {
+   "domain": [
+    "PER",
+    "POL"
+   ],
+   "range": [
+    "PER",
+    "POL",
+    "MTN",
+    "WAT",
+    "LND"
+   ],
+   "layers": [
+    "textual"
+   ]
   }
  }
 }

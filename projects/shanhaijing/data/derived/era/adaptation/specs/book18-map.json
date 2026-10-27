@@ -170,7 +170,7 @@
       "lon": 103.5,
       "lat": 22.8,
       "color": "#2c7fb8",
-      "note": "紅河方向（WAT:SHJ-01-2-001#2，炎帝妻族源地）",
+      "note": "西南向大河（紅河/紅水河待裁——RT-N8；WAT:SHJ-01-2-001#2，炎帝妻族源地）",
       "status": "region",
       "label_pos": [
         96.0,
@@ -666,7 +666,7 @@
     },
     {
       "grid": "nanci2-station-grid.jsonl",
-      "label": "南二（赤水·紅河方向）",
+      "label": "南二（赤水·西南向大河待裁——RT-N8）",
       "short": "參照",
       "context": true
     }

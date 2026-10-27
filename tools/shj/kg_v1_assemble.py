@@ -85,6 +85,8 @@ def main():
         records.append({"id": f"ATTMAP:{slug}:{nid}{seg}:primary", "predicate": "era.candidate",
                         "value": value, **base})
         for i, rv in enumerate(m.get("rival_candidates", []), 1):
+            if isinstance(rv, str):
+                rv = {"name": rv, "fit": None, "status": "no_rival_documented"}
             records.append({"id": f"ATTMAP:{slug}:{nid}{seg}:rival{i}", "predicate": "era.candidate",
                             "value": {"role": "rival", "name": rv.get("name"), "fit": rv.get("fit"),
                                       "status": rv.get("status", "rival")},

@@ -65,7 +65,7 @@
 {"book": "book18", "entry": "SHJ-18-1-028", "src": "PER:SHJ-18-1-028#2", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有赤脛之民", "note": "承「北海之內」幽都序列"}
 {"book": "book18", "entry": "SHJ-18-1-029", "src": "POL:SHJ-18-1-029#1", "dst": "LND:SHJ-18-1-001#1", "type": "located_in", "layer": "textual", "quote": "有釘靈之國，其民從䣛已下有毛，馬蹏善走", "note": "承「北海之內」序列（026–029 段）"}
 {"book": "book18", "entry": "SHJ-18-1-037", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-037#1", "type": "related_to", "layer": "textual", "quote": "禹、鯀是始布土，均定九州", "note": "鯀見 031 系譜節點；禹為鯀之子（039 鯀復生禹）"}
-{"book": "book18", "entry": "SHJ-18-1-038", "src": "PER:SHJ-18-1-038#1", "dst": "WAT:SHJ-01-2-001#2", "type": "related_to", "layer": "textual", "quote": "炎帝之妻，赤水之子聽訞生炎居", "note": "炎帝妻族出赤水；赤水復用南二，同名多水假說並存"}
+{"book": "book18", "entry": "SHJ-18-1-038", "src": "PER:SHJ-18-1-038#1", "dst": "WAT:SHJ-01-2-001#2", "type": "genealogy", "layer": "textual", "quote": "炎帝之妻，赤水之子聽訞生炎居", "note": "炎帝妻族出赤水——「赤水之子聽訞」為系譜人名（妻族源地的人格化），非水體記錄；原水體復用（南二赤水）係範疇錯誤，已撤銷（ADJ-005 修訂，紅隊發現 6-2，2026-10-27）。本邊僅存系譜敘事關係，不作水體定位。"}
 {"book": "book18", "entry": "SHJ-18-1-038", "src": "PER:SHJ-18-1-038#1", "dst": "WAT:SHJ-05-9-002#1", "type": "inhabits", "layer": "textual", "quote": "祝融降處於江水", "note": "祝融降處江水；術器「是復土穰，以處江水」同"}
 {"book": "book18", "entry": "SHJ-18-1-039", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-039#2", "type": "related_to", "layer": "textual", "quote": "鯀竊帝之息壤以堙洪水，不待帝命"}
 {"book": "book18", "entry": "SHJ-18-1-039", "src": "PER:SHJ-18-1-031#1", "dst": "LND:SHJ-18-1-039#1", "type": "related_to", "layer": "textual", "quote": "帝令祝融殺鯀于羽郊", "note": "鯀被殺於羽郊"}

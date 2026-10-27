@@ -3,7 +3,7 @@
 <clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
 <defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《大荒南經》（卷15）補丁地圖 — 華南—南海—南島方向</text>
-<text x="60" y="56" font-size="12" fill="#666">框架書區域調查：復用錨定（赤水=南二紅河方向 / 黑水·南海=南三 / 成山=南二南嶺 / 巫山=中九鏈三峽方向）＋待錨指向 | 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">框架書區域調查：復用錨定（赤水=南二西南向大河待裁 / 黑水·南海=南三 / 成山=南二南嶺 / 巫山=中九鏈三峽方向）＋待錨指向 | 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
 <ellipse cx="588" cy="453" rx="250" ry="124" fill="#bcd6e8" opacity="0.35"/>
 <text x="564" y="456" font-size="10" fill="#7a6540">南海</text>
@@ -17,7 +17,7 @@
 <text x="129" y="122" font-size="9" fill="#16a085">藥草—長生母題群：巫山(帝藥)—雲雨(取藥)—不死國(甘木)</text>
 <text x="129" y="141" font-size="9" fill="#8e44ad">鳥圖騰族群鏈：羽民—卵民—驩頭—鳥喙人（南島方向）</text>
 <circle cx="327" cy="282" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
-<text x="252" y="273" font-size="10" font-weight="bold" fill="#c0392b">赤水（復用南二·紅河方向）</text>
+<text x="252" y="273" font-size="10" font-weight="bold" fill="#c0392b">赤水（復用南二·西南向大河待裁）</text>
 <rect x="236" y="223" width="10" height="10" fill="none" stroke="#c0392b" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="82" y="217" font-size="10" font-weight="bold" fill="#c0392b">汜天之山（赤水窮焉·待錨）</text>
 <circle cx="532" cy="298" r="5.5" fill="#2c3e50" stroke="#fff" stroke-width="1.2"/>
@@ -130,41 +130,42 @@
 <text x="1124" y="232" font-size="11" fill="#444">四極框架（南極風神）</text>
 <line x1="1090" y1="250" x2="1116" y2="250" stroke="#b7a98c" stroke-width="2.5"/>
 <text x="1124" y="254" font-size="11" fill="#444">南二/南三山經鏈（淺灰參照）</text>
-<text x="1090" y="280" font-size="10" fill="#666">框架書方法：本卷無里程鏈，以復用錨定＋區域指向組織。復用 5 項：赤水（南二·紅河方向）、黑水（南三·南</text>
-<text x="1090" y="294" font-size="10" fill="#666">流注海）、南海（南三受水）、成山（南二·南嶺中段）、巫山（中九鏈·三峽方向，鏈級對齊低置信）。</text>
-<text x="1090" y="313" font-size="10" fill="#666">待錨 48 項：山群（不姜/賈/言/登備/恝恝/蒲/隗/尾/翠等）＋水系（榮水/汔水/澧水/漂水/甘水/青水/白水等</text>
-<text x="1090" y="328" font-size="10" fill="#666">）＋蒼梧之野/流沙/岳山等，方向性候選詳 mappings，未編造坐標。</text>
-<text x="1090" y="346" font-size="10" fill="#666">新增 44 項：族群（三身/羽民/卵民/盈民/不死/季釐/臷民/蜮民/焦僥/伯服/鼬姓/張弘/驩頭/羲和/菌人等）＋</text>
-<text x="1090" y="360" font-size="10" fill="#666">神格（不廷胡余/因因乎/羲和）＋風物（視肉/三騅/甘木/欒木/楓木等）。</text>
-<text x="1090" y="379" font-size="10" fill="#666">借名警示：蒼梧（舜與叔均葬）、岳山（堯嚳舜葬——與蒼梧舜葬多說並存）、從淵（舜浴）、雲雨（禹攻）、楓</text>
-<text x="1090" y="394" font-size="10" fill="#666">木（蚩尤）、鑿齒（羿殺）——帝系層累，後世命名不反證。</text>
-<text x="1090" y="412" font-size="10" fill="#666">共名/同名異實：赤水·黑水·流沙（西三/北一/東三系統）·甘水（中四）·澧水（東二/中十一）·翠山（西一）—</text>
-<text x="1090" y="426" font-size="10" fill="#666">—雙假說並存，本層不裁決。</text>
-<text x="1090" y="461.0" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
-<text x="1090" y="483" font-size="9.5" fill="#c0392b">赤水（復用南二·紅河方向） → 紅河水系方向</text>
-<text x="1090" y="500" font-size="9.5" fill="#c0392b">汜天之山（赤水窮焉·待錨） → 赤水上源方向</text>
-<text x="1090" y="518" font-size="9.5" fill="#2c3e50">黑水（復用南三·南流注海） → 南三黑水</text>
-<text x="1090" y="536" font-size="9.5" fill="#c0392b">成山（復用南二·南嶺中段） → 南嶺中段方向</text>
-<text x="1090" y="553" font-size="9.5" fill="#16a085">巫山（復用中九鏈·三峽方向） → 帝藥八齋·鏈級對齊</text>
-<text x="1090" y="570" font-size="9.5" fill="#8e44ad">蒼梧之野（待錨·借名警示） → 舜與叔均葬=層累</text>
-<text x="1090" y="588" font-size="9.5" fill="#b7950b">流沙（待錨·赤水以西） → 滇西—緬北方向</text>
-<text x="1090" y="606" font-size="9.5" fill="#8e44ad">三身之國（新增） → 姚姓黍食使四鳥</text>
-<text x="1090" y="623" font-size="9.5" fill="#8e44ad">臷民之國（新增·百穀所聚） → 豐饒母題</text>
-<text x="1090" y="640" font-size="9.5" fill="#8e44ad">羽民之國（新增） → 南島族群方向</text>
-<text x="1090" y="658" font-size="9.5" fill="#8e44ad">卵民之國（新增） → 卵生族源</text>
-<text x="1090" y="676" font-size="9.5" fill="#8e44ad">不死之國（新增·甘木） → 長生母題</text>
-<text x="1362" y="483" font-size="9.5" fill="#8e44ad">驩頭之國（新增·食海中魚） → 卷6讙頭同母題</text>
-<text x="1362" y="500" font-size="9.5" fill="#8e44ad">張弘之國（新增·海中食魚） → 使四鳥</text>
-<text x="1362" y="518" font-size="9.5" fill="#8e44ad">焦僥之國（新增·小人） → 幾姓嘉穀</text>
-<text x="1362" y="536" font-size="9.5" fill="#8e44ad">菌人（新增·小人） → 小人母題</text>
-<text x="1362" y="553" font-size="9.5" fill="#d35400">羲和之國·甘淵（新增·神話層） → 浴日生十日</text>
-<text x="1362" y="570" font-size="9.5" fill="#8e44ad">岳山（待錨·借名警示） → 堯嚳舜葬=層累</text>
-<text x="1362" y="588" font-size="9.5" fill="#2e86c1">融天山（待錨·海水南入） → 海岸海侵記錄</text>
-<text x="1362" y="606" font-size="9.5" fill="#2e86c1">天臺山（待錨·海水南入） → 東南海岸方向</text>
-<text x="1362" y="623" font-size="9.5" fill="#16a085">雲雨之山（待錨·群帝取藥） → 禹攻=借名</text>
-<text x="1362" y="640" font-size="9.5" fill="#8e44ad">南類之山（待錨·百穀所在） → 全卷收尾豐饒山</text>
-<text x="1362" y="658" font-size="9.5" fill="#7f8c8d">南極（待錨·因乎出入風） → 四方風神·南方</text>
-<text x="1362" y="676" font-size="9.5" fill="#8e44ad">不廷胡余（新增·南海渚中神） → 珥蛇踐蛇</text>
+<text x="1090" y="280" font-size="10" fill="#666">框架書方法：本卷無里程鏈，以復用錨定＋區域指向組織。復用 5 項：赤水（南二·西南向大河待裁——RT-N8）</text>
+<text x="1090" y="294" font-size="10" fill="#666">、黑水（南三·南流注海）、南海（南三受水）、成山（南二·南嶺中段）、巫山（中九鏈·三峽方向，鏈級對齊低</text>
+<text x="1090" y="309" font-size="10" fill="#666">置信）。</text>
+<text x="1090" y="328" font-size="10" fill="#666">待錨 48 項：山群（不姜/賈/言/登備/恝恝/蒲/隗/尾/翠等）＋水系（榮水/汔水/澧水/漂水/甘水/青水/白水等</text>
+<text x="1090" y="342" font-size="10" fill="#666">）＋蒼梧之野/流沙/岳山等，方向性候選詳 mappings，未編造坐標。</text>
+<text x="1090" y="360" font-size="10" fill="#666">新增 44 項：族群（三身/羽民/卵民/盈民/不死/季釐/臷民/蜮民/焦僥/伯服/鼬姓/張弘/驩頭/羲和/菌人等）＋</text>
+<text x="1090" y="375" font-size="10" fill="#666">神格（不廷胡余/因因乎/羲和）＋風物（視肉/三騅/甘木/欒木/楓木等）。</text>
+<text x="1090" y="394" font-size="10" fill="#666">借名警示：蒼梧（舜與叔均葬）、岳山（堯嚳舜葬——與蒼梧舜葬多說並存）、從淵（舜浴）、雲雨（禹攻）、楓</text>
+<text x="1090" y="408" font-size="10" fill="#666">木（蚩尤）、鑿齒（羿殺）——帝系層累，後世命名不反證。</text>
+<text x="1090" y="426" font-size="10" fill="#666">共名/同名異實：赤水·黑水·流沙（西三/北一/東三系統）·甘水（中四）·澧水（東二/中十一）·翠山（西一）—</text>
+<text x="1090" y="441" font-size="10" fill="#666">—雙假說並存，本層不裁決。</text>
+<text x="1090" y="475.5" font-size="14" font-weight="bold" fill="#333">本卷地點/區域 → 現實候選（審核中）</text>
+<text x="1090" y="498" font-size="9.5" fill="#c0392b">赤水（復用南二·西南向大河待裁） → 紅河/紅水河水系方…</text>
+<text x="1090" y="515" font-size="9.5" fill="#c0392b">汜天之山（赤水窮焉·待錨） → 赤水上源方向</text>
+<text x="1090" y="532" font-size="9.5" fill="#2c3e50">黑水（復用南三·南流注海） → 南三黑水</text>
+<text x="1090" y="550" font-size="9.5" fill="#c0392b">成山（復用南二·南嶺中段） → 南嶺中段方向</text>
+<text x="1090" y="568" font-size="9.5" fill="#16a085">巫山（復用中九鏈·三峽方向） → 帝藥八齋·鏈級對齊</text>
+<text x="1090" y="585" font-size="9.5" fill="#8e44ad">蒼梧之野（待錨·借名警示） → 舜與叔均葬=層累</text>
+<text x="1090" y="602" font-size="9.5" fill="#b7950b">流沙（待錨·赤水以西） → 滇西—緬北方向</text>
+<text x="1090" y="620" font-size="9.5" fill="#8e44ad">三身之國（新增） → 姚姓黍食使四鳥</text>
+<text x="1090" y="638" font-size="9.5" fill="#8e44ad">臷民之國（新增·百穀所聚） → 豐饒母題</text>
+<text x="1090" y="655" font-size="9.5" fill="#8e44ad">羽民之國（新增） → 南島族群方向</text>
+<text x="1090" y="672" font-size="9.5" fill="#8e44ad">卵民之國（新增） → 卵生族源</text>
+<text x="1090" y="690" font-size="9.5" fill="#8e44ad">不死之國（新增·甘木） → 長生母題</text>
+<text x="1362" y="498" font-size="9.5" fill="#8e44ad">驩頭之國（新增·食海中魚） → 卷6讙頭同母題</text>
+<text x="1362" y="515" font-size="9.5" fill="#8e44ad">張弘之國（新增·海中食魚） → 使四鳥</text>
+<text x="1362" y="532" font-size="9.5" fill="#8e44ad">焦僥之國（新增·小人） → 幾姓嘉穀</text>
+<text x="1362" y="550" font-size="9.5" fill="#8e44ad">菌人（新增·小人） → 小人母題</text>
+<text x="1362" y="568" font-size="9.5" fill="#d35400">羲和之國·甘淵（新增·神話層） → 浴日生十日</text>
+<text x="1362" y="585" font-size="9.5" fill="#8e44ad">岳山（待錨·借名警示） → 堯嚳舜葬=層累</text>
+<text x="1362" y="602" font-size="9.5" fill="#2e86c1">融天山（待錨·海水南入） → 海岸海侵記錄</text>
+<text x="1362" y="620" font-size="9.5" fill="#2e86c1">天臺山（待錨·海水南入） → 東南海岸方向</text>
+<text x="1362" y="638" font-size="9.5" fill="#16a085">雲雨之山（待錨·群帝取藥） → 禹攻=借名</text>
+<text x="1362" y="655" font-size="9.5" fill="#8e44ad">南類之山（待錨·百穀所在） → 全卷收尾豐饒山</text>
+<text x="1362" y="672" font-size="9.5" fill="#7f8c8d">南極（待錨·因乎出入風） → 四方風神·南方</text>
+<text x="1362" y="690" font-size="9.5" fill="#8e44ad">不廷胡余（新增·南海渚中神） → 珥蛇踐蛇</text>
 <text x="60" y="686" font-size="11" fill="#666">《大荒南經》33 條：地理提及零遺漏（97 條映射記錄：復用 5 / 待錨 48 / 新增 44）。窗口 94–130°E, 0–36°N。</text>
-<text x="60" y="708" font-size="11" fill="#666">方向性判讀：赤水=紅河方向（西）、南嶺—三峽=內陸北緣、南海—南島=族群與神話層主場。全部映射 proposed_pending_review，待審核。</text>
+<text x="60" y="708" font-size="11" fill="#666">方向性判讀：赤水=西南向大河（西；紅河/紅水河待裁——RT-N8）、南嶺—三峽=內陸北緣、南海—南島=族群與神話層主場。全部映射 proposed_pending_review，待審核。</text>
 </svg>

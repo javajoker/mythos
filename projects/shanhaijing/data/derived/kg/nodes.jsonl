@@ -120,6 +120,7 @@
 {"id": "CRE:SHJ-01-1-008#4", "type": "CRE", "canonical_name": "赤鱬", "first_entry": "SHJ-01-1-008", "names": [{"value": "赤鱬", "entry": "SHJ-01-1-008"}], "status": "active"}
 {"id": "CRE:SHJ-01-1-008#5", "type": "CRE", "canonical_name": "魚", "first_entry": "SHJ-01-1-008", "names": [{"value": "魚", "entry": "SHJ-01-1-008"}], "status": "active"}
 {"id": "CRE:SHJ-01-1-008#6", "type": "CRE", "canonical_name": "鴛鴦", "first_entry": "SHJ-01-1-008", "names": [{"value": "鴛鴦", "entry": "SHJ-01-1-008"}], "status": "active"}
+{"id": "CRE:SHJ-01-1-008#7", "type": "CRE", "canonical_name": "九尾狐", "first_entry": "SHJ-01-1-008", "names": [{"value": "九尾狐", "entry": "SHJ-01-1-008"}], "status": "active"}
 {"id": "CRE:SHJ-01-2-001#1", "type": "CRE", "canonical_name": "貍力", "first_entry": "SHJ-01-2-001", "names": [{"value": "貍力", "entry": "SHJ-01-2-001"}], "status": "active"}
 {"id": "CRE:SHJ-01-2-001#2", "type": "CRE", "canonical_name": "豚", "first_entry": "SHJ-01-2-001", "names": [{"value": "豚", "entry": "SHJ-01-2-001"}], "status": "active"}
 {"id": "CRE:SHJ-01-2-001#3", "type": "CRE", "canonical_name": "鴸", "first_entry": "SHJ-01-2-001", "names": [{"value": "鴸", "entry": "SHJ-01-2-001"}], "status": "active"}
@@ -372,6 +373,7 @@
 {"id": "CRE:SHJ-02-4-019#6", "type": "CRE", "canonical_name": "鴞", "first_entry": "SHJ-02-4-019", "names": [{"value": "鴞", "entry": "SHJ-02-4-019"}], "status": "active"}
 {"id": "CRE:SHJ-02-4-019#7", "type": "CRE", "canonical_name": "蜼", "first_entry": "SHJ-02-4-019", "names": [{"value": "蜼", "entry": "SHJ-02-4-019"}], "status": "active"}
 {"id": "CRE:SHJ-02-4-019#8", "type": "CRE", "canonical_name": "犬", "first_entry": "SHJ-02-4-019", "names": [{"value": "犬", "entry": "SHJ-02-4-019"}], "status": "active"}
+{"id": "CRE:SHJ-02-4-019#9", "type": "CRE", "canonical_name": "人面鳥", "first_entry": "SHJ-02-4-019", "names": [{"value": "人面鳥", "entry": "SHJ-02-4-019"}], "status": "active"}
 {"id": "CRE:SHJ-02-4-020#1", "type": "CRE", "canonical_name": "白雞", "first_entry": "SHJ-02-4-020", "names": [{"value": "白雞", "entry": "SHJ-02-4-020"}], "status": "active"}
 {"id": "CRE:SHJ-03-1-002#1", "type": "CRE", "canonical_name": "滑魚", "first_entry": "SHJ-03-1-002", "names": [{"value": "滑魚", "entry": "SHJ-03-1-002"}], "status": "active"}
 {"id": "CRE:SHJ-03-1-002#2", "type": "CRE", "canonical_name": "鱓", "first_entry": "SHJ-03-1-002", "names": [{"value": "鱓", "entry": "SHJ-03-1-002"}], "status": "active"}
@@ -901,6 +903,8 @@
 {"id": "LND:SHJ-04-1-005#1", "type": "LND", "canonical_name": "沙", "first_entry": "SHJ-04-1-005", "names": [{"value": "沙", "entry": "SHJ-04-1-005"}], "status": "active"}
 {"id": "LND:SHJ-04-2-001#1", "type": "LND", "canonical_name": "沮吳", "first_entry": "SHJ-04-2-001", "names": [{"value": "沮吳", "entry": "SHJ-04-2-001"}], "status": "active"}
 {"id": "LND:SHJ-04-2-001#2", "type": "LND", "canonical_name": "沙陵", "first_entry": "SHJ-04-2-001", "names": [{"value": "沙陵", "entry": "SHJ-04-2-001"}], "status": "active"}
+{"id": "LND:SHJ-04-2-004#1", "type": "LND", "canonical_name": "流沙", "first_entry": "SHJ-04-2-004", "names": [{"value": "流沙", "entry": "SHJ-04-2-004"}], "status": "active"}
+{"id": "LND:SHJ-04-2-011#1", "type": "LND", "canonical_name": "流沙", "first_entry": "SHJ-04-2-011", "names": [{"value": "流沙", "entry": "SHJ-04-2-011"}], "status": "active"}
 {"id": "LND:SHJ-04-3-004#1", "type": "LND", "canonical_name": "沙", "first_entry": "SHJ-04-3-004", "names": [{"value": "沙", "entry": "SHJ-04-3-004"}], "status": "active"}
 {"id": "LND:SHJ-04-3-007#1", "type": "LND", "canonical_name": "流沙", "first_entry": "SHJ-04-3-007", "names": [{"value": "流沙", "entry": "SHJ-04-3-007"}], "status": "active"}
 {"id": "LND:SHJ-05-1-004#1", "type": "LND", "canonical_name": "大谷", "first_entry": "SHJ-05-1-004", "names": [{"value": "大谷", "entry": "SHJ-05-1-004"}], "status": "active"}
@@ -3591,8 +3595,6 @@
 {"id": "WAT:SHJ-05-9-008#1", "type": "WAT", "canonical_name": "徐之水", "first_entry": "SHJ-05-9-008", "names": [{"value": "徐之水", "entry": "SHJ-05-9-008"}], "status": "active"}
 {"id": "WAT:SHJ-05-9-009#1", "type": "WAT", "canonical_name": "減水", "first_entry": "SHJ-05-9-009", "names": [{"value": "減水", "entry": "SHJ-05-9-009"}], "status": "active"}
 {"id": "WAT:SHJ-05-9-011#1", "type": "WAT", "canonical_name": "宣余之水", "first_entry": "SHJ-05-9-011", "names": [{"value": "宣余之水", "entry": "SHJ-05-9-011"}], "status": "active"}
-{"id": "CRE:SHJ-01-1-008#7", "type": "CRE", "canonical_name": "九尾狐", "first_entry": "SHJ-01-1-008", "names": [{"value": "九尾狐", "entry": "SHJ-01-1-008"}], "status": "active"}
-{"id": "CRE:SHJ-02-4-019#9", "type": "CRE", "canonical_name": "人面鳥", "first_entry": "SHJ-02-4-019", "names": [{"value": "人面鳥", "entry": "SHJ-02-4-019"}], "status": "active"}
 {"id": "LND:SHJ-06-1-002#1", "type": "LND", "canonical_name": "海外南經調查框架（西南陬—東南陬）", "first_entry": "SHJ-06-1-002", "names": [{"value": "海外南經調查框架（西南陬—東南陬）", "entry": "SHJ-06-1-002"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-06-1-003#1", "type": "POL", "canonical_name": "結匈國", "first_entry": "SHJ-06-1-003", "names": [{"value": "結匈國", "entry": "SHJ-06-1-003"}], "status": "pending_anchor"}
 {"id": "MTN:SHJ-06-1-004#1", "type": "MTN", "canonical_name": "南山（海外南）", "first_entry": "SHJ-06-1-004", "names": [{"value": "南山（海外南）", "entry": "SHJ-06-1-004"}], "status": "pending_anchor"}
@@ -4334,7 +4336,8 @@
 {"id": "PER:SHJ-18-1-034#1", "type": "PER", "canonical_name": "羿（彤弓素矰）", "first_entry": "SHJ-18-1-034", "names": [{"value": "羿（彤弓素矰）", "entry": "SHJ-18-1-034"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-18-1-035#1", "type": "PER", "canonical_name": "晏龍（琴瑟）/帝俊八子（歌舞）", "first_entry": "SHJ-18-1-035", "names": [{"value": "晏龍（琴瑟）/帝俊八子（歌舞）", "entry": "SHJ-18-1-035"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-18-1-037#1", "type": "PER", "canonical_name": "三身—義均—巧倕（百巧發明）", "first_entry": "SHJ-18-1-037", "names": [{"value": "三身—義均—巧倕（百巧發明）", "entry": "SHJ-18-1-037"}], "status": "pending_anchor"}
-{"id": "PER:SHJ-18-1-038#1", "type": "PER", "canonical_name": "炎帝—祝融—共工—后土系譜（噎鳴生歲十有二）", "first_entry": "SHJ-18-1-038", "names": [{"value": "炎帝—祝融—共工—后土系譜（噎鳴生歲十有二）", "entry": "SHJ-18-1-038"}], "status": "pending_anchor"}
+{"id": "PER:SHJ-18-1-038#1", "type": "PER", "canonical_name": "赤水之子聽訞（系譜人名）", "first_entry": "SHJ-18-1-038", "names": [{"value": "赤水之子聽訞（系譜人名）", "entry": "SHJ-18-1-038"}], "status": "pending_anchor"}
+{"id": "PER:SHJ-18-1-038#2", "type": "PER", "canonical_name": "炎帝—祝融—共工—后土系譜（噎鳴生歲十有二）", "first_entry": "SHJ-18-1-038", "names": [{"value": "炎帝—祝融—共工—后土系譜（噎鳴生歲十有二）", "entry": "SHJ-18-1-038"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-18-1-039#1", "type": "LND", "canonical_name": "羽郊（羽山之郊）", "first_entry": "SHJ-18-1-039", "names": [{"value": "羽郊（羽山之郊）", "entry": "SHJ-18-1-039"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-18-1-037#1", "type": "LND", "canonical_name": "九州", "first_entry": "SHJ-18-1-037", "names": [{"value": "九州", "entry": "SHJ-18-1-037"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-18-1-039#2", "type": "LND", "canonical_name": "洪水（滔天）/息壤", "first_entry": "SHJ-18-1-039", "names": [{"value": "洪水（滔天）/息壤", "entry": "SHJ-18-1-039"}], "status": "pending_anchor"}

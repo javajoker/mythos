@@ -21,3 +21,7 @@ Enforce this order:
 For SHJ v1, only Books 1–5 may introduce geographic nodes. Later geographic mentions reuse them or remain `pending_anchor`. This is a structural constraint, never evidence for a particular modern location.
 
 Keep `MEMORY.md` and `projects/shanhaijing/docs/tasks.md` aligned with verifiable files. Never claim a graph, draft, judgment, review or map exists until it is present and checked.
+
+## 紅隊修訂連鎖更新要點（2026-10-27 紅隊第一輪後增補）
+
+編排任何紅隊修訂落地時，強制執行連鎖檢查——單項修改必須配套：**適配包（mappings/報告/對照表降格）→ 逐句文檔注記 → 地圖 spec 與重渲 → KG 重建與校驗（含置信度沿依賴圖回寫）→ 草稿重建 → 對外陳述（coverage/任務表）覆核**。缺任何一環視為修訂未完成（裁決五步閉環）。遮蔽重判（G-2）與六候選對比測試（F-0019）完成前，不得恢復被降級鏈段的置信度；東山全經在測試完成前維持降一級。後續任務編排見 `docs/tasks.md` 第 7 節 T-RT04–T-RT19。

@@ -18,3 +18,14 @@ Rules:
 - Shared waters are cross-mountain anchors; same-name waters get both hypotheses recorded as pending conflicts.
 - Every record is `proposed_pending_review`; code checks coverage and parses only.
 - Verify before delivery: JSONL validity, uncited-node check empty, `git diff --check`. Commit on each completed task.
+
+## 紅隊修訂連鎖更新（2026-10-27 紅隊第一輪後增補）
+
+任何單項紅隊修訂（降置信、改候選、撤回引用、否定句節點清理等）都不是孤立的——必須配套檢查並更新：
+
+1. **適配包**：受影響的 `*-mappings.jsonl`（primary/rival/confidence/conflicts/unknowns）與 `<slug>-adaptation.md` 的里程表、對照表（對照表降格為山系段粒度，G-5）。
+2. **逐句文檔**：受影響條目插入修訂注記（引用 red-team 編號或 ADJ/F 項），不重寫原文展開。
+3. **地圖**：spec 改點位/注記 → 重渲 → 溢出審計；概要圖引用受影響點位者重建。
+4. **KG**：重建並跑 `kg_validate.py`；置信度沿依賴圖逐級回寫（復用/依賴 ≤ 被依賴節點）。
+5. **草稿與對外陳述**：`draft_wuzang_build.py` 重建＋零遺漏核對；coverage/任務表等對外陳述同步覆核（裁決五步閉環第 5 步）。
+6. 遮蔽重判或對比測試未完成前，相關鏈段不得恢復原置信度。
