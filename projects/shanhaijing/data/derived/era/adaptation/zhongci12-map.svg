@@ -2,7 +2,7 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《中次十二經》時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-zhongci12-1 ｜ 拓撲錨：洞庭之山＝湖—九河格局＋帝之二女湖神信仰（不依洞庭/柴桑/瀟湘同名——借名標記）｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-zhongci12-1 ｜ 拓撲錨：洞庭之山＝湖—九河格局＋帝之二女湖神信仰（F-0021 已裁決：洞庭＝湖南洞庭湖，錨回復 medium_high 待遮蔽確認）｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
 <polyline points="-646.7,-531.6 -473.3,-524.2 -300.0,-502.1 -140.0,-494.7 20.0,-487.4 153.3,-494.7 200.0,-512.4" fill="none" stroke="#2f7fbf" stroke-width="2.0"/>
 <text x="167" y="146" font-size="10" fill="#2f7fbf">長江（江/大江——借名標記）</text>
@@ -68,7 +68,7 @@
 <circle cx="1024" cy="593" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="1020" y="597" font-size="9" fill="#fff" font-weight="bold">15</text>
 <text x="1006" y="582" font-size="10" fill="#7b241c" font-weight="bold">榮余之山</text>
-<text x="473" y="235" font-size="9" fill="#2f7fbf">湖—九河格局：多水匯入大湖澤區（借名標記下的拓撲）</text>
+<text x="473" y="235" font-size="9" fill="#2f7fbf">湖—九河格局：多水匯入大湖澤區（澧沅瀟湘＝共時證據，F-0021）</text>
 <text x="433" y="323" font-size="9" fill="#8e44ad">帝之二女游于江淵——湖神信仰層</text>
 <text x="513" y="294" font-size="9" fill="#5a7a3a">柑橘（橘櫾）＝亞熱帶標誌風物</text>
 <rect x="350" y="308" width="6" height="6" fill="#34495e"/>
@@ -121,27 +121,29 @@
 <text x="1124" y="188" font-size="11" fill="#444">山系（簡化示意）</text>
 <rect x="1098" y="201" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="210" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="236" font-size="10" fill="#666">拓撲錨：洞庭之山＝湖—九河格局＋帝之二女湖神信仰——不依洞庭/柴桑/瀟湘同名（借名標記）。</text>
-<text x="1090" y="254" font-size="10" fill="#666">「凡十萬山」異文（疑十五山）；腿程1,849 vs 自記2,800（variant）。</text>
-<text x="1090" y="273" font-size="10" fill="#666">柑橘亞熱帶風物＋操蛇怪神＝南方湖區文化層。</text>
-<text x="1090" y="292" font-size="10" fill="#666">窗口東南延展至117°E/26.8°N：里程層累（F-0008）使鏈條東南端越出擬合區域，範圍判定以水係拓撲為主、里</text>
-<text x="1090" y="306" font-size="10" fill="#666">程為輔。</text>
-<text x="1090" y="340.5" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
-<text x="1090" y="362" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 篇遇之山</tspan>　→ 湘西—鄂西方向（起點）｜⛰武陵山·北段</text>
-<text x="1090" y="384" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 雲山</tspan>　→ 湘西·毒桂竹｜⛰武陵山·湘西段</text>
-<text x="1090" y="405" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 龜山</tspan>　→ 湘西—湘西北·青雄黃｜⛰武陵山·湘西北段</text>
-<text x="1090" y="426" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 丙山</tspan>　→ 湘西北·金銅鐵無木｜⛰武陵山·北段</text>
-<text x="1090" y="447" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 風伯之山</tspan>　→ 沅陵方向·莽浮之林｜⛰武陵山·東段</text>
-<text x="1090" y="468" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 夫夫之山</tspan>　→ 常德方向·操蛇江神（冢）｜⛰武陵山·東麓</text>
-<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 洞庭之山</tspan>　→ 洞庭湖區（拓撲錨·帝之二女）｜⛰洞庭湖區·君山</text>
-<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 暴山</tspan>　→ 洞庭東·麋鹿竹箭｜⛰洞庭湖東岸山嶺</text>
-<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 即公之山</tspan>　→ 岳陽方向·蛫御火（冢）｜⛰岳陽·東南湖濱山嶺</text>
-<text x="1090" y="553" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 堯山</tspan>　→ 岳陽—臨湘（借名·冢）｜⛰幕阜山·北麓西段</text>
-<text x="1090" y="574" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 江浮之山</tspan>　→ 臨湘—赤壁方向·銀砥礪｜⛰幕阜山·北麓</text>
-<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 真陵之山</tspan>　→ 赤壁—咸寧方向｜⛰幕阜山·北麓</text>
-<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 陽帝之山</tspan>　→ 咸寧—通山·美銅麢麝（冢）｜⛰幕阜山·北麓</text>
-<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 柴桑之山</tspan>　→ 九江方向（借名）·白蛇飛蛇｜⛰廬山</text>
-<text x="1090" y="659" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 榮余之山</tspan>　→ 幕阜山—贛西北（神也·太牢）｜⛰幕阜山·主脊</text>
+<text x="1090" y="236" font-size="10" fill="#666">拓撲錨：洞庭之山＝湖—九河格局＋帝之二女湖神信仰——F-0021 已裁決（2026-10-27）：澧沅瀟湘四水名簇</text>
+<text x="1090" y="250" font-size="10" fill="#666">同句共現＝專名簇共時證據（戰國楚地成書層，楚辭傳統同時證明）＋帝之二女神話簇同域——洞庭＝湖南洞庭湖</text>
+<text x="1090" y="265" font-size="10" fill="#666">，鄱陽/雲夢澤否決存冊；錨回復 medium_high（待 T-RT05 遮蔽確認）。</text>
+<text x="1090" y="284" font-size="10" fill="#666">「凡十萬山」異文（疑十五山）；腿程1,849 vs 自記2,800（variant）。</text>
+<text x="1090" y="302" font-size="10" fill="#666">柑橘亞熱帶風物＋操蛇怪神＝南方湖區文化層。</text>
+<text x="1090" y="320" font-size="10" fill="#666">窗口東南延展至117°E/26.8°N：里程層累（F-0008）使鏈條東南端越出擬合區域，範圍判定以水係拓撲為主、里</text>
+<text x="1090" y="335" font-size="10" fill="#666">程為輔。</text>
+<text x="1090" y="369.5" font-size="14" font-weight="bold" fill="#333">15 站 → 現實候選（審核中）</text>
+<text x="1090" y="392" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 篇遇之山</tspan>　→ 湘西—鄂西方向（起點）｜⛰武陵山·北段</text>
+<text x="1090" y="413" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 雲山</tspan>　→ 湘西·毒桂竹｜⛰武陵山·湘西段</text>
+<text x="1090" y="434" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 龜山</tspan>　→ 湘西—湘西北·青雄黃｜⛰武陵山·湘西北段</text>
+<text x="1090" y="455" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 丙山</tspan>　→ 湘西北·金銅鐵無木｜⛰武陵山·北段</text>
+<text x="1090" y="476" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 風伯之山</tspan>　→ 沅陵方向·莽浮之林｜⛰武陵山·東段</text>
+<text x="1090" y="497" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 夫夫之山</tspan>　→ 常德方向·操蛇江神（冢）｜⛰武陵山·東麓</text>
+<text x="1090" y="519" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 洞庭之山</tspan>　→ 洞庭湖區（拓撲錨·帝之二女·F-0021 已裁決）｜⛰洞庭湖區·君山</text>
+<text x="1090" y="540" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 暴山</tspan>　→ 洞庭東·麋鹿竹箭｜⛰洞庭湖東岸山嶺</text>
+<text x="1090" y="561" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 即公之山</tspan>　→ 岳陽方向·蛫御火（冢）｜⛰岳陽·東南湖濱山嶺</text>
+<text x="1090" y="582" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 堯山</tspan>　→ 岳陽—臨湘（借名·冢）｜⛰幕阜山·北麓西段</text>
+<text x="1090" y="604" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 江浮之山</tspan>　→ 臨湘—赤壁方向·銀砥礪｜⛰幕阜山·北麓</text>
+<text x="1090" y="625" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 真陵之山</tspan>　→ 赤壁—咸寧方向｜⛰幕阜山·北麓</text>
+<text x="1090" y="646" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 陽帝之山</tspan>　→ 咸寧—通山·美銅麢麝（冢）｜⛰幕阜山·北麓</text>
+<text x="1090" y="667" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 柴桑之山</tspan>　→ 九江方向（借名）·白蛇飛蛇｜⛰廬山</text>
+<text x="1090" y="688" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 榮余之山</tspan>　→ 幕阜山—贛西北（神也·太牢）｜⛰幕阜山·主脊</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自篇遇之山（湘西—鄂西方向，無草木多黃金）東南行——湘西（雲山毒桂竹·龜山青雄黃·丙山金銅鐵）→沅陵—常德（風伯莽浮之林·夫夫操蛇江神）→洞庭湖區（拓撲錨：帝之二</text>
 <text x="60" y="702" font-size="11" fill="#666">女游于江淵，澧沅之風交瀟湘之淵，是在九江之閒）→洞庭東—岳陽（暴山·即公蛫御火·堯山）→臨湘—咸寧—九江（江浮·真陵·陽帝美銅·柴桑）→榮余之山（幕阜山—贛西北方向）。</text>
 <text x="60" y="724" font-size="11" fill="#666">腿程 1,849 里≈712 km（0.385）；擬合走廊實距約 480–550 km——層累約 1.3–1.5×（原引 F-0008「1.2–4×」帶已撤回——G-4），鏈條東南端因此越出擬合區。自記 2,800 里 vs</text>
