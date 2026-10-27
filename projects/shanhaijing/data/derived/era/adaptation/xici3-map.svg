@@ -110,14 +110,14 @@
 <text x="737" y="394" font-size="9" fill="#4a7596">蘇伊士灣</text>
 <text x="826" y="401" font-size="9" fill="#4a7596">亞喀巴灣</text>
 <text x="829" y="249" font-size="9" fill="#4a7596">死海（峚山·玉膏瀝青）</text>
-<text x="683" y="360" font-size="9" fill="#2f6d9e">法雍湖（醜塗之水）</text>
+<text x="683" y="360" font-size="9" fill="#2f6d9e">法雍湖（黑水〔a讀〕受水·大杅候選；原醜塗之水候選——F-0013）</text>
 <text x="545" y="337" font-size="9" fill="#8a6a2f">蓋塔拉窪地（大杅）</text>
 <text x="541" y="408" font-size="9" fill="#8a6a2f">大沙海</text>
 <text x="392" y="333" font-size="9" fill="#8a6a2f">卡蘭西奧沙海</text>
 <text x="786" y="268" font-size="9" fill="#8a6a2f">北西奈沙丘（流沙）</text>
 <text x="231" y="486" font-size="9" fill="#3d352c">哈魯傑火山原（三危之山候選）</text>
 <text x="899" y="360" font-size="9" fill="#5a7a3a">泑澤（西爾罕古湖·河水所潛）</text>
-<text x="550" y="357" font-size="9" fill="#c0392b">黑水（西向古河道·濕期→消亡）</text>
+<text x="550" y="357" font-size="9" fill="#c0392b">黑水（法雍—西部沙漠古水系·雙讀，F-0013）</text>
 <text x="491" y="316" font-size="9" fill="#c0392b">洵水南注黑水</text>
 <text x="373" y="348" font-size="9" fill="#2f7fbf">河水冒以西流（石門復湧）</text>
 <text x="620" y="281" font-size="9" fill="#1f7a6e">濕期湖鏈（「水行四百里」）</text>
@@ -126,8 +126,8 @@
 <text x="660" y="244" font-size="9" fill="#2f6d9e">大澤（后稷所潛）</text>
 <text x="540" y="276" font-size="9" fill="#8e44ad">弱水環之（運河→沼澤化）</text>
 <text x="754" y="380" font-size="9" fill="#2f7fbf">赤水→紅海→氾天之水</text>
-<text x="668" y="333" font-size="9" fill="#1f7a6e">洋水→醜塗之水</text>
-<text x="723" y="360" font-size="9" fill="#2f7fbf">河水南流→無逹</text>
+<text x="668" y="333" font-size="9" fill="#1f7a6e">洋水→醜塗之水（消亡古水道，F-0013）</text>
+<text x="723" y="360" font-size="9" fill="#2f7fbf">河水（南流＝向南溯源延伸）→無逹（待定）</text>
 <rect x="706" y="293" width="6" height="6" fill="#34495e"/>
 <text x="714" y="292" font-size="9" fill="#34495e">開羅/吉薩</text>
 <rect x="525" y="350" width="6" height="6" fill="#34495e"/>
@@ -211,7 +211,7 @@
 <line x1="1090" y1="162" x2="1116" y2="162" stroke="#2f7fbf" stroke-width="2.5"/>
 <text x="1124" y="166" font-size="11" fill="#444">現代水體參照（尼羅河/死海/海灣）</text>
 <line x1="1090" y1="184" x2="1116" y2="184" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="1124" y="188" font-size="11" fill="#444">時代假想：黑水西向古河道（消亡）</text>
+<text x="1124" y="188" font-size="11" fill="#444">時代假想：黑水（法雍水系／西向古河道雙讀，消亡——F-0013）</text>
 <line x1="1090" y1="206" x2="1116" y2="206" stroke="#2f9e8f" stroke-width="2" stroke-dasharray="6 4"/>
 <text x="1124" y="210" font-size="11" fill="#444">時代假想：濕期湖鏈（「水行」）</text>
 <line x1="1090" y1="228" x2="1116" y2="228" stroke="#8e44ad" stroke-width="2" stroke-dasharray="6 4"/>

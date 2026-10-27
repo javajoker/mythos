@@ -152,10 +152,10 @@
       "zhongci8",
       "zhongci9"
     ],
-    "mapping_attributes": 3115,
+    "mapping_attributes": 3130,
     "geo_nodes_covered": 984,
     "geo_nodes_total": 982,
-    "attributes_total": 10322,
+    "attributes_total": 10509,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_readings": {
@@ -167,7 +167,7 @@
     "no_reading": 0,
     "skipped_geo": 1109,
     "not_in_kg": 57,
-    "attributes_total": 10494,
+    "attributes_total": 10509,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_assoc_ded": {
@@ -178,7 +178,7 @@
       "deductive.utility": 153,
       "associative.symbolism": 413
     },
-    "attributes_total": 10494,
+    "attributes_total": 10509,
     "review_status": "proposed_pending_review"
   },
   "kg_framework_v1": {
@@ -206,7 +206,7 @@
     "reuse_links": 62,
     "nodes_total": 4343,
     "mentions_total": 4620,
-    "attributes_total": 10494,
+    "attributes_total": 10509,
     "review_status": "proposed_pending_review"
   }
 }
