@@ -2,64 +2,68 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《東次三經》（尸胡山之首）時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-dongci3-2 ｜ 終點拓撲錨：無皋之山（南望幼海＝加勒比＋東望榑木）＝哥斯達黎加加勒比岸 ｜ 加勒比—中美島鏈 9 站 ｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-dongci3-3（T-RT21 重配，2026-10-27）｜ 終點拓撲錨：無皋之山（南望幼海＝巴拿馬灣＋東望榑木＝加勒比日出）＝巴拿馬地峽東端—達連 ｜ 站 2–4＝大安的列斯主島鏈（觀察者在場 ✓）｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
 <polyline points="474.3,220.0 460.0,187.7 445.7,144.6 460.0,101.5" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
 <text x="483" y="119" font-size="10" fill="#5b97c4">佛羅里達（現代參照）</text>
 <polyline points="417.1,263.1 488.6,284.6 560.0,306.2 645.7,327.7" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
-<text x="474" y="257" font-size="10" fill="#5b97c4">古巴（現代參照）</text>
+<text x="474" y="257" font-size="10" fill="#5b97c4">古巴（岐山＝東部·馬埃斯特臘）</text>
 <polyline points="660.0,332.0 731.4,342.8 802.9,355.7 888.6,370.8" fill="none" stroke="#5b97c4" stroke-width="2"/>
-<text x="646" y="310" font-size="10" fill="#5b97c4">伊斯帕尼奧拉—波多黎各（現代參照）</text>
-<polyline points="945.7,381.5 1002.9,413.8 1017.1,456.9 1031.4,500.0" fill="none" stroke="#5b97c4" stroke-width="1.8"/>
-<text x="931" y="425" font-size="10" fill="#5b97c4">小安的列斯（現代參照）</text>
+<text x="646" y="308" font-size="10" fill="#5b97c4">伊斯帕尼奧拉（諸鉤）—波多黎各（中父）</text>
+<polyline points="945.7,381.5 1002.9,413.8 1017.1,456.9 1031.4,500.0 1025.7,538.8" fill="none" stroke="#5b97c4" stroke-width="1.8"/>
+<text x="814" y="429" font-size="10" fill="#5b97c4">小安的列斯—特立尼達（胡射/孟子）</text>
 <polyline points="188.6,321.2 254.3,310.5 294.3,334.2 282.9,377.2 251.4,420.3" fill="none" stroke="#5b97c4" stroke-width="2"/>
 <text x="146" y="349" font-size="10" fill="#5b97c4">尤卡坦—伯利茲岸（現代參照）</text>
 <polyline points="245.7,435.4 302.9,467.7 360.0,500.0 388.6,532.3 402.9,564.6 417.1,586.2" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
-<text x="294" y="494" font-size="10" fill="#5b97c4">中美加勒比岸（現代參照）</text>
-<ellipse cx="546" cy="242" rx="114" ry="32" fill="#cfe0e8" opacity="0.35"/>
-<text x="522" y="245" font-size="10" fill="#7a6540">巴哈馬淺灘（流沙候選）</text>
+<text x="294" y="494" font-size="10" fill="#5b97c4">中美加勒比岸（踇隅）</text>
+<polyline points="417.1,586.2 488.6,586.2 545.7,596.9 574.3,607.7" fill="none" stroke="#5b97c4" stroke-width="2"/>
+<text x="503" y="571" font-size="10" fill="#5b97c4">巴拿馬地峽（無皋＝達連）</text>
+<ellipse cx="517" cy="606" rx="57" ry="19" fill="#cfe0e8" opacity="0.35"/>
+<text x="493" y="609" font-size="10" fill="#7a6540">巴拿馬灣（幼海）</text>
 <ellipse cx="374" cy="511" rx="71" ry="43" fill="#e2d9c8" opacity="0.35"/>
 <text x="350" y="514" font-size="10" fill="#7a6540">中美文化圈南緣</text>
-<polyline points="302.6,135.1 302.6,195.0 302.6,247.4 302.6,299.7 402.9,299.7 402.9,352.0 402.9,426.8 402.9,494.0 402.9,553.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
-<circle cx="303" cy="135" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="299" y="139" font-size="9" fill="#fff" font-weight="bold">1</text>
-<text x="312" y="139" font-size="10" fill="#7b241c" font-weight="bold">尸胡之山</text>
-<circle cx="303" cy="195" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="299" y="199" font-size="9" fill="#fff" font-weight="bold">2</text>
-<text x="275" y="199" font-size="10" fill="#7b241c" font-weight="bold">岐山</text>
-<circle cx="303" cy="247" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="299" y="251" font-size="9" fill="#fff" font-weight="bold">3</text>
-<text x="312" y="251" font-size="10" fill="#7b241c" font-weight="bold">諸鉤之山</text>
-<circle cx="303" cy="300" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="299" y="304" font-size="9" fill="#fff" font-weight="bold">4</text>
-<text x="255" y="304" font-size="10" fill="#7b241c" font-weight="bold">中父之山</text>
-<circle cx="403" cy="300" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="399" y="304" font-size="9" fill="#fff" font-weight="bold">5</text>
-<text x="412" y="304" font-size="10" fill="#7b241c" font-weight="bold">胡射之山</text>
-<circle cx="403" cy="352" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="399" y="356" font-size="9" fill="#fff" font-weight="bold">6</text>
-<text x="355" y="356" font-size="10" fill="#7b241c" font-weight="bold">孟子之山</text>
-<circle cx="403" cy="427" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="399" y="431" font-size="9" fill="#fff" font-weight="bold">7</text>
-<text x="412" y="431" font-size="10" fill="#7b241c" font-weight="bold">跂踵之山</text>
-<circle cx="403" cy="494" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="399" y="498" font-size="9" fill="#fff" font-weight="bold">8</text>
-<text x="355" y="498" font-size="10" fill="#7b241c" font-weight="bold">踇隅之山</text>
-<circle cx="403" cy="554" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
-<text x="399" y="558" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="412" y="558" font-size="10" fill="#7b241c" font-weight="bold">無皋之山</text>
-<text x="89" y="106" font-size="9" fill="#8e44ad">全鏈「水行」＝海上島鏈跳躍（水路里數，層累口徑另記）</text>
-<text x="89" y="392" font-size="9" fill="#2f9e8f">鱣鮪→大海鰱泛化（加勒比無鱘魚；詞義通用）</text>
-<text x="489" y="468" font-size="9" fill="#2f9e8f">蠵龜＝加勒比暖水海龜（生物風物證據）</text>
-<text x="403" y="618" font-size="9" fill="#a04040">東望榑木＝日出符號（文化符號層，不落地物）</text>
+<polyline points="502.9,220.0 588.6,329.8 740.0,355.7 880.0,375.1 960.0,388.0 1022.9,540.9 568.6,377.2 360.0,500.0 560.0,590.5" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="503" cy="220" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="499" y="224" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="512" y="224" font-size="10" fill="#7b241c" font-weight="bold">尸胡之山</text>
+<circle cx="589" cy="330" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="585" y="334" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="561" y="334" font-size="10" fill="#7b241c" font-weight="bold">岐山</text>
+<circle cx="740" cy="356" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="736" y="360" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="749" y="360" font-size="10" fill="#7b241c" font-weight="bold">諸鉤之山</text>
+<circle cx="880" cy="375" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="876" y="379" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="832" y="379" font-size="10" fill="#7b241c" font-weight="bold">中父之山</text>
+<circle cx="960" cy="388" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="956" y="392" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="969" y="392" font-size="10" fill="#7b241c" font-weight="bold">胡射之山</text>
+<circle cx="1023" cy="541" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="1019" y="545" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="975" y="545" font-size="10" fill="#7b241c" font-weight="bold">孟子之山</text>
+<circle cx="569" cy="377" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="565" y="381" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="578" y="381" font-size="10" fill="#7b241c" font-weight="bold">跂踵之山</text>
+<circle cx="360" cy="500" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="356" y="504" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="312" y="504" font-size="10" fill="#7b241c" font-weight="bold">踇隅之山</text>
+<circle cx="560" cy="590" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="556" y="594" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="569" y="594" font-size="10" fill="#7b241c" font-weight="bold">無皋之山</text>
+<text x="89" y="106" font-size="9" fill="#8e44ad">站 2–4 重配＝大安的列斯主島鏈（archaic 期 ~4000–3000 BCE 在場 ✓）；巴哈馬舊站位存冊（觀察者缺席硬否決維持）</text>
+<text x="89" y="392" font-size="9" fill="#2f9e8f">鱣鮪→大海鰱泛化（奧里諾科—加勒比南美岸洄游）</text>
+<text x="89" y="597" font-size="9" fill="#8e44ad">幼海＝巴拿馬灣（太平洋）——R10 消解（幼＝小海/灣謙稱）</text>
+<text x="631" y="618" font-size="9" fill="#a04040">東望榑木＝加勒比日出方向（符號層，不落地物）</text>
 <rect x="480" y="211" width="6" height="6" fill="#34495e"/>
 <text x="488" y="210" font-size="9" fill="#34495e">邁阿密</text>
 <rect x="417" y="269" width="6" height="6" fill="#34495e"/>
 <text x="425" y="268" font-size="9" fill="#34495e">哈瓦那</text>
 <rect x="577" y="379" width="6" height="6" fill="#34495e"/>
 <text x="585" y="378" font-size="9" fill="#34495e">金斯敦</text>
-<rect x="368" y="553" width="6" height="6" fill="#34495e"/>
-<text x="376" y="552" font-size="9" fill="#34495e">聖何塞</text>
+<rect x="883" y="370" width="6" height="6" fill="#34495e"/>
+<text x="891" y="369" font-size="9" fill="#34495e">聖胡安</text>
+<rect x="500" y="572" width="6" height="6" fill="#34495e"/>
+<text x="508" y="571" font-size="9" fill="#34495e">巴拿馬城</text>
 </g>
 <line x1="89" y1="640" x2="89" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="81" y="656" font-size="9" fill="#999">-94°E</text>
@@ -161,36 +165,42 @@
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
-<text x="1124" y="122" font-size="11" fill="#444">里程鏈（9站；全鏈水行島鏈）</text>
+<text x="1124" y="122" font-size="11" fill="#444">里程鏈（9站；全鏈水行島鏈；走廊擬合位）</text>
 <circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
 <text x="1124" y="144" font-size="11" fill="#444">大圈＝終點拓撲錨（無皋之山）</text>
 <line x1="1090" y1="162" x2="1116" y2="162" stroke="#5b97c4" stroke-width="2.5"/>
 <text x="1124" y="166" font-size="11" fill="#444">現代水體參照（岸線）</text>
 <rect x="1098" y="179" width="8" height="8" fill="#cfe0e8"/>
-<text x="1124" y="188" font-size="11" fill="#444">淺灘（流沙候選）</text>
+<text x="1124" y="188" font-size="11" fill="#444">幼海＝巴拿馬灣（太平洋）</text>
 <rect x="1098" y="201" width="8" height="8" fill="#c9b18a"/>
 <text x="1124" y="210" font-size="11" fill="#444">文化帶（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">終點錨：無皋之山「南望幼海＝加勒比（南）＋東望榑木＝日出」＝哥斯達黎加加勒比岸；反向展開。確認範圍：</text>
-<text x="1090" y="272" font-size="10" fill="#666">加勒比—中美島鏈（25°N→10°N / 65–95°W）。</text>
-<text x="1090" y="291" font-size="10" fill="#666">全鏈水行（8 腿水行＋1 腿東向）——水路里數與山徑不同尺度，里程僅作拓扑順序證據；自記 6,900 vs 腿程</text>
-<text x="1090" y="306" font-size="10" fill="#666"> 6,600（-4.3% variant）；起點網格 29.4°N 略越北界（水行層累，variant）。</text>
-<text x="1090" y="324" font-size="10" fill="#666">鱣鮪→大海鰱泛化（加勒比無鱘魚；本義為對立候選）；蠵龜＝加勒比海龜 ✓。</text>
-<text x="1090" y="342" font-size="10" fill="#666">神群人身羊角；祠牡羊＋黍；「見則風雨水為敗」＝風暴災異（颶風走廊相容，弱證）。</text>
-<text x="1090" y="377.0" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
-<text x="1090" y="399" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 尸胡之山</tspan>　→ 水行起點；北望𦍲山｜⛰巴哈馬北—佛州海峽島嶼</text>
-<text x="1090" y="420" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 岐山</tspan>　→ 桃李＋虎（美洲豹泛化；借名）｜⛰巴哈馬群島·北段</text>
-<text x="1090" y="441" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 諸鉤之山</tspan>　→ 廣員百里大島；寐魚｜⛰巴哈馬群島·中段</text>
-<text x="1090" y="463" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 中父之山</tspan>　→ 多沙沙島｜⛰巴哈馬南—古巴北岸</text>
-<text x="1090" y="484" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 胡射之山</tspan>　→ 東水行千里（東向跳島）｜⛰古巴東—伊斯帕尼奧拉島</text>
-<text x="1090" y="505" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 孟子之山</tspan>　→ 鱣鮪→大海鰱泛化（加勒比無鱘魚）｜⛰伊斯帕尼奧拉島</text>
-<text x="1090" y="526" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 跂踵之山</tspan>　→ 深澤皆湧＋蠵龜（加勒比海龜✓）｜⛰牙買加島（藍山方向）</text>
-<text x="1090" y="547" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 踇隅之山</tspan>　→ 金玉赭＋植被恢復（島鏈轉陸）｜⛰尼加拉瓜—哥斯達黎加山嶺</text>
-<text x="1090" y="569" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 無皋之山</tspan>　→ 南望幼海（南加勒比）＋東望榑木（終點錨）｜⛰哥斯達黎加加勒比岸山嶺</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：自尸胡之山（佛州海峽—巴哈馬北端，北望𦍲山）水行南下——巴哈馬（岐山·桃李虎泛化）→諸鉤（廣員百里大島）→中父（多沙）→東水行千里跳島（胡射）→伊斯帕尼奧拉（孟</text>
-<text x="60" y="702" font-size="11" fill="#666">子·碧陽——鱣鮪→大海鰱泛化）→牙買加（跂踵·深澤湧泉＋蠵龜＋複合流沙段）→尼加拉瓜—哥斯達黎加（踇隅·金玉赭轉陸）→無皋之山（哥斯達黎加加勒比岸終點：南望幼海＝加勒比、東</text>
-<text x="60" y="718" font-size="11" fill="#666">望榑木＝日出符號）。</text>
-<text x="60" y="740" font-size="11" fill="#666">腿程 6,600 里≈2,541 km（0.385）vs 自記 6,900 里（-4.3% variant）；水行為水路里數，里程僅作拓扑順序證據。v2 依發起人確認範圍調整（v1 外灘起點南移）。所有對應為競爭假</text>
-<text x="60" y="756" font-size="11" fill="#666">說，時代窗口 4000–1000 BCE；中美同域候選——文化斷層保持未知。</text>
+<text x="1090" y="258" font-size="10" fill="#666">終點錨（T-RT21，2026-10-27）：無皋之山＝巴拿馬地峽東端—達連——「南望幼海」＝巴拿馬灣（太平洋）✓</text>
+<text x="1090" y="272" font-size="10" fill="#666">（R10 消解；幼海＝小海/灣謙稱）、「東望榑木」＝加勒比日出方向 ✓；置信恢復一級。</text>
+<text x="1090" y="291" font-size="10" fill="#666">站 2–4 重配（T-RT21）：岐山＝古巴東·馬埃斯特臘、諸鉤＝伊斯帕尼奧拉·中科迪勒拉、中父＝波多黎各方向</text>
+<text x="1090" y="306" font-size="10" fill="#666">——觀察者在場（古巴/伊斯帕尼奧拉 archaic 期 ~4000–3000 BCE；波多黎各 ~3000 BCE 起 ✓）；巴哈馬</text>
+<text x="1090" y="320" font-size="10" fill="#666">舊站位撤銷維持（觀察者缺席硬否決——存冊 rejected_rival）；status 自 rejected 改回 proposed_pen</text>
+<text x="1090" y="334" font-size="10" fill="#666">ding_review，置信上限 low_medium。</text>
+<text x="1090" y="353" font-size="10" fill="#666">連帶調整：胡射＝小安的列斯北段（「東水行千里」與島弧幾何合 ✓）；孟子＝小安的列斯南段—特立尼達（麋</text>
+<text x="1090" y="368" font-size="10" fill="#666">鹿泛化消解——特立尼達為大陸島有原生鹿科；鱣鮪→大海鰱＝奧里諾科洄游 ✓）；跂踵（牙買加）鏈序回跳記</text>
+<text x="1090" y="382" font-size="10" fill="#666"> variant——水行腿為水路拓扑順序。</text>
+<text x="1090" y="400" font-size="10" fill="#666">全鏈水行＝海上島鏈跳躍（水路里數）；自記 6,900 vs 腿程 6,600（-4.3% variant）。網格＝否定工具（G</text>
+<text x="1090" y="415" font-size="10" fill="#666">-3）；鏈位為走廊擬合（fit_coords 僅繪圖）。</text>
+<text x="1090" y="434" font-size="10" fill="#666">神群人身羊角；祠牡羊＋黍按推論性裁決 (a) 不作定位證據（雙向）。</text>
+<text x="1090" y="468.0" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
+<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 尸胡之山</tspan>　→ 水行起點；北望𦍲山｜⛰佛州海峽—巴哈馬北端方向</text>
+<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 岐山</tspan>　→ ★重配：古巴東·馬埃斯特臘（觀察者✓；虎→美洲豹）</text>
+<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 諸鉤之山</tspan>　→ ★重配：伊斯帕尼奧拉·中科迪勒拉（廣員百里大島）</text>
+<text x="1090" y="554" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 中父之山</tspan>　→ ★重配：波多黎各方向（多沙海岸段）</text>
+<text x="1090" y="575" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 胡射之山</tspan>　→ 東水行千里（東向跳島✓）｜⛰小安的列斯北段</text>
+<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 孟子之山</tspan>　→ 鱣鮪→大海鰱（奧里諾科洄游）｜⛰小安的列斯南—特立尼達</text>
+<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 跂踵之山</tspan>　→ 深澤皆湧＋蠵龜｜⛰牙買加島（鏈序回跳記 variant）</text>
+<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 踇隅之山</tspan>　→ 金玉赭＋植被恢復（島鏈轉陸）｜⛰尼加拉瓜—哥斯達黎加</text>
+<text x="1090" y="660" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 無皋之山</tspan>　→ 南望幼海＝巴拿馬灣✓；東望榑木｜⛰達連（終點錨）</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：自尸胡之山（佛州海峽方向，北望𦍲山）水行南下——岐山（古巴東·馬埃斯特臘；觀察者 ✓）→諸鉤（伊斯帕尼奧拉·中科迪勒拉；廣員百里大島）→中父（波多黎各方向；多沙）</text>
+<text x="60" y="702" font-size="11" fill="#666">→東水行千里跳島（胡射·小安的列斯北段）→孟子（小安的列斯南段—特立尼達：碧陽鱣鮪→大海鰱、麋鹿泛化成立）→跂踵（牙買加：深澤湧泉＋蠵龜；鏈序回跳 variant）→踇隅（尼加拉</text>
+<text x="60" y="718" font-size="11" fill="#666">瓜—哥斯達黎加；金玉赭轉陸）→無皋之山（達連終點：南望幼海＝巴拿馬灣、東望榑木＝加勒比日出）。</text>
+<text x="60" y="740" font-size="11" fill="#666">腿程 6,600 里≈2,541 km（0.385）vs 自記 6,900 里（-4.3% variant）；水行為水路里數，里程僅作拓扑順序證據。v3＝2026-10-27 方案（T-RT21 重配版：站 2–4 大安的列斯主島</text>
+<text x="60" y="756" font-size="11" fill="#666">鏈＋無皋/幼海達連—巴拿馬灣）。所有對應為競爭假說，時代窗口 4000–1000 BCE；中美同域候選——文化斷層保持未知。</text>
 </svg>
