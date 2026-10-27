@@ -37,6 +37,12 @@ def main(spec_path):
         if legs[i]:
             rec["leg"] = {"bearing": bearname.get(str(legs[i][0]), str(legs[i][0])), "li": legs[i][1]}
         rec["cum_li_from_start"] = cum_list[i]
+        # G-3：網格＝否定工具——輸出經緯帶（三檔極值包絡）而非單點
+        lats = [records[st]["grid"][str(s)]["lat"] for s in scales]
+        lons = [records[st]["grid"][str(s)]["lon"] for s in scales]
+        rec["band"] = {"lat_min": round(min(lats), 2), "lat_max": round(max(lats), 2),
+                       "lon_min": round(min(lons), 2), "lon_max": round(max(lons), 2),
+                       "note": "網格僅作否定檢核帶（G-3）；帶內不構成定位證據"}
     with open(spec["out"], "w") as f:
         f.write(json.dumps(spec["meta"], ensure_ascii=False) + "\n")
         for st in stations:
