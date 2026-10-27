@@ -100,7 +100,7 @@
 <text x="271" y="578" font-size="9" fill="#333">300</text>
 <line x1="332" y1="558" x2="332" y2="566" stroke="#333" stroke-width="1.5"/>
 <text x="324" y="578" font-size="9" fill="#333">400</text>
-<text x="340" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<text x="340" y="566" font-size="9" fill="#333">km（100里≈42.0km @0.42）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
