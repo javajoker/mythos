@@ -3975,7 +3975,7 @@
 {"id": "MEN:SHJ-11-1-013#2", "entry": "SHJ-11-1-013", "surface": "厭火國", "type": "POL", "node": "POL:SHJ-11-1-013#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-014#1", "entry": "SHJ-11-1-014", "surface": "河水", "type": "WAT", "node": "WAT:SHJ-11-1-014#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-014#2", "entry": "SHJ-11-1-014", "surface": "渤海", "type": "WAT", "node": "WAT:SHJ-11-1-014#2", "status": "linked", "quote": "", "presence": "present"}
-{"id": "MEN:SHJ-11-1-014#3", "entry": "SHJ-11-1-014", "surface": "積石山", "type": "MTN", "node": "MTN:SHJ-02-3-013#1", "status": "linked", "quote": "", "presence": "framework_reference"}
+{"id": "MEN:SHJ-11-1-014#3", "entry": "SHJ-11-1-014", "surface": "積石山", "type": "MTN", "node": "MTN:SHJ-11-1-014#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-015#1", "entry": "SHJ-11-1-015", "surface": "洋水", "type": "WAT", "node": "WAT:SHJ-11-1-015#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-008#4", "entry": "SHJ-11-1-008", "surface": "黑水", "type": "WAT", "node": "WAT:SHJ-11-1-008#1", "status": "linked", "quote": "", "presence": "present"}
 {"id": "MEN:SHJ-11-1-015#2", "entry": "SHJ-11-1-015", "surface": "羽民國", "type": "POL", "node": "POL:SHJ-11-1-015#1", "status": "linked", "quote": "", "presence": "present"}

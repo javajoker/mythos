@@ -1433,8 +1433,8 @@
    "name": "積石山",
    "lon": 22.8,
    "lat": 30.0,
-   "status": "mapped",
-   "color": "#2e86c1",
+   "status": "pending_anchor",
+   "color": "#c0392b",
    "note": "積石山（book11）",
    "label": false,
    "size": 3.5
@@ -3523,8 +3523,8 @@
   },
   {
    "name": "章尾山·燭龍",
-   "lon": 140.0,
-   "lat": 65.0,
+   "lon": 105.0,
+   "lat": 76.0,
    "status": "pending_anchor",
    "color": "#c0392b",
    "note": "章尾山·燭龍（book17）",

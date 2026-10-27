@@ -152,10 +152,10 @@
       "zhongci8",
       "zhongci9"
     ],
-    "mapping_attributes": 3130,
+    "mapping_attributes": 3167,
     "geo_nodes_covered": 984,
     "geo_nodes_total": 982,
-    "attributes_total": 10509,
+    "attributes_total": 10547,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_readings": {
@@ -165,9 +165,9 @@
     "identified": 2702,
     "state_only": 15,
     "no_reading": 0,
-    "skipped_geo": 1109,
+    "skipped_geo": 1108,
     "not_in_kg": 57,
-    "attributes_total": 10509,
+    "attributes_total": 10547,
     "review_status": "proposed_pending_review"
   },
   "kg_v1_assoc_ded": {
@@ -178,7 +178,7 @@
       "deductive.utility": 153,
       "associative.symbolism": 413
     },
-    "attributes_total": 10509,
+    "attributes_total": 10547,
     "review_status": "proposed_pending_review"
   },
   "kg_framework_v1": {
@@ -198,15 +198,16 @@
       "17",
       "18"
     ],
-    "new_nodes": 746,
+    "new_nodes": 747,
     "by_disposition": {
       "new_entity": 409,
-      "pending_anchor": 337
+      "pending_anchor": 335,
+      "late_layer_register": 3
     },
-    "reuse_links": 62,
-    "nodes_total": 4343,
+    "reuse_links": 61,
+    "nodes_total": 4344,
     "mentions_total": 4620,
-    "attributes_total": 10509,
+    "attributes_total": 10547,
     "review_status": "proposed_pending_review"
   }
 }

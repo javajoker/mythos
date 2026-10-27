@@ -181,7 +181,8 @@ def render(cfg):
     for k in range(5):
         S.append(f'<line x1="{bx + k*pxs:.0f}" y1="{by-4:.0f}" x2="{bx + k*pxs:.0f}" y2="{by+4:.0f}" stroke="#333" stroke-width="1.5"/>')
         S.append(f'<text x="{bx + k*pxs - 8:.0f}" y="{by+16:.0f}" font-size="9" fill="#333">{k*seg}</text>')
-    S.append(f'<text x="{bx + 4*pxs + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>')
+    li_km = cfg.get("li_km", 0.385)
+    S.append(f'<text x="{bx + 4*pxs + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈{li_km*100:.1f}km @{li_km}）</text>')
 
     # ---- panel ----
     px = PANEL_X

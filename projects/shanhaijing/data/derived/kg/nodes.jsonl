@@ -3767,6 +3767,7 @@
 {"id": "POL:SHJ-11-1-013#1", "type": "POL", "canonical_name": "厭火國", "first_entry": "SHJ-11-1-013", "names": [{"value": "厭火國", "entry": "SHJ-11-1-013"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-11-1-014#1", "type": "WAT", "canonical_name": "河水", "first_entry": "SHJ-11-1-014", "names": [{"value": "河水", "entry": "SHJ-11-1-014"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-11-1-014#2", "type": "WAT", "canonical_name": "渤海", "first_entry": "SHJ-11-1-014", "names": [{"value": "渤海", "entry": "SHJ-11-1-014"}], "status": "pending_anchor"}
+{"id": "MTN:SHJ-11-1-014#1", "type": "MTN", "canonical_name": "積石山", "first_entry": "SHJ-11-1-014", "names": [{"value": "積石山", "entry": "SHJ-11-1-014"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-11-1-015#1", "type": "WAT", "canonical_name": "洋水", "first_entry": "SHJ-11-1-015", "names": [{"value": "洋水", "entry": "SHJ-11-1-015"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-11-1-008#1", "type": "WAT", "canonical_name": "黑水", "first_entry": "SHJ-11-1-008", "names": [{"value": "黑水", "entry": "SHJ-11-1-008"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-11-1-015#1", "type": "POL", "canonical_name": "羽民國", "first_entry": "SHJ-11-1-015", "names": [{"value": "羽民國", "entry": "SHJ-11-1-015"}], "status": "pending_anchor"}
