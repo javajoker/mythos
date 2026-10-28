@@ -3,7 +3,7 @@
 <clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath>
 <defs><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《西山經》概要圖：四子經鏈 時代假想推理 × 現代映射參照</text>
-<text x="60" y="56" font-size="12" fill="#666">西一＝橫斷山北段—藏東 ｜ 西二＝喜馬拉雅南麓→印度河 ｜ 西三＝希斯馬→吉薩（昆侖之丘 ANC-01）→利比亞 ｜ 西四＝紹拉河谷→阿特拉斯→大西洋 ｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">西一＝川西高原東緣—橫斷山—藏東—藏北→納木錯（修正版 B）｜ 西二＝喜馬拉雅南麓→印度河 ｜ 西三＝希斯馬→吉薩（昆侖之丘 ANC-01）→利比亞 ｜ 西四＝紹拉河谷→阿特拉斯→大西洋 ｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
 <polyline points="138.1,179.6 185.0,142.2 247.5,95.6 302.2,111.1 356.9,142.2 388.1,157.8 403.8,319.6 435.0,322.7 450.6,266.7 470.2,157.8" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
 <text x="279" y="86" font-size="10" fill="#2f7fbf">地中海（北岸簡化）</text>
@@ -25,27 +25,27 @@
 <text x="239" y="503" font-size="10" fill="#7a6540">撒哈拉（流沙候選帶）</text>
 <ellipse cx="429" cy="351" rx="6" ry="16" fill="#cfe0e8" opacity="0.35"/>
 <text x="405" y="354" font-size="10" fill="#7a6540">吉薩台地（昆侖之丘）</text>
-<polyline points="1048.5,220.6 1047.0,220.6 1045.1,220.6 1042.4,220.6 1039.8,220.6 1037.9,220.6 1035.5,220.6 1033.8,220.6 1029.9,220.6 1027.7,220.6 1022.7,220.6 1017.1,220.6 1003.8,220.6 993.3,220.6 981.8,220.6 973.0,249.6 967.1,249.6 960.5,249.6 952.3,249.6" fill="none" stroke="#8e44ad" stroke-width="2.6" opacity="0.85"/>
-<circle cx="1049" cy="221" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1047" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1045" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1042" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1040" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1038" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1036" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1034" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1030" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1028" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1023" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1017" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1004" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="993" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="982" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="973" cy="250" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="967" cy="250" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="961" cy="250" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="952" cy="250" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<text x="958" y="167" font-size="11" font-weight="bold" fill="#8e44ad">西一·錢來鏈</text>
+<polyline points="978.0,311.8 976.6,311.8 974.6,311.8 972.1,311.8 969.5,311.8 967.7,311.8 965.5,311.8 963.8,311.8 960.0,311.8 957.7,311.8 953.0,311.8 947.7,311.8 934.7,311.8 924.5,311.8 913.4,311.8 904.9,340.7 899.2,340.7 892.9,340.7 884.9,340.7" fill="none" stroke="#8e44ad" stroke-width="2.6" opacity="0.85"/>
+<circle cx="978" cy="312" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="977" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="975" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="972" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="970" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="968" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="965" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="964" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="960" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="958" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="953" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="948" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="935" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="925" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="913" cy="312" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="905" cy="341" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="899" cy="341" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="893" cy="341" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="885" cy="341" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="927" y="404" font-size="11" font-weight="bold" fill="#8e44ad">西一·錢來鏈</text>
 <polyline points="888.1,375.6 882.0,375.6 876.6,375.6 875.5,371.8 869.0,394.5 862.7,394.5 856.6,394.5 852.1,409.8 839.7,409.8 830.4,409.8 818.0,409.8 805.5,409.8 797.8,409.8 782.3,409.8 773.0,409.8 762.1,409.8 751.2,409.8" fill="none" stroke="#9b59b6" stroke-width="2.6" opacity="0.85"/>
 <circle cx="888" cy="376" r="5" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
 <circle cx="882" cy="376" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
@@ -202,13 +202,15 @@
 <text x="1090" y="291" font-size="10" fill="#666">里程與方位以水系拓扑→山勢走向→人文風物為序；後世同名（陰山/天山等）借名標記不作反證。</text>
 <text x="1090" y="310" font-size="10" fill="#666">西二與西三之間的兩河空檔（72.5°E→38.5°E）由框架書承擔（F-0007）。</text>
 <text x="1090" y="344.0" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>
-<text x="1090" y="366" font-size="11" fill="#8e44ad">西一·錢來鏈（19 站）→ 華山—秦嶺主脊—漢水源—青海湖（v1 回擺，T-RT05 遮蔽確認：太華＝華山、…</text>
+<text x="1090" y="366" font-size="11" fill="#8e44ad">西一·錢來鏈（19 站）→ 川西高原東緣—大渡河/雅礱江河谷—橫斷山—藏東—藏北→納木錯（修正版 B，…</text>
 <text x="1090" y="387" font-size="11" fill="#9b59b6"><tspan font-weight="bold">西二·鈐山鏈</tspan>（17 站）→ 喜馬拉雅東段南麓→印度河中游（古印度·哈拉帕方向；犀牛西界鎖定）</text>
 <text x="1090" y="408" font-size="11" fill="#6c3483">西三·崇吾鏈（23 站）→ 希斯馬高原→吉薩（昆侖之丘＝開羅·座標錨）→錫瓦綠洲—利比亞（西王母·三…</text>
 <text x="1090" y="430" font-size="11" fill="#af7ac5"><tspan font-weight="bold">西四·陰山鏈</tspan>（19 站）→ 紹拉河谷→阿特拉斯主脊（鳥鼠同穴集水嶺）→蘇斯河口（崦嵫日落）入大西洋</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：《西山經》四鏈自東而西——西一（錢來之山→騩山：華陰—華山→秦嶺北麓—主脊（大時時＝太白—鰲山）→漢水源（嶓塚）→甘南→青海湖（騩山錞于西海）——T-RT05 遮蔽重</text>
-<text x="60" y="702" font-size="11" fill="#666">判後 v1 回擺）→西二（鈐山→萊山：喜馬拉雅東段南麓—特萊帶→印度河中游，犀牛西界止於印度河＝物種鎖定）→西三（崇吾之山→翼望之山：希斯馬高原→昆侖之丘＝吉薩·金字塔台地與</text>
-<text x="60" y="718" font-size="11" fill="#666">陵寢格局＋人面獸身造像→錫瓦綠洲玉山·西王母→哈魯傑火山原三危→利比亞段）→西四（陰山→崦嵫之山：紹拉河谷→阿特拉斯集水嶺（鳥鼠同穴）→蘇斯河口日落入大西洋）。</text>
-<text x="60" y="740" font-size="11" fill="#666">概要圖站位＝各子經算術網格（層累已記於各經 variant）；比例尺 0.35/0.385/0.42 帶。所有對應為競爭假說，時代窗口 4000–1000 BCE；靜態形狀優先、禁止因果倒置、詞義通用、文</text>
-<text x="60" y="756" font-size="11" fill="#666">化斷層四原則適用全圖。</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：《西山經》四鏈自東而西——西一（錢來之山→騩山：川西高原東緣〔甘孜—爐霍方向〕→大渡河—雅礱江干暖河谷→橫斷山中段→藏東昌都方向〔卡若文化同域〕→西南腿八宿→藏</text>
+<text x="60" y="702" font-size="11" fill="#666">東南谷地→藏北高原邊緣〔那曲東—比如〕→納木錯〔騩山錞于西海字面成立〕——修正版 B，發起人裁決 2026-10-28；禹貢簇渭/漢/沔/洛注記＝層累覆寫不作定位證據；v1/v3 華山—秦嶺</text>
+<text x="60" y="718" font-size="11" fill="#666">—青海湖讀法否決存冊 rejected_rival_T-RT05-reversed）→西二（鈐山→萊山：喜馬拉雅東段南麓—特萊帶→印度河中游，犀牛西界止於印度河＝物種鎖定）→西三（崇吾之山→翼望之山</text>
+<text x="60" y="734" font-size="11" fill="#666">：希斯馬高原→昆侖之丘＝吉薩·金字塔台地與陵寢格局＋人面獸身造像→錫瓦綠洲玉山·西王母→哈魯傑火山原三危→利比亞段）→西四（陰山→崦嵫之山：紹拉河谷→阿特拉斯集水嶺（鳥鼠同</text>
+<text x="60" y="750" font-size="11" fill="#666">穴）→蘇斯河口日落入大西洋）。</text>
+<text x="60" y="772" font-size="11" fill="#666">概要圖站位＝各子經算術網格（層累已記於各經 variant）；比例尺 0.35/0.385/0.42 帶。所有對應為競爭假說，時代窗口 4000–1000 BCE；靜態形狀優先、禁止因果倒置、詞義通用、文</text>
+<text x="60" y="788" font-size="11" fill="#666">化斷層四原則適用全圖。</text>
 </svg>
