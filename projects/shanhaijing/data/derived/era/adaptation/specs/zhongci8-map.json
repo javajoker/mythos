@@ -3,12 +3,12 @@
  "out": "zhongci8-map.svg",
  "anchor_index": 0,
  "title": "《中次八經》時代假想推理 × 現代映射參照圖",
- "subtitle": "adapt-zhongci8-1 ｜ 拓撲錨：景山（漳→雎→江三級嵌套，大江南岸）｜ 0.385 km/里（±150 km）｜ 全部映射 proposed_pending_review",
+ "subtitle": "adapt-zhongci8-1 ｜ 拓撲錨：景山（漳→雎→江三級嵌套，大江南岸）｜ 0.385 km/里（±150 km）｜ 全部映射 proposed_pending_review｜綸山腿方位修正（2026-10-29 審計）",
  "window": {
   "lon0": 110,
   "lon1": 121.8,
   "lat0": 30.2,
-  "lat1": 34.8
+  "lat1": 35.9
  },
  "stations_short": {
   "景山": "保康荊山方向（起點·雎水注江）｜⛰荊山·北段",

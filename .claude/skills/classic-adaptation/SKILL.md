@@ -45,6 +45,7 @@ description: Runbook for producing the complete adaptation package of one Shanha
 - 全部 JSONL 逐行 `json.loads` 通過。
 - 覆蓋核對：該子經全部 KG 節點在 mappings 或逐句文檔中被引用（腳本比對，uncited 必須為空）。
 - 地圖：XML 解析通過＋文本溢出審計（無文本越過地圖/面板邊界）＋瀏覽器或柵格化目檢。
+- **走向合規審計（2026-10-29 起）**：`python3 tools/shj/audit_bearings.py`——A 層（站位逐腿方位 ∈ 聲明腿 ±22.5° 容差錐）與 B 層（聲明腿 vs 原文腿逐序核對）；新建/重校準的子經該鏈必須 A 層零違背；存量違背見 findings/AUDIT-2026-10-29-wuzang-route-compliance.md 修復清單。
 - `git diff --check` 通過；每任務完成即提交。
 
 ## 鏈條校準規則
