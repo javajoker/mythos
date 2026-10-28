@@ -5,7 +5,7 @@ Reads a spec JSON: {"stations": [...], "legs": [[bearing_deg, li] or null...],
 "anchor": {"index": i, "lat": ..., "lon": ...}, "meta": {...}, "out": path}.
 Expands positions at 0.35/0.385/0.42 km/li. Arithmetic only — no semantics.
 """
-import json, math, sys
+import json, math, os, sys
 
 def main(spec_path):
     spec = json.load(open(spec_path))
@@ -43,7 +43,12 @@ def main(spec_path):
         rec["band"] = {"lat_min": round(min(lats), 2), "lat_max": round(max(lats), 2),
                        "lon_min": round(min(lons), 2), "lon_max": round(max(lons), 2),
                        "note": "網格僅作否定檢核帶（G-3）；帶內不構成定位證據"}
-    with open(spec["out"], "w") as f:
+    out = spec["out"]
+    if not os.path.isabs(out):
+        # 相對路徑一律相對於 spec 文件所在目錄解析（防止從不同 cwd 運行時散落輸出）；
+        # spec 的 out 一律為 bare 檔名
+        out = os.path.join(os.path.dirname(os.path.abspath(spec_path)), out.split("/")[-1])
+    with open(out, "w") as f:
         f.write(json.dumps(spec["meta"], ensure_ascii=False) + "\n")
         for st in stations:
             f.write(json.dumps(records[st], ensure_ascii=False) + "\n")

@@ -103,5 +103,5 @@
   "stated_mountains": 16,
   "parsed_stations": 15
  },
- "out": "projects/shanhaijing/data/derived/era/adaptation/zhongci5-station-grid.jsonl"
+ "out": "zhongci5-station-grid.jsonl"
 }

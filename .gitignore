@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .DS_Store
 projects/shanhaijing/data/derived/era/*/runs/
+/*-station-grid.jsonl

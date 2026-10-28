@@ -103,5 +103,5 @@
   "stated_mountains": "十萬（異文，疑十五山）",
   "parsed_stations": 15
  },
- "out": "projects/shanhaijing/data/derived/era/adaptation/zhongci12-station-grid.jsonl"
+ "out": "zhongci12-station-grid.jsonl"
 }
