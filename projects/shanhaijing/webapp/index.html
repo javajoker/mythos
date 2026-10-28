@@ -4,39 +4,40 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>山海經現實映射 — 世界地圖</title>
-<link rel="stylesheet" href="css/app.css?v=20261027">
+<link rel="stylesheet" href="css/app.css?v=20261028">
 </head>
 <body data-page="index">
 <header class="site-header"></header>
 <main class="full">
   <div id="map">
+    <div class="map-hint" id="map-hint">第一次來？點地圖上的圓點或路線上的站點，看看每一座山、每一條河被對照到了今天的哪裏。（點這裏關閉提示）</div>
     <div class="layer-panel">
-      <div class="lp-title">圖層</div>
-      <label><input type="checkbox" data-layer="chains" checked> 山經鏈（五經色族）</label>
-      <label><input type="checkbox" data-layer="points" checked> 框架書點位</label>
-      <label><input type="checkbox" data-layer="modern" checked> 現代參照點</label>
-      <label><input type="checkbox" data-layer="annotations" checked> 底圖地名注記</label>
-      <label><input type="checkbox" data-layer="basemap" checked> 海岸線／地貌</label>
-      <button id="map-reset" style="margin-top:4px">重置視圖</button>
+      <div class="lp-title">地圖上顯示什麼</div>
+      <label><input type="checkbox" data-layer="chains" checked> 《山經》記山路線（五種顏色）</label>
+      <label><input type="checkbox" data-layer="points" checked> 其他各卷提到的地點</label>
+      <label><input type="checkbox" data-layer="modern" checked> 現代地名（對照用）</label>
+      <label><input type="checkbox" data-layer="annotations" checked> 底圖上的地名標註</label>
+      <label><input type="checkbox" data-layer="basemap" checked> 海岸線與地貌</label>
+      <button id="map-reset" style="margin-top:4px">回到初始畫面</button>
     </div>
     <div class="map-legend">
-      <div><b>五經色族</b></div>
+      <div><b>五部《山經》的顏色</b></div>
       <div><span class="swatch" style="background:#6c3483"></span>西山經（紫）
            <span class="swatch" style="background:#c0392b"></span>中山經（紅）</div>
       <div><span class="swatch" style="background:#a07d1e"></span>北山經（金棕）
            <span class="swatch" style="background:#1e8449"></span>東山經（綠）
            <span class="swatch" style="background:#2e86c1"></span>南山經（藍）</div>
-      <div style="margin-top:4px"><b>點位</b></div>
-      <div><span class="dot" style="background:#2e86c1"></span>復用錨定
-           <span class="dot" style="background:#b7950b"></span>區域方向
-           <span class="sq"></span>待定錨（紅虛框）</div>
-      <div>鏈上雙圈＝錨站。點選鏈站或點位查看條目詳情。</div>
+      <div style="margin-top:4px"><b>地點標記</b></div>
+      <div><span class="dot" style="background:#2e86c1"></span>位置較有把握
+           <span class="dot" style="background:#b7950b"></span>大致區域
+           <span class="sq"></span>位置待定（紅色虛框）</div>
+      <div>路線上的雙圈是關鍵站點。點站點或地點標記，可以看書中對應的段落。</div>
     </div>
   </div>
 </main>
 <footer class="site-footer"></footer>
-<script src="js/store.js?v=20261027"></script>
-<script src="js/map.js?v=20261027"></script>
-<script src="js/app.js?v=20261027"></script>
+<script src="js/store.js?v=20261028"></script>
+<script src="js/map.js?v=20261028"></script>
+<script src="js/app.js?v=20261028"></script>
 </body>
 </html>

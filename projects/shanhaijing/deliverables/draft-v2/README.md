@@ -1,37 +1,12 @@
-# 山海經草稿 v2（白話通順版，draft-v2）
+# draft-v2 白話讀本寫作規範（2026-10-28 發起人裁定）
 
-> draft-v2 = draft-v1 的白話重寫版：每條目「原文照錄 → 白話解讀 → 配圖（若有）→ 未決項照錄」。
-> 全部映射與讀法為競爭假說（proposed_pending_review）；時代窗口 4000–1000 BCE。
-> 已生效裁決口徑：ADJ-002（昆侖虛＝撒哈拉之眼）／ADJ-003（燭龍＝極晝極夜＋極光，章尾山 60–70°N）／ADJ-004（兩河空檔採納 F-0007）／ADJ-005（山名同名唯一、水名性狀類名多實例合法）。
-> 配圖全部為網上真實照片（Wikimedia Commons 為主；個別卷因網絡限制改用 iNaturalist 開放數據/Pexels，圖注已標明來源）；無 AI 生成圖。
+本層是面向**完全沒有項目背景的普通讀者**的讀本。規則：
 
-| 卷 | 文件 | 條目 | 配圖 |
-|---|---|---|---|
-| 卷一 南山經 | [book-01-nanshan.md](book-01-nanshan.md) | 43 | 5 |
-| 卷二 西山經 | [book-02-xishan.md](book-02-xishan.md) | 82 | 14 |
-| 卷三 北山經 | [book-03-beishan.md](book-03-beishan.md) | 92 | 9 |
-| 卷四 東山經 | [book-04-dongshan.md](book-04-dongshan.md) | 51 | 9 |
-| 卷五 中山經 | [book-05-zhongshan.md](book-05-zhongshan.md) | 213 | 8 |
-| 卷六 海外南經 | [book-06-haiwainan.md](book-06-haiwainan.md) | 23 | 4 |
-| 卷七 海外西經 | [book-07-haiwaixi.md](book-07-haiwaixi.md) | 23 | 7 |
-| 卷八 海外北經 | [book-08-haiwaibei.md](book-08-haiwaibei.md) | 22 | 5 |
-| 卷九 海外東經 | [book-09-haiwaidong.md](book-09-haiwaidong.md) | 17 | 9 |
-| 卷十 海內南經 | [book-10-haineinan.md](book-10-haineinan.md) | 18 | 5 |
-| 卷十一 海內西經 | [book-11-haineixi.md](book-11-haineixi.md) | 24 | 7 |
-| 卷十二 海內北經 | [book-12-haineibei.md](book-12-haineibei.md) | 27 | 6 |
-| 卷十三 海內東經 | [book-13-haineidong.md](book-13-haineidong.md) | 44 | 7 |
-| 卷十四 大荒東經 | [book-14-dahuangdong.md](book-14-dahuangdong.md) | 36 | 2 |
-| 卷十五 大荒南經 | [book-15-dahuangnan.md](book-15-dahuangnan.md) | 33 | 5 |
-| 卷十六 大荒西經 | [book-16-dahuangxi.md](book-16-dahuangxi.md) | 50 | 7 |
-| 卷十七 大荒北經 | [book-17-dahuangbei.md](book-17-dahuangbei.md) | 32 | 6 |
-| 卷十八 海內經 | [book-18-hainei.md](book-18-hainei.md) | 39 | 8 |
-
-共 869 條目、111 張配圖。結構化版本（含 KG 節點表）見 `../draft-v1/`；地圖見 `data/derived/era/adaptation/`（子經詳圖 26＋框架書補丁圖 13＋概要圖 7）。
-
-## 概要地圖
-
-- [《山海經》全書概要圖（26 鏈 × 框架書 402 點）](../../data/derived/era/adaptation/shanjing-overview.svg)
-- [五臧山經總體概要圖](../../data/derived/era/adaptation/wuzang-overview.svg)
-- 分經概要：[西山經](../../data/derived/era/adaptation/xishan-overview.svg)｜[中山經](../../data/derived/era/adaptation/zhongshan-overview.svg)｜[北山經](../../data/derived/era/adaptation/beishan-overview.svg)｜[東山經](../../data/derived/era/adaptation/dongshan-overview.svg)｜[南山經](../../data/derived/era/adaptation/nanshan-overview.svg)
-
-各卷內文已嵌入對應子經詳圖／本卷補丁圖（SVG，同目錄相對鏈接）。
+1. **禁用項目內部語言**：不出現 SHJ 條目編碼、F/T-RT/G/RT 等流程編號、置信度等級（medium_high 等）、proposed_pending_review、rival_candidates、遮蔽、網格、variant/conflict 等術語。條目標題統一為「### N. 名稱：副題」格式（N 為序號，山經各卷在每列山系內重新起編，其餘各卷全卷連續編號；各卷的書末總結段不編號）。
+2. **所有用詞都要能看懂**：凡用到術語（如「層累」「拓撲」「窗口期」也屬術語，避免），就地用大白話解釋或換說法。時間一律寫「約三四千年前」這類大白話。
+3. **不確定性用大白話**：把握程度統一用四檔口語標注——「很有把握／較有把握／方向性猜測／還沒有定論」；也可以用「還在研究」「另一種可能是……」這類說法，但不用內部分級。
+4. **內容聚焦**：山海經與現實世界的映射關係——地理、人文、風物、物產資源；古今變遷（氣候、海岸線、沙漠化、河流改道）與滅絕/遷徙物種的補充描述（犀牛、大象曾在河南；北部灣曾有儒艮；雙峰駝、原牛、亞洲獅的歷史分佈等）。
+5. **圖文並茂**：保留全部既有配圖與地圖引用，不得丟失圖片鏈接。圖說統一寫在圖片語法的方括號內；照片末尾加「（圖：來源）」尾註（如 Wikimedia Commons／iNaturalist／Pexels），項目自繪地圖不加尾註。
+6. **原文＋白話翻譯**：每段保留原文引用與白話解讀。原文引用必須與 `reference/shanhaijing/text/` 的繁體經文逐字一致，簡轉繁時不得改動引文用字。
+7. 讀者被假設為聰明的外行：可以講研究過程的趣味（比如「怎麼證明」），但要用故事化語言。
+8. **結構統一**：每卷開頭有「## 本卷導覽」，卷末有「## 卷末小結」；卷題統一為「# 《×經》白話讀本（卷N）」。

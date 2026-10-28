@@ -14,11 +14,11 @@ const Store = (() => {
         if (window.SHJ_DATA && window.SHJ_DATA[name] !== undefined) {
           resolve(window.SHJ_DATA[name]);
         } else {
-          reject(new Error('data/' + name + '.js 已加載但未找到數據'));
+          reject(new Error('data/' + name + '.js 已載入但找不到資料'));
         }
       };
       s.onerror = () => reject(new Error(
-        '無法載入 data/' + name + '.json。若使用 file:// 打開，需要同名 .js 包裝檔；' +
+        '無法載入 data/' + name + '.json。若用 file:// 直接開啟，需要同名 .js 包裝檔；' +
         '建議在 webapp/ 目錄運行 python3 -m http.server 後用瀏覽器訪問。'));
       document.head.appendChild(s);
     });

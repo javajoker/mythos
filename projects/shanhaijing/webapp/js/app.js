@@ -42,23 +42,32 @@ const App = (() => {
   }
 
   const TYPE_NAMES = {
-    MTN: '山體', WAT: '水體', LND: '地標', POL: '族群／邦國', PER: '人物／神格',
-    CRE: '動物', PLA: '植物', MIN: '礦物／資源', OBJ: '物件', AST: '天象',
-    CLIM: '氣象／兆象', DOC: '文獻',
+    MTN: '山', WAT: '河流與水域', LND: '地標', POL: '族群與邦國', PER: '人物與神靈',
+    CRE: '動物', PLA: '植物', MIN: '礦物與資源', OBJ: '器物', AST: '天象',
+    CLIM: '氣象與徵兆', DOC: '文獻',
   };
   const EDGE_NAMES = {
-    rises_at: '發源於', flows_into: '注於', connected_to: '相連', adjacent_to: '相鄰',
-    located_in: '位於', related_to: '關聯', motif_of: '母題', produces: '出產',
-    inhabits: '棲息', same_entity_as: '同一實體', invented_by: '始創',
+    rises_at: '發源於', flows_into: '流入', connected_to: '相連', adjacent_to: '相鄰',
+    located_in: '位於', related_to: '相關', motif_of: '相關的故事母題', produces: '出產',
+    inhabits: '棲息於', same_entity_as: '同一事物', invented_by: '始創',
+  };
+  const PREDICATE_NAMES = {
+    'era.candidate': '對應的現實對象',
+    'era.state': '古今狀態對照',
+    'associative.symbolism': '象徵與聯想',
+    'deductive.utility': '用途推斷',
+  };
+  const KIND_NAMES = {
+    semantic_fit: '古今對應', associative: '聯想', deductive: '推斷',
   };
   const ATTR_KEY_NAMES = {
-    role: '角色', name: '候選', fit: '契合', entity_attr: '屬性', station_ref: '站點',
-    region: '區域', kind: '類別', conflicts: '衝突', unknowns: '未知', modern_name: '現代名',
-    period_state: '時代狀態', present_state: '現今狀態', evolution_logic: '演化邏輯',
-    disposition: '處置', original_kind: '原類別', anchor: '錨', candidate: '候選',
-    coordinates: '坐標', symbolism: '賦義', trigger: '觸發原文', reading: '讀法',
-    status: '狀態', book: '卷', entry: '條目', components: '組成', historical_scenarios: '歷史情景',
-    static_fit: '靜態契合', grid_0385: '網格',
+    role: '角色', name: '名稱', fit: '吻合之處', entity_attr: '屬性', station_ref: '路線站點',
+    region: '所在區域', kind: '類別', conflicts: '不合之處', unknowns: '仍不清楚', modern_name: '今天的名字',
+    period_state: '當時的狀態', present_state: '今天的狀態', evolution_logic: '演變過程',
+    disposition: '處理方式', original_kind: '原本的類別', anchor: '定位點', candidate: '候選對象',
+    coordinates: '坐標', symbolism: '象徵意義', trigger: '相關原文', reading: '解讀',
+    status: '狀態', book: '卷', entry: '段落', components: '組成', historical_scenarios: '歷史情景',
+    static_fit: '靜態吻合度', grid_0385: '推算網格',
   };
 
   /* ── 工具 ──────────────────────────────── */
@@ -74,17 +83,17 @@ const App = (() => {
       case 'medium': case 'medium_high': case 'low_medium':
         return '<span class="badge ok">較可靠</span>';
       case 'low': case 'very_low': case 'framework':
-        return '<span class="badge dir">方向性</span>';
+        return '<span class="badge dir">大致方向</span>';
       case 'myth_layer':
-        return '<span class="badge myth">神話層</span>';
+        return '<span class="badge myth">神話故事</span>';
       default:
-        return '<span class="badge na">待考</span>';
+        return '<span class="badge na">還在研究</span>';
     }
   }
   function pointStatusBadge(status) {
-    if (status === 'mapped') return '<span class="badge anchor">復用錨定</span>';
-    if (status === 'region') return '<span class="badge region">區域方向</span>';
-    return '<span class="badge pending">待定錨</span>';
+    if (status === 'mapped') return '<span class="badge anchor">位置較有把握</span>';
+    if (status === 'region') return '<span class="badge region">大致區域</span>';
+    return '<span class="badge pending">位置待定</span>';
   }
 
   /* ── 迷你 markdown 渲染（僅支持本地數據用到的語法）──── */
@@ -160,18 +169,17 @@ const App = (() => {
   function entryCard(e) {
     const b = BOOKS[e.book] || { name: e.book };
     let h = `<h3>${esc(e.title)}</h3>
-      <div class="detail-meta"><span class="mono">${esc(e.id)}</span> ·
-      <a href="book.html?book=${e.book}#${esc(e.id)}">${esc(b.name)}</a>
-      <span class="badge review">競爭假說 proposed_pending_review</span></div>`;
+      <div class="detail-meta"><a href="book.html?book=${e.book}#${esc(e.id)}">出自《${esc(b.name)}》</a>
+      <span class="badge review">研究假說 · 尚待覆核</span></div>`;
     if (/借名/.test(e.reading_md)) {
-      h += `<div class="borrowed-warning">借名警示：本條目涉及後世同名／借名討論——後世地名沿襲不得反推為定位證據。</div>`;
+      h += `<div class="borrowed-warning">提醒：這一條涉及「借名」問題——後世沿用了同樣的地名，不能拿後來的同名地名反推古書裏的位置。</div>`;
     }
     if (/神話層|神话层/.test(e.reading_md)) {
-      h += `<div class="myth-note">本條目涉及神話層內容，與地理層分開呈現，不作現實定位。</div>`;
+      h += `<div class="myth-note">這一條屬於神話故事，與地理記錄分開呈現，不做現實定位。</div>`;
     }
     h += `<div class="entry-body">${md(e.reading_md)}</div>`;
     if (e.unresolved && e.unresolved.length) {
-      h += `<details class="unresolved"><summary>未決 ${e.unresolved.length} 項</summary><ul>` +
+      h += `<details class="unresolved"><summary>還沒有答案的 ${e.unresolved.length} 個問題</summary><ul>` +
         e.unresolved.map(u => '<li>' + esc(u) + '</li>').join('') + '</ul></details>';
     }
     return h;
@@ -180,7 +188,7 @@ const App = (() => {
     let h = `<h3>${esc(p.name)}</h3>
       <div class="detail-meta">${pointStatusBadge(p.status)}</div>`;
     if (entry) return h + entryCardBody(entry);
-    h += `<p>${esc(p.note || '')}</p><p class="muted">此點位暫未關聯條目；狀態見上方徽章（待定錨／區域方向均為方向性假說）。</p>`;
+    h += `<p>${esc(p.note || '')}</p><p class="muted">這個地點暫時沒有對應到書中的具體段落；上方標籤表示把握程度，「位置待定」「大致區域」都只是初步推測。</p>`;
     return h;
   }
   function entryCardBody(e) {
@@ -227,26 +235,26 @@ const App = (() => {
   /* ── 頁首頁腳 ──────────────────────────── */
   function chrome(active) {
     const nav = [
-      ['index.html', '世界地圖'], ['book.html', '卷目錄'], ['entities.html', '實體庫'],
-      ['adjudications.html', '裁決與發現'], ['review.html', '覆核中心'], ['about.html', '關於'],
+      ['index.html', '世界地圖'], ['book.html', '分卷閱讀'], ['entities.html', '收錄的事物'],
+      ['adjudications.html', '研究檔案'], ['review.html', '覆核工具（研究者用）'], ['about.html', '關於本站'],
     ];
     const header = document.querySelector('.site-header');
     if (header) {
       header.innerHTML =
-        `<div class="site-title"><a href="index.html">山海經現實映射</a><span class="sub">時代窗口 4000–1000 BCE</span></div>
+        `<div class="site-title"><a href="index.html">山海經現實映射</a><span class="sub">約三四千年前的世界，對照到今天</span></div>
          <nav class="site-nav">` +
         nav.map(([h, t]) => `<a href="${h}"${h === active ? ' class="active"' : ''}>${t}</a>`).join('') + '</nav>';
     }
     const footer = document.querySelector('.site-footer');
     if (footer) {
       footer.innerHTML =
-        `<div class="honesty">全部對應為競爭假說（proposed_pending_review）；時代窗口 4000–1000 BCE</div>
-         <div>《山海經》時代假想推理研究 · 純靜態站 · 無追蹤 · 離線可用</div>`;
+        `<div class="honesty">本站所有古今對應都是研究中的假說，不是定論；對照的年代大約在距今六千年到三千年之間</div>
+         <div>《山海經》古今對照研究 · 純靜態站 · 無賬號、無追蹤 · 斷網也能用</div>`;
     }
   }
 
   return {
-    BOOKS, FAMILY, TYPE_NAMES, EDGE_NAMES, ATTR_KEY_NAMES, CN,
+    BOOKS, FAMILY, TYPE_NAMES, EDGE_NAMES, ATTR_KEY_NAMES, PREDICATE_NAMES, KIND_NAMES, CN,
     esc, md, mdInline, confBadge, pointStatusBadge,
     entryCard, pointCard, openDetail, closeDetail, chrome, subName, lightbox,
   };
@@ -276,8 +284,18 @@ async function bootIndex() {
   const container = document.getElementById('map');
   const loading = document.createElement('div');
   loading.className = 'map-loading';
-  loading.textContent = '地圖數據加載中…';
+  loading.textContent = '地圖資料載入中…';
   container.appendChild(loading);
+
+  // 首次訪客引導條（看過就不再顯示）
+  const hint = document.getElementById('map-hint');
+  if (hint) {
+    try { if (localStorage.getItem('shj-hint-seen')) hint.hidden = true; } catch {}
+    hint.addEventListener('click', () => {
+      hint.hidden = true;
+      try { localStorage.setItem('shj-hint-seen', '1'); } catch {}
+    });
+  }
 
   let entries = null, byId = null;
   Store.entries().then(list => {
@@ -298,9 +316,9 @@ async function bootIndex() {
       const e = findStationEntry(sel.book, sel.sub, sel.name);
       if (e) { App.openDetail(App.entryCard(e)); return; }
       App.openDetail(`<h3>${App.esc(sel.chain)}｜${App.esc(sel.name)}</h3>
-        <div class="detail-meta">${sel.anchor ? '<span class="badge anchor">錨站</span>' : ''}
-        <span class="badge review">競爭假說 proposed_pending_review</span></div>
-        <p class="muted">山經里程鏈站點；未匹配到對應條目（可能為同名複站或里程點）。坐標為擬合值，全部定位均為競爭假說。</p>`);
+        <div class="detail-meta">${sel.anchor ? '<span class="badge anchor">關鍵站點</span>' : ''}
+        <span class="badge review">研究假說 · 尚待覆核</span></div>
+        <p class="muted">這是《山經》記山路線上的一個站點，沒有找到對應的書中段落（可能是重名站或純里程點）。地圖上的位置是推算出來的，所有定位都只是研究假說。</p>`);
     } else {
       const p = sel.point;
       const e = p.entry && byId ? byId[p.entry] : null;
@@ -317,7 +335,7 @@ async function bootIndex() {
     const resetBtn = document.getElementById('map-reset');
     if (resetBtn) resetBtn.onclick = () => map.reset();
   } catch (err) {
-    loading.textContent = '地圖加載失敗：' + err.message;
+    loading.textContent = '地圖載入失敗：' + err.message;
   }
 }
 
@@ -328,25 +346,25 @@ async function bootBook() {
   const bookNo = q.get('book');
   let entries;
   try { entries = await Store.entries(); }
-  catch (err) { main.innerHTML = `<p class="notice">數據加載失敗：${App.esc(err.message)}</p>`; return; }
+  catch (err) { main.innerHTML = `<p class="notice">資料載入失敗：${App.esc(err.message)}</p>`; return; }
 
   if (!bookNo) { // 18 卷目錄
     const counts = {};
     entries.forEach(e => { counts[e.book] = (counts[e.book] || 0) + 1; });
-    main.innerHTML = '<h1>卷目錄（18 卷）</h1><div class="book-grid">' +
+    main.innerHTML = '<h1>分卷閱讀（共 18 卷）</h1><div class="book-grid">' +
       Object.keys(App.BOOKS).sort().map(no => {
         const b = App.BOOKS[no];
         const color = b.fam ? App.FAMILY[b.fam].color : '#7d6608';
         return `<div class="book-tile" style="border-top-color:${color}">
           <h3><a href="book.html?book=${no}">卷${no} · ${b.name}</a></h3>
-          <div class="cnt">${counts[no] || 0} 條目${b.fam ? ' · 五藏山經（' + App.FAMILY[b.fam].name + '）' : ' · 框架書'}</div>
+          <div class="cnt">${counts[no] || 0} 段 · ${b.fam ? '「五藏山經」' : '海經與大荒經'}</div>
         </div>`;
       }).join('') + '</div>';
     return;
   }
 
   const b = App.BOOKS[bookNo];
-  if (!b) { main.innerHTML = '<p class="notice">未知卷號。</p>'; return; }
+  if (!b) { main.innerHTML = '<p class="notice">沒有這一卷。</p>'; return; }
   const list = entries.filter(e => e.book === bookNo);
   const subs = {};
   list.forEach(e => {
@@ -355,12 +373,12 @@ async function bootBook() {
   });
 
   let h = `<h1>卷${bookNo} · ${b.name}</h1>
-    <p class="muted">本卷 ${list.length} 條目 · <span class="badge review">全部為競爭假說 proposed_pending_review</span></p>`;
+    <p class="muted">本卷共 ${list.length} 段 · <span class="badge review">以下古今對應均為研究假說</span></p>`;
 
   // 卷導覽：子經/分組概覽
-  h += '<h2 class="sub-head">本卷導覽</h2><ul>' +
+  h += '<h2 class="sub-head">本卷分段</h2><ul>' +
     Object.keys(subs).sort((a, b) => a - b).map(s =>
-      `<li><strong>${App.subName(bookNo, +s)}</strong>（${subs[s].length} 條）——首條：${App.esc(subs[s][0].title)}</li>`
+      `<li><strong>${App.subName(bookNo, +s)}</strong>（${subs[s].length} 段）——第一段：${App.esc(subs[s][0].title)}</li>`
     ).join('') + '</ul>';
 
   // 本卷地圖
@@ -370,15 +388,15 @@ async function bootBook() {
   }
 
   // 條目列表
-  h += '<h2 class="sub-head">條目</h2>';
+  h += '<h2 class="sub-head">逐段閱讀</h2>';
   for (const s of Object.keys(subs).sort((x, y) => x - y)) {
     if (Object.keys(subs).length > 1) h += `<h3>${App.subName(bookNo, +s)}</h3>`;
-    h += '<ul class="entry-list">' + subs[s].map(e => `
+    h += '<ul class="entry-list">' + subs[s].map((e, i) => `
       <li id="${App.esc(e.id)}">
         <div class="entry-row" data-eid="${App.esc(e.id)}" tabindex="0">
-          <span class="eid">${App.esc(e.id)}</span>
+          <span class="eid">第${i + 1}段</span>
           <span>${App.esc(e.title)}</span>
-          ${e.unresolved.length ? `<span class="cnt-badge">未決 ${e.unresolved.length}</span>` : ''}
+          ${e.unresolved.length ? `<span class="cnt-badge">還有 ${e.unresolved.length} 個待解問題</span>` : ''}
         </div>
         <div class="entry-detail" hidden></div>
       </li>`).join('') + '</ul>';
@@ -420,13 +438,13 @@ async function bootBook() {
   });
 }
 
-/* ── 實體庫 ─────────────────────────────── */
+/* ── 收錄的事物 ─────────────────────────── */
 async function bootEntities() {
   const main = document.getElementById('entities-main');
-  main.innerHTML = '<p class="notice">實體庫加載中（graph.json 約 3.7 MB，僅本頁加載）…</p>';
+  main.innerHTML = '<p class="notice">正在載入收錄的事物（資料較大，請稍候）…</p>';
   let g;
   try { g = await Store.graph(); }
-  catch (err) { main.innerHTML = `<p class="notice">加載失敗：${App.esc(err.message)}</p>`; return; }
+  catch (err) { main.innerHTML = `<p class="notice">載入失敗：${App.esc(err.message)}</p>`; return; }
 
   const nodes = g.nodes;
   const counts = {};
@@ -441,30 +459,36 @@ async function bootEntities() {
     return { text: '', conf: null };
   }
 
+  function entrySource(entryId) {
+    const parts = entryId.split('-');
+    const b = App.BOOKS[parts[1]];
+    return b ? `《${b.name}》` : entryId;
+  }
+
   const state = { type: null, q: '', mode: 'list' };
 
   main.innerHTML = `
-    <h1>實體庫</h1>
-    <p class="muted">KG 節點 ${nodes.length} 個 · 邊 ${g.edges.length} 條 · 屬性全部為 proposed（競爭假說）。</p>
+    <h1>收錄的事物</h1>
+    <p class="muted">《山海經》裏提到的山、河、動植物、礦物、族群等，共 ${nodes.length} 項，另有 ${g.edges.length} 條相互關聯。每一項都標了我們認為它對應到今天什麼，以及有多大把握——全部還在研究之中。</p>
     <div class="entities-layout">
       <div>
         <div class="type-tree">
-          <strong>類型</strong>
+          <strong>按類別瀏覽</strong>
           <ul>
             <li><a data-type="">全部（${nodes.length}）</a></li>
             ${Object.keys(App.TYPE_NAMES).filter(t => counts[t]).map(t =>
               `<li><a data-type="${t}">${App.TYPE_NAMES[t]}（${counts[t]}）</a></li>`).join('')}
           </ul>
-          <strong>視圖</strong>
+          <strong>瀏覽方式</strong>
           <ul>
-            <li><a data-mode="list">列表</a></li>
-            <li><a data-mode="agg">類名聚合（同名多實例）</a></li>
+            <li><a data-mode="list">逐條列出</a></li>
+            <li><a data-mode="agg">同名事物歸併</a></li>
           </ul>
         </div>
       </div>
       <div>
         <input id="entity-search" class="search-box" type="search"
-          placeholder="搜索名稱／讀法（按 / 聚焦）——試試「赤水」「九尾狐」「鹽池」「極光」">
+          placeholder="搜尋名稱或說明（按 / 快速聚焦）——試試「赤水」「九尾狐」「鹽池」「極光」">
         <div id="entity-results"></div>
       </div>
     </div>`;
@@ -487,7 +511,7 @@ async function bootEntities() {
       <span class="badge">${App.TYPE_NAMES[n.type] || n.type}</span>
       ${App.confBadge(r.conf)}
       <span class="rd">${App.esc(r.text).slice(0, 90)}</span>
-      <a class="mono" href="book.html?book=${n.entry.split('-')[1]}#${App.esc(n.entry)}">${App.esc(n.entry)}</a>
+      <a href="book.html?book=${n.entry.split('-')[1]}#${App.esc(n.entry)}">${App.esc(entrySource(n.entry))}</a>
     </div>`;
   }
 
@@ -496,7 +520,7 @@ async function bootEntities() {
     const hits = nodes.filter(match);
     const cap = 300;
     results.innerHTML =
-      `<p class="muted">${hits.length} 個實體${hits.length > cap ? `（僅顯示前 ${cap}，請用搜索縮小範圍）` : ''}</p>` +
+      `<p class="muted">共 ${hits.length} 項${hits.length > cap ? `（只顯示前 ${cap} 項，請用搜尋縮小範圍）` : ''}</p>` +
       hits.slice(0, cap).map(rowHtml).join('');
   }
 
@@ -506,17 +530,16 @@ async function bootEntities() {
     const multi = Object.entries(groups).filter(([, v]) => v.length > 1)
       .sort((a, b) => b[1].length - a[1].length);
     results.innerHTML =
-      `<p class="muted">同名多實例類名 ${multi.length} 組——同一經名在不同時代/地域的多個現實候選實例聚合一頁（參見 ADJ-005 類名討論）。</p>` +
+      `<p class="muted">書中同樣的名字，在不同地方可能指不同的事物。這裏把同名的 ${multi.length} 組歸在一起，方便對照。</p>` +
       multi.slice(0, 120).map(([name, inst]) => `
-        <div class="agg-block"><h3>${App.esc(name)}（${inst.length} 實例）</h3>` +
+        <div class="agg-block"><h3>${App.esc(name)}（共 ${inst.length} 處）</h3>` +
         inst.map(n => {
           const r = readingOf(n);
           return `<div class="entity-row">
-            <a class="mono" href="entity.html?id=${encodeURIComponent(n.id)}">${App.esc(n.id)}</a>
+            <a class="nm" href="entity.html?id=${encodeURIComponent(n.id)}">${App.esc(entrySource(n.entry))}</a>
             <span class="badge">${App.TYPE_NAMES[n.type] || n.type}</span>
             ${App.confBadge(r.conf)}
             <span class="rd">${App.esc(r.text).slice(0, 80)}</span>
-            <a class="mono" href="book.html?book=${n.entry.split('-')[1]}#${App.esc(n.entry)}">${App.esc(n.entry)}</a>
           </div>`;
         }).join('') + '</div>').join('');
   }
@@ -542,20 +565,21 @@ async function bootEntities() {
   render();
 }
 
-/* ── 實體詳情 ───────────────────────────── */
-/* ── 覆核中心 ──────────────────────────── */
+/* ── 事物詳情 ───────────────────────────── */
+/* ── 覆核工具（研究者用）─────────────────── */
 async function bootReview() {
   const main = document.getElementById('review-main');
   const NAMES = { accepted: '採納', contested: '存疑', rejected: '否決' };
   function render() {
     const q = Object.values(Store.reviewQueue());
-    main.innerHTML = `<h1>覆核中心</h1>
+    main.innerHTML = `<h1>覆核工具（研究者用）</h1>
+      <p class="notice">這是給研究者使用的頁面，一般讀者可以略過。</p>
       <p class="muted">在實體頁對候選屬性點「採納／存疑／否決」後在此匯出覆核包（JSONL），
       放入倉庫後執行 <span class="mono">python3 tools/shj/apply_review.py &lt;文件&gt;</span> 回寫 KG（status: accepted/contested/rejected）。</p>
       <p>隊列中：<strong>${q.length}</strong> 條</p>
       ${q.length ? `<table class="attr-table"><thead><tr><th>屬性 ID</th><th>決定</th><th>日期</th></tr></thead><tbody>` +
         q.map(a => `<tr><td class="mono">${App.esc(a.attribute_id)}</td><td>${NAMES[a.decision] || a.decision}</td><td>${App.esc(a.date)}</td></tr>`).join('') +
-        '</tbody></table>' : '<p class="muted">（空——到實體庫逐條覆核）</p>'}
+        '</tbody></table>' : '<p class="muted">（空——到「收錄的事物」逐條覆核）</p>'}
       <p style="margin-top:14px">
         <button id="rev-export" class="rev-btn on" ${q.length ? '' : 'disabled'}>導出覆核包（review-actions.jsonl）</button>
         <button id="rev-clear" class="rev-btn" ${q.length ? '' : 'disabled'}>清空隊列</button></p>`;
@@ -576,47 +600,58 @@ async function bootReview() {
 async function bootEntity() {
   const main = document.getElementById('entity-main');
   const id = new URLSearchParams(location.search).get('id');
-  if (!id) { main.innerHTML = '<p class="notice">缺少 id 參數。</p>'; return; }
-  main.innerHTML = '<p class="notice">實體庫加載中（graph.json 約 3.7 MB）…</p>';
+  if (!id) { main.innerHTML = '<p class="notice">網址缺少 id 參數。</p>'; return; }
+  main.innerHTML = '<p class="notice">正在載入收錄的事物（資料較大，請稍候）…</p>';
   let g;
   try { g = await Store.graph(); }
-  catch (err) { main.innerHTML = `<p class="notice">加載失敗：${App.esc(err.message)}</p>`; return; }
+  catch (err) { main.innerHTML = `<p class="notice">載入失敗：${App.esc(err.message)}</p>`; return; }
 
   const byId = Object.fromEntries(g.nodes.map(n => [n.id, n]));
   const n = byId[id];
-  if (!n) { main.innerHTML = `<p class="notice">未找到實體 <span class="mono">${App.esc(id)}</span>。</p>`; return; }
+  if (!n) { main.innerHTML = '<p class="notice">找不到這個事物，它可能已被更名或合併。</p>'; return; }
+
+  function entrySource(entryId) {
+    const parts = entryId.split('-');
+    const b = App.BOOKS[parts[1]];
+    if (!b) return { label: entryId, book: parts[1], anchor: entryId };
+    const sub = +parts[2], idx = parseInt(parts[3], 10);
+    return {
+      label: `《${b.name}》· ${App.subName(parts[1], sub)}第 ${idx} 段`,
+      book: parts[1], anchor: entryId,
+    };
+  }
 
   const allText = JSON.stringify(n.attrs);
   const borrowed = allText.includes('借名');
   const myth = n.attrs.some(a => a.confidence === 'myth_layer') ||
     n.attrs.some(a => a.predicate === 'era.state' && /myth/.test(String(a.value)));
 
+  const src = entrySource(n.entry);
   let h = `<h1>${App.esc(n.name)}</h1>
     <p><span class="badge">${App.TYPE_NAMES[n.type] || n.type}</span>
-    <span class="mono">${App.esc(n.id)}</span>
-    <span class="badge ${n.status === 'active' ? 'ok' : 'pending'}">${n.status === 'active' ? '已錨定' : '待定錨 pending_anchor'}</span>
-    <span class="badge review">競爭假說 proposed_pending_review</span></p>
-    <p>出處條目：<a href="book.html?book=${n.entry.split('-')[1]}#${App.esc(n.entry)}">${App.esc(n.entry)}（卷${n.entry.split('-')[1]}）</a></p>`;
+    <span class="badge ${n.status === 'active' ? 'ok' : 'pending'}">${n.status === 'active' ? '位置較有把握' : '位置待定'}</span>
+    <span class="badge review">研究假說 · 尚待覆核</span></p>
+    <p>出處：<a href="book.html?book=${src.book}#${App.esc(src.anchor)}">${App.esc(src.label)}</a></p>`;
   if (borrowed) {
-    h += `<div class="borrowed-warning">借名警示：本實體的候選/賦義涉及後世同名或借名——後世沿襲不得反推為定位證據。</div>`;
+    h += `<div class="borrowed-warning">提醒：這個事物的對應涉及「借名」問題——後世沿用了同樣的名字，不能拿後來的同名地名反推古書裏的位置。</div>`;
   }
   if (myth) {
-    h += `<div class="myth-note">神話層內容：與地理層分開呈現，不作現實定位。</div>`;
+    h += `<div class="myth-note">這個事物屬於神話故事，與地理記錄分開呈現，不做現實定位。</div>`;
   }
 
   // 同名實例聚合
   const same = g.nodes.filter(x => x.name === n.name && x.id !== n.id);
   if (same.length) {
-    h += `<h2 class="sub-head">同名類名實例（${same.length + 1}）</h2><ul>` +
-      [n, ...same].map(x =>
-        `<li><a href="entity.html?id=${encodeURIComponent(x.id)}" class="mono">${App.esc(x.id)}</a>
-         （出處 <a href="book.html?book=${x.entry.split('-')[1]}#${App.esc(x.entry)}">${App.esc(x.entry)}</a>）</li>`
-      ).join('') + '</ul>';
+    h += `<h2 class="sub-head">書中同名的事物（共 ${same.length + 1} 個）</h2><ul>` +
+      [n, ...same].map(x => {
+        const s = entrySource(x.entry);
+        return `<li><a href="entity.html?id=${encodeURIComponent(x.id)}">${App.esc(s.label)}</a></li>`;
+      }).join('') + '</ul>';
   }
 
   // 屬性表
-  h += `<h2 class="sub-head">屬性（${n.attrs.length}）</h2>
-    <table class="attr-table"><thead><tr><th>謂詞</th><th>值</th><th>類型</th><th>置信度</th><th>覆核</th></tr></thead><tbody>` +
+  h += `<h2 class="sub-head">詳細屬性（${n.attrs.length} 項）</h2>
+    <table class="attr-table"><thead><tr><th>項目</th><th>內容</th><th>性質</th><th>把握程度</th><th>覆核（研究者用）</th></tr></thead><tbody>` +
     n.attrs.map(a => {
       let v;
       if (typeof a.value === 'string') v = App.esc(a.value);
@@ -624,15 +659,15 @@ async function bootEntity() {
         `<div class="kv"><b>${App.esc(App.ATTR_KEY_NAMES[k] || k)}：</b>${App.esc(typeof val === 'string' ? val : JSON.stringify(val, null, 0))}</div>`).join('');
       const cur = (Store.reviewQueue()[a.id] || {}).decision || '';
       const btn = d => `<button class="rev-btn${cur === d ? ' on' : ''}" data-attr="${App.esc(a.id)}" data-dec="${d}">${{ accepted: '採納', contested: '存疑', rejected: '否決' }[d]}</button>`;
-      return `<tr><td class="mono">${App.esc(a.predicate)}</td><td>${v}</td>
-        <td>${App.esc(a.kind)}</td><td>${App.confBadge(a.confidence)}</td>
+      return `<tr><td>${App.esc(App.PREDICATE_NAMES[a.predicate] || a.predicate)}</td><td>${v}</td>
+        <td>${App.esc(App.KIND_NAMES[a.kind] || a.kind)}</td><td>${App.confBadge(a.confidence)}</td>
         <td class="rev-cell">${btn('accepted')}${btn('contested')}${btn('rejected')}</td></tr>`;
     }).join('') + '</tbody></table>';
 
   // 關係邊
   const rel = g.edges.filter(e => e.src === id || e.dst === id);
   if (rel.length) {
-    h += `<h2 class="sub-head">關係（${rel.length}）</h2><ul>` +
+    h += `<h2 class="sub-head">它與其他事物的關係（${rel.length} 條）</h2><ul>` +
       rel.map(e => {
         const out = e.src === id;
         const other = byId[out ? e.dst : e.src];
@@ -640,9 +675,9 @@ async function bootEntity() {
         const otherHtml = other
           ? `<a href="entity.html?id=${encodeURIComponent(other.id)}">${App.esc(other.name)}</a>`
           : `<span class="mono">${App.esc(out ? e.dst : e.src)}</span>`;
+        const s = entrySource(e.entry);
         return `<li>${out ? '→' : '←'} ${label} ${otherHtml}
-          <span class="muted">（${e.layer}／${e.status} · 出處
-          <a href="book.html?book=${e.entry.split('-')[1]}#${App.esc(e.entry)}">${App.esc(e.entry)}</a>）</span></li>`;
+          <span class="muted">（出自 <a href="book.html?book=${s.book}#${App.esc(s.anchor)}">${App.esc(s.label)}</a>）</span></li>`;
       }).join('') + '</ul>';
   }
   main.innerHTML = h;
@@ -652,14 +687,14 @@ async function bootEntity() {
   }));
 }
 
-/* ── 裁決與發現 ─────────────────────────── */
+/* ── 研究檔案 ───────────────────────────── */
 async function bootAdjudications() {
   const main = document.getElementById('adj-main');
   let list;
   try { list = await Store.adjudications(); }
-  catch (err) { main.innerHTML = `<p class="notice">加載失敗：${App.esc(err.message)}</p>`; return; }
-  main.innerHTML = `<h1>裁決與發現（ADJ / F 系列）</h1>
-    <p class="muted">共 ${list.length} 份。源文件位於倉庫 <span class="mono">projects/shanhaijing/findings/</span>（此處為內嵌全文渲染，可離線閱讀）。</p>` +
+  catch (err) { main.innerHTML = `<p class="notice">載入失敗：${App.esc(err.message)}</p>`; return; }
+  main.innerHTML = `<h1>研究檔案</h1>
+    <p class="muted">我們做判斷時留下的討論記錄，共 ${list.length} 份——哪些對應為什麼這樣定、哪些爭議還沒有結論，都在這裏（偏研究者向，可離線閱讀）。</p>` +
     list.map(a => `
       <details class="adj-item">
         <summary><strong>${App.esc(a.title)}</strong> <span class="file">${App.esc(a.file)}</span></summary>
@@ -667,15 +702,15 @@ async function bootAdjudications() {
       </details>`).join('');
 }
 
-/* ── 關於 ──────────────────────────────── */
+/* ── 關於本站 ────────────────────────────── */
 async function bootAbout() {
   const el = document.getElementById('about-stats');
   if (!el) return;
   try {
     const m = await Store.manifest();
     el.innerHTML = `<ul>
-      <li>KG 節點 ${m.graph.nodes.toLocaleString()} · 邊 ${m.graph.edges.toLocaleString()} · 屬性 ${m.graph.attributes.toLocaleString()}</li>
-      <li>條目 ${m.entries.sections} · 地圖 ${m.maps} 張 · 實拍配圖 ${m.images} 張 · 裁決/發現 ${m.adjudications} 份</li>
+      <li>收錄事物 ${m.graph.nodes.toLocaleString()} 項 · 事物之間的關聯 ${m.graph.edges.toLocaleString()} 條 · 屬性記錄 ${m.graph.attributes.toLocaleString()} 條</li>
+      <li>白話分段 ${m.entries.sections} 段 · 地圖 ${m.maps} 張 · 實地照片 ${m.images} 張 · 研究檔案 ${m.adjudications} 份</li>
     </ul>`;
   } catch (e) { el.textContent = ''; }
 }
