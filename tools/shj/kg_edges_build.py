@@ -32,7 +32,7 @@ def main():
     onto = json.loads(ONTOLOGY.read_text(encoding="utf-8"))
     relations = onto["relation_types"]
     node_by_id = {n["id"]: n for n in read_jsonl(KG / "nodes.jsonl")}
-    edges = [e for e in read_jsonl(KG / "edges.jsonl") if not e.get("id", "").startswith("REL:FW:")]
+    edges = [e for e in read_jsonl(KG / "edges.jsonl") if not e.get("id", "").startswith(("REL:FW:", "REL:XLINK"))]
     errors = []
     added = 0
     seq = 0
@@ -62,6 +62,32 @@ def main():
                                        "assembled": "kg-framework-edges-v1",
                                        "note": row.get("note", "")},
                         **({"bearing": row["bearing"]} if row.get("bearing") else {}),
+                })
+                added += 1
+    # 跨條目同實體連接（LLM 裁決後登記於 ledgers/cross-entry-links.jsonl；本工具只驗證不裁決）
+    links_path = ROOT / "projects/shanhaijing/ledgers/cross-entry-links.jsonl"
+    if links_path.exists():
+        for row in read_jsonl(links_path):
+            rel = row["type"]
+            if rel not in relations:
+                errors.append(f"xlink:{row.get('entry')}: unregistered relation {rel}")
+                continue
+            ok = True
+            for end in ("src", "dst"):
+                if row[end] not in node_by_id:
+                    errors.append(f"xlink:{row.get('entry')}: {end} {row[end]} not in KG")
+                    ok = False
+            if ok:
+                seq += 1
+                edges.append({
+                    "id": f"REL:XLINK#{seq}",
+                    "src": row["src"], "dst": row["dst"], "type": rel,
+                    "layer": row.get("layer", "interpretive"), "entry": row["entry"],
+                    "quote": row.get("quote", ""),
+                    "status": row.get("status", "adjudicated"),
+                    "provenance": {"package": "ledgers/cross-entry-links.jsonl",
+                                   "assembled": "kg-framework-edges-v1",
+                                   "note": row.get("note", "")},
                 })
                 added += 1
     write_jsonl(KG / "edges.jsonl", edges)
