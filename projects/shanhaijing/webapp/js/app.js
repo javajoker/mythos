@@ -236,7 +236,7 @@ const App = (() => {
   function chrome(active) {
     const nav = [
       ['index.html', '世界地圖'], ['book.html', '分卷閱讀'], ['entities.html', '收錄的事物'],
-      ['kg.html', '關係圖譜'],
+      ['kg.html', '關係圖譜'], ['timelapse.html', '時光地圖'],
       ['adjudications.html', '研究檔案'], ['review.html', '覆核工具（研究者用）'], ['about.html', '關於本站'],
     ];
     const header = document.querySelector('.site-header');
@@ -269,6 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
     : page === 'book' ? 'book.html'
     : page === 'entities' || page === 'entity' ? 'entities.html'
     : page === 'kg' ? 'kg.html'
+    : page === 'timelapse' ? 'timelapse.html'
     : page === 'adjudications' ? 'adjudications.html'
     : page === 'review' ? 'review.html'
     : page === 'about' ? 'about.html' : '');
@@ -277,6 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
   else if (page === 'entities') bootEntities();
   else if (page === 'entity') bootEntity();
   else if (page === 'kg') bootKg();
+  else if (page === 'timelapse') bootTimelapse();
   else if (page === 'review') bootReview();
   else if (page === 'adjudications') bootAdjudications();
   else if (page === 'about') bootAbout();
@@ -337,6 +339,87 @@ async function bootIndex() {
     });
     const resetBtn = document.getElementById('map-reset');
     if (resetBtn) resetBtn.onclick = () => map.reset();
+  } catch (err) {
+    loading.textContent = '地圖載入失敗：' + err.message;
+  }
+}
+
+/* ── 時光地圖：古今變遷 ─────────────────── */
+async function bootTimelapse() {
+  const container = document.getElementById('map');
+  const loading = document.createElement('div');
+  loading.className = 'map-loading';
+  loading.textContent = '地圖資料載入中…';
+  container.appendChild(loading);
+
+  const slider = document.getElementById('tl-slider');
+  const ticks = document.getElementById('tl-ticks');
+  const desc = document.getElementById('tl-desc');
+
+  function entryLink(entryId) {
+    const m = String(entryId || '').match(/SHJ-(\d{2})-\d+-\d{3}/);
+    if (!m) return '';
+    const b = App.BOOKS[m[1]];
+    if (!b) return '';
+    return `<a href="book.html?book=${m[1]}#${App.esc(m[0])}">出自《${App.esc(b.name)}》</a>`;
+  }
+
+  function onSelect(sel) {
+    if (sel.kind === 'water') {
+      const f = sel.f;
+      const PERIOD_STATE = {
+        water: '仍是水體', marsh: '已縮成沼澤', shrunk: '大幅縮小但還在', gone: '今天已消失',
+      };
+      const rows = ['wet', 'book', 'now'].map(pid => {
+        const p = { wet: '濕潤期', book: '成書時代', now: '今天' }[pid];
+        const sh = f.shapes[pid] || {};
+        return `<tr><td>${p}</td><td>${PERIOD_STATE[sh.state || 'water']}</td></tr>`;
+      }).join('');
+      App.openDetail(`<h3>${App.esc(f.name)}</h3>
+        <div class="detail-meta">${entryLink(f.entry)}
+        <span class="badge review">研究假說 · 尚待覆核</span></div>
+        <p><strong>對應：</strong>${App.esc(f.reading)}</p>
+        <table class="attr-table"><thead><tr><th>時期</th><th>狀態</th></tr></thead><tbody>${rows}</tbody></table>
+        <p>${App.esc(f.note)}</p>`);
+    } else {
+      const s = sel.s;
+      const nowTxt = s.now ? '今天仍有殘存（橙色範圍）' : '今天已在當地徹底消失';
+      App.openDetail(`<h3>${App.esc(s.name)}</h3>
+        <div class="detail-meta">${entryLink(s.entry)}
+        <span class="badge review">研究假說 · 尚待覆核</span></div>
+        <p><strong>分布變化：</strong>${nowTxt}</p>
+        <p>${App.esc(s.note)}</p>`);
+    }
+  }
+
+  let tlData = null;
+  function showPeriod(id) {
+    if (!tlData) return;
+    const p = tlData.periods.find(x => x.id === id);
+    if (p) desc.innerHTML = `<strong>${App.esc(p.label)}</strong>（${App.esc(p.span)}）——${App.esc(p.desc)}`;
+    slider.value = tlData.periods.findIndex(x => x.id === id);
+    ticks.querySelectorAll('.tl-tick').forEach(tk =>
+      tk.classList.toggle('on', tlData.periods[+tk.dataset.i].id === id));
+  }
+
+  try {
+    tlData = await Store.timelapse();
+    const map = await SHJTimelapse.create(container, { onSelect, onPeriod: showPeriod });
+    loading.remove();
+
+    ticks.innerHTML = tlData.periods.map((p, i) =>
+      `<span class="tl-tick" data-i="${i}">${App.esc(p.label)}</span>`).join('');
+    ticks.querySelectorAll('.tl-tick').forEach(tk => {
+      tk.addEventListener('click', () => map.setPeriod(tlData.periods[+tk.dataset.i].id));
+    });
+    slider.addEventListener('input', () => map.setPeriod(tlData.periods[+slider.value].id));
+
+    document.querySelectorAll('[data-layer]').forEach(cb => {
+      cb.addEventListener('change', () => map.setLayer(cb.dataset.layer, cb.checked));
+    });
+    const resetBtn = document.getElementById('map-reset');
+    if (resetBtn) resetBtn.onclick = () => map.reset();
+    showPeriod('book'); // 首期說明（onPeriod 建構期觸發時 tlData 尚未就緒，此處補一次）
   } catch (err) {
     loading.textContent = '地圖載入失敗：' + err.message;
   }

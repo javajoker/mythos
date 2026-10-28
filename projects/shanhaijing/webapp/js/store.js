@@ -64,6 +64,7 @@ const Store = (() => {
     mapChains: () => load('map-chains'),
     mapPoints: () => load('map-points'),
     basemap: () => load('basemap'),
+    timelapse: () => load('timelapse'),
     adjudications: () => load('adjudications'),
     manifest: () => load('manifest'),
   };

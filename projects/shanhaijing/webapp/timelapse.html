@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>時光地圖：古今變遷 — 山海經現實映射</title>
+<link rel="stylesheet" href="css/app.css?v=20261029">
+</head>
+<body data-page="timelapse">
+<header class="site-header"></header>
+<main class="full">
+  <div class="tl-intro">
+    <strong>時光地圖：</strong>拖動下面的時間軸，看《山海經》記錄的水體與動物，從濕潤期到今天怎樣變化。
+    藍色＝古水體與湖沼（虛線框＝已消失）；綠色＝動物當時的分布，橙色＝今天殘存的地方，紅叉＝在當地徹底消失。
+    點任何色塊可以看詳細說明。
+  </div>
+  <div id="map">
+    <div class="layer-panel">
+      <div class="lp-title">地圖上顯示什麼</div>
+      <label><input type="checkbox" data-layer="waters" checked> 古水體與湖沼（隨時間變化）</label>
+      <label><input type="checkbox" data-layer="species" checked> 動物分布變遷</label>
+      <label><input type="checkbox" data-layer="chains" checked> 山經路線（淡色參考）</label>
+      <label><input type="checkbox" data-layer="modern" checked> 現代地名（對照用）</label>
+      <label><input type="checkbox" data-layer="basemap" checked> 海岸線與地貌</label>
+      <button id="map-reset" style="margin-top:4px">回到初始畫面</button>
+    </div>
+    <div class="map-legend">
+      <div><b>圖例</b></div>
+      <div><span class="swatch" style="background:#2e86c1"></span>水體
+           <span class="swatch" style="background:#7fa05a"></span>沼澤化
+           <span class="sq" style="border-color:#a05a2c"></span>已消失</div>
+      <div><span class="swatch" style="background:#1e8449"></span>動物當時分布
+           <span class="swatch" style="background:#e67e22"></span>現今殘存</div>
+      <div>點色塊可看書中出處與演變說明。</div>
+    </div>
+    <div class="tl-bar">
+      <input type="range" id="tl-slider" min="0" max="2" step="1" value="1" aria-label="時間軸">
+      <div class="tl-ticks" id="tl-ticks"></div>
+      <div class="tl-desc" id="tl-desc"></div>
+    </div>
+  </div>
+</main>
+<footer class="site-footer"></footer>
+<script src="js/store.js?v=20261029"></script>
+<script src="js/timelapse.js?v=20261029"></script>
+<script src="js/app.js?v=20261029"></script>
+</body>
+</html>

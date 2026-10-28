@@ -22,7 +22,7 @@ def check(path, why):
 
 
 # 1. data/*.json 與 file:// 回退 .js
-for name in ["entries", "graph", "map-chains", "map-points", "basemap", "adjudications", "manifest"]:
+for name in ["entries", "graph", "map-chains", "map-points", "basemap", "adjudications", "manifest", "timelapse"]:
     check(f"data/{name}.json", "Store.load")
     check(f"data/{name}.js", "file:// 回退")
 
