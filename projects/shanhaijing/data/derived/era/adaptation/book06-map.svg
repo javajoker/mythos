@@ -10,7 +10,7 @@
 <polyline points="440.3,234.0 431.8,290.0 443.8,360.0 464.9,423.0" fill="none" stroke="#b03a5b" stroke-width="2.0"/>
 <text x="451" y="325" font-size="10" fill="#b03a5b">紅海（西三赤水）</text>
 <polyline points="894.5,257.8 903.7,290.0 914.2,312.4 923.4,326.4" fill="none" stroke="#b03a5b" stroke-width="1.8"/>
-<text x="877" y="249" font-size="10" fill="#b03a5b">紅河（南二赤水方向）</text>
+<text x="877" y="249" font-size="10" fill="#b03a5b">紅河（舊赤水候選·已撤存冊）</text>
 <ellipse cx="975" cy="486" rx="49" ry="98" fill="#a9cce3" opacity="0.35"/>
 <text x="951" y="489" font-size="10" fill="#7a6540">南海</text>
 <ellipse cx="799" cy="395" rx="42" ry="84" fill="#a9cce3" opacity="0.35"/>
@@ -33,7 +33,7 @@
 <text x="64" y="356" font-size="10" font-weight="bold" fill="#8e44ad">青水</text>
 <rect x="115" y="305" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="127" y="293" font-size="10" font-weight="bold" fill="#8e44ad">壽華之野</text>
-<circle cx="904" cy="290" r="5.5" fill="#0e7c66" stroke="#fff" stroke-width="1.2"/>
+<rect x="899" y="285" width="10" height="10" fill="none" stroke="#0e7c66" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="890" y="272" font-size="10" font-weight="bold" fill="#0e7c66">赤水·三株樹</text>
 <rect x="851" y="355" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="864" y="364" font-size="10" font-weight="bold" fill="#8e44ad">結匈國</text>
@@ -144,9 +144,9 @@
 <line x1="1090" y1="184" x2="1116" y2="184" stroke="#2e6da4" stroke-width="2.5"/>
 <text x="1124" y="188" font-size="11" fill="#444">水系參照：尼羅河（西三河水）</text>
 <line x1="1090" y1="206" x2="1116" y2="206" stroke="#b03a5b" stroke-width="2.5"/>
-<text x="1124" y="210" font-size="11" fill="#444">水系參照：紅海（西三赤水）／紅河（南二赤水）</text>
-<text x="1090" y="236" font-size="10" fill="#666">假說A（本位）：南山經以南調查——中南半島—南洋群島族群弧；赤水復用南二＝西南向大河（紅河/紅水河待</text>
-<text x="1090" y="250" font-size="10" fill="#666">裁——RT-N8）。</text>
+<text x="1124" y="210" font-size="11" fill="#444">水系參照：紅海（西三赤水）／紅河（舊赤水候選·已撤存冊）</text>
+<text x="1090" y="236" font-size="10" fill="#666">假說A（本位）：南山經以南調查——中南半島—南洋群島族群弧；赤水復用南二紅河方向已撤（RT-N8：依名違 </text>
+<text x="1090" y="250" font-size="10" fill="#666">F-0011；南二新讀湘南丹霞紅層水系規模不合本卷大河語境）——改待錨，確指待裁。</text>
 <text x="1090" y="269" font-size="10" fill="#666">假說B（F-0007）：畢方·青水·壽華復用西三吉薩體系；昆侖虛經 ADJ-002 裁決＝撒哈拉之眼（理查特構造），</text>
 <text x="1090" y="284" font-size="10" fill="#666">已移出吉薩簇。</text>
 <text x="1090" y="302" font-size="10" fill="#666">帝堯/帝嚳/文王葬地＝借名警示；羿殺鑿齒·二八神·祝融＝神話層。</text>
@@ -156,7 +156,7 @@
 <text x="1090" y="398" font-size="11" fill="#0e7c66">昆侖虛 → ADJ-002＝理查特構造（撒哈拉之眼）主候選；吉薩合併否決</text>
 <text x="1090" y="419" font-size="11" fill="#8e44ad">青水 → 昆侖虛西南隅水（ADJ-002 隨理查特西移）</text>
 <text x="1090" y="441" font-size="11" fill="#8e44ad">壽華之野 → 昆侖虛（理查特）以東原野方向（羿殺鑿齒＝神話層）</text>
-<text x="1090" y="462" font-size="11" fill="#0e7c66">赤水·三株樹 → 復用南二赤水＝西南向大河（紅河/紅水河待裁——RT-N8；共名 F-0011）</text>
+<text x="1090" y="462" font-size="11" fill="#0e7c66">赤水·三株樹 → 赤水復用撤銷（RT-N8·南二新讀規模不合）——確指待裁；三株樹依附赤水（點位＝失效…</text>
 <text x="1090" y="483" font-size="11" fill="#8e44ad">結匈國 → 西南陬起點族群（方向性）</text>
 <text x="1090" y="504" font-size="11" fill="#8e44ad">南山 → 待定錨·結匈東南（與西一南山共名）</text>
 <text x="1090" y="525" font-size="11" fill="#8e44ad">比翼鳥 → 新增風物鳥（南山東）</text>

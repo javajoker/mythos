@@ -24,7 +24,7 @@
     {"name": "無腸國", "lon": 119, "lat": 57.5, "color": "#8e44ad", "note": "長而無腸·飲食轉寫", "status": "region", "label_pos": [117.5, 59]},
     {"name": "聶耳國", "lon": 125, "lat": 56, "color": "#8e44ad", "note": "縣居海水中·掌水域奇物", "status": "region", "label_pos": [123.5, 54.5]},
     {"name": "夸父國（博父）", "lon": 131, "lat": 55, "color": "#8e44ad", "note": "母题復用中六夸父之山·conflict", "status": "region", "label_pos": [128, 53.4]},
-    {"name": "鄧林（二樹木）", "lon": 134.5, "lat": 55.5, "color": "#d35400", "note": "鄧林=桃林音轉 vs 在地二樹木·雙讀", "status": "pending_anchor", "label_pos": [133, 57]},
+    {"name": "鄧林（二樹木）", "lon": 134.5, "lat": 55.5, "color": "#d35400", "note": "鄧林=桃林音轉已降格存冊（權重為零）·在地二樹木讀佔優", "status": "pending_anchor", "label_pos": [133, 57]},
     {"name": "拘癭國", "lon": 138, "lat": 52.5, "color": "#8e44ad", "note": "一手把癭·癭/纓兩讀", "status": "region", "label_pos": [136.5, 51]},
     {"name": "尋木", "lon": 132, "lat": 49, "color": "#d35400", "note": "千里巨木·生河上西北", "status": "pending_anchor", "label_pos": [130.5, 47.5]},
     {"name": "跂踵國", "lon": 136.5, "lat": 49.5, "color": "#8e44ad", "note": "兩足皆支·與東三跂踵山同名 conflict", "status": "region", "label_pos": [135, 51]},

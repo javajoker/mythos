@@ -18,17 +18,17 @@
   {"name": "昆侖虛", "lon": 31.13, "lat": 29.98, "color": "#6c3483", "note": "復用西三昆侖之丘＝吉薩；競爭/合併雙假說", "status": "mapped", "label_pos": [28.5, 28.2]},
   {"name": "河·河原", "lon": 100.2, "lat": 47.3, "color": "#b7950b", "note": "復用北一『實惟河原』大河源區", "status": "mapped"},
   {"name": "鴈門山", "lon": 112.9, "lat": 39.4, "color": "#b7950b", "note": "復用北三鴈門之山（借名標記）", "status": "mapped", "label_pos": [110.3, 37.6]},
-  {"name": "匈奴", "lon": 105.0, "lat": 46.0, "color": "#a0653a", "note": "借名警示·蒙古高原草原帶", "status": "region"},
+  {"name": "匈奴", "lon": 105.0, "lat": 46.0, "color": "#a0653a", "note": "名稱層戰國—漢·落點撤銷（對齊 book11/13）·僅存文本方位西北", "status": "region"},
   {"name": "開題之國", "lon": 99.5, "lat": 44.5, "color": "#a0653a", "note": "西北", "status": "region", "label_pos": [96.8, 43.0]},
   {"name": "列人之國", "lon": 102.0, "lat": 45.0, "color": "#a0653a", "note": "西北", "status": "region"},
   {"name": "犬封國", "lon": 110.0, "lat": 45.5, "color": "#a0653a", "note": "犬戎別名層·蒙古高原東緣方向", "status": "region"},
   {"name": "鬼國", "lon": 106.0, "lat": 50.0, "color": "#a0653a", "note": "一目·貳負尸北·西伯利亞南緣方向", "status": "region"},
   {"name": "林氏國", "lon": 103.0, "lat": 43.5, "color": "#a0653a", "note": "騶吾·西北集群", "status": "region"},
   {"name": "代", "lon": 114.5, "lat": 39.6, "color": "#a0653a", "note": "借名警示·晉北—冀西北", "status": "region", "label_pos": [115.6, 38.5]},
-  {"name": "燕", "lon": 116.3, "lat": 40.1, "color": "#a0653a", "note": "借名警示（西周初窗口邊緣）", "status": "region", "label_pos": [118.6, 40.6]},
-  {"name": "東胡", "lon": 118.5, "lat": 43.5, "color": "#a0653a", "note": "借名警示·大澤東·西拉木倫方向", "status": "region"},
-  {"name": "夷人", "lon": 121.0, "lat": 44.0, "color": "#a0653a", "note": "東胡東·松嫩—遼東方向", "status": "region"},
-  {"name": "貊國", "lon": 124.5, "lat": 40.5, "color": "#a0653a", "note": "漢水東北（水名存疑）·近燕", "status": "region"},
+  {"name": "燕", "lon": 116.3, "lat": 40.1, "color": "#a0653a", "note": "名稱層西周初以降·落點撤銷·僅存文本方位（近貊）", "status": "region", "label_pos": [118.6, 40.6]},
+  {"name": "東胡", "lon": 118.5, "lat": 43.5, "color": "#a0653a", "note": "名稱層戰國·落點撤銷（原西拉木倫方向）·僅存文本方位大澤東", "status": "region"},
+  {"name": "夷人", "lon": 121.0, "lat": 44.0, "color": "#a0653a", "note": "依附東胡·落點隨撤·僅存文本序列", "status": "region"},
+  {"name": "貊國", "lon": 124.5, "lat": 40.5, "color": "#a0653a", "note": "晚層注文混入候選·落點撤銷（漢水存疑）", "status": "region"},
   {"name": "四帝臺", "lon": 33.0, "lat": 31.3, "color": "#8e44ad", "note": "堯嚳丹朱舜臺·借名警示·昆侖東北", "status": "pending_anchor"},
   {"name": "氾林", "lon": 31.6, "lat": 28.9, "color": "#8e44ad", "note": "昆侖虛南·方三百里", "status": "pending_anchor"},
   {"name": "疏屬之山", "lon": 97.5, "lat": 45.5, "color": "#c0392b", "note": "梏危之山·開題西北", "status": "pending_anchor", "label_pos": [94.8, 46.7]},
@@ -37,11 +37,11 @@
   {"name": "從極之淵", "lon": 108.0, "lat": 39.6, "color": "#c0392b", "note": "冰夷（河伯）所都·大河深淵", "status": "pending_anchor"},
   {"name": "大澤", "lon": 107.5, "lat": 53.2, "color": "#c0392b", "note": "群鳥所生所解·貝加爾湖方向", "status": "pending_anchor", "label_pos": [109.5, 54.6]},
   {"name": "高柳", "lon": 113.9, "lat": 40.3, "color": "#c0392b", "note": "借名警示·晉北方向", "status": "pending_anchor", "label_pos": [115.4, 41.4]},
-  {"name": "孟鳥", "lon": 127.5, "lat": 42.0, "color": "#c0392b", "note": "貊國東北", "status": "pending_anchor"}
+  {"name": "孟鳥", "lon": 127.5, "lat": 42.0, "color": "#c0392b", "note": "貊國東北（文本方位·貊國落點已撤）", "status": "pending_anchor"}
  ],
  "annotations": [
   ["西北陬以東：族群—地標記錄帶", 60, 44, "#8a6d3b"],
-  ["大澤—東胡—貊：北方—東北亞方向", 110, 55.5, "#8a6d3b"],
+  ["大澤—東胡—貊：文本序列（落點已撤）", 110, 55.5, "#8a6d3b"],
   ["昆侖虛雙假說區", 24, 33.5, "#6c3483"]
  ],
  "modern": [
@@ -58,7 +58,7 @@
  ],
  "panel_notes": [
   "時代窗口 4000–1000 BCE；全部映射 proposed_pending_review。",
-  "借名警示：匈奴·犬戎·東胡·貊·燕·代·高柳·四帝臺帝名皆為後世名稱層疊加，不作定位依據。",
+  "借名警示：匈奴·犬戎·東胡·貊·燕·代·高柳·四帝臺帝名皆為後世名稱層疊加，不作定位依據。2026-10-28 對齊 book11/13：東胡/貊國/燕/漢水/孟鳥/匈奴簇方向性落點一律撤銷，僅存文本相对方位（該簇在 book11 為異文、本卷為正文——正文身份不改變名稱層年代）。",
   "昆侖虛＝復用西三昆侖之丘（吉薩 ANC-01），與『海內自有西北聖山』競爭假說並存（與卷11 F-0007 處理一致）。",
   "大澤＝貝加爾湖方向候選：群鳥所生所解（繁殖＋換羽）＋方百里＋在鴈門北三重相容；名稱不同於北二『北海』（＝貝加爾湖，medium_high），保留獨立待錨。",
   "漢水（貊國條）與山經漢水體系方位不相容，記 conflict（訛文/錯簡雙假說）。",

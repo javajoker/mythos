@@ -15,7 +15,7 @@
   {"grid": "dongci4-station-grid.jsonl", "label": "東四", "short": "墨西哥灣沿岸", "context": true}
  ],
  "points": [
-  {"name": "青丘之國", "lon": 102.18, "lat": 20.5, "color": "#1e8449", "status": "mapped", "note": "復用南一青丘之山（老撾—長山北段；九尾狐互證）", "label_pos": [104.5, 18.3]},
+  {"name": "青丘之國", "lon": 105.4, "lat": 19.3, "color": "#1e8449", "status": "mapped", "note": "復用南一青丘之山（長山北段東麓近海·清化—乂安——雙修後新站位；九尾狐互證）", "label_pos": [107.6, 17.6]},
   {"name": "招搖山", "lon": 93.5, "lat": 20.5, "color": "#1e8449", "status": "mapped", "note": "復用南一招搖之山（若開山脈北段；融水異文待裁）", "label_pos": [84.5, 23]},
   {"name": "玄股之國", "lon": 96.5, "lat": 23.2, "color": "#d35400", "status": "region", "note": "依招搖山鄰接·黍食使四鳥", "label_pos": [98.5, 25.4]},
   {"name": "大壑", "lon": 148, "lat": 34, "color": "#8e44ad", "status": "pending_anchor", "note": "太平洋深海溝方向（東海之外）", "label_pos": [130, 36.5]},

@@ -18,7 +18,7 @@
 <polyline points="37.6,500.0 54.2,500.0 75.1,500.0 95.5,500.0 112.1,500.0 134.0,500.0 150.6,500.0 167.2,500.0 186.4,500.0" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
 <polyline points="343.6,429.4 361.9,441.8 381.6,441.8 401.9,441.8 423.3,441.8 446.4,441.8 475.4,441.8 504.3,441.8 533.1,441.8 562.1,441.8 591.0,441.8 620.0,441.8 643.1,441.8 666.3,441.8 695.2,441.8 724.0,441.8 753.0,441.8" fill="none" stroke="#b7a98c" stroke-width="1.4" opacity="0.85"/>
 <text x="373" y="595" font-size="9" fill="#a04040">東海＝南海方向（復用南一箕尾體系）</text>
-<text x="82" y="530" font-size="9" fill="#a04040">青丘復用南一節點·方位存疑（H2 東方候選待裁）</text>
+<text x="82" y="530" font-size="9" fill="#a04040">青丘復用南一節點（長山北段東麓近海·雙修後新站位）·方位存疑（H2 東方候選待裁）</text>
 <text x="650" y="385" font-size="9" fill="#d35400">日出觀測神話層：十日浴於湯谷</text>
 <text x="321" y="614" font-size="9" fill="#8e44ad">東南陬→東北陬：島鏈走向（方向性假設）</text>
 <text x="836" y="427" font-size="9" fill="#5b97c4">太平洋（日出方向）</text>
@@ -34,8 +34,8 @@
 <text x="596" y="389" font-size="10" font-weight="bold" fill="#8e44ad">𧈫𧈫（雙首）</text>
 <rect x="606" y="359" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="619" y="368" font-size="10" font-weight="bold" fill="#8e44ad">朝陽之谷</text>
-<circle cx="167" cy="500" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
-<text x="175" y="504" font-size="10" font-weight="bold" fill="#c0392b">青丘國</text>
+<circle cx="215" cy="513" r="5.5" fill="#c0392b" stroke="#fff" stroke-width="1.2"/>
+<text x="233" y="498" font-size="10" font-weight="bold" fill="#c0392b">青丘國</text>
 <rect x="574" y="344" width="10" height="10" fill="none" stroke="#8e44ad" stroke-width="2" stroke-dasharray="3 2"/>
 <text x="587" y="353" font-size="10" font-weight="bold" fill="#8e44ad">黑齒國</text>
 <rect x="749" y="327" width="10" height="10" fill="none" stroke="#d35400" stroke-width="2" stroke-dasharray="3 2"/>
@@ -133,7 +133,7 @@
 <text x="1090" y="448" font-size="11" fill="#8e44ad">君子國 → 琉球北段—奄美方向·衣冠帶劍好讓</text>
 <text x="1090" y="469" font-size="11" fill="#8e44ad">𧈫𧈫（雙首） → 九州南方向·雙首記錄</text>
 <text x="1090" y="490" font-size="11" fill="#8e44ad">朝陽之谷 → 九州東岸—日向灘·水伯天吳</text>
-<text x="1090" y="512" font-size="11" fill="#c0392b">青丘國 → 復用南一青丘之山（老撾—長山北段）·方位存疑</text>
+<text x="1090" y="512" font-size="11" fill="#c0392b">青丘國 → 復用南一青丘之山（長山北段東麓近海·清化—乂安——雙修後新站位）·方位存疑</text>
 <text x="1090" y="533" font-size="11" fill="#8e44ad">黑齒國 → 九州—對馬方向·黑齒習俗＋稻作＋使蛇</text>
 <text x="1090" y="554" font-size="11" fill="#d35400">湯谷·扶桑 → 太平洋日出方向·十日所浴（神話層）</text>
 <text x="1090" y="575" font-size="11" fill="#8e44ad">雨師妾國 → 本州東岸—關東方向·操蛇珥蛇</text>
@@ -142,8 +142,9 @@
 <text x="1090" y="639" font-size="11" fill="#8e44ad">勞民國 → 千島—堪察加方向·東北陬終端</text>
 <text x="1090" y="660" font-size="11" fill="#d35400">東方句芒 → 東方方位神（神話層）</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：𨲠丘（一曰嗟丘：南海島嶼·兩山夾丘·百果）→大人國（台灣—呂宋·坐而削船）→奢比之尸（琉球南·珥蛇神像）→君子國（琉球北·衣冠帶劍好讓）→𧈫𧈫（雙首蟲）→朝陽之谷（</text>
-<text x="60" y="702" font-size="11" fill="#666">九州東岸·水伯天吳）→青丘國（復用南一青丘之山：老撾—長山北段，同名＋九尾狐；方位存疑 H2 待裁）→黑齒國（九州—對馬·黑齒習俗＋稻作＋使蛇）→湯谷扶桑（太平洋日出方向·十日</text>
-<text x="60" y="718" font-size="11" fill="#666">所浴——神話層）→雨師妾（本州東岸·操蛇珥蛇）→玄股（三陸沿岸·衣魚食䳼使鳥）→毛民（北海道方向·身生毛）→勞民（千島—堪察加方向·東北陬終端）→東方句芒（方位神·神話層）。</text>
-<text x="60" y="740" font-size="11" fill="#666">本卷為區域調查（無里程鏈）：復用 3（東海/青丘國/九尾狐）＋pending_anchor 13＋新增 17。所有對應為競爭假說（proposed_pending_review），時代窗口 4000–1000 BCE；堯葬/</text>
-<text x="60" y="756" font-size="11" fill="#666">扶桑借名警示，湯谷與西三湯谷同名異實（F-0003 衝突對側登記），pending_anchor 僅方向性候選不編造坐標。</text>
+<text x="60" y="702" font-size="11" fill="#666">九州東岸·水伯天吳）→青丘國（復用南一青丘之山：長山北段東麓近海·清化—乂安 ≈19.3°N 105.4°E——雙修後新站位，同名＋九尾狐；方位存疑 H2 待裁）→黑齒國（九州—對馬·黑齒習</text>
+<text x="60" y="718" font-size="11" fill="#666">俗＋稻作＋使蛇）→湯谷扶桑（太平洋日出方向·十日所浴——神話層）→雨師妾（本州東岸·操蛇珥蛇）→玄股（三陸沿岸·衣魚食䳼使鳥）→毛民（北海道方向·身生毛）→勞民（千島—堪察加</text>
+<text x="60" y="734" font-size="11" fill="#666">方向·東北陬終端）→東方句芒（方位神·神話層）。</text>
+<text x="60" y="756" font-size="11" fill="#666">本卷為區域調查（無里程鏈）：復用 3（東海/青丘國/九尾狐）＋pending_anchor 13＋新增 17。所有對應為競爭假說（proposed_pending_review），時代窗口 4000–1000 BCE；堯葬/</text>
+<text x="60" y="772" font-size="11" fill="#666">扶桑借名警示，湯谷與西三湯谷同名異實（F-0003 衝突對側登記），pending_anchor 僅方向性候選不編造坐標。</text>
 </svg>
