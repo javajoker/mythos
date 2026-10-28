@@ -279,3 +279,27 @@ details.adj-item .adj-body th, details.adj-item .adj-body td { border: 1px solid
 .rev-btn.on { background: #873600; color: #fffdf5; border-color: #873600; }
 .rev-btn[disabled] { opacity: 0.45; cursor: default; }
 .rev-cell { white-space: nowrap; }
+
+/* ── 關係圖譜 ─────────────────────────────── */
+.kg-controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.kg-controls .search-box { flex: 1; min-width: 220px; margin-bottom: 0; }
+.kg-controls select {
+  padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px;
+  background: #fffdf6; font-size: 14px; color: var(--ink);
+}
+.kg-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+.kg-stat {
+  border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px;
+  background: #fffdf6; cursor: pointer;
+}
+.kg-stat:hover { border-color: var(--accent); }
+.kg-stat .num { font-family: var(--serif); font-size: 22px; font-weight: 700; }
+.kg-stat .lbl { font-size: 13px; color: var(--ink-soft); }
+.kg-rel-group { border: 1px solid var(--line); border-radius: 8px; background: #fffdf6; margin: 10px 0; padding: 8px 14px; }
+.kg-rel-group h4 { margin: 2px 0 6px; font-family: var(--serif); }
+.kg-rel-group ul { margin: 0; padding-left: 20px; }
+.kg-attr { border-top: 1px dashed var(--line); padding: 6px 0; }
+.kg-attr:first-of-type { border-top: none; }
+.kg-attr-meta { margin-bottom: 2px; }
+.kg-role-head { margin: 8px 0 2px; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
+.kv-list { margin: 2px 0; padding-left: 20px; }

@@ -236,6 +236,7 @@ const App = (() => {
   function chrome(active) {
     const nav = [
       ['index.html', '世界地圖'], ['book.html', '分卷閱讀'], ['entities.html', '收錄的事物'],
+      ['kg.html', '關係圖譜'],
       ['adjudications.html', '研究檔案'], ['review.html', '覆核工具（研究者用）'], ['about.html', '關於本站'],
     ];
     const header = document.querySelector('.site-header');
@@ -267,6 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
   App.chrome(page === 'index' ? 'index.html'
     : page === 'book' ? 'book.html'
     : page === 'entities' || page === 'entity' ? 'entities.html'
+    : page === 'kg' ? 'kg.html'
     : page === 'adjudications' ? 'adjudications.html'
     : page === 'review' ? 'review.html'
     : page === 'about' ? 'about.html' : '');
@@ -274,6 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
   else if (page === 'book') bootBook();
   else if (page === 'entities') bootEntities();
   else if (page === 'entity') bootEntity();
+  else if (page === 'kg') bootKg();
   else if (page === 'review') bootReview();
   else if (page === 'adjudications') bootAdjudications();
   else if (page === 'about') bootAbout();

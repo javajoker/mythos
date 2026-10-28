@@ -62,7 +62,7 @@ for html in sorted(f for f in os.listdir(".") if f.endswith(".html")):
                 check(m.split("?")[0], f"{html} 引用")
 
 # 6. JS 中不得有外部 URL（除註釋說明）
-for js in ["js/app.js", "js/map.js", "js/store.js"]:
+for js in ["js/app.js", "js/map.js", "js/store.js", "js/kg.js"]:
     text = open(js, encoding="utf-8").read()
     for m in re.findall(r'["\'](https?://[^"\']+)["\']', text):
         if m == "http://www.w3.org/2000/svg":  # SVG 命名空間常量，非網絡請求
