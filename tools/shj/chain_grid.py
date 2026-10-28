@@ -47,7 +47,8 @@ def main(spec_path):
     if not os.path.isabs(out):
         # 相對路徑一律相對於 spec 文件所在目錄解析（防止從不同 cwd 運行時散落輸出）；
         # spec 的 out 一律為 bare 檔名
-        out = os.path.join(os.path.dirname(os.path.abspath(spec_path)), out.split("/")[-1])
+        # spec 在 <pkg>/specs/ 下，網格輸出屬於 <pkg>/（specs/ 只放輸入，輸出放上一級）
+        out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(spec_path))), out.split("/")[-1])
     with open(out, "w") as f:
         f.write(json.dumps(spec["meta"], ensure_ascii=False) + "\n")
         for st in stations:
