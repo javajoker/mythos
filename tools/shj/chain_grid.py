@@ -10,6 +10,10 @@ import json, math, os, sys
 def main(spec_path):
     spec = json.load(open(spec_path))
     stations, legs = spec["stations"], spec["legs"]
+    # 防呆（2026-10-29，景山/景山撞鍵事故）：站名必須唯一——同名站改名「X（二）」「X（三）」再入 spec
+    dupes = {s for s in stations if stations.count(s) > 1}
+    if dupes:
+        raise SystemExit(f"station 名重複（會撞記錄鍵）：{sorted(dupes)}——請在 spec 改名為「（二）」等後綴")
     ai, anchor = spec["anchor"]["index"], (spec["anchor"]["lat"], spec["anchor"]["lon"])
     scales = (0.35, 0.385, 0.42)
     records = {}
