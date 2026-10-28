@@ -30,3 +30,5 @@
 - 洞庭錨 medium_high 仍待 T-RT05 遮蔽實驗確認（遮蔽抽樣含本段）。
 
 關聯：T-RT13、zhongci A4、G-1、F-0015（具區——範式前例）。
+
+- **T-RT05 遮蔽重判（2026-10-28，第二批）**：盲評在無先驗下以澧沅瀟湘九江五水名簇＋帝之二女＋君山獨立判至洞庭湖區——**本裁決獲第二批遮蔽盲評獨立確認**；洞庭錨 medium_high 之「待 T-RT05 遮蔽確認」條件達成（zhongci12 adaptation／mappings／sentence-analysis 三檔已同步更新）。
