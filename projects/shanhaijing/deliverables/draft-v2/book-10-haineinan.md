@@ -89,7 +89,7 @@
 
 **配圖**
 
-![兕「如牛、蒼黑、一角」＝印度犀（Rhinoceros unicornis），圖為印度卡齊蘭加國家公園的印度犀——華南在幾千年前本有犀牛分佈，此為其現存近緣代表](images/Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jp)（圖：Wikimedia Commons）
+![兕「如牛、蒼黑、一角」＝印度犀（Rhinoceros unicornis），圖為印度卡齊蘭加國家公園的印度犀——華南在幾千年前本有犀牛分佈，此為其現存近緣代表](images/Indian_rhinoceros_in_Kaziranga_National_Park_March_2025_by_Tisha_Mukherjee_02.jpg)（圖：Wikimedia Commons）
 
 ---
 
