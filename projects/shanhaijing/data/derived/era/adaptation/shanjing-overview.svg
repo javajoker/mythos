@@ -404,55 +404,55 @@
 <circle cx="421" cy="184" r="5" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="421" cy="184" r="9" fill="none" stroke="#b7950b" stroke-width="2.5"/>
 <text x="428" y="172" font-size="11" font-weight="bold" fill="#b7950b">北二</text>
-<polyline points="436.7,269.0 439.6,266.8 440.4,265.6 441.1,265.3 440.3,266.1 442.1,265.8 442.9,265.6 441.4,267.3 440.7,265.1 437.6,268.5 438.6,267.9 439.0,266.3 439.9,264.8 440.9,264.9 441.5,265.2 442.9,265.8 443.1,264.3 444.1,264.4 444.3,263.0 444.5,262.3 444.4,260.7 442.9,262.7 443.9,261.6 444.4,261.5 437.6,268.5 446.7,257.8 446.9,256.4 447.0,254.8 447.4,254.4 447.7,255.0 448.1,255.6 448.7,255.0 445.0,248.0 448.5,252.9 447.8,252.3 447.1,251.4 447.6,250.8 448.1,249.9 446.7,248.8 448.1,246.2 447.8,243.7 446.5,242.4 445.7,241.4 460.5,243.9 443.1,247.5 435.0,194.5 437.2,165.0" fill="none" stroke="#7d6608" stroke-width="2.6" opacity="0.85"/>
-<circle cx="437" cy="269" r="5" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="440" cy="267" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="440" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="441" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="440" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="442" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="443" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="441" cy="267" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="441" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<polyline points="422.1,276.6 423.7,274.1 425.4,271.5 425.9,270.7 427.6,268.2 431.1,268.2 435.2,268.2 435.2,266.4 437.7,262.7 437.7,268.0 439.2,270.4 440.8,272.4 442.1,271.9 443.3,271.7 444.7,271.4 445.7,271.2 446.9,270.9 447.8,268.6 447.9,265.3 449.3,265.1 449.0,261.2 448.9,258.7 449.4,257.9 450.0,256.9 437.7,268.0 449.6,253.3 449.4,252.1 449.2,250.8 448.9,249.5 448.6,248.0 448.3,246.0 448.2,244.7 448.5,243.2 448.3,240.6 448.2,237.8 447.9,235.8 447.6,233.2 447.4,230.4 447.1,228.9 446.9,227.6 446.0,221.0 445.3,214.9 444.4,208.3 443.6,201.7 442.9,195.6 442.2,192.5 435.8,164.0" fill="none" stroke="#7d6608" stroke-width="2.6" opacity="0.85"/>
+<circle cx="422" cy="277" r="5" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="424" cy="274" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="425" cy="272" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="426" cy="271" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="428" cy="268" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="431" cy="268" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="435" cy="268" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="435" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="438" cy="263" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
 <circle cx="438" cy="268" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="439" cy="268" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="439" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="440" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="441" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="442" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="443" cy="266" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="443" cy="264" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="444" cy="264" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="444" cy="263" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="445" cy="262" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="444" cy="261" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="443" cy="263" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="444" cy="262" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="444" cy="261" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="439" cy="270" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="441" cy="272" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="442" cy="272" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="443" cy="272" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="445" cy="271" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="446" cy="271" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="447" cy="271" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="269" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="265" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="261" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="259" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="258" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="450" cy="257" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
 <circle cx="438" cy="268" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="258" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="256" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="255" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="254" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="255" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="256" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="449" cy="255" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="445" cy="248" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="253" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="252" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="251" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="251" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="250" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="249" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="450" cy="253" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="252" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="251" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="250" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="449" cy="248" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
 <circle cx="448" cy="246" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="448" cy="244" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="447" cy="242" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="446" cy="241" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="460" cy="244" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="443" cy="247" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="435" cy="195" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="437" cy="165" r="5" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
-<circle cx="437" cy="165" r="9" fill="none" stroke="#7d6608" stroke-width="2.5"/>
+<circle cx="448" cy="245" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="243" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="241" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="238" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="236" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="448" cy="233" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="447" cy="230" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="447" cy="229" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="447" cy="228" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="446" cy="221" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="445" cy="215" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="444" cy="208" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="444" cy="202" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="443" cy="196" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="442" cy="193" r="3" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="436" cy="164" r="5" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>
+<circle cx="436" cy="164" r="9" fill="none" stroke="#7d6608" stroke-width="2.5"/>
 <text x="574" y="103" font-size="11" font-weight="bold" fill="#7d6608">北三</text>
 <polyline points="923.3,221.0 923.3,226.3 923.3,231.6 923.3,236.9 923.3,242.2 923.3,249.3 923.3,256.3 923.3,261.6 923.3,267.0 923.3,272.3 923.3,277.6 923.3,282.9" fill="none" stroke="#1e8449" stroke-width="2.6" opacity="0.85"/>
 <circle cx="923" cy="221" r="5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
@@ -556,7 +556,7 @@
 <text x="185" y="307" font-size="9" fill="#6c3483">昆侖之丘＝吉薩（ANC-01 起始座標錨）</text>
 <text x="63" y="362" font-size="9" fill="#6c3483">昆侖虛＝撒哈拉之眼（ADJ-002）</text>
 <text x="252" y="313" font-size="9" fill="#8e44ad">兩河空檔 F-0007（大夏/月支/白玉山/都廣之野/西周之國待錨群）</text>
-<text x="457" y="93" font-size="9" fill="#7d6608">北三終點＝楚科奇；白令＝延伸對立候選</text>
+<text x="457" y="93" font-size="9" fill="#7d6608">北三終點＝北貝加爾湖北岸（RT-B04）；楚科奇/白令＝延伸對立候選（里程否決）</text>
 <text x="857" y="253" font-size="9" fill="#196f3d">東山經＝美洲四鏈</text>
 <text x="485" y="406" font-size="9" fill="#196f3d">大荒東＝日月所出觀測鏈</text>
 <text x="213" y="615" font-size="9" fill="#666">五經分域＋框架書 13 卷區域調查</text>
@@ -1081,7 +1081,7 @@
 <line x1="1090" y1="140" x2="1116" y2="140" stroke="#c0392b" stroke-width="2.5"/>
 <text x="1124" y="144" font-size="11" fill="#444">中山經 12 鏈（昆侖源頭→中原→江南）</text>
 <line x1="1090" y1="162" x2="1116" y2="162" stroke="#a07d1e" stroke-width="2.5"/>
-<text x="1124" y="166" font-size="11" fill="#444">北山經 3 鏈（→貝加爾→楚科奇）</text>
+<text x="1124" y="166" font-size="11" fill="#444">北山經 3 鏈（→圖瓦／貝加爾南岸／北貝加爾湖北岸）</text>
 <line x1="1090" y1="184" x2="1116" y2="184" stroke="#1e8449" stroke-width="2.5"/>
 <text x="1124" y="188" font-size="11" fill="#444">東山經 4 鏈（美洲）</text>
 <line x1="1090" y1="206" x2="1116" y2="206" stroke="#2e86c1" stroke-width="2.5"/>
@@ -1120,7 +1120,7 @@
 <text x="1362" y="514" font-size="9.5" fill="#e59866">中十二（15）→ 武陵—幕阜—廬山—洞庭</text>
 <text x="1362" y="532" font-size="9.5" fill="#a07d1e">北一（25）→ 青海南部→杭愛→圖瓦</text>
 <text x="1362" y="550" font-size="9.5" fill="#b7950b">北二（16）→ 晉北呂梁→陰山→貝加爾湖南岸</text>
-<text x="1362" y="567" font-size="9.5" fill="#7d6608">北三（47）→ 山西—太行鏈→奧爾洪島→楚科奇方向</text>
+<text x="1362" y="567" font-size="9.5" fill="#7d6608">北三（47）→ 甘南迭山→隴山→中條山（鹽池）→冀中南→…</text>
 <text x="1362" y="584" font-size="9.5" fill="#1e8449">東一（12）→ 阿巴拉契亞（緬因→佐治亞）</text>
 <text x="1362" y="602" font-size="9.5" fill="#27ae60">東二（17）→ 落基山東麓→大平原→墨西哥灣</text>
 <text x="1362" y="620" font-size="9.5" fill="#196f3d">東三（9）→ 加勒比—中美島鏈</text>
@@ -1128,8 +1128,8 @@
 <text x="1362" y="654" font-size="9.5" fill="#2e86c1">南一（9）→ 中南半島（若開→長山）</text>
 <text x="1362" y="672" font-size="9.5" fill="#2874a6">南二（17）→ 滇東→南嶺→武夷→東海島鏈</text>
 <text x="1362" y="690" font-size="9.5" fill="#5dade2">南三（13）→ 嶺南山系→閩粵沿海</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：全書 18 卷全景——五臧山經 26 里程鏈（西：藏東→喜馬拉雅—印度河→吉薩—阿特拉斯；中：昆侖源頭→中原→江南；北：青海/晉北/山西→貝加爾→楚科奇；東：美洲四鏈；</text>
-<text x="60" y="702" font-size="11" fill="#666">南：中南半島→嶺南—東海島鏈）＋海外/海內/大荒 13 卷區域調查點位（復用錨定 75、區域方向、待定錨 325、新增實體 408——詳各卷補丁圖）。</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：全書 18 卷全景——五臧山經 26 里程鏈（西：藏東→喜馬拉雅—印度河→吉薩—阿特拉斯；中：昆侖源頭→中原→江南；北：青海/晉北/甘南→圖瓦—貝加爾—北貝加爾湖北岸；</text>
+<text x="60" y="702" font-size="11" fill="#666">東：美洲四鏈；南：中南半島→嶺南—東海島鏈）＋海外/海內/大荒 13 卷區域調查點位（復用錨定 75、區域方向、待定錨 325、新增實體 408——詳各卷補丁圖）。</text>
 <text x="60" y="724" font-size="11" fill="#666">底圖＝世界海岸線簡化示意；山經站位＝算術網格（北三取語義擬合）；所有對應為競爭假說，時代窗口 4000–1000 BCE。基礎判斷邏輯：靜態地理形狀優先／禁止因果倒置／古代通用詞義／</text>
 <text x="60" y="740" font-size="11" fill="#666">承認文化歷史斷層／統一推論順序。</text>
 </svg>
