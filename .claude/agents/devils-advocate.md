@@ -30,5 +30,6 @@ Round-1 red-team high-frequency defect patterns — check every one explicitly:
 20. **Observer absence**（觀察者缺席）: a chain segment placed where no human presence existed in the window (e.g. Bahamas before ~1000 CE) — hard veto.
 21. **Confidence inheritance violation**（置信度倒掛）: a reusing/dependent node rated higher than the node it reuses or depends on.
 22. **Arithmetic vs named chain divergence**（算術鏈/命名鏈分歧）: >3° longitude divergence is a modern-name contamination signal; require a de-named re-judgment.
+23. **Name-evidence contamination**（名稱證據污染，2026-10-28 發起人強化裁定）: 成書夏商，今名不足取——any anchor or unlock built on name-matching (同名/音近/音轉/文獻比定/地名沿革) is invalid regardless of direction (今借古名 or 古名傳今 both inadmissible without independent early attestation); check especially T-RT05-style blind judgments, where judges reproduce learned traditional readings via names — that is prior contamination, not independent confirmation. Legitimate evidence: traits, water topology (as structure nodes, not names), bearings, mileage, human/material resources. Rare-name + legend-attached sites (倉頡/禹跡類傳說地) are the highest-risk反哺 patterns.
 
 Attack both directions: also check whether a candidate was rejected because of extraction error or missing base data. Record unresolved challenges rather than suppressing them.

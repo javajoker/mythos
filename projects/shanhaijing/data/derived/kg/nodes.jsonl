@@ -3605,6 +3605,7 @@
 {"id": "POL:SHJ-06-1-008#1", "type": "POL", "canonical_name": "讙頭國（讙朱國）", "first_entry": "SHJ-06-1-008", "names": [{"value": "讙頭國（讙朱國）", "entry": "SHJ-06-1-008"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-06-1-009#1", "type": "POL", "canonical_name": "厭火國", "first_entry": "SHJ-06-1-009", "names": [{"value": "厭火國", "entry": "SHJ-06-1-009"}], "status": "pending_anchor"}
 {"id": "PLA:SHJ-06-1-010#1", "type": "PLA", "canonical_name": "三株樹", "first_entry": "SHJ-06-1-010", "names": [{"value": "三株樹", "entry": "SHJ-06-1-010"}], "status": "pending_anchor"}
+{"id": "WAT:SHJ-06-1-010#1", "type": "WAT", "canonical_name": "赤水（海外南）", "first_entry": "SHJ-06-1-010", "names": [{"value": "赤水（海外南）", "entry": "SHJ-06-1-010"}, {"value": "赤水（海外南）", "entry": "SHJ-06-1-011"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-06-1-011#1", "type": "POL", "canonical_name": "三苗國（三毛國）", "first_entry": "SHJ-06-1-011", "names": [{"value": "三苗國（三毛國）", "entry": "SHJ-06-1-011"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-06-1-012#1", "type": "POL", "canonical_name": "臷國", "first_entry": "SHJ-06-1-012", "names": [{"value": "臷國", "entry": "SHJ-06-1-012"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-06-1-013#1", "type": "POL", "canonical_name": "貫匈國（穿匈）", "first_entry": "SHJ-06-1-013", "names": [{"value": "貫匈國（穿匈）", "entry": "SHJ-06-1-013"}], "status": "pending_anchor"}
@@ -3666,6 +3667,7 @@
 {"id": "POL:SHJ-08-1-009#1", "type": "POL", "canonical_name": "聶耳之國", "first_entry": "SHJ-08-1-009", "names": [{"value": "聶耳之國", "entry": "SHJ-08-1-009"}], "status": "pending_anchor"}
 {"id": "PER:SHJ-08-1-010#1", "type": "PER", "canonical_name": "夸父（逐日敘事）", "first_entry": "SHJ-08-1-010", "names": [{"value": "夸父（逐日敘事）", "entry": "SHJ-08-1-010"}], "status": "pending_anchor"}
 {"id": "WAT:SHJ-08-1-010#1", "type": "WAT", "canonical_name": "渭（夸父所飲）", "first_entry": "SHJ-08-1-010", "names": [{"value": "渭（夸父所飲）", "entry": "SHJ-08-1-010"}], "status": "pending_anchor"}
+{"id": "LND:SHJ-08-1-010#1", "type": "LND", "canonical_name": "鄧林（棄杖所化）", "first_entry": "SHJ-08-1-010", "names": [{"value": "鄧林（棄杖所化）", "entry": "SHJ-08-1-010"}], "status": "pending_anchor"}
 {"id": "MTN:SHJ-08-1-012#1", "type": "MTN", "canonical_name": "禹所積石之山", "first_entry": "SHJ-08-1-012", "names": [{"value": "禹所積石之山", "entry": "SHJ-08-1-012"}], "status": "pending_anchor"}
 {"id": "POL:SHJ-08-1-013#1", "type": "POL", "canonical_name": "拘癭之國（拘纓/利癭）", "first_entry": "SHJ-08-1-013", "names": [{"value": "拘癭之國（拘纓/利癭）", "entry": "SHJ-08-1-013"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-08-1-014#1", "type": "LND", "canonical_name": "尋木", "first_entry": "SHJ-08-1-014", "names": [{"value": "尋木", "entry": "SHJ-08-1-014"}], "status": "pending_anchor"}
@@ -4012,6 +4014,8 @@
 {"id": "MTN:SHJ-14-1-036#1", "type": "MTN", "canonical_name": "流波山", "first_entry": "SHJ-14-1-036", "names": [{"value": "流波山", "entry": "SHJ-14-1-036"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-14-1-036#1", "type": "CRE", "canonical_name": "夔", "first_entry": "SHJ-14-1-036", "names": [{"value": "夔", "entry": "SHJ-14-1-036"}], "status": "pending_anchor"}
 {"id": "CRE:SHJ-14-1-036#2", "type": "CRE", "canonical_name": "雷獸", "first_entry": "SHJ-14-1-036", "names": [{"value": "雷獸", "entry": "SHJ-14-1-036"}], "status": "pending_anchor"}
+{"id": "WAT:SHJ-15-1-001#1", "type": "WAT", "canonical_name": "赤水", "first_entry": "SHJ-15-1-001", "names": [{"value": "赤水", "entry": "SHJ-15-1-001"}], "status": "pending_anchor"}
+{"id": "MTN:SHJ-15-1-007#1", "type": "MTN", "canonical_name": "成山", "first_entry": "SHJ-15-1-007", "names": [{"value": "成山", "entry": "SHJ-15-1-007"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-15-1-001#1", "type": "LND", "canonical_name": "流沙", "first_entry": "SHJ-15-1-001", "names": [{"value": "流沙", "entry": "SHJ-15-1-001"}], "status": "pending_anchor"}
 {"id": "LND:SHJ-15-1-003#1", "type": "LND", "canonical_name": "蒼梧之野", "first_entry": "SHJ-15-1-003", "names": [{"value": "蒼梧之野", "entry": "SHJ-15-1-003"}], "status": "pending_anchor"}
 {"id": "MTN:SHJ-15-1-002#1", "type": "MTN", "canonical_name": "阿山", "first_entry": "SHJ-15-1-002", "names": [{"value": "阿山", "entry": "SHJ-15-1-002"}], "status": "pending_anchor"}

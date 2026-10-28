@@ -323,8 +323,8 @@
    "name": "赤水·三株樹",
    "lon": 103.8,
    "lat": 23.0,
-   "status": "mapped",
-   "color": "#2e86c1",
+   "status": "pending_anchor",
+   "color": "#c0392b",
    "note": "赤水·三株樹（book06）",
    "label": false,
    "size": 3.5
@@ -1041,11 +1041,15 @@
   },
   {
    "name": "青丘國",
-   "lon": 102.18,
-   "lat": 20.5,
+   "lon": 105.4,
+   "lat": 19.3,
    "status": "mapped",
    "color": "#2e86c1",
-   "note": "青丘國（book09）"
+   "note": "青丘國（book09）",
+   "label_pos": [
+    106.6,
+    20.7
+   ]
   },
   {
    "name": "黑齒國",
@@ -2437,8 +2441,8 @@
   },
   {
    "name": "青丘之國",
-   "lon": 102.18,
-   "lat": 20.5,
+   "lon": 105.4,
+   "lat": 19.3,
    "status": "mapped",
    "color": "#2e86c1",
    "note": "青丘之國（book14）",
@@ -2776,12 +2780,12 @@
    "size": 3.5
   },
   {
-   "name": "赤水（復用南二·西南向大河待裁）",
+   "name": "赤水（復用撤銷·待錨——RT-N8）",
    "lon": 103.6,
    "lat": 23.0,
-   "status": "mapped",
-   "color": "#2e86c1",
-   "note": "赤水（復用南二·西南向大河待裁）（book15）",
+   "status": "pending_anchor",
+   "color": "#c0392b",
+   "note": "赤水（復用撤銷·待錨——RT-N8）（book15）",
    "label": false,
    "size": 3.5
   },
@@ -2806,12 +2810,12 @@
    "size": 3.5
   },
   {
-   "name": "成山（復用南二·南嶺中段）",
+   "name": "成山（復用撤銷·同名異實——F-0014）",
    "lon": 112.9,
    "lat": 25.3,
-   "status": "mapped",
-   "color": "#2e86c1",
-   "note": "成山（復用南二·南嶺中段）（book15）",
+   "status": "pending_anchor",
+   "color": "#c0392b",
+   "note": "成山（復用撤銷·同名異實——F-0014）（book15）",
    "label": false,
    "size": 3.5
   },

@@ -65,6 +65,18 @@ def main():
     if bad_jsonl:
         FAIL.append(("jsonl", "\n".join(bad_jsonl[:10])))
 
+    # 4a2. SVG 良構性（文字轉義缺漏會讓整圖無法顯示）
+    import xml.dom.minidom
+    bad_svg = []
+    for f in list(ADJ.glob("*.svg")):
+        try:
+            xml.dom.minidom.parse(str(f))
+        except Exception as e:
+            bad_svg.append(f"{f.name}: {e}")
+    print(("FAIL" if bad_svg else " ok "), "svg well-formedness")
+    if bad_svg:
+        FAIL.append(("svg", "\n".join(bad_svg[:10])))
+
     # 4b. 框架書 mapping 實體名 → 草稿覆蓋
     books = {}
     for f in g.glob(str(SHJ / "deliverables/draft-v1/book-*.md")):

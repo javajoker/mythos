@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Overview-map renderer: multiple route chains (sub-scrolls) on one canvas.
-
 Usage: render_overview_map.py <config.json>
 Config: {out, title, subtitle, window{lon0,lon1,lat0,lat1},
          basemap[...], chains[{grid,label,short,color,anchor_index?,label_pos?,fit?}...],
@@ -8,6 +7,11 @@ Config: {out, title, subtitle, window{lon0,lon1,lat0,lat1},
 fit=true auto-applies fit_coords from specs/<slug>-map.json (plotting-only overrides).
 Overflow audit built in. All mappings proposed_pending_review.
 """
+
+import html as _html
+
+def esc(s):
+    return _html.escape(str(s), quote=False)
 import json, math, os, re, sys
 
 HERE = os.path.join(os.path.dirname(__file__), "..", "..", "projects", "shanhaijing", "data", "derived", "era", "adaptation")
@@ -49,7 +53,7 @@ def render(cfg):
         if line:
             lines.append(line)
         for i, ln in enumerate(lines):
-            tgt.append(f'<text x="{x}" y="{y + i * lh:.0f}" font-size="{size}" fill="{color}">{ln}</text>')
+            tgt.append(f'<text x="{x}" y="{y + i * lh:.0f}" font-size="{size}" fill="{color}">{esc(ln)}</text>')
         return y + len(lines) * lh
 
     S.append('<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">')
@@ -57,8 +61,8 @@ def render(cfg):
     S.append(f'<clipPath id="mapclip"><rect x="{MX}" y="{MY}" width="{MW}" height="{MH}"/></clipPath>')
     S.append(f'<defs><clipPath id="mapclip"><rect x="{MX}" y="{MY}" width="{MW}" height="{MH}"/></clipPath>'
              '<pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern></defs>')
-    S.append(f'<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">{cfg["title"]}</text>')
-    S.append(f'<text x="60" y="56" font-size="12" fill="#666">{cfg["subtitle"]}</text>')
+    S.append(f'<text x="60" y="34" font-size="21" font-weight="bold" fill="#333">{esc(cfg["title"])}</text>')
+    S.append(f'<text x="60" y="56" font-size="12" fill="#666">{esc(cfg["subtitle"])}</text>')
 
     S.append('<g clip-path="url(#mapclip)">')
 
@@ -68,15 +72,15 @@ def render(cfg):
             _, seq, color, width, label, lpos = feat
             S.append(f'<polyline points="{pts(seq)}" fill="none" stroke="{color}" stroke-width="{width}"/>')
             if label and lpos and in_win(lpos[0], lpos[1]):
-                S.append(f'<text x="{X(lpos[0]):.0f}" y="{Y(lpos[1]):.0f}" font-size="10" fill="{color}">{label}</text>')
+                S.append(f'<text x="{X(lpos[0]):.0f}" y="{Y(lpos[1]):.0f}" font-size="10" fill="{color}">{esc(label)}</text>')
         elif kind == "blob":
             _, cx, cy, rx, ry, color, label = feat
             S.append(f'<ellipse cx="{X(cx):.0f}" cy="{Y(cy):.0f}" rx="{rx/(LON1-LON0)*MW:.0f}" ry="{ry/(LAT1-LAT0)*MH:.0f}" fill="{color}" opacity="0.35"/>')
             if label and in_win(cx, cy):
-                S.append(f'<text x="{X(cx)-24:.0f}" y="{Y(cy)+3:.0f}" font-size="10" fill="#7a6540">{label}</text>')
+                S.append(f'<text x="{X(cx)-24:.0f}" y="{Y(cy)+3:.0f}" font-size="10" fill="#7a6540">{esc(label)}</text>')
     for name, cx, cy, rx, ry in cfg.get("ranges", []):
         S.append(f'<ellipse cx="{X(cx):.0f}" cy="{Y(cy):.0f}" rx="{rx/ (LON1-LON0) * MW:.0f}" ry="{ry / (LAT1-LAT0) * MH:.0f}" fill="#c9b18a" opacity="0.4"/>')
-        S.append(f'<text x="{X(cx)-24:.0f}" y="{Y(cy)+3:.0f}" font-size="10" fill="#7a6540">{name}</text>')
+        S.append(f'<text x="{X(cx)-24:.0f}" y="{Y(cy)+3:.0f}" font-size="10" fill="#7a6540">{esc(name)}</text>')
 
     # ---- chains ----
     for ch in cfg.get("chains", []):
@@ -115,10 +119,10 @@ def render(cfg):
             lx, ly = X(lp[0]), Y(lp[1])
         else:
             lx, ly = X(route[0][0]) + 8, Y(route[0][1]) - 8
-        S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="11" font-weight="bold" fill="{color}">{ch["label"]}</text>')
+        S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="11" font-weight="bold" fill="{color}">{esc(ch["label"])}</text>')
 
     for text_, lo, la, color in cfg.get("annotations", []):
-        S.append(f'<text x="{X(lo):.0f}" y="{Y(la):.0f}" font-size="9" fill="{color}">{text_}</text>')
+        S.append(f'<text x="{X(lo):.0f}" y="{Y(la):.0f}" font-size="9" fill="{color}">{esc(text_)}</text>')
 
     # ---- point markers (framework-book patch maps: regions/cultures/pending anchors) ----
     for p in cfg.get("points", []):
@@ -136,12 +140,12 @@ def render(cfg):
                 lx, ly = X(p["label_pos"][0]), Y(p["label_pos"][1])
             else:
                 lx, ly = x + 8, y + 4
-            S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="10" font-weight="bold" fill="{color}">{p["name"]}</text>')
+            S.append(f'<text x="{lx:.0f}" y="{ly:.0f}" font-size="10" font-weight="bold" fill="{color}">{esc(p["name"])}</text>')
 
     for name, lo, la in cfg.get("modern", []):
         x, y = X(lo), Y(la)
         S.append(f'<rect x="{x-3:.0f}" y="{y-3:.0f}" width="6" height="6" fill="#34495e"/>')
-        S.append(f'<text x="{x+5:.0f}" y="{y-4:.0f}" font-size="9" fill="#34495e">{name}</text>')
+        S.append(f'<text x="{x+5:.0f}" y="{y-4:.0f}" font-size="9" fill="#34495e">{esc(name)}</text>')
 
     S.append('</g>')  # end mapclip group
 
@@ -155,7 +159,7 @@ def render(cfg):
         S.append(f'<line x1="{X(v):.0f}" y1="{Y(LAT0):.0f}" x2="{X(v):.0f}" y2="{Y(LAT1):.0f}" stroke="#d9d2c0" stroke-width="0.6"/>')
         true_lon = v - 360 if (WRAP is not None and v > 180) else v
         if X(v) + 30 < MX + MW - 8:
-            S.append(f'<text x="{X(v)-8:.0f}" y="{Y(LAT0)+16:.0f}" font-size="9" fill="#999">{abs(true_lon):g}°{"W" if true_lon<0 else "E"}</text>')
+            S.append(f'<text x="{X(v)-8:.0f}" y="{Y(LAT0)+16:.0f}" font-size="9" fill="#999">{abs(true_lon):g}°{esc("W" if true_lon<0 else "E")}</text>')
         v += lon_step
     v = math.ceil(LAT0 / lat_step) * lat_step
     if v <= LAT0: v += lat_step
@@ -176,7 +180,7 @@ def render(cfg):
     S.append(f'<line x1="{bx:.0f}" y1="{by:.0f}" x2="{bx + 4*pxs:.0f}" y2="{by:.0f}" stroke="#333" stroke-width="2"/>')
     for k in range(5):
         S.append(f'<line x1="{bx + k*pxs:.0f}" y1="{by-4:.0f}" x2="{bx + k*pxs:.0f}" y2="{by+4:.0f}" stroke="#333" stroke-width="1.5"/>')
-        S.append(f'<text x="{bx + k*pxs - 8:.0f}" y="{by+16:.0f}" font-size="9" fill="#333">{k*seg}</text>')
+        S.append(f'<text x="{bx + k*pxs - 8:.0f}" y="{by+16:.0f}" font-size="9" fill="#333">{esc(k*seg)}</text>')
     S.append(f'<text x="{bx + 4*pxs + 8:.0f}" y="{by+4:.0f}" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>')
 
     # ---- panel ----
@@ -193,7 +197,7 @@ def render(cfg):
             P.append(f'<rect x="{px+8}" y="{ly-5}" width="8" height="8" fill="{color}"/>')
         elif style == "star":
             P.append(f'<circle cx="{px+13}" cy="{ly}" r="8" fill="{color}"/>')
-        P.append(f'<text x="{px+34}" y="{ly+4}" font-size="11" fill="#444">{label}</text>')
+        P.append(f'<text x="{px+34}" y="{ly+4}" font-size="11" fill="#444">{esc(label)}</text>')
         ly += 22
     ly += 8
     for note in cfg.get("panel_notes", []):
@@ -211,14 +215,14 @@ def render(cfg):
                 label = f'{p["name"]} → {p.get("note","")}'
                 while label and _tw(label, 9.5) > 262:
                     label = label[:-2] + '…'
-                P.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{p.get("color","#8e44ad")}">{label}</text>')
+                P.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{p.get("color","#8e44ad")}">{esc(label)}</text>')
             ty = ty + half * 17.5
         else:
             for p in rows_p:
                 label = f'{p["name"]} → {p.get("note","")}'
                 while label and _tw(label, 11) > 530:
                     label = label[:-2] + '…'
-                P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{p.get("color","#8e44ad")}">{label}</text>')
+                P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{p.get("color","#8e44ad")}">{esc(label)}</text>')
                 ty += 21.2
     if chains:
         P.append(f'<text x="{px}" y="{ly+16}" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>')
@@ -232,7 +236,7 @@ def render(cfg):
                 label = f'{ch["label"]}（{n}）→ {ch.get("short","")}'
                 while label and _tw(label, 9.5) > 262:
                     label = label[:-2] + '…'
-                P.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{ch.get("color","#c0392b")}">{label}</text>')
+                P.append(f'<text x="{px + col * 272}" y="{ty + row * 17.5:.0f}" font-size="9.5" fill="{ch.get("color","#c0392b")}">{esc(label)}</text>')
             ty = ty + half * 17.5
         else:
             for ch in chains:
@@ -243,9 +247,9 @@ def render(cfg):
                     label = label[:-2] + '…'
                     trimmed = True
                 if trimmed:
-                    P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}">{label}</text>')
+                    P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}">{esc(label)}</text>')
                 else:
-                    P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}"><tspan font-weight="bold">{ch["label"]}</tspan>（{n} 站）→ {ch.get("short","")}</text>')
+                    P.append(f'<text x="{px}" y="{ty:.0f}" font-size="11" fill="{ch.get("color","#c0392b")}"><tspan font-weight="bold">{ch["label"]}</tspan>（{n} 站）→ {esc(ch.get("short",""))}</text>')
                 ty += 21.2
 
 
