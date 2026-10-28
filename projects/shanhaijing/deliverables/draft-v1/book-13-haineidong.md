@@ -22,7 +22,7 @@
 - 璽㬇 → 流沙中綠洲國——昆侖虛東南方向（同埻端）（very_low；living→changed）【待錨】
 - 大夏 → 巴克特里亞—阿姆河流域方向（low；living→changed）【待錨】
 - 豎沙 → 流沙外——中亞河中地（索格底亞那）方向（very_low；living→changed）【待錨】
-- 居繇 → 流沙外——中亞方向（或與月氏/居延音轉相關——假設級別C）（very_low；living→changed）【待錨】
+- 居繇 → 流沙外——中亞方向（「或與月氏/居延音轉相關」——T-RT17 掃描（2026-10-28，§3.9）：音轉比附權重為零，降為名稱線索存冊、不作依據）（very_low；living→changed）【待錨】
 - 月支 → 月氏——河西走廊—伊犁河—阿姆河方向（遷徙前為河西方向）（low；living→changed）【待錨】
 - `LND:SHJ-02-3-010#1` 流沙 → 蓋塔拉窪地東緣沙沼帶（西三流沙體系）（medium；living→changed）【復用】
 - 昆侖虛 → 吉薩高地金字塔—陵寢群（西三昆侖之丘 ANC-01）（low；living→ruin）【待錨】

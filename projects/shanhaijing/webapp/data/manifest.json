@@ -1,9 +1,9 @@
 {
  "graph": {
-  "nodes": 4336,
-  "edges": 1805,
-  "attributes": 9236,
-  "sha": "78b905306d12d2ac"
+  "nodes": 4348,
+  "edges": 1303,
+  "attributes": 10591,
+  "sha": "da54d7ec60f01d03"
  },
  "entries": {
   "sections": 869,
@@ -11,6 +11,6 @@
   "working_total": 869
  },
  "maps": 46,
- "adjudications": 18,
+ "adjudications": 37,
  "images": 114
 }
