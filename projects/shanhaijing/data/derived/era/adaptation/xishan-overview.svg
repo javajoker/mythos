@@ -5,152 +5,153 @@
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《西山經》概要圖：四子經鏈 時代假想推理 × 現代映射參照</text>
 <text x="60" y="56" font-size="12" fill="#666">西一＝橫斷山北段—藏東 ｜ 西二＝喜馬拉雅南麓→印度河 ｜ 西三＝希斯馬→吉薩（昆侖之丘 ANC-01）→利比亞 ｜ 西四＝紹拉河谷→阿特拉斯→大西洋 ｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
-<polyline points="140.6,179.6 189.0,142.2 253.5,95.6 310.0,111.1 366.5,142.2 398.7,157.8 414.8,319.6 447.1,322.7 463.2,266.7 483.4,157.8" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
-<text x="286" y="86" font-size="10" fill="#2f7fbf">地中海（北岸簡化）</text>
-<polyline points="451.1,375.6 471.3,453.3 495.5,593.3" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="475" y="469" font-size="10" fill="#2f7fbf">紅海（赤水候選）</text>
-<polyline points="440.6,316.4 435.0,422.2 447.1,531.1 455.2,624.4" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="421" y="438" font-size="10" fill="#2f7fbf">尼羅河（河/黑水候選）</text>
-<polyline points="495.5,142.2 519.7,235.6 543.9,297.8 572.1,360.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="508" y="198" font-size="10" fill="#2f7fbf">幼發拉底河</text>
-<polyline points="572.1,360.0 592.3,391.1 624.5,468.9 648.7,500.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="608" y="435" font-size="10" fill="#2f7fbf">波斯灣</text>
-<polyline points="737.4,220.0 753.5,328.9 765.6,453.3 741.5,546.7" fill="none" stroke="#2f7fbf" stroke-width="2"/>
-<text x="771" y="344" font-size="10" fill="#2f7fbf">印度河</text>
-<polyline points="818.1,235.6 874.5,360.0 914.8,422.2 955.2,391.1 995.5,422.2" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
-<text x="858" y="292" font-size="10" fill="#a07d1e">喜馬拉雅—青藏高原東緣（簡化）</text>
-<polyline points="116.5,328.9 148.7,266.7 189.0,204.4 229.4,157.8 269.7,142.2" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
-<text x="157" y="226" font-size="10" fill="#a07d1e">阿特拉斯山系</text>
-<ellipse cx="270" cy="500" rx="161" ry="109" fill="#e2d9c8" opacity="0.35"/>
-<text x="246" y="503" font-size="10" fill="#7a6540">撒哈拉（流沙候選帶）</text>
-<ellipse cx="441" cy="351" rx="6" ry="16" fill="#cfe0e8" opacity="0.35"/>
-<text x="417" y="354" font-size="10" fill="#7a6540">吉薩台地（昆侖之丘）</text>
-<polyline points="1019.1,310.2 1017.6,310.2 1015.6,310.2 1013.1,310.2 1010.4,310.2 1008.5,310.2 1006.1,310.2 1004.4,310.2 1000.5,310.2 998.2,310.2 993.3,310.2 987.7,310.2 974.4,310.2 963.9,310.2 952.4,310.2 943.6,339.2 937.7,339.2 931.2,339.2 923.0,339.2" fill="none" stroke="#8e44ad" stroke-width="2.6" opacity="0.85"/>
-<circle cx="1019" cy="310" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1018" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1016" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1013" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1010" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1008" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1006" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1004" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="1000" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="998" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="993" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="988" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="974" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="964" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="952" cy="310" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="944" cy="339" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="938" cy="339" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="931" cy="339" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<circle cx="923" cy="339" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
-<text x="971" y="257" font-size="11" font-weight="bold" fill="#8e44ad">西一·錢來鏈</text>
-<polyline points="914.8,375.6 908.5,375.6 903.0,375.6 901.9,371.8 895.1,394.5 888.6,394.5 882.3,394.5 877.7,409.8 864.8,409.8 855.2,409.8 842.4,409.8 829.6,409.8 821.6,409.8 805.6,409.8 796.0,409.8 784.8,409.8 773.5,409.8" fill="none" stroke="#9b59b6" stroke-width="2.6" opacity="0.85"/>
-<circle cx="915" cy="376" r="5" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="908" cy="376" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="903" cy="376" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="902" cy="372" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="895" cy="395" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="889" cy="395" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="882" cy="395" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="878" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="865" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="855" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="842" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<polyline points="138.1,179.6 185.0,142.2 247.5,95.6 302.2,111.1 356.9,142.2 388.1,157.8 403.8,319.6 435.0,322.7 450.6,266.7 470.2,157.8" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="279" y="86" font-size="10" fill="#2f7fbf">地中海（北岸簡化）</text>
+<polyline points="438.9,375.6 458.4,453.3 481.9,593.3" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="462" y="469" font-size="10" fill="#2f7fbf">紅海（赤水候選）</text>
+<polyline points="428.8,316.4 423.3,422.2 435.0,531.1 442.8,624.4" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="410" y="438" font-size="10" fill="#2f7fbf">尼羅河（河/黑水候選）</text>
+<polyline points="481.9,142.2 505.3,235.6 528.8,297.8 556.1,360.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="494" y="198" font-size="10" fill="#2f7fbf">幼發拉底河</text>
+<polyline points="556.1,360.0 575.6,391.1 606.9,468.9 630.3,500.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="591" y="435" font-size="10" fill="#2f7fbf">波斯灣</text>
+<polyline points="716.2,220.0 731.9,328.9 743.6,453.3 720.2,546.7" fill="none" stroke="#2f7fbf" stroke-width="2"/>
+<text x="749" y="344" font-size="10" fill="#2f7fbf">印度河</text>
+<polyline points="794.4,235.6 849.1,360.0 888.1,422.2 927.2,391.1 966.2,422.2" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
+<text x="833" y="292" font-size="10" fill="#a07d1e">喜馬拉雅—青藏高原東緣（簡化）</text>
+<polyline points="114.7,328.9 145.9,266.7 185.0,204.4 224.1,157.8 263.1,142.2" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
+<text x="154" y="226" font-size="10" fill="#a07d1e">阿特拉斯山系</text>
+<ellipse cx="263" cy="500" rx="156" ry="109" fill="#e2d9c8" opacity="0.35"/>
+<text x="239" y="503" font-size="10" fill="#7a6540">撒哈拉（流沙候選帶）</text>
+<ellipse cx="429" cy="351" rx="6" ry="16" fill="#cfe0e8" opacity="0.35"/>
+<text x="405" y="354" font-size="10" fill="#7a6540">吉薩台地（昆侖之丘）</text>
+<polyline points="1048.5,220.6 1047.0,220.6 1045.1,220.6 1042.4,220.6 1039.8,220.6 1037.9,220.6 1035.5,220.6 1033.8,220.6 1029.9,220.6 1027.7,220.6 1022.7,220.6 1017.1,220.6 1003.8,220.6 993.3,220.6 981.8,220.6 973.0,249.6 967.1,249.6 960.5,249.6 952.3,249.6" fill="none" stroke="#8e44ad" stroke-width="2.6" opacity="0.85"/>
+<circle cx="1049" cy="221" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1047" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1045" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1042" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1040" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1038" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1036" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1034" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1030" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1028" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1023" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1017" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="1004" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="993" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="982" cy="221" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="973" cy="250" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="967" cy="250" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="961" cy="250" r="3" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<circle cx="952" cy="250" r="5" fill="#8e44ad" stroke="#fff" stroke-width="1.2"/>
+<text x="958" y="167" font-size="11" font-weight="bold" fill="#8e44ad">西一·錢來鏈</text>
+<polyline points="888.1,375.6 882.0,375.6 876.6,375.6 875.5,371.8 869.0,394.5 862.7,394.5 856.6,394.5 852.1,409.8 839.7,409.8 830.4,409.8 818.0,409.8 805.5,409.8 797.8,409.8 782.3,409.8 773.0,409.8 762.1,409.8 751.2,409.8" fill="none" stroke="#9b59b6" stroke-width="2.6" opacity="0.85"/>
+<circle cx="888" cy="376" r="5" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="882" cy="376" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="877" cy="376" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="876" cy="372" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="869" cy="395" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="863" cy="395" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="857" cy="395" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="852" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="840" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
 <circle cx="830" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="822" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="818" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
 <circle cx="806" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="796" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="785" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<circle cx="774" cy="410" r="5" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
-<text x="854" y="332" font-size="11" font-weight="bold" fill="#9b59b6">西二·鈐山鏈</text>
-<polyline points="499.7,445.6 492.9,422.5 484.4,394.2 474.9,362.2 465.3,330.1 459.5,330.1 449.2,330.1 440.1,360.6 428.2,360.6 415.3,360.6 408.9,360.6 397.6,360.6 382.2,360.6 372.5,360.6 366.0,360.6 357.0,360.6 347.3,360.6 340.9,360.6 333.9,360.6 327.7,360.6 316.5,360.6 307.1,360.6 303.9,360.6" fill="none" stroke="#6c3483" stroke-width="2.6" opacity="0.85"/>
-<circle cx="500" cy="446" r="5" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="493" cy="423" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="484" cy="394" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="475" cy="362" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="465" cy="330" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="460" cy="330" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="449" cy="330" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="440" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="798" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="782" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="773" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="762" cy="410" r="3" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<circle cx="751" cy="410" r="5" fill="#9b59b6" stroke="#fff" stroke-width="1.2"/>
+<text x="830" y="332" font-size="11" font-weight="bold" fill="#9b59b6">西二·鈐山鏈</text>
+<polyline points="485.9,445.6 479.4,422.5 471.2,394.2 462.0,362.2 452.7,330.1 447.0,330.1 437.0,330.1 428.2,360.6 416.7,360.6 404.2,360.6 398.0,360.6 387.0,360.6 372.1,360.6 362.7,360.6 356.5,360.6 347.7,360.6 338.4,360.6 332.1,360.6 325.3,360.6 319.4,360.6 308.4,360.6 299.4,360.6 296.2,360.6" fill="none" stroke="#6c3483" stroke-width="2.6" opacity="0.85"/>
+<circle cx="486" cy="446" r="5" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="479" cy="423" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="471" cy="394" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="462" cy="362" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="453" cy="330" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="447" cy="330" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="437" cy="330" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
 <circle cx="428" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="415" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="409" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="417" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="404" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
 <circle cx="398" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="382" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="387" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
 <circle cx="372" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="366" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="357" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="347" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="341" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="334" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="328" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="316" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="307" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="304" cy="361" r="5" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
-<circle cx="440" cy="361" r="9" fill="none" stroke="#6c3483" stroke-width="2.5"/>
-<text x="483" y="506" font-size="11" font-weight="bold" fill="#6c3483">西三·崇吾鏈</text>
-<polyline points="185.2,422.2 185.2,416.9 183.5,416.9 183.5,409.5 183.5,396.4 183.5,394.2 183.5,385.5 183.5,366.2 183.5,342.3 175.5,342.3 168.5,319.6 166.8,319.6 162.9,319.6 156.5,319.6 145.1,319.6 135.4,319.6 127.0,319.6 119.8,319.6 111.6,346.9" fill="none" stroke="#af7ac5" stroke-width="2.6" opacity="0.85"/>
-<circle cx="185" cy="422" r="5" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="185" cy="417" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="417" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="409" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="396" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="394" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="386" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="366" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="184" cy="342" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="175" cy="342" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="169" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="167" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="363" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="356" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="348" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="338" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="332" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="325" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="319" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="308" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="299" cy="361" r="3" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="296" cy="361" r="5" fill="#6c3483" stroke="#fff" stroke-width="1.2"/>
+<circle cx="428" cy="361" r="9" fill="none" stroke="#6c3483" stroke-width="2.5"/>
+<text x="470" y="506" font-size="11" font-weight="bold" fill="#6c3483">西三·崇吾鏈</text>
+<polyline points="181.2,422.2 181.2,416.9 179.7,416.9 179.7,409.5 179.7,396.4 179.7,394.2 179.7,385.5 179.7,366.2 179.7,342.3 171.9,342.3 165.2,319.6 163.4,319.6 159.7,319.6 153.4,319.6 142.4,319.6 133.0,319.6 124.9,319.6 118.0,319.6 110.0,346.9" fill="none" stroke="#af7ac5" stroke-width="2.6" opacity="0.85"/>
+<circle cx="181" cy="422" r="5" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="181" cy="417" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="417" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="409" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="396" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="394" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="386" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="366" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="180" cy="342" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="172" cy="342" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="165" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
 <circle cx="163" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="156" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="145" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="135" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="127" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="120" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="112" cy="347" r="5" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
-<circle cx="112" cy="347" r="9" fill="none" stroke="#af7ac5" stroke-width="2.5"/>
+<circle cx="160" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="153" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="142" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="133" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="125" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="118" cy="320" r="3" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="110" cy="347" r="5" fill="#af7ac5" stroke="#fff" stroke-width="1.2"/>
+<circle cx="110" cy="347" r="9" fill="none" stroke="#af7ac5" stroke-width="2.5"/>
 <text x="72" y="298" font-size="11" font-weight="bold" fill="#af7ac5">西四·陰山鏈</text>
-<text x="366" y="385" font-size="9" fill="#6c3483">昆侖之丘＝吉薩（ANC-01 起始座標錨；金字塔台地—陵寢格局）</text>
-<text x="512" y="282" font-size="9" fill="#8e44ad">兩河流域＝框架書階段（F-0007 空檔）</text>
+<text x="357" y="385" font-size="9" fill="#6c3483">昆侖之丘＝吉薩（ANC-01 起始座標錨；金字塔台地—陵寢格局）</text>
+<text x="498" y="282" font-size="9" fill="#8e44ad">兩河流域＝框架書階段（F-0007 空檔）</text>
 <text x="64" y="385" font-size="9" fill="#6c3483">崦嵫之山＝蘇斯河口（日落方向）</text>
-<rect x="438" y="357" width="6" height="6" fill="#34495e"/>
-<text x="446" y="356" font-size="9" fill="#34495e">開羅</text>
-<rect x="544" y="254" width="6" height="6" fill="#34495e"/>
-<text x="552" y="253" font-size="9" fill="#34495e">巴格達</text>
-<rect x="809" y="401" width="6" height="6" fill="#34495e"/>
-<text x="817" y="400" font-size="9" fill="#34495e">德里</text>
-<rect x="921" y="369" width="6" height="6" fill="#34495e"/>
-<text x="929" y="368" font-size="9" fill="#34495e">拉薩</text>
-<rect x="268" y="145" width="6" height="6" fill="#34495e"/>
-<text x="276" y="144" font-size="9" fill="#34495e">突尼斯</text>
+<rect x="426" y="357" width="6" height="6" fill="#34495e"/>
+<text x="434" y="356" font-size="9" fill="#34495e">開羅</text>
+<rect x="529" y="254" width="6" height="6" fill="#34495e"/>
+<text x="537" y="253" font-size="9" fill="#34495e">巴格達</text>
+<rect x="785" y="401" width="6" height="6" fill="#34495e"/>
+<text x="793" y="400" font-size="9" fill="#34495e">德里</text>
+<rect x="894" y="369" width="6" height="6" fill="#34495e"/>
+<text x="902" y="368" font-size="9" fill="#34495e">拉薩</text>
+<rect x="262" y="145" width="6" height="6" fill="#34495e"/>
+<text x="270" y="144" font-size="9" fill="#34495e">突尼斯</text>
 </g>
-<line x1="108" y1="640" x2="108" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="100" y="656" font-size="9" fill="#999">10°W</text>
-<line x1="189" y1="640" x2="189" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="181" y="656" font-size="9" fill="#999">0°E</text>
-<line x1="270" y1="640" x2="270" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="262" y="656" font-size="9" fill="#999">10°E</text>
-<line x1="350" y1="640" x2="350" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="342" y="656" font-size="9" fill="#999">20°E</text>
-<line x1="431" y1="640" x2="431" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="423" y="656" font-size="9" fill="#999">30°E</text>
-<line x1="512" y1="640" x2="512" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="504" y="656" font-size="9" fill="#999">40°E</text>
-<line x1="592" y1="640" x2="592" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="584" y="656" font-size="9" fill="#999">50°E</text>
-<line x1="673" y1="640" x2="673" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="665" y="656" font-size="9" fill="#999">60°E</text>
-<line x1="754" y1="640" x2="754" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="746" y="656" font-size="9" fill="#999">70°E</text>
-<line x1="834" y1="640" x2="834" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="826" y="656" font-size="9" fill="#999">80°E</text>
-<line x1="915" y1="640" x2="915" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="907" y="656" font-size="9" fill="#999">90°E</text>
-<line x1="995" y1="640" x2="995" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="987" y="656" font-size="9" fill="#999">100°E</text>
+<line x1="107" y1="640" x2="107" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="99" y="656" font-size="9" fill="#999">10°W</text>
+<line x1="185" y1="640" x2="185" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="177" y="656" font-size="9" fill="#999">0°E</text>
+<line x1="263" y1="640" x2="263" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="255" y="656" font-size="9" fill="#999">10°E</text>
+<line x1="341" y1="640" x2="341" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="333" y="656" font-size="9" fill="#999">20°E</text>
+<line x1="419" y1="640" x2="419" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="411" y="656" font-size="9" fill="#999">30°E</text>
+<line x1="498" y1="640" x2="498" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="490" y="656" font-size="9" fill="#999">40°E</text>
+<line x1="576" y1="640" x2="576" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="568" y="656" font-size="9" fill="#999">50°E</text>
+<line x1="654" y1="640" x2="654" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="646" y="656" font-size="9" fill="#999">60°E</text>
+<line x1="732" y1="640" x2="732" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="724" y="656" font-size="9" fill="#999">70°E</text>
+<line x1="810" y1="640" x2="810" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="802" y="656" font-size="9" fill="#999">80°E</text>
+<line x1="888" y1="640" x2="888" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="880" y="656" font-size="9" fill="#999">90°E</text>
+<line x1="966" y1="640" x2="966" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="958" y="656" font-size="9" fill="#999">100°E</text>
+<line x1="1044" y1="640" x2="1044" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
 <line x1="60" y1="609" x2="1060" y2="609" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="612" font-size="9" fill="#999">22°N</text>
 <line x1="60" y1="547" x2="1060" y2="547" stroke="#d9d2c0" stroke-width="0.6"/>
@@ -170,18 +171,18 @@
 <line x1="60" y1="111" x2="1060" y2="111" stroke="#d9d2c0" stroke-width="0.6"/>
 <text x="34" y="114" font-size="9" fill="#999">38°N</text>
 <rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
-<line x1="120" y1="562" x2="455" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="562" x2="444" y2="562" stroke="#333" stroke-width="2"/>
 <line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
 <text x="112" y="578" font-size="9" fill="#333">0</text>
-<line x1="204" y1="558" x2="204" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="196" y="578" font-size="9" fill="#333">1000</text>
-<line x1="287" y1="558" x2="287" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="279" y="578" font-size="9" fill="#333">2000</text>
-<line x1="371" y1="558" x2="371" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="363" y="578" font-size="9" fill="#333">3000</text>
-<line x1="455" y1="558" x2="455" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="447" y="578" font-size="9" fill="#333">4000</text>
-<text x="463" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="201" y1="558" x2="201" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="193" y="578" font-size="9" fill="#333">1000</text>
+<line x1="282" y1="558" x2="282" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="274" y="578" font-size="9" fill="#333">2000</text>
+<line x1="363" y1="558" x2="363" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="355" y="578" font-size="9" fill="#333">3000</text>
+<line x1="444" y1="558" x2="444" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="436" y="578" font-size="9" fill="#333">4000</text>
+<text x="452" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#6c3483" stroke-width="2.5"/>
@@ -201,13 +202,13 @@
 <text x="1090" y="291" font-size="10" fill="#666">里程與方位以水系拓扑→山勢走向→人文風物為序；後世同名（陰山/天山等）借名標記不作反證。</text>
 <text x="1090" y="310" font-size="10" fill="#666">西二與西三之間的兩河空檔（72.5°E→38.5°E）由框架書承擔（F-0007）。</text>
 <text x="1090" y="344.0" font-size="14" font-weight="bold" fill="#333">子經鏈 → 現實區域（審核中）</text>
-<text x="1090" y="366" font-size="11" fill="#8e44ad"><tspan font-weight="bold">西一·錢來鏈</tspan>（19 站）→ 橫斷山北段—藏東（昌都方向；卡若文化同域；天帝—翠山段納木錯終點）</text>
+<text x="1090" y="366" font-size="11" fill="#8e44ad">西一·錢來鏈（19 站）→ 華山—秦嶺主脊—漢水源—青海湖（v1 回擺，T-RT05 遮蔽確認：太華＝華山、…</text>
 <text x="1090" y="387" font-size="11" fill="#9b59b6"><tspan font-weight="bold">西二·鈐山鏈</tspan>（17 站）→ 喜馬拉雅東段南麓→印度河中游（古印度·哈拉帕方向；犀牛西界鎖定）</text>
 <text x="1090" y="408" font-size="11" fill="#6c3483">西三·崇吾鏈（23 站）→ 希斯馬高原→吉薩（昆侖之丘＝開羅·座標錨）→錫瓦綠洲—利比亞（西王母·三…</text>
 <text x="1090" y="430" font-size="11" fill="#af7ac5"><tspan font-weight="bold">西四·陰山鏈</tspan>（19 站）→ 紹拉河谷→阿特拉斯主脊（鳥鼠同穴集水嶺）→蘇斯河口（崦嵫日落）入大西洋</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：《西山經》四鏈自東而西——西一（錢來之山→騩山：橫斷山北段—藏東，昌都/卡若方向，天帝—翠山段臨納木錯）→西二（鈐山→萊山：喜馬拉雅東段南麓—特萊帶→印度河中游</text>
-<text x="60" y="702" font-size="11" fill="#666">，犀牛西界止於印度河＝物種鎖定）→西三（崇吾之山→翼望之山：希斯馬高原→昆侖之丘＝吉薩·金字塔台地與陵寢格局＋人面獸身造像→錫瓦綠洲玉山·西王母→哈魯傑火山原三危→利比亞段</text>
-<text x="60" y="718" font-size="11" fill="#666">）→西四（陰山→崦嵫之山：紹拉河谷→阿特拉斯集水嶺（鳥鼠同穴）→蘇斯河口日落入大西洋）。</text>
+<text x="60" y="686" font-size="11" fill="#666">推理說明：《西山經》四鏈自東而西——西一（錢來之山→騩山：華陰—華山→秦嶺北麓—主脊（大時時＝太白—鰲山）→漢水源（嶓塚）→甘南→青海湖（騩山錞于西海）——T-RT05 遮蔽重</text>
+<text x="60" y="702" font-size="11" fill="#666">判後 v1 回擺）→西二（鈐山→萊山：喜馬拉雅東段南麓—特萊帶→印度河中游，犀牛西界止於印度河＝物種鎖定）→西三（崇吾之山→翼望之山：希斯馬高原→昆侖之丘＝吉薩·金字塔台地與</text>
+<text x="60" y="718" font-size="11" fill="#666">陵寢格局＋人面獸身造像→錫瓦綠洲玉山·西王母→哈魯傑火山原三危→利比亞段）→西四（陰山→崦嵫之山：紹拉河谷→阿特拉斯集水嶺（鳥鼠同穴）→蘇斯河口日落入大西洋）。</text>
 <text x="60" y="740" font-size="11" fill="#666">概要圖站位＝各子經算術網格（層累已記於各經 variant）；比例尺 0.35/0.385/0.42 帶。所有對應為競爭假說，時代窗口 4000–1000 BCE；靜態形狀優先、禁止因果倒置、詞義通用、文</text>
 <text x="60" y="756" font-size="11" fill="#666">化斷層四原則適用全圖。</text>
 </svg>
