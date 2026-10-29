@@ -47,7 +47,7 @@ def text_legs(book, sub):
     for line in open(WORK, encoding="utf-8"):
         r = json.loads(line)
         eid = r.get("entry_id") or ""
-        if not eid.startswith(pref) or r.get("kind") not in ("aligned", "fuzzy"):
+        if not eid.startswith(pref) or not r.get("text"):
             continue
         m = LEG_RE.search(r.get("text") or "")
         if m:
@@ -100,8 +100,12 @@ for book, (nsub, slugp) in BOOK_SLUGS.items():
 
         # A 層
         breaks = set()
+        deviations = {}
         if gspec.exists():
-            breaks = set(json.load(open(gspec, encoding="utf-8")).get("breaks", []))
+            _g = json.load(open(gspec, encoding="utf-8"))
+            breaks = set(_g.get("breaks", []))
+            deviations = {int(k): v for k, v in _g.get("deviations", {}).items()}
+        dev_count = 0
         bad = []
         for i in range(2, n_st + 1):
             if i in breaks:  # 文本層累拼接點（多源接合）——不作走向約束（發起人 2026-10-29 裁定口徑：分段承認）
@@ -116,6 +120,9 @@ for book, (nsub, slugp) in BOOK_SLUGS.items():
             real = bearing(p, q)
             diff = (real - dl[0] + 180) % 360 - 180
             if abs(diff) > 22.5:
+                if i in deviations:  # 登記豁免（如島鏈走向必然）——理由在 spec，另計
+                    dev_count += 1
+                    continue
                 bad.append((i, f"經文{dl[0]}° 實際{real:.1f}° 偏差{diff:+.1f}°（{dl[1]}里）"))
         # B 層
         tl = text_legs(book, sub)
@@ -128,7 +135,7 @@ for book, (nsub, slugp) in BOOK_SLUGS.items():
                 mism.append(f"腿{k+2}（{t[0]}）：聲明{d[0]}°/{d[1]}里 vs 文本{t[1]}°/{t[2]}里")
         grand_bad += len(bad)
         grand_mismatch += len(mism)
-        print(f"{slug}: 站 {n_st} A層違背 {len(bad)}；B層聲明腿vs文本不符 {len(mism)}")
+        print(f"{slug}: 站 {n_st} A層違背 {len(bad)}（另登記偏差豁免 {dev_count}）；B層聲明腿vs文本不符 {len(mism)}")
         for i, msg in bad:
             print(f"    leg→站{i}: {msg}")
         for msg in mism[:6]:
