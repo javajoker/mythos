@@ -385,7 +385,7 @@
 <circle cx="439" cy="167" r="5" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
 <circle cx="439" cy="190" r="9" fill="none" stroke="#a07d1e" stroke-width="2.5"/>
 <text x="400" y="179" font-size="11" font-weight="bold" fill="#a07d1e">北一</text>
-<polyline points="425.0,273.5 422.1,273.5 422.1,272.6 422.1,269.0 422.1,262.9 422.1,255.8 422.1,249.1 422.1,242.3 422.1,236.1 422.1,230.0 422.1,223.8 422.1,218.5 422.1,212.3 422.1,205.2 422.1,198.5 422.1,184.4" fill="none" stroke="#b7950b" stroke-width="2.6" opacity="0.85"/>
+<polyline points="425.0,273.5 422.1,273.5 422.1,272.6 422.1,269.0 422.1,262.9 422.1,255.8 422.1,249.1 422.1,242.3 422.1,236.1 422.1,230.0 422.1,224.7 422.1,218.5 422.1,211.4 422.1,204.7 422.1,190.6 422.1,185.3" fill="none" stroke="#b7950b" stroke-width="2.6" opacity="0.85"/>
 <circle cx="425" cy="273" r="5" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="422" cy="273" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="422" cy="273" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
@@ -396,13 +396,13 @@
 <circle cx="422" cy="242" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="422" cy="236" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="422" cy="230" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
-<circle cx="422" cy="224" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
+<circle cx="422" cy="225" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="422" cy="218" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
-<circle cx="422" cy="212" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
+<circle cx="422" cy="211" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
 <circle cx="422" cy="205" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
-<circle cx="422" cy="199" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
-<circle cx="422" cy="184" r="5" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
-<circle cx="422" cy="184" r="9" fill="none" stroke="#b7950b" stroke-width="2.5"/>
+<circle cx="422" cy="191" r="3" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
+<circle cx="422" cy="185" r="5" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>
+<circle cx="422" cy="185" r="9" fill="none" stroke="#b7950b" stroke-width="2.5"/>
 <text x="428" y="172" font-size="11" font-weight="bold" fill="#b7950b">北二</text>
 <polyline points="422.1,276.6 423.7,274.1 425.4,271.5 425.9,270.7 427.6,268.2 431.1,268.2 435.2,268.2 435.2,266.4 437.7,262.7 437.7,268.0 439.2,270.4 440.8,272.4 442.1,271.9 443.3,271.7 444.7,271.4 445.7,271.2 446.9,270.9 447.8,268.6 447.9,265.3 449.3,265.1 449.0,261.2 448.9,258.7 449.4,257.9 450.0,256.9 449.7,254.6 449.6,253.3 449.4,252.1 449.2,250.8 448.9,249.5 448.6,248.0 448.3,246.0 448.2,244.7 448.5,243.2 448.3,240.6 448.2,237.8 447.9,235.8 447.6,233.2 447.4,230.4 447.1,228.9 446.9,227.6 446.0,221.0 445.3,214.9 444.4,208.3 443.6,201.7 442.9,195.6 442.2,192.5 435.8,164.0" fill="none" stroke="#7d6608" stroke-width="2.6" opacity="0.85"/>
 <circle cx="422" cy="277" r="5" fill="#7d6608" stroke="#fff" stroke-width="1.2"/>

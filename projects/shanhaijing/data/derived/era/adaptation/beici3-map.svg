@@ -2,7 +2,7 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《北次三經》（太行之山之首）時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-beici3-3（2026-10-29 嚴格走向重校準）｜ 每腿方位偏差≤22.5°容差錐零違背 ｜ 段A字面0.385保真、段B–D分段壓縮登記 ｜ 景山＝鹽湖北岸中條山（資源錨）｜ 空桑＝小五台山（海拔錨）｜ 錞于毋逢＝北貝加爾湖北岸（RT-B04）｜ 全部映射 proposed_pending_review｜站25改名景山（二）（撞鍵修復2026-10-29）</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-beici3-3（2026-10-29 嚴格走向重校準）｜ 每腿方位偏差≤22.5°容差錐零違背 ｜ 段A字面0.385保真、段B–D分段壓縮登記 ｜ 景山＝鹽湖北岸中條山（資源錨）｜ 空桑＝小五台山（海拔錨）｜ 錞于毋逢＝北貝加爾湖北岸（RT-B04）｜ 全部映射 proposed_pending_review｜站25改名景山二（撞鍵修復2026-10-29）</text>
 <g clip-path="url(#mapclip)">
 <polyline points="321.9,520.0 369.5,490.0 417.1,460.0 464.8,450.0 536.2,470.0 574.3,500.0 560.0,540.0 562.4,568.0" fill="none" stroke="#c89a2e" stroke-width="2.2"/>
 <text x="336" y="528" font-size="10" fill="#c89a2e">黃河（中游穩定段——現代參照）</text>
@@ -251,7 +251,7 @@
 <text x="1090" y="806" font-size="9.5" fill="#7b241c">22 發鳩之山 → 漳水東注河｜⛰邢台—沙河—內丘南 太行…</text>
 <text x="1090" y="824" font-size="9.5" fill="#7b241c">23 少山 → 清漳之水東注濁漳之水＝兩水東流相匯｜⛰內丘…</text>
 <text x="1090" y="841" font-size="9.5" fill="#7b241c">24 錫山 → 多玉砥｜⛰隆堯—寧晉西 太行東麓邊緣</text>
-<text x="1362" y="438" font-size="9.5" fill="#7b241c">25 景山（二） → 美玉（站25）｜⛰寧晉—柏鄉—高邑東</text>
+<text x="1362" y="438" font-size="9.5" fill="#7b241c">25 景山二 → 美玉（站25）｜⛰寧晉—柏鄉—高邑東</text>
 <text x="1362" y="456" font-size="9.5" fill="#7b241c">26 題首之山 → 有玉多石無水｜⛰高邑—趙縣—元氏東</text>
 <text x="1362" y="474" font-size="9.5" fill="#7b241c">27 繡山 → 玉青碧栒木｜⛰趙縣—欒城—元氏</text>
 <text x="1362" y="491" font-size="9.5" fill="#7b241c">28 松山 → 陽水東北注河｜⛰正定—獲鹿—鹿泉東麓</text>
