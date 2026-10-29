@@ -36,25 +36,25 @@
 <circle cx="857" cy="353" r="5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
 <circle cx="857" cy="225" r="9" fill="none" stroke="#1e8449" stroke-width="2.5"/>
 <text x="913" y="202" font-size="11" font-weight="bold" fill="#1e8449">東一·樕𧑤鏈</text>
-<polyline points="820.0,243.8 820.0,265.8 801.0,276.1 801.0,305.5 801.0,319.4 801.0,333.4 801.0,344.4 801.0,355.4 801.0,366.3 801.0,380.3 801.0,395.0 801.0,406.0 801.0,417.1 801.0,435.3 801.0,446.3 801.0,464.7 801.0,483.0" fill="none" stroke="#27ae60" stroke-width="2.6" opacity="0.85"/>
-<circle cx="820" cy="244" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="820" cy="266" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="276" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="305" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="319" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="333" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="344" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="355" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="366" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="380" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="395" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="406" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="417" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="435" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="446" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="465" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="801" cy="483" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="820" cy="244" r="9" fill="none" stroke="#27ae60" stroke-width="2.5"/>
+<polyline points="812.9,242.7 812.9,264.7 793.9,275.0 793.9,304.4 793.9,318.4 793.9,332.3 793.9,343.3 793.9,354.3 793.9,365.3 793.9,379.2 793.9,393.9 793.9,404.9 793.9,416.0 793.9,434.3 793.9,445.3 793.9,463.7 793.9,481.9" fill="none" stroke="#27ae60" stroke-width="2.6" opacity="0.85"/>
+<circle cx="813" cy="243" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="813" cy="265" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="275" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="304" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="318" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="332" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="343" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="354" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="365" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="379" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="394" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="405" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="416" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="434" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="445" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="464" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="794" cy="482" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="813" cy="243" r="9" fill="none" stroke="#27ae60" stroke-width="2.5"/>
 <text x="267" y="103" font-size="11" font-weight="bold" fill="#27ae60">東二·空桑鏈</text>
 <polyline points="781.4,423.4 781.4,452.8 781.4,478.4 781.4,504.1 836.1,504.1 836.1,529.8 836.1,566.5 836.1,599.4 836.1,628.8" fill="none" stroke="#196f3d" stroke-width="2.6" opacity="0.85"/>
 <circle cx="781" cy="423" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>

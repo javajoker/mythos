@@ -2,170 +2,132 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《東次二經》（空桑山之首）時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-dongci2-3（T-RT20 重配，2026-10-27）｜ 起點拓撲錨：空桑之山（北臨食水＝聖勞倫斯河＋西望湣澤＝安大略湖）＝紐約州—賓州方向 ｜ 阿巴拉契亞西麓—俄亥俄—田納西—密西西比河谷—墨西哥灣岸 ｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-dongci2-4（2026-10-29 嚴格走向重校準）｜ 南600→西南400→南×15：16腿方位零違背（容差錐±22.5°）｜ 空桑＝芬格湖群西緣（四望格局）→佛州礁島群（終點·南臨䃌水＝佛州海峽）｜ 實測比≈0.31 km/里（壓縮登記）｜ 全部 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
-<polyline points="800.7,123.3 911.9,110.5 1004.4,92.7 1041.5,74.9" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
-<text x="808" y="95" font-size="10" fill="#2f7fbf">聖勞倫斯河（食水——與東一同實例）</text>
-<ellipse cx="856" cy="144" rx="56" ry="20" fill="#cfe0e8" opacity="0.35"/>
-<text x="832" y="147" font-size="10" fill="#7a6540">安大略湖（湣澤候選）</text>
-<polyline points="893.3,181.8 819.3,232.7 763.7,270.9 689.6,321.8 597.0,360.0 541.5,385.5" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
-<text x="641" y="289" font-size="10" fill="#a07d1e">阿巴拉契亞西麓（簡化示意）</text>
-<polyline points="745.2,220.0 689.6,245.5 615.6,258.2 541.5,278.5 467.4,296.4 430.4,309.1" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="593" y="268" font-size="10" fill="#2f7fbf">俄亥俄河（水行候選）</text>
-<polyline points="619.3,337.1 567.4,360.0 523.0,370.2 474.8,365.1 445.2,309.1" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="508" y="357" font-size="10" fill="#2f7fbf">田納西河（黃水候選）</text>
-<polyline points="430.4,309.1 385.9,347.3 356.3,385.5 348.9,423.6 356.3,461.8 345.2,507.6" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="356" y="396" font-size="10" fill="#2f7fbf">密西西比河（現代參照）</text>
-<polyline points="115.6,576.4 152.6,538.2 208.1,505.1 263.7,494.9 337.8,505.1 411.9,487.3 467.4,479.6" fill="none" stroke="#5b97c4" stroke-width="2.4"/>
-<text x="245" y="531" font-size="10" fill="#5b97c4">墨西哥灣（䃌水）</text>
-<ellipse cx="227" cy="515" rx="93" ry="15" fill="#cfe0e8" opacity="0.35"/>
-<text x="203" y="518" font-size="10" fill="#7a6540">灣岸潟湖帶（湖澤/沙澤）</text>
-<polyline points="882.2,169.1 819.3,217.5 756.3,260.7 697.0,298.9 615.6,326.9 523.0,370.2 467.4,395.6 411.9,418.5 356.3,438.9 334.1,461.8 323.0,482.2 311.9,500.0 260.0,502.5 223.0,505.1 189.6,515.3 156.3,533.1 123.0,553.5" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
-<circle cx="882" cy="169" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
-<text x="878" y="173" font-size="9" fill="#fff" font-weight="bold">1</text>
-<text x="864" y="149" font-size="10" fill="#7b241c" font-weight="bold">空桑之山</text>
-<circle cx="819" cy="217" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="815" y="221" font-size="9" fill="#fff" font-weight="bold">2</text>
-<text x="801" y="233" font-size="10" fill="#7b241c" font-weight="bold">曹夕之山</text>
-<circle cx="756" cy="261" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="752" y="265" font-size="9" fill="#fff" font-weight="bold">3</text>
-<text x="738" y="250" font-size="10" fill="#7b241c" font-weight="bold">嶧皋之山</text>
-<circle cx="697" cy="299" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="693" y="303" font-size="9" fill="#fff" font-weight="bold">4</text>
-<text x="679" y="315" font-size="10" fill="#7b241c" font-weight="bold">葛山之尾</text>
-<circle cx="616" cy="327" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="612" y="331" font-size="9" fill="#fff" font-weight="bold">5</text>
-<text x="598" y="316" font-size="10" fill="#7b241c" font-weight="bold">葛山之首</text>
-<circle cx="523" cy="370" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="519" y="374" font-size="9" fill="#fff" font-weight="bold">6</text>
-<text x="505" y="386" font-size="10" fill="#7b241c" font-weight="bold">餘峩之山</text>
-<circle cx="467" cy="396" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="463" y="400" font-size="9" fill="#fff" font-weight="bold">7</text>
-<text x="449" y="385" font-size="10" fill="#7b241c" font-weight="bold">杜父之山</text>
-<circle cx="412" cy="419" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="408" y="423" font-size="9" fill="#fff" font-weight="bold">8</text>
-<text x="394" y="435" font-size="10" fill="#7b241c" font-weight="bold">耿山</text>
-<circle cx="356" cy="439" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="352" y="443" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="338" y="428" font-size="10" fill="#7b241c" font-weight="bold">盧其之山</text>
-<circle cx="334" cy="462" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="330" y="466" font-size="9" fill="#fff" font-weight="bold">10</text>
-<text x="316" y="478" font-size="10" fill="#7b241c" font-weight="bold">姑射之山</text>
-<circle cx="323" cy="482" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="319" y="486" font-size="9" fill="#fff" font-weight="bold">11</text>
-<text x="305" y="471" font-size="10" fill="#7b241c" font-weight="bold">北姑射之山</text>
-<circle cx="312" cy="500" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="308" y="504" font-size="9" fill="#fff" font-weight="bold">12</text>
-<text x="294" y="516" font-size="10" fill="#7b241c" font-weight="bold">南姑射之山</text>
-<circle cx="260" cy="503" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="256" y="507" font-size="9" fill="#fff" font-weight="bold">13</text>
-<text x="242" y="492" font-size="10" fill="#7b241c" font-weight="bold">碧山</text>
-<circle cx="223" cy="505" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="219" y="509" font-size="9" fill="#fff" font-weight="bold">14</text>
-<text x="205" y="521" font-size="10" fill="#7b241c" font-weight="bold">緱氏之山</text>
-<circle cx="190" cy="515" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="186" y="519" font-size="9" fill="#fff" font-weight="bold">15</text>
-<text x="172" y="504" font-size="10" fill="#7b241c" font-weight="bold">姑逢之山</text>
-<circle cx="156" cy="533" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="152" y="537" font-size="9" fill="#fff" font-weight="bold">16</text>
-<text x="138" y="549" font-size="10" fill="#7b241c" font-weight="bold">鳧麗之山</text>
-<circle cx="123" cy="553" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="119" y="557" font-size="9" fill="#fff" font-weight="bold">17</text>
-<text x="105" y="542" font-size="10" fill="#7b241c" font-weight="bold">䃌山</text>
-<text x="67" y="93" font-size="9" fill="#8e44ad">食水＝聖勞倫斯河（與東一同實例）；東四＝聖約翰斯河（同名異實）</text>
-<text x="67" y="335" font-size="9" fill="#2f9e8f">犰狳＝本獸（鏈南段＝灣岸北緣＝窗口期犰狳北界）；負鼠→絜鉤（善登木✓）</text>
-<text x="208" y="436" font-size="9" fill="#666">水行＝河道航行；流沙＝河谷沙洲（複合段×2）</text>
-<text x="67" y="625" font-size="9" fill="#666">網格＝否定工具（G-3）；鏈位＝走廊擬合（純南網格記 variant）</text>
-<rect x="761" y="220" width="6" height="6" fill="#34495e"/>
-<text x="769" y="219" font-size="9" fill="#34495e">匹茲堡</text>
-<rect x="390" y="354" width="6" height="6" fill="#34495e"/>
-<text x="398" y="353" font-size="9" fill="#34495e">孟菲斯</text>
-<rect x="387" y="484" width="6" height="6" fill="#34495e"/>
-<text x="395" y="483" font-size="9" fill="#34495e">新奧爾良</text>
-<rect x="190" y="489" width="6" height="6" fill="#34495e"/>
-<text x="198" y="488" font-size="9" fill="#34495e">休斯頓</text>
+<polyline points="560.0,119.7 774.3,108.0 952.9,91.7 1024.3,75.3" fill="none" stroke="#2f7fbf" stroke-width="2.2"/>
+<text x="574" y="94" font-size="10" fill="#2f7fbf">聖勞倫斯河（食水——與東一同實例）</text>
+<ellipse cx="667" cy="138" rx="107" ry="19" fill="#cfe0e8" opacity="0.35"/>
+<text x="643" y="141" font-size="10" fill="#7a6540">安大略湖（湣澤候選）</text>
+<polyline points="738.6,173.3 595.7,220.0 488.6,255.0 345.7,301.7 167.1,336.7 60.0,360.0" fill="none" stroke="#a07d1e" stroke-width="2.2"/>
+<text x="253" y="271" font-size="10" fill="#a07d1e">阿巴拉契亞西麓（簡化示意）</text>
+<polyline points="452.9,208.3 345.7,231.7 202.9,243.3 60.0,262.0 -82.9,278.3 -154.3,290.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="160" y="253" font-size="10" fill="#2f7fbf">俄亥俄河（水行候選）</text>
+<polyline points="210.0,315.7 110.0,336.7 24.3,346.0 -68.6,341.3 -125.7,290.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<polyline points="-154.3,290.0 -240.0,325.0 -297.1,360.0 -311.4,395.0 -297.1,430.0 -318.6,472.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<polyline points="-761.4,535.0 -690.0,500.0 -582.9,469.7 -475.7,460.3 -332.9,469.7 -190.0,453.3 -82.9,446.3" fill="none" stroke="#5b97c4" stroke-width="2.4"/>
+<ellipse cx="-547" cy="479" rx="179" ry="14" fill="#cfe0e8" opacity="0.35"/>
+<polyline points="681.4,159.3 660.0,185.0 610.0,203.7 588.6,238.7 574.3,269.0 560.0,301.7 545.7,322.7 531.4,343.7 517.1,364.7 502.9,392.7 488.6,418.3 474.3,439.3 460.0,460.3 445.7,493.0 431.4,511.7 417.1,544.3 402.9,577.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="681" cy="159" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="677" y="163" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="663" y="139" font-size="10" fill="#7b241c" font-weight="bold">空桑之山</text>
+<circle cx="660" cy="185" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="610" cy="204" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="606" y="208" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="592" y="220" font-size="10" fill="#7b241c" font-weight="bold">嶧皋之山</text>
+<circle cx="589" cy="239" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="574" cy="269" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="560" cy="302" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="556" y="306" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="542" y="291" font-size="10" fill="#7b241c" font-weight="bold">餘峩之山</text>
+<circle cx="546" cy="323" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="531" cy="344" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="517" cy="365" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="513" y="369" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="499" y="381" font-size="10" fill="#7b241c" font-weight="bold">盧其之山</text>
+<circle cx="503" cy="393" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="489" cy="418" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="485" y="422" font-size="9" fill="#fff" font-weight="bold">11</text>
+<text x="471" y="407" font-size="10" fill="#7b241c" font-weight="bold">北姑射之山</text>
+<circle cx="474" cy="439" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="460" cy="460" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="446" cy="493" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="442" y="497" font-size="9" fill="#fff" font-weight="bold">14</text>
+<text x="428" y="509" font-size="10" fill="#7b241c" font-weight="bold">緱氏之山</text>
+<circle cx="431" cy="512" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="417" cy="544" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="403" cy="577" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="399" y="581" font-size="9" fill="#fff" font-weight="bold">17</text>
+<text x="385" y="566" font-size="10" fill="#7b241c" font-weight="bold">䃌山</text>
+<text x="74" y="113" font-size="9" fill="#8e44ad">空桑＝芬格湖群西緣：北臨食水＝聖勞倫斯河·西望湣澤＝安大略湖（四望硬合）</text>
+<text x="74" y="213" font-size="9" fill="#666">水行＋流沙＝河流航行＋河谷沙洲/河口障壁島</text>
+<text x="74" y="299" font-size="9" fill="#2f9e8f">餘峩＝犰狳窗口期北界（田納西東）</text>
+<text x="74" y="563" font-size="9" fill="#2f9e8f">䃌山＝佛州礁島群：南臨䃌水＝佛州海峽；絜鉤＝負鼠（善登木硬合）</text>
+<rect x="914" y="201" width="6" height="6" fill="#34495e"/>
+<text x="922" y="200" font-size="9" fill="#34495e">紐約</text>
+<rect x="471" y="548" width="6" height="6" fill="#34495e"/>
+<text x="479" y="547" font-size="9" fill="#34495e">邁阿密</text>
 </g>
-<line x1="97" y1="640" x2="97" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="89" y="656" font-size="9" fill="#999">-98°E</text>
-<line x1="171" y1="640" x2="171" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="163" y="656" font-size="9" fill="#999">-96°E</text>
-<line x1="245" y1="640" x2="245" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="237" y="656" font-size="9" fill="#999">-94°E</text>
-<line x1="319" y1="640" x2="319" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="311" y="656" font-size="9" fill="#999">-92°E</text>
-<line x1="393" y1="640" x2="393" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="385" y="656" font-size="9" fill="#999">-90°E</text>
-<line x1="467" y1="640" x2="467" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="459" y="656" font-size="9" fill="#999">-88°E</text>
-<line x1="541" y1="640" x2="541" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="533" y="656" font-size="9" fill="#999">-86°E</text>
-<line x1="616" y1="640" x2="616" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="608" y="656" font-size="9" fill="#999">-84°E</text>
-<line x1="690" y1="640" x2="690" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="682" y="656" font-size="9" fill="#999">-82°E</text>
-<line x1="764" y1="640" x2="764" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="756" y="656" font-size="9" fill="#999">-80°E</text>
-<line x1="838" y1="640" x2="838" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="830" y="656" font-size="9" fill="#999">-78°E</text>
-<line x1="912" y1="640" x2="912" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="904" y="656" font-size="9" fill="#999">-76°E</text>
-<line x1="986" y1="640" x2="986" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="978" y="656" font-size="9" fill="#999">-74°E</text>
-<line x1="60" y1="615" x2="1060" y2="615" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="618" font-size="9" fill="#999">25°N</text>
-<line x1="60" y1="589" x2="1060" y2="589" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="592" font-size="9" fill="#999">26°N</text>
-<line x1="60" y1="564" x2="1060" y2="564" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="567" font-size="9" fill="#999">27°N</text>
-<line x1="60" y1="538" x2="1060" y2="538" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="541" font-size="9" fill="#999">28°N</text>
-<line x1="60" y1="513" x2="1060" y2="513" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="516" font-size="9" fill="#999">29°N</text>
-<line x1="60" y1="487" x2="1060" y2="487" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="490" font-size="9" fill="#999">30°N</text>
-<line x1="60" y1="462" x2="1060" y2="462" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="465" font-size="9" fill="#999">31°N</text>
-<line x1="60" y1="436" x2="1060" y2="436" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="439" font-size="9" fill="#999">32°N</text>
-<line x1="60" y1="411" x2="1060" y2="411" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="414" font-size="9" fill="#999">33°N</text>
-<line x1="60" y1="385" x2="1060" y2="385" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="388" font-size="9" fill="#999">34°N</text>
+<line x1="203" y1="640" x2="203" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="195" y="656" font-size="9" fill="#999">-84°E</text>
+<line x1="346" y1="640" x2="346" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="338" y="656" font-size="9" fill="#999">-82°E</text>
+<line x1="489" y1="640" x2="489" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="481" y="656" font-size="9" fill="#999">-80°E</text>
+<line x1="631" y1="640" x2="631" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="623" y="656" font-size="9" fill="#999">-78°E</text>
+<line x1="774" y1="640" x2="774" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="766" y="656" font-size="9" fill="#999">-76°E</text>
+<line x1="917" y1="640" x2="917" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="909" y="656" font-size="9" fill="#999">-74°E</text>
+<line x1="60" y1="617" x2="1060" y2="617" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="620" font-size="9" fill="#999">23°N</text>
+<line x1="60" y1="593" x2="1060" y2="593" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="596" font-size="9" fill="#999">24°N</text>
+<line x1="60" y1="570" x2="1060" y2="570" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="573" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="547" x2="1060" y2="547" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="550" font-size="9" fill="#999">26°N</text>
+<line x1="60" y1="523" x2="1060" y2="523" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="526" font-size="9" fill="#999">27°N</text>
+<line x1="60" y1="500" x2="1060" y2="500" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="503" font-size="9" fill="#999">28°N</text>
+<line x1="60" y1="477" x2="1060" y2="477" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="480" font-size="9" fill="#999">29°N</text>
+<line x1="60" y1="453" x2="1060" y2="453" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="456" font-size="9" fill="#999">30°N</text>
+<line x1="60" y1="430" x2="1060" y2="430" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="433" font-size="9" fill="#999">31°N</text>
+<line x1="60" y1="407" x2="1060" y2="407" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="410" font-size="9" fill="#999">32°N</text>
+<line x1="60" y1="383" x2="1060" y2="383" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="386" font-size="9" fill="#999">33°N</text>
 <line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="363" font-size="9" fill="#999">35°N</text>
-<line x1="60" y1="335" x2="1060" y2="335" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="338" font-size="9" fill="#999">36°N</text>
-<line x1="60" y1="309" x2="1060" y2="309" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="312" font-size="9" fill="#999">37°N</text>
-<line x1="60" y1="284" x2="1060" y2="284" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="287" font-size="9" fill="#999">38°N</text>
-<line x1="60" y1="258" x2="1060" y2="258" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="261" font-size="9" fill="#999">39°N</text>
-<line x1="60" y1="233" x2="1060" y2="233" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="236" font-size="9" fill="#999">40°N</text>
-<line x1="60" y1="207" x2="1060" y2="207" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="210" font-size="9" fill="#999">41°N</text>
-<line x1="60" y1="182" x2="1060" y2="182" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="185" font-size="9" fill="#999">42°N</text>
-<line x1="60" y1="156" x2="1060" y2="156" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="159" font-size="9" fill="#999">43°N</text>
-<line x1="60" y1="131" x2="1060" y2="131" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="134" font-size="9" fill="#999">44°N</text>
-<line x1="60" y1="105" x2="1060" y2="105" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="108" font-size="9" fill="#999">45°N</text>
+<text x="34" y="363" font-size="9" fill="#999">34°N</text>
+<line x1="60" y1="337" x2="1060" y2="337" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="340" font-size="9" fill="#999">35°N</text>
+<line x1="60" y1="313" x2="1060" y2="313" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="316" font-size="9" fill="#999">36°N</text>
+<line x1="60" y1="290" x2="1060" y2="290" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="293" font-size="9" fill="#999">37°N</text>
+<line x1="60" y1="267" x2="1060" y2="267" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="270" font-size="9" fill="#999">38°N</text>
+<line x1="60" y1="243" x2="1060" y2="243" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="246" font-size="9" fill="#999">39°N</text>
+<line x1="60" y1="220" x2="1060" y2="220" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="223" font-size="9" fill="#999">40°N</text>
+<line x1="60" y1="197" x2="1060" y2="197" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="200" font-size="9" fill="#999">41°N</text>
+<line x1="60" y1="173" x2="1060" y2="173" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="176" font-size="9" fill="#999">42°N</text>
+<line x1="60" y1="150" x2="1060" y2="150" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="153" font-size="9" fill="#999">43°N</text>
+<line x1="60" y1="127" x2="1060" y2="127" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="130" font-size="9" fill="#999">44°N</text>
+<line x1="60" y1="103" x2="1060" y2="103" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="106" font-size="9" fill="#999">45°N</text>
 <rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
-<line x1="120" y1="562" x2="445" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="562" x2="430" y2="562" stroke="#333" stroke-width="2"/>
 <line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
 <text x="112" y="578" font-size="9" fill="#333">0</text>
-<line x1="201" y1="558" x2="201" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="193" y="578" font-size="9" fill="#333">200</text>
-<line x1="282" y1="558" x2="282" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="274" y="578" font-size="9" fill="#333">400</text>
-<line x1="364" y1="558" x2="364" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="356" y="578" font-size="9" fill="#333">600</text>
-<line x1="445" y1="558" x2="445" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="437" y="578" font-size="9" fill="#333">800</text>
-<text x="453" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="197" y1="558" x2="197" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="189" y="578" font-size="9" fill="#333">100</text>
+<line x1="275" y1="558" x2="275" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="267" y="578" font-size="9" fill="#333">200</text>
+<line x1="352" y1="558" x2="352" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="344" y="578" font-size="9" fill="#333">300</text>
+<line x1="430" y1="558" x2="430" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="422" y="578" font-size="9" fill="#333">400</text>
+<text x="438" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
@@ -180,38 +142,36 @@
 <text x="1124" y="210" font-size="11" fill="#444">阿巴拉契亞西麓（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">T-RT20 重配（2026-10-27）：起點空桑之山＝紐約州—賓州方向——「北臨食水」＝聖勞倫斯河（河在錨北 15</text>
-<text x="1090" y="272" font-size="10" fill="#666">0–200 km，寬讀成立；與東一同實例）、「西望湣澤」＝安大略湖方向；R4 三項硬矛盾（北臨食水／終點錯位</text>
-<text x="1090" y="287" font-size="10" fill="#666">／嶧皋水系）隨舊落基—大平原走廊消解——「暫停交付」解除；舊讀法降 rejected_rival 存冊。</text>
-<text x="1090" y="306" font-size="10" fill="#666">里程：自記 6,640 里＝腿程（0%）；三檔並列：0.35≈2,324 km／0.385≈2,556 km／0.42≈2,789 km vs </text>
-<text x="1090" y="320" font-size="10" fill="#666">河谷曲路實距約 2,000–2,200 km——層累約 1.2–1.3×（放大方向，與 F-0008 相容）。網格＝否定工具（</text>
-<text x="1090" y="334" font-size="10" fill="#666">G-3）：純南直線網格與河谷曲路走廊的偏差記 variant，鏈位為走廊擬合（fit_coords 僅繪圖）。</text>
-<text x="1090" y="353" font-size="10" fill="#666">風物互證：軨軨「如牛虎文」→美洲野牛（林野牛方向）；犰狳（余峩）→本獸——鏈南段落於窗口期犰狳北界（</text>
-<text x="1090" y="368" font-size="10" fill="#666">德克薩斯—灣岸北緣）；絜鉤「如鳧而鼠尾、善登木」→負鼠（樹棲 ✓）；蜃珧＝淡水大蚌（東坡水系）。</text>
-<text x="1090" y="386" font-size="10" fill="#666">觀察者：密西西比河谷 Poverty Point（~1700 BCE）/Adena 文化窗口期在場 ✓；窗口期海平面 +1–3 m，</text>
-<text x="1090" y="400" font-size="10" fill="#666">灣岸線更偏北。</text>
-<text x="1090" y="419" font-size="10" fill="#666">祠牲「毛用一雞祈」按推論性裁決 (a) 不作定位證據（雙向）；借名標記：空桑/澧水/姑射/犰狳名。</text>
-<text x="1090" y="453.5" font-size="14" font-weight="bold" fill="#333">17 站 → 現實候選（審核中）</text>
-<text x="1090" y="476" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 空桑之山</tspan>　→ 紐約州（食水＝聖勞倫斯河；湣澤＝安大略湖）｜⛰阿勒格尼高原北緣</text>
-<text x="1090" y="497" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 曹夕之山</tspan>　→ 多穀無水多鳥獸｜⛰阿巴拉契亞·西麓賓州段</text>
-<text x="1090" y="518" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 嶧皋之山</tspan>　→ 蜃珧＝淡水大蚌（東坡水系）｜⛰阿勒格尼山南段</text>
-<text x="1090" y="539" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 葛山之尾</tspan>　→ 水行＝俄亥俄河系航行；流沙＝沙洲｜⛰西南尾端</text>
-<text x="1090" y="560" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 葛山之首</tspan>　→ 珠蟞魚六足有珠（未解）｜⛰田納西河谷上游</text>
-<text x="1090" y="582" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 餘峩之山</tspan>　→ ★犰狳＝本獸（灣岸北緣分佈帶）｜⛰田納西河谷</text>
-<text x="1090" y="603" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 杜父之山</tspan>　→ 無草木多水｜⛰密西西比河谷（阿拉巴馬）</text>
-<text x="1090" y="624" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 耿山</tspan>　→ 水碧大蛇；朱獳｜⛰密西西比河谷（密州）</text>
-<text x="1090" y="645" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 盧其之山</tspan>　→ 沙水南注涔水；鵹鶘土功兆｜⛰密西西比河谷</text>
-<text x="1090" y="666" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 姑射之山</tspan>　→ 借名標記｜⛰密西西比河谷南段</text>
-<text x="1090" y="688" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 北姑射之山</tspan>　→ 水行＋流沙＝河口沙洲｜⛰路易斯安那—灣岸北緣</text>
-<text x="1090" y="709" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 南姑射之山</tspan>　→ 多水（三角洲沼澤）｜⛰路易斯安那灣岸</text>
-<text x="1090" y="730" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 碧山</tspan>　→ 大蛇＋碧水玉｜⛰路易斯安那—德州灣岸</text>
-<text x="1090" y="751" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 緱氏之山</tspan>　→ 原水注沙澤（灣岸潟湖）｜⛰德州灣岸東段</text>
-<text x="1090" y="772" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 姑逢之山</tspan>　→ 獙獙旱兆｜⛰德州灣岸中段</text>
-<text x="1090" y="794" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 鳧麗之山</tspan>　→ 蠪姪九首九尾｜⛰德州灣岸南段</text>
-<text x="1090" y="815" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 䃌山</tspan>　→ 南臨䃌水＝墨西哥灣✓；絜鉤＝負鼠｜⛰德州灣岸（終點）</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：自空桑之山（紐約州中部，北臨食水＝聖勞倫斯河、西望湣澤＝安大略湖方向）沿阿巴拉契亞西麓南行——賓州（曹夕）→西南折向（嶧皋·蜃珧淡水大蚌）→水行俄亥俄河系＋流沙</text>
-<text x="60" y="702" font-size="11" fill="#666">沙洲（葛山之尾）→田納西河谷（葛山之首·珠蟞魚）→餘峩（犰狳本獸——灣岸北緣分佈帶）→密西西比河谷（杜父/耿山/盧其·鵹鶘土功兆）→路易斯安那（姑射三站·河口沙洲）→德克薩斯</text>
-<text x="60" y="718" font-size="11" fill="#666">灣岸（碧山/緱氏/姑逢/鳧麗）→䃌山（終點：南臨墨西哥灣＋東望潟湖；絜鉤＝負鼠；狡客人群）。</text>
-<text x="60" y="740" font-size="11" fill="#666">腿程 6,640 里≈2,556 km（0.385）＝自記（文本 0%）；vs 河谷曲路實距層累約 1.2–1.3×（放大方向）。v3＝2026-10-27 方案（T-RT20 重配版）；舊落基—大平原方案（v2）已降 r</text>
-<text x="60" y="756" font-size="11" fill="#666">ejected_rival 存冊（北臨食水不成立＋終點錯位＋水系錯屬）。所有對應為競爭假說，時代窗口 4000–1000 BCE；後世同名不作反證。</text>
+<text x="1090" y="258" font-size="10" fill="#666">嚴格走向重校準（adapt-dongci2-4）：經文 南600→西南400→南×15，全鏈 SSW 緩漂隨海岸線——16 腿方</text>
+<text x="1090" y="272" font-size="10" fill="#666">位零違背；舊版「沿主脈西南行（山脈走向即東北—西南）」以山勢代經文走向＝違規表述，剔除；舊 fit 南段</text>
+<text x="1090" y="287" font-size="10" fill="#666">落海作廢。</text>
+<text x="1090" y="306" font-size="10" fill="#666">走廊：紐約州中部（芬格湖群西緣·四望格局）→賓州→西弗吉尼亞（水行＝俄亥俄河系航行）→田納西河谷（犰</text>
+<text x="1090" y="320" font-size="10" fill="#666">狳北界）→喬治亞海岸平原→佛羅里達半島（泉水碧潭·大沼澤地）→礁島群（終點·南臨佛州海峽）。</text>
+<text x="1090" y="338" font-size="10" fill="#666">物種硬合：軨軨＝美洲野牛（林野牛）；犰狳＝本獸（窗口期北界，名稱偶合不作證）；鵹鶘＝林鴴類樹棲；絜鉤</text>
+<text x="1090" y="353" font-size="10" fill="#666">＝負鼠（善登木）。里程：文本 6,640 里自洽 vs 實距 ≈2,027 km→實測比≈0.31（壓縮登記）。</text>
+<text x="1090" y="387.5" font-size="14" font-weight="bold" fill="#333">17 站 → 現實候選（審核中）</text>
+<text x="1090" y="410" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 空桑之山</tspan>　→ 北臨食水＝聖勞倫斯河｜⛰紐約州中部—芬格湖群西緣（阿勒格尼高原北緣）</text>
+<text x="1090" y="431" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 曹夕之山</tspan>　→ 下多穀而無水｜⛰賓夕法尼亞中—薩斯奎哈納河谷</text>
+<text x="1090" y="452" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 嶧皋之山</tspan>　→ 上多金玉下多白堊｜⛰賓州西南—西弗吉尼亞北（阿勒格尼山）</text>
+<text x="1090" y="473" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 葛山之尾</tspan>　→ 水行500＋流沙300＝河流航行＋河谷沙洲｜⛰西弗吉尼亞—俄亥俄河匯流方向</text>
+<text x="1090" y="494" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 葛山之首</tspan>　→ 尾→首同脈兩端｜⛰弗吉尼亞西南—田納西河谷上游</text>
+<text x="1090" y="516" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 餘峩之山</tspan>　→ 梓枏荊𦬊｜⛰田納西東—藍嶺西麓</text>
+<text x="1090" y="537" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 杜父之山</tspan>　→ 無草木多水｜⛰北卡—田納西界 藍嶺南段</text>
+<text x="1090" y="558" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 耿山</tspan>　→ 無草木多水碧多大蛇｜⛰南卡羅來納山麓</text>
+<text x="1090" y="579" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 盧其之山</tspan>　→ 多沙石｜⛰南卡—喬治亞界 皮埃蒙特</text>
+<text x="1090" y="600" font-size="11" fill="#7b241c"><tspan font-weight="bold">10 姑射之山</tspan>　→ 無草木多水｜⛰喬治亞海岸平原（薩凡納方向）</text>
+<text x="1090" y="622" font-size="11" fill="#7b241c"><tspan font-weight="bold">11 北姑射之山</tspan>　→ 水行300＋流沙100＝近岸航行＋河口沙洲—障壁島｜⛰喬治亞海岸（不倫瑞克方向）</text>
+<text x="1090" y="643" font-size="11" fill="#7b241c"><tspan font-weight="bold">12 南姑射之山</tspan>　→ 無草木多水｜⛰佛羅里達東北（傑克遜維爾方向）</text>
+<text x="1090" y="664" font-size="11" fill="#7b241c"><tspan font-weight="bold">13 碧山</tspan>　→ 無草木多大蛇多碧水玉｜⛰佛羅里達中（奧卡拉—代托納方向）</text>
+<text x="1090" y="685" font-size="11" fill="#7b241c"><tspan font-weight="bold">14 緱氏之山</tspan>　→ 無草木多金玉｜⛰佛羅里達中南（奧蘭多—奧基喬比方向）</text>
+<text x="1090" y="706" font-size="11" fill="#7b241c"><tspan font-weight="bold">15 姑逢之山</tspan>　→ 無草木多金玉｜⛰佛羅里達南（大沼澤地北緣）</text>
+<text x="1090" y="728" font-size="11" fill="#7b241c"><tspan font-weight="bold">16 鳧麗之山</tspan>　→ 上金玉下箴石｜⛰佛羅里達南端—大沼澤地</text>
+<text x="1090" y="749" font-size="11" fill="#7b241c"><tspan font-weight="bold">17 䃌山</tspan>　→ **南臨䃌水＝佛羅里達海峽｜⛰佛羅里達礁島群（基韋斯特方向，終點）</text>
+<text x="60" y="686" font-size="11" fill="#666">嚴格走向重校準（adapt-dongci2-4）：自空桑之山（紐約州中部芬格湖群西緣——北臨食水＝聖勞倫斯河、西望湣澤＝安大略湖）正南緩漂西南：賓州阿勒格尼高原（曹夕·多穀無水）→西南</text>
+<text x="60" y="702" font-size="11" fill="#666">腿→阿勒格尼山（嶧皋·白堊·蜃珧淡水大蚌·東坡水系入大西洋 ✓）→水行俄亥俄河系（葛山之尾·砥礪）→田納西河谷上游（葛山之首·珠蟞魚未解）→藍嶺西麓（餘峩·犰狳窗口期北界）→南</text>
+<text x="60" y="718" font-size="11" fill="#666">卡山麓（耿山·水碧大蛇）→喬治亞皮埃蒙特（盧其·鵹鶘林鴴·土功兆）→海岸平原（姑射·多水）→近岸航行＋障壁島流沙（北姑射）→佛州東北（南姑射）→佛州泉水帶（碧山·碧水玉）→奧</text>
+<text x="60" y="734" font-size="11" fill="#666">基喬比方向（緱氏·原水注沙澤潟湖）→大沼澤地（姑逢·獙獙旱兆）→佛州南端（鳧麗·蠪姪神話層）→礁島群（䃌山·南臨䃌水＝佛州海峽·絜鉤＝負鼠·狡客人群）。</text>
+<text x="60" y="756" font-size="11" fill="#666">里程：自記 6,640 里＝腿程合計（文本自洽）；實測比 ≈0.31 km/里（≈0.79× 壓縮，層累登記，分段承認）。所有對應為競爭假說（proposed_pending_review），時代窗口 4000–10</text>
+<text x="60" y="772" font-size="11" fill="#666">00 BCE；澧水/姑射/空桑借名標記維持不作證據；犰狳↔armadillo 名稱偶合聲明維持（今借古名教科書案例——僅依性狀＋窗口期分佈）；F-0019 裁決（東山經主體＝美洲）維持；山東—</text>
+<text x="60" y="788" font-size="11" fill="#666">淮北讀法 rejected_rival 存冊。</text>
 </svg>

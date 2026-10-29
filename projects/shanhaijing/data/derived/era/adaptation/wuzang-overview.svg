@@ -468,24 +468,24 @@
 <circle cx="923" cy="278" r="3" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
 <circle cx="923" cy="283" r="5" fill="#1e8449" stroke="#fff" stroke-width="1.2"/>
 <text x="935" y="207" font-size="11" font-weight="bold" fill="#1e8449">東一</text>
-<polyline points="916.1,230.2 916.1,240.8 912.4,245.8 912.4,259.9 912.4,266.6 912.4,273.4 912.4,278.6 912.4,283.9 912.4,289.2 912.4,296.0 912.4,303.0 912.4,308.3 912.4,313.7 912.4,322.5 912.4,327.8 912.4,336.6 912.4,345.4" fill="none" stroke="#27ae60" stroke-width="2.6" opacity="0.85"/>
-<circle cx="916" cy="230" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="916" cy="241" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="246" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="260" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="267" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="273" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="279" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="284" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="289" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="296" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="303" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="308" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="314" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="322" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="328" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="337" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
-<circle cx="912" cy="345" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<polyline points="914.7,229.7 914.7,240.3 911.0,245.3 911.0,259.4 911.0,266.1 911.0,272.8 911.0,278.1 911.0,283.4 911.0,288.7 911.0,295.4 911.0,302.5 911.0,307.8 911.0,313.2 911.0,322.0 911.0,327.3 911.0,336.1 911.0,344.9" fill="none" stroke="#27ae60" stroke-width="2.6" opacity="0.85"/>
+<circle cx="915" cy="230" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="915" cy="240" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="245" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="259" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="266" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="273" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="278" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="283" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="289" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="295" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="303" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="308" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="313" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="322" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="327" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="336" r="3" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
+<circle cx="911" cy="345" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
 <text x="806" y="164" font-size="11" font-weight="bold" fill="#27ae60">東二</text>
 <polyline points="908.6,316.7 908.6,330.9 908.6,343.3 908.6,355.6 919.2,355.6 919.2,368.0 919.2,385.7 919.2,401.5 919.2,415.7" fill="none" stroke="#196f3d" stroke-width="2.6" opacity="0.85"/>
 <circle cx="909" cy="317" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
