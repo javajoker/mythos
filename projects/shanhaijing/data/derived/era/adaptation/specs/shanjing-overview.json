@@ -19,7 +19,8 @@
    "label_pos": [
     103.5,
     32.8
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "xici2-station-grid.jsonl",
@@ -176,13 +177,14 @@
   {
    "grid": "beici1-station-grid.jsonl",
    "label": "北一",
-   "short": "青海南部→杭愛→圖瓦",
+   "short": "晉西南→蠻漢山→‖祁連西段‖→貝加爾南緣→圖瓦",
    "color": "#a07d1e",
    "anchor_index": 16,
    "label_pos": [
     97.5,
     52.6
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "beici2-station-grid.jsonl",
@@ -220,22 +222,24 @@
   {
    "grid": "dongci2-station-grid.jsonl",
    "label": "東二",
-   "short": "落基山東麓→大平原→墨西哥灣",
+   "short": "紐約州中部→佛羅里達礁島群（正南線）",
    "color": "#27ae60",
    "label_pos": [
     -116.5,
     55.5
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "dongci3-station-grid.jsonl",
    "label": "東三",
-   "short": "加勒比—中美島鏈",
+   "short": "佛州→古巴→牙買加→巴拿馬→南美北岸→哥倫比亞太平洋岸（全程水路）",
    "color": "#196f3d",
    "label_pos": [
     -85.5,
     32.5
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "dongci4-station-grid.jsonl",
@@ -245,27 +249,30 @@
    "label_pos": [
     -97.5,
     28.5
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "nanci1-station-grid.jsonl",
    "label": "南一",
-   "short": "中南半島（若開→長山）",
+   "short": "中南半島（若開→長山北中段入海段）",
    "color": "#2e86c1",
    "label_pos": [
     91.5,
     19.0
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "nanci2-station-grid.jsonl",
    "label": "南二",
-   "short": "滇東→南嶺→武夷→東海島鏈",
+   "short": "幕阜山→贛東→皖南→天目山（太湖）→舟山島鏈",
    "color": "#2874a6",
    "label_pos": [
     124.0,
     22.5
-   ]
+   ],
+   "fit": true
   },
   {
    "grid": "nanci3-station-grid.jsonl",
@@ -275,7 +282,8 @@
    "label_pos": [
     110.0,
     21.0
-   ]
+   ],
+   "fit": true
   }
  ],
  "points": [
