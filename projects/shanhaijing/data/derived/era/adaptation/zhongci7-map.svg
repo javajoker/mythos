@@ -16,7 +16,7 @@
 <text x="679" y="447" font-size="10" fill="#7a6540">嵩山</text>
 <ellipse cx="503" cy="668" rx="143" ry="112" fill="#c9b18a" opacity="0.4"/>
 <text x="479" y="671" font-size="10" fill="#7a6540">伏牛山</text>
-<polyline points="230.0,446.8 410.0,446.8 530.0,446.8 541.4,446.8 557.1,446.8 588.6,446.8 622.9,446.8 664.3,446.8 694.3,446.8 712.9,446.8 712.9,418.8 712.9,388.0 731.4,388.0 754.3,388.0 758.6,396.4 771.4,396.4 785.7,396.4 807.1,396.4 825.7,396.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="230.0,446.8 410.0,446.8 530.0,446.8 541.4,446.8 558.6,446.8 588.6,446.8 622.9,446.8 665.7,446.8 695.7,446.8 712.9,446.8 712.9,418.8 712.9,388.0 731.4,388.0 755.7,388.0 760.0,396.4 771.4,396.4 785.7,396.4 807.1,396.4 825.7,396.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
 <circle cx="230" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="226" y="451" font-size="9" fill="#fff" font-weight="bold">1</text>
 <text x="212" y="436" font-size="10" fill="#7b241c" font-weight="bold">休輿之山</text>
@@ -29,21 +29,21 @@
 <circle cx="541" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="537" y="451" font-size="9" fill="#fff" font-weight="bold">4</text>
 <text x="523" y="463" font-size="10" fill="#7b241c" font-weight="bold">苦山</text>
-<circle cx="557" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="553" y="451" font-size="9" fill="#fff" font-weight="bold">5</text>
-<text x="539" y="436" font-size="10" fill="#7b241c" font-weight="bold">堵山</text>
+<circle cx="559" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="555" y="451" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="541" y="436" font-size="10" fill="#7b241c" font-weight="bold">堵山</text>
 <circle cx="589" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="585" y="451" font-size="9" fill="#fff" font-weight="bold">6</text>
 <text x="571" y="463" font-size="10" fill="#7b241c" font-weight="bold">放皋之山</text>
 <circle cx="623" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="619" y="451" font-size="9" fill="#fff" font-weight="bold">7</text>
 <text x="605" y="436" font-size="10" fill="#7b241c" font-weight="bold">大𩇵之山</text>
-<circle cx="664" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="660" y="451" font-size="9" fill="#fff" font-weight="bold">8</text>
-<text x="646" y="463" font-size="10" fill="#7b241c" font-weight="bold">半石之山</text>
-<circle cx="694" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="690" y="451" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="676" y="436" font-size="10" fill="#7b241c" font-weight="bold">少室之山</text>
+<circle cx="666" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="662" y="451" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="648" y="463" font-size="10" fill="#7b241c" font-weight="bold">半石之山</text>
+<circle cx="696" cy="447" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="692" y="451" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="678" y="436" font-size="10" fill="#7b241c" font-weight="bold">少室之山</text>
 <circle cx="713" cy="447" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
 <text x="709" y="451" font-size="9" fill="#fff" font-weight="bold">10</text>
 <text x="695" y="427" font-size="10" fill="#7b241c" font-weight="bold">泰室之山</text>
@@ -56,12 +56,12 @@
 <circle cx="731" cy="388" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="727" y="392" font-size="9" fill="#fff" font-weight="bold">13</text>
 <text x="713" y="377" font-size="10" fill="#7b241c" font-weight="bold">浮戲之山</text>
-<circle cx="754" cy="388" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="750" y="392" font-size="9" fill="#fff" font-weight="bold">14</text>
-<text x="736" y="404" font-size="10" fill="#7b241c" font-weight="bold">少陘之山</text>
-<circle cx="759" cy="396" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="755" y="400" font-size="9" fill="#fff" font-weight="bold">15</text>
-<text x="741" y="385" font-size="10" fill="#7b241c" font-weight="bold">太山</text>
+<circle cx="756" cy="388" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="752" y="392" font-size="9" fill="#fff" font-weight="bold">14</text>
+<text x="738" y="404" font-size="10" fill="#7b241c" font-weight="bold">少陘之山</text>
+<circle cx="760" cy="396" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="756" y="400" font-size="9" fill="#fff" font-weight="bold">15</text>
+<text x="742" y="385" font-size="10" fill="#7b241c" font-weight="bold">太山</text>
 <circle cx="771" cy="396" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="767" y="400" font-size="9" fill="#fff" font-weight="bold">16</text>
 <text x="753" y="412" font-size="10" fill="#7b241c" font-weight="bold">末山</text>
