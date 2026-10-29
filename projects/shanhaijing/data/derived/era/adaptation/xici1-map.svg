@@ -2,7 +2,7 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《西山經之首》時代假想推理 × 現代映射參照圖 v4</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-xici1-4 ｜ 修正版 B（發起人裁決 2026-10-28）｜ 錨＝錢來之山＝川西高原東緣（~101.5°E）｜ 0.385 km/里 ｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-xici1-4 ｜ 修正版 B（發起人裁決 2026-10-28）｜ 錨＝錢來之山＝川西高原東緣（~101.5°E）｜ 0.385 km/里 ｜ 全部映射 proposed_pending_review｜adapt-xici1-5（2026-10-29 嚴格走向拉直：18腿零違背，逐站裁量不變）</text>
 <g clip-path="url(#mapclip)">
 <ellipse cx="912" cy="240" rx="111" ry="80" fill="#dce8cf" opacity="0.35"/>
 <ellipse cx="141" cy="365" rx="30" ry="35" fill="#9dc2dd" opacity="0.35"/>
@@ -28,35 +28,35 @@
 <ellipse cx="334" cy="216" rx="89" ry="48" fill="#c9b18a" opacity="0.4"/>
 <text x="310" y="219" font-size="10" fill="#7a6540">藏北高原東緣</text>
 <ellipse cx="319" cy="224" rx="119" ry="64" fill="#e2d9c8" opacity="0.35" stroke="#e2d9c8" stroke-dasharray="4 3"/>
-<polyline points="948.9,232.0 938.5,240.0 926.7,252.8 908.1,256.0 889.6,248.0 873.3,240.0 854.1,240.0 840.7,249.6 809.6,268.8 790.4,280.0 752.6,284.8 708.1,312.0 656.3,424.0 637.8,384.0 628.1,297.6 608.1,472.0 497.0,512.0 371.1,248.0 167.4,364.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="948.9,232.0 937.8,236.8 925.2,244.8 908.1,249.6 891.1,244.8 874.8,240.0 856.3,236.8 841.5,244.8 811.9,256.0 793.3,264.0 756.3,272.0 711.9,288.0 637.8,304.0 600.7,328.0 556.3,328.0 504.4,416.0 452.6,440.0 393.3,456.0 167.4,364.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
 <circle cx="949" cy="232" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
 <text x="945" y="236" font-size="9" fill="#fff" font-weight="bold">1</text>
 <text x="931" y="212" font-size="10" fill="#7b241c" font-weight="bold">錢來之山</text>
-<circle cx="939" cy="240" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="927" cy="253" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="923" y="257" font-size="9" fill="#fff" font-weight="bold">3</text>
-<text x="909" y="269" font-size="10" fill="#7b241c" font-weight="bold">太華之山</text>
-<circle cx="908" cy="256" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="890" cy="248" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="873" cy="240" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="854" cy="240" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="841" cy="250" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="810" cy="269" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="790" cy="280" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="753" cy="285" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="708" cy="312" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="656" cy="424" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="652" y="428" font-size="9" fill="#fff" font-weight="bold">13</text>
-<text x="638" y="413" font-size="10" fill="#7b241c" font-weight="bold">大時之山</text>
-<circle cx="638" cy="384" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="628" cy="298" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="624" y="302" font-size="9" fill="#fff" font-weight="bold">15</text>
-<text x="610" y="314" font-size="10" fill="#7b241c" font-weight="bold">天帝之山</text>
-<circle cx="608" cy="472" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="497" cy="512" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="371" cy="248" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="367" y="252" font-size="9" fill="#fff" font-weight="bold">18</text>
-<text x="353" y="237" font-size="10" fill="#7b241c" font-weight="bold">翠山</text>
+<circle cx="938" cy="237" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="925" cy="245" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="921" y="249" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="907" y="261" font-size="10" fill="#7b241c" font-weight="bold">太華之山</text>
+<circle cx="908" cy="250" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="891" cy="245" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="875" cy="240" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="856" cy="237" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="841" cy="245" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="812" cy="256" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="793" cy="264" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="756" cy="272" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="712" cy="288" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="638" cy="304" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="634" y="308" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="620" y="293" font-size="10" fill="#7b241c" font-weight="bold">大時之山</text>
+<circle cx="601" cy="328" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="556" cy="328" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="552" y="332" font-size="9" fill="#fff" font-weight="bold">15</text>
+<text x="538" y="344" font-size="10" fill="#7b241c" font-weight="bold">天帝之山</text>
+<circle cx="504" cy="416" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="453" cy="440" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="393" cy="456" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="389" y="460" font-size="9" fill="#fff" font-weight="bold">18</text>
+<text x="375" y="445" font-size="10" fill="#7b241c" font-weight="bold">翠山</text>
 <circle cx="167" cy="365" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="163" y="369" font-size="9" fill="#fff" font-weight="bold">19</text>
 <text x="149" y="381" font-size="10" fill="#7b241c" font-weight="bold">騩山</text>
@@ -130,38 +130,41 @@
 <text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">修正版 B（項目負責人裁決 2026-10-28）：v1/v3（華山—秦嶺—青海湖）否決——走向/距離不對；太華＝華</text>
-<text x="1090" y="272" font-size="10" fill="#666">山屬因果倒置錨定；秦嶺已由中山經覆蓋。T-RT05 遮蔽重判已做，但發起人否決了盲評結論的走向（走向/距離</text>
-<text x="1090" y="287" font-size="10" fill="#666">不符），實驗記錄存檔；v1/v3 讀法降 rejected_rival_T-RT05-reversed 存冊不刪。</text>
-<text x="1090" y="306" font-size="10" fill="#666">禹貢簇（渭/漢水/沔/洛諸注記）＝層累覆寫——晚出層流變註記，不作定位證據（發起人：『山海經成書於夏商</text>
-<text x="1090" y="320" font-size="10" fill="#666">，遠早於漢，今名不足取』）；嶓塚『漢水出焉東南流注于沔』如實記層累噪聲，不附會。太華＝橫斷山刃脊銳峰</text>
-<text x="1090" y="334" font-size="10" fill="#666">（『削成而四方』＝刀削岩峰通用語義讀法，不定點）。</text>
-<text x="1090" y="353" font-size="10" fill="#666">置信度上限 medium。里程：自記 2,957 里 vs 腿程 3,045 里（+3.0%）；腿程 1,066／1,172／1,279 km（</text>
-<text x="1090" y="368" font-size="10" fill="#666">0.35/0.385/0.42 三檔）vs 錢來→納木錯位移 ≈1,010 km——+5%／+16%／+27%（全檔放大 ✓）；腿 16→</text>
-<text x="1090" y="382" font-size="10" fill="#666">17／17→18／18→19（藏東南—藏北折段）比率 0.47／0.31／0.35 &lt;1——記 variant 不靜默。</text>
-<text x="1090" y="400" font-size="10" fill="#666">卡若文化同域覆蓋保留（站 15 天帝之山＝藏東昌都方向）；翠山旄牛麢麝＝藏北高原邊緣動物群 ✓；椶枏（站</text>
-<text x="1090" y="415" font-size="10" fill="#666"> 15/18）海拔張力記 variant（棕櫚上限與藏東南谷地勉強相容，不否決）。網格＝否定工具（G-3）：站點為</text>
-<text x="1090" y="430" font-size="10" fill="#666">走廊實配位（fit_coords 僅繪圖），算術鏈位見 xici1-station-grid.jsonl。</text>
-<text x="1090" y="464.0" font-size="14" font-weight="bold" fill="#333">19 站 → 現實候選（審核中）</text>
-<text x="1090" y="486" font-size="9.5" fill="#7b241c"> 1 錢來之山 → ★錨＝川西高原東緣（甘孜—爐霍方向 ~10…</text>
-<text x="1090" y="504" font-size="9.5" fill="#7b241c"> 2 松果之山 → 鮮水河上游谷地·濩水北向溪多銅</text>
-<text x="1090" y="521" font-size="9.5" fill="#7b241c"> 3 太華之山 → 橫斷山刃脊銳峰·削成而四方（不定點）</text>
-<text x="1090" y="538" font-size="9.5" fill="#7b241c"> 4 小華之山 → 道孚—爐霍方向·太/小華成對</text>
-<text x="1090" y="556" font-size="9.5" fill="#7b241c"> 5 符禺之山 → 爐霍方向·陽銅陰鐵</text>
-<text x="1090" y="574" font-size="9.5" fill="#7b241c"> 6 石脆之山 → 爐霍—甘孜方向·流赭獸醫民俗</text>
-<text x="1090" y="591" font-size="9.5" fill="#7b241c"> 7 英山 → 甘孜東方向·箭竹（熊貓食竹）</text>
-<text x="1090" y="608" font-size="9.5" fill="#7b241c"> 8 竹山 → 甘孜方向·人魚＝大鯢·豪豬｜注渭/洛＝層累覆寫</text>
-<text x="1090" y="626" font-size="9.5" fill="#7b241c"> 9 浮山 → 甘孜西—新龍東·薰草（香草民俗）</text>
-<text x="1090" y="644" font-size="9.5" fill="#7b241c">10 羭次之山 → 新龍方向·神山（羭山神也）·川金絲猴</text>
-<text x="1362" y="486" font-size="9.5" fill="#7b241c">11 時山 → 新龍西—白玉東·裸山·水玉</text>
-<text x="1362" y="504" font-size="9.5" fill="#7b241c">12 南山 → 白玉—貢覺方向·猛豹＝豹類（邛崍—橫斷山有…</text>
-<text x="1362" y="521" font-size="9.5" fill="#7b241c">13 大時之山 → 瀾滄江谷地·注渭/漢＝禹貢簇層累覆寫</text>
-<text x="1362" y="538" font-size="9.5" fill="#7b241c">14 嶓塚之山 → 橫斷山中段（察雅方向）·漢水注記＝層累…</text>
-<text x="1362" y="556" font-size="9.5" fill="#7b241c">15 天帝之山 → ★藏東·昌都方向（卡若文化同域 ✓）</text>
-<text x="1362" y="574" font-size="9.5" fill="#7b241c">16 塗途之山 → 八宿方向·西南腿入藏東·毒鼠雙記</text>
-<text x="1362" y="591" font-size="9.5" fill="#7b241c">17 黃山 → 藏東南谷地西段·鸚鵡學舌·赤水存疑（C11）</text>
-<text x="1362" y="608" font-size="9.5" fill="#7b241c">18 翠山 → ★藏北高原邊緣（那曲東—比如）·旄牛麢麝 ✓</text>
-<text x="1362" y="626" font-size="9.5" fill="#7b241c">19 騩山 → ★終點＝納木錯湖濱·錞于西海字面成立 ✓</text>
+<text x="1090" y="258" font-size="10" fill="#666">嚴格走向重校準（adapt-xici1-5，2026-10-29）：西×17＋西南×1，18腿方位零違背（容差錐±22.5°）——</text>
+<text x="1090" y="272" font-size="10" fill="#666">修正版B走廊與逐站裁量全部維持，僅中段鋸齒坐標拉直（大時回走廊正線；嶓塚—天帝—塗途—黃山—翠山改西</text>
+<text x="1090" y="287" font-size="10" fill="#666">—西南單調）。</text>
+<text x="1090" y="306" font-size="10" fill="#666">修正版 B（項目負責人裁決 2026-10-28）：v1/v3（華山—秦嶺—青海湖）否決——走向/距離不對；太華＝華</text>
+<text x="1090" y="320" font-size="10" fill="#666">山屬因果倒置錨定；秦嶺已由中山經覆蓋。T-RT05 遮蔽重判已做，但發起人否決了盲評結論的走向（走向/距離</text>
+<text x="1090" y="334" font-size="10" fill="#666">不符），實驗記錄存檔；v1/v3 讀法降 rejected_rival_T-RT05-reversed 存冊不刪。</text>
+<text x="1090" y="353" font-size="10" fill="#666">禹貢簇（渭/漢水/沔/洛諸注記）＝層累覆寫——晚出層流變註記，不作定位證據（發起人：『山海經成書於夏商</text>
+<text x="1090" y="368" font-size="10" fill="#666">，遠早於漢，今名不足取』）；嶓塚『漢水出焉東南流注于沔』如實記層累噪聲，不附會。太華＝橫斷山刃脊銳峰</text>
+<text x="1090" y="382" font-size="10" fill="#666">（『削成而四方』＝刀削岩峰通用語義讀法，不定點）。</text>
+<text x="1090" y="400" font-size="10" fill="#666">置信度上限 medium。里程：自記 2,957 里 vs 腿程 3,045 里（+3.0%）；腿程 1,066／1,172／1,279 km（</text>
+<text x="1090" y="415" font-size="10" fill="#666">0.35/0.385/0.42 三檔）vs 錢來→納木錯位移 ≈1,010 km——+5%／+16%／+27%（全檔放大 ✓）；腿 16→</text>
+<text x="1090" y="430" font-size="10" fill="#666">17／17→18／18→19（藏東南—藏北折段）比率 0.47／0.31／0.35 &lt;1——記 variant 不靜默。</text>
+<text x="1090" y="448" font-size="10" fill="#666">卡若文化同域覆蓋保留（站 15 天帝之山＝藏東昌都方向）；翠山旄牛麢麝＝藏北高原邊緣動物群 ✓；椶枏（站</text>
+<text x="1090" y="462" font-size="10" fill="#666"> 15/18）海拔張力記 variant（棕櫚上限與藏東南谷地勉強相容，不否決）。網格＝否定工具（G-3）：站點為</text>
+<text x="1090" y="477" font-size="10" fill="#666">走廊實配位（fit_coords 僅繪圖），算術鏈位見 xici1-station-grid.jsonl。</text>
+<text x="1090" y="511.5" font-size="14" font-weight="bold" fill="#333">19 站 → 現實候選（審核中）</text>
+<text x="1090" y="534" font-size="9.5" fill="#7b241c"> 1 錢來之山 → **修正版 B 錨站＝鏈條起點｜⛰川西高原…</text>
+<text x="1090" y="551" font-size="9.5" fill="#7b241c"> 2 松果之山 → 濩水「北流注于渭，其中多銅」——**禹貢…</text>
+<text x="1090" y="568" font-size="9.5" fill="#7b241c"> 3 太華之山 → **修正版 B：『削成而四方，其高五千仞，…</text>
+<text x="1090" y="586" font-size="9.5" fill="#7b241c"> 4 小華之山 → 太華西 80 里——太/小華成對命名｜⛰道…</text>
+<text x="1090" y="604" font-size="9.5" fill="#7b241c"> 5 符禺之山 → 「其陽多銅，其陰多鐵」＝陽銅陰鐵｜⛰爐…</text>
+<text x="1090" y="621" font-size="9.5" fill="#7b241c"> 6 石脆之山 → 椶柟＋條草｜⛰爐霍—甘孜方向山地</text>
+<text x="1090" y="638" font-size="9.5" fill="#7b241c"> 7 英山 → 杻橿＋陰鐵陽赤金｜⛰甘孜東方向山地（雅礱江…</text>
+<text x="1090" y="656" font-size="9.5" fill="#7b241c"> 8 竹山 → 喬木＋陰鐵｜⛰甘孜方向竹林山（雅礱江干暖河…</text>
+<text x="1090" y="674" font-size="9.5" fill="#7b241c"> 9 浮山 → 盼木｜⛰甘孜西—新龍東方向山地（雅礱江河…</text>
+<text x="1090" y="691" font-size="9.5" fill="#7b241c">10 羭次之山 → 漆水「北流注于渭」——**禹貢簇層累覆寫…</text>
+<text x="1362" y="534" font-size="9.5" fill="#7b241c">11 時山 → 「無草木。逐水出焉，北流注于渭，其中多水玉…</text>
+<text x="1362" y="551" font-size="9.5" fill="#7b241c">12 南山 → 「上多丹粟」=丹砂｜⛰白玉—貢覺方向山地（…</text>
+<text x="1362" y="568" font-size="9.5" fill="#7b241c">13 大時之山 → 408 里為本經最長腿｜⛰瀾滄江谷地山地·…</text>
+<text x="1362" y="586" font-size="9.5" fill="#7b241c">14 嶓塚之山 → 站位仍給｜⛰橫斷山中段山地（察雅方向）</text>
+<text x="1362" y="604" font-size="9.5" fill="#7b241c">15 天帝之山 → **時代文明同域覆蓋保留：卡若文化｜⛰藏…</text>
+<text x="1362" y="621" font-size="9.5" fill="#7b241c">16 塗途之山 → 唯一的西南腿｜⛰藏東山地·八宿方向（西…</text>
+<text x="1362" y="638" font-size="9.5" fill="#7b241c">17 黃山 → 「無草木，多竹箭」=無喬木草本只有竹｜⛰藏…</text>
+<text x="1362" y="656" font-size="9.5" fill="#7b241c">18 翠山 → **藏北高原邊緣 ✓｜⛰藏東南谷地西段—工布…</text>
+<text x="1362" y="674" font-size="9.5" fill="#7b241c">19 騩山 → **修正版 B 終點：騩山＝納木錯湖濱山地——…</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自錢來之山（川西高原東緣，甘孜—爐霍方向 ~101.5°E）沿大渡河—雅礱江干暖河谷西行（丹巴—道孚—新龍方向：竹＋麝＋氂牛垂直帶），太華＝橫斷山刃脊銳峰（削成而四方＝</text>
 <text x="60" y="702" font-size="11" fill="#666">刀削岩峰通用語義，不定點）；經橫斷山中段（大時＝瀾滄江谷地、嶓塚＝察雅方向——禹貢簇注記層累覆寫不附會）至藏東昌都方向（天帝之山＝卡若文化同域），西南腿入藏東（塗途＝八宿</text>
 <text x="60" y="718" font-size="11" fill="#666">方向），經藏東南谷地西段（黃山·鸚鵡學舌）北折藏北高原邊緣（翠山＝那曲東—比如，旄牛麢麝 ✓）至騩山——納木錯湖濱山地，錞于西海字面成立，淒水西流注湖 ✓。</text>
