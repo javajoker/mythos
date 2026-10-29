@@ -23,7 +23,7 @@ CN_NUM = {"一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5, "六": 6, 
 LEG_RE = re.compile(
     r"(?:又)?(東北|東南|西北|西南|[東南西北])(?:山行|水行)?([一二兩三四五六七八九十百千]+)里"
     r"(?:[，,](?:山行|水行|流沙)([一二兩三四五六七八九十百千]+)里)?"
-    r"(?:[，,]?流沙(?:行)?([一二兩三四五六七八九十百千]+)里)?")
+    r"(?:[，,]?(?:曰)?流沙[，,]?(?:行)?([一二兩三四五六七八九十百千]+)里)?")
 
 
 def cn2int(s):
@@ -51,7 +51,7 @@ def text_legs(book, sub):
             continue
         m = LEG_RE.search(r.get("text") or "")
         if m:
-            out.append((eid, DIRS[m.group(1)], cn2int(m.group(2)) + cn2int(m.group(3))))
+            out.append((eid, DIRS[m.group(1)], cn2int(m.group(2)) + cn2int(m.group(3)) + cn2int(m.group(4))))
     return out
 
 

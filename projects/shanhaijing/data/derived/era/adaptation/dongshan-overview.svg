@@ -56,17 +56,17 @@
 <circle cx="794" cy="482" r="5" fill="#27ae60" stroke="#fff" stroke-width="1.2"/>
 <circle cx="813" cy="243" r="9" fill="none" stroke="#27ae60" stroke-width="2.5"/>
 <text x="267" y="103" font-size="11" font-weight="bold" fill="#27ae60">東二·空桑鏈</text>
-<polyline points="781.4,423.4 781.4,452.8 781.4,478.4 781.4,504.1 836.1,504.1 836.1,529.8 836.1,566.5 836.1,599.4 836.1,628.8" fill="none" stroke="#196f3d" stroke-width="2.6" opacity="0.85"/>
-<circle cx="781" cy="423" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="781" cy="453" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="781" cy="478" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="781" cy="504" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="836" cy="504" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="836" cy="530" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="836" cy="566" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="836" cy="599" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="836" cy="629" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
-<circle cx="836" cy="629" r="9" fill="none" stroke="#196f3d" stroke-width="2.5"/>
+<polyline points="770.0,421.3 770.0,450.7 770.0,476.3 770.0,502.0 824.9,502.0 824.9,527.7 824.9,564.3 824.9,597.3 824.9,626.7" fill="none" stroke="#196f3d" stroke-width="2.6" opacity="0.85"/>
+<circle cx="770" cy="421" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="770" cy="451" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="770" cy="476" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="770" cy="502" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="825" cy="502" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="825" cy="528" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="825" cy="564" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="825" cy="597" r="3" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="825" cy="627" r="5" fill="#196f3d" stroke="#fff" stroke-width="1.2"/>
+<circle cx="825" cy="627" r="9" fill="none" stroke="#196f3d" stroke-width="2.5"/>
 <text x="663" y="365" font-size="11" font-weight="bold" fill="#196f3d">東三·尸胡鏈</text>
 <polyline points="741.4,382.2 741.4,393.2 741.4,404.9 753.4,412.7 761.4,417.9 769.6,423.1 777.6,417.9 785.6,412.7" fill="none" stroke="#52be80" stroke-width="2.6" opacity="0.85"/>
 <circle cx="741" cy="382" r="5" fill="#52be80" stroke="#fff" stroke-width="1.2"/>

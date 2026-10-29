@@ -2,166 +2,135 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《東次三經》（尸胡山之首）時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-dongci3-3（T-RT21 重配，2026-10-27）｜ 終點拓撲錨：無皋之山（南望幼海＝巴拿馬灣＋東望榑木＝加勒比日出）＝巴拿馬地峽東端—達連 ｜ 站 2–4＝大安的列斯主島鏈（觀察者在場 ✓）｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-dongci3-4（2026-10-29 嚴格走向重校準）｜ 南水行×3→東水行千里→南水行×4：8腿零違背 ｜ 佛州南→古巴→牙買加→巴拿馬北岸→聖瑪爾塔內華達→馬格達萊納河谷→達連—喬科→太平洋岸 ｜ 全部 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
-<polyline points="474.3,220.0 460.0,187.7 445.7,144.6 460.0,101.5" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
-<text x="483" y="119" font-size="10" fill="#5b97c4">佛羅里達（現代參照）</text>
-<polyline points="417.1,263.1 488.6,284.6 560.0,306.2 645.7,327.7" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
-<text x="474" y="257" font-size="10" fill="#5b97c4">古巴（岐山＝東部·馬埃斯特臘）</text>
-<polyline points="660.0,332.0 731.4,342.8 802.9,355.7 888.6,370.8" fill="none" stroke="#5b97c4" stroke-width="2"/>
-<text x="646" y="308" font-size="10" fill="#5b97c4">伊斯帕尼奧拉（諸鉤）—波多黎各（中父）</text>
-<polyline points="945.7,381.5 1002.9,413.8 1017.1,456.9 1031.4,500.0 1025.7,538.8" fill="none" stroke="#5b97c4" stroke-width="1.8"/>
-<text x="814" y="429" font-size="10" fill="#5b97c4">小安的列斯—特立尼達（胡射/孟子）</text>
-<polyline points="188.6,321.2 254.3,310.5 294.3,334.2 282.9,377.2 251.4,420.3" fill="none" stroke="#5b97c4" stroke-width="2"/>
-<text x="146" y="349" font-size="10" fill="#5b97c4">尤卡坦—伯利茲岸（現代參照）</text>
-<polyline points="245.7,435.4 302.9,467.7 360.0,500.0 388.6,532.3 402.9,564.6 417.1,586.2" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
-<text x="294" y="494" font-size="10" fill="#5b97c4">中美加勒比岸（踇隅）</text>
-<polyline points="417.1,586.2 488.6,586.2 545.7,596.9 574.3,607.7" fill="none" stroke="#5b97c4" stroke-width="2"/>
-<text x="503" y="571" font-size="10" fill="#5b97c4">巴拿馬地峽（無皋＝達連）</text>
-<ellipse cx="517" cy="606" rx="57" ry="19" fill="#cfe0e8" opacity="0.35"/>
-<text x="493" y="609" font-size="10" fill="#7a6540">巴拿馬灣（幼海）</text>
-<ellipse cx="374" cy="511" rx="71" ry="43" fill="#e2d9c8" opacity="0.35"/>
-<text x="350" y="514" font-size="10" fill="#7a6540">中美文化圈南緣</text>
-<polyline points="502.9,220.0 588.6,329.8 740.0,355.7 880.0,375.1 960.0,388.0 1022.9,540.9 568.6,377.2 360.0,500.0 560.0,590.5" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
-<circle cx="503" cy="220" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="499" y="224" font-size="9" fill="#fff" font-weight="bold">1</text>
-<text x="512" y="224" font-size="10" fill="#7b241c" font-weight="bold">尸胡之山</text>
-<circle cx="589" cy="330" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="585" y="334" font-size="9" fill="#fff" font-weight="bold">2</text>
-<text x="561" y="334" font-size="10" fill="#7b241c" font-weight="bold">岐山</text>
-<circle cx="740" cy="356" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="736" y="360" font-size="9" fill="#fff" font-weight="bold">3</text>
-<text x="749" y="360" font-size="10" fill="#7b241c" font-weight="bold">諸鉤之山</text>
-<circle cx="880" cy="375" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="876" y="379" font-size="9" fill="#fff" font-weight="bold">4</text>
-<text x="832" y="379" font-size="10" fill="#7b241c" font-weight="bold">中父之山</text>
-<circle cx="960" cy="388" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="956" y="392" font-size="9" fill="#fff" font-weight="bold">5</text>
-<text x="969" y="392" font-size="10" fill="#7b241c" font-weight="bold">胡射之山</text>
-<circle cx="1023" cy="541" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="1019" y="545" font-size="9" fill="#fff" font-weight="bold">6</text>
-<text x="975" y="545" font-size="10" fill="#7b241c" font-weight="bold">孟子之山</text>
-<circle cx="569" cy="377" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="565" y="381" font-size="9" fill="#fff" font-weight="bold">7</text>
-<text x="578" y="381" font-size="10" fill="#7b241c" font-weight="bold">跂踵之山</text>
-<circle cx="360" cy="500" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="356" y="504" font-size="9" fill="#fff" font-weight="bold">8</text>
-<text x="312" y="504" font-size="10" fill="#7b241c" font-weight="bold">踇隅之山</text>
-<circle cx="560" cy="590" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
-<text x="556" y="594" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="569" y="594" font-size="10" fill="#7b241c" font-weight="bold">無皋之山</text>
-<text x="89" y="106" font-size="9" fill="#8e44ad">站 2–4 重配＝大安的列斯主島鏈（archaic 期 ~4000–3000 BCE 在場 ✓）；巴哈馬舊站位存冊（觀察者缺席硬否決維持）</text>
-<text x="89" y="392" font-size="9" fill="#2f9e8f">鱣鮪→大海鰱泛化（奧里諾科—加勒比南美岸洄游）</text>
-<text x="89" y="597" font-size="9" fill="#8e44ad">幼海＝巴拿馬灣（太平洋）——R10 消解（幼＝小海/灣謙稱）</text>
-<text x="631" y="618" font-size="9" fill="#a04040">東望榑木＝加勒比日出方向（符號層，不落地物）</text>
-<rect x="480" y="211" width="6" height="6" fill="#34495e"/>
-<text x="488" y="210" font-size="9" fill="#34495e">邁阿密</text>
-<rect x="417" y="269" width="6" height="6" fill="#34495e"/>
-<text x="425" y="268" font-size="9" fill="#34495e">哈瓦那</text>
-<rect x="577" y="379" width="6" height="6" fill="#34495e"/>
-<text x="585" y="378" font-size="9" fill="#34495e">金斯敦</text>
-<rect x="883" y="370" width="6" height="6" fill="#34495e"/>
-<text x="891" y="369" font-size="9" fill="#34495e">聖胡安</text>
-<rect x="500" y="572" width="6" height="6" fill="#34495e"/>
-<text x="508" y="571" font-size="9" fill="#34495e">巴拿馬城</text>
+<polyline points="360.0,152.6 326.7,121.5 293.3,80.0 326.7,38.5" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
+<polyline points="226.7,194.1 393.3,214.8 560.0,235.6 760.0,256.3" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
+<text x="360" y="188" font-size="10" fill="#5b97c4">古巴（岐山＝東部·馬埃斯特臘）</text>
+<polyline points="793.3,260.4 960.0,270.8 1126.7,283.3 1326.7,297.8" fill="none" stroke="#5b97c4" stroke-width="2"/>
+<text x="760" y="238" font-size="10" fill="#5b97c4">伊斯帕尼奧拉（諸鉤）—波多黎各（中父）</text>
+<polyline points="1460.0,308.1 1593.3,339.3 1626.7,380.7 1660.0,422.2 1646.7,459.6" fill="none" stroke="#5b97c4" stroke-width="1.8"/>
+<polyline points="-306.7,250.1 -153.3,239.7 -60.0,262.5 -86.7,304.0 -160.0,345.5" fill="none" stroke="#5b97c4" stroke-width="2"/>
+<polyline points="-173.3,360.0 -40.0,391.1 93.3,422.2 160.0,453.3 193.3,484.4 226.7,505.2" fill="none" stroke="#5b97c4" stroke-width="2.2"/>
+<polyline points="226.7,505.2 393.3,505.2 526.7,515.6 593.3,525.9" fill="none" stroke="#5b97c4" stroke-width="2"/>
+<text x="427" y="491" font-size="10" fill="#5b97c4">巴拿馬地峽（無皋＝達連）</text>
+<ellipse cx="460" cy="524" rx="133" ry="19" fill="#cfe0e8" opacity="0.35"/>
+<text x="436" y="527" font-size="10" fill="#7a6540">巴拿馬灣（幼海）</text>
+<ellipse cx="127" cy="433" rx="167" ry="41" fill="#e2d9c8" opacity="0.35"/>
+<text x="103" y="436" font-size="10" fill="#7a6540">中美文化圈南緣</text>
+<polyline points="373.3,148.4 446.7,221.0 553.3,301.9 473.3,486.5 760.0,453.3 740.0,488.6 706.7,517.6 660.0,555.0 626.7,588.1" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="373" cy="148" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="369" y="152" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="382" y="152" font-size="10" fill="#7b241c" font-weight="bold">尸胡之山</text>
+<circle cx="447" cy="221" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="443" y="225" font-size="9" fill="#fff" font-weight="bold">2</text>
+<text x="419" y="225" font-size="10" fill="#7b241c" font-weight="bold">岐山</text>
+<circle cx="553" cy="302" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="549" y="306" font-size="9" fill="#fff" font-weight="bold">3</text>
+<text x="562" y="306" font-size="10" fill="#7b241c" font-weight="bold">諸鉤之山</text>
+<circle cx="473" cy="487" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="760" cy="453" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="756" y="457" font-size="9" fill="#fff" font-weight="bold">5</text>
+<text x="712" y="457" font-size="10" fill="#7b241c" font-weight="bold">胡射之山</text>
+<circle cx="740" cy="489" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="736" y="493" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="749" y="493" font-size="10" fill="#7b241c" font-weight="bold">孟子之山</text>
+<circle cx="707" cy="518" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="703" y="522" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="659" y="522" font-size="10" fill="#7b241c" font-weight="bold">跂踵之山</text>
+<circle cx="660" cy="555" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="627" cy="588" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="623" y="592" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="636" y="592" font-size="10" fill="#7b241c" font-weight="bold">無皋之山</text>
+<text x="113" y="115" font-size="9" fill="#8e44ad">尸胡＝佛州南端（水行起點；觀察者在場 ✓）</text>
+<text x="113" y="173" font-size="9" fill="#666">岐山＝古巴中南／諸鉤＝牙買加（古巴正南 ✓）／中父＝巴拿馬北岸（水行長腿膨脹登記）</text>
+<text x="113" y="424" font-size="9" fill="#2f9e8f">胡射＝聖瑪爾塔內華達（世界最高海岸山）·東水行千里 ✓</text>
+<text x="113" y="457" font-size="9" fill="#2f9e8f">孟子＝馬格達萊納河谷（鹿科 ✓·鱣鮪大魚 ✓）；跂踵＝達連濕地（蠵龜 ✓·森蚺 ✓）；踇隅＝喬科金鉑礦帶 ✓</text>
+<text x="113" y="586" font-size="9" fill="#c0392b">無皋＝哥倫比亞太平洋岸南：南望幼海＝太平洋·東望榑木＝安第斯日出</text>
+<rect x="230" y="199" width="6" height="6" fill="#34495e"/>
+<text x="238" y="198" font-size="9" fill="#34495e">哈瓦那</text>
+<rect x="424" y="492" width="6" height="6" fill="#34495e"/>
+<text x="432" y="491" font-size="9" fill="#34495e">巴拿馬城</text>
 </g>
-<line x1="89" y1="640" x2="89" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="81" y="656" font-size="9" fill="#999">-94°E</text>
-<line x1="146" y1="640" x2="146" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="138" y="656" font-size="9" fill="#999">-92°E</text>
-<line x1="203" y1="640" x2="203" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="195" y="656" font-size="9" fill="#999">-90°E</text>
+<line x1="127" y1="640" x2="127" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="119" y="656" font-size="9" fill="#999">-84°E</text>
 <line x1="260" y1="640" x2="260" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="252" y="656" font-size="9" fill="#999">-88°E</text>
-<line x1="317" y1="640" x2="317" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="309" y="656" font-size="9" fill="#999">-86°E</text>
-<line x1="374" y1="640" x2="374" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="366" y="656" font-size="9" fill="#999">-84°E</text>
-<line x1="431" y1="640" x2="431" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="423" y="656" font-size="9" fill="#999">-82°E</text>
-<line x1="489" y1="640" x2="489" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="481" y="656" font-size="9" fill="#999">-80°E</text>
-<line x1="546" y1="640" x2="546" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="538" y="656" font-size="9" fill="#999">-78°E</text>
-<line x1="603" y1="640" x2="603" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="595" y="656" font-size="9" fill="#999">-76°E</text>
+<text x="252" y="656" font-size="9" fill="#999">-82°E</text>
+<line x1="393" y1="640" x2="393" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="385" y="656" font-size="9" fill="#999">-80°E</text>
+<line x1="527" y1="640" x2="527" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="519" y="656" font-size="9" fill="#999">-78°E</text>
 <line x1="660" y1="640" x2="660" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="652" y="656" font-size="9" fill="#999">-74°E</text>
-<line x1="717" y1="640" x2="717" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="709" y="656" font-size="9" fill="#999">-72°E</text>
-<line x1="774" y1="640" x2="774" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="766" y="656" font-size="9" fill="#999">-70°E</text>
-<line x1="831" y1="640" x2="831" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="823" y="656" font-size="9" fill="#999">-68°E</text>
-<line x1="889" y1="640" x2="889" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="881" y="656" font-size="9" fill="#999">-66°E</text>
-<line x1="946" y1="640" x2="946" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="938" y="656" font-size="9" fill="#999">-64°E</text>
-<line x1="1003" y1="640" x2="1003" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="995" y="656" font-size="9" fill="#999">-62°E</text>
-<line x1="60" y1="618" x2="1060" y2="618" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="621" font-size="9" fill="#999">7°N</text>
-<line x1="60" y1="597" x2="1060" y2="597" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="600" font-size="9" fill="#999">8°N</text>
-<line x1="60" y1="575" x2="1060" y2="575" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="578" font-size="9" fill="#999">9°N</text>
-<line x1="60" y1="554" x2="1060" y2="554" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="557" font-size="9" fill="#999">10°N</text>
-<line x1="60" y1="532" x2="1060" y2="532" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="535" font-size="9" fill="#999">11°N</text>
-<line x1="60" y1="511" x2="1060" y2="511" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="514" font-size="9" fill="#999">12°N</text>
-<line x1="60" y1="489" x2="1060" y2="489" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="492" font-size="9" fill="#999">13°N</text>
-<line x1="60" y1="468" x2="1060" y2="468" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="471" font-size="9" fill="#999">14°N</text>
-<line x1="60" y1="446" x2="1060" y2="446" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="449" font-size="9" fill="#999">15°N</text>
-<line x1="60" y1="425" x2="1060" y2="425" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="428" font-size="9" fill="#999">16°N</text>
-<line x1="60" y1="403" x2="1060" y2="403" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="406" font-size="9" fill="#999">17°N</text>
-<line x1="60" y1="382" x2="1060" y2="382" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="385" font-size="9" fill="#999">18°N</text>
-<line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="363" font-size="9" fill="#999">19°N</text>
-<line x1="60" y1="338" x2="1060" y2="338" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="341" font-size="9" fill="#999">20°N</text>
-<line x1="60" y1="317" x2="1060" y2="317" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="320" font-size="9" fill="#999">21°N</text>
-<line x1="60" y1="295" x2="1060" y2="295" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="298" font-size="9" fill="#999">22°N</text>
-<line x1="60" y1="274" x2="1060" y2="274" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="277" font-size="9" fill="#999">23°N</text>
-<line x1="60" y1="252" x2="1060" y2="252" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="255" font-size="9" fill="#999">24°N</text>
-<line x1="60" y1="231" x2="1060" y2="231" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="234" font-size="9" fill="#999">25°N</text>
-<line x1="60" y1="209" x2="1060" y2="209" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="212" font-size="9" fill="#999">26°N</text>
-<line x1="60" y1="188" x2="1060" y2="188" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="191" font-size="9" fill="#999">27°N</text>
-<line x1="60" y1="166" x2="1060" y2="166" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="169" font-size="9" fill="#999">28°N</text>
-<line x1="60" y1="145" x2="1060" y2="145" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="148" font-size="9" fill="#999">29°N</text>
-<line x1="60" y1="123" x2="1060" y2="123" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="126" font-size="9" fill="#999">30°N</text>
-<line x1="60" y1="102" x2="1060" y2="102" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="105" font-size="9" fill="#999">31°N</text>
+<text x="652" y="656" font-size="9" fill="#999">-76°E</text>
+<line x1="793" y1="640" x2="793" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="785" y="656" font-size="9" fill="#999">-74°E</text>
+<line x1="927" y1="640" x2="927" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="919" y="656" font-size="9" fill="#999">-72°E</text>
+<line x1="60" y1="619" x2="1060" y2="619" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="622" font-size="9" fill="#999">3°N</text>
+<line x1="60" y1="599" x2="1060" y2="599" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="602" font-size="9" fill="#999">4°N</text>
+<line x1="60" y1="578" x2="1060" y2="578" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="581" font-size="9" fill="#999">5°N</text>
+<line x1="60" y1="557" x2="1060" y2="557" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="560" font-size="9" fill="#999">6°N</text>
+<line x1="60" y1="536" x2="1060" y2="536" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="539" font-size="9" fill="#999">7°N</text>
+<line x1="60" y1="516" x2="1060" y2="516" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="519" font-size="9" fill="#999">8°N</text>
+<line x1="60" y1="495" x2="1060" y2="495" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="498" font-size="9" fill="#999">9°N</text>
+<line x1="60" y1="474" x2="1060" y2="474" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="477" font-size="9" fill="#999">10°N</text>
+<line x1="60" y1="453" x2="1060" y2="453" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="456" font-size="9" fill="#999">11°N</text>
+<line x1="60" y1="433" x2="1060" y2="433" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="436" font-size="9" fill="#999">12°N</text>
+<line x1="60" y1="412" x2="1060" y2="412" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="415" font-size="9" fill="#999">13°N</text>
+<line x1="60" y1="391" x2="1060" y2="391" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="394" font-size="9" fill="#999">14°N</text>
+<line x1="60" y1="370" x2="1060" y2="370" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="373" font-size="9" fill="#999">15°N</text>
+<line x1="60" y1="350" x2="1060" y2="350" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="353" font-size="9" fill="#999">16°N</text>
+<line x1="60" y1="329" x2="1060" y2="329" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="332" font-size="9" fill="#999">17°N</text>
+<line x1="60" y1="308" x2="1060" y2="308" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="311" font-size="9" fill="#999">18°N</text>
+<line x1="60" y1="287" x2="1060" y2="287" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="290" font-size="9" fill="#999">19°N</text>
+<line x1="60" y1="267" x2="1060" y2="267" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="270" font-size="9" fill="#999">20°N</text>
+<line x1="60" y1="246" x2="1060" y2="246" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="249" font-size="9" fill="#999">21°N</text>
+<line x1="60" y1="225" x2="1060" y2="225" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="228" font-size="9" fill="#999">22°N</text>
+<line x1="60" y1="204" x2="1060" y2="204" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="207" font-size="9" fill="#999">23°N</text>
+<line x1="60" y1="184" x2="1060" y2="184" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="187" font-size="9" fill="#999">24°N</text>
+<line x1="60" y1="163" x2="1060" y2="163" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="166" font-size="9" fill="#999">25°N</text>
+<line x1="60" y1="142" x2="1060" y2="142" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="145" font-size="9" fill="#999">26°N</text>
+<line x1="60" y1="121" x2="1060" y2="121" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="124" font-size="9" fill="#999">27°N</text>
+<line x1="60" y1="101" x2="1060" y2="101" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="104" font-size="9" fill="#999">28°N</text>
 <rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
-<line x1="120" y1="562" x2="337" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="562" x2="369" y2="562" stroke="#333" stroke-width="2"/>
 <line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
 <text x="112" y="578" font-size="9" fill="#333">0</text>
-<line x1="174" y1="558" x2="174" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="166" y="578" font-size="9" fill="#333">200</text>
-<line x1="229" y1="558" x2="229" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="221" y="578" font-size="9" fill="#333">400</text>
-<line x1="283" y1="558" x2="283" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="275" y="578" font-size="9" fill="#333">600</text>
-<line x1="337" y1="558" x2="337" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="329" y="578" font-size="9" fill="#333">800</text>
-<text x="345" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="182" y1="558" x2="182" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="174" y="578" font-size="9" fill="#333">100</text>
+<line x1="244" y1="558" x2="244" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="236" y="578" font-size="9" fill="#333">200</text>
+<line x1="306" y1="558" x2="306" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="298" y="578" font-size="9" fill="#333">300</text>
+<line x1="369" y1="558" x2="369" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="361" y="578" font-size="9" fill="#333">400</text>
+<text x="377" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
@@ -176,31 +145,29 @@
 <text x="1124" y="210" font-size="11" fill="#444">文化帶（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">終點錨（T-RT21，2026-10-27）：無皋之山＝巴拿馬地峽東端—達連——「南望幼海」＝巴拿馬灣（太平洋）✓</text>
-<text x="1090" y="272" font-size="10" fill="#666">（R10 消解；幼海＝小海/灣謙稱）、「東望榑木」＝加勒比日出方向 ✓；置信恢復一級。</text>
-<text x="1090" y="291" font-size="10" fill="#666">站 2–4 重配（T-RT21）：岐山＝古巴東·馬埃斯特臘、諸鉤＝伊斯帕尼奧拉·中科迪勒拉、中父＝波多黎各方向</text>
-<text x="1090" y="306" font-size="10" fill="#666">——觀察者在場（古巴/伊斯帕尼奧拉 archaic 期 ~4000–3000 BCE；波多黎各 ~3000 BCE 起 ✓）；巴哈馬</text>
-<text x="1090" y="320" font-size="10" fill="#666">舊站位撤銷維持（觀察者缺席硬否決——存冊 rejected_rival）；status 自 rejected 改回 proposed_pen</text>
-<text x="1090" y="334" font-size="10" fill="#666">ding_review，置信上限 low_medium。</text>
-<text x="1090" y="353" font-size="10" fill="#666">連帶調整：胡射＝小安的列斯北段（「東水行千里」與島弧幾何合 ✓）；孟子＝小安的列斯南段—特立尼達（麋</text>
-<text x="1090" y="368" font-size="10" fill="#666">鹿泛化消解——特立尼達為大陸島有原生鹿科；鱣鮪→大海鰱＝奧里諾科洄游 ✓）；跂踵（牙買加）鏈序回跳記</text>
-<text x="1090" y="382" font-size="10" fill="#666"> variant——水行腿為水路拓扑順序。</text>
-<text x="1090" y="400" font-size="10" fill="#666">全鏈水行＝海上島鏈跳躍（水路里數）；自記 6,900 vs 腿程 6,600（-4.3% variant）。網格＝否定工具（G</text>
-<text x="1090" y="415" font-size="10" fill="#666">-3）；鏈位為走廊擬合（fit_coords 僅繪圖）。</text>
-<text x="1090" y="434" font-size="10" fill="#666">神群人身羊角；祠牡羊＋黍按推論性裁決 (a) 不作定位證據（雙向）。</text>
-<text x="1090" y="468.0" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
-<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 尸胡之山</tspan>　→ 水行起點；北望𦍲山｜⛰佛州海峽—巴哈馬北端方向</text>
-<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 岐山</tspan>　→ ★重配：古巴東·馬埃斯特臘（觀察者✓；虎→美洲豹）</text>
-<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 諸鉤之山</tspan>　→ ★重配：伊斯帕尼奧拉·中科迪勒拉（廣員百里大島）</text>
-<text x="1090" y="554" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 中父之山</tspan>　→ ★重配：波多黎各方向（多沙海岸段）</text>
-<text x="1090" y="575" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 胡射之山</tspan>　→ 東水行千里（東向跳島✓）｜⛰小安的列斯北段</text>
-<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 孟子之山</tspan>　→ 鱣鮪→大海鰱（奧里諾科洄游）｜⛰小安的列斯南—特立尼達</text>
-<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 跂踵之山</tspan>　→ 深澤皆湧＋蠵龜｜⛰牙買加島（鏈序回跳記 variant）</text>
-<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 踇隅之山</tspan>　→ 金玉赭＋植被恢復（島鏈轉陸）｜⛰尼加拉瓜—哥斯達黎加</text>
-<text x="1090" y="660" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 無皋之山</tspan>　→ 南望幼海＝巴拿馬灣✓；東望榑木｜⛰達連（終點錨）</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：自尸胡之山（佛州海峽方向，北望𦍲山）水行南下——岐山（古巴東·馬埃斯特臘；觀察者 ✓）→諸鉤（伊斯帕尼奧拉·中科迪勒拉；廣員百里大島）→中父（波多黎各方向；多沙）</text>
-<text x="60" y="702" font-size="11" fill="#666">→東水行千里跳島（胡射·小安的列斯北段）→孟子（小安的列斯南段—特立尼達：碧陽鱣鮪→大海鰱、麋鹿泛化成立）→跂踵（牙買加：深澤湧泉＋蠵龜；鏈序回跳 variant）→踇隅（尼加拉</text>
-<text x="60" y="718" font-size="11" fill="#666">瓜—哥斯達黎加；金玉赭轉陸）→無皋之山（達連終點：南望幼海＝巴拿馬灣、東望榑木＝加勒比日出）。</text>
-<text x="60" y="740" font-size="11" fill="#666">腿程 6,600 里≈2,541 km（0.385）vs 自記 6,900 里（-4.3% variant）；水行為水路里數，里程僅作拓扑順序證據。v3＝2026-10-27 方案（T-RT21 重配版：站 2–4 大安的列斯主島</text>
-<text x="60" y="756" font-size="11" fill="#666">鏈＋無皋/幼海達連—巴拿馬灣）。所有對應為競爭假說，時代窗口 4000–1000 BCE；中美同域候選——文化斷層保持未知。</text>
+<text x="1090" y="258" font-size="10" fill="#666">嚴格走向重校準（adapt-dongci3-4）：全鏈水行＝海上島鏈/沿岸航行——南水行×3（佛州南→古巴中南→牙</text>
+<text x="1090" y="272" font-size="10" fill="#666">買加→巴拿馬北岸）→東水行千里（→聖瑪爾塔內華達，世界最高海岸山）→南水行×4（→馬格達萊納河谷→烏</text>
+<text x="1090" y="287" font-size="10" fill="#666">拉巴—達連北→喬科→太平洋岸南）。8 腿方位零違背；中父腿實距 996 km vs 700 里＝1.42× 膨脹（水行</text>
+<text x="1090" y="302" font-size="10" fill="#666">長腿快行登記）。</text>
+<text x="1090" y="320" font-size="10" fill="#666">物種/資源硬合：虎＝美洲豹（古巴化石記錄，存疑級）；寐魚＝近海魚群；麋鹿泛化＝馬格達萊納河谷原生鹿科</text>
+<text x="1090" y="334" font-size="10" fill="#666">；蠵龜＝達連濕地棱皮龜產地；大蛇＝森蚺/黃水蚺；金玉赭＝喬科金鉑礦帶；鱣鮪＝馬格達萊納河大魚。</text>
+<text x="1090" y="353" font-size="10" fill="#666">T-RT21 站位重排（走向硬約束）：舊 伊斯帕尼奧拉/波多黎各/小安的列斯/特立尼達/牙買加回跳/尼加拉瓜/達</text>
+<text x="1090" y="368" font-size="10" fill="#666">連 站位全部降 rejected_rival 存冊（走向違背）；F-0019（東山經主體＝美洲）維持；R8 觀察者缺席否決</text>
+<text x="1090" y="382" font-size="10" fill="#666">維持於巴哈馬（本路線不經巴哈馬）。</text>
+<text x="1090" y="416.5" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
+<text x="1090" y="438" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 尸胡之山</tspan>　→ 北望𦍲山｜⛰佛羅里達南端—邁阿密方向（水行起點）</text>
+<text x="1090" y="460" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 岐山</tspan>　→ 南水行800｜⛰古巴中南部—西恩富戈斯方向</text>
+<text x="1090" y="481" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 諸鉤之山</tspan>　→ 南水行700｜⛰牙買加</text>
+<text x="1090" y="502" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 中父之山</tspan>　→ 南水行700｜⛰巴拿馬北岸—聖布拉斯方向</text>
+<text x="1090" y="523" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 胡射之山</tspan>　→ **東水行千里｜⛰聖瑪爾塔內華達山脈（哥倫比亞北岸）</text>
+<text x="1090" y="544" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 孟子之山</tspan>　→ 南水行700｜⛰馬格達萊納河口—下游河谷（哥倫比亞）</text>
+<text x="1090" y="566" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 跂踵之山</tspan>　→ 南水行500＋流沙500｜⛰烏拉巴灣—達連北岸</text>
+<text x="1090" y="587" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 踇隅之山</tspan>　→ 南水行900｜⛰喬科—哥倫比亞太平洋岸</text>
+<text x="1090" y="608" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 無皋之山</tspan>　→ 南水行500＋流沙300｜⛰哥倫比亞太平洋岸南—布埃納文圖拉方向（終點）</text>
+<text x="60" y="686" font-size="11" fill="#666">嚴格走向重校準（adapt-dongci3-4）：全鏈水行＝海上航行記錄。自尸胡之山（佛羅里達南端——北望𦍲山）南水行：古巴中南部（岐山·桃李·虎＝美洲豹）→牙買加（諸鉤·廣員百里島嶼·寐</text>
+<text x="60" y="702" font-size="11" fill="#666">魚）→巴拿馬北岸（中父·多沙）→東水行千里→聖瑪爾塔內華達（胡射·世界最高海岸山·無草木多沙石）→南水行：馬格達萊納河谷（孟子·麋鹿·碧陽水鱣鮪）→烏拉巴灣—達連北（跂踵·深澤</text>
+<text x="60" y="718" font-size="11" fill="#666">湧水·蠵龜·大蛇＝森蚺）→喬科（踇隅·金玉赭＝金鉑礦帶·雨林）→哥倫比亞太平洋岸南（無皋·南望幼海＝太平洋·東望榑木＝日出·多風·廣員百里——終點）。</text>
+<text x="60" y="740" font-size="11" fill="#666">里程：腿程 6,600 里 vs 自記 6,900（-4.3% variant）；水行腿實測比 0.16–1.42（水路快行與陸里不同尺度，逐腿登記）。所有對應為競爭假說（proposed_pending_review），時代</text>
+<text x="60" y="756" font-size="11" fill="#666">窗口 4000–1000 BCE；岐山/孟子借名標記維持不作證據；複合腿（水行＋流沙）＝淺灘沙洲段；舊大安的列斯—小安的列斯站位降 rejected_rival 存冊（走向違背）；渤海—黃海島鏈讀</text>
+<text x="60" y="772" font-size="11" fill="#666">法維持 F-0019 裁決否決存冊。</text>
 </svg>
