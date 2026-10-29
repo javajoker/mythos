@@ -25,33 +25,33 @@
 <text x="286" y="263" font-size="10" fill="#7a6540">貝加爾湖（北海/泰澤）</text>
 <ellipse cx="315" cy="381" rx="48" ry="22" fill="#e2d9c8" opacity="0.35"/>
 <text x="291" y="384" font-size="10" fill="#7a6540">戈壁（流沙候選帶）</text>
-<polyline points="224.9,491.9 224.9,481.1 224.9,468.1 224.9,450.8 224.9,435.8 224.9,419.4 224.9,402.1 224.9,393.4 224.9,381.3 224.9,376.6 224.9,368.0 224.9,360.1 224.9,346.3 224.9,337.7 224.9,327.8 224.9,315.7 224.9,301.8 224.9,293.2 224.9,284.6 224.9,275.9 224.9,268.2 224.9,265.9 224.9,261.7 224.9,253.8 224.9,246.5" fill="none" stroke="#a07d1e" stroke-width="2.6" opacity="0.85"/>
-<circle cx="225" cy="492" r="5" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="481" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="468" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="451" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="436" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="419" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="402" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="393" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="381" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="377" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="368" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="360" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="346" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="338" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="328" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="316" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="302" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="293" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="285" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="276" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="268" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="266" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="262" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="254" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="247" r="5" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
-<circle cx="225" cy="302" r="9" fill="none" stroke="#a07d1e" stroke-width="2.5"/>
+<polyline points="350.4,488.2 350.4,477.4 350.4,464.4 350.4,447.1 350.4,432.1 350.4,415.6 350.4,398.3 350.4,389.6 350.4,377.5 350.4,372.8 350.4,364.2 350.4,356.4 350.4,342.6 350.4,334.0 350.4,324.0 350.4,312.0 350.4,298.0 350.4,289.4 350.4,280.9 350.4,272.1 350.4,264.4 350.4,262.2 350.4,258.0 350.4,250.1 350.4,242.8" fill="none" stroke="#a07d1e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="350" cy="488" r="5" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="477" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="464" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="447" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="432" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="416" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="398" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="390" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="378" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="373" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="364" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="356" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="343" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="334" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="324" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="312" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="298" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="289" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="281" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="272" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="264" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="262" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="258" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="250" r="3" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="243" r="5" fill="#a07d1e" stroke="#fff" stroke-width="1.2"/>
+<circle cx="350" cy="298" r="9" fill="none" stroke="#a07d1e" stroke-width="2.5"/>
 <text x="239" y="267" font-size="11" font-weight="bold" fill="#a07d1e">北一·單狐鏈</text>
 <polyline points="298.2,503.1 287.1,503.1 287.1,501.0 287.1,492.3 287.1,477.2 287.1,459.9 287.1,443.5 287.1,427.1 287.1,411.9 287.1,396.8 287.1,381.7 287.1,368.7 287.1,353.7 287.1,336.4 287.1,319.9 287.1,285.3" fill="none" stroke="#b7950b" stroke-width="2.6" opacity="0.85"/>
 <circle cx="298" cy="503" r="5" fill="#b7950b" stroke="#fff" stroke-width="1.2"/>

@@ -2,243 +2,258 @@
 <rect width="1700" height="900" fill="#f7f3e8"/>
 <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#555"/></marker><pattern id="sand" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efe3c0"/><circle cx="2" cy="2" r="0.8" fill="#d6b96a"/><circle cx="6" cy="6" r="0.8" fill="#d6b96a"/></pattern><clipPath id="mapclip"><rect x="60" y="80" width="1000" height="560"/></clipPath></defs>
 <text x="60" y="34" font-size="21" font-weight="bold" fill="#333">《北山經之首》（單狐山之首）時代假想推理 × 現代映射參照圖</text>
-<text x="60" y="56" font-size="12" fill="#666">adapt-beici1-3 ｜ 拓撲錨：敦薨之山＝祁連山西段—阿爾金山東段（敦薨水＝疏勒河西流注羅布泊低地、泑澤＝羅布泊、河原雙讀——塔里木實體層／河出昆侖信仰層；T-RT05 盲評結案 2026-10-28）｜ 全部映射 proposed_pending_review</text>
+<text x="60" y="56" font-size="12" fill="#666">adapt-beici1-4（2026-10-29 嚴格走向重校準）｜ 全文24腿皆北：段內方位零違背、腿16/17＝文本層累拼接點（T-RT05）登記豁免 ｜ 敦薨＝祁連西段·疏勒河→羅布泊（裁決維持）｜ 全部映射 proposed_pending_review</text>
 <g clip-path="url(#mapclip)">
-<polyline points="462.8,568.7 504.4,576.4 560.0,584.0 615.6,576.4 657.2,538.2 685.0,500.0 712.8,461.8 740.6,449.1 782.2,474.5 804.4,512.7 796.1,563.6" fill="none" stroke="#c89a2e" stroke-width="2.2"/>
-<text x="588" y="556" font-size="10" fill="#c89a2e">黃河（中游穩定段——現代參照）</text>
-<polyline points="518.3,270.9 560.0,245.5 615.6,225.1 671.1,212.4 698.9,199.6" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="602" y="212" font-size="10" fill="#2f7fbf">色楞格河（杭愛舊讀——rejected_rival）</text>
-<polyline points="282.2,474.5 337.8,479.6 393.3,484.7 448.9,489.8 504.4,494.9" fill="none" stroke="#a07d1e" stroke-width="2"/>
-<text x="310" y="457" font-size="10" fill="#a07d1e">祁連山—阿爾金山（敦薨＝祁連西段—阿爾金山東段）</text>
-<polyline points="435.0,472.0 393.3,464.4 351.7,454.2 310.0,446.5 268.3,449.1" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="338" y="434" font-size="10" fill="#2f7fbf">疏勒河（敦薨之水——西流注羅布泊低地 ✓）</text>
-<polyline points="851.7,482.2 887.8,474.5 921.1,464.4 948.9,456.7" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
-<text x="893" y="497" font-size="10" fill="#2f7fbf">滹沱河—桑乾河（鴈門之水）</text>
-<polyline points="448.9,220.0 532.2,194.5 587.8,169.1" fill="none" stroke="#a07d1e" stroke-width="1.8"/>
-<text x="477" y="167" font-size="10" fill="#a07d1e">薩彥嶺（簡化示意）</text>
-<ellipse cx="513" cy="543" rx="22" ry="13" fill="#cfe0e8" opacity="0.35"/>
-<text x="489" y="546" font-size="10" fill="#7a6540">青海湖（泑澤前段候選）</text>
-<ellipse cx="518" cy="271" rx="56" ry="31" fill="#e2d9c8" opacity="0.35"/>
-<text x="494" y="274" font-size="10" fill="#7a6540">杭愛山（敦薨舊錨——rejected_rival）</text>
-<ellipse cx="699" cy="144" rx="42" ry="25" fill="#cfe0e8" opacity="0.35"/>
-<text x="675" y="147" font-size="10" fill="#7a6540">貝加爾湖（泰澤/北海候選）</text>
-<ellipse cx="310" cy="200" rx="28" ry="15" fill="#cfe0e8" opacity="0.35"/>
-<text x="286" y="203" font-size="10" fill="#7a6540">烏布蘇湖（泑澤敦薨段舊讀——rejected_rival）</text>
-<ellipse cx="143" cy="413" rx="17" ry="8" fill="#e2d9c8" opacity="0.35"/>
-<text x="119" y="416" font-size="10" fill="#7a6540">博斯騰湖（開都河讀法——rival）</text>
-<ellipse cx="235" cy="452" rx="25" ry="13" fill="#cfe0e8" opacity="0.35"/>
-<text x="211" y="455" font-size="10" fill="#7a6540">羅布泊（泑澤敦薨段——盲評確認）</text>
-<ellipse cx="832" cy="492" rx="28" ry="41" fill="#e2d9c8" opacity="0.35"/>
-<text x="808" y="495" font-size="10" fill="#7a6540">呂梁—管涔—恆山走廊（西流注河五站）</text>
-<ellipse cx="804" cy="441" rx="22" ry="10" fill="#e2d9c8" opacity="0.35"/>
-<text x="780" y="444" font-size="10" fill="#7a6540">大青山（小咸·冬夏有雪）</text>
-<polyline points="490.6,591.6 546.1,563.6 554.4,548.4 812.8,525.5 818.3,502.5 846.1,487.3 846.1,474.5 829.4,441.5 885.0,469.5 848.9,438.9 868.3,436.4 907.2,410.9 935.0,385.5 943.3,362.5 796.1,444.0 990.6,377.8 407.2,482.2 871.1,479.6 529.4,220.0 526.7,192.0 601.7,169.1 629.4,161.5 657.2,148.7 685.0,136.0 407.2,164.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
-<circle cx="491" cy="592" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="487" y="596" font-size="9" fill="#fff" font-weight="bold">1</text>
-<text x="500" y="596" font-size="10" fill="#7b241c" font-weight="bold">單狐之山</text>
-<circle cx="546" cy="564" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="554" cy="548" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="813" cy="525" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="809" y="529" font-size="9" fill="#fff" font-weight="bold">4</text>
-<text x="765" y="529" font-size="10" fill="#7b241c" font-weight="bold">譙明之山</text>
-<circle cx="818" cy="503" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="846" cy="487" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="842" y="491" font-size="9" fill="#fff" font-weight="bold">6</text>
-<text x="855" y="491" font-size="10" fill="#7b241c" font-weight="bold">虢山</text>
-<circle cx="846" cy="475" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="829" cy="441" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="885" cy="469" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="881" y="473" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="837" y="473" font-size="10" fill="#7b241c" font-weight="bold">石者之山</text>
-<circle cx="849" cy="439" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="868" cy="436" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="907" cy="411" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="935" cy="385" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="943" cy="363" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="796" cy="444" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="792" y="448" font-size="9" fill="#fff" font-weight="bold">15</text>
-<text x="805" y="448" font-size="10" fill="#7b241c" font-weight="bold">小咸之山</text>
-<circle cx="991" cy="378" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="407" cy="482" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
-<text x="403" y="486" font-size="9" fill="#fff" font-weight="bold">17</text>
-<text x="359" y="486" font-size="10" fill="#7b241c" font-weight="bold">敦薨之山</text>
-<circle cx="871" cy="480" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="529" cy="220" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="527" cy="192" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="602" cy="169" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="598" y="173" font-size="9" fill="#fff" font-weight="bold">21</text>
-<text x="611" y="173" font-size="10" fill="#7b241c" font-weight="bold">渾夕之山</text>
-<circle cx="629" cy="161" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="657" cy="149" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="685" cy="136" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="407" cy="164" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="403" y="168" font-size="9" fill="#fff" font-weight="bold">25</text>
-<text x="379" y="168" font-size="10" fill="#7b241c" font-weight="bold">隄山</text>
-<text x="96" y="126" font-size="9" fill="#8e44ad">生食不火人群＝泛指北方獵民（生業錨降級，RT-B12）</text>
-<text x="741" y="559" font-size="9" fill="#7a6540">橐駝＝雙峰駝（窗口期分布含晉西北—河套交錯帶）</text>
-<text x="74" y="329" font-size="9" fill="#2f9e8f">敦薨段＝祁連西段—阿爾金山東段：疏勒河西流注羅布泊低地 ✓＋泑澤＝羅布泊＋河原雙讀（塔里木實體層／河出昆侖信仰層）</text>
-<text x="754" y="569" font-size="9" fill="#2f9e8f">少咸＝雁門關—恆山北麓（敦水→滹沱河/桑乾河水系）</text>
-<text x="643" y="615" font-size="9" fill="#2f9e8f">五站「西流注于河」＝呂梁—管涔—恆山走廊（黃河東側，RT-B09 結案）</text>
-<text x="421" y="627" font-size="9" fill="#666">鏈形分段承認：016→017 硬斷（西域來源段——盲評獨立判定多源拼接）；站位＝語義擬合，網格為算術產物（G-3）</text>
-<rect x="551" y="545" width="6" height="6" fill="#34495e"/>
-<text x="559" y="544" font-size="9" fill="#34495e">西寧</text>
-<rect x="850" y="513" width="6" height="6" fill="#34495e"/>
-<text x="858" y="512" font-size="9" fill="#34495e">太原</text>
-<rect x="826" y="438" width="6" height="6" fill="#34495e"/>
-<text x="834" y="437" font-size="9" fill="#34495e">呼和浩特</text>
-<rect x="693" y="258" width="6" height="6" fill="#34495e"/>
-<text x="701" y="257" font-size="9" fill="#34495e">烏蘭巴托</text>
-<rect x="621" y="146" width="6" height="6" fill="#34495e"/>
-<text x="629" y="145" font-size="9" fill="#34495e">伊爾庫茨克</text>
+<polyline points="284.1,561.6 335.9,570.0 404.8,578.4 473.8,570.0 525.5,528.0 560.0,486.0 594.5,444.0 629.0,430.0 680.7,458.0 708.3,500.0 697.9,556.0" fill="none" stroke="#c89a2e" stroke-width="2.2"/>
+<text x="439" y="548" font-size="10" fill="#c89a2e">黃河（中游穩定段——現代參照）</text>
+<polyline points="353.1,234.0 404.8,206.0 473.8,183.6 542.8,169.6 577.2,155.6" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="457" y="170" font-size="10" fill="#2f7fbf">色楞格河（杭愛舊讀——rejected_rival）</text>
+<polyline points="60.0,458.0 129.0,463.6 197.9,469.2 266.9,474.8 335.9,480.4" fill="none" stroke="#a07d1e" stroke-width="2"/>
+<text x="94" y="438" font-size="10" fill="#a07d1e">祁連山—阿爾金山（敦薨＝祁連西段—阿爾金山東段）</text>
+<polyline points="249.7,455.2 197.9,446.8 146.2,435.6 94.5,427.2 42.8,430.0" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="129" y="413" font-size="10" fill="#2f7fbf">疏勒河（敦薨之水——西流注羅布泊低地 ✓）</text>
+<polyline points="766.9,466.4 811.7,458.0 853.1,446.8 887.6,438.4" fill="none" stroke="#2f7fbf" stroke-width="1.8"/>
+<text x="819" y="483" font-size="10" fill="#2f7fbf">滹沱河—桑乾河（鴈門之水）</text>
+<polyline points="266.9,178.0 370.3,150.0 439.3,122.0" fill="none" stroke="#a07d1e" stroke-width="1.8"/>
+<text x="301" y="119" font-size="10" fill="#a07d1e">薩彥嶺（簡化示意）</text>
+<ellipse cx="346" cy="534" rx="28" ry="14" fill="#cfe0e8" opacity="0.35"/>
+<text x="322" y="537" font-size="10" fill="#7a6540">青海湖（泑澤前段候選）</text>
+<ellipse cx="353" cy="234" rx="69" ry="34" fill="#e2d9c8" opacity="0.35"/>
+<text x="329" y="237" font-size="10" fill="#7a6540">杭愛山（敦薨舊錨——rejected_rival）</text>
+<ellipse cx="577" cy="94" rx="52" ry="28" fill="#cfe0e8" opacity="0.35"/>
+<text x="553" y="97" font-size="10" fill="#7a6540">貝加爾湖（泰澤/北海候選）</text>
+<ellipse cx="94" cy="156" rx="34" ry="17" fill="#cfe0e8" opacity="0.35"/>
+<text x="70" y="159" font-size="10" fill="#7a6540">烏布蘇湖（泑澤敦薨段舊讀——rejected_rival）</text>
+<ellipse cx="-112" cy="391" rx="21" ry="8" fill="#e2d9c8" opacity="0.35"/>
+<ellipse cx="1" cy="433" rx="31" ry="14" fill="#cfe0e8" opacity="0.35"/>
+<ellipse cx="743" cy="478" rx="34" ry="45" fill="#e2d9c8" opacity="0.35"/>
+<text x="719" y="481" font-size="10" fill="#7a6540">呂梁—管涔—恆山走廊（西流注河五站）</text>
+<ellipse cx="708" cy="422" rx="28" ry="11" fill="#e2d9c8" opacity="0.35"/>
+<text x="684" y="425" font-size="10" fill="#7a6540">大青山（小咸·冬夏有雪）</text>
+<polyline points="725.5,578.4 729.0,567.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="729.0,567.2 735.9,556.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="735.9,556.0 718.6,519.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="718.6,519.6 727.2,504.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="727.2,504.2 732.4,490.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="732.4,490.2 737.6,476.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="737.6,476.2 742.8,463.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="742.8,463.6 747.9,455.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="747.9,455.2 753.1,445.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="753.1,445.4 756.6,435.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="756.6,435.6 758.3,432.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="758.3,432.8 756.6,428.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="756.6,428.6 755.5,426.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="755.5,426.4 754.8,423.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="754.8,423.8 749.7,413.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="749.7,413.2 197.9,472.0" fill="none" stroke="#b03a2e" stroke-width="2.2" opacity="0.6" stroke-dasharray="8 5"/>
+<polyline points="197.9,472.0 349.7,267.6" fill="none" stroke="#b03a2e" stroke-width="2.2" opacity="0.6" stroke-dasharray="8 5"/>
+<polyline points="349.7,267.6 356.6,246.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="356.6,246.6 368.6,227.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="368.6,227.0 377.2,211.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="377.2,211.6 379.0,204.6" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="379.0,204.6 387.6,193.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="387.6,193.4 397.9,178.0" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="397.9,178.0 408.3,158.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<circle cx="726" cy="578" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="722" y="582" font-size="9" fill="#fff" font-weight="bold">1</text>
+<text x="708" y="567" font-size="10" fill="#7b241c" font-weight="bold">單狐之山</text>
+<circle cx="729" cy="567" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="736" cy="556" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="719" cy="520" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="715" y="524" font-size="9" fill="#fff" font-weight="bold">4</text>
+<text x="701" y="536" font-size="10" fill="#7b241c" font-weight="bold">譙明之山</text>
+<circle cx="727" cy="504" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="732" cy="490" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="728" y="494" font-size="9" fill="#fff" font-weight="bold">6</text>
+<text x="714" y="479" font-size="10" fill="#7b241c" font-weight="bold">虢山</text>
+<circle cx="738" cy="476" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="743" cy="464" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="748" cy="455" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="753" cy="445" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="757" cy="436" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="758" cy="433" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="757" cy="429" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="753" y="433" font-size="9" fill="#fff" font-weight="bold">13</text>
+<text x="739" y="445" font-size="10" fill="#7b241c" font-weight="bold">灌題之山</text>
+<circle cx="756" cy="426" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="755" cy="424" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="751" y="428" font-size="9" fill="#fff" font-weight="bold">15</text>
+<text x="737" y="413" font-size="10" fill="#7b241c" font-weight="bold">小咸之山</text>
+<circle cx="750" cy="413" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="198" cy="472" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
+<text x="194" y="476" font-size="9" fill="#fff" font-weight="bold">17</text>
+<text x="180" y="452" font-size="10" fill="#7b241c" font-weight="bold">敦薨之山</text>
+<circle cx="350" cy="268" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="346" y="272" font-size="9" fill="#fff" font-weight="bold">18</text>
+<text x="332" y="257" font-size="10" fill="#7b241c" font-weight="bold">少咸之山</text>
+<circle cx="357" cy="247" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="369" cy="227" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="377" cy="212" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="373" y="216" font-size="9" fill="#fff" font-weight="bold">21</text>
+<text x="359" y="228" font-size="10" fill="#7b241c" font-weight="bold">渾夕之山</text>
+<circle cx="379" cy="205" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="388" cy="193" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="398" cy="178" r="3" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="408" cy="158" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="404" y="162" font-size="9" fill="#fff" font-weight="bold">25</text>
+<text x="390" y="147" font-size="10" fill="#7b241c" font-weight="bold">隄山</text>
+<text x="112" y="606" font-size="9" fill="#8e44ad">段1–9：晉西南→呂梁—恆山（五站西流注河硬合）</text>
+<text x="112" y="528" font-size="9" fill="#8e44ad">敦薨＝祁連西段·疏勒河→羅布泊（T-RT05 維持；西域插入段）</text>
+<text x="467" y="293" font-size="9" fill="#8e44ad">少咸→後杭愛：敦水東流注鴈門之水（文本內流向）</text>
+<text x="112" y="175" font-size="9" fill="#2f9e8f">嚻水西北注海＝貝加爾湖南端 ✓；泰澤＝貝加爾</text>
+<text x="474" y="116" font-size="9" fill="#c0392b">隄山終點：生食不火＝亞寒帶獵民</text>
+<rect x="766" y="501" width="6" height="6" fill="#34495e"/>
+<text x="774" y="500" font-size="9" fill="#34495e">太原</text>
+<rect x="791" y="438" width="6" height="6" fill="#34495e"/>
+<text x="799" y="437" font-size="9" fill="#34495e">大同</text>
+<rect x="738" y="417" width="6" height="6" fill="#34495e"/>
+<text x="746" y="416" font-size="9" fill="#34495e">呼和浩特</text>
+<rect x="150" y="438" width="6" height="6" fill="#34495e"/>
+<text x="158" y="437" font-size="9" fill="#34495e">敦煌</text>
+<rect x="571" y="220" width="6" height="6" fill="#34495e"/>
+<text x="579" y="219" font-size="9" fill="#34495e">烏蘭巴托</text>
+<rect x="481" y="97" width="6" height="6" fill="#34495e"/>
+<text x="489" y="96" font-size="9" fill="#34495e">伊爾庫茨克</text>
 </g>
-<line x1="116" y1="640" x2="116" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="108" y="656" font-size="9" fill="#999">86°E</text>
-<line x1="171" y1="640" x2="171" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="163" y="656" font-size="9" fill="#999">88°E</text>
-<line x1="227" y1="640" x2="227" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="219" y="656" font-size="9" fill="#999">90°E</text>
-<line x1="282" y1="640" x2="282" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="274" y="656" font-size="9" fill="#999">92°E</text>
-<line x1="338" y1="640" x2="338" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="330" y="656" font-size="9" fill="#999">94°E</text>
-<line x1="393" y1="640" x2="393" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="385" y="656" font-size="9" fill="#999">96°E</text>
-<line x1="449" y1="640" x2="449" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="441" y="656" font-size="9" fill="#999">98°E</text>
-<line x1="504" y1="640" x2="504" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="496" y="656" font-size="9" fill="#999">100°E</text>
-<line x1="560" y1="640" x2="560" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="552" y="656" font-size="9" fill="#999">102°E</text>
-<line x1="616" y1="640" x2="616" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="608" y="656" font-size="9" fill="#999">104°E</text>
-<line x1="671" y1="640" x2="671" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="663" y="656" font-size="9" fill="#999">106°E</text>
-<line x1="727" y1="640" x2="727" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="719" y="656" font-size="9" fill="#999">108°E</text>
-<line x1="782" y1="640" x2="782" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="774" y="656" font-size="9" fill="#999">110°E</text>
-<line x1="838" y1="640" x2="838" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="830" y="656" font-size="9" fill="#999">112°E</text>
-<line x1="893" y1="640" x2="893" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="885" y="656" font-size="9" fill="#999">114°E</text>
-<line x1="949" y1="640" x2="949" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="941" y="656" font-size="9" fill="#999">116°E</text>
-<line x1="1004" y1="640" x2="1004" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="996" y="656" font-size="9" fill="#999">118°E</text>
-<line x1="60" y1="615" x2="1060" y2="615" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="618" font-size="9" fill="#999">34°N</text>
-<line x1="60" y1="589" x2="1060" y2="589" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="592" font-size="9" fill="#999">35°N</text>
-<line x1="60" y1="564" x2="1060" y2="564" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="567" font-size="9" fill="#999">36°N</text>
-<line x1="60" y1="538" x2="1060" y2="538" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="541" font-size="9" fill="#999">37°N</text>
-<line x1="60" y1="513" x2="1060" y2="513" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="516" font-size="9" fill="#999">38°N</text>
-<line x1="60" y1="487" x2="1060" y2="487" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="490" font-size="9" fill="#999">39°N</text>
-<line x1="60" y1="462" x2="1060" y2="462" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="465" font-size="9" fill="#999">40°N</text>
-<line x1="60" y1="436" x2="1060" y2="436" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="439" font-size="9" fill="#999">41°N</text>
-<line x1="60" y1="411" x2="1060" y2="411" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="414" font-size="9" fill="#999">42°N</text>
-<line x1="60" y1="385" x2="1060" y2="385" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="388" font-size="9" fill="#999">43°N</text>
+<line x1="129" y1="640" x2="129" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="121" y="656" font-size="9" fill="#999">94°E</text>
+<line x1="198" y1="640" x2="198" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="190" y="656" font-size="9" fill="#999">96°E</text>
+<line x1="267" y1="640" x2="267" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="259" y="656" font-size="9" fill="#999">98°E</text>
+<line x1="336" y1="640" x2="336" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="328" y="656" font-size="9" fill="#999">100°E</text>
+<line x1="405" y1="640" x2="405" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="397" y="656" font-size="9" fill="#999">102°E</text>
+<line x1="474" y1="640" x2="474" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="466" y="656" font-size="9" fill="#999">104°E</text>
+<line x1="543" y1="640" x2="543" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="535" y="656" font-size="9" fill="#999">106°E</text>
+<line x1="612" y1="640" x2="612" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="604" y="656" font-size="9" fill="#999">108°E</text>
+<line x1="681" y1="640" x2="681" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="673" y="656" font-size="9" fill="#999">110°E</text>
+<line x1="750" y1="640" x2="750" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="742" y="656" font-size="9" fill="#999">112°E</text>
+<line x1="819" y1="640" x2="819" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="811" y="656" font-size="9" fill="#999">114°E</text>
+<line x1="888" y1="640" x2="888" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="880" y="656" font-size="9" fill="#999">116°E</text>
+<line x1="957" y1="640" x2="957" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="949" y="656" font-size="9" fill="#999">118°E</text>
+<line x1="1026" y1="640" x2="1026" y2="80" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="1018" y="656" font-size="9" fill="#999">120°E</text>
+<line x1="60" y1="612" x2="1060" y2="612" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="615" font-size="9" fill="#999">34°N</text>
+<line x1="60" y1="584" x2="1060" y2="584" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="587" font-size="9" fill="#999">35°N</text>
+<line x1="60" y1="556" x2="1060" y2="556" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="559" font-size="9" fill="#999">36°N</text>
+<line x1="60" y1="528" x2="1060" y2="528" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="531" font-size="9" fill="#999">37°N</text>
+<line x1="60" y1="500" x2="1060" y2="500" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="503" font-size="9" fill="#999">38°N</text>
+<line x1="60" y1="472" x2="1060" y2="472" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="475" font-size="9" fill="#999">39°N</text>
+<line x1="60" y1="444" x2="1060" y2="444" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="447" font-size="9" fill="#999">40°N</text>
+<line x1="60" y1="416" x2="1060" y2="416" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="419" font-size="9" fill="#999">41°N</text>
+<line x1="60" y1="388" x2="1060" y2="388" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="391" font-size="9" fill="#999">42°N</text>
 <line x1="60" y1="360" x2="1060" y2="360" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="363" font-size="9" fill="#999">44°N</text>
-<line x1="60" y1="335" x2="1060" y2="335" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="338" font-size="9" fill="#999">45°N</text>
-<line x1="60" y1="309" x2="1060" y2="309" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="312" font-size="9" fill="#999">46°N</text>
-<line x1="60" y1="284" x2="1060" y2="284" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="287" font-size="9" fill="#999">47°N</text>
-<line x1="60" y1="258" x2="1060" y2="258" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="261" font-size="9" fill="#999">48°N</text>
-<line x1="60" y1="233" x2="1060" y2="233" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="236" font-size="9" fill="#999">49°N</text>
-<line x1="60" y1="207" x2="1060" y2="207" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="210" font-size="9" fill="#999">50°N</text>
-<line x1="60" y1="182" x2="1060" y2="182" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="185" font-size="9" fill="#999">51°N</text>
-<line x1="60" y1="156" x2="1060" y2="156" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="159" font-size="9" fill="#999">52°N</text>
-<line x1="60" y1="131" x2="1060" y2="131" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="134" font-size="9" fill="#999">53°N</text>
-<line x1="60" y1="105" x2="1060" y2="105" stroke="#d9d2c0" stroke-width="0.6"/>
-<text x="34" y="108" font-size="9" fill="#999">54°N</text>
+<text x="34" y="363" font-size="9" fill="#999">43°N</text>
+<line x1="60" y1="332" x2="1060" y2="332" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="335" font-size="9" fill="#999">44°N</text>
+<line x1="60" y1="304" x2="1060" y2="304" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="307" font-size="9" fill="#999">45°N</text>
+<line x1="60" y1="276" x2="1060" y2="276" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="279" font-size="9" fill="#999">46°N</text>
+<line x1="60" y1="248" x2="1060" y2="248" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="251" font-size="9" fill="#999">47°N</text>
+<line x1="60" y1="220" x2="1060" y2="220" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="223" font-size="9" fill="#999">48°N</text>
+<line x1="60" y1="192" x2="1060" y2="192" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="195" font-size="9" fill="#999">49°N</text>
+<line x1="60" y1="164" x2="1060" y2="164" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="167" font-size="9" fill="#999">50°N</text>
+<line x1="60" y1="136" x2="1060" y2="136" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="139" font-size="9" fill="#999">51°N</text>
+<line x1="60" y1="108" x2="1060" y2="108" stroke="#d9d2c0" stroke-width="0.6"/>
+<text x="34" y="111" font-size="9" fill="#999">52°N</text>
 <rect x="60" y="80" width="1000" height="560" fill="none" stroke="#b8ad92" stroke-width="1.4"/>
-<line x1="120" y1="562" x2="398" y2="562" stroke="#333" stroke-width="2"/>
+<line x1="120" y1="562" x2="459" y2="562" stroke="#333" stroke-width="2"/>
 <line x1="120" y1="558" x2="120" y2="566" stroke="#333" stroke-width="1.5"/>
 <text x="112" y="578" font-size="9" fill="#333">0</text>
-<line x1="189" y1="558" x2="189" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="181" y="578" font-size="9" fill="#333">200</text>
-<line x1="259" y1="558" x2="259" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="251" y="578" font-size="9" fill="#333">400</text>
-<line x1="328" y1="558" x2="328" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="320" y="578" font-size="9" fill="#333">600</text>
-<line x1="398" y1="558" x2="398" y2="566" stroke="#333" stroke-width="1.5"/>
-<text x="390" y="578" font-size="9" fill="#333">800</text>
-<text x="406" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
+<line x1="205" y1="558" x2="205" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="197" y="578" font-size="9" fill="#333">200</text>
+<line x1="289" y1="558" x2="289" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="281" y="578" font-size="9" fill="#333">400</text>
+<line x1="374" y1="558" x2="374" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="366" y="578" font-size="9" fill="#333">600</text>
+<line x1="459" y1="558" x2="459" y2="566" stroke="#333" stroke-width="1.5"/>
+<text x="451" y="578" font-size="9" fill="#333">800</text>
+<text x="467" y="566" font-size="9" fill="#333">km（100里≈38.5km @0.385）</text>
 <rect x="1078" y="70" width="560" height="800" fill="#fffdf5" stroke="#cbb"/>
 <text x="1090" y="96" font-size="14" font-weight="bold" fill="#333">圖例</text>
 <line x1="1090" y1="118" x2="1116" y2="118" stroke="#c0392b" stroke-width="2.5"/>
 <text x="1124" y="122" font-size="11" fill="#444">里程鏈（25站；站位＝語義擬合，分段承認）</text>
-<circle cx="1103" cy="140" r="8" fill="#e74c3c"/>
-<text x="1124" y="144" font-size="11" fill="#444">大圈＝拓撲錨（敦薨之山）</text>
-<line x1="1090" y1="162" x2="1116" y2="162" stroke="#2f7fbf" stroke-width="2.5"/>
-<text x="1124" y="166" font-size="11" fill="#444">現代河流參照</text>
-<line x1="1090" y1="184" x2="1116" y2="184" stroke="#c89a2e" stroke-width="2.5"/>
-<text x="1124" y="188" font-size="11" fill="#444">黃河（中游穩定段）</text>
-<rect x="1098" y="201" width="8" height="8" fill="#cfe0e8"/>
-<text x="1124" y="210" font-size="11" fill="#444">湖澤（類名分段候選）</text>
-<rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
-<text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">拓撲錨（T-RT05 盲評結案 2026-10-28）：敦薨之山＝祁連山西段—阿爾金山東段——敦薨水＝疏勒河（發源祁</text>
-<text x="1090" y="272" font-size="10" fill="#666">連山西段、西流注羅布泊低地——「西流注于泑澤」方向最合 ✓）；開都河—焉耆讀法降 rival（流向吻合度次</text>
-<text x="1090" y="287" font-size="10" fill="#666">於疏勒河）；泑澤敦薨段＝羅布泊（古代地理傳統穩定對應，盲評獨立確認 T-RT11 西域復活）；河原雙讀——</text>
-<text x="1090" y="302" font-size="10" fill="#666">塔里木河水系（規則 A 實體層，F-0013）／河出昆侖黃河源學說（傳統信仰層）；杭愛舊讀降 rejected_riva</text>
-<text x="1090" y="316" font-size="10" fill="#666">l。</text>
-<text x="1090" y="334" font-size="10" fill="#666">「西流注于河」五站（譙明/涿光/虢山/虢山之尾/石者）＝呂梁—管涔—恆山走廊（黃河東側；三川河/蔚汾河/</text>
-<text x="1090" y="349" font-size="10" fill="#666">朱家川/偏關河/縣川河西注黃河 ✓，RT-B09 結案）。</text>
-<text x="1090" y="368" font-size="10" fill="#666">冬夏有雪四站（RT-B08 結案）：小咸＝陰山—大青山高海拔段；狂山＝大青山東段；姑灌＝小五台山；空桑＝五</text>
-<text x="1090" y="382" font-size="10" fill="#666">台山北台（3,061 m ✓）。</text>
-<text x="1090" y="400" font-size="10" fill="#666">鏈形分段承認（RT-B03 同型；T-RT05 盲評獨立判定多源拼接）：016→017 腿硬斷——敦薨段屬西域來源段（</text>
-<text x="1090" y="415" font-size="10" fill="#666">敦薨〔西域〕與少咸〔晉北雁門〕在 200 里內不可能相鄰）；少咸之山＝雁門關—恆山北麓（繁峙—代縣方向）</text>
-<text x="1090" y="430" font-size="10" fill="#666">，敦水＝滹沱河上游方向，鴈門之水＝滹沱河/桑乾河水系；網格為算術產物（G-3），本圖站位＝語義擬合。赤</text>
-<text x="1090" y="444" font-size="10" fill="#666">鮭物種錨撤銷重估維持（哲羅鮭無疏勒河—羅布泊分布）。</text>
-<text x="1090" y="478.5" font-size="14" font-weight="bold" fill="#333">25 站 → 現實候選（審核中）</text>
-<text x="1090" y="500" font-size="9.5" fill="#7b241c"> 1 單狐之山 → 青海南部（起點；漨水西注泑水）｜⛰阿尼…</text>
-<text x="1090" y="518" font-size="9.5" fill="#7b241c"> 2 求如之山 → 青海東部（滑水西注；水馬）｜⛰青海東部…</text>
-<text x="1090" y="536" font-size="9.5" fill="#7b241c"> 3 帶山 → 青海東北（䑏疏獨角獸；鵸䳜自為牝牡）｜⛰青…</text>
-<text x="1090" y="553" font-size="9.5" fill="#7b241c"> 4 譙明之山 → 呂梁山·中段（譙水＝三川河西注黃河 ✓；…</text>
-<text x="1090" y="570" font-size="9.5" fill="#7b241c"> 5 涿光之山 → 呂梁山·北段（嚻水＝蔚汾河—嵐漪河西注…</text>
-<text x="1090" y="588" font-size="9.5" fill="#7b241c"> 6 虢山 → 管涔山主脊（伊水＝朱家川西注黃河 ✓；橐駝…</text>
-<text x="1090" y="606" font-size="9.5" fill="#7b241c"> 7 虢山之尾 → 管涔尾端—洪濤山（魚水＝偏關河西注黃河…</text>
-<text x="1090" y="623" font-size="9.5" fill="#7b241c"> 8 丹熏之山 → 陰山—呼和浩特（韭䪥；耳鼠＝鼯鼠）｜⛰…</text>
-<text x="1090" y="640" font-size="9.5" fill="#7b241c"> 9 石者之山 → 恆山·西麓（泚水＝縣川河西注黃河 ✓；孟…</text>
-<text x="1090" y="658" font-size="9.5" fill="#7b241c">10 邊春之山 → 蠻漢山（蔥葵韭桃李·農牧交錯帶）｜⛰蠻…</text>
-<text x="1090" y="676" font-size="9.5" fill="#7b241c">11 蔓聯之山 → 烏蘭察布（足訾；鵁群飛）｜⛰烏蘭察布…</text>
-<text x="1090" y="693" font-size="9.5" fill="#7b241c">12 單張之山 → 錫林郭勒南緣（諸犍一目銜尾蟠尾）｜⛰錫…</text>
-<text x="1090" y="710" font-size="9.5" fill="#7b241c">13 灌題之山 → 錫林郭勒（流沙＋匠韓之水多磁石）｜⛰錫…</text>
-<text x="1362" y="500" font-size="9.5" fill="#7b241c">14 潘侯之山 → 渾善達克（旄牛「或曰」存疑）｜⛰渾善達…</text>
-<text x="1362" y="518" font-size="9.5" fill="#7b241c">15 小咸之山 → 大青山高海拔段（冬夏有雪·RT-B08 結案…</text>
-<text x="1362" y="536" font-size="9.5" fill="#7b241c">16 大咸之山 → 克什克騰—赤峰（四方孤峰；長蛇）｜⛰克…</text>
-<text x="1362" y="553" font-size="9.5" fill="#7b241c">17 敦薨之山 → 祁連西段—阿爾金山東段（敦薨水＝疏勒河…</text>
-<text x="1362" y="570" font-size="9.5" fill="#7b241c">18 少咸之山 → 雁門關—恆山北麓（窫窳食人；敦水東注鴈…</text>
-<text x="1362" y="588" font-size="9.5" fill="#7b241c">19 嶽法之山 → 後杭愛—庫蘇古爾（瀤澤之水東北注泰澤）…</text>
-<text x="1362" y="606" font-size="9.5" fill="#7b241c">20 北嶽之山 → 庫蘇古爾（諸懷食人；鮨魚）｜⛰庫蘇古爾…</text>
-<text x="1362" y="623" font-size="9.5" fill="#7b241c">21 渾夕之山 → 貝加爾南緣（嚻水西北注海✓）｜⛰貝加爾…</text>
-<text x="1362" y="640" font-size="9.5" fill="#7b241c">22 北單之山 → 貝加爾南緣（蔥韭；借名）｜⛰貝加爾南緣…</text>
-<text x="1362" y="658" font-size="9.5" fill="#7b241c">23 羆差之山 → 布里亞特（多馬·草原馬群）｜⛰布里亞特…</text>
-<text x="1362" y="676" font-size="9.5" fill="#7b241c">24 北鮮之山 → 布里亞特（鮮水西北注涂吾之水）｜⛰布里…</text>
-<text x="1362" y="693" font-size="9.5" fill="#7b241c">25 隄山 → 圖瓦—西伯利亞南緣（生食不火人群＝泛指北方…</text>
-<text x="60" y="686" font-size="11" fill="#666">推理說明：自單狐之山（青海南部—阿尼瑪卿北麓）北行——青海東北（帶山·䑏疏獨角獸）→呂梁山中段（譙明·何羅魚；譙水＝三川河西注黃河 ✓）→呂梁山北段（涿光·鰼鰼魚）→管涔山主</text>
-<text x="60" y="702" font-size="11" fill="#666">脊（虢山·橐駝；伊水＝朱家川）→管涔尾端—洪濤山（虢山之尾；魚水＝偏關河）→陰山（丹熏·耳鼠）→恆山西麓（石者；泚水＝縣川河——走廊北端）→蠻漢山（邊春·農牧交錯帶）→烏蘭</text>
-<text x="60" y="718" font-size="11" fill="#666">察布（蔓聯）→錫林郭勒（單張·諸犍；灌題·磁石）→渾善達克（潘侯·旄牛）→大青山高海拔段（小咸·冬夏有雪·RT-B08 結案）→赤峰（大咸·四方孤峰）→【分段硬斷·西域來源段】祁連山</text>
-<text x="60" y="734" font-size="11" fill="#666">西段—阿爾金山東段（敦薨·疏勒河西流注羅布泊低地＋河原雙讀——T-RT05 盲評結案）→【分段硬斷】雁門關—恆山北麓（少咸·窫窳；敦水東注鴈門之水＝滹沱河/桑乾河）→庫蘇古爾（嶽</text>
-<text x="60" y="750" font-size="11" fill="#666">法·泰澤；北嶽·諸懷）→貝加爾南緣（渾夕·嚻水西北注海）→布里亞特（羆差/北鮮·多馬）→隄山（圖瓦—西伯利亞南緣終點：生食不火人群）。</text>
-<text x="60" y="772" font-size="11" fill="#666">腿程 5,680 里≈2,187 km（0.385）vs 自記 5,490 里（-3.4% variant）；原「前後兩段近 1:1」為反推點互證，循環撤回（RT-B07）；鏈形分段承認（016→017 硬斷：320 里 vs 赤峰</text>
-<text x="60" y="788" font-size="11" fill="#666">→祁連西段 ≈2,500 km——記反例不作鏈形證據；T-RT05 盲評獨立判定敦薨段〔西域〕與少咸〔晉北〕為多源層累拼接）。所有對應為競爭假說，時代窗口 4000–1000 BCE；後世同名（河</text>
-<text x="60" y="804" font-size="11" fill="#666">/伊水/鴈門等）不作反證；泑澤類名分段（前段青海湖/居延海·中段內陸湖澤·敦薨段＝羅布泊——盲評確認）。</text>
+<line x1="1090" y1="140" x2="1116" y2="140" stroke="#b03a2e" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1124" y="144" font-size="11" fill="#444">虛線＝文本層累拼接點腿（不作走向約束）</text>
+<circle cx="1103" cy="162" r="8" fill="#e74c3c"/>
+<text x="1124" y="166" font-size="11" fill="#444">大圈＝拓撲錨（敦薨之山）</text>
+<line x1="1090" y1="184" x2="1116" y2="184" stroke="#2f7fbf" stroke-width="2.5"/>
+<text x="1124" y="188" font-size="11" fill="#444">現代河流參照</text>
+<line x1="1090" y1="206" x2="1116" y2="206" stroke="#c89a2e" stroke-width="2.5"/>
+<text x="1124" y="210" font-size="11" fill="#444">黃河（中游穩定段）</text>
+<rect x="1098" y="223" width="8" height="8" fill="#cfe0e8"/>
+<text x="1124" y="232" font-size="11" fill="#444">湖澤（類名分段候選）</text>
+<rect x="1098" y="245" width="8" height="8" fill="#34495e"/>
+<text x="1124" y="254" font-size="11" fill="#444">現代地點參照點</text>
+<text x="1090" y="280" font-size="10" fill="#666">嚴格走向重校準（adapt-beici1-4）：全文 24 腿皆『又北』——段內逐腿方位零違背（容差錐±22.5°）；文</text>
+<text x="1090" y="294" font-size="10" fill="#666">本層累拼接點（腿16/17，T-RT05 盲評判定多源接合）登記 spec breaks，不作走向約束。今名一律不作證據</text>
+<text x="1090" y="309" font-size="10" fill="#666">。</text>
+<text x="1090" y="328" font-size="10" fill="#666">段1–3（晉西南）：單狐（臨汾東山）→求如（太岳東麓·銅玉）→帶山（霍山）；段4–9（呂梁—管涔—恆山）</text>
+<text x="1090" y="342" font-size="10" fill="#666">：譙明（呂梁中段·三川河西注黃河）→涿光（關帝山·呂梁主峰）→虢山（管涔山西麓·橐駝）→虢山之尾（洪濤</text>
+<text x="1090" y="356" font-size="10" fill="#666">山）→丹熏（耳鼠＝鼯鼠）→石者（孟極）。</text>
+<text x="1090" y="375" font-size="10" fill="#666">段10–16（大同—涼城—蠻漢山）：邊春（蔥葵韭桃李＝農牧交錯帶）→單張（櫟水南注杠水 ✓）→灌題（流沙</text>
+<text x="1090" y="390" font-size="10" fill="#666">＋磁石）→潘侯（邊水南注櫟澤＝岱海方向內流湖）→小咸（蠻漢山高海拔段·冬夏有雪——RT-B08 修訂：大青</text>
+<text x="1090" y="404" font-size="10" fill="#666">山走廊以西不可達降 rival）→大咸（四方不可以上＝平頂孤山台地）。</text>
+<text x="1090" y="422" font-size="10" fill="#666">西域插入段：敦薨（17）＝祁連西段—阿爾金山東段（T-RT05 維持：敦薨之水＝疏勒河西流注羅布泊；河原雙讀</text>
+<text x="1090" y="437" font-size="10" fill="#666">）。北段（18–25）：後杭愛（少咸·敦水東注）→庫蘇古爾（北嶽·泰加林緣）→貝加爾南緣（渾夕·嚻水西北注</text>
+<text x="1090" y="452" font-size="10" fill="#666">海 ✓）→布里亞特（羆差/北鮮·多馬）→圖瓦—薩彥南緣（隄山·生食不火獵民）。</text>
+<text x="1090" y="470" font-size="10" fill="#666">校勘新案：『椶/椶枏』北域三見（北一-005、北一-017、北三-037）——棕櫚類於 38°N+ 不可能，疑同一來源</text>
+<text x="1090" y="484" font-size="10" fill="#666">層系統性誤植/通假，三案併登記待裁。</text>
+<text x="1090" y="519.0" font-size="14" font-weight="bold" fill="#333">25 站 → 現實候選（審核中）</text>
+<text x="1090" y="541" font-size="9.5" fill="#7b241c"> 1 單狐之山 → 漨水西流注于泑水｜⛰臨汾東山—浮山方向</text>
+<text x="1090" y="558" font-size="9.5" fill="#7b241c"> 2 求如之山 → 上多銅下多玉｜⛰洪洞—古縣 太岳山東麓</text>
+<text x="1090" y="576" font-size="9.5" fill="#7b241c"> 3 帶山 → 上多玉下多青碧｜⛰霍州—靈石 霍山</text>
+<text x="1090" y="594" font-size="9.5" fill="#7b241c"> 4 譙明之山 → 譙水西流注河｜⛰呂梁山中段（離石—中…</text>
+<text x="1090" y="611" font-size="9.5" fill="#7b241c"> 5 涿光之山 → 嚻水西流注河｜⛰呂梁山北段—關帝山（呂…</text>
+<text x="1090" y="628" font-size="9.5" fill="#7b241c"> 6 虢山 → 伊水西流注河｜⛰管涔山西麓（靜樂—寧武西）</text>
+<text x="1090" y="646" font-size="9.5" fill="#7b241c"> 7 虢山之尾 → 魚水西流注河｜⛰管涔山北端—洪濤山南（…</text>
+<text x="1090" y="664" font-size="9.5" fill="#7b241c"> 8 丹熏之山 → 樗柏韭䪥｜⛰平魯—朔州西 洪濤山</text>
+<text x="1090" y="681" font-size="9.5" fill="#7b241c"> 9 石者之山 → 無草木多瑤碧｜⛰朔州—山陰 洪濤山北段</text>
+<text x="1090" y="698" font-size="9.5" fill="#7b241c">10 邊春之山 → 杠水西流注于泑澤｜⛰懷仁—大同西</text>
+<text x="1090" y="716" font-size="9.5" fill="#7b241c">11 蔓聯之山 → 無草木｜⛰大同北—新榮</text>
+<text x="1090" y="734" font-size="9.5" fill="#7b241c">12 單張之山 → 無草木｜⛰新榮北—豐鎮南</text>
+<text x="1090" y="751" font-size="9.5" fill="#7b241c">13 灌題之山 → 樗柘｜⛰豐鎮—涼城東</text>
+<text x="1362" y="541" font-size="9.5" fill="#7b241c">14 潘侯之山 → 松柏榛楛｜⛰涼城東北—蠻漢山南麓</text>
+<text x="1362" y="558" font-size="9.5" fill="#7b241c">15 小咸之山 → **冬夏有雪＝海拔硬約束｜⛰蠻漢山高海拔…</text>
+<text x="1362" y="576" font-size="9.5" fill="#7b241c">16 大咸之山 → 四方、不可以上｜⛰察右中旗—灰騰梁草原…</text>
+<text x="1362" y="594" font-size="9.5" fill="#7b241c">17 敦薨之山 → **T-RT05 盲評結案維持**：敦薨之水＝疏…</text>
+<text x="1362" y="611" font-size="9.5" fill="#7b241c">18 少咸之山 → 無草木多青碧｜⛰後杭愛南麓</text>
+<text x="1362" y="628" font-size="9.5" fill="#7b241c">19 嶽法之山 → 瀤澤之水東北流注于泰澤｜⛰後杭愛—庫蘇…</text>
+<text x="1362" y="646" font-size="9.5" fill="#7b241c">20 北嶽之山 → 枳棘剛木｜⛰庫蘇古爾湖東—聖山帶</text>
+<text x="1362" y="664" font-size="9.5" fill="#7b241c">21 渾夕之山 → **嚻水西北流注于海｜⛰東薩彥—貝加爾…</text>
+<text x="1362" y="681" font-size="9.5" fill="#7b241c">22 北單之山 → 無草木多蔥韭｜⛰貝加爾南緣</text>
+<text x="1362" y="698" font-size="9.5" fill="#7b241c">23 羆差之山 → **多馬｜⛰布里亞特南緣</text>
+<text x="1362" y="716" font-size="9.5" fill="#7b241c">24 北鮮之山 → 多馬｜⛰布里亞特</text>
+<text x="1362" y="734" font-size="9.5" fill="#7b241c">25 隄山 → 多馬｜⛰圖瓦—薩彥嶺南緣（終點）</text>
+<text x="60" y="686" font-size="11" fill="#666">嚴格走向重校準（adapt-beici3-3 流程）：北一全文 24 腿皆「又北」。段內走向零違背；腿 16（大咸→敦薨）與腿 17（敦薨→少咸）為文本層累拼接點（多源接合，T-RT05 盲評判定）</text>
+<text x="60" y="702" font-size="11" fill="#666">，不作走向約束，分段承認。段A（1–9）：晉西南→呂梁—管涔—恆山，五站「西流注于河」＝晉陝峽谷東岸支流硬合（RT-B09 維持，粒度修訂主脊→西麓）；段B（10–16）：大同盆地—涼</text>
+<text x="60" y="718" font-size="11" fill="#666">城—蠻漢山（冬夏有雪）—灰騰梁；西域插入段（17）：敦薨＝祁連西段·疏勒河→羅布泊；段C（18–25）：後杭愛→庫蘇古爾→貝加爾南緣→布里亞特→圖瓦，瀤澤之水東北注泰澤、嚻水西北</text>
+<text x="60" y="734" font-size="11" fill="#666">注海、隄水東注泰澤＝貝加爾湖水系靜態形狀。</text>
+<text x="60" y="756" font-size="11" fill="#666">里程：自記 5,490 里 vs 腿程 5,680 里（-3.4% variant）；逐腿實測比 ≈0.1–0.5（壓縮段）——純北長鏈的里程層累與多源拼接並存（RT-B03 同型）。所有對應為競爭假說（propos</text>
+<text x="60" y="772" font-size="11" fill="#666">ed_pending_review），時代窗口 4000–1000 BCE；今名（河/伊水/鴈門/北嶽/北單/北鮮等）一律借名標記不作證據；椶/椶枏北域三見校勘存疑在案。</text>
 </svg>

@@ -98,8 +98,13 @@ for book, (nsub, slugp) in BOOK_SLUGS.items():
                 pos[o] = (r["grid"]["0.385"]["lon"], r["grid"]["0.385"]["lat"])
 
         # A 層
+        breaks = set()
+        if gspec.exists():
+            breaks = set(json.load(open(gspec, encoding="utf-8")).get("breaks", []))
         bad = []
         for i in range(2, n_st + 1):
+            if i in breaks:  # 文本層累拼接點（多源接合）——不作走向約束（發起人 2026-10-29 裁定口徑：分段承認）
+                continue
             dl = legs_decl[i - 1] if i - 1 < len(legs_decl) else None
             if not dl or dl[0] < 0:
                 continue

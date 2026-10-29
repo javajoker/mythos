@@ -112,7 +112,17 @@ def render(cfg):
         if s["order"] in fit:
             s["lon"], s["lat"] = fit[s["order"]]
     route = [(s["lon"], s["lat"]) for s in stations]
-    S.append(f'<polyline points="{pts(route)}" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>')
+    breaks = set(cfg.get("breaks", []))  # 文本層累拼接點腿（目標站 order）——虛線區分（2026-10-29）
+    if breaks:
+        # 逐腿分段：拼接點腿畫虛線，其餘實線
+        for i in range(1, len(route)):
+            seg = [route[i - 1], route[i]]
+            if stations[i]["order"] in breaks:
+                S.append(f'<polyline points="{pts(seg)}" fill="none" stroke="#b03a2e" stroke-width="2.2" opacity="0.6" stroke-dasharray="8 5"/>')
+            else:
+                S.append(f'<polyline points="{pts(seg)}" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>')
+    else:
+        S.append(f'<polyline points="{pts(route)}" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>')
     _dx_tot = abs(X(route[-1][0]) - X(route[0][0]))
     _dy_tot = abs(Y(route[-1][1]) - Y(route[0][1]))
     vertical_chain = _dy_tot > _dx_tot * 1.5

@@ -319,6 +319,7 @@ async function bootIndex() {
   function onSelect(sel) {
     if (sel.kind === 'station') {
       const e = findStationEntry(sel.book, sel.sub, sel.name);
+      console.log(sel, e)
       if (e) { App.openDetail(App.entryCard(e)); return; }
       App.openDetail(`<h3>${App.esc(sel.chain)}｜${App.esc(sel.name)}</h3>
         <div class="detail-meta">${sel.anchor ? '<span class="badge anchor">關鍵站點</span>' : ''}
