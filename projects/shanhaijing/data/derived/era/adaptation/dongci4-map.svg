@@ -16,7 +16,7 @@
 <text x="746" y="456" font-size="10" fill="#7a6540">大沼澤地（餘如之澤）</text>
 <polyline points="620.0,254.2 630.0,297.8 650.0,341.3" fill="none" stroke="#2f7fbf" stroke-width="1.5"/>
 <text x="500" y="304" font-size="10" fill="#2f7fbf">威斯盧庫奇河方向（蒼體之水西流）</text>
-<polyline points="630.0,241.8 620.0,285.3 640.0,328.9 680.0,372.4 730.0,397.3 800.0,422.2 810.0,372.4 770.0,310.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="630.0,241.8 620.0,285.3 640.0,328.9 680.0,372.4 730.0,397.3 800.0,422.2 815.0,409.8 830.0,394.2" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
 <circle cx="630" cy="242" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
 <text x="626" y="246" font-size="9" fill="#fff" font-weight="bold">1</text>
 <text x="612" y="222" font-size="10" fill="#7b241c" font-weight="bold">北號之山</text>
@@ -35,12 +35,12 @@
 <circle cx="800" cy="422" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="796" y="426" font-size="9" fill="#fff" font-weight="bold">6</text>
 <text x="782" y="438" font-size="10" fill="#7b241c" font-weight="bold">子桐之山</text>
-<circle cx="810" cy="372" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="806" y="376" font-size="9" fill="#fff" font-weight="bold">7</text>
-<text x="792" y="361" font-size="10" fill="#7b241c" font-weight="bold">剡山</text>
-<circle cx="770" cy="310" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="766" y="314" font-size="9" fill="#fff" font-weight="bold">8</text>
-<text x="752" y="326" font-size="10" fill="#7b241c" font-weight="bold">太山</text>
+<circle cx="815" cy="410" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="811" y="414" font-size="9" fill="#fff" font-weight="bold">7</text>
+<text x="797" y="399" font-size="10" fill="#7b241c" font-weight="bold">剡山</text>
+<circle cx="830" cy="394" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="826" y="398" font-size="9" fill="#fff" font-weight="bold">8</text>
+<text x="812" y="410" font-size="10" fill="#7b241c" font-weight="bold">太山</text>
 <text x="80" y="117" font-size="9" fill="#8e44ad">食水＝聖約翰斯河；與東一/東二（聖勞倫斯河）同名異實——F-0022 顯式拆分</text>
 <text x="80" y="578" font-size="9" fill="#666">窗口期佛州 archaic 貝丘人群在場（觀察者 ✓）；海平面 +1–3 m 海岸更偏內陸</text>
 <text x="80" y="609" font-size="9" fill="#666">網格＝否定工具（G-3）；鏈位＝走廊擬合（末段網格出半島記 variant）</text>
@@ -104,27 +104,30 @@
 <text x="1124" y="210" font-size="11" fill="#444">沼澤/湖（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">T-RT21 新候選（2026-10-27）：全鏈＝佛羅里達半島——「臨于北海」＝墨西哥灣（自半島中軸視角灣在北—</text>
-<text x="1090" y="272" font-size="10" fill="#666">西北，寬讀）；「食水出焉東北注海」＝聖約翰斯河（源出半島中東部、北流約 500 km 轉東北注大西洋 ✓）；</text>
-<text x="1090" y="287" font-size="10" fill="#666">R5 舊主/對立候選（灣北岸／尤卡坦北岸）廢棄存冊。</text>
-<text x="1090" y="306" font-size="10" fill="#666">食水同名異實（F-0022）：東一＝東二＝聖勞倫斯河（同實例）／東四＝聖約翰斯河——「食水」＝可漁食之水</text>
-<text x="1090" y="320" font-size="10" fill="#666">類名，各實例各立。</text>
-<text x="1090" y="338" font-size="10" fill="#666">里程：腿程 1,720 里＝自記（0%）；三檔：0.35≈602 km／0.385≈662 km／0.42≈722 km vs 半島縱深 ~7</text>
-<text x="1090" y="353" font-size="10" fill="#666">00 km ≈1:1。網格＝否定工具（G-3）；末段網格出半島入大西洋記 variant，鏈位為走廊擬合（fit_coords</text>
-<text x="1090" y="368" font-size="10" fill="#666"> 僅繪圖）。</text>
-<text x="1090" y="386" font-size="10" fill="#666">水系拓扑：西坡西流（蒼體之水）、東坡東北注海（泚水）、北向匯湖（師水→皋澤＝奧基喬比湖）、西向入沼（</text>
-<text x="1090" y="400" font-size="10" fill="#666">子桐之水→餘如之澤＝大沼澤地）、終點北流（鉤水→勞水＝聖約翰斯河中游）。</text>
-<text x="1090" y="419" font-size="10" fill="#666">蜚（太山）＝災疫獸；當康（欽山）＝豐年吉兆；「食之不瘧」R1 反證留痕（詞義層交 textual-critic）；全</text>
-<text x="1090" y="434" font-size="10" fill="#666">鏈置信 low/low_medium 上限（待 T-RT05 遮蔽）。</text>
-<text x="1090" y="468.0" font-size="14" font-weight="bold" fill="#333">8 站 → 現實候選（審核中）</text>
-<text x="1090" y="490" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 北號之山</tspan>　→ 臨北海＝墨西哥灣（北—西北）；食水＝聖約翰斯河｜⛰半島北部（奧卡拉方向）</text>
-<text x="1090" y="511" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 旄山</tspan>　→ 蒼體之水西流（西坡排水✓）｜⛰半島中北部（高地湖區）</text>
-<text x="1090" y="532" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 東始之山</tspan>　→ 𦬊樹汁如血；泚水東北注海｜⛰半島中部（湖區南段）</text>
-<text x="1090" y="554" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女烝之山</tspan>　→ 石膏水（礦物名直書）｜⛰半島中南部（奧基喬比方向）</text>
-<text x="1090" y="575" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 欽山</tspan>　→ 師水北注皋澤＝奧基喬比湖；當康豐年兆｜⛰半島南部</text>
-<text x="1090" y="596" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 子桐之山</tspan>　→ 子桐之水西注大沼澤地；䱻魚有光｜⛰半島東南岸</text>
-<text x="1090" y="617" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 剡山</tspan>　→ 合窳食人（東岸折返腿）｜⛰佛州東岸（印第安河潟湖）</text>
-<text x="1090" y="638" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 太山</tspan>　→ 蜚＝災疫獸；鉤水注勞水＝北流水系✓｜⛰聖約翰斯河中游（終點）</text>
+<text x="1090" y="258" font-size="10" fill="#666">嚴格走向重校準（adapt-dongci4-2）：末二腿（子桐→剡山→太山）經文「又東北」——舊站位偏北/西北出錐</text>
+<text x="1090" y="272" font-size="10" fill="#666">，重配佛州東岸—布里瓦德（剡山）→聖約翰斯河上游源流區（太山·鉤水北注勞水＝聖約翰斯河北流硬合）；8 </text>
+<text x="1090" y="287" font-size="10" fill="#666">腿零違背。</text>
+<text x="1090" y="306" font-size="10" fill="#666">T-RT21 新候選（2026-10-27）：全鏈＝佛羅里達半島——「臨于北海」＝墨西哥灣（自半島中軸視角灣在北—</text>
+<text x="1090" y="320" font-size="10" fill="#666">西北，寬讀）；「食水出焉東北注海」＝聖約翰斯河（源出半島中東部、北流約 500 km 轉東北注大西洋 ✓）；</text>
+<text x="1090" y="334" font-size="10" fill="#666">R5 舊主/對立候選（灣北岸／尤卡坦北岸）廢棄存冊。</text>
+<text x="1090" y="353" font-size="10" fill="#666">食水同名異實（F-0022）：東一＝東二＝聖勞倫斯河（同實例）／東四＝聖約翰斯河——「食水」＝可漁食之水</text>
+<text x="1090" y="368" font-size="10" fill="#666">類名，各實例各立。</text>
+<text x="1090" y="386" font-size="10" fill="#666">里程：腿程 1,720 里＝自記（0%）；三檔：0.35≈602 km／0.385≈662 km／0.42≈722 km vs 半島縱深 ~7</text>
+<text x="1090" y="400" font-size="10" fill="#666">00 km ≈1:1。網格＝否定工具（G-3）；末段網格出半島入大西洋記 variant，鏈位為走廊擬合（fit_coords</text>
+<text x="1090" y="415" font-size="10" fill="#666"> 僅繪圖）。</text>
+<text x="1090" y="434" font-size="10" fill="#666">水系拓扑：西坡西流（蒼體之水）、東坡東北注海（泚水）、北向匯湖（師水→皋澤＝奧基喬比湖）、西向入沼（</text>
+<text x="1090" y="448" font-size="10" fill="#666">子桐之水→餘如之澤＝大沼澤地）、終點北流（鉤水→勞水＝聖約翰斯河中游）。</text>
+<text x="1090" y="466" font-size="10" fill="#666">蜚（太山）＝災疫獸；當康（欽山）＝豐年吉兆；「食之不瘧」R1 反證留痕（詞義層交 textual-critic）；全</text>
+<text x="1090" y="481" font-size="10" fill="#666">鏈置信 low/low_medium 上限（待 T-RT05 遮蔽）。</text>
+<text x="1090" y="515.5" font-size="14" font-weight="bold" fill="#333">8 站 → 現實候選（審核中）</text>
+<text x="1090" y="538" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 北號之山</tspan>　→ 臨北海＝墨西哥灣（北—西北）；食水＝聖約翰斯河｜⛰半島北部（奧卡拉方向）</text>
+<text x="1090" y="559" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 旄山</tspan>　→ 蒼體之水西流（西坡排水✓）｜⛰半島中北部（高地湖區）</text>
+<text x="1090" y="580" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 東始之山</tspan>　→ 𦬊樹汁如血；泚水東北注海｜⛰半島中部（湖區南段）</text>
+<text x="1090" y="601" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 女烝之山</tspan>　→ 石膏水（礦物名直書）｜⛰半島中南部（奧基喬比方向）</text>
+<text x="1090" y="622" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 欽山</tspan>　→ 師水北注皋澤＝奧基喬比湖；當康豐年兆｜⛰半島南部</text>
+<text x="1090" y="644" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 子桐之山</tspan>　→ 子桐之水西注大沼澤地；䱻魚有光｜⛰半島東南岸</text>
+<text x="1090" y="665" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 剡山</tspan>　→ 合窳食人（東岸折返腿）｜⛰佛州東岸（印第安河潟湖）</text>
+<text x="1090" y="686" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 太山</tspan>　→ 蜚＝災疫獸；鉤水注勞水＝北流水系✓｜⛰聖約翰斯河中游（終點）</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自北號之山（佛州半島北部—奧卡拉/蓋恩斯維爾方向；臨北海＝墨西哥灣、食水＝聖約翰斯河）沿半島中軸南行——中部高地湖區（旄山·西坡排水）→湖區南段（東始·𦬊樹汁如血</text>
 <text x="60" y="702" font-size="11" fill="#666">＋泚水東北注海）→奧基喬比方向（女烝·石膏水）→奧基喬比湖南（欽山·師水北注皋澤＋當康豐年兆）→東南岸（子桐·西注大沼澤地·䱻魚有光）→東北折返東岸（剡山·合窳食人）→太山（</text>
 <text x="60" y="718" font-size="11" fill="#666">聖約翰斯河中游方向終點：鉤水北注勞水·蜚災疫）。</text>
