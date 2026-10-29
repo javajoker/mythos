@@ -16,7 +16,7 @@
 <text x="480" y="270" font-size="10" fill="#7a6540">撣邦高原</text>
 <ellipse cx="260" cy="279" rx="89" ry="75" fill="#e2d9c8" opacity="0.35"/>
 <text x="236" y="282" font-size="10" fill="#7a6540">若開山脈</text>
-<polyline points="254.4,297.8 316.1,297.8 393.9,297.8 470.0,297.8 531.7,297.8 613.3,297.8 675.0,297.8 915.6,372.4 993.3,484.4" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
+<polyline points="254.4,297.8 316.1,297.8 393.9,297.8 470.0,297.8 531.7,297.8 613.3,297.8 675.0,297.8 915.6,372.4 960.0,381.8" fill="none" stroke="#b03a2e" stroke-width="2.6" opacity="0.85"/>
 <circle cx="254" cy="298" r="8" fill="#e74c3c" stroke="#fff" stroke-width="1.5"/>
 <text x="250" y="302" font-size="9" fill="#fff" font-weight="bold">1</text>
 <text x="236" y="278" font-size="10" fill="#7b241c" font-weight="bold">招搖之山</text>
@@ -41,9 +41,9 @@
 <circle cx="916" cy="372" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
 <text x="912" y="376" font-size="9" fill="#fff" font-weight="bold">8</text>
 <text x="898" y="388" font-size="10" fill="#7b241c" font-weight="bold">青丘之山</text>
-<circle cx="993" cy="484" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
-<text x="989" y="488" font-size="9" fill="#fff" font-weight="bold">9</text>
-<text x="975" y="473" font-size="10" fill="#7b241c" font-weight="bold">箕尾之山</text>
+<circle cx="960" cy="382" r="5" fill="#c0392b" stroke="#fff" stroke-width="1.5"/>
+<text x="956" y="386" font-size="9" fill="#fff" font-weight="bold">9</text>
+<text x="942" y="371" font-size="10" fill="#7b241c" font-weight="bold">箕尾之山</text>
 <text x="88" y="130" font-size="9" fill="#8e44ad">肉桂＋白耳長臂猿＋儒艮＝南亞—東南亞生物群（風物證據）</text>
 <text x="793" y="236" font-size="9" fill="#a04040">箕尾借名標記；尾踆東海＝海雲嶺段入南海 ✓（雙修成立）</text>
 <text x="810" y="329" font-size="9" fill="#8e44ad">即翼之澤＝北部灣潟湖—淺海；赤鱬＝儒艮</text>
@@ -115,27 +115,30 @@
 <text x="1124" y="210" font-size="11" fill="#444">山系（簡化示意）</text>
 <rect x="1098" y="223" width="8" height="8" fill="#34495e"/>
 <text x="1124" y="232" font-size="11" fill="#444">現代地點參照點</text>
-<text x="1090" y="258" font-size="10" fill="#666">拓撲錨：招搖之山「臨於西海」＝若開濱海山脈＋麗𪊨之水西流注海——西麓雙重自證。</text>
-<text x="1090" y="276" font-size="10" fill="#666">里程：自記 2,950 vs 腿程 2,700（+9%）；「凡十山」vs 9 站有文——佚一站 variant。</text>
-<text x="1090" y="295" font-size="10" fill="#666">南一雙修（2026-10-27）：里值主檔 0.42——腿程≈1,134 km vs 鏈實距≈1,100 km → ≈1:1，−0.75× </text>
-<text x="1090" y="310" font-size="10" fill="#666">縮水反例結案（RT-N3；F-0008 不動）。</text>
-<text x="1090" y="328" font-size="10" fill="#666">箕尾＝長山中段—海雲嶺段（17–18°N）：尾踆東海復活成立（長山餘脈入南海 ✓；海侵期海岸更貼長山）。青</text>
-<text x="1090" y="342" font-size="10" fill="#666">丘＝長山北段東麓近海；即翼之澤＝北部灣潟湖—淺海；赤鱬＝儒艮復活（北部灣歷史分布，合浦遺存）——RT-</text>
-<text x="1090" y="357" font-size="10" fill="#666">N4 消解。</text>
-<text x="1090" y="376" font-size="10" fill="#666">末兩站為 fit_coords 語義位（直線算術網格 vs 山弧，G-3 記錄）；置信度上限 medium（待 T-RT05 遮蔽</text>
-<text x="1090" y="390" font-size="10" fill="#666">）。</text>
-<text x="1090" y="408" font-size="10" fill="#666">神群皆鳥身龍首；祠：璋玉瘞＋稌米＋璧＋白菅席——稻作儀式風物。</text>
-<text x="1090" y="427" font-size="10" fill="#666">文明同域：中南半島山地（班清文化方向，約 2000 BCE 起，窗口內）——候選級；文化斷層保持未知。</text>
-<text x="1090" y="461.5" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
-<text x="1090" y="484" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 招搖之山</tspan>　→ 若開北段（起點錨；臨西海）｜⛰若開山脈·北段</text>
-<text x="1090" y="505" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 堂庭之山</tspan>　→ 緬中方向（棪木＋白猿）｜⛰若開山脈·南段—緬中山地</text>
-<text x="1090" y="526" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 猨翼之山</tspan>　→ 撣邦西緣（五怪並記·瘴癘叢林）｜⛰撣邦高原西緣</text>
-<text x="1090" y="547" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 杻陽之山</tspan>　→ 撣邦（陽赤金陰白金；鹿蜀·旋龜）｜⛰撣邦高原</text>
-<text x="1090" y="568" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 柢山</tspan>　→ 撣邦東緣（鯥·冬死夏生）｜⛰撣邦高原東緣</text>
-<text x="1090" y="590" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 亶爰之山</tspan>　→ 泰北方向（類·自為牝牡）｜⛰泰北—撣邦東段</text>
-<text x="1090" y="611" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 基山</tspan>　→ 泰北—老撾（猼訑·𪁺𩿧）｜⛰泰北—老撾北段</text>
-<text x="1090" y="632" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 青丘之山</tspan>　→ 長山北段東麓近海（九尾狐·赤鱬＝儒艮 ✓）｜⛰長山北段東麓（近海）</text>
-<text x="1090" y="653" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 箕尾之山</tspan>　→ 長山中段—海雲嶺段（尾踆東海＝餘脈入南海 ✓ 終點）｜⛰長山山脈·中段</text>
+<text x="1090" y="258" font-size="10" fill="#666">嚴格走向重校準（adapt-nanci1-2）：末腿「又東三百五十里」——舊箕尾站位（海雲嶺段 17.5°N）偏南出錐</text>
+<text x="1090" y="272" font-size="10" fill="#666">（實際 SE 143°）；重配乂安東海岸丘陵—長山東麓入海段（19.15°N 106.2°E，「其尾踆於東海」維持），9 </text>
+<text x="1090" y="287" font-size="10" fill="#666">腿零違背。</text>
+<text x="1090" y="306" font-size="10" fill="#666">拓撲錨：招搖之山「臨於西海」＝若開濱海山脈＋麗𪊨之水西流注海——西麓雙重自證。</text>
+<text x="1090" y="324" font-size="10" fill="#666">里程：自記 2,950 vs 腿程 2,700（+9%）；「凡十山」vs 9 站有文——佚一站 variant。</text>
+<text x="1090" y="342" font-size="10" fill="#666">南一雙修（2026-10-27）：里值主檔 0.42——腿程≈1,134 km vs 鏈實距≈1,100 km → ≈1:1，−0.75× </text>
+<text x="1090" y="357" font-size="10" fill="#666">縮水反例結案（RT-N3；F-0008 不動）。</text>
+<text x="1090" y="376" font-size="10" fill="#666">箕尾＝長山中段—海雲嶺段（17–18°N）：尾踆東海復活成立（長山餘脈入南海 ✓；海侵期海岸更貼長山）。青</text>
+<text x="1090" y="390" font-size="10" fill="#666">丘＝長山北段東麓近海；即翼之澤＝北部灣潟湖—淺海；赤鱬＝儒艮復活（北部灣歷史分布，合浦遺存）——RT-</text>
+<text x="1090" y="404" font-size="10" fill="#666">N4 消解。</text>
+<text x="1090" y="423" font-size="10" fill="#666">末兩站為 fit_coords 語義位（直線算術網格 vs 山弧，G-3 記錄）；置信度上限 medium（待 T-RT05 遮蔽</text>
+<text x="1090" y="438" font-size="10" fill="#666">）。</text>
+<text x="1090" y="456" font-size="10" fill="#666">神群皆鳥身龍首；祠：璋玉瘞＋稌米＋璧＋白菅席——稻作儀式風物。</text>
+<text x="1090" y="474" font-size="10" fill="#666">文明同域：中南半島山地（班清文化方向，約 2000 BCE 起，窗口內）——候選級；文化斷層保持未知。</text>
+<text x="1090" y="509.0" font-size="14" font-weight="bold" fill="#333">9 站 → 現實候選（審核中）</text>
+<text x="1090" y="531" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 1 招搖之山</tspan>　→ 若開北段（起點錨；臨西海）｜⛰若開山脈·北段</text>
+<text x="1090" y="552" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 2 堂庭之山</tspan>　→ 緬中方向（棪木＋白猿）｜⛰若開山脈·南段—緬中山地</text>
+<text x="1090" y="573" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 3 猨翼之山</tspan>　→ 撣邦西緣（五怪並記·瘴癘叢林）｜⛰撣邦高原西緣</text>
+<text x="1090" y="595" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 4 杻陽之山</tspan>　→ 撣邦（陽赤金陰白金；鹿蜀·旋龜）｜⛰撣邦高原</text>
+<text x="1090" y="616" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 5 柢山</tspan>　→ 撣邦東緣（鯥·冬死夏生）｜⛰撣邦高原東緣</text>
+<text x="1090" y="637" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 6 亶爰之山</tspan>　→ 泰北方向（類·自為牝牡）｜⛰泰北—撣邦東段</text>
+<text x="1090" y="658" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 7 基山</tspan>　→ 泰北—老撾（猼訑·𪁺𩿧）｜⛰泰北—老撾北段</text>
+<text x="1090" y="679" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 8 青丘之山</tspan>　→ 長山北段東麓近海（九尾狐·赤鱬＝儒艮 ✓）｜⛰長山北段東麓（近海）</text>
+<text x="1090" y="701" font-size="11" fill="#7b241c"><tspan font-weight="bold"> 9 箕尾之山</tspan>　→ 長山中段—海雲嶺段（尾踆東海＝餘脈入南海 ✓ 終點）｜⛰長山山脈·中段</text>
 <text x="60" y="686" font-size="11" fill="#666">推理說明：自招搖之山（若開山脈北段，臨孟加拉灣——肉桂＋白耳狌狌長臂猿科）東行——緬中（堂庭·白猿）→撣邦西緣（猨翼·五怪瘴癘叢林）→撣邦（杻陽·赤金白金分帶·鹿蜀·旋龜）→</text>
 <text x="60" y="702" font-size="11" fill="#666">撣邦東緣（柢山·鯥冬死夏生）→泰北（亶爰·類自為牝牡）→泰北—老撾（基山·猼訑𪁺𩿧）→長山北段東麓近海（青丘·九尾狐·赤鱬＝儒艮——北部灣歷史分布）→箕尾之山（長山中段—海雲</text>
 <text x="60" y="718" font-size="11" fill="#666">嶺段終點：尾踆東海＝長山餘脈入南海 ✓，雙修成立）。末兩站為 fit_coords 語義位（直線算術網格 vs 山弧——G-3 記錄）。</text>
